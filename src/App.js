@@ -1,8 +1,8 @@
 import React from "react";
-import './App.css';
+import "./App.css";
 import LogIn from "./components/LogIn/LogIn";
 import AnkieterLogIn from "./components/AnkieterLogIn/AnkieterLogIn";
-import { BrowserRouter, Route, Switch } from "react-router-dom"
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom"
 
 function App() {
   return (
@@ -10,7 +10,9 @@ function App() {
     <div className="App">
       
       <Switch>
-        <Route exact path="/" component={LogIn}/>
+        <Route exact path="/">
+          <Redirect to="/login" />
+        </Route>
         <Route path="/login/ankieter" 
         component={AnkieterLogIn}/>
         <Route exact path="/login" component={LogIn}/>

@@ -1,19 +1,16 @@
-import React, {Component} from 'react';
+import React, {Component} from "react";
 import {Link, withRouter} from "react-router-dom"
+import { Button, ButtonGroup } from "@chakra-ui/react"
 
-const LogIn = props => {
-
-
+const LogIn = (props) => {
         return (
             <div className="logInButtons">
-                <button>
-                <Link to ="/login/ankieter">Zaloguj jako ankieter</Link>
-                </button>
-                <button>Zaloguj jako administrator</button>
-            </div>
-                    
-        )
+                <Button>
+                    <Link to ="/login/ankieter">Zaloguj jako ankieter</Link>
+                </Button>
+                <Button>Zaloguj jako administrator</Button>
+            </div>      
+        );
+};
 
-}
-
-export default withRouter(LogIn);
+export default LogIn;
