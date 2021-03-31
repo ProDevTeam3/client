@@ -1,14 +1,34 @@
-import React, { Component } from "react";
-import { Link, withRouter } from "react-router-dom";
-import { Button, ButtonGroup } from "@chakra-ui/react";
+import React from "react";
+import { Button, VStack, StackDivider, Image } from "@chakra-ui/react";
+import styles from "./LogIn.module.scss";
+import { LoginPageStrings } from "../../constants/strings";
 
-const LogIn = (props) => {
+const LogIn = () => {
+  const GUSLogo =
+    "https://spis.gov.pl/wp-content/uploads/2021/01/cropped-logo-nsp.png";
   return (
-    <div className="logInButtons">
-      <Button>
-        <Link to="/login/ankieter">Zaloguj jako ankieter</Link>
-      </Button>
-      <Button>Zaloguj jako administrator</Button>
+    <div className={styles.page}>
+      <div className={styles.background_text}>
+        <span>{LoginPageStrings.backgroundText}</span>
+      </div>
+      <div className={styles.card}>
+        <div className={styles.badge}>{LoginPageStrings.appVerison}</div>
+        <div className={styles.logo}>
+          <Image objectFit="cover" src={GUSLogo} alt="GUS Logo" />
+        </div>
+        <VStack
+          divider={<StackDivider borderColor="gray.200" />}
+          spacing={4}
+          align="stretch"
+        >
+          <Button colorScheme="teal" size="lg">
+            {LoginPageStrings.loginButtonText}
+          </Button>
+          <Button colorScheme="teal" variant="ghost">
+            {LoginPageStrings.problemsButtonText}
+          </Button>
+        </VStack>
+      </div>
     </div>
   );
 };
