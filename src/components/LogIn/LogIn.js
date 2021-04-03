@@ -2,7 +2,7 @@ import React from "react";
 import { Button, VStack, StackDivider, Image } from "@chakra-ui/react";
 import styles from "./LogIn.module.scss";
 import { LoginPageStrings } from "../../constants/strings";
-import LoginButton from "../LoginButton/LoginButton.js"
+import LoginButton from "../LoginButton/LoginButton.js";
 
 const LogIn = () => {
   const GUSLogo =
