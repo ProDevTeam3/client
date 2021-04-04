@@ -2,6 +2,7 @@ import React from "react";
 import { Button, VStack, StackDivider, Image } from "@chakra-ui/react";
 import styles from "./LogIn.module.scss";
 import { LoginPageStrings } from "../../constants/strings";
+import LoginButton from "../LoginButton/LoginButton.js";
 
 const LogIn = () => {
   const GUSLogo =
@@ -21,9 +22,7 @@ const LogIn = () => {
           spacing={4}
           align="stretch"
         >
-          <Button colorScheme="teal" size="lg">
-            {LoginPageStrings.loginButtonText}
-          </Button>
+          <LoginButton />
           <Button colorScheme="teal" variant="ghost">
             {LoginPageStrings.problemsButtonText}
           </Button>
