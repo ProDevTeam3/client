@@ -10,7 +10,7 @@ const LoginButton = () => {
       colorScheme="teal"
       size="lg"
       className="btn btn-primary btn-block"
-      onClick={() => loginWithRedirect()}
+      onClick={loginWithRedirect}
     >
       {LoginPageStrings.loginButtonText}
     </Button>
