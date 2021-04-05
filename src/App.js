@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
 
 function App() {
-  const {isAuthenticated} = useAuth0();
+  const { isAuthenticated } = useAuth0();
   return (
     <ChakraProvider>
       <BrowserRouter>
@@ -16,9 +16,12 @@ function App() {
             <Route exact path="/">
               <Redirect to="/login" />
             </Route>
-            // TODO: zmienić komponent/ścieżkę na formularz
-            // TODO: zmienić redirect w auth0
-            <Route path="/login/ankieter" component={isAuthenticated?AnkieterLogIn:LogIn} />
+            // TODO: zmienić komponent/ścieżkę na formularz // TODO: zmienić
+            redirect w auth0
+            <Route
+              path="/login/ankieter"
+              component={isAuthenticated ? AnkieterLogIn : LogIn}
+            />
             <Route exact path="/login" component={LogIn} />
           </Switch>
         </div>
