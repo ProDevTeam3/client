@@ -1,13 +1,20 @@
 import React from "react";
-import AnkieterLogIn from "../AnkieterLogIn/AnkieterLogIn";
-import LogIn from "../LogIn/LogIn";
-import {useAuth0} from "@auth0/auth0-react";
+import { Redirect, Route } from "react-router-dom";
 
-const AuthRoute = () => {
-    const {isAuthenticated} = useAuth0();
-    // TODO: zmienić redirect w auth0
-    // TODO: zmienić komponent/ścieżkę na formularz
-    return (isAuthenticated?AnkieterLogIn:LogIn);
-}
-
+const AuthRoute = ({
+                       authenticated,
+                       children,
+                       exact,
+                       path,
+                   }) => {
+    return (
+        <Route
+            exact={exact}
+            path={path}
+            render={(location) =>
+                authenticated ? children : <Redirect to="/login" />
+            }
+        />
+    );
+};
 export default AuthRoute;
