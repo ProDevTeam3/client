@@ -5,10 +5,10 @@ import AuthRoute from "./components/AuthRoute/AuthRoute";
 import LogIn from "./components/LogIn/LogIn";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
-import {useAuth0} from "@auth0/auth0-react";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
-  const {isAuthenticated} = useAuth0();
+  const { isAuthenticated } = useAuth0();
   return (
     <ChakraProvider>
       <BrowserRouter>
@@ -18,10 +18,10 @@ function App() {
               <Redirect to="/login" />
             </Route>
             <AuthRoute
-                authenticated={isAuthenticated}
-                children={AnkieterLogIn}
-                exact={true}
-                path={"/login/ankieter"}
+              authenticated={isAuthenticated}
+              children={AnkieterLogIn}
+              exact={true}
+              path={"/login/ankieter"}
             />
             <Route exact path="/login" component={LogIn} />
           </Switch>
