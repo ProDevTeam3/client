@@ -6,15 +6,15 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 const AnkieterLogIn = ({ login, passwd, change }) => {
   const history = useHistory();
-  const user  = useAuth0();
+  const user = useAuth0();
 
   useEffect(() => {
     console.log(user);
 
-    if(!user.isLoading && !user.isAuthenticated){
-      history.push('/login');
+    if (!user.isLoading && !user.isAuthenticated) {
+      history.push("/login");
     }
-  }, [user])
+  }, [user]);
 
   return (
     <div className={"Ankieterlogin"}>
