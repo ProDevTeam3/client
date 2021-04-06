@@ -14,7 +14,7 @@ function App() {
             <Route exact path="/">
               <Redirect to="/login" />
             </Route>
-            <Route exact path="/login/ankieter" component={AuthRoute()}/>
+            <Route exact path="/login/ankieter" component={AuthRoute()} />
             <Route exact path="/login" component={LogIn} />
           </Switch>
         </div>
