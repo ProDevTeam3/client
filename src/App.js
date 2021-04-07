@@ -16,9 +16,9 @@ function App() {
               <Redirect to="/login" />
             </Route>
             <AuthRoute
-                children={AnkieterLogIn}
-                exact
-                path={"/login/ankieter"}
+              children={AnkieterLogIn}
+              exact
+              path={"/login/ankieter"}
             />
             <Route exact path="/login" component={LogIn} />
           </Switch>
