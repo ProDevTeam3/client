@@ -11,9 +11,8 @@ import {
       NumberDecrementStepper,
     } from "@chakra-ui/react"
 import Fields from "../Fields/Fields.js";
-import { Formik, Form} from 'formik';
-import {formInitValues} from "./formInitValues"
-
+import { Formik, Form } from "formik";
+import { formInitValues } from "./formInitValues";
 
 const Formularz = () => {
   return (
@@ -72,71 +71,7 @@ const Formularz = () => {
 
       <Fields/>
 
-
-
-      <div className={"home_address"}>
-          <p>Adres domowy:</p>
-          <FormLabel>Ulica: </FormLabel>
-          <Input type="text" 
-          value={values.home_address.street} 
-          onChange={handleChange} />
-          <FormLabel>Kod pocztowy: </FormLabel>
-          <Input type="text" 
-          value={values.home_address.postal_code} 
-          onChange={handleChange} />
-          <FormLabel>Miasto: </FormLabel>
-          <Input type="text" 
-          value={values.home_address.city} 
-          onChange={handleChange} />
-          <FormLabel>Powiat: </FormLabel>
-          <Input type="text" 
-          value={values.home_address.district} 
-          onChange={handleChange} />
-          <FormLabel>Gmina: </FormLabel>
-          <Input type="text" 
-          value={values.home_address.commune} 
-          onChange={handleChange} />
-          <FormLabel>Województwo: </FormLabel>
-          <Input type="text" 
-          value={values.home_address.voivodeship} 
-          onChange={handleChange} />
-          <FormLabel>Kraj: </FormLabel>
-          <Input type="text" 
-          value={values.home_address.country} 
-          onChange={handleChange} />
-        </div>
-
-      <div className={"registered_address"}>
-          <p>Adres zameldowania:</p>
-          <FormLabel>Ulica: </FormLabel>
-          <Input type="text" 
-          value={values.registered_address.street} 
-          onChange={handleChange} />
-          <FormLabel>Kod pocztowy: </FormLabel>
-          <Input type="text" 
-          value={values.registered_address.postal_code} 
-          onChange={handleChange} />
-          <FormLabel>Miasto: </FormLabel>
-          <Input type="text" 
-          value={values.registered_address.city} 
-          onChange={handleChange} />
-          <FormLabel>Powiat: </FormLabel>
-          <Input type="text" 
-          value={values.registered_address.district} 
-          onChange={handleChange} />
-          <FormLabel>Gmina: </FormLabel>
-          <Input type="text" 
-          value={values.registered_address.commune} 
-          onChange={handleChange} />
-          <FormLabel>Województwo: </FormLabel>
-          <Input type="text" 
-          value={values.registered_address.voivodeship} 
-          onChange={handleChange} />
-          <FormLabel>Kraj: </FormLabel>
-          <Input type="text" 
-          value={values.registered_address.country} 
-          onChange={handleChange} />
-      </div>
+          
 
       <div className={"family"}>
       <p>Rodzina: </p>
@@ -226,19 +161,14 @@ const Formularz = () => {
       </div>
 
 
-
-        <Button 
-        colorScheme="teal"
-        type="submit" 
-        disabled={isSubmitting}>
-          Zatwierdź
-        </Button>
-      </Form>
-    )}
-  </Formik>
-  </div>
-  )
-  
-}
+            <Button colorScheme="teal" type="submit" disabled={isSubmitting}>
+              Zatwierdź
+            </Button>
+          </Form>
+        )}
+      </Formik>
+    </div>
+  );
+};
 
 export default Formularz;

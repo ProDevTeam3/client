@@ -1,4 +1,9 @@
-import {voivodeships, education, marital, sex} from "../../../constants/formData";
+import {
+  voivodeships,
+  education,
+  marital,
+  sex,
+} from "../../../constants/formData";
 import { Select } from "@chakra-ui/react";
 
 const Fields = () => {
