@@ -18,9 +18,8 @@ function App() {
               <Redirect to="/login" />
             </Route>
             <AuthRoute
-                authenticated={isAuthenticated}
                 children={AnkieterLogIn}
-                exact={true}
+                exact
                 path={"/login/ankieter"}
             />
             <Route exact path="/login" component={LogIn} />
