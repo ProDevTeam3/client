@@ -1,29 +1,31 @@
-import formData from "../../../constants/formData";
+import {voivodeships, education, marital, sex} from "../../../constants/formData";
 import { Select } from "@chakra-ui/react";
 
-export default Fields = () => {
+const Fields = () => {
   return (
     <>
       <Select name="voivodeship" id="voivodeship" placeholder="Województwo">
-        {formData.voivodeships.map((voivodeship) => (
+        {voivodeships.map((voivodeship) => (
           <option value={voivodeship}>{voivodeship}</option>
         ))}
       </Select>
       <Select name="education" id="education" placeholder="Wykształcenie">
-        {formData.education.map((educationLevel) => (
+        {education.map((educationLevel) => (
           <option value={educationLevel}>{educationLevel}</option>
         ))}
       </Select>
       <Select name="marital" id="marital" placeholder="Stan cywilny">
-        {formData.marital.map((maritalStatus) => (
+        {marital.map((maritalStatus) => (
           <option value={maritalStatus}>{maritalStatus}</option>
         ))}
       </Select>
       <Select name="sex" id="sex" placeholder="Płeć">
-        {formData.sex.map((sexOption) => (
+        {sex.map((sexOption) => (
           <option value={sexOption}>{sexOption}</option>
         ))}
       </Select>
     </>
   );
 };
+
+export default Fields;
