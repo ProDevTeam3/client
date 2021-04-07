@@ -125,10 +125,19 @@ const Formularz = () => {
                 onChange={handleChange}
               />
               <FormLabel>Liczba osób w gospodarstwie domowym: </FormLabel>
-              <NumberInput
+
+              <NumberInput>
+                <NumberInputField />
+                <NumberInputStepper>
+                  <NumberIncrementStepper />
+                  <NumberDecrementStepper />
+                </NumberInputStepper>
+              </NumberInput>
+
+              {/* <Input
                 value={values.accomodation.num_of_residents}
                 onChange={handleChange}
-              />
+              /> */}
               <FormLabel>Typ zakwaterowania: </FormLabel>
               <Input
                 type="text"
