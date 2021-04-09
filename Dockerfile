@@ -12,3 +12,4 @@ COPY --from=builder /app/build/ /var/www/prodevteam3.ml/html
 COPY ./nginx/default.conf /etc/nginx/sites-available/prodevteam3.ml
 COPY ./nginx/default.conf /etc/nginx/sites-enabled/prodevteam3.ml
 EXPOSE 80
+EXPOSE 443
