@@ -28,6 +28,9 @@ jobs:
         with:
           push: true
           tags: kamilbakierzynski/prodevteam3-client:latest
+          secrets:
+            - REACT_APP_AUTH0_DOMAIN=${{ secrets.AUTH0_DOMAIN }}
+            - REACT_APP_AUTH0_CLIENT_ID=${{ secrets.AUTH0_CLIENTID}}
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
