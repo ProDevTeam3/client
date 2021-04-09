@@ -6,9 +6,8 @@ RUN yarn install --frozen-lockfile
 COPY . .
 RUN yarn build
 
-
 FROM nginx:alpine
-COPY --from=builder /app/build/ /var/www/prodevteam3.ml/html
+COPY --from=builder /opt/app/build/ /var/www/prodevteam3.ml/html
 COPY ./nginx/default.conf /etc/nginx/sites-available/prodevteam3.ml
 RUN ln -s /etc/nginx/sites-available/prodevteam3.ml /etc/nginx/sites-enabled/
 EXPOSE 80
