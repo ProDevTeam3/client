@@ -17,7 +17,7 @@ const AuthRoute = ({ children, exact, path }) => {
 };
 
 AuthRoute.propTypes = {
-  children: React.PropTypes.node,
+  children: PropTypes.node,
   exact: PropTypes.bool,
   path: PropTypes.string,
 };
