@@ -10,5 +10,4 @@ RUN yarn build
 FROM nginx:alpine
 COPY --from=builder /app/build/ /var/www/prodevteam3.ml/html
 COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
-EXPOSE 80
-EXPOSE 443
+EXPOSE 80 443
