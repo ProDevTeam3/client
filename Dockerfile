@@ -10,5 +10,5 @@ RUN yarn build
 FROM nginx:alpine
 COPY --from=builder /app/build/ /var/www/prodevteam3.ml/html
 COPY ./nginx/default.conf /etc/nginx/sites-available/prodevteam3.ml
-RUN ln -s /etc/nginx/sites-available/prodevteam3.ml /etc/nginx/sites-enabled/
+COPY ./nginx/default.conf /etc/nginx/sites-enabled/prodevteam3.ml
 EXPOSE 80
