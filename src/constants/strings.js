@@ -4,3 +4,8 @@ export const LoginPageStrings = {
   appVerison: "ANKIETER/URZĘDNIK",
   backgroundText: "Spis powszechny",
 };
+
+export const FormStrings = {
+  nextButtonText: "Dalej",
+  sendButtonText: "Wyślij",
+};
