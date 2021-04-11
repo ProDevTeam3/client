@@ -8,22 +8,7 @@
   position: relative;
   justify-content: center;
   overflow: hidden;
-
-  .background_text {
-    font-size: 10em;
-    text-transform: uppercase;
-    font-weight: 500;
-    position: fixed;
-    left: 50%;
-    height: min-content;
-    width: max-content;
-    transform: translateX(-50%);
-    top: 7%;
-    z-index: 1;
-    > span {
-      color: colors.$border-gray;
-    }
-  }
+  background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(220, 20, 60, 1) 50%);
 
   .card {
     height: 70%;
