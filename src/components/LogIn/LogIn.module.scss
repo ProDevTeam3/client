@@ -9,6 +9,11 @@
   justify-content: center;
   overflow: hidden;
   background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(220, 20, 60, 1) 50%);
+  background-image: url("husars.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
 
   .card {
     height: 70%;
