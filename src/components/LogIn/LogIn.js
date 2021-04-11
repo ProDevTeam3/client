@@ -3,10 +3,18 @@ import { Button, VStack, StackDivider, Image } from "@chakra-ui/react";
 import styles from "./LogIn.module.scss";
 import { LoginPageStrings } from "../../constants/strings";
 import LoginButton from "../LoginButton/LoginButton.js";
+import { useAuth0 } from "@auth0/auth0-react";
+import { Redirect } from "react-router";
 
 const LogIn = () => {
+  const { isAuthenticated } = useAuth0();
+
   const GUSLogo =
     "https://spis.gov.pl/wp-content/uploads/2021/01/cropped-logo-nsp.png";
+
+  if (isAuthenticated) {
+    return <Redirect to="/form" />;
+  }
   return (
     <div className={styles.page}>
       <div className={styles.card}>
