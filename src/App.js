@@ -3,7 +3,6 @@ import "./App.css";
 import AnkieterLogIn from "./components/AnkieterLogIn/AnkieterLogIn";
 import AuthRoute from "./components/AuthRoute/AuthRoute";
 import LogIn from "./components/LogIn/LogIn";
-import AnkieterLogIn from "./components/AnkieterLogIn/AnkieterLogIn";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
 import Form from "./components/Form/Form";
