@@ -1335,6 +1335,21 @@
   dependencies:
     "@chakra-ui/utils" "1.5.0"
 
+"@chakra-ui/icon@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icon/-/icon-1.1.5.tgz#f37abe47fd176a4c291d2037df2d6ed480622c09"
+  integrity sha512-VCzR1L3CJlAxp0IilqCdsF9O/Nncp9Sb2ndQvnQcfbo0GEgQmsH2CBQnmlwnClBQGYhwi6srP9GErYg8ah9LQw==
+  dependencies:
+    "@chakra-ui/utils" "1.5.1"
+
+"@chakra-ui/icons@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-1.0.9.tgz#3551805b156c4a69b324fce22504ca5288da72e4"
+  integrity sha512-taZ7IPwDZ1aZcR+dgvT3ZcVjCULNLAa5wmQHLd9KChIZRo3EL37YSUsOroY4ju+8zvC3aX2F0Ui/VGVNFor36A==
+  dependencies:
+    "@chakra-ui/icon" "1.1.5"
+    "@types/react" "^17.0.0"
+
 "@chakra-ui/image@1.0.10":
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/@chakra-ui/image/-/image-1.0.10.tgz#ace03938d28690bdf805d89aac06535f2b5fb30b"
@@ -1689,6 +1704,15 @@
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-1.5.0.tgz#8ba5ac1353d85c7fbdfa843c8023d9a2b4a2915d"
   integrity sha512-rHLGzAo7cwIF9LkfEFEqtmgZN4/e1kuu5fVO4DrLJHcOA7c+wibrNK8QaplBefpq+b5bnmmznE4YHpXqG8yiCQ==
+  dependencies:
+    "@types/lodash.mergewith" "4.6.6"
+    css-box-model "1.2.1"
+    lodash.mergewith "4.6.2"
+
+"@chakra-ui/utils@1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-1.5.1.tgz#a01fd14f6d948a13c2644cfa844f410299135ffc"
+  integrity sha512-J8P9wA96Kaxu4oHh+8s1rEL2VABWK/io8sBck19eOXKfVXJ55KyVwGZTrsVID0No43b7WzJx6n/xsMKkn39Peg==
   dependencies:
     "@types/lodash.mergewith" "4.6.6"
     css-box-model "1.2.1"
@@ -2546,10 +2570,24 @@
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.2.3.tgz#ef65165aea2924c9359205bf748865b8881753c0"
   integrity sha512-PijRCG/K3s3w1We6ynUKdxEc5AcuuH3NBmMDP8uvKVp6X43UY7NQlTzczakXP3DJR0F4dfNQIGjU2cUeRYs2AA==
 
+"@types/prop-types@*":
+  version "15.7.3"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
+  integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
+
 "@types/q@^1.5.1":
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==
+
+"@types/react@^17.0.0":
+  version "17.0.3"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.3.tgz#ba6e215368501ac3826951eef2904574c262cc79"
+  integrity sha512-wYOUxIgs2HZZ0ACNiIayItyluADNbONl7kt8lkLjVK8IitMH5QMyAh75Fwhmo37r1m7L2JaFj03sIfxBVDvRAg==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
 
 "@types/resolve@0.0.8":
   version "0.0.8"
@@ -2557,6 +2595,11 @@
   integrity sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==
   dependencies:
     "@types/node" "*"
+
+"@types/scheduler@*":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.1.tgz#18845205e86ff0038517aab7a18a62a6b9f71275"
+  integrity sha512-EaCxbanVeyxDRTQBkdLb3Bvl/HK7PBK6UJjsSixB0iHKoWxE5uu2Q/DgtpOhPIojN0Zl1whvOd7PoHs2P0s5eA==
 
 "@types/sinonjs__fake-timers@^6.0.1":
   version "6.0.2"

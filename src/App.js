@@ -5,6 +5,7 @@ import AuthRoute from "./components/AuthRoute/AuthRoute";
 import LogIn from "./components/LogIn/LogIn";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
+import Form from "./components/Form/Form";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           <Switch>
             <Route exact path="/">
               <Redirect to="/login" />
+            </Route>
+            <Route path="/form">
+              <Form />
             </Route>
             <AuthRoute
               children={AnkieterLogIn}
