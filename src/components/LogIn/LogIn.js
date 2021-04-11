@@ -9,9 +9,6 @@ const LogIn = () => {
     "https://spis.gov.pl/wp-content/uploads/2021/01/cropped-logo-nsp.png";
   return (
     <div className={styles.page}>
-      <div className={styles.background_text}>
-        <span>{LoginPageStrings.backgroundText}</span>
-      </div>
       <div className={styles.card}>
         <div className={styles.badge}>{LoginPageStrings.appVerison}</div>
         <div className={styles.logo}>
