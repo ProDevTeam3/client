@@ -1,4 +1,4 @@
-import { checkIfPeselIsCorrect, getSexFromPesel } from "../pesel"
+import { checkIfPeselIsCorrect, getSexFromPesel } from "../pesel";
 
 describe("getSexFromPesel", () => {
   const variants = [
@@ -12,10 +12,13 @@ describe("getSexFromPesel", () => {
     ["00000000040", "K"],
     ["00000000060", "K"],
     ["00000000080", "K"],
-  ]
-  test.each(variants)("Gets correct value from PESEL number", (pesel, result) => {
-    expect(getSexFromPesel(pesel)).toEqual(result);
-  })
+  ];
+  test.each(variants)(
+    "Gets correct value from PESEL number",
+    (pesel, result) => {
+      expect(getSexFromPesel(pesel)).toEqual(result);
+    }
+  );
 });
 
 describe("checkIfPeselIsCorrect", () => {
@@ -30,8 +33,8 @@ describe("checkIfPeselIsCorrect", () => {
     ["22222252222", false],
     ["33333333333", false],
     ["64051333697", false],
-  ]
+  ];
   test.each(variants)("Correctly checks PESEL", (pesel, result) => {
     expect(checkIfPeselIsCorrect(pesel)).toBe(result);
-  })
-})
+  });
+});
