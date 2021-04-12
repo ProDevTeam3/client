@@ -66,7 +66,7 @@ const Work = (values) => {
             <FormikField name={`company[${index}][industry]`} label="Branża:">
               <Select placeholder="Wybierz branżę">
                       {industryType.map((industry) => (
-                        <option value={industry}>{industry}</option>
+                        <option value={industry.code}>{industry.name}</option>
                       ))}
                     </Select>
             </FormikField>
