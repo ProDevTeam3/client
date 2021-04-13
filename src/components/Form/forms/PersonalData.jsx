@@ -37,12 +37,9 @@ const PersonalData = () => {
           requiredValue("PESEL jest wymagany"),
           PESELIsCorrect("PESEL jest nieprawidłowy")
         )}
-        renderChildren={({ field }) => (
-          <NumberInput max={99999999999}>
-            <NumberInputField {...field} id="PESEL" />
-          </NumberInput>
-        )}
-      />
+      >
+        <Input type="text" />
+      </FormikField>
     </Stack>
   );
 };

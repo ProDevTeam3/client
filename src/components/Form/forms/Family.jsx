@@ -49,15 +49,9 @@ const Family = (values) => {
                 ))}
               </Select>
             </FormikField>
-            <FormikField
-              name={`family[${index}][PESEL]`}
-              label="PESEL:"
-              renderChildren={({ field }) => (
-                <NumberInput max={9999999999}>
-                  <NumberInputField {...field} id="pesel" />
-                </NumberInput>
-              )}
-            />
+            <FormikField name={`family[${index}][PESEL]`} label="PESEL:">
+              <Input type="text" />
+            </FormikField>
             <FormikField
               name={`family[${index}][date_of_birth]`}
               label="Data urodzenia:"
