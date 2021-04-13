@@ -8,7 +8,11 @@
   position: relative;
   justify-content: center;
   overflow: hidden;
-  background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(220, 20, 60, 1) 50%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(220, 20, 60, 1) 50%
+  );
 
   .card {
     height: 70%;

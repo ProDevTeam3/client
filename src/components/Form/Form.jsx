@@ -25,6 +25,7 @@ import Accomodation from "./forms/Accomodation";
 import AdditionalInfo from "./forms/AdditionalInfo";
 import CheckData from "./forms/CheckData";
 import { FormStrings } from "../../constants/strings";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const formsSections = [
   "Dane osobowe",
@@ -64,8 +65,13 @@ const Form = () => {
   const GUSLogo =
     "https://spis.gov.pl/wp-content/uploads/2021/01/cropped-logo-nsp.png";
 
+  const { logout } = useAuth0();
+
   return (
     <Center height="100vh" width="100vw" overflow="hidden" bg="gray.100">
+      <Box position="absolute" top="20px" right="20px">
+        <Button onClick={logout} bg="gray.300">Wyloguj się</Button>
+      </Box>
       <Box
         boxShadow="xl"
         width="100%"
@@ -79,6 +85,7 @@ const Form = () => {
         flexDirection="column"
         justifyContent="space-between"
         bg="white"
+        zIndex="1"
       >
         <Box
           position="absolute"
@@ -114,6 +121,7 @@ const Form = () => {
             letterSpacing="wide"
             textTransform="uppercase"
             fontSize="1.1em"
+            textAlign="center"
           >
             {formsSections[formIndex]}
           </Box>
