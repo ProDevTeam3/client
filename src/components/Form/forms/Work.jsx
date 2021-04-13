@@ -11,7 +11,11 @@ import {
 } from "@chakra-ui/react";
 import FormikField from "./FormikField";
 import { NIPIsCorrect } from "../helpers/validators";
-import { contractType, currencies, industryType } from "../../../constants/formData";
+import {
+  contractType,
+  currencies,
+  industryType,
+} from "../../../constants/formData";
 
 const Work = (values) => {
   const [numOfCompanies, setNumOfCompanies] = useState([]);
@@ -65,10 +69,10 @@ const Work = (values) => {
             />
             <FormikField name={`company[${index}][industry]`} label="Branża:">
               <Select placeholder="Wybierz branżę">
-                      {industryType.map((industry) => (
-                        <option value={industry.code}>{industry.name}</option>
-                      ))}
-                    </Select>
+                {industryType.map((industry) => (
+                  <option value={industry.code}>{industry.name}</option>
+                ))}
+              </Select>
             </FormikField>
 
             <Box padding="3" borderTop="1px" borderColor="gray.300">

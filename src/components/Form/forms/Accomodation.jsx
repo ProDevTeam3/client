@@ -38,7 +38,7 @@ const Accomodation = () => {
         isRequired
         validate={requiredValue("Odpowiedź na to pytanie jest wymagana")}
         renderChildren={({ field }) => (
-          <NumberInput max={100}>
+          <NumberInput>
             <NumberInputField {...field} id="num_of_residents" />
           </NumberInput>
         )}
