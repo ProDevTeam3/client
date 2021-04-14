@@ -1,6 +1,18 @@
 import React from "react";
+import {objectToArray, elementCheck} from '../helpers/summaryHelpers'
 
 const CheckData = (props) => {
-  return <div>{JSON.stringify(props, null, 2)}</div>;
+
+  const propsArrayOfTwo = objectToArray(props)
+
+  return(
+    <div className="Summary">
+      {propsArrayOfTwo.map(elem => elementCheck(elem[0], elem[1]))}
+    </div>
+    
+  );
+
 };
 export default CheckData;
+
+
