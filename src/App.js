@@ -16,7 +16,6 @@ function App() {
     return <Authenticating />;
   }
 
-
   return (
     <BrowserRouter>
       <div className="App">
@@ -25,7 +24,11 @@ function App() {
             <Redirect to="/login" />
           </Route>
           //! DO TESTÓW
-          <Route exact path="/form-of-employment" component={FormOfEmploymentChart}/>
+          <Route
+            exact
+            path="/form-of-employment"
+            component={FormOfEmploymentChart}
+          />
           <AuthRoute path="/form">
             <Form />
           </AuthRoute>
