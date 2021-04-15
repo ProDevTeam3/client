@@ -1,39 +1,41 @@
 const generateOptions = (series) => ({
-    plotOptions: {
-      bar: {
-        borderRadius: 4,
-        horizontal: true,
-        dataLabels: {
-          position: 'bottom'
-        },
-      }
-    },
-    fill: {
-        type: 'solid',
-        colors: ["#248bcc"]
-    },
-    dataLabels: {
-      enabled: true,
-      textAnchor: 'start',
-      formatter: function (val, opt) {
-        return opt.w.globals.labels[opt.dataPointIndex] + ":  " + val
+  chart: {
+    stacked: true,
+  },
+  plotOptions: {
+    bar: {
+      borderRadius: 4,
+      horizontal: true,
+      dataLabels: {
+        position: "bottom",
       },
-      offsetX: 0,
     },
-    xaxis: {
-      categories: series.labels,
+  },
+  dataLabels: {
+    enabled: false,
+  },
+  xaxis: {
+    categories: series.labels,
+    labels: {
+      formatter: function (val) {
+        return val / 1000 + "k";
+      },
     },
-    yaxis: {
-      labels: {
-        show: false,
-        style: {
-          fontFamily: 'Helvetica, Arial, sans-serif',
-          fontWeight: "bold",
-      }
-      }
+  },
+  yaxis: {
+    labels: {
+      show: true,
+      style: {
+        fontFamily: "Helvetica, Arial, sans-serif",
+        fontWeight: "bold",
+      },
     },
-    tooltip: {
-        enabled: false
-    }
-  })
-  export default generateOptions;
+  },
+  tooltip: {
+    enabled: true,
+    x: {
+      show: false,
+    },
+  },
+});
+export default generateOptions;
