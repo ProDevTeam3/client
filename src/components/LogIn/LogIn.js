@@ -25,7 +25,7 @@ const LogIn = () => {
         <VStack
           divider={<StackDivider borderColor="gray.200" />}
           spacing={4}
-          align="stretch"
+          align="center"
         >
           <LoginButton />
           <Button colorScheme="teal" variant="ghost">
