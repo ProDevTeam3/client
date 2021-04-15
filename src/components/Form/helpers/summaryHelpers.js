@@ -45,7 +45,7 @@ const change_name = (name) => {
 
 export const objectToArray = (obj) =>
   Object.keys(obj).map((key) => [key, obj[key]]);
-  
+
 export const elementCheck = (category, value) => {
   if (typeof value === "string") {
     return (
