@@ -1,11 +1,15 @@
 import { Button } from "@chakra-ui/button";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { objectToArray, elementCheck } from "../helpers/summaryHelpers";
 
 const CheckData = (props) => {
   const [data, setData] = useState([]);
 
   const getData = () => setData(objectToArray(props));
+
+  useEffect(() => {
+    getData();
+  }, [])
 
   return (
     <div className="Summary">

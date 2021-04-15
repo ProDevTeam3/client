@@ -1,4 +1,4 @@
-import { Badge, Divider, Tag } from "@chakra-ui/react";
+import { Badge, Divider, Tag, Checkbox } from "@chakra-ui/react";
 
 const name_converts = {
   first_name: "Imię",
@@ -46,11 +46,18 @@ const change_name = (name) => {
 export const objectToArray = (obj) =>
   Object.keys(obj).map((key) => [key, obj[key]]);
 
+const convertBoolean = (value) => {
+  if (value === "true" || value === "false") {
+    return <Checkbox style={{marginLeft: 4}} isReadOnly defaultIsChecked={value === "true" ? true : false} />
+  }
+  return value;
+}
+
 export const elementCheck = (category, value) => {
   if (typeof value === "string") {
     return (
-      <div>
-        <Badge>{change_name(category)}</Badge>: {value}
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <Badge>{change_name(category)}</Badge>: {convertBoolean(value)}
       </div>
     );
   }
@@ -58,8 +65,8 @@ export const elementCheck = (category, value) => {
   const renderFunc = Array.isArray(value)
     ? () => value.map((element) => elementCheck("", element))
     : typeof value === "object"
-    ? () => objectToArray(value).map((el) => elementCheck(el[0], el[1]))
-    : () => <div></div>;
+      ? () => objectToArray(value).map((el) => elementCheck(el[0], el[1]))
+      : () => <div></div>;
   return (
     <div>
       {name && (
