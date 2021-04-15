@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import Form from "./components/Form/Form";
 import { useAuth0 } from "@auth0/auth0-react";
 import Authenticating from "./components/Authenticating/Authenticating";
+import FormOfEmploymentChart from "./charts/FormOfEmploymentChart/FormOfEmploymentChart";
 
 function App() {
   const { isLoading } = useAuth0();
@@ -14,6 +15,7 @@ function App() {
   if (isLoading) {
     return <Authenticating />;
   }
+
   return (
     <BrowserRouter>
       <div className="App">
@@ -21,6 +23,12 @@ function App() {
           <Route exact path="/">
             <Redirect to="/login" />
           </Route>
+          //! DO TESTÓW
+          <Route
+            exact
+            path="/form-of-employment"
+            component={FormOfEmploymentChart}
+          />
           <AuthRoute path="/form">
             <Form />
           </AuthRoute>
