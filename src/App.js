@@ -8,6 +8,7 @@ import Form from "./components/Form/Form";
 import { useAuth0 } from "@auth0/auth0-react";
 import Authenticating from "./components/Authenticating/Authenticating";
 import FormOfEmploymentChart from "./charts/FormOfEmploymentChart/FormOfEmploymentChart";
+import IndustryChart from "./charts/IndustryChart/IndustryChart";
 
 function App() {
   const { isLoading } = useAuth0();
@@ -29,6 +30,7 @@ function App() {
             path="/form-of-employment"
             component={FormOfEmploymentChart}
           />
+          <Route exact path="/industry" component={IndustryChart} />
           <AuthRoute path="/form">
             <Form />
           </AuthRoute>
