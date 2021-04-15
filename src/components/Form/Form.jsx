@@ -161,7 +161,7 @@ const Form = () => {
               }
               return (
                 <FormikForm>
-                  <Tabs index={formIndex}>
+                  <Tabs index={formIndex} isLazy>
                     <TabPanels>
                       {formComponents.map((component, index) => (
                         <TabPanel key={component.name}>
