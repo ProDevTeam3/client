@@ -1,3 +1,5 @@
+import { Badge, Divider, Tag } from "@chakra-ui/react";
+
 const name_converts = {
   first_name: "Imię",
   surname: "Nazwisko",
@@ -19,13 +21,12 @@ const name_converts = {
   NIP: "NIP",
   industry: "Branża",
   contract: "Umowa",
-  type: "Typ umowy",
+  type: "Typ",
   income: "Dochód",
   currency: "Waluta",
   middle_name: "Drugie imię",
   PESEL: "PESEL",
   family: "Rodzina",
-  type: "Pokrewieństwo",
   accomodation: "Zakwaterowanie",
   with_parents: "Mieszkasz z rodzicami?",
   num_of_residents: "Liczba domowników",
@@ -39,36 +40,37 @@ const name_converts = {
 const change_name = (name) => {
   const arr = objectToArray(name_converts);
   const result = arr.filter((elem) => elem[0] === name);
-  return result[0][1];
+  return result?.[0]?.[1] ?? "";
 };
 
 export const objectToArray = (obj) =>
   Object.keys(obj).map((key) => [key, obj[key]]);
+  
 export const elementCheck = (category, value) => {
   if (typeof value === "string") {
     return (
-      <div className="SummaryElem">
-        {change_name(category)} --- {value}
+      <div>
+        <Badge>{change_name(category)}</Badge>: {value}
       </div>
     );
   }
-  if (Array.isArray(value)) {
-    return (
-      <div className="SummaryObjectBox">
-        <h1 className="SummaryCategory">{change_name(category)}</h1>
-        {value.map((el) => elementCheck("", el))}
-      </div>
-    );
-  }
-  if (typeof value === "object") {
-    console.log(value, typeof value);
-    return (
-      <div className="SummaryObjectBox">
-        <h1 className="SummaryCategory">{change_name(category)}</h1>
-        {objectToArray(value).map((el) => elementCheck(el[0], el[1]))}
-      </div>
-    );
-  } else {
-    return <div></div>;
-  }
+  const name = change_name(category);
+  const renderFunc = Array.isArray(value)
+    ? () => value.map((element) => elementCheck("", element))
+    : typeof value === "object"
+    ? () => objectToArray(value).map((el) => elementCheck(el[0], el[1]))
+    : () => <div></div>;
+  return (
+    <div>
+      {name && (
+        <>
+          <Divider />
+          <Tag variant="solid" colorScheme="teal">
+            {name}
+          </Tag>
+        </>
+      )}
+      {renderFunc()}
+    </div>
+  );
 };

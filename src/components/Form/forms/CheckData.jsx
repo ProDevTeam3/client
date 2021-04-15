@@ -1,18 +1,19 @@
-import React from "react";
-import {objectToArray, elementCheck} from '../helpers/summaryHelpers'
+import { Button } from "@chakra-ui/button";
+import React, { useState } from "react";
+import { objectToArray, elementCheck } from "../helpers/summaryHelpers";
 
 const CheckData = (props) => {
+  const [data, setData] = useState([]);
 
-  const propsArrayOfTwo = objectToArray(props)
+  const getData = () => setData(objectToArray(props));
 
-  return(
+  return (
     <div className="Summary">
-      {propsArrayOfTwo.map(elem => elementCheck(elem[0], elem[1]))}
+      <Button onClick={getData} style={{ marginBottom: 20 }}>
+        Wyświetl dane
+      </Button>
+      {data.map((elem) => elementCheck(elem[0], elem[1]))}
     </div>
-    
   );
-
 };
 export default CheckData;
-
-
