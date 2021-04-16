@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import Form from "./components/Form/Form";
 import { useAuth0 } from "@auth0/auth0-react";
 import Authenticating from "./components/Authenticating/Authenticating";
+import WorkingPerChart from "./charts/WorkingPerChart/WorkingPerChart";
 import FormOfEmploymentChart from "./charts/FormOfEmploymentChart/FormOfEmploymentChart";
 import IndustryChart from "./charts/IndustryChart/IndustryChart";
 
@@ -23,6 +24,10 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Redirect to="/login" />
+          </Route>
+          //! DO TESTÓW
+          <Route exact path="/map-chart">
+            <WorkingPerChart />
           </Route>
           //! DO TESTÓW
           <Route
