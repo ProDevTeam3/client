@@ -11,6 +11,8 @@ const LoginButton = () => {
       size="lg"
       className="btn btn-primary btn-block"
       onClick={loginWithRedirect}
+      width="max(40vw, 100%)"
+      height="12vh"
     >
       {LoginPageStrings.loginButtonText}
     </Button>

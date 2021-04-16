@@ -70,7 +70,7 @@ const Form = () => {
   return (
     <Center height="100vh" width="100vw" overflow="hidden" bg="gray.100">
       <Box position="absolute" top="20px" right="20px">
-        <Button onClick={logout} bg="gray.300">
+        <Button onClick={() => logout({ returnTo: window.location.origin })} bg="gray.300">
           Wyloguj się
         </Button>
       </Box>
@@ -161,7 +161,7 @@ const Form = () => {
               }
               return (
                 <FormikForm>
-                  <Tabs index={formIndex}>
+                  <Tabs index={formIndex} isLazy>
                     <TabPanels>
                       {formComponents.map((component, index) => (
                         <TabPanel key={component.name}>
