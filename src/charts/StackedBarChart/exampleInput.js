@@ -1,17 +1,7 @@
-import React from "react";
-import Chart from "react-apexcharts";
-import gatherData from "./helper"
-import generateOptions from "./options"
-
-//TODO do zmiany
-// const FormOfEmploymentChart = ({data}) => {
-const FormOfEmploymentChart = ({}) => {
-    
-    //TODO do usunięcia
-    const data = [
+const data = [
       {
-        nationality: "polska",
-        industries: [
+        label: "polska",
+        values: [
           {
             name: "Gastronomia",
             value: 623,
@@ -27,8 +17,8 @@ const FormOfEmploymentChart = ({}) => {
         ],
       },
       {
-        nationality: "ukraińska",
-        industries: [
+        label: "ukraińska",
+        values: [
           {
             name: "Gastronomia",
             value: 234,
@@ -44,8 +34,8 @@ const FormOfEmploymentChart = ({}) => {
         ],
       },
       {
-        nationality: "niemiecka",
-        industries: [
+        label: "niemiecka",
+        values: [
           {
             name: "Gastronomia",
             value: 274,
@@ -61,8 +51,8 @@ const FormOfEmploymentChart = ({}) => {
         ],
       },
       {
-        nationality: "litewska",
-        industries: [
+        label: "litewska",
+        values: [
           {
             name: "Gastronomia",
             value: 34,
@@ -78,8 +68,8 @@ const FormOfEmploymentChart = ({}) => {
         ],
       },
       {
-        nationality: "rosyjska",
-        industries: [
+        label: "rosyjska",
+        values: [
           {
             name: "Gastronomia",
             value: 122,
@@ -95,16 +85,3 @@ const FormOfEmploymentChart = ({}) => {
         ],
       },
     ];
-    
-
-    const series = gatherData(data)
-    const options = generateOptions(series)
-
-  return (
-      //TODO rozmiar do zmiany
-      <div style={{height: "50vh", width: "50vw"}}>
-      <Chart options={options} series={series.series} type="bar" height="100%" width="100%"/>
-      </div>
-  );
-};
-export default FormOfEmploymentChart;

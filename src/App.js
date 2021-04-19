@@ -8,8 +8,7 @@ import Form from "./components/Form/Form";
 import { useAuth0 } from "@auth0/auth0-react";
 import Authenticating from "./components/Authenticating/Authenticating";
 import WorkingPerChart from "./charts/WorkingPerChart/WorkingPerChart";
-import FormOfEmploymentChart from "./charts/FormOfEmploymentChart/FormOfEmploymentChart";
-import IndustryChart from "./charts/IndustryChart/IndustryChart";
+import StackedBarChart from "./charts/StackedBarChart/StackedBarChart";
 
 function App() {
   const { isLoading } = useAuth0();
@@ -25,17 +24,6 @@ function App() {
           <Route exact path="/">
             <Redirect to="/login" />
           </Route>
-          //! DO TESTÓW
-          <Route exact path="/map-chart">
-            <WorkingPerChart />
-          </Route>
-          //! DO TESTÓW
-          <Route
-            exact
-            path="/form-of-employment"
-            component={FormOfEmploymentChart}
-          />
-          <Route exact path="/industry" component={IndustryChart} />
           <AuthRoute path="/form">
             <Form />
           </AuthRoute>
