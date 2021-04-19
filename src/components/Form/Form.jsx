@@ -26,6 +26,7 @@ import AdditionalInfo from "./forms/AdditionalInfo";
 import CheckData from "./forms/CheckData";
 import { FormStrings } from "../../constants/strings";
 import { useAuth0 } from "@auth0/auth0-react";
+import { createBreakpoints } from "@chakra-ui/theme-tools"
 
 const formsSections = [
   "Dane osobowe",
@@ -50,6 +51,11 @@ const formComponents = [
   CheckData,
 ];
 
+const breakpoints = createBreakpoints({
+  sm: "500px",
+  md: "768px",
+})
+
 const Form = () => {
   const [formIndex, setFormIndex] = useState(0);
   const maxIndex = formsSections.length - 1;
@@ -68,12 +74,28 @@ const Form = () => {
   const { logout } = useAuth0();
 
   return (
-    <Center height="100vh" width="100vw" overflow="hidden" bg="gray.100">
+    <Center height="100vh" width="100vw" overflow="hidden" bg="gray.100" paddingTop="10">
       <Box position="absolute" top="20px" right="20px">
         <Button onClick={() => logout({ returnTo: window.location.origin })} bg="gray.300">
           Wyloguj się
         </Button>
       </Box>
+      <Box
+          position="absolute"
+          top="0"
+          justifyContent={{base: "left", md: "center"}}
+          d="flex"
+          width="100%"
+          padding={{base: "27px 5%", sm: "20px 5%", md: "20px 0"}}
+        >
+          <Image
+            objectFit="cover"
+            src={GUSLogo}
+            alt="GUS Logo"
+            width={{base: "190px", sm: "300px", md: "300px"}}
+            filter="grayscale(100%) opacity(30%)"
+          />
+        </Box>
       <Box
         boxShadow="xl"
         width="100%"
@@ -89,18 +111,6 @@ const Form = () => {
         bg="white"
         zIndex="1"
       >
-        <Box
-          position="absolute"
-          transform="translateX(-80%) rotate(-90deg) translateX(-80%)"
-        >
-          <Image
-            objectFit="cover"
-            src={GUSLogo}
-            alt="GUS Logo"
-            width="300px"
-            filter="grayscale(100%) opacity(30%)"
-          />
-        </Box>
         <Box
           boxShadow="md"
           d="flex"
