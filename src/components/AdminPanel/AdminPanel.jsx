@@ -4,10 +4,10 @@ import React from "react";
 const AdminPanel = () =>{
     return(
         <Center  height="100vh" width="100vw">
-            <Box>
+            <Box height="15%" width="100%">
                 {/*PanelNavBar*/}
             </Box>
-            <Box>
+            <Box  height="85%" width="100%">
                 {/*PanelMain*/}
             </Box>
         </Center>
