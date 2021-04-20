@@ -1,4 +1,5 @@
 import { Box, Stack } from "@chakra-ui/react"
+import Statistics from "./Statistics/Statistics"
 import React from "react";
 
 const AdminPanel = () =>{
@@ -9,6 +10,7 @@ const AdminPanel = () =>{
             </Box>
             <Box  height="85%" width="100%">
                 {/*PanelMain*/}
+                <Statistics/>
             </Box>
         </Stack>
     )

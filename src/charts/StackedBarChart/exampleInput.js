@@ -1,4 +1,4 @@
-const data = [
+const data = () => ([
   {
     label: "polska",
     values: [
@@ -84,4 +84,5 @@ const data = [
       },
     ],
   },
-];
+]);
+export default data;
