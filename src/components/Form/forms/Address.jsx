@@ -14,51 +14,14 @@ const HomeAddress = (props) => {
   return (
     <Stack spacing={6}>
       <FormikField
-        name="home_address[][street]"
-        label="Ulica:"
-        isRequired
-        isDisabled={isDisabled}
-        validate={requiredValue("Ulica jest wymagana")}
-      >
-        <Input type="text" />
-      </FormikField>
-      <FormikField
-        name="home_address[][city]"
-        label="Miasto:"
-        isRequired
-        isDisabled={isDisabled}
-        validate={requiredValue("Miasto jest wymagane")}
-      >
-        <Input />
-      </FormikField>
-      <FormikField
-        name="home_address[][postal_code]"
-        label="Kod pocztowy:"
-        isRequired
-        isDisabled={isDisabled}
-        validate={combineValidators(
-          requiredValue("Kod pocztowy jest wymagany"),
-          correctPostalCode("Kod pocztowy jest niepoprawny")
-        )}
-      >
-        <Input type="text" />
-      </FormikField>
-      <FormikField
-        name="home_address[][district]"
-        label="Powiat:"
+        name="home_address[][country]"
+        label="Kraj:"
         isRequired
         isDisabled={isDisabled}
       >
         <Input type="text" />
       </FormikField>
-      <FormikField
-        name="home_address[][commune]"
-        label="Gmina:"
-        isRequired
-        isDisabled={isDisabled}
-      >
-        <Input type="text" />
-      </FormikField>
+
       <FormikField
         name="home_address[][voivodeship]"
         label="Województwo:"
@@ -71,14 +34,59 @@ const HomeAddress = (props) => {
           ))}
         </Select>
       </FormikField>
+
       <FormikField
-        name="home_address[][country]"
-        label="Kraj:"
+        name="home_address[][commune]"
+        label="Gmina:"
         isRequired
         isDisabled={isDisabled}
       >
         <Input type="text" />
       </FormikField>
+
+      <FormikField
+        name="home_address[][district]"
+        label="Powiat:"
+        isRequired
+        isDisabled={isDisabled}
+      >
+        <Input type="text" />
+      </FormikField>
+
+      <FormikField
+        name="home_address[][city]"
+        label="Miasto:"
+        isRequired
+        isDisabled={isDisabled}
+        validate={requiredValue("Miasto jest wymagane")}
+      >
+        <Input />
+      </FormikField>
+
+      <FormikField
+        name="home_address[][street]"
+        label="Ulica:"
+        isRequired
+        isDisabled={isDisabled}
+        validate={requiredValue("Ulica jest wymagana")}
+      >
+        <Input type="text" />
+      </FormikField>
+
+      <FormikField
+        name="home_address[][postal_code]"
+        label="Kod pocztowy:"
+        isRequired
+        isDisabled={isDisabled}
+        validate={combineValidators(
+          requiredValue("Kod pocztowy jest wymagany"),
+          correctPostalCode("Kod pocztowy jest niepoprawny")
+        )}
+      >
+        <Input type="text" />
+      </FormikField>
+
+
     </Stack>
   );
 };
