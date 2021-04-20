@@ -49,6 +49,12 @@ const Family = (values) => {
                 ))}
               </Select>
             </FormikField>
+            <FormikField name={`family[${index}][name]`} label="Imię:">
+              <Input type="text" />
+            </FormikField>
+            <FormikField name={`family[${index}][surname]`} label="Nazwisko:">
+              <Input type="text" />
+            </FormikField>
             <FormikField name={`family[${index}][PESEL]`} label="PESEL:">
               <Input type="text" />
             </FormikField>
