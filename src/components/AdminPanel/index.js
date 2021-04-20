@@ -11,7 +11,7 @@ breakpoints.xl = breakpoints[3];
 
 const newTheme = {
   ...theme,
-  breakpoints
+  breakpoints,
 };
 
 function App() {

@@ -8,7 +8,7 @@ const MenuItems = ({ children }) => (
 );
 
 // Note: This code could be better, so I'd recommend you to understand how I solved and you could write yours better :)
-const Header = props => {
+const Header = (props) => {
   const [show, setShow] = React.useState(false);
   const handleToggle = () => setShow(!show);
 
@@ -23,8 +23,6 @@ const Header = props => {
       color="white"
       {...props}
     >
-
-
       <Box display={{ base: "block", md: "none" }} onClick={handleToggle}>
         <svg
           fill="white"
@@ -43,15 +41,21 @@ const Header = props => {
         alignItems="center"
         flexGrow={1}
       >
-        <MenuItems><Button bg="transparent" border="1px">
-          Lista osób
-        </Button></MenuItems>
-        <MenuItems><Button bg="transparent" border="1px">
-          Formularz
-        </Button></MenuItems>
-        <MenuItems><Button bg="transparent" border="1px">
-          Statystyki
-        </Button></MenuItems>
+        <MenuItems>
+          <Button bg="transparent" border="1px">
+            Lista osób
+          </Button>
+        </MenuItems>
+        <MenuItems>
+          <Button bg="transparent" border="1px">
+            Formularz
+          </Button>
+        </MenuItems>
+        <MenuItems>
+          <Button bg="transparent" border="1px">
+            Statystyki
+          </Button>
+        </MenuItems>
       </Box>
 
       <Box
