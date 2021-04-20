@@ -10,6 +10,7 @@ import Authenticating from "./components/Authenticating/Authenticating";
 import WorkingPerChart from "./charts/WorkingPerChart/WorkingPerChart";
 import FormOfEmploymentChart from "./charts/FormOfEmploymentChart/FormOfEmploymentChart";
 import IndustryChart from "./charts/IndustryChart/IndustryChart";
+import CitizensList from "./components/Citizens/CitizensList";
 
 function App() {
   const { isLoading } = useAuth0();
@@ -35,6 +36,10 @@ function App() {
             path="/form-of-employment"
             component={FormOfEmploymentChart}
           />
+          //! DO TESTÓW
+          <Route exact path="/citizens-list">
+            <CitizensList />
+          </Route>
           <Route exact path="/industry" component={IndustryChart} />
           <AuthRoute path="/form">
             <Form />
