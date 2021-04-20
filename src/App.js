@@ -9,6 +9,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import Authenticating from "./components/Authenticating/Authenticating";
 import WorkingPerChart from "./charts/WorkingPerChart/WorkingPerChart";
 import StackedBarChart from "./charts/StackedBarChart/StackedBarChart";
+import AdminPanel from "./components/AdminPanel/AdminPanel";
 
 function App() {
   const { isLoading } = useAuth0();
@@ -29,6 +30,7 @@ function App() {
           </AuthRoute>
           <AuthRoute children={AnkieterLogIn} exact path={"/login/ankieter"} />
           <Route exact path="/login" component={LogIn} />
+          <Route exact path={"/admin"} component={AdminPanel} />
         </Switch>
       </div>
     </BrowserRouter>
