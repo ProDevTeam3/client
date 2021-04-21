@@ -10,6 +10,7 @@ import Authenticating from "./components/Authenticating/Authenticating";
 import WorkingPerChart from "./charts/WorkingPerChart/WorkingPerChart";
 import CitizensList from "./components/Citizens/CitizensList";
 import StackedBarChart from "./charts/StackedBarChart/StackedBarChart";
+import EditView from "./components/AdminPanel/EditView/EditView";
 import AdminPanel from "./components/AdminPanel/AdminPanel";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           </AuthRoute>
           <AuthRoute children={AnkieterLogIn} exact path={"/login/ankieter"} />
           <Route exact path="/login" component={LogIn} />
+          <Route exact path="/edit" component={EditView} />
           <Route exact path="/admin" component={AdminPanel} />
         </Switch>
       </div>
