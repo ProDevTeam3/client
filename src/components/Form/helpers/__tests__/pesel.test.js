@@ -35,7 +35,6 @@ describe("checkIfPeselIsCorrect", () => {
     ["22222252222", false],
     ["33333333333", false],
     ["64051333697", false],
-
   ];
   test.each(variants)("Correctly checks PESEL", (pesel, result) => {
     expect(checkIfPeselIsCorrect(pesel)).toBe(result);

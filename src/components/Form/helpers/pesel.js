@@ -16,7 +16,5 @@ export const checkIfPeselIsCorrect = (pesel) => {
     0
   );
 
-
-
   return +controlNumber === controlSum % 10;
 };

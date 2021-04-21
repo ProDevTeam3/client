@@ -16,8 +16,11 @@ export const dateOfBirthMatchesPESEL = (text) => (dateOfBirth, pesel) => {
   const century = year.split("").slice(0, 2).join("");
   const yearEnd = year.split("").slice(2, 4).join("");
 
-  const monthWithCentury = (century === "20" ? 20 : 0) + (+month);
-  const correctMonthLength = `${monthWithCentury}`.length === 1 ? `0${monthWithCentury}` : `${monthWithCentury}`;
+  const monthWithCentury = (century === "20" ? 20 : 0) + +month;
+  const correctMonthLength =
+    `${monthWithCentury}`.length === 1
+      ? `0${monthWithCentury}`
+      : `${monthWithCentury}`;
 
   const peselArray = `${pesel}`.split("");
   const peselYear = peselArray.slice(0, 2).join("");
