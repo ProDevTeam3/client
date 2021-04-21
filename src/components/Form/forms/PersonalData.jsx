@@ -38,7 +38,7 @@ const PersonalData = () => {
           PESELIsCorrect("PESEL jest nieprawidłowy")
         )}
       >
-        <Input type="number" />
+        <Input type="text" />
       </FormikField>
     </Stack>
   );
