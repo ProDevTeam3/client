@@ -5,7 +5,7 @@ export const getSexFromPesel = (pesel) => {
 };
 
 export const checkIfPeselIsCorrect = (pesel) => {
-  const checkMultipliers = [1, 3, 7, 9, 1, 3, 7, 9, 1, 3];
+  const checkMultipliers = [9, 7, 3, 1, 9, 7, 3, 1, 9, 7];
 
   const peselString = `${pesel}`.split("");
   const controlNumber = peselString[peselString.length - 1];
@@ -16,8 +16,5 @@ export const checkIfPeselIsCorrect = (pesel) => {
     0
   );
 
-  const controlSumArray = `${controlSum}`.split("");
-  const lastFromControlSum = controlSumArray[controlSumArray.length - 1];
-
-  return +controlNumber === 10 - +lastFromControlSum;
+  return +controlNumber === controlSum % 10;
 };

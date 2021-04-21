@@ -25,6 +25,8 @@ const AdditionalPersonalData = () => {
       <FormikField
         name="sex"
         label="Płeć:"
+        isRequired
+        validate={requiredValue("Płeć jest wymagana")}
         renderChildren={({ field }) => (
           <RadioGroup {...field}>
             <HStack spacing="24px">

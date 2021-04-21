@@ -7,6 +7,7 @@ import {
   HStack,
   Radio,
   RadioGroup,
+  Input,
 } from "@chakra-ui/react";
 import FormikField from "./FormikField";
 import { requiredValue } from "../helpers/validators";
@@ -16,9 +17,11 @@ const AdditionalInfo = () => {
   return (
     <Stack spacing={6}>
       <FormikField
-        name="additional_info[][internet_access]"
+        name="additional_info.internet_access"
         label="Posiadasz dostęp do internetu?"
+        isRequired
         validate={requiredValue("Odpowiedź na to pytanie jest wymagana")}
+        errorPath={(errors) => errors?.additional_info?.internet_access}
         renderChildren={({ field }) => (
           <RadioGroup {...field}>
             <HStack spacing="24px">
@@ -33,32 +36,29 @@ const AdditionalInfo = () => {
         )}
       />
       <FormikField
-        name="additional_info[][family_income]"
+        name="additional_info.family_income"
         label="Łączny dochód rodziny:"
         isRequired
-        validate={requiredValue("Odpowiedź na to pytanie jest wymagana")}
-        renderChildren={({ field }) => (
-          <NumberInput>
-            <NumberInputField {...field} id="family_income" />
-          </NumberInput>
-        )}
-      />
+        validate={requiredValue("Dochód rodziny jest wymagany")}
+        errorPath={(errors) => errors?.additional_info?.family_income}
+      >
+        <Input type="number" />
+      </FormikField>
       <FormikField
-        name="additional_info[][num_of_cars_in_family]"
+        name="additional_info.num_of_cars_in_family"
         label="Liczba pojazdów w rodzinie:"
         isRequired
         validate={requiredValue("Odpowiedź na to pytanie jest wymagana")}
-        renderChildren={({ field }) => (
-          <NumberInput>
-            <NumberInputField {...field} id="num_of_cars_in_family" />
-          </NumberInput>
-        )}
-      />
+        errorPath={(errors) => errors?.additional_info?.num_of_cars_in_family}
+      >
+        <Input type="number" />
+      </FormikField>
       <FormikField
-        name="additional_info[][disability]"
+        name="additional_info.disability"
         label="Niepełnosprawność:"
         isRequired
         validate={requiredValue("Odpowiedź na to pytanie jest wymagana")}
+        errorPath={(errors) => errors?.additional_info?.disability}
       >
         <Select placeholder="Wybierz stopień niepełnosprawności">
           {disability.map((disabilityType) => (
