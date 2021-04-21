@@ -58,6 +58,11 @@ describe("dateOfBirthMatchesPESEL", () => {
       undefined
     );
   });
+  test("Returns undefined if check passes", () => {
+    expect(dateOfBirthMatchesPESEL("error")("2000-01-21", "00212134678")).toBe(
+      undefined
+    );
+  });
   test("Returns error text if check fails", () => {
     const defaultText = "error";
     expect(

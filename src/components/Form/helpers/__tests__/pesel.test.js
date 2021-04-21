@@ -28,11 +28,14 @@ describe("checkIfPeselIsCorrect", () => {
     ["80041934254", true],
     ["54051333697", true],
     ["63040423525", true],
+    ["17012585735", true],
+    ["05112579057", true],
     ["12345678901", false],
     ["11111111111", false],
     ["22222252222", false],
     ["33333333333", false],
     ["64051333697", false],
+
   ];
   test.each(variants)("Correctly checks PESEL", (pesel, result) => {
     expect(checkIfPeselIsCorrect(pesel)).toBe(result);
