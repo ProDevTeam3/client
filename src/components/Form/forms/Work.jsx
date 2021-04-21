@@ -102,7 +102,7 @@ const Work = (values) => {
                     isRequired
                     validate={requiredValue("Typ umowy jest wymagany")}
                     errorPath={(errors) =>
-                      errors?.company?.[index]?.contracts?.[indexContract]?.type
+                      errors?.company?.[index]?.contract?.[indexContract]?.type
                     }
                   >
                     <Select placeholder="Wybierz typ umowy">
