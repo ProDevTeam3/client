@@ -1,55 +1,76 @@
-import React, {useState} from "react";
-import { Box, Stack, Select, Flex, Button, Center } from "@chakra-ui/react"
+import React, {useState, useEffect} from "react";
+import { Box, Stack, Select, Flex, Center, Spinner } from "@chakra-ui/react"
 import StackedBarChart from "../../../charts/StackedBarChart/StackedBarChart"
-import example from "../../../charts/StackedBarChart/exampleInput"
+import {defaultAxios} from "../../../config/axios"
 
 const Statistics = () => {
 
+    const defaultInput = {
+        label: "nationality",
+        values: "sex"
+    }
+
     const [selectInput, setSelectInput] = useState({
-        label: null,
-        values: null
+        label: defaultInput.label,
+        values: defaultInput.values
     });
 
-    const [data, setData] = useState(null)
+    const [data, setData] = useState([])
+
+    useEffect(() => {
+        if(selectInput.label && selectInput.values) {
+            defaultAxios.get("/stats", {params: {First: selectInput.label, Second: selectInput.values}})
+            .then(({data}) => {
+                setData(data)
+            })
+        }
+    }, [selectInput]);
 
     const labels = {
         nationality: "Narodowość",
         voivodeship: "Województwo",
-        city: "Miasto"
+        city: "Miasto",
+        district: "Powiat",
+        commune: "Gmina"
     }
     const values = {
+        contract: "Rodzaj umowy",
         sex: "Płeć",
-        age:"Wiek",
         marital_status:"Stan cywilny",
         education:"Wykształcenie",
-        with_parents: "Mieszkanie z rodzicami",
         accomodation:"Typ zakwaterowania"
     }
 
-    const requestData = () => {
-        console.log(selectInput)
-    }
-
     const handleLabelChange = (value) => {
-        setSelectInput({...selectInput, label: value})
-        requestData()
+        setSelectInput((oldState) => ({...oldState, label: value}))
     }
 
     const handleValuesChange = (value) => {
-        setSelectInput({...selectInput, values: value})
-        requestData()
+        setSelectInput((oldState) => ({...oldState, values: value}))
     }
+
+    const handleLoading = () => (
+        data.length > 0 ?
+        <StackedBarChart data={data}/> : 
+        (<Spinner
+        thickness="4px"
+        speed="0.65s"
+        emptyColor="gray.200"
+        color="teal"
+        size="xl"
+        />)
+    )
 
     return(
         <Stack height="100%" width="100%">
             <Flex justify="center">
                 <Box width="50%">
-                    <Select placeholder="Select option" onChange={(e) => handleLabelChange(e.target.value)}>
+                    <Select value={selectInput.label} onChange={(e) => handleLabelChange(e.target.value)}>
                         {Object.keys(labels).map(next => (
                             <option value={next} key={next}>{labels[next]}</option>
                         ))}
                     </Select>
-                    <Select placeholder="Select option" onChange={(e) => handleValuesChange(e.target.value)}>
+                    <Select value={selectInput.values} onChange={(e) => handleValuesChange(e.target.value)}>
                         {Object.keys(values).map(next => (
                             <option value={next} key={next}>{values[next]}</option>
                         ))}
@@ -57,7 +78,7 @@ const Statistics = () => {
                 </Box>
             </Flex>
             <Center width="100%" height="100%">
-                <StackedBarChart data={example()}/>
+                {handleLoading()}
             </Center>
         </Stack>
     )
