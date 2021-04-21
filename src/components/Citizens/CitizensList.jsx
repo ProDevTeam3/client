@@ -266,9 +266,8 @@ const CitizensList = () => {
           {citizens.citizens.length > 0 ? (
             citizens.citizens.map((item, i) => {
               return (
-                <Link to={`/admin/citizens/${item.PESEL}`}>
+                <Link key={item.PESEL} to={`/admin/citizens/${item.PESEL}`}>
                   <Grid
-                    key={i}
                     templateColumns="repeat(3, 1fr)"
                     textAlign="center"
                     width="100%"
