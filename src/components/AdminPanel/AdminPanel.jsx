@@ -1,8 +1,9 @@
 import { Box, Stack } from "@chakra-ui/react"
-import Statistics from "./Statistics/Statistics"
-import React, {useState} from "react";
+import React from "react";
 import PanelNavBar from "./PanelNavBar/PanelNavBar";
+import Statistics from "./Statistics/Statistics"
 import EditView from "./EditView/EditView";
+import CitizensList from "./CitizenList/CitizensList";
 
 const AdminPanel = () =>{
     return(
@@ -12,6 +13,8 @@ const AdminPanel = () =>{
             </Box>
             <Box  height="85%" width="100%">
                 {/* <Statistics/> */}
+                {/* <CitizensList/> */}
+                {/* <EditView/> */}
             </Box>
         </Stack>
     )
