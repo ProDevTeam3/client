@@ -9,8 +9,7 @@ const MenuItems = ({ children }) => (
 );
 
 const PanelNavBar = (props) => {
-
-  const {logout} = useAuth0();
+  const { logout } = useAuth0();
   const [show, setShow] = React.useState(false);
   const handleToggle = () => setShow((oldState) => !oldState);
   return (
@@ -62,7 +61,6 @@ const PanelNavBar = (props) => {
         display={{ sm: show ? "block" : "none", md: "block" }}
         mt={{ base: 4, md: 0 }}
       >
-        
         <Button
           bg="transparent"
           border="1px"
