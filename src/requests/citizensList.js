@@ -1,16 +1,13 @@
-import {defaultAxios} from "../config/axios";
+import { defaultAxios } from "../config/axios";
 
 const getAllCitizens = async (page, limit) => {
   return await defaultAxios
-    .get(
-      `/citizen/getCitizens`,
-      {
-        params: {
-          page: page,
-          limit: limit,
-        },
-      }
-    )
+    .get(`/citizen/getCitizens`, {
+      params: {
+        page: page,
+        limit: limit,
+      },
+    })
     .then((res) => {
       return res.data;
     })
@@ -21,9 +18,7 @@ const getAllCitizens = async (page, limit) => {
 
 const getCitizen = async (pesel) => {
   return await defaultAxios
-    .get(
-      `/citizen/getCitizen/${pesel}`
-    )
+    .get(`/citizen/getCitizen/${pesel}`)
     .then((res) => {
       return res.data;
     })
