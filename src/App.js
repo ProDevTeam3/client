@@ -37,7 +37,7 @@ function App() {
             component={FormOfEmploymentChart}
           />
           //! DO TESTÓW
-          <Route exact path="/citizens-list">
+          <Route exact path="/admin/citizens">
             <CitizensList />
           </Route>
           <Route exact path="/industry" component={IndustryChart} />

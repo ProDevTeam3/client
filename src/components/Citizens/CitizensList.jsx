@@ -1,22 +1,13 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Box,
   IconButton,
-  Button,
-  Tabs,
-  TabPanels,
-  TabPanel,
   Center,
-  Spacer,
-  Image,
-  CircularProgress,
-  CircularProgressLabel,
   Grid,
   Input,
   InputGroup,
   InputLeftElement,
   InputRightElement,
-  GridItem,
 } from "@chakra-ui/react";
 import {
   ArrowRightIcon,
@@ -26,10 +17,13 @@ import {
   SearchIcon,
   CheckIcon,
 } from "@chakra-ui/icons";
-import { useAuth0 } from "@auth0/auth0-react";
-import { createBreakpoints } from "@chakra-ui/theme-tools";
+import { getAllCitizens, getCitizen } from "../../requests/citizensList";
+import {
+  Link,
+} from "react-router-dom";
 
-const citizens = {
+// DANE TESTOWE
+const c = {
   citizens: [
     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
@@ -57,8 +51,9 @@ const citizens = {
     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
   ],
-  citizensCount: 25,
+  size: 25,
 };
+//
 
 const pageSize = 25;
 
@@ -67,25 +62,52 @@ const CitizensList = () => {
   const [isNextDisabled, isNextDisabledUpd] = useState(false);
   const [currentPage, currentPageUpd] = useState(1);
   const [search, searchUpd] = useState("");
+  const [citizens, citizensUpd] = useState({citizens: [], size: 0});
+
+  const getCit = async () => {
+    // !!! DODAJ KOMENTARZ ŻEBY POBIERAĆ DANE Z API !!!
+    const data =  c;
+    //
+
+    // !!! USUŃ KOMENTARZ ŻEBY POBIERAĆ DANE Z API !!!
+    // const data =  await getAllCitizens(currentPage, pageSize);
+    //
+
+    if(data !== 'Nie znaleziono obywateli'){
+      citizensUpd(data);
+    }else{
+      citizensUpd({citizens: [], size: 0});
+    }
+
+    console.log(citizens);
+  }
 
   useEffect(() => {
     if (
-      currentPage === 1 &&
-      currentPage >= Math.ceil(citizens.citizensCount / pageSize)
+      (currentPage === 1 &&
+      currentPage >= Math.ceil(citizens.size / pageSize)) || citizens.citizens.length === 0
     ) {
       isPreviousDisabledUpd(true);
       isNextDisabledUpd(true);
     } else if (currentPage === 1) {
       isPreviousDisabledUpd(true);
       isNextDisabledUpd(false);
-    } else if (currentPage >= Math.ceil(citizens.citizensCount / pageSize)) {
+    } else if (currentPage >= Math.ceil(citizens.size / pageSize)) {
       isNextDisabledUpd(true);
       isPreviousDisabledUpd(false);
     } else {
       isNextDisabledUpd(false);
       isPreviousDisabledUpd(false);
     }
+
+    getCit();
   }, [currentPage, isPreviousDisabled]);
+
+  useEffect(() => {
+    if(search.toString().length === 11){
+      
+    }
+  }, [search]);
 
   const goToPreviousPage = () => {
     currentPageUpd(parseInt(currentPage) - 1);
@@ -100,10 +122,8 @@ const CitizensList = () => {
   };
 
   const goToLastPage = () => {
-    currentPageUpd(Math.ceil(citizens.citizensCount / pageSize));
+    currentPageUpd(Math.ceil(citizens.size / pageSize));
   };
-
-  console.log(Math.ceil(citizens.citizensCount / pageSize));
 
   return (
     <Center
@@ -118,7 +138,6 @@ const CitizensList = () => {
         width={{md: "80%", base: "94%"}}
         minH="73vh"
         maxH="73vh"
-        // padding={{ sm: "0 5%", md: "0 5%", lg: "0 10%" }}
         display="flex"
         flexDir="column"
         boxShadow="xl"
@@ -154,13 +173,21 @@ const CitizensList = () => {
                   children={<SearchIcon color="gray.300" />}
                 />
                 <Input
+                  value={search}
                   type="tel"
                   placeholder="PESEL"
                   bg="white"
                   textAlign="center"
                   maxLength="11"
+                  onChange={(e) => {
+                    if (isNaN(parseInt(e.target.value))) {
+                      searchUpd("");
+                    } else {
+                      searchUpd(parseInt(e.target.value));
+                    }
+                  }}
                 />
-                <InputRightElement children={<CheckIcon color="green.400" />} />
+                <InputRightElement children={<CheckIcon color={(search.toString().length === 11 && citizens.citizens.length === 1) ? "green.400" : "gray.300"} />} />
               </InputGroup>
             </Box>
           </Box>
@@ -169,11 +196,14 @@ const CitizensList = () => {
           overflowY="auto"
           width="100%"
           padding={{ base: "0 5%", lg: "0 10%" }}
+          height="80vh"
         >
-          {citizens.citizens.map((item) => {
+          {(citizens.citizens.length > 0) ?
+          citizens.citizens.map((item, i) => {
             return (
+              <Link to={`/admin/citizens/${item.pesel}`}>
               <Grid
-                key={item.index}
+                key={i}
                 templateColumns="repeat(3, 1fr)"
                 textAlign="center"
                 width="100%"
@@ -183,14 +213,21 @@ const CitizensList = () => {
                 margin="0.7em 0"
                 bg="gray.100"
                 boxShadow="md"
-                transition="0.3s"
+                transition="box-shadow 0.2s, background-color 0.05s"
+                cursor="pointer"
                 _hover={{
                   boxShadow: "lg",
+                }}
+                _active={{
+                  bg: "gray.200"
                 }}
                 d='flex'
                 justifyContent='space-around'
                 flexDir="row"
                 flexWrap="wrap"
+                onClick={(e) => {
+                  
+                }}
               >
                 <Box d="flex" flexDir="row" padding={{base: "0 10px", sm: "0"}}>
                   <Box
@@ -230,8 +267,13 @@ const CitizensList = () => {
                   <Box>{item.lastName}</Box>
                 </Box>
               </Grid>
+              </Link>
             );
-          })}
+          })
+        :
+          <Center height="100%" fontSize='2em' color='gray.300' fontWeight="bold">
+            Nie znaleziono obywateli
+          </Center>}
         </Box>
       </Center>
       <Center paddingTop="2.5vh">
@@ -256,25 +298,6 @@ const CitizensList = () => {
               borderShadow: "none",
             }}
           />
-          {/* <Box
-            borderRadius='lg'
-            zIndex='1'
-            aria-label="Previous page"
-            size="md"
-            bg="white"
-            boxShadow="lg"
-            transition='0.3s'
-            _hover={{
-              boxShadow: "md"
-            }}
-            d="flex"
-            alignItems="center"
-            justifyContent="space-between"
-            padding="2"
-            paddingX="5"
-            fontSize='1.3em'
-            >dsadsa</Box>
-            */}
           <Input
             value={currentPage}
             width="50px"
@@ -283,22 +306,21 @@ const CitizensList = () => {
             fontSize="1.1em"
             boxShadow="md"
             padding="0"
-            onChange={(e) => {
+            onChange={async (e) => {
               if (isNaN(parseInt(e.target.value))) {
                 currentPageUpd("");
               } else {
                 currentPageUpd(parseInt(e.target.value));
+                // getCit();
               }
-              // currentPageUpd(parseInt(e.target.value));
-              console.log(parseInt(e.target.value));
             }}
             onBlur={(e) => {
               if (isNaN(parseInt(e.target.value)) || e.target.value < 1) {
                 currentPageUpd(1);
               } else if (
-                e.target.value > Math.ceil(citizens.citizensCount / pageSize)
+                e.target.value > Math.ceil(citizens.size / pageSize)
               ) {
-                currentPageUpd(Math.ceil(citizens.citizensCount / pageSize));
+                currentPageUpd(Math.ceil(citizens.size / pageSize));
               }
               console.log("REQUEST");
             }}
