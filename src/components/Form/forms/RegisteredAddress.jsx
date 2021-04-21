@@ -36,50 +36,20 @@ const RegisteredAddress = () => {
       ) : (
         <>
           <FormikField
-            name="registered_address[][street]"
-            label="Ulica:"
+            name="registered_address.country"
+            label="Kraj:"
             isRequired
-            validate={requiredValue("Ulica jest wymagana")}
+            validate={requiredValue("Kraj jest wymagany")}
+            errorPath={(errors) => errors?.registered_address?.country}
           >
             <Input type="text" />
           </FormikField>
           <FormikField
-            name="registered_address[][city]"
-            label="Miasto:"
-            isRequired
-            validate={requiredValue("Miasto jest wymagane")}
-          >
-            <Input />
-          </FormikField>
-          <FormikField
-            name="registered_address[][postal_code]"
-            label="Kod pocztowy:"
-            isRequired
-            validate={combineValidators(
-              requiredValue("Kod pocztowy jest wymagany"),
-              correctPostalCode("Kod pocztowy jest niepoprawny")
-            )}
-          >
-            <Input type="text" />
-          </FormikField>
-          <FormikField
-            name="registered_address[][district]"
-            label="Powiat:"
-            isRequired
-          >
-            <Input type="text" />
-          </FormikField>
-          <FormikField
-            name="registered_address[][commune]"
-            label="Gmina:"
-            isRequired
-          >
-            <Input type="text" />
-          </FormikField>
-          <FormikField
-            name="registered_address[][voivodeship]"
+            name="registered_address.voivodeship"
             label="Województwo:"
             isRequired
+            validate={requiredValue("Województwo jest wymagane")}
+            errorPath={(errors) => errors?.registered_address?.voivodeship}
           >
             <Select
               name="voivodeship"
@@ -92,9 +62,50 @@ const RegisteredAddress = () => {
             </Select>
           </FormikField>
           <FormikField
-            name="registered_address[][country]"
-            label="Kraj:"
+            name="registered_address.commune"
+            label="Gmina:"
             isRequired
+            validate={requiredValue("Gmina jest wymagana")}
+            errorPath={(errors) => errors?.registered_address?.commune}
+          >
+            <Input type="text" />
+          </FormikField>
+          <FormikField
+            name="registered_address.district"
+            label="Powiat:"
+            isRequired
+            validate={requiredValue("Powiat jest wymagany")}
+            errorPath={(errors) => errors?.registered_address?.district}
+          >
+            <Input type="text" />
+          </FormikField>
+          <FormikField
+            name="registered_address.city"
+            label="Miasto:"
+            isRequired
+            validate={requiredValue("Miasto jest wymagane")}
+            errorPath={(errors) => errors?.registered_address?.city}
+          >
+            <Input />
+          </FormikField>
+          <FormikField
+            name="registered_address.postal_code"
+            label="Kod pocztowy:"
+            isRequired
+            errorPath={(errors) => errors?.registered_address?.postal_code}
+            validate={combineValidators(
+              requiredValue("Kod pocztowy jest wymagany"),
+              correctPostalCode("Kod pocztowy jest niepoprawny")
+            )}
+          >
+            <Input type="text" />
+          </FormikField>
+          <FormikField
+            name="registered_address.street"
+            label="Ulica:"
+            isRequired
+            validate={requiredValue("Ulica jest wymagana")}
+            errorPath={(errors) => errors?.registered_address?.street}
           >
             <Input type="text" />
           </FormikField>
