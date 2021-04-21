@@ -88,7 +88,7 @@ const Family = (values) => {
               )}
               errorPath={(errors) => errors?.family?.[index]?.PESEL}
             >
-              <Input type="number" />
+              <Input type="text" />
             </FormikField>
             <FormikField
               name={`family.${index}.date_of_birth`}
