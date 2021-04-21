@@ -1,7 +1,7 @@
-import axios from "axios";
+import {defaultAxios} from "../config/axios";
 
 const getAllCitizens = async (page, limit) => {
-  return await axios
+  return await defaultAxios
     .get(
       `/citizen/getCitizens`,
       {
@@ -12,7 +12,6 @@ const getAllCitizens = async (page, limit) => {
       }
     )
     .then((res) => {
-      // console.log(res);
       return res.data;
     })
     .catch((err) => {
@@ -21,12 +20,11 @@ const getAllCitizens = async (page, limit) => {
 };
 
 const getCitizen = async (pesel) => {
-  return await axios
+  return await defaultAxios
     .get(
       `/citizen/getCitizen/${pesel}`
     )
     .then((res) => {
-      // console.log(res);
       return res.data;
     })
     .catch((err) => {
