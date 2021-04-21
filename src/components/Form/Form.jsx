@@ -82,7 +82,7 @@ const Form = () => {
       bg="gray.100"
       paddingTop="10"
     >
-      <Box position="absolute" top="20px" right="20px">
+      <Box position="absolute" top="20px" right="20px" zIndex='2'>
         <Button
           onClick={() => logout({ returnTo: window.location.origin })}
           bg="gray.300"
