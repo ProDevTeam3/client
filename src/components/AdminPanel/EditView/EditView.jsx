@@ -14,77 +14,17 @@ import { objectToArray, elementCheck } from "../../Form/helpers/summaryHelpers";
 import { Link } from "@chakra-ui/react"
 import { Link as ReachLink } from "react-router-dom"
 
-const EditView = (props) => { 
+const EditView = ({data}) => {
 
     const [isOpen, setIsOpen] = React.useState(false)
     const onClose = () => setIsOpen(false)
     const cancelRef = React.useRef()
 
-    const data = {
-        first_name: "john",
-        surname: "Kowalski",
-        sex: "M",
-        PESEL: "0000000000",
-        date_of_birth: "2020-01-01",
-        marital_status: "KAWALER",
-        education: "ŚREDNIE",
-        home_address: {
-          street: "Polna",
-          postal_code: "80-000",
-          city: "Gdansk",
-          district: "Gdansk",
-          commune: "Gdansk",
-          voivodeship: "Pomorskie",
-          country: "Polska",
-        },
-        registered_address: {
-          street: "Polna",
-          postal_code: "80-000",
-          city: "Gdansk",
-          district: "Gdansk",
-          commune: "Gdansk",
-          voivodeship: "Pomorskie",
-          country: "Polska",
-        },
-        company: [
-          {
-            name: "Renault",
-            NIP: "999012030213",
-            contract: [
-              {
-                type: "UOP",
-                income: 30000,
-                currency: "PLN",
-              },
-            ],
-          },
-        ],
-        family: [
-          {
-            type: "PARTNER",
-            PESEL: "0000000000",
-            date_of_birth: "2020-01-01",
-            sex: "K",
-          },
-          {
-            type: "DZIECKO",
-            PESEL: "0000000000",
-            date_of_birth: "2020-01-01",
-            sex: "M",
-          },
-        ],
-        accomodation: {
-          with_parents: true,
-          num_of_residents: 3,
-          house_type: "BLOK",
-        },
-        additional_info: {
-          internet_access: true,
-          family_income: 90000,
-          num_of_cars_in_family: 2,
-        },
-      };
-
+    const imie = data ? data.first_name : "Imie"
+    const nazwisko = data ? data.surname : "Nazwisko"
+    const daneObywatela = data ? (objectToArray(data).map((elem) => 
+      elementCheck(elem[0], elem  [1]))) : "";
+    
     return (
         <Center height="100vh" width="100vw" overflow="hidden" bg="gray.100" paddingTop="10">
         <Box
@@ -118,7 +58,7 @@ const EditView = (props) => {
                 fontSize="1.1em"
                 textAlign="center"
                 width="100%"
-            >Edycja Danych</Box>
+            >{imie} {nazwisko}</Box>
                 
             </Box>
             <Box
@@ -131,18 +71,20 @@ const EditView = (props) => {
             
                 <Box>
                     {/* <CheckData/> */}
-                    {objectToArray(data).map((elem) => elementCheck(elem[0], elem[1]))}
+                    {daneObywatela}
                 </Box>
                 <Box>
-                    <Button colorScheme="teal">
+                    <Button colorScheme="teal"
+                    margin="20px 20px">
                       <Link 
                       as={ReachLink}
                       to="/form"
-                      props={data}
+                      data={data}
                       >Edytuj</Link>
                     </Button>
                     
-                    <Button colorScheme="teal" onClick={() => setIsOpen(true)}>Usuń</Button>
+                    <Button colorScheme="red" onClick={() => setIsOpen(true)}
+                    margin="20px 20px">Usuń</Button>
                 </Box>
                 
             </Box>
