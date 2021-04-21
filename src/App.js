@@ -8,6 +8,7 @@ import Form from "./components/Form/Form";
 import { useAuth0 } from "@auth0/auth0-react";
 import Authenticating from "./components/Authenticating/Authenticating";
 import WorkingPerChart from "./charts/WorkingPerChart/WorkingPerChart";
+import CitizensList from "./components/Citizens/CitizensList";
 import StackedBarChart from "./charts/StackedBarChart/StackedBarChart";
 import EditView from "./components/AdminPanel/EditView/EditView";
 import AdminPanel from "./components/AdminPanel/AdminPanel";
@@ -25,6 +26,10 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Redirect to="/login" />
+          </Route>
+          //! DO TESTÓW
+          <Route exact path="/admin/citizens">
+            <CitizensList />
           </Route>
           <AuthRoute path="/form">
             <Form />
