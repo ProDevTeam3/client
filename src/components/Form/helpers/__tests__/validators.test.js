@@ -19,15 +19,15 @@ describe("requiredValue", () => {
 });
 
 describe("sexMatchesPESEL", () => {
-  test("Returns error text when no sex passed", () => {
+  test("Returns undefined when no sex passed", () => {
     const defaultText = "error";
     expect(sexMatchesPESEL(defaultText)(undefined, "49082134678")).toEqual(
-      defaultText
+      undefined
     );
   });
-  test("Returns error text when no PESEL passed", () => {
+  test("Returns undefined when no PESEL passed", () => {
     const defaultText = "error";
-    expect(sexMatchesPESEL(defaultText)("M", undefined)).toEqual(defaultText);
+    expect(sexMatchesPESEL(defaultText)("M", undefined)).toEqual(undefined);
   });
   test("Returns undefined if check passes", () => {
     expect(sexMatchesPESEL("error")("M", "49082134678")).toBe(undefined);
@@ -41,17 +41,17 @@ describe("sexMatchesPESEL", () => {
 });
 
 describe("dateOfBirthMatchesPESEL", () => {
-  test("Returns error text when no date passed", () => {
+  test("Returns undefined when no date passed", () => {
     const defaultText = "error";
     expect(
       dateOfBirthMatchesPESEL(defaultText)(undefined, "49082134678")
-    ).toEqual(defaultText);
+    ).toEqual(undefined);
   });
-  test("Returns error text when no PESEL passed", () => {
+  test("Returns undefined when no PESEL passed", () => {
     const defaultText = "error";
     expect(
       dateOfBirthMatchesPESEL(defaultText)("1949-08-21", undefined)
-    ).toEqual(defaultText);
+    ).toEqual(undefined);
   });
   test("Returns undefined if check passes", () => {
     expect(dateOfBirthMatchesPESEL("error")("1949-08-21", "49082134678")).toBe(

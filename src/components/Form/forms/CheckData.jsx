@@ -9,7 +9,7 @@ const CheckData = (props) => {
 
   useEffect(() => {
     getData();
-  }, [])
+  }, []);
 
   return (
     <div className="Summary">

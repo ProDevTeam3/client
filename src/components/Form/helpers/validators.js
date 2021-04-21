@@ -6,12 +6,12 @@ export const requiredValue = (text) => (value) => {
 };
 
 export const sexMatchesPESEL = (text) => (sex, pesel) => {
-  if (!sex || !pesel) return text;
+  if (!sex || !pesel) return undefined;
   return sex === getSexFromPesel(pesel) ? undefined : text;
 };
 
 export const dateOfBirthMatchesPESEL = (text) => (dateOfBirth, pesel) => {
-  if (!dateOfBirth || !pesel) return text;
+  if (!dateOfBirth || !pesel) return undefined;
   const [year, month, day] = dateOfBirth.split("-");
   const century = year.split("").slice(0, 2).join("");
   const yearEnd = year.split("").slice(2, 4).join("");
@@ -32,13 +32,13 @@ export const dateOfBirthMatchesPESEL = (text) => (dateOfBirth, pesel) => {
 
 export const PESELIsCorrect = (text) => (pesel) => {
   if (!pesel) return text;
-  if (pesel.length !== 11) return text;
+  if (`${pesel}`.length !== 11) return text;
   return checkIfPeselIsCorrect(pesel) ? undefined : text;
 };
 
 export const NIPIsCorrect = (text) => (nip) => {
   if (!nip) return text;
-  if (nip.length !== 10) return text;
+  if (`${nip}`.length !== 10) return text;
   const checkMultipliers = [6, 5, 7, 2, 3, 4, 5, 6, 7];
 
   const nipString = `${nip}`.split("");

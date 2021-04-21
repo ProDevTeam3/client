@@ -14,6 +14,11 @@ import {
 } from "@chakra-ui/react";
 import FormikField from "./FormikField";
 import { familyType } from "../../../constants/formData";
+import {
+  combineValidators,
+  PESELIsCorrect,
+  requiredValue,
+} from "../helpers/validators";
 
 const Family = (values) => {
   const [numOfFamilyMembers, setNumOfFamilyMembers] = useState(0);
@@ -42,31 +47,63 @@ const Family = (values) => {
           bg="whiteAlpha.300"
         >
           <Stack spacing={3}>
-            <FormikField name={`family[${index}][type]`} label="Pokrewieństwo:">
+            <FormikField
+              name={`family.${index}.type`}
+              label="Pokrewieństwo:"
+              isRequired
+              validate={requiredValue("Pokrewieństwo jest wymagane")}
+              errorPath={(errors) => errors?.family?.[index]?.type}
+            >
               <Select placeholder="Wybierz pokrewieństwo">
                 {familyType.map((type) => (
                   <option value={type}>{type}</option>
                 ))}
               </Select>
             </FormikField>
-            <FormikField name={`family[${index}][first_name]`} label="Imię:">
-              <Input type="text" />
-            </FormikField>
-            <FormikField name={`family[${index}][surname]`} label="Nazwisko:">
-              <Input type="text" />
-            </FormikField>
-            <FormikField name={`family[${index}][PESEL]`} label="PESEL:">
+            <FormikField
+              name={`family.${index}.first_name`}
+              label="Imię:"
+              isRequired
+              validate={requiredValue("Imię jest wymagane")}
+              errorPath={(errors) => errors?.family?.[index]?.first_name}
+            >
               <Input type="text" />
             </FormikField>
             <FormikField
-              name={`family[${index}][date_of_birth]`}
+              name={`family.${index}.surname`}
+              label="Nazwisko:"
+              isRequired
+              validate={requiredValue("Nazwisko jest wymagane")}
+              errorPath={(errors) => errors?.family?.[index]?.surname}
+            >
+              <Input type="text" />
+            </FormikField>
+            <FormikField
+              name={`family.${index}.PESEL`}
+              label="PESEL:"
+              isRequired
+              validate={combineValidators(
+                requiredValue("PESEL jest wymagany"),
+                PESELIsCorrect("PESEL jest nieprawidłowy")
+              )}
+              errorPath={(errors) => errors?.family?.[index]?.PESEL}
+            >
+              <Input type="number" />
+            </FormikField>
+            <FormikField
+              name={`family.${index}.date_of_birth`}
               label="Data urodzenia:"
+              validate={requiredValue("Data urodzenia jest wymagana")}
+              errorPath={(errors) => errors?.family?.[index]?.date_of_birth}
             >
               <Input type="date" />
             </FormikField>
             <FormikField
-              name={`family[${index}][sex]`}
+              name={`family.${index}.sex`}
               label="Płeć:"
+              isRequired
+              validate={requiredValue("Płeć jest wymagana")}
+              errorPath={(errors) => errors?.family?.[index]?.sex}
               renderChildren={({ field }) => (
                 <RadioGroup {...field}>
                   <HStack spacing="24px">
