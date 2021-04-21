@@ -30,7 +30,6 @@ function App() {
           <Route exact path="/admin/citizens">
             <CitizensList />
           </Route>
-          <Route exact path="/industry" component={IndustryChart} />
           <AuthRoute path="/form">
             <Form />
           </AuthRoute>
