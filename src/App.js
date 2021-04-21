@@ -11,6 +11,8 @@ import WorkingPerChart from "./charts/WorkingPerChart/WorkingPerChart";
 import FormOfEmploymentChart from "./charts/FormOfEmploymentChart/FormOfEmploymentChart";
 import IndustryChart from "./charts/IndustryChart/IndustryChart";
 import CitizensList from "./components/Citizens/CitizensList";
+import StackedBarChart from "./charts/StackedBarChart/StackedBarChart";
+import AdminPanel from "./components/AdminPanel/AdminPanel";
 
 function App() {
   const { isLoading } = useAuth0();
@@ -46,6 +48,7 @@ function App() {
           </AuthRoute>
           <AuthRoute children={AnkieterLogIn} exact path={"/login/ankieter"} />
           <Route exact path="/login" component={LogIn} />
+          <Route exact path="/admin" component={AdminPanel} />
         </Switch>
       </div>
     </BrowserRouter>

@@ -6,25 +6,29 @@ export const requiredValue = (text) => (value) => {
 };
 
 export const sexMatchesPESEL = (text) => (sex, pesel) => {
-  if (!sex || !pesel) return text;
+  if (!sex || !pesel) return undefined;
   return sex === getSexFromPesel(pesel) ? undefined : text;
 };
 
 export const dateOfBirthMatchesPESEL = (text) => (dateOfBirth, pesel) => {
-  if (!dateOfBirth || !pesel) return text;
+  if (!dateOfBirth || !pesel) return undefined;
   const [year, month, day] = dateOfBirth.split("-");
   const century = year.split("").slice(0, 2).join("");
   const yearEnd = year.split("").slice(2, 4).join("");
 
-  const yearWithCentury = (century === "20" ? 20 : 0) + +yearEnd;
+  const monthWithCentury = (century === "20" ? 20 : 0) + +month;
+  const correctMonthLength =
+    `${monthWithCentury}`.length === 1
+      ? `0${monthWithCentury}`
+      : `${monthWithCentury}`;
 
   const peselArray = `${pesel}`.split("");
   const peselYear = peselArray.slice(0, 2).join("");
   const peselMonth = peselArray.slice(2, 4).join("");
   const peselDay = peselArray.slice(4, 6).join("");
 
-  const yearCheck = `${yearWithCentury}` === peselYear;
-  const monthCheck = month === peselMonth;
+  const yearCheck = yearEnd === peselYear;
+  const monthCheck = correctMonthLength === peselMonth;
   const dayCheck = day === peselDay;
 
   return yearCheck && monthCheck && dayCheck ? undefined : text;
@@ -32,13 +36,13 @@ export const dateOfBirthMatchesPESEL = (text) => (dateOfBirth, pesel) => {
 
 export const PESELIsCorrect = (text) => (pesel) => {
   if (!pesel) return text;
-  if (pesel.length !== 11) return text;
+  if (`${pesel}`.length !== 11) return text;
   return checkIfPeselIsCorrect(pesel) ? undefined : text;
 };
 
 export const NIPIsCorrect = (text) => (nip) => {
   if (!nip) return text;
-  if (nip.length !== 10) return text;
+  if (`${nip}`.length !== 10) return text;
   const checkMultipliers = [6, 5, 7, 2, 3, 4, 5, 6, 7];
 
   const nipString = `${nip}`.split("");
