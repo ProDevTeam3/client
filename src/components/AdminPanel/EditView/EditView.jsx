@@ -10,13 +10,16 @@ import {
     AlertDialogOverlay,
   } from "@chakra-ui/react"
 
-  import { objectToArray, elementCheck } from "../../Form/helpers/summaryHelpers";
+import { objectToArray, elementCheck } from "../../Form/helpers/summaryHelpers";
+import { Link } from "@chakra-ui/react"
+import { Link as ReachLink } from "react-router-dom"
 
 const EditView = (props) => { 
 
     const [isOpen, setIsOpen] = React.useState(false)
     const onClose = () => setIsOpen(false)
     const cancelRef = React.useRef()
+
     const data = {
         first_name: "john",
         surname: "Kowalski",
@@ -131,7 +134,14 @@ const EditView = (props) => {
                     {objectToArray(data).map((elem) => elementCheck(elem[0], elem[1]))}
                 </Box>
                 <Box>
-                    <Button colorScheme="teal">Edytuj</Button>
+                    <Button colorScheme="teal">
+                      <Link 
+                      as={ReachLink}
+                      to="/form"
+                      props={data}
+                      >Edytuj</Link>
+                    </Button>
+                    
                     <Button colorScheme="teal" onClick={() => setIsOpen(true)}>Usuń</Button>
                 </Box>
                 
