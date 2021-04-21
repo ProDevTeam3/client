@@ -10,7 +10,11 @@ import {
   Select,
 } from "@chakra-ui/react";
 import FormikField from "./FormikField";
-import { NIPIsCorrect } from "../helpers/validators";
+import {
+  combineValidators,
+  NIPIsCorrect,
+  requiredValue,
+} from "../helpers/validators";
 import {
   contractType,
   currencies,
@@ -54,20 +58,34 @@ const Work = (values) => {
           bg="whiteAlpha.300"
         >
           <Stack spacing={3}>
-            <FormikField name={`company[${index}][name]`} label="Nazwa firmy:">
+            <FormikField
+              name={`company.${index}.name`}
+              label="Nazwa firmy:"
+              isRequired
+              validate={requiredValue("Nazwa firmy jest wymagana")}
+              errorPath={(errors) => errors?.company?.[index]?.name}
+            >
               <Input type="text" />
             </FormikField>
             <FormikField
-              name={`company[${index}][NIP]`}
+              name={`company.${index}.NIP`}
               label="NIP:"
-              validate={NIPIsCorrect("Numer NIP jest niepoprawny")}
-              renderChildren={({ field }) => (
-                <NumberInput max={9999999999}>
-                  <NumberInputField {...field} id="NIP" />
-                </NumberInput>
+              isRequired
+              validate={combineValidators(
+                requiredValue("Nazwa firmy jest wymagana")
+                // NIPIsCorrect("Numer NIP jest niepoprawny")
               )}
-            />
-            <FormikField name={`company[${index}][industry]`} label="Branża:">
+              errorPath={(errors) => errors?.company?.[index]?.NIP}
+            >
+              <Input type="number" />
+            </FormikField>
+            <FormikField
+              name={`company.${index}.industry`}
+              label="Branża:"
+              isRequired
+              validate={requiredValue("Branża jest wymagana")}
+              errorPath={(errors) => errors?.company?.[index]?.industry}
+            >
               <Select placeholder="Wybierz branżę">
                 {industryType.map((industry) => (
                   <option value={industry.code}>{industry.name}</option>
@@ -79,8 +97,13 @@ const Work = (values) => {
               {new Array(contracts).fill(0).map((_, indexContract) => (
                 <Stack spacing={3} marginBottom={6}>
                   <FormikField
-                    name={`company[${index}][contract][${indexContract}][type]`}
+                    name={`company.${index}.contract.${indexContract}.type`}
                     label="Typ umowy:"
+                    isRequired
+                    validate={requiredValue("Typ umowy jest wymagany")}
+                    errorPath={(errors) =>
+                      errors?.company?.[index]?.contract?.[indexContract]?.type
+                    }
                   >
                     <Select placeholder="Wybierz typ umowy">
                       {contractType.map((contract) => (
@@ -89,17 +112,27 @@ const Work = (values) => {
                     </Select>
                   </FormikField>
                   <FormikField
-                    name={`company[${index}][contract][${indexContract}][income]`}
+                    name={`company.${index}.contract.${indexContract}.income`}
                     label="Dochód:"
-                    renderChildren={({ field }) => (
-                      <NumberInput max={9999999999}>
-                        <NumberInputField {...field} id="NIP" />
-                      </NumberInput>
-                    )}
-                  />
+                    isRequired
+                    validate={requiredValue("Typ umowy jest wymagany")}
+                    errorPath={(errors) =>
+                      errors?.company?.[index]?.contract?.[indexContract]
+                        ?.income
+                    }
+                  >
+                    <Input type="number" />
+                  </FormikField>
+
                   <FormikField
-                    name={`company[${index}][contract][${indexContract}][currency]`}
+                    name={`company.${index}.contract.${indexContract}.currency`}
                     label="Waluta:"
+                    isRequired
+                    validate={requiredValue("Waluta jest wymagana")}
+                    errorPath={(errors) =>
+                      errors?.company?.[index]?.contract?.[indexContract]
+                        ?.currency
+                    }
                   >
                     <Select placeholder="Wybierz walutę">
                       {currencies.map((currency) => (

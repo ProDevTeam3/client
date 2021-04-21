@@ -26,7 +26,6 @@ import AdditionalInfo from "./forms/AdditionalInfo";
 import CheckData from "./forms/CheckData";
 import { FormStrings } from "../../constants/strings";
 import { useAuth0 } from "@auth0/auth0-react";
-import { createBreakpoints } from "@chakra-ui/theme-tools"
 
 const formsSections = [
   "Dane osobowe",
@@ -51,16 +50,18 @@ const formComponents = [
   CheckData,
 ];
 
-const breakpoints = createBreakpoints({
-  sm: "500px",
-  md: "768px",
-})
-
 const Form = () => {
   const [formIndex, setFormIndex] = useState(0);
   const maxIndex = formsSections.length - 1;
 
-  const goToNextPage = () => setFormIndex(addOneToIndex);
+  const goToNextPage = () => {
+    formikRef.current.validateForm();
+    setTimeout(() => {
+      if (formikRef.current.isValid) {
+        setFormIndex(addOneToIndex);
+      }
+    }, 50);
+  };
   const goToPreviousPage = () => setFormIndex(subtractOneFromIndex);
 
   const formikRef = useRef();
@@ -74,28 +75,37 @@ const Form = () => {
   const { logout } = useAuth0();
 
   return (
-    <Center height="100vh" width="100vw" overflow="hidden" bg="gray.100" paddingTop="10">
+    <Center
+      height="100vh"
+      width="100vw"
+      overflow="hidden"
+      bg="gray.100"
+      paddingTop="10"
+    >
       <Box position="absolute" top="20px" right="20px">
-        <Button onClick={() => logout({ returnTo: window.location.origin })} bg="gray.300">
+        <Button
+          onClick={() => logout({ returnTo: window.location.origin })}
+          bg="gray.300"
+        >
           Wyloguj się
         </Button>
       </Box>
       <Box
-          position="absolute"
-          top="0"
-          justifyContent={{base: "left", md: "center"}}
-          d="flex"
-          width="100%"
-          padding={{base: "27px 5%", sm: "20px 5%", md: "20px 0"}}
-        >
-          <Image
-            objectFit="cover"
-            src={GUSLogo}
-            alt="GUS Logo"
-            width={{base: "190px", sm: "300px", md: "300px"}}
-            filter="grayscale(100%) opacity(30%)"
-          />
-        </Box>
+        position="absolute"
+        top="0"
+        justifyContent={{ base: "left", md: "center" }}
+        d="flex"
+        width="100%"
+        padding={{ base: "27px 5%", sm: "20px 5%", md: "20px 0" }}
+      >
+        <Image
+          objectFit="cover"
+          src={GUSLogo}
+          alt="GUS Logo"
+          width={{ base: "190px", sm: "300px", md: "300px" }}
+          filter="grayscale(100%) opacity(30%)"
+        />
+      </Box>
       <Box
         boxShadow="xl"
         width="100%"
@@ -146,16 +156,23 @@ const Form = () => {
         </Box>
         <Box overflowY="auto">
           <Formik
+            isInitialValid={false}
+            innerRef={formikRef}
             initialValues={{}}
             validate={(values) => {
               const errors = {};
-              errors.sex = sexMatchesPESEL("Płeć nie pasuje do numeru PESEL")(
-                values.sex,
-                values.PESEL
-              );
-              errors.date_of_birth = dateOfBirthMatchesPESEL(
+              const sexError = sexMatchesPESEL(
+                "Płeć nie pasuje do numeru PESEL"
+              )(values.sex, values.PESEL);
+              if (sexError) {
+                errors.sex = sexError;
+              }
+              const dateError = dateOfBirthMatchesPESEL(
                 "Data urodzenia nie pasuje do numeru PESEL"
               )(values.date_of_birth, values.PESEL);
+              if (dateError) {
+                errors.date_of_birth = dateError;
+              }
               return errors;
             }}
             onSubmit={(values, { setSubmitting }) => {
@@ -165,10 +182,7 @@ const Form = () => {
               }, 400);
             }}
           >
-            {({ handleSubmit, values }) => {
-              if (formikRef.current === undefined) {
-                formikRef.current = handleSubmit;
-              }
+            {({ values }) => {
               return (
                 <FormikForm>
                   <Tabs index={formIndex} isLazy>
@@ -202,7 +216,11 @@ const Form = () => {
           <Button
             colorScheme="teal"
             aria-label="Next page"
-            onClick={isNextDisabled ? () => formikRef.current() : goToNextPage}
+            onClick={
+              isNextDisabled
+                ? () => formikRef.current.handleSubmit()
+                : goToNextPage
+            }
             icon={<ArrowForwardIcon />}
           >
             {isNextDisabled
