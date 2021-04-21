@@ -21,39 +21,6 @@ import {
 import { getAllCitizens, getCitizen } from "../../requests/citizensList";
 import { Link } from "react-router-dom";
 
-// DANE TESTOWE
-// const c = {
-//   citizens: [
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//     { name: "Marek", lastName: "Kowalski", pesel: "12345678900" },
-//   ],
-//   size: 25,
-// };
-//
-
 const pageSize = 25;
 
 const CitizensList = () => {
@@ -65,13 +32,7 @@ const CitizensList = () => {
   const [citizens, citizensUpd] = useState({ citizens: [], size: 1 });
 
   const getCit = async () => {
-    // !!! DODAJ KOMENTARZ ŻEBY POBIERAĆ DANE Z API !!!
-    // const data =  c;
-    //
-
-    // !!! USUŃ KOMENTARZ ŻEBY POBIERAĆ DANE Z API !!!
     const data = await getAllCitizens(currentPage - 1, pageSize);
-    //
 
     if (data !== "Nie znaleziono obywateli") {
       citizensUpd(data);
