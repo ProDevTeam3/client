@@ -1,23 +1,28 @@
-import { Box, Stack } from "@chakra-ui/react"
-import React from "react";
+import { Box, Stack } from "@chakra-ui/react";
+import React, { useEffect } from "react";
 import PanelNavBar from "./PanelNavBar/PanelNavBar";
-import Statistics from "./Statistics/Statistics"
-import EditView from "./EditView/EditView";
-import CitizensList from "./CitizenList/CitizensList";
+import PanelMain from "./PanelMain/PanelMain";
+import NoPermission from "../NoPermission/NoPermission";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const AdminPanel = () =>{
-    return(
-        <Stack height="100vh" width="100vw">
-            <Box height="15%" width="100%">
-                <PanelNavBar/>
-            </Box>
-            <Box  height="85%" width="100%">
-                {/* <Statistics/> */}
-                {/* <CitizensList/> */}
-                {/* <EditView/> */}
-            </Box>
-        </Stack>
-    )
-}
+    const { user, isLoading, isAuthenticated } = useAuth0();
 
+    if (isAuthenticated && !isLoading && user["https://prodevteam-spis.com/authorization"].groups.includes("Admin")){
+        return(
+            <Stack width="100vw">
+                <Box height="12vh" width="100%">
+                    <PanelNavBar/>
+                </Box>
+                <Box style={{marginTop:"0"}} height="88vh" width="100%">
+                    <PanelMain/>
+                </Box>
+            </Stack>
+        )
+    }else{
+        return(
+            <NoPermission/>
+        )
+    }
+}
 export default AdminPanel;
