@@ -55,7 +55,7 @@ const formComponents = [
 
 const Form = () => {
   const [formIndex, setFormIndex] = useState(0);
-  const { logout } = useAuth0();
+  const { logout, user } = useAuth0();
   const [handleSubmitForm, Dialog] = useHandleFormSubmit();
 
   const maxIndex = formsSections.length - 1;
@@ -77,8 +77,6 @@ const Form = () => {
 
   const GUSLogo =
     "https://spis.gov.pl/wp-content/uploads/2021/01/cropped-logo-nsp.png";
-
-  const { logout, user } = useAuth0();
 
   return (
     <Center
