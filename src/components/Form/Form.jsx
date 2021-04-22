@@ -189,7 +189,7 @@ const Form = () => {
                     <TabPanels>
                       {formComponents.map((component, index) => (
                         <TabPanel key={component.name}>
-                          {component(values)}
+                          {component({ values, ref: formikRef })}
                         </TabPanel>
                       ))}
                     </TabPanels>
