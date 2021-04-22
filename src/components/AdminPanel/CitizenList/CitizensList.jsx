@@ -18,7 +18,7 @@ import {
   CheckIcon,
   SmallCloseIcon,
 } from "@chakra-ui/icons";
-import { getAllCitizens, getCitizen } from "../../requests/citizensList";
+import { getAllCitizens, getCitizen } from "../../../requests/citizensList";
 import { Link } from "react-router-dom";
 
 const pageSize = 25;
