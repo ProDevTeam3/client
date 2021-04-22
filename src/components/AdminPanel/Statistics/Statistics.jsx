@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Box, Stack, Select, Flex, Center, Spinner } from "@chakra-ui/react";
+import { Box, Select, Center, Spinner, Tooltip } from "@chakra-ui/react";
 import StackedBarChart from "../../../charts/StackedBarChart/StackedBarChart";
 import { defaultAxios } from "../../../config/axios";
 
@@ -65,10 +65,20 @@ const Statistics = () => {
     );
 
   return (
-    <Stack height="100%" width="100%">
-      <Flex justify="center">
-        <Box width="50%">
+    <Center
+      width="100%"
+      bg="gray.100"
+      minH="100%"
+      maxH="100%"
+      d="flex"
+      flexDir="column">
+        <Box width={{ md: "80%", base: "94%" }} boxShadow="xl" borderRadius="lg">
+      <Center justify="center" bg="teal" width="100%" borderTopRadius="lg" height="10vh" >
+        <Box width="100%" display="flex" justifyContent="space-evenly">
+          <Tooltip hasArrow label="Pogrupuj po">
           <Select
+            width="35%"
+            bg="white"
             value={selectInput.label}
             onChange={(e) => handleLabelChange(e.target.value)}
           >
@@ -78,7 +88,11 @@ const Statistics = () => {
               </option>
             ))}
           </Select>
+          </Tooltip>
+          <Tooltip hasArrow label="Wybierz wartość">
           <Select
+            width="35%"
+            bg="white"
             value={selectInput.values}
             onChange={(e) => handleValuesChange(e.target.value)}
           >
@@ -88,12 +102,14 @@ const Statistics = () => {
               </option>
             ))}
           </Select>
+          </Tooltip>
         </Box>
-      </Flex>
-      <Center width="100%" height="100%">
+      </Center>
+      <Center width="100%" height="67.5vh" bg="white" borderBottomRadius="lg">
         {handleLoading()}
       </Center>
-    </Stack>
+      </Box>
+    </Center>
   );
 };
 
