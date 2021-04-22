@@ -7,7 +7,7 @@ COPY ./maps/fusioncharts.poland.js ./node_modules/fusioncharts/maps
 COPY . .
 ENV REACT_APP_AUTH0_CLIENT_ID=z1EIu9fLYNPG3GZkCRCDcv5zLdMDbwnZ
 ENV REACT_APP_AUTH0_DOMAIN=prodevteam.eu.auth0.com
-ENV REACT_APP_API_HOST=http://localhost:5000
+ENV REACT_APP_API_HOST=https://prodevteam3.ml:5000
 RUN yarn build
 
 FROM nginx:alpine

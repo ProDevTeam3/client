@@ -28,6 +28,7 @@ import { FormStrings } from "../../constants/strings";
 import { useAuth0 } from "@auth0/auth0-react";
 import { Link } from "react-router-dom";
 import AuthRoute from "../AuthRoute/AuthRoute";
+import useHandleFormSubmit from "./helpers/useHandleFormSubmit";
 
 const formsSections = [
   "Dane osobowe",
@@ -54,6 +55,9 @@ const formComponents = [
 
 const Form = () => {
   const [formIndex, setFormIndex] = useState(0);
+  const { logout, user } = useAuth0();
+  const [handleSubmitForm, Dialog] = useHandleFormSubmit();
+
   const maxIndex = formsSections.length - 1;
 
   const goToNextPage = () => {
@@ -73,8 +77,6 @@ const Form = () => {
 
   const GUSLogo =
     "https://spis.gov.pl/wp-content/uploads/2021/01/cropped-logo-nsp.png";
-
-  const { logout, user } = useAuth0();
 
   return (
     <Center
@@ -212,10 +214,8 @@ const Form = () => {
               return errors;
             }}
             onSubmit={(values, { setSubmitting }) => {
-              setTimeout(() => {
-                alert(JSON.stringify(values, null, 2));
-                setSubmitting(false);
-              }, 400);
+              handleSubmitForm(values);
+              setSubmitting(false);
             }}
           >
             {({ values }) => {
@@ -265,6 +265,7 @@ const Form = () => {
           </Button>
         </Box>
       </Box>
+      <Dialog />
     </Center>
   );
 };

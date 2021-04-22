@@ -2,14 +2,12 @@ import { Button } from "@chakra-ui/button";
 import React, { useState, useEffect } from "react";
 import { objectToArray, elementCheck } from "../helpers/summaryHelpers";
 
-const CheckData = ({ values }) => {
+const CheckData = ({ ref }) => {
   const [data, setData] = useState([]);
 
-  const getData = () => setData(objectToArray(values));
-
-  useEffect(() => {
-    getData();
-  }, []);
+  const getData = () => {
+    setData(objectToArray(ref?.current?.values))
+  };
 
   return (
     <div className="Summary">

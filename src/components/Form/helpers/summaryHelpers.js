@@ -36,6 +36,7 @@ const name_converts = {
   family_income: "Łączny dochód rodziny",
   num_of_cars_in_family: "Liczba pojazdów w rodzinie",
   disability: "Niepełnosprawność",
+  nationality: "Narodowość",
 };
 const change_name = (name) => {
   const arr = objectToArray(name_converts);
