@@ -1,7 +1,7 @@
 export const voivodeship = {
-  "DOLNOŚLĄSKIE": {
-    "bolesławiecki": {
-      "Bolesławiec": [
+  DOLNOŚLĄSKIE: {
+    bolesławiecki: {
+      Bolesławiec: [
         "Kraśnik Dolny",
         "Nowa Wieś",
         "Golnice",
@@ -44,9 +44,9 @@ export const voivodeship = {
         "Nowa Oleszna",
         "Laskowice",
         "Koźminek",
-        "Buczek"
+        "Buczek",
       ],
-      "Gromadka": [
+      Gromadka: [
         "Wierzbowa",
         "Motyle",
         "Borówki",
@@ -59,9 +59,9 @@ export const voivodeship = {
         "Gromadka",
         "Różyniec",
         "Przedwsie",
-        "Zając"
+        "Zając",
       ],
-      "Nowogrodziec": [
+      Nowogrodziec: [
         "Czerna",
         "Zagajnik",
         "Wykroty",
@@ -81,9 +81,9 @@ export const voivodeship = {
         "Karbiec",
         "Lesieniec",
         "Smogórsko",
-        "Bieniec"
+        "Bieniec",
       ],
-      "Osiecznica": [
+      Osiecznica: [
         "Przejęsław",
         "Kliczków",
         "Ławszowa",
@@ -101,7 +101,7 @@ export const voivodeship = {
         "Stara Wieś",
         "Wesoła",
         "Luboszów",
-        "Leśny Dwór"
+        "Leśny Dwór",
       ],
       "Warta Bolesławiecka": [
         "Szczytnica",
@@ -117,14 +117,12 @@ export const voivodeship = {
         "Polanka",
         "Lubkówek",
         "Tomaszów Dolny",
-        "Iwiny-Osiedle"
-      ]
-    },
-    "dzierżoniowski": {
-      "Bielawa": [
-        "Bielawa"
+        "Iwiny-Osiedle",
       ],
-      "Dzierżoniów": [
+    },
+    dzierżoniowski: {
+      Bielawa: ["Bielawa"],
+      Dzierżoniów: [
         "Mościsko",
         "Dobrocin",
         "Jędrzejowice",
@@ -147,9 +145,9 @@ export const voivodeship = {
         "Byszów",
         "Dębowa Góra",
         "Dobrocinek",
-        "Kołaczów"
+        "Kołaczów",
       ],
-      "Pieszyce": [
+      Pieszyce: [
         "Bratoszów",
         "Kamionki",
         "Piskorzów",
@@ -159,15 +157,10 @@ export const voivodeship = {
         "Lasocin",
         "Padole",
         "Potoczek",
-        "Szczytów"
+        "Szczytów",
       ],
-      "Piława Górna": [
-        "Piława Górna",
-        "Kośmin",
-        "Kopanica",
-        "Kalinów"
-      ],
-      "Łagiewniki": [
+      "Piława Górna": ["Piława Górna", "Kośmin", "Kopanica", "Kalinów"],
+      Łagiewniki: [
         "Przystronie",
         "Ratajno",
         "Sieniawka",
@@ -187,9 +180,9 @@ export const voivodeship = {
         "Domaszów",
         "Mniowice",
         "Domanice",
-        "Stoszów"
+        "Stoszów",
       ],
-      "Niemcza": [
+      Niemcza: [
         "Przerzeczyn-Zdrój",
         "Wilków Wielki",
         "Gilów",
@@ -210,11 +203,11 @@ export const voivodeship = {
         "Borowe",
         "Piotrkówek",
         "Jasin",
-        "Piotrków"
-      ]
+        "Piotrków",
+      ],
     },
-    "głogowski": {
-      "Głogów": [
+    głogowski: {
+      Głogów: [
         "Grodziec Mały",
         "Ruszowice",
         "Przedmoście",
@@ -227,9 +220,9 @@ export const voivodeship = {
         "Serby",
         "Wilków",
         "Zabornia",
-        "Bytnik"
+        "Bytnik",
       ],
-      "Jerzmanowa": [
+      Jerzmanowa: [
         "Gaiki",
         "Jerzmanowa",
         "Jaczów",
@@ -242,9 +235,9 @@ export const voivodeship = {
         "Smardzów",
         "Kurów Mały",
         "Zofiówka",
-        "Golowice"
+        "Golowice",
       ],
-      "Kotla": [
+      Kotla: [
         "Grochowice",
         "Kotla",
         "Moszowice",
@@ -264,9 +257,9 @@ export const voivodeship = {
         "Zaszków",
         "Skórzyn",
         "Skidniówek",
-        "Dorzecze"
+        "Dorzecze",
       ],
-      "Pęcław": [
+      Pęcław: [
         "Kotowice",
         "Białołęka",
         "Piersna",
@@ -282,9 +275,9 @@ export const voivodeship = {
         "Golkowice",
         "Chwaliszewo",
         "Turów",
-        "Igłowice"
+        "Igłowice",
       ],
-      "Żukowice": [
+      Żukowice: [
         "Nielubia",
         "Brzeg Głogowski",
         "Glinica",
@@ -304,11 +297,11 @@ export const voivodeship = {
         "Mierzów",
         "Szczepów",
         "Góra Świętej Anny",
-        "Wiekowice"
-      ]
+        "Wiekowice",
+      ],
     },
-    "górowski": {
-      "Góra": [
+    górowski: {
+      Góra: [
         "Radosław",
         "Ryczeń",
         "Sławęcice",
@@ -357,9 +350,9 @@ export const voivodeship = {
         "Bylica",
         "Dziczek",
         "Różany",
-        "Kuklice"
+        "Kuklice",
       ],
-      "Jemielno": [
+      Jemielno: [
         "Bieliszów",
         "Ciechanów",
         "Łęczyca",
@@ -391,9 +384,9 @@ export const voivodeship = {
         "Raczki",
         "Kietlów",
         "Świerki",
-        "Gąsior"
+        "Gąsior",
       ],
-      "Niechlów": [
+      Niechlów: [
         "Niechlów",
         "Naratów",
         "Siciny",
@@ -415,9 +408,9 @@ export const voivodeship = {
         "Szaszorowice",
         "Tarpno",
         "Wioska",
-        "Klimontów"
+        "Klimontów",
       ],
-      "Wąsosz": [
+      Wąsosz: [
         "Drozdowice Wielkie",
         "Gola Wąsoska",
         "Sułów Wielki",
@@ -463,15 +456,12 @@ export const voivodeship = {
         "Sądowel",
         "Podmieście",
         "Sułów Wielki",
-        "Młynary"
-      ]
-    },
-    "jaworski": {
-      "Jawor": [
-        "Jawor",
-        "Stary Jawor"
+        "Młynary",
       ],
-      "Bolków": [
+    },
+    jaworski: {
+      Jawor: ["Jawor", "Stary Jawor"],
+      Bolków: [
         "Kaczorów",
         "Jastrowiec",
         "Sady Górne",
@@ -495,9 +485,9 @@ export const voivodeship = {
         "Figlów",
         "Bolków-Zdrój",
         "Dolinka",
-        "Radzimowice"
+        "Radzimowice",
       ],
-      "Męcinka": [
+      Męcinka: [
         "Sichówek",
         "Męcinka",
         "Słup",
@@ -517,9 +507,9 @@ export const voivodeship = {
         "Piotrowice-Osiedle",
         "Słup-Osiedle",
         "Bogaczów",
-        "Raczyce"
+        "Raczyce",
       ],
-      "Mściwojów": [
+      Mściwojów: [
         "Mściwojów",
         "Grzegorzów",
         "Marcinowice",
@@ -534,9 +524,9 @@ export const voivodeship = {
         "Luboradz",
         "Rybno",
         "Snowidza Dolna",
-        "Snowidza Górna"
+        "Snowidza Górna",
       ],
-      "Paszowice": [
+      Paszowice: [
         "Bolkowice",
         "Nowa Wieś Wielka",
         "Grobla",
@@ -553,7 +543,7 @@ export const voivodeship = {
         "Siedmica",
         "Osiębórz",
         "Kamienica",
-        "Kobylica"
+        "Kobylica",
       ],
       "Wądroże Wielkie": [
         "Wądroże Małe",
@@ -576,31 +566,25 @@ export const voivodeship = {
         "Sobolew",
         "Przybędów",
         "Dobrzany",
-        "Augustów"
-      ]
+        "Augustów",
+      ],
     },
-    "karkonoski": {
-      "Karpacz": [
+    karkonoski: {
+      Karpacz: [
         "Karpacz",
         "Płóczki",
         "Wilcza Poręba",
         "Budniki",
         "Wodna",
-        "Karpacz Górny"
+        "Karpacz Górny",
       ],
-      "Kowary": [
-        "Kowary",
-        "Wojków",
-        "Krzaczyna",
-        "Podgórze",
-        "Radociny"
-      ],
-      "Piechowice": [
+      Kowary: ["Kowary", "Wojków", "Krzaczyna", "Podgórze", "Radociny"],
+      Piechowice: [
         "Piechowice",
         "Pakoszów",
         "Michałowice",
         "Piastów",
-        "Górzyniec"
+        "Górzyniec",
       ],
       "Szklarska Poręba": [
         "Szklarska Poręba",
@@ -613,7 +597,7 @@ export const voivodeship = {
         "Biała Dolina",
         "Marysin",
         "Orle",
-        "Białka"
+        "Białka",
       ],
       "Janowice Wielkie": [
         "Trzcińsko",
@@ -622,7 +606,7 @@ export const voivodeship = {
         "Radomierz",
         "Janowice Wielkie",
         "Miedzianka",
-        "Chałupy"
+        "Chałupy",
       ],
       "Jeżów Sudecki": [
         "Czernica",
@@ -634,9 +618,9 @@ export const voivodeship = {
         "Płoszczyna",
         "Wrzeszczyn",
         "Płoszczynka",
-        "Łapiguz"
+        "Łapiguz",
       ],
-      "Mysłakowice": [
+      Mysłakowice: [
         "Karpniki",
         "Wojanów",
         "Krogulec",
@@ -655,9 +639,9 @@ export const voivodeship = {
         "Gąska",
         "Jeżyny",
         "Popów",
-        "Skiba"
+        "Skiba",
       ],
-      "Podgórzyn": [
+      Podgórzyn: [
         "Głębock",
         "Miłków",
         "Staniszów",
@@ -676,7 +660,7 @@ export const voivodeship = {
         "Radzicz",
         "Raszków",
         "Sosnowica",
-        "Suchy Świerk"
+        "Suchy Świerk",
       ],
       "Stara Kamienica": [
         "Mała Kamienica",
@@ -692,10 +676,10 @@ export const voivodeship = {
         "Sosnka",
         "Kopanina",
         "Jaroszyce",
-        "Międzylesie"
-      ]
+        "Międzylesie",
+      ],
     },
-    "kamiennogórski": {
+    kamiennogórski: {
       "Kamienna Góra": [
         "Pisarzowice",
         "Czadrów",
@@ -717,9 +701,9 @@ export const voivodeship = {
         "Szarocin",
         "Leszczyniec",
         "Olszyny",
-        "Dębrznik"
+        "Dębrznik",
       ],
-      "Lubawka": [
+      Lubawka: [
         "Błażejów",
         "Okrzeszyn",
         "Paczyn",
@@ -736,9 +720,9 @@ export const voivodeship = {
         "Niedamirów",
         "Lubawka",
         "Jurkowice",
-        "Ulanowice"
+        "Ulanowice",
       ],
-      "Marciszów": [
+      Marciszów: [
         "Marciszów",
         "Sędzisław",
         "Nagórnik",
@@ -748,10 +732,10 @@ export const voivodeship = {
         "Wieściszowice",
         "Ciechanowice",
         "Pustelnik",
-        "Częstocin"
-      ]
+        "Częstocin",
+      ],
     },
-    "kłodzki": {
+    kłodzki: {
       "Duszniki-Zdrój": [
         "Duszniki-Zdrój",
         "Dolina Strążycka",
@@ -759,9 +743,9 @@ export const voivodeship = {
         "Kozicowa Hala",
         "Zieleniec",
         "Podgórze",
-        "Wapienniki"
+        "Wapienniki",
       ],
-      "Kłodzko": [
+      Kłodzko: [
         "Krosnowice",
         "Ołdrzychowice Kłodzkie",
         "Podzamek",
@@ -804,7 +788,7 @@ export const voivodeship = {
         "Rybie",
         "Siemków",
         "Siodłków",
-        "Gaj"
+        "Gaj",
       ],
       "Kudowa-Zdrój": [
         "Kudowa-Zdrój",
@@ -814,7 +798,7 @@ export const voivodeship = {
         "Czermna",
         "Jakubowice",
         "Słone",
-        "Zakrze"
+        "Zakrze",
       ],
       "Nowa Ruda": [
         "Świerki",
@@ -875,13 +859,9 @@ export const voivodeship = {
         "Podlesie",
         "Bożków",
         "Buczyna",
-        "Przygórze"
+        "Przygórze",
       ],
-      "Polanica-Zdrój": [
-        "Polanica-Zdrój",
-        "Nowy Wielisław",
-        "Sokołówka"
-      ],
+      "Polanica-Zdrój": ["Polanica-Zdrój", "Nowy Wielisław", "Sokołówka"],
       "Bystrzyca Kłodzka": [
         "Lasówka",
         "Młoty",
@@ -931,7 +911,7 @@ export const voivodeship = {
         "Pokrzywno",
         "Stara Bystrzyca",
         "Stara Łomnica",
-        "Góra Igliczna"
+        "Góra Igliczna",
       ],
       "Lądek-Zdrój": [
         "Konradów",
@@ -946,7 +926,7 @@ export const voivodeship = {
         "Wrzosówka",
         "Stójków",
         "Lądek-Zdrój",
-        "Skowronki"
+        "Skowronki",
       ],
       "Lewin Kłodzki": [
         "Dańczów",
@@ -965,9 +945,9 @@ export const voivodeship = {
         "Kocioł",
         "Lewin Kłodzki",
         "Zielone Ludowe",
-        "Zimne Wody"
+        "Zimne Wody",
       ],
-      "Międzylesie": [
+      Międzylesie: [
         "Jaworek",
         "Niemojów",
         "Pisary",
@@ -989,9 +969,9 @@ export const voivodeship = {
         "Nowa Wieś",
         "Długopole Górne",
         "Domaszków",
-        "Międzylesie"
+        "Międzylesie",
       ],
-      "Radków": [
+      Radków: [
         "Ratno Dolne",
         "Karłów",
         "Suszyna",
@@ -1023,7 +1003,7 @@ export const voivodeship = {
         "Bemowo",
         "Nowy Świat",
         "Ratno-Wambierzyce",
-        "Księżno"
+        "Księżno",
       ],
       "Stronie Śląskie": [
         "Stronie Śląskie",
@@ -1041,9 +1021,9 @@ export const voivodeship = {
         "Stary Gierałtów",
         "Goszów",
         "Rogóżka",
-        "Stronie Śląskie"
+        "Stronie Śląskie",
       ],
-      "Szczytna": [
+      Szczytna: [
         "Niwa",
         "Chocieszów",
         "Łężyce",
@@ -1061,11 +1041,11 @@ export const voivodeship = {
         "Borek",
         "Bystra",
         "Ocieszów",
-        "Szczytnik"
-      ]
+        "Szczytnik",
+      ],
     },
-    "legnicki": {
-      "Chojnów": [
+    legnicki: {
+      Chojnów: [
         "Michów",
         "Okmiany",
         "Biała",
@@ -1101,9 +1081,9 @@ export const voivodeship = {
         "Targoszyce",
         "Kobiałka",
         "Brzozy",
-        "Dębrzyna"
+        "Dębrzyna",
       ],
-      "Krotoszyce": [
+      Krotoszyce: [
         "Babin",
         "Białka",
         "Kozice",
@@ -1125,9 +1105,9 @@ export const voivodeship = {
         "Kościelec",
         "Święciany",
         "Smokowice",
-        "Leśniki"
+        "Leśniki",
       ],
-      "Kunice": [
+      Kunice: [
         "Jaśkowice Legnickie",
         "Kunice",
         "Bieniowice",
@@ -1141,7 +1121,7 @@ export const voivodeship = {
         "Piotrówek",
         "Ziemnice",
         "Rybin",
-        "Szczytniki Małe"
+        "Szczytniki Małe",
       ],
       "Legnickie Pole": [
         "Taczalin",
@@ -1163,9 +1143,9 @@ export const voivodeship = {
         "Mąkolice",
         "Psary",
         "Janiszów",
-        "Racimierz"
+        "Racimierz",
       ],
-      "Miłkowice": [
+      Miłkowice: [
         "Dobrzejów",
         "Jakuszów",
         "Siedliska",
@@ -1181,9 +1161,9 @@ export const voivodeship = {
         "Kochlice",
         "Miłkowice",
         "Bobrów",
-        "Grzymalin"
+        "Grzymalin",
       ],
-      "Prochowice": [
+      Prochowice: [
         "Golanka Dolna",
         "Mierzowice",
         "Dąbie",
@@ -1197,9 +1177,9 @@ export const voivodeship = {
         "Prochowice",
         "Szczedrzykowice-Stacja",
         "Cichobórz",
-        "Chwalkowice"
+        "Chwalkowice",
       ],
-      "Ruja": [
+      Ruja: [
         "Janowice",
         "Ruja",
         "Strzałkowice",
@@ -1211,11 +1191,11 @@ export const voivodeship = {
         "Lasowice",
         "Rogoźnik",
         "Tyniec Legnicki",
-        "Dzierżkowice"
-      ]
+        "Dzierżkowice",
+      ],
     },
-    "lubański": {
-      "Lubań": [
+    lubański: {
+      Lubań: [
         "Jałowiec",
         "Kościelniki Dolne",
         "Radostów Średni",
@@ -1229,7 +1209,7 @@ export const voivodeship = {
         "Mściszów",
         "Nawojów Łużycki",
         "Nawojów Śląski",
-        "Żołądź"
+        "Żołądź",
       ],
       "Świeradów-Zdrój": [
         "Świeradów-Zdrój",
@@ -1239,9 +1219,9 @@ export const voivodeship = {
         "Podgórna",
         "Kamieniec",
         "Łęczyna",
-        "Ulicko"
+        "Ulicko",
       ],
-      "Leśna": [
+      Leśna: [
         "Świecie",
         "Bartoszówka",
         "Kościelniki Górne",
@@ -1270,9 +1250,9 @@ export const voivodeship = {
         "Pczelin",
         "Jurków",
         "Janówka",
-        "Sucha"
+        "Sucha",
       ],
-      "Olszyna": [
+      Olszyna: [
         "Biedrzychowice",
         "Bożkowice",
         "Grodnica",
@@ -1284,16 +1264,10 @@ export const voivodeship = {
         "Zapusta",
         "Olszyna",
         "Sowia Chata",
-        "Rajsko"
+        "Rajsko",
       ],
-      "Platerówka": [
-        "Przylasek",
-        "Platerówka",
-        "Włosień",
-        "Zalipie",
-        "Lipnik"
-      ],
-      "Siekierczyn": [
+      Platerówka: ["Przylasek", "Platerówka", "Włosień", "Zalipie", "Lipnik"],
+      Siekierczyn: [
         "Nowa Karczma",
         "Rudzica",
         "Wesołówka",
@@ -1304,11 +1278,11 @@ export const voivodeship = {
         "Zaręba Górna",
         "Zaręba Dolna",
         "Pisaczów",
-        "Ponikowo"
-      ]
+        "Ponikowo",
+      ],
     },
-    "lubiński": {
-      "Lubin": [
+    lubiński: {
+      Lubin: [
         "Chróstnik",
         "Czerniec",
         "Miłoradzice",
@@ -1346,9 +1320,9 @@ export const voivodeship = {
         "Lubków",
         "Owczary",
         "Podgórze",
-        "Bolanów"
+        "Bolanów",
       ],
-      "Rudna": [
+      Rudna: [
         "Nieszczyce",
         "Gawrony",
         "Juszowice",
@@ -1380,9 +1354,9 @@ export const voivodeship = {
         "Gawronki",
         "Naroczyce-Górki",
         "Naroczyce-Kolonia",
-        "Rozłogi"
+        "Rozłogi",
       ],
-      "Ścinawa": [
+      Ścinawa: [
         "Lasowice",
         "Turów",
         "Wielowieś",
@@ -1405,10 +1379,10 @@ export const voivodeship = {
         "Dziesław",
         "Ścinawa",
         "Przystań",
-        "Grzybów"
-      ]
+        "Grzybów",
+      ],
     },
-    "lwówecki": {
+    lwówecki: {
       "Gryfów Śląski": [
         "Krzewie Wielkie",
         "Rząsiny",
@@ -1418,9 +1392,9 @@ export const voivodeship = {
         "Wolbromów",
         "Wieża",
         "Gryfów Śląski",
-        "Sadek"
+        "Sadek",
       ],
-      "Lubomierz": [
+      Lubomierz: [
         "Pławna Dolna",
         "Pławna Górna",
         "Milęcice",
@@ -1437,7 +1411,7 @@ export const voivodeship = {
         "Lubomierz",
         "Chałupki",
         "Przysiodłek",
-        "Zalesie"
+        "Zalesie",
       ],
       "Lwówek Śląski": [
         "Ustronie",
@@ -1471,9 +1445,9 @@ export const voivodeship = {
         "Lwówek Śląski",
         "Płakowice",
         "Górniki",
-        "Zadole"
+        "Zadole",
       ],
-      "Mirsk": [
+      Mirsk: [
         "Grudza",
         "Karłowiec",
         "Krobica",
@@ -1499,9 +1473,9 @@ export const voivodeship = {
         "Rozdroże Izerskie",
         "Stóg Izerski",
         "Giebułtówek",
-        "Kamienna Góra"
+        "Kamienna Góra",
       ],
-      "Wleń": [
+      Wleń: [
         "Radomice",
         "Bystrzyca",
         "Klecza",
@@ -1517,11 +1491,11 @@ export const voivodeship = {
         "Wleń",
         "Grzęba",
         "Gościradz",
-        "Wleński Gródek"
-      ]
+        "Wleński Gródek",
+      ],
     },
-    "milicki": {
-      "Cieszków": [
+    milicki: {
+      Cieszków: [
         "Jawor",
         "Słabocin",
         "Trzebicko Dolne",
@@ -1554,9 +1528,9 @@ export const voivodeship = {
         "Zagajniki",
         "Antonin",
         "Konradówko",
-        "Zabornia"
+        "Zabornia",
       ],
-      "Krośnice": [
+      Krośnice: [
         "Bukowice",
         "Czeszyce",
         "Stara Huta",
@@ -1603,9 +1577,9 @@ export const voivodeship = {
         "Luboradów",
         "Stara Huta",
         "Smolak",
-        "Krośnice"
+        "Krośnice",
       ],
-      "Milicz": [
+      Milicz: [
         "Latkowa",
         "Łąki",
         "Miłochowice",
@@ -1714,11 +1688,11 @@ export const voivodeship = {
         "Górale",
         "Latkowa",
         "Lisów",
-        "Sułów"
-      ]
+        "Sułów",
+      ],
     },
-    "oleśnicki": {
-      "Oleśnica": [
+    oleśnicki: {
+      Oleśnica: [
         "Poniatowice",
         "Sokołowice",
         "Wyszogród",
@@ -1763,9 +1737,9 @@ export const voivodeship = {
         "Brzezinka Dolna",
         "Blizbórz",
         "Poniatowice",
-        "Sokołowice"
+        "Sokołowice",
       ],
-      "Bierutów": [
+      Bierutów: [
         "Karwiniec",
         "Kijowice",
         "Solniki Małe",
@@ -1786,9 +1760,9 @@ export const voivodeship = {
         "Nowa Smolna",
         "Grędzina",
         "Pielgrzymowice",
-        "Karwiniec"
+        "Karwiniec",
       ],
-      "Dobroszyce": [
+      Dobroszyce: [
         "Dobra",
         "Mękarzowice",
         "Nowica",
@@ -1807,7 +1781,7 @@ export const voivodeship = {
         "Holendry",
         "Czartowice",
         "Miodary",
-        "Rakowice"
+        "Rakowice",
       ],
       "Dziadowa Kłoda": [
         "Lipka",
@@ -1827,9 +1801,9 @@ export const voivodeship = {
         "Kłochowice",
         "Kwaśnina",
         "Nowa Stradomia",
-        "Radzowice"
+        "Radzowice",
       ],
-      "Międzybórz": [
+      Międzybórz: [
         "Kraszów",
         "Królewska Wola",
         "Hałdrychowice",
@@ -1854,9 +1828,9 @@ export const voivodeship = {
         "Knopka",
         "Granów",
         "Zielonka",
-        "Wiewiórka"
+        "Wiewiórka",
       ],
-      "Syców": [
+      Syców: [
         "Drołtowice",
         "Komorów",
         "Nowy Dwór",
@@ -1889,9 +1863,9 @@ export const voivodeship = {
         "Zawady",
         "Dłusko",
         "Ślizów",
-        "Ślizów"
+        "Ślizów",
       ],
-      "Twardogóra": [
+      Twardogóra: [
         "Chełstów",
         "Domasławice",
         "Moszyce",
@@ -1933,11 +1907,11 @@ export const voivodeship = {
         "Stara Twardogóra",
         "Skoczków",
         "Brodowce",
-        "Grabowno Wielkie"
-      ]
+        "Grabowno Wielkie",
+      ],
     },
-    "oławski": {
-      "Oława": [
+    oławski: {
+      Oława: [
         "Zakrzów",
         "Gaj Oławski",
         "Godzikowice",
@@ -1972,9 +1946,9 @@ export const voivodeship = {
         "Siecieborowice",
         "Ścinawa",
         "Czernica",
-        "Jakubowice"
+        "Jakubowice",
       ],
-      "Domaniów": [
+      Domaniów: [
         "Gęsice",
         "Piskorzów",
         "Radłowice",
@@ -1999,7 +1973,7 @@ export const voivodeship = {
         "Gostkowice",
         "Pełczyce",
         "Kuny",
-        "Teodorów"
+        "Teodorów",
       ],
       "Jelcz-Laskowice": [
         "Nowy Dwór",
@@ -2024,11 +1998,11 @@ export const voivodeship = {
         "Laskowice",
         "Laskowice Oławskie",
         "Stanków",
-        "Mościsko"
-      ]
+        "Mościsko",
+      ],
     },
-    "polkowicki": {
-      "Chocianów": [
+    polkowicki: {
+      Chocianów: [
         "Jabłonów",
         "Raków",
         "Brunów",
@@ -2052,9 +2026,9 @@ export const voivodeship = {
         "Kątno",
         "Raków",
         "Szklary Dolne",
-        "Kąty"
+        "Kąty",
       ],
-      "Gaworzyce": [
+      Gaworzyce: [
         "Koźlice",
         "Śrem",
         "Grabik",
@@ -2068,9 +2042,9 @@ export const voivodeship = {
         "Kurów Wielki",
         "Gostyń",
         "Kłobuczyn",
-        "Regów"
+        "Regów",
       ],
-      "Grębocice": [
+      Grębocice: [
         "Grodowiec",
         "Krzydłowice",
         "Kwielice",
@@ -2092,9 +2066,9 @@ export const voivodeship = {
         "Proszówek",
         "Świnino",
         "Czerńczyce",
-        "Obiszówek"
+        "Obiszówek",
       ],
-      "Polkowice": [
+      Polkowice: [
         "Trzebcz",
         "Kaźmierzów",
         "Dąbrowa",
@@ -2117,9 +2091,9 @@ export const voivodeship = {
         "Nowinki",
         "Paulinów",
         "Włoszczów",
-        "Żuków"
+        "Żuków",
       ],
-      "Przemków": [
+      Przemków: [
         "Karpie",
         "Krępa",
         "Łężce",
@@ -2136,9 +2110,9 @@ export const voivodeship = {
         "Młynik",
         "Młynów",
         "Górczyn",
-        "Przemków-Odlewnia"
+        "Przemków-Odlewnia",
       ],
-      "Radwanice": [
+      Radwanice: [
         "Sieroszowice",
         "Lipin",
         "Buczyna",
@@ -2156,11 +2130,11 @@ export const voivodeship = {
         "Teodorów",
         "Ułanów",
         "Borów",
-        "Kostaniewo"
-      ]
+        "Kostaniewo",
+      ],
     },
-    "strzeliński": {
-      "Borów": [
+    strzeliński: {
+      Borów: [
         "Jaksin",
         "Kręczków",
         "Ludów Śląski",
@@ -2189,9 +2163,9 @@ export const voivodeship = {
         "Zielenice",
         "Uniszów",
         "Jeziorno",
-        "Niedanów"
+        "Niedanów",
       ],
-      "Kondratowice": [
+      Kondratowice: [
         "Lipowa",
         "Podgaj",
         "Błotnica",
@@ -2218,9 +2192,9 @@ export const voivodeship = {
         "Rakowice",
         "Wójcin",
         "Skała",
-        "Edwardów"
+        "Edwardów",
       ],
-      "Przeworno": [
+      Przeworno: [
         "Dobroszów",
         "Jagielno",
         "Strużyna",
@@ -2253,9 +2227,9 @@ export const voivodeship = {
         "Wieliczna",
         "Kaczowice",
         "Samborowice",
-        "Kaszówka"
+        "Kaszówka",
       ],
-      "Strzelin": [
+      Strzelin: [
         "Gęsiniec",
         "Pławna",
         "Szczawin",
@@ -2302,9 +2276,9 @@ export const voivodeship = {
         "Myszkowice",
         "Góra",
         "Górniki",
-        "Chociwel"
+        "Chociwel",
       ],
-      "Wiązów": [
+      Wiązów: [
         "Częstocice",
         "Kowalów",
         "Księżyce",
@@ -2335,11 +2309,11 @@ export const voivodeship = {
         "Węgłów",
         "Biskupice",
         "Półwiosek",
-        "Kurowskie Chałupy"
-      ]
+        "Kurowskie Chałupy",
+      ],
     },
-    "średzki": {
-      "Kostomłoty": [
+    średzki: {
+      Kostomłoty: [
         "Budziszów",
         "Piotrowice",
         "Wichrów",
@@ -2372,9 +2346,9 @@ export const voivodeship = {
         "Wnorów",
         "Stoszów",
         "Ilnica",
-        "Lisowice"
+        "Lisowice",
       ],
-      "Malczyce": [
+      Malczyce: [
         "Chomiąża",
         "Wilczków",
         "Mazurowice",
@@ -2386,9 +2360,9 @@ export const voivodeship = {
         "Rachów",
         "Kwietno",
         "Podewsie",
-        "Zawadka"
+        "Zawadka",
       ],
-      "Miękinia": [
+      Miękinia: [
         "Gosławice",
         "Pisarzowice",
         "Głoska",
@@ -2429,7 +2403,7 @@ export const voivodeship = {
         "Łąkoszyce",
         "Miłoszyn",
         "Zabór Mały",
-        "Klęka"
+        "Klęka",
       ],
       "Środa Śląska": [
         "Ciechów",
@@ -2464,9 +2438,9 @@ export const voivodeship = {
         "Probostwo",
         "Bielany",
         "Popowice",
-        "Buczki"
+        "Buczki",
       ],
-      "Udanin": [
+      Udanin: [
         "Lusina",
         "Dziwigórz",
         "Lasek",
@@ -2489,11 +2463,11 @@ export const voivodeship = {
         "Księżyce",
         "Dębki",
         "Jańczów",
-        "Dębnica"
-      ]
+        "Dębnica",
+      ],
     },
-    "świdnicki": {
-      "Świdnica": [
+    świdnicki: {
+      Świdnica: [
         "Krzczonów",
         "Lubachów",
         "Mokrzeszów",
@@ -2529,14 +2503,10 @@ export const voivodeship = {
         "Zawiszów",
         "Mała Lutomia",
         "Stachowiczki",
-        "Złoty Las"
+        "Złoty Las",
       ],
-      "Świebodzice": [
-        "Świebodzice",
-        "Ciernie",
-        "Pełcznica"
-      ],
-      "Dobromierz": [
+      Świebodzice: ["Świebodzice", "Ciernie", "Pełcznica"],
+      Dobromierz: [
         "Jugowa",
         "Kłaczyna",
         "Bronów",
@@ -2553,7 +2523,7 @@ export const voivodeship = {
         "Siodłkowice",
         "Łąkoszów",
         "Celów",
-        "Bronówek"
+        "Bronówek",
       ],
       "Jaworzyna Śląska": [
         "Bolesławice",
@@ -2568,9 +2538,9 @@ export const voivodeship = {
         "Czechy",
         "Nowice",
         "Witków",
-        "Jaworzyna Śląska"
+        "Jaworzyna Śląska",
       ],
-      "Marcinowice": [
+      Marcinowice: [
         "Chwałków",
         "Gola Świdnicka",
         "Gruszów",
@@ -2589,9 +2559,9 @@ export const voivodeship = {
         "Zebrzydów",
         "Stefanowice",
         "Krasków",
-        "Szczepanów"
+        "Szczepanów",
       ],
-      "Strzegom": [
+      Strzegom: [
         "Graniczna",
         "Skarżyce",
         "Tomkowice",
@@ -2615,9 +2585,9 @@ export const voivodeship = {
         "Jaroszów",
         "Kostrza",
         "Strzegom",
-        "Grabina"
+        "Grabina",
       ],
-      "Żarów": [
+      Żarów: [
         "Zastruże",
         "Siedlimowice",
         "Pożarzysko",
@@ -2637,10 +2607,10 @@ export const voivodeship = {
         "Wierzbna",
         "Pyszczyn",
         "Żarów",
-        "Kalno-Wostówka"
-      ]
+        "Kalno-Wostówka",
+      ],
     },
-    "trzebnicki": {
+    trzebnicki: {
       "Oborniki Śląskie": [
         "Osola",
         "Osolin",
@@ -2675,9 +2645,9 @@ export const voivodeship = {
         "Podgóra",
         "Ciechlowice",
         "Żytno",
-        "Pęgówek"
+        "Pęgówek",
       ],
-      "Prusice": [
+      Prusice: [
         "Borówek",
         "Chodlewko",
         "Borów",
@@ -2712,9 +2682,9 @@ export const voivodeship = {
         "Górkowice",
         "Łęgów",
         "Kuraszkówek",
-        "Żłobki"
+        "Żłobki",
       ],
-      "Trzebnica": [
+      Trzebnica: [
         "Komorówko",
         "Księginice",
         "Ligota",
@@ -2763,7 +2733,7 @@ export const voivodeship = {
         "Trzy Chałupy",
         "Piotrowice",
         "Kanice",
-        "Koniówko"
+        "Koniówko",
       ],
       "Wisznia Mała": [
         "Malin",
@@ -2787,9 +2757,9 @@ export const voivodeship = {
         "Kalina",
         "Biskupice",
         "Cienin",
-        "Raków"
+        "Raków",
       ],
-      "Zawonia": [
+      Zawonia: [
         "Sędzice",
         "Tarnowiec",
         "Rzędziszowice",
@@ -2817,9 +2787,9 @@ export const voivodeship = {
         "Złotówek",
         "Kopiec",
         "Sucha Mała",
-        "Trzemsze"
+        "Trzemsze",
       ],
-      "Żmigród": [
+      Żmigród: [
         "Borek",
         "Kaszyce Milickie",
         "Książęca Wieś",
@@ -2883,10 +2853,10 @@ export const voivodeship = {
         "Bukołowo",
         "Stróże",
         "Gola",
-        "Żmigród"
-      ]
+        "Żmigród",
+      ],
     },
-    "wałbrzyski": {
+    wałbrzyski: {
       "Boguszów-Gorce": [
         "Boguszów-Gorce",
         "Koło",
@@ -2896,7 +2866,7 @@ export const voivodeship = {
         "Stary Lesieniec",
         "Lubominek",
         "Sobięcin Górny",
-        "Chełmiec"
+        "Chełmiec",
       ],
       "Jedlina-Zdrój": [
         "Jedlina-Zdrój",
@@ -2905,22 +2875,18 @@ export const voivodeship = {
         "Glinica",
         "Jedlinka",
         "Suliszów",
-        "Gliniczka"
+        "Gliniczka",
       ],
-      "Szczawno-Zdrój": [
-        "Szczawno-Zdrój",
-        "Dworzysko",
-        "Nowe Szczawno"
-      ],
+      "Szczawno-Zdrój": ["Szczawno-Zdrój", "Dworzysko", "Nowe Szczawno"],
       "Czarny Bór": [
         "Witków",
         "Borówno",
         "Czarny Bór",
         "Jaczków",
         "Grzędy",
-        "Grzędy Górne"
+        "Grzędy Górne",
       ],
-      "Głuszyca": [
+      Głuszyca: [
         "Kolce",
         "Głuszyca Górna",
         "Grzmiąca",
@@ -2928,9 +2894,9 @@ export const voivodeship = {
         "Sierpnica",
         "Głuszyca",
         "Zimna",
-        "Rybnica Mała"
+        "Rybnica Mała",
       ],
-      "Mieroszów": [
+      Mieroszów: [
         "Łączna",
         "Rybnica Leśna",
         "Unisław Śląski",
@@ -2940,7 +2906,7 @@ export const voivodeship = {
         "Sokołowsko",
         "Różana",
         "Mieroszów",
-        "Kamionka"
+        "Kamionka",
       ],
       "Stare Bogaczowice": [
         "Chwaliszów",
@@ -2953,9 +2919,9 @@ export const voivodeship = {
         "Cieszów",
         "Cisów",
         "Podgórna",
-        "Wrony"
+        "Wrony",
       ],
-      "Walim": [
+      Walim: [
         "Dziećmorowice",
         "Michałkowa",
         "Glinno",
@@ -2968,10 +2934,10 @@ export const voivodeship = {
         "Podlesie",
         "Nowy Julianów",
         "Stary Julianów",
-        "Nowa Wieś"
-      ]
+        "Nowa Wieś",
+      ],
     },
-    "wołowski": {
+    wołowski: {
       "Brzeg Dolny": [
         "Naborów",
         "Radecz",
@@ -2990,9 +2956,9 @@ export const voivodeship = {
         "Warzyn",
         "Kręsko",
         "Kolonia Kreńsko",
-        "Osiedle Leśne"
+        "Osiedle Leśne",
       ],
-      "Wińsko": [
+      Wińsko: [
         "Brzózka",
         "Krzelów",
         "Staszowice",
@@ -3042,9 +3008,9 @@ export const voivodeship = {
         "Mysłoszów",
         "Młoty",
         "Naroków",
-        "Rogówek"
+        "Rogówek",
       ],
-      "Wołów": [
+      Wołów: [
         "Golina",
         "Krzydlina Mała",
         "Łazarzowice",
@@ -3097,11 +3063,11 @@ export const voivodeship = {
         "Gąsior",
         "Gródek",
         "Krzywy Wołów",
-        "Lubiąż Północny"
-      ]
+        "Lubiąż Północny",
+      ],
     },
-    "wrocławski": {
-      "Czernica": [
+    wrocławski: {
+      Czernica: [
         "Krzyków",
         "Ratowice",
         "Łany",
@@ -3116,9 +3082,9 @@ export const voivodeship = {
         "Chrząstawa Mała",
         "Chrząstawa Wielka",
         "Wieściszów",
-        "Janowice"
+        "Janowice",
       ],
-      "Długołęka": [
+      Długołęka: [
         "Brzezia Łąka",
         "Bierzyce",
         "Borowa",
@@ -3163,7 +3129,7 @@ export const voivodeship = {
         "Domaszczyn Mały",
         "Olszyca",
         "Mydlice",
-        "Nowy Dwór"
+        "Nowy Dwór",
       ],
       "Jordanów Śląski": [
         "Winna Góra",
@@ -3180,7 +3146,7 @@ export const voivodeship = {
         "Pożarzyce",
         "Wilczkowice",
         "Kaniów",
-        "Karolin"
+        "Karolin",
       ],
       "Kąty Wrocławskie": [
         "Cesarzowice",
@@ -3228,9 +3194,9 @@ export const voivodeship = {
         "Stradów",
         "Stary Dwór",
         "Różaniec",
-        "Gniewoszów"
+        "Gniewoszów",
       ],
-      "Kobierzyce": [
+      Kobierzyce: [
         "Bielany Wrocławskie",
         "Krzyżowice",
         "Księginice",
@@ -3267,9 +3233,9 @@ export const voivodeship = {
         "Jaroniów",
         "Wierzbica",
         "Tyńczyk",
-        "Bledzów"
+        "Bledzów",
       ],
-      "Mietków": [
+      Mietków: [
         "Wawrzeńczyce",
         "Domanice",
         "Maniów Wielki",
@@ -3283,9 +3249,9 @@ export const voivodeship = {
         "Proszkowice",
         "Borzygniew",
         "Ujów",
-        "Stróża"
+        "Stróża",
       ],
-      "Sobótka": [
+      Sobótka: [
         "Garncarsko",
         "Mirosławice",
         "Michałowice",
@@ -3314,9 +3280,9 @@ export const voivodeship = {
         "Tąpadła",
         "Strzeblów",
         "Górka",
-        "Kwieciszów"
+        "Kwieciszów",
       ],
-      "Siechnice": [
+      Siechnice: [
         "Biestrzyków",
         "Radomierzyce",
         "Bogusławice",
@@ -3341,9 +3307,9 @@ export const voivodeship = {
         "Prawocin",
         "Blizanowice",
         "Durok",
-        "Solniki"
+        "Solniki",
       ],
-      "Żórawina": [
+      Żórawina: [
         "Nowy Śleszów",
         "Okrzeszyce",
         "Pasterzyce",
@@ -3378,11 +3344,11 @@ export const voivodeship = {
         "Brzeście",
         "Marcinkowice",
         "Marzęcice",
-        "Sadków"
-      ]
+        "Sadków",
+      ],
     },
-    "ząbkowicki": {
-      "Bardo": [
+    ząbkowicki: {
+      Bardo: [
         "Dzbanów",
         "Grochowa",
         "Opolnica",
@@ -3392,9 +3358,9 @@ export const voivodeship = {
         "Przyłęk",
         "Janowiec",
         "Laskówka",
-        "Bardo"
+        "Bardo",
       ],
-      "Ciepłowody": [
+      Ciepłowody: [
         "Brochocin",
         "Koźmice",
         "Tomice",
@@ -3411,7 +3377,7 @@ export const voivodeship = {
         "Karczowice",
         "Kobyla Głowa",
         "Wilamowice",
-        "Janówka"
+        "Janówka",
       ],
       "Kamieniec Ząbkowicki": [
         "Chałupki",
@@ -3428,9 +3394,9 @@ export const voivodeship = {
         "Pomianów Górny",
         "Sławęcin",
         "Kamieniec Ząbkowicki",
-        "Goleniów Śląski"
+        "Goleniów Śląski",
       ],
-      "Stoszowice": [
+      Stoszowice: [
         "Lutomierz",
         "Żdanów",
         "Jemna",
@@ -3445,7 +3411,7 @@ export const voivodeship = {
         "Budzów-Kolonia",
         "Grodziszcze-Kolonia",
         "Lutomierz-Kolonia",
-        "Stoszowice-Kolonia"
+        "Stoszowice-Kolonia",
       ],
       "Ząbkowice Śląskie": [
         "Tarnów",
@@ -3468,9 +3434,9 @@ export const voivodeship = {
         "Rakowice",
         "Siodłowice",
         "Sadlno",
-        "Szklary-Huta"
+        "Szklary-Huta",
       ],
-      "Ziębice": [
+      Ziębice: [
         "Henryków",
         "Dębowiec",
         "Głęboka",
@@ -3503,7 +3469,7 @@ export const voivodeship = {
         "Służejówek",
         "Zakrzów",
         "Nieszków",
-        "Jasłówek"
+        "Jasłówek",
       ],
       "Złoty Stok": [
         "Mąkolno",
@@ -3511,16 +3477,12 @@ export const voivodeship = {
         "Laski",
         "Błotnica",
         "Płonica",
-        "Złoty Stok"
-      ]
-    },
-    "zgorzelecki": {
-      "Zawidów": [
-        "Zawidów",
-        "Ostróżno",
-        "Skiba"
+        "Złoty Stok",
       ],
-      "Zgorzelec": [
+    },
+    zgorzelecki: {
+      Zawidów: ["Zawidów", "Ostróżno", "Skiba"],
+      Zgorzelec: [
         "Radomierzyce",
         "Ręczyn",
         "Białogórze",
@@ -3546,9 +3508,9 @@ export const voivodeship = {
         "Lasowice",
         "Kozi Lasek",
         "Łękocin",
-        "Buszów"
+        "Buszów",
       ],
-      "Bogatynia": [
+      Bogatynia: [
         "Wyszków",
         "Bratków",
         "Jasna Góra",
@@ -3572,9 +3534,9 @@ export const voivodeship = {
         "Turoszów-Wieś",
         "Zatonie",
         "Zatonie-Kolonia",
-        "Wolanów"
+        "Wolanów",
       ],
-      "Pieńsk": [
+      Pieńsk: [
         "Stojanów",
         "Bielawa Dolna",
         "Lasów",
@@ -3589,9 +3551,9 @@ export const voivodeship = {
         "Dobrzyszów",
         "Stojanówek",
         "Sośniak",
-        "Prędocice"
+        "Prędocice",
       ],
-      "Sulików": [
+      Sulików: [
         "Bierna",
         "Studniska Górne",
         "Wilka",
@@ -3615,9 +3577,9 @@ export const voivodeship = {
         "Łowin",
         "Podgórze",
         "Ksawerów",
-        "Wielichów"
+        "Wielichów",
       ],
-      "Węgliniec": [
+      Węgliniec: [
         "Czerwona Woda",
         "Jagodzin",
         "Stary Węgliniec",
@@ -3631,14 +3593,12 @@ export const voivodeship = {
         "Łężek",
         "Polana",
         "Zielonka",
-        "Okrąglica"
-      ]
-    },
-    "złotoryjski": {
-      "Wojcieszów": [
-        "Wojcieszów"
+        "Okrąglica",
       ],
-      "Złotoryja": [
+    },
+    złotoryjski: {
+      Wojcieszów: ["Wojcieszów"],
+      Złotoryja: [
         "Ernestynów",
         "Łaźniki",
         "Nowa Wieś Złotoryjska",
@@ -3663,9 +3623,9 @@ export const voivodeship = {
         "Podgórnik",
         "Nowa Ziemia",
         "Czeszków",
-        "Kwiatów"
+        "Kwiatów",
       ],
-      "Pielgrzymka": [
+      Pielgrzymka: [
         "Sędzimirów",
         "Nowe Łąki",
         "Wojcieszyn",
@@ -3680,9 +3640,9 @@ export const voivodeship = {
         "Radomia",
         "Choiniec",
         "Jasionek",
-        "Zielonki"
+        "Zielonki",
       ],
-      "Świerzawa": [
+      Świerzawa: [
         "Nowy Kościół",
         "Stara Kraśnica",
         "Sokołowiec",
@@ -3704,9 +3664,9 @@ export const voivodeship = {
         "Jurczyce",
         "Posępsko",
         "Wielisław Złotoryjski",
-        "Janochów"
+        "Janochów",
       ],
-      "Zagrodno": [
+      Zagrodno: [
         "Brochocin",
         "Modlikowice",
         "Olszanica",
@@ -3723,8 +3683,8 @@ export const voivodeship = {
         "Muszczyna",
         "Świdniczka",
         "Witanówka",
-        "Uniejowice"
-      ]
+        "Uniejowice",
+      ],
     },
     "Jelenia Góra": {
       "Jelenia Góra": [
@@ -3739,11 +3699,11 @@ export const voivodeship = {
         "Jagniątków",
         "Goduszyn",
         "Maciejowa",
-        "Strupice"
-      ]
+        "Strupice",
+      ],
     },
-    "Legnica": {
-      "Legnica": [
+    Legnica: {
+      Legnica: [
         "Legnica",
         "Przybków",
         "Nowy Dwór",
@@ -3755,13 +3715,11 @@ export const voivodeship = {
         "Czerniewice",
         "Piątnica",
         "Piekary Wielkie",
-        "Stare Piekary"
-      ]
-    },
-    "Wrocław": {
-      "Wrocław": [
-        "Wrocław"
+        "Stare Piekary",
       ],
+    },
+    Wrocław: {
+      Wrocław: ["Wrocław"],
       "Wrocław-Fabryczna": [
         "Wrocław-Fabryczna",
         "Złotniki",
@@ -3788,7 +3746,7 @@ export const voivodeship = {
         "Stabłowice",
         "Ownia",
         "Fabryczna",
-        "Osiniec"
+        "Osiniec",
       ],
       "Wrocław-Krzyki": [
         "Wrocław-Krzyki",
@@ -3810,7 +3768,7 @@ export const voivodeship = {
         "Gaj",
         "Ołtaszyn",
         "Południe",
-        "Świątniki"
+        "Świątniki",
       ],
       "Wrocław-Psie Pole": [
         "Wrocław-Psie Pole",
@@ -3832,11 +3790,9 @@ export const voivodeship = {
         "Rędzin",
         "Zgorzelisko",
         "Karłowice",
-        "Poświętne"
+        "Poświętne",
       ],
-      "Wrocław-Stare Miasto": [
-        "Wrocław-Stare Miasto"
-      ],
+      "Wrocław-Stare Miasto": ["Wrocław-Stare Miasto"],
       "Wrocław-Śródmieście": [
         "Wrocław-Śródmieście",
         "Zalesie",
@@ -3846,11 +3802,11 @@ export const voivodeship = {
         "Dąbie",
         "Sępolno",
         "Biskupin",
-        "Śródmieście"
-      ]
+        "Śródmieście",
+      ],
     },
-    "Wałbrzych": {
-      "Wałbrzych": [
+    Wałbrzych: {
+      Wałbrzych: [
         "Wałbrzych",
         "Biały Kamień",
         "Konradów",
@@ -3873,12 +3829,12 @@ export const voivodeship = {
         "Rozłoga",
         "Szczawno",
         "Gaj",
-        "Glinik"
-      ]
-    }
+        "Glinik",
+      ],
+    },
   },
   "KUJAWSKO-POMORSKIE": {
-    "aleksandrowski": {
+    aleksandrowski: {
       "Aleksandrów Kujawski": [
         "Otłoczynek",
         "Wygoda",
@@ -3928,15 +3884,10 @@ export const voivodeship = {
         "Goszczewo",
         "Stara Wieś",
         "Stare Rożno",
-        "Kuczek"
+        "Kuczek",
       ],
-      "Ciechocinek": [
-        "Kępa Dzikowska",
-        "Słońsk Górny",
-        "Wola",
-        "Ciechocinek"
-      ],
-      "Nieszawa": [
+      Ciechocinek: ["Kępa Dzikowska", "Słońsk Górny", "Wola", "Ciechocinek"],
+      Nieszawa: [
         "Żabieniec",
         "Gęsiniec",
         "Przytułek",
@@ -3944,9 +3895,9 @@ export const voivodeship = {
         "Rybaki",
         "Bieńków",
         "Nieszawka",
-        "Nieszawa"
+        "Nieszawa",
       ],
-      "Bądkowo": [
+      Bądkowo: [
         "Góry",
         "Józefowo",
         "Kałęczyn",
@@ -3981,9 +3932,9 @@ export const voivodeship = {
         "Biele",
         "Wysocinek",
         "Kolonia Łowiczek",
-        "Bądkowo"
+        "Bądkowo",
       ],
-      "Koneck": [
+      Koneck: [
         "Helenowo",
         "Pomiany",
         "Romanowo",
@@ -4006,9 +3957,9 @@ export const voivodeship = {
         "Straszewo",
         "Święte",
         "Młynek",
-        "Chromowola"
+        "Chromowola",
       ],
-      "Raciążek": [
+      Raciążek: [
         "Dąbrówka",
         "Podole",
         "Turzno",
@@ -4016,9 +3967,9 @@ export const voivodeship = {
         "Turzynek",
         "Niestuszewo",
         "Podzamcze",
-        "Siarzewo"
+        "Siarzewo",
       ],
-      "Waganiec": [
+      Waganiec: [
         "Michalinek",
         "Przypust Dolny",
         "Wólne Górne",
@@ -4053,9 +4004,9 @@ export const voivodeship = {
         "Ariany",
         "Bertowo",
         "Plebanka",
-        "Byzie"
+        "Byzie",
       ],
-      "Zakrzewo": [
+      Zakrzewo: [
         "Sędzin-Kolonia",
         "Adolfin",
         "Góry Gęsińskie",
@@ -4078,11 +4029,11 @@ export const voivodeship = {
         "Seroczki",
         "Kobielice",
         "Kuczkowo",
-        "Sędzin"
-      ]
+        "Sędzin",
+      ],
     },
-    "brodnicki": {
-      "Brodnica": [
+    brodnicki: {
+      Brodnica: [
         "Szabda",
         "Mszano",
         "Szymkówko",
@@ -4117,9 +4068,9 @@ export const voivodeship = {
         "Gorczeniczka",
         "Kruszynki",
         "Moczadła",
-        "Bartniki"
+        "Bartniki",
       ],
-      "Bobrowo": [
+      Bobrowo: [
         "Czekanowo",
         "Słoszewy",
         "Lisa Młyn",
@@ -4152,9 +4103,9 @@ export const voivodeship = {
         "Tylice",
         "Buczek",
         "Bobrowo",
-        "Dąbrówka"
+        "Dąbrówka",
       ],
-      "Brzozie": [
+      Brzozie: [
         "Pokrzywnia",
         "Topiele",
         "Szerokie",
@@ -4176,9 +4127,9 @@ export const voivodeship = {
         "Brzozie",
         "Wielki Głęboczek",
         "Wielkie Leźno",
-        "Trepki"
+        "Trepki",
       ],
-      "Górzno": [
+      Górzno: [
         "Kocioł",
         "Bryńsk Królewski",
         "Kozie Błotko",
@@ -4219,9 +4170,9 @@ export const voivodeship = {
         "Zaborowo",
         "Miesiączkowo",
         "Gołkowo",
-        "Nowy Świat"
+        "Nowy Świat",
       ],
-      "Bartniczka": [
+      Bartniczka: [
         "Jastrzębie-Przydatki",
         "Sokołowo",
         "Iły",
@@ -4246,7 +4197,7 @@ export const voivodeship = {
         "Radoszki",
         "Łaszewo",
         "Komorowo",
-        "Koziary"
+        "Koziary",
       ],
       "Jabłonowo Pomorskie": [
         "Płowężek",
@@ -4274,9 +4225,9 @@ export const voivodeship = {
         "Bukowiec",
         "Płowęż",
         "Górale",
-        "Piecewo"
+        "Piecewo",
       ],
-      "Osiek": [
+      Osiek: [
         "Wólka Kretkowska",
         "Smolniki",
         "Bucha",
@@ -4325,9 +4276,9 @@ export const voivodeship = {
         "Tadajewo",
         "Warpalice",
         "Sumówko",
-        "Szynkowizna"
+        "Szynkowizna",
       ],
-      "Świedziebnia": [
+      Świedziebnia: [
         "Płociczno",
         "Niemojewo",
         "Piękny Las",
@@ -4368,9 +4319,9 @@ export const voivodeship = {
         "Zasadki",
         "Granaty",
         "Dzierzno",
-        "Księte"
+        "Księte",
       ],
-      "Zbiczno": [
+      Zbiczno: [
         "Grabiny",
         "Tęgowiec",
         "Rosochy",
@@ -4407,10 +4358,10 @@ export const voivodeship = {
         "Zastawie",
         "Żmijewko",
         "Ładnówko",
-        "Lipowiec"
-      ]
+        "Lipowiec",
+      ],
     },
-    "bydgoski": {
+    bydgoski: {
       "Białe Błota": [
         "Łochowo",
         "Lipniki",
@@ -4429,7 +4380,7 @@ export const voivodeship = {
         "Ciele",
         "Prądki",
         "Zielonka",
-        "Drzewce"
+        "Drzewce",
       ],
       "Dąbrowa Chełmińska": [
         "Bolmin",
@@ -4457,9 +4408,9 @@ export const voivodeship = {
         "Wielka Kępa",
         "Nowy Dwór",
         "Mała Kępa",
-        "Janowo"
+        "Janowo",
       ],
-      "Dobrcz": [
+      Dobrcz: [
         "Aleksandrowiec",
         "Pauliny",
         "Marcelewo",
@@ -4491,9 +4442,9 @@ export const voivodeship = {
         "Kotomierz",
         "Włóki",
         "Zalesie",
-        "Suponin"
+        "Suponin",
       ],
-      "Koronowo": [
+      Koronowo: [
         "Stronno",
         "Wilcze Gardło",
         "Byszewo",
@@ -4586,7 +4537,7 @@ export const voivodeship = {
         "Skarbiewo",
         "Salno",
         "Krąpiewo",
-        "Bytkowice"
+        "Bytkowice",
       ],
       "Nowa Wieś Wielka": [
         "Dębinka",
@@ -4609,9 +4560,9 @@ export const voivodeship = {
         "Kobylarnia",
         "Nowe Smolno",
         "Kolankowo",
-        "Brzoza"
+        "Brzoza",
       ],
-      "Osielsko": [
+      Osielsko: [
         "Nowy Mostek",
         "Zdroje",
         "Jagodowo",
@@ -4630,9 +4581,9 @@ export const voivodeship = {
         "Osielsko",
         "Zamczysko",
         "Niwy",
-        "Żołędowo"
+        "Żołędowo",
       ],
-      "Sicienko": [
+      Sicienko: [
         "Anielin",
         "Prosperowo",
         "Piotrkówko",
@@ -4672,7 +4623,7 @@ export const voivodeship = {
         "Kruszyniec",
         "Wierzchucinek",
         "Wojnowo",
-        "Zawada"
+        "Zawada",
       ],
       "Solec Kujawski": [
         "Chrośna",
@@ -4698,11 +4649,11 @@ export const voivodeship = {
         "Otorowo",
         "Makowiska",
         "Chrośna",
-        "Przyłubie"
-      ]
+        "Przyłubie",
+      ],
     },
-    "chełmiński": {
-      "Chełmno": [
+    chełmiński: {
+      Chełmno: [
         "Panieński Ostrów",
         "Ameryka",
         "Babie Błota",
@@ -4749,7 +4700,7 @@ export const voivodeship = {
         "Kałdus",
         "Podwiesk",
         "Bieńkówka",
-        "Borówno"
+        "Borówno",
       ],
       "Kijewo Królewskie": [
         "Forty",
@@ -4778,9 +4729,9 @@ export const voivodeship = {
         "Napole",
         "Kijewo Szlacheckie",
         "Brzozowo",
-        "Szymborno"
+        "Szymborno",
       ],
-      "Lisewo": [
+      Lisewo: [
         "Buczkowizna",
         "Golgota",
         "Klasztor",
@@ -4808,7 +4759,7 @@ export const voivodeship = {
         "Wierzbowo",
         "Strucfoń",
         "Krajęcin",
-        "Chrusty"
+        "Chrusty",
       ],
       "Papowo Biskupie": [
         "Młyńsk",
@@ -4834,9 +4785,9 @@ export const voivodeship = {
         "Folgowo",
         "Storlus",
         "Kucborek",
-        "Nowy Dwór Królewski"
+        "Nowy Dwór Królewski",
       ],
-      "Stolno": [
+      Stolno: [
         "Wabcz",
         "Parowy",
         "Nałęcz",
@@ -4860,9 +4811,9 @@ export const voivodeship = {
         "Rybieniec",
         "Stolno",
         "Gorzuchowo",
-        "Klęczkowo"
+        "Klęczkowo",
       ],
-      "Unisław": [
+      Unisław: [
         "Raciniewo",
         "Bobak",
         "Chiny",
@@ -4887,8 +4838,8 @@ export const voivodeship = {
         "Błoto",
         "Grzybno",
         "Bruki Kokocka",
-        "Gołoty"
-      ]
+        "Gołoty",
+      ],
     },
     "golubsko-dobrzyński": {
       "Golub-Dobrzyń": [
@@ -4955,9 +4906,9 @@ export const voivodeship = {
         "Skępsk",
         "Paliwodzizna",
         "Podzamek Golubski",
-        "Gałczewo"
+        "Gałczewo",
       ],
-      "Ciechocin": [
+      Ciechocin: [
         "Gierszówka",
         "Kałdunek",
         "Kępa",
@@ -4984,7 +4935,7 @@ export const voivodeship = {
         "Świętosław",
         "Piotrkowo",
         "Ciechocin",
-        "Nowa Wieś"
+        "Nowa Wieś",
       ],
       "Kowalewo Pomorskie": [
         "Gapa",
@@ -5021,9 +4972,9 @@ export const voivodeship = {
         "Frydrychowo",
         "Mlewiec",
         "Nowy Dwór",
-        "Mariany"
+        "Mariany",
       ],
-      "Radomin": [
+      Radomin: [
         "Szafarnia-Pólka",
         "Dulsk-Frankowo",
         "Dulsk-Spiczyny",
@@ -5045,9 +4996,9 @@ export const voivodeship = {
         "Rętwiny",
         "Wilczewo",
         "Płonko",
-        "Płonne"
+        "Płonne",
       ],
-      "Zbójno": [
+      Zbójno: [
         "Imbirkowo",
         "Rembiesznica",
         "Przystań",
@@ -5073,11 +5024,11 @@ export const voivodeship = {
         "Zbójno",
         "Rembiocha",
         "Łukaszewo",
-        "Klonowo"
-      ]
+        "Klonowo",
+      ],
     },
-    "grudziądzki": {
-      "Grudziądz": [
+    grudziądzki: {
+      Grudziądz: [
         "Marusza",
         "Wielkie Lniska",
         "Małe Lniska",
@@ -5112,9 +5063,9 @@ export const voivodeship = {
         "Sztynwag",
         "Turznice",
         "Rozgarty",
-        "Ruda"
+        "Ruda",
       ],
-      "Gruta": [
+      Gruta: [
         "Karasek",
         "Słupski Młyn",
         "Podgórze",
@@ -5134,9 +5085,9 @@ export const voivodeship = {
         "Słup",
         "Okonin",
         "Kitnowo",
-        "Jasiewo"
+        "Jasiewo",
       ],
-      "Łasin": [
+      Łasin: [
         "Hermanowo",
         "Ludwichowo",
         "Gordanowo",
@@ -5161,7 +5112,7 @@ export const voivodeship = {
         "Nowe Jankowice",
         "Zawda",
         "Huta-Strzelce",
-        "Szczepanki"
+        "Szczepanki",
       ],
       "Radzyń Chełmiński": [
         "Dębieniec",
@@ -5184,9 +5135,9 @@ export const voivodeship = {
         "Fijewo",
         "Zielnowo",
         "Radzyń-Wieś",
-        "Radzyń-Wybudowanie"
+        "Radzyń-Wybudowanie",
       ],
-      "Rogóźno": [
+      Rogóźno: [
         "Zwierzyniec",
         "Jamy",
         "Sobótka",
@@ -5202,7 +5153,7 @@ export const voivodeship = {
         "Kłódka",
         "Szembruczek",
         "Gubiny",
-        "Skurgwy"
+        "Skurgwy",
       ],
       "Świecie nad Osą": [
         "Lisnowo-Zamek",
@@ -5220,11 +5171,11 @@ export const voivodeship = {
         "Rychnowo",
         "Mędrzyce",
         "Partęczyny",
-        "Lisnówko"
-      ]
+        "Lisnówko",
+      ],
     },
-    "inowrocławski": {
-      "Inowrocław": [
+    inowrocławski: {
+      Inowrocław: [
         "Popowice",
         "Gnojno",
         "Stefanowo",
@@ -5274,7 +5225,7 @@ export const voivodeship = {
         "Marcinkowo",
         "Piotrkowice",
         "Radłówek",
-        "Sikorowo"
+        "Sikorowo",
       ],
       "Dąbrowa Biskupia": [
         "Bąkowo",
@@ -5304,9 +5255,9 @@ export const voivodeship = {
         "Chlewiska",
         "Radojewice",
         "Nowy Dwór",
-        "Dąbrowa Biskupia"
+        "Dąbrowa Biskupia",
       ],
-      "Gniewkowo": [
+      Gniewkowo: [
         "Podlesie",
         "Markowo",
         "Wierzbiczany",
@@ -5353,9 +5304,9 @@ export const voivodeship = {
         "Ostrowo",
         "Murzynno",
         "Bąbolin",
-        "Klepary"
+        "Klepary",
       ],
-      "Janikowo": [
+      Janikowo: [
         "Korytkowo",
         "Nowe Osiedle",
         "Kołuda Wielka",
@@ -5387,9 +5338,9 @@ export const voivodeship = {
         "Dębowo",
         "Wierzejewice",
         "Sielec",
-        "Trląg"
+        "Trląg",
       ],
-      "Kruszwica": [
+      Kruszwica: [
         "Wolany",
         "Arturowo",
         "Głębokie",
@@ -5468,9 +5419,9 @@ export const voivodeship = {
         "Mietlica",
         "Lachmirowice",
         "Grodztwo",
-        "Gocanówko"
+        "Gocanówko",
       ],
-      "Pakość": [
+      Pakość: [
         "Lechowo",
         "Leszczyce",
         "Dziarnowo",
@@ -5494,9 +5445,9 @@ export const voivodeship = {
         "Wielowieś",
         "Ludkowo",
         "Kościelec",
-        "Rycerzewo"
+        "Rycerzewo",
       ],
-      "Rojewo": [
+      Rojewo: [
         "Dobiesławice",
         "Łążyn",
         "Łukaszewo",
@@ -5526,7 +5477,7 @@ export const voivodeship = {
         "Zawiszyn",
         "Rojewice",
         "Żelechlin",
-        "Stara Wieś"
+        "Stara Wieś",
       ],
       "Złotniki Kujawskie": [
         "Będzitowskie Huby",
@@ -5562,11 +5513,11 @@ export const voivodeship = {
         "Tarkowo Górne",
         "Niszczewice",
         "Dźwierzchno",
-        "Rucewko"
-      ]
+        "Rucewko",
+      ],
     },
-    "lipnowski": {
-      "Lipno": [
+    lipnowski: {
+      Lipno: [
         "Ostrowite",
         "Ryszewek",
         "Wąkole",
@@ -5627,9 +5578,9 @@ export const voivodeship = {
         "Ostrowite",
         "Suradowo",
         "Karnkowskie Rumunki",
-        "Kolankowo"
+        "Kolankowo",
       ],
-      "Bobrowniki": [
+      Bobrowniki: [
         "Błotkowa",
         "Rachcinek",
         "Piaski",
@@ -5651,9 +5602,9 @@ export const voivodeship = {
         "Dębowiec",
         "Nowy Bógpomóż",
         "Winduga",
-        "Gnojno"
+        "Gnojno",
       ],
-      "Chrostkowo": [
+      Chrostkowo: [
         "Bruziek",
         "Gątkowizna",
         "Grabina",
@@ -5687,7 +5638,7 @@ export const voivodeship = {
         "Adamowo",
         "Stalmierz",
         "Wildno",
-        "Janiszewo"
+        "Janiszewo",
       ],
       "Dobrzyń nad Wisłą": [
         "Gołyszewy",
@@ -5732,9 +5683,9 @@ export const voivodeship = {
         "Mokowo",
         "Szpiegowo",
         "Skaszewo",
-        "Michałkowo"
+        "Michałkowo",
       ],
-      "Kikół": [
+      Kikół: [
         "Nowopole",
         "Ksawery Ciełuchowskie",
         "Korzyczewo",
@@ -5765,9 +5716,9 @@ export const voivodeship = {
         "Wawrzonkowo",
         "Moszczonne",
         "Kikół",
-        "Wymyślin"
+        "Wymyślin",
       ],
-      "Skępe": [
+      Skępe: [
         "Głęboczek",
         "Modrzewie",
         "Kierz",
@@ -5814,9 +5765,9 @@ export const voivodeship = {
         "Zajeziorze",
         "Obóz",
         "Józefkowo",
-        "Wólka"
+        "Wólka",
       ],
-      "Tłuchowo": [
+      Tłuchowo: [
         "Michałkowo",
         "Podole",
         "Jeżewo",
@@ -5841,9 +5792,9 @@ export const voivodeship = {
         "Mysłakowo",
         "Popowo",
         "Trzcianka",
-        "Jasień"
+        "Jasień",
       ],
-      "Wielgie": [
+      Wielgie: [
         "Rumunki Oleszeńskie",
         "Wylazłowo",
         "Podkłokock",
@@ -5881,11 +5832,11 @@ export const voivodeship = {
         "Lipiny",
         "Nowa Wieś",
         "Suszewo",
-        "Zakrzewo"
-      ]
+        "Zakrzewo",
+      ],
     },
-    "mogileński": {
-      "Dąbrowa": [
+    mogileński: {
+      Dąbrowa: [
         "Boguchwała",
         "Mierucinek",
         "Broniewiczki",
@@ -5914,7 +5865,7 @@ export const voivodeship = {
         "Sędowo",
         "Krzekotowo",
         "Mierucin",
-        "Mokre"
+        "Mokre",
       ],
       "Jeziora Wielkie": [
         "Przyjezierze",
@@ -5955,9 +5906,9 @@ export const voivodeship = {
         "Wola Kożuszkowa",
         "Kuśnierz",
         "Siemionki",
-        "Golejewo"
+        "Golejewo",
       ],
-      "Mogilno": [
+      Mogilno: [
         "Chwałowo",
         "Babka",
         "Czarne Olendry",
@@ -6056,9 +6007,9 @@ export const voivodeship = {
         "Targownica",
         "Wiecanowo",
         "Płaczkówko",
-        "Procyń"
+        "Procyń",
       ],
-      "Strzelno": [
+      Strzelno: [
         "Miradz",
         "Młyny",
         "Przedbórz",
@@ -6105,11 +6056,11 @@ export const voivodeship = {
         "Stodólno",
         "Strzelno Klasztorne",
         "Wronowy",
-        "Łąkie"
-      ]
+        "Łąkie",
+      ],
     },
-    "nakielski": {
-      "Kcynia": [
+    nakielski: {
+      Kcynia: [
         "Czerwoniak",
         "Skórzewo",
         "Karłowo",
@@ -6188,9 +6139,9 @@ export const voivodeship = {
         "Włodzimierzewo",
         "Miaskowo",
         "Miastowice",
-        "Karolinowo"
+        "Karolinowo",
       ],
-      "Mrocza": [
+      Mrocza: [
         "Janowo",
         "Drzewianowo",
         "Zdrogowo",
@@ -6224,7 +6175,7 @@ export const voivodeship = {
         "Kosowo",
         "Krukówko",
         "Witosław",
-        "Ostrowo"
+        "Ostrowo",
       ],
       "Nakło nad Notecią": [
         "Gostusza",
@@ -6261,9 +6212,9 @@ export const voivodeship = {
         "Rozwarzyn",
         "Kazin",
         "Gumnowice",
-        "Lubaszcz"
+        "Lubaszcz",
       ],
-      "Sadki": [
+      Sadki: [
         "Bnin",
         "Glinki",
         "Machowo",
@@ -6282,9 +6233,9 @@ export const voivodeship = {
         "Anieliny",
         "Łodzia",
         "Mrozowo",
-        "Broniewo"
+        "Broniewo",
       ],
-      "Szubin": [
+      Szubin: [
         "Młynki",
         "Aleksandrowo",
         "Babia Gać",
@@ -6385,11 +6336,11 @@ export const voivodeship = {
         "Stary Jarużyn",
         "Chobielin",
         "Rynarzewo",
-        "Mąkoszyn"
-      ]
+        "Mąkoszyn",
+      ],
     },
-    "radziejowski": {
-      "Radziejów": [
+    radziejowski: {
+      Radziejów: [
         "Szostka Mała",
         "Stary Radziejów",
         "Łany Wybranieckie",
@@ -6420,9 +6371,9 @@ export const voivodeship = {
         "Czołówek",
         "Kłonówek",
         "Kwilno",
-        "Opatowice"
+        "Opatowice",
       ],
-      "Bytoń": [
+      Bytoń: [
         "Morzyce",
         "Sokołowo",
         "Morzyce",
@@ -6460,9 +6411,9 @@ export const voivodeship = {
         "Głuszyn",
         "Góry Witowskie",
         "Potołówek",
-        "Świesz"
+        "Świesz",
       ],
-      "Dobre": [
+      Dobre: [
         "Byczyna-Kolonia",
         "Szczeblotowo",
         "Przysiek",
@@ -6484,9 +6435,9 @@ export const voivodeship = {
         "Koszczały",
         "Kłonowo",
         "Dobre-Kolonia",
-        "Dobre"
+        "Dobre",
       ],
-      "Osięciny": [
+      Osięciny: [
         "Osięciny-Probostwo",
         "Osięciny-Wieś",
         "Rybinki",
@@ -6529,7 +6480,7 @@ export const voivodeship = {
         "Wola Skarbkowa",
         "Pilichowo",
         "Samszyce",
-        "Ujma Mała"
+        "Ujma Mała",
       ],
       "Piotrków Kujawski": [
         "Wąsewo",
@@ -6595,9 +6546,9 @@ export const voivodeship = {
         "Józefowo",
         "Kaczewo",
         "Kaspral",
-        "Byszewo"
+        "Byszewo",
       ],
-      "Topólka": [
+      Topólka: [
         "Orle",
         "Rybiny Leśne",
         "Wola Jurkowa",
@@ -6646,11 +6597,11 @@ export const voivodeship = {
         "Czamaninek",
         "Jurkowo",
         "Znaniewo",
-        "Wyrobki"
-      ]
+        "Wyrobki",
+      ],
     },
-    "rypiński": {
-      "Rypin": [
+    rypiński: {
+      Rypin: [
         "Szwarowy",
         "Prątnia",
         "Wyręba",
@@ -6731,9 +6682,9 @@ export const voivodeship = {
         "Dębiany",
         "Dylewo",
         "Balin",
-        "Borzymin"
+        "Borzymin",
       ],
-      "Brzuze": [
+      Brzuze: [
         "Malitony",
         "Przeszkoda",
         "Rumunki Brzóskie",
@@ -6786,9 +6737,9 @@ export const voivodeship = {
         "Przyrowa",
         "Gulbiny",
         "Ostrowite",
-        "Trąbin-Rumunki"
+        "Trąbin-Rumunki",
       ],
-      "Rogowo": [
+      Rogowo: [
         "Sosnowo",
         "Tartak",
         "Urszulewo",
@@ -6862,9 +6813,9 @@ export const voivodeship = {
         "Nowy Kobrzyniec",
         "Rogowo",
         "Szczerby",
-        "Wierzchowiska"
+        "Wierzchowiska",
       ],
-      "Skrwilno": [
+      Skrwilno: [
         "Gumowszczyzna",
         "Karczemka",
         "Niemcowizna Okalewska",
@@ -6932,9 +6883,9 @@ export const voivodeship = {
         "Budziska",
         "Otocznia",
         "Przywitowo",
-        "Urszulewo"
+        "Urszulewo",
       ],
-      "Wąpielsk": [
+      Wąpielsk: [
         "Olszak",
         "Chorab",
         "Noskowizna",
@@ -6956,10 +6907,10 @@ export const voivodeship = {
         "Wąpielsk",
         "Bielawki",
         "Łapinóż-Rumunki",
-        "Ruszkowo"
-      ]
+        "Ruszkowo",
+      ],
     },
-    "sępoleński": {
+    sępoleński: {
       "Kamień Krajeński": [
         "Witkowo",
         "Osady Jerzmionckie",
@@ -6998,7 +6949,7 @@ export const voivodeship = {
         "Orzełek",
         "Mała Cerkwica",
         "Niwy",
-        "Jerzmionki"
+        "Jerzmionki",
       ],
       "Sępólno Krajeńskie": [
         "Włościbórek",
@@ -7048,9 +6999,9 @@ export const voivodeship = {
         "Chmielniki",
         "Niechorz",
         "Wilkowo",
-        "Wysoka Krajeńska"
+        "Wysoka Krajeńska",
       ],
-      "Sośno": [
+      Sośno: [
         "Borówki",
         "Ciosek",
         "Leśniczówka Świdwie",
@@ -7089,9 +7040,9 @@ export const voivodeship = {
         "Przepałkowo",
         "Tonin",
         "Sośno",
-        "Tuszkowo"
+        "Tuszkowo",
       ],
-      "Więcbork": [
+      Więcbork: [
         "Czarmuń",
         "Chłopigozd-Gajówka",
         "Chłopigozd-Leśnictwo",
@@ -7153,11 +7104,11 @@ export const voivodeship = {
         "Dalkowo",
         "Pęperzyn",
         "Czarmuń",
-        "Suchorączek"
-      ]
+        "Suchorączek",
+      ],
     },
-    "świecki": {
-      "Bukowiec": [
+    świecki: {
+      Bukowiec: [
         "Branica",
         "Dolny Młyn",
         "Kawęcin",
@@ -7208,9 +7159,9 @@ export const voivodeship = {
         "Krupocin",
         "Franciszkowo",
         "Bramka",
-        "Poledno"
+        "Poledno",
       ],
-      "Dragacz": [
+      Dragacz: [
         "Bojanowo",
         "Mniszek",
         "Grupa",
@@ -7234,9 +7185,9 @@ export const voivodeship = {
         "Wielkie Stwolno",
         "Michale",
         "Bratwin",
-        "Dolna Grupa"
+        "Dolna Grupa",
       ],
-      "Drzycim": [
+      Drzycim: [
         "Gródek",
         "Lubocheń",
         "Kaliska",
@@ -7265,9 +7216,9 @@ export const voivodeship = {
         "Sierosław",
         "Biechowo",
         "Gacki",
-        "Drzycim"
+        "Drzycim",
       ],
-      "Jeżewo": [
+      Jeżewo: [
         "Kwiatki",
         "Rozgarty",
         "Dąbrowa",
@@ -7312,9 +7263,9 @@ export const voivodeship = {
         "Brzozowy Most",
         "Taszewko",
         "Osłowo",
-        "Białe Błota"
+        "Białe Błota",
       ],
-      "Lniano": [
+      Lniano: [
         "Lnianek",
         "Bukowiec",
         "Rykowisko",
@@ -7343,9 +7294,9 @@ export const voivodeship = {
         "Karolewo",
         "Mukrz",
         "Jeziorki",
-        "Błądzim"
+        "Błądzim",
       ],
-      "Nowe": [
+      Nowe: [
         "Dobre",
         "Kończyce",
         "Nowe",
@@ -7374,9 +7325,9 @@ export const voivodeship = {
         "Zdrojewo",
         "Gajewo",
         "Głodowo",
-        "Twarda Góra"
+        "Twarda Góra",
       ],
-      "Osie": [
+      Osie: [
         "Grabowa Buchta",
         "Sarnia Góra",
         "Zazdrość",
@@ -7417,9 +7368,9 @@ export const voivodeship = {
         "Łążek",
         "Miedzno",
         "Jaszcz",
-        "Tleń"
+        "Tleń",
       ],
-      "Pruszcz": [
+      Pruszcz: [
         "Grabowo",
         "Luszkowo",
         "Trępel",
@@ -7480,9 +7431,9 @@ export const voivodeship = {
         "Łaszewo",
         "Pruszcz",
         "Łowinek",
-        "Zbrachlin"
+        "Zbrachlin",
       ],
-      "Świecie": [
+      Świecie: [
         "Grabowiec",
         "Małe Bedlenki",
         "Nowe Dobra",
@@ -7514,9 +7465,9 @@ export const voivodeship = {
         "Święte",
         "Wiąg",
         "Dworzysko",
-        "Niedźwiedź"
+        "Niedźwiedź",
       ],
-      "Świekatowo": [
+      Świekatowo: [
         "Czajkowo",
         "Dubielno",
         "Kamienna Góra",
@@ -7539,9 +7490,9 @@ export const voivodeship = {
         "Jania Góra",
         "Lubania-Lipiny",
         "Tuszyny",
-        "Świekatowo"
+        "Świekatowo",
       ],
-      "Warlubie": [
+      Warlubie: [
         "Gzelowe",
         "Bąkowo",
         "Płochocin",
@@ -7604,11 +7555,11 @@ export const voivodeship = {
         "Lipinki",
         "Wielki Komorsk",
         "Krusze",
-        "Stara Huta"
-      ]
+        "Stara Huta",
+      ],
     },
-    "toruński": {
-      "Chełmża": [
+    toruński: {
+      Chełmża: [
         "Grodno",
         "Kuchnia",
         "Zelgno-Bezdół",
@@ -7661,9 +7612,9 @@ export const voivodeship = {
         "Mirakowo",
         "Januszewo",
         "Drzonówko",
-        "Szerokopas"
+        "Szerokopas",
       ],
-      "Czernikowo": [
+      Czernikowo: [
         "Dąbrówka",
         "Wylewy",
         "Kępiacz",
@@ -7713,9 +7664,9 @@ export const voivodeship = {
         "Liciszewy",
         "Kiełpiny",
         "Makowiska",
-        "Wygoda"
+        "Wygoda",
       ],
-      "Lubicz": [
+      Lubicz: [
         "Kolonia Papowska",
         "Lampusz",
         "Przydatki",
@@ -7743,9 +7694,9 @@ export const voivodeship = {
         "Jedwabno",
         "Krobia",
         "Młyniec Pierwszy",
-        "Kopanino"
+        "Kopanino",
       ],
-      "Łubianka": [
+      Łubianka: [
         "Zawiszówka",
         "Koryta",
         "Kozielec",
@@ -7762,9 +7713,9 @@ export const voivodeship = {
         "Biskupice",
         "Wymysłowo",
         "Dębiny",
-        "Przeczno"
+        "Przeczno",
       ],
-      "Łysomice": [
+      Łysomice: [
         "Łysomice-Leśniczówka",
         "Olek",
         "Chorab",
@@ -7799,9 +7750,9 @@ export const voivodeship = {
         "Piwnice",
         "Zakrzewko",
         "Papowo Toruńskie",
-        "Lipniczki"
+        "Lipniczki",
       ],
-      "Obrowo": [
+      Obrowo: [
         "Bartoszewo",
         "Chrapy",
         "Piaski",
@@ -7851,7 +7802,7 @@ export const voivodeship = {
         "Głogowo",
         "Obrowo",
         "Skrzypkowo",
-        "Dzikowo"
+        "Dzikowo",
       ],
       "Wielka Nieszawka": [
         "Cierpiszewo",
@@ -7863,7 +7814,7 @@ export const voivodeship = {
         "Brzoza",
         "Wielka Nieszawka",
         "Mała Nieszawka",
-        "Cierpice"
+        "Cierpice",
       ],
       "Zławieś Wielka": [
         "Gutowo-Leśnictwo",
@@ -7895,11 +7846,11 @@ export const voivodeship = {
         "Gutowo",
         "Pędzewo",
         "Czarnowo",
-        "Cegielnik"
-      ]
+        "Cegielnik",
+      ],
     },
-    "tucholski": {
-      "Cekcyn": [
+    tucholski: {
+      Cekcyn: [
         "Nowy Młyn",
         "Sowiniec",
         "Huta",
@@ -7962,9 +7913,9 @@ export const voivodeship = {
         "Iwiec",
         "Wielkie Gacno",
         "Zdroje",
-        "Wysoka"
+        "Wysoka",
       ],
-      "Gostycyn": [
+      Gostycyn: [
         "Żółwiniec",
         "Leontynowo",
         "Pieńkowo",
@@ -7982,9 +7933,9 @@ export const voivodeship = {
         "Przyrowa",
         "Wielki Mędromierz",
         "Gostycyn",
-        "Kamienica"
+        "Kamienica",
       ],
-      "Kęsowo": [
+      Kęsowo: [
         "Małe Wieszczyce",
         "Tuchółka",
         "Nowe Żalno",
@@ -8024,9 +7975,9 @@ export const voivodeship = {
         "Bralewnica",
         "Pamiętowo",
         "Jeleńcz",
-        "Kęsowo"
+        "Kęsowo",
       ],
-      "Lubiewo": [
+      Lubiewo: [
         "Wandowo",
         "Zamrza",
         "Bruchniewo",
@@ -8088,9 +8039,9 @@ export const voivodeship = {
         "Lubiewo",
         "Bysław",
         "Bysławek",
-        "Cierplewo"
+        "Cierplewo",
       ],
-      "Śliwice": [
+      Śliwice: [
         "Sarnia Góra",
         "Mała Główka",
         "Niedźwiedziniec",
@@ -8141,9 +8092,9 @@ export const voivodeship = {
         "Lińsk",
         "Zwierzyniec",
         "Okoniny Nadjeziorne",
-        "Śliwiczki"
+        "Śliwiczki",
       ],
-      "Tuchola": [
+      Tuchola: [
         "Barłogi",
         "Zielonka",
         "Tajwan",
@@ -8209,15 +8160,11 @@ export const voivodeship = {
         "Kiełpin",
         "Stobno",
         "Mała Komorza",
-        "Legbąd"
-      ]
-    },
-    "wąbrzeski": {
-      "Wąbrzeźno": [
-        "Pod Młynik",
-        "Pod Myśliwiec",
-        "Wąbrzeźno"
+        "Legbąd",
       ],
+    },
+    wąbrzeski: {
+      Wąbrzeźno: ["Pod Młynik", "Pod Myśliwiec", "Wąbrzeźno"],
       "Dębowa Łąka": [
         "Feliksowo",
         "Wymyślanka",
@@ -8241,9 +8188,9 @@ export const voivodeship = {
         "Wielkie Radowiska",
         "Lipnica",
         "Łobdowo",
-        "Małe Pułkowo"
+        "Małe Pułkowo",
       ],
-      "Książki": [
+      Książki: [
         "Bejzlerówka",
         "Buczek",
         "Góry",
@@ -8272,9 +8219,9 @@ export const voivodeship = {
         "Zaskocz",
         "Blizno",
         "Blizienko",
-        "Szczuplinki"
+        "Szczuplinki",
       ],
-      "Płużnica": [
+      Płużnica: [
         "Czapelki",
         "Dębie",
         "Goryń",
@@ -8299,9 +8246,9 @@ export const voivodeship = {
         "Nowa Wieś Królewska",
         "Kotnowo",
         "Ostrowo",
-        "Płużnica"
+        "Płużnica",
       ],
-      "Ryńsk": [
+      Ryńsk: [
         "Wronie",
         "Plebanka",
         "Buk",
@@ -8342,11 +8289,11 @@ export const voivodeship = {
         "Jarantowice",
         "Myśliwiec",
         "Orzechówko",
-        "Trzciano"
-      ]
+        "Trzciano",
+      ],
     },
-    "włocławski": {
-      "Kowal": [
+    włocławski: {
+      Kowal: [
         "Mursk",
         "Szosa Włocławska",
         "Rakutówek",
@@ -8428,9 +8375,9 @@ export const voivodeship = {
         "Kępka Szlachecka",
         "Przydatki Gołaszewskie",
         "Strzały",
-        "Unisławice"
+        "Unisławice",
       ],
-      "Baruchowo": [
+      Baruchowo: [
         "Kłotno",
         "Niedźwiedź",
         "Skrzynki",
@@ -8476,9 +8423,9 @@ export const voivodeship = {
         "Patrówek",
         "Boża Wola",
         "Lubaty",
-        "Kurowo-Kolonia"
+        "Kurowo-Kolonia",
       ],
-      "Boniewo": [
+      Boniewo: [
         "Krajanki",
         "Mikołajki",
         "Kolonia Boniewska",
@@ -8546,7 +8493,7 @@ export const voivodeship = {
         "Łąki Zwiastowe",
         "Otmianowo",
         "Czuple",
-        "Sieroszewo"
+        "Sieroszewo",
       ],
       "Brześć Kujawski": [
         "Mazury",
@@ -8664,9 +8611,9 @@ export const voivodeship = {
         "Klementynowo",
         "Wieniec-Zalesie",
         "Miechowice Duże",
-        "Wolica"
+        "Wolica",
       ],
-      "Choceń": [
+      Choceń: [
         "Kuźniczka",
         "Litoborek",
         "Nowe Janowo",
@@ -8715,9 +8662,9 @@ export const voivodeship = {
         "Wilkowice",
         "Wilkowiczki",
         "Zakrzewek",
-        "Borzymie"
+        "Borzymie",
       ],
-      "Chodecz": [
+      Chodecz: [
         "Strzygowska Kolonia",
         "Podgórze-Zameczek",
         "Piotrowo",
@@ -8837,9 +8784,9 @@ export const voivodeship = {
         "Strzygi",
         "Szczecin",
         "Chodeczek",
-        "Huta Chodecka"
+        "Huta Chodecka",
       ],
-      "Fabianki": [
+      Fabianki: [
         "Łęg-Witoszyn",
         "Krępiny",
         "Chełmica-Cukrownia",
@@ -8899,7 +8846,7 @@ export const voivodeship = {
         "Osiek",
         "Szpetal Górny",
         "Fabianki",
-        "Nasiegniewo"
+        "Nasiegniewo",
       ],
       "Izbica Kujawska": [
         "Folusz",
@@ -8992,9 +8939,9 @@ export const voivodeship = {
         "Tymień",
         "Sokołowo",
         "Chociszewo",
-        "Cieplinki"
+        "Cieplinki",
       ],
-      "Lubanie": [
+      Lubanie: [
         "Dąbrówka",
         "Kolonia Ustrońska",
         "Zapomnianowo",
@@ -9019,7 +8966,7 @@ export const voivodeship = {
         "Mikorzyn",
         "Włoszyca Lubańska",
         "Mikanowo",
-        "Probostwo Górne"
+        "Probostwo Górne",
       ],
       "Lubień Kujawski": [
         "Siemiany",
@@ -9129,9 +9076,9 @@ export const voivodeship = {
         "Kamienna",
         "Rzeżewo-Morzyce",
         "Świerna",
-        "Sławęcin"
+        "Sławęcin",
       ],
-      "Lubraniec": [
+      Lubraniec: [
         "Sarnowo",
         "Górniak",
         "Marysin",
@@ -9216,9 +9163,9 @@ export const voivodeship = {
         "Borek",
         "Milżyn",
         "Czajno",
-        "Żydowo"
+        "Żydowo",
       ],
-      "Włocławek": [
+      Włocławek: [
         "Krzywe Błoto",
         "Ruda",
         "Smolarskie",
@@ -9277,11 +9224,11 @@ export const voivodeship = {
         "Wistka Szlachecka",
         "Potok",
         "Mursk",
-        "Sykuła"
-      ]
+        "Sykuła",
+      ],
     },
-    "żniński": {
-      "Barcin": [
+    żniński: {
+      Barcin: [
         "Piechcin",
         "Wapienno",
         "Bielawy",
@@ -9308,9 +9255,9 @@ export const voivodeship = {
         "Krotoszyn",
         "Mamlicz",
         "Aleksandrowo",
-        "Zalesie Barcińskie"
+        "Zalesie Barcińskie",
       ],
-      "Gąsawa": [
+      Gąsawa: [
         "Łysinin",
         "Oćwieka",
         "Pniewy",
@@ -9355,7 +9302,7 @@ export const voivodeship = {
         "Komratowo",
         "Rozalinowo",
         "Annowo",
-        "Chomiąża Szlachecka"
+        "Chomiąża Szlachecka",
       ],
       "Janowiec Wielkopolski": [
         "Brudzyń",
@@ -9434,9 +9381,9 @@ export const voivodeship = {
         "Laskowo",
         "Wełna",
         "Chrzanowo",
-        "Włoszanowo"
+        "Włoszanowo",
       ],
-      "Łabiszyn": [
+      Łabiszyn: [
         "Łabiszyn",
         "Kąpie",
         "Rzywno",
@@ -9467,9 +9414,9 @@ export const voivodeship = {
         "Klotyldowo",
         "Smogorzewo",
         "Ostatkowo",
-        "Wielki Sosnowiec"
+        "Wielki Sosnowiec",
       ],
-      "Rogowo": [
+      Rogowo: [
         "Bielawka",
         "Długi Bród",
         "Głęboczek",
@@ -9535,9 +9482,9 @@ export const voivodeship = {
         "Szkółki",
         "Złotniki",
         "Grochowiska Księże",
-        "Mięcierzyn"
+        "Mięcierzyn",
       ],
-      "Żnin": [
+      Żnin: [
         "Chomiąża Księża",
         "Nowiny",
         "Kępa",
@@ -9636,11 +9583,11 @@ export const voivodeship = {
         "Sielec",
         "Wójcin",
         "Cerekwica",
-        "Podobowice"
-      ]
+        "Podobowice",
+      ],
     },
-    "Bydgoszcz": {
-      "Bydgoszcz": [
+    Bydgoszcz: {
+      Bydgoszcz: [
         "Jastrzębie",
         "Rupienica",
         "Rynkowo",
@@ -9684,11 +9631,11 @@ export const voivodeship = {
         "Pałcz",
         "Biedaszkówko",
         "Łoskoń",
-        "Bydgoszcz"
-      ]
+        "Bydgoszcz",
+      ],
     },
-    "Grudziądz": {
-      "Grudziądz": [
+    Grudziądz: {
+      Grudziądz: [
         "Czerwony Dwór",
         "Rządz",
         "Chełmińskie Przedmieście",
@@ -9702,11 +9649,11 @@ export const voivodeship = {
         "Tarpno",
         "Mniszek",
         "Strzemięcin",
-        "Grudziądz"
-      ]
+        "Grudziądz",
+      ],
     },
-    "Toruń": {
-      "Toruń": [
+    Toruń: {
+      Toruń: [
         "Chełmińskie Przedmieście",
         "Bydgoskie Przedmieście",
         "Jakubskie Przedmieście",
@@ -9731,11 +9678,11 @@ export const voivodeship = {
         "Stawki",
         "Glinki",
         "Podgórz",
-        "Toruń"
-      ]
+        "Toruń",
+      ],
     },
-    "Włocławek": {
-      "Włocławek": [
+    Włocławek: {
+      Włocławek: [
         "Suchy Kierz",
         "Za Torem",
         "Rumunki Zarudzkie",
@@ -9801,12 +9748,12 @@ export const voivodeship = {
         "Zapiecek",
         "Ruda",
         "Słodowo",
-        "Włocławek"
-      ]
-    }
+        "Włocławek",
+      ],
+    },
   },
-  "LUBELSKIE": {
-    "bialski": {
+  LUBELSKIE: {
+    bialski: {
       "Międzyrzec Podlaski": [
         "Kolonia Wolańska",
         "Kożuszki",
@@ -9888,9 +9835,9 @@ export const voivodeship = {
         "Syty",
         "Zabiele",
         "Podlasie",
-        "Cegielnia"
+        "Cegielnia",
       ],
-      "Terespol": [
+      Terespol: [
         "Lechuty Małe",
         "Bohukały",
         "Podolanka",
@@ -9929,7 +9876,7 @@ export const voivodeship = {
         "Michalków",
         "Surowo",
         "Wielkie Pole",
-        "Koroszczyn"
+        "Koroszczyn",
       ],
       "Biała Podlaska": [
         "Ortel Książęcy Pierwszy",
@@ -10049,9 +9996,9 @@ export const voivodeship = {
         "Bagonica",
         "Budziszew",
         "Kownackie",
-        "Osienniki"
+        "Osienniki",
       ],
-      "Drelów": [
+      Drelów: [
         "Leszczanka",
         "Witoroż",
         "Worsy",
@@ -10106,7 +10053,7 @@ export const voivodeship = {
         "Byk",
         "Okopy",
         "Nowiny",
-        "Łan"
+        "Łan",
       ],
       "Janów Podlaski": [
         "Peredyło",
@@ -10140,9 +10087,9 @@ export const voivodeship = {
         "Nowinki",
         "Piaski",
         "Pieczyska",
-        "Wygoda"
+        "Wygoda",
       ],
-      "Kodeń": [
+      Kodeń: [
         "Kostomłoty",
         "Okczyn",
         "Kożanówka",
@@ -10175,9 +10122,9 @@ export const voivodeship = {
         "Haczki",
         "Rapcze",
         "Dobratycze",
-        "Kostomłoty"
+        "Kostomłoty",
       ],
-      "Konstantynów": [
+      Konstantynów: [
         "Solinki",
         "Komarno",
         "Komarno-Kolonia",
@@ -10216,7 +10163,7 @@ export const voivodeship = {
         "Głuchowo",
         "Ludwinów",
         "Międzylesie",
-        "Siekierka"
+        "Siekierka",
       ],
       "Leśna Podlaska": [
         "Bukowice-Kolonia",
@@ -10262,9 +10209,9 @@ export const voivodeship = {
         "Przesmyki",
         "Wycinka",
         "Żabowo",
-        "Góry"
+        "Góry",
       ],
-      "Łomazy": [
+      Łomazy: [
         "Burwin",
         "Szymanowo",
         "Krasówka",
@@ -10348,9 +10295,9 @@ export const voivodeship = {
         "Międzydróże",
         "Lubatynek",
         "Działy",
-        "Jaworówka"
+        "Jaworówka",
       ],
-      "Piszczac": [
+      Piszczac: [
         "Nowy Dwór",
         "Ortel Królewski Drugi",
         "Zahorów",
@@ -10421,9 +10368,9 @@ export const voivodeship = {
         "Ogrodniki",
         "Parcela",
         "Ratarków",
-        "Wołoszki"
+        "Wołoszki",
       ],
-      "Rokitno": [
+      Rokitno: [
         "Rokitno",
         "Michałki",
         "Kołczyn",
@@ -10469,9 +10416,9 @@ export const voivodeship = {
         "Zaczopki",
         "Rokitno",
         "Serwin",
-        "Szarowicze"
+        "Szarowicze",
       ],
-      "Rossosz": [
+      Rossosz: [
         "Bordziłówka",
         "Romaszki",
         "Mokre",
@@ -10516,9 +10463,9 @@ export const voivodeship = {
         "Zabaszta",
         "Zagórek",
         "Zagrobla",
-        "Karaczony"
+        "Karaczony",
       ],
-      "Sławatycze": [
+      Sławatycze: [
         "Sajówka",
         "Sławatycze",
         "Sławatycze-Kolonia",
@@ -10554,9 +10501,9 @@ export const voivodeship = {
         "Stynówszczyzna",
         "Zaręka",
         "Monastyr",
-        "Kuzawka-Kolonia"
+        "Kuzawka-Kolonia",
       ],
-      "Sosnówka": [
+      Sosnówka: [
         "Wygnanka",
         "Lipinki",
         "Przechód",
@@ -10606,9 +10553,9 @@ export const voivodeship = {
         "Wypas",
         "Zabagnie",
         "Zmysły",
-        "Zawyhary"
+        "Zawyhary",
       ],
-      "Tuczna": [
+      Tuczna: [
         "Bokinka Pańska",
         "Żuki",
         "Wólka Zabłocka-Kolonia",
@@ -10685,9 +10632,9 @@ export const voivodeship = {
         "Pod Czarnym Lasem",
         "Kąt",
         "Zdanówka",
-        "Międzyleś"
+        "Międzyleś",
       ],
-      "Wisznice": [
+      Wisznice: [
         "Horodyszcze",
         "Ratajewicze",
         "Curyn",
@@ -10716,9 +10663,9 @@ export const voivodeship = {
         "Bychanie",
         "Małgorzacin",
         "Sewerynówka",
-        "Zacisze"
+        "Zacisze",
       ],
-      "Zalesie": [
+      Zalesie: [
         "Kijowiec",
         "Koczukówka",
         "Horbów-Kolonia",
@@ -10759,11 +10706,11 @@ export const voivodeship = {
         "Popówka",
         "Młyńskie",
         "Kijowiec",
-        "Gaj"
-      ]
+        "Gaj",
+      ],
     },
-    "biłgorajski": {
-      "Biłgoraj": [
+    biłgorajski: {
+      Biłgoraj: [
         "Edwardów",
         "Dyle",
         "Smólsko Małe",
@@ -10839,9 +10786,9 @@ export const voivodeship = {
         "Teodorówka",
         "Rapy Dylańskie",
         "Sól",
-        "Siedem Chałup"
+        "Siedem Chałup",
       ],
-      "Aleksandrów": [
+      Aleksandrów: [
         "Aleksandrów",
         "Margole",
         "Aleksandrów Drugi",
@@ -10853,9 +10800,9 @@ export const voivodeship = {
         "Podlas",
         "Sigła",
         "Trzepietniak",
-        "Dąbrowa"
+        "Dąbrowa",
       ],
-      "Biszcza": [
+      Biszcza: [
         "Biszcza",
         "Suszka",
         "Wola Kulońska",
@@ -10886,9 +10833,9 @@ export const voivodeship = {
         "Glinki",
         "Folwark",
         "Kucharze",
-        "Podmajdanie"
+        "Podmajdanie",
       ],
-      "Frampol": [
+      Frampol: [
         "Radzięcin",
         "Teodorówka-Kolonia",
         "Rzeczyce",
@@ -10934,9 +10881,9 @@ export const voivodeship = {
         "Górki",
         "Sokołówka-Kolonia",
         "Lisie Góry",
-        "Kolonia Kąty"
+        "Kolonia Kąty",
       ],
-      "Goraj": [
+      Goraj: [
         "Albinów Duży",
         "Albinów Mały",
         "Bononia",
@@ -10996,9 +10943,9 @@ export const voivodeship = {
         "Kamionka",
         "Majdanek",
         "Odnoga",
-        "Średniówka-Kolonia"
+        "Średniówka-Kolonia",
       ],
-      "Józefów": [
+      Józefów: [
         "Majdan Nepryski",
         "Stanisławów",
         "Długi Kąt",
@@ -11029,9 +10976,9 @@ export const voivodeship = {
         "Józefów Roztoczański",
         "Florianka",
         "Długi Kąt-Osada",
-        "Tartak Długi Kąt"
+        "Tartak Długi Kąt",
       ],
-      "Księżpol": [
+      Księżpol: [
         "Korchów Pierwszy",
         "Stary Lipowiec",
         "Przymiarki",
@@ -11084,9 +11031,9 @@ export const voivodeship = {
         "Kulasze",
         "Pawlichy",
         "Cegielnia-Markowicze",
-        "Kucły"
+        "Kucły",
       ],
-      "Łukowa": [
+      Łukowa: [
         "Podsośnina",
         "Osuchy",
         "Pisklaki",
@@ -11113,9 +11060,9 @@ export const voivodeship = {
         "Chmielek-Kolonia",
         "Nowa Wieś",
         "Rowy",
-        "Błonie"
+        "Błonie",
       ],
-      "Obsza": [
+      Obsza: [
         "Obsza",
         "Wola Obszańska",
         "Zamch",
@@ -11130,7 +11077,7 @@ export const voivodeship = {
         "Polaki",
         "Załom Duży",
         "Pardasówka",
-        "Załom Mały"
+        "Załom Mały",
       ],
       "Potok Górny": [
         "Potok Górny",
@@ -11159,9 +11106,9 @@ export const voivodeship = {
         "Góra",
         "Przysiadki",
         "Kolonia Malennik",
-        "Lipiny Dolne-Kolonia"
+        "Lipiny Dolne-Kolonia",
       ],
-      "Tarnogród": [
+      Tarnogród: [
         "Luchów Dolny",
         "Różaniec",
         "Luchów Górny",
@@ -11185,9 +11132,9 @@ export const voivodeship = {
         "Różaniec Pierwszy",
         "Różaniec-Szkoła",
         "Koziarki",
-        "Pierogowiec"
+        "Pierogowiec",
       ],
-      "Tereszpol": [
+      Tereszpol: [
         "Szozdy",
         "Tereszpol-Zygmunty",
         "Panasówka",
@@ -11201,9 +11148,9 @@ export const voivodeship = {
         "Piaski",
         "Zahart",
         "Poręby",
-        "Góry"
+        "Góry",
       ],
-      "Turobin": [
+      Turobin: [
         "Żabno",
         "Rokitów",
         "Wólka Czernięcińska",
@@ -11229,10 +11176,10 @@ export const voivodeship = {
         "Polesiska",
         "Gródki Drugie",
         "Elizówka",
-        "Żabno-Kolonia"
-      ]
+        "Żabno-Kolonia",
+      ],
     },
-    "chełmski": {
+    chełmski: {
       "Rejowiec Fabryczny": [
         "Kanie",
         "Zalesie Krasieńskie",
@@ -11266,9 +11213,9 @@ export const voivodeship = {
         "Wygoda",
         "Wólka Kańska-Kolonia",
         "Gołąb",
-        "Nikodemówka"
+        "Nikodemówka",
       ],
-      "Białopole": [
+      Białopole: [
         "Grobelki",
         "Białopole",
         "Strzelce",
@@ -11289,9 +11236,9 @@ export const voivodeship = {
         "Teremiec",
         "Teresin",
         "Zabudnowo",
-        "Maziarnia Strzelecka"
+        "Maziarnia Strzelecka",
       ],
-      "Chełm": [
+      Chełm: [
         "Srebrzyszcze",
         "Okszów",
         "Staw",
@@ -11350,9 +11297,9 @@ export const voivodeship = {
         "Depułtycze Królewskie-Kolonia",
         "Okszów-Kolonia",
         "Depułtycze",
-        "Sajczyce"
+        "Sajczyce",
       ],
-      "Dorohusk": [
+      Dorohusk: [
         "Kolemczyce",
         "Berdyszcze",
         "Brzeźno",
@@ -11433,9 +11380,9 @@ export const voivodeship = {
         "Husynne",
         "Wólka Okopska",
         "Husynne",
-        "Ostrów"
+        "Ostrów",
       ],
-      "Dubienka": [
+      Dubienka: [
         "Janostrów",
         "Krynica",
         "Zagórnik",
@@ -11460,9 +11407,9 @@ export const voivodeship = {
         "Tuchanie",
         "Lipniki",
         "Tursko",
-        "Rudka"
+        "Rudka",
       ],
-      "Kamień": [
+      Kamień: [
         "Andrzejów",
         "Strachosław",
         "Ignatów",
@@ -11495,9 +11442,9 @@ export const voivodeship = {
         "Majdan Pławanicki",
         "Ignatów-Kolonia",
         "Kamień-Kolonia",
-        "Pławanice-Kolonia"
+        "Pławanice-Kolonia",
       ],
-      "Leśniowice": [
+      Leśniowice: [
         "Wierzbica",
         "Horodysko",
         "Plisków",
@@ -11559,7 +11506,7 @@ export const voivodeship = {
         "Leśniowice-Kolonia",
         "Rakołupy Małe",
         "Dębina",
-        "Kumów Majoracki"
+        "Kumów Majoracki",
       ],
       "Ruda-Huta": [
         "Rudka",
@@ -11615,9 +11562,9 @@ export const voivodeship = {
         "Ruda-Opalin",
         "Chromówka",
         "Konotopa",
-        "Żalin"
+        "Żalin",
       ],
-      "Sawin": [
+      Sawin: [
         "Przysiółek",
         "Bukowa Wielka",
         "Czułczyce-Kolonia",
@@ -11687,9 +11634,9 @@ export const voivodeship = {
         "Łowcza-Kolonia",
         "Krobonosz-Kolonia",
         "Bachus",
-        "Średni Łan"
+        "Średni Łan",
       ],
-      "Siedliszcze": [
+      Siedliszcze: [
         "Anusin",
         "Bezek",
         "Bezek Dębiński",
@@ -11775,9 +11722,9 @@ export const voivodeship = {
         "Lipówki",
         "Marynin",
         "Romanówka",
-        "Zabitek"
+        "Zabitek",
       ],
-      "Wierzbica": [
+      Wierzbica: [
         "Pniówno",
         "Władysławów",
         "Syczyn",
@@ -11835,9 +11782,9 @@ export const voivodeship = {
         "Leonówka",
         "Busówno-Kolonia",
         "Wólka Tarnowska",
-        "Kamienna Góra"
+        "Kamienna Góra",
       ],
-      "Wojsławice": [
+      Wojsławice: [
         "Majdan Ostrowski",
         "Majdan",
         "Kukawka",
@@ -11888,9 +11835,9 @@ export const voivodeship = {
         "Stadarnia",
         "Witoldów",
         "Kolonia",
-        "Wojsławice"
+        "Wojsławice",
       ],
-      "Żmudź": [
+      Żmudź: [
         "Ksawerów",
         "Klesztów",
         "Lipinki",
@@ -11950,9 +11897,9 @@ export const voivodeship = {
         "Majdan",
         "Podlaski",
         "Teresin",
-        "Żmudź-Kolonia"
+        "Żmudź-Kolonia",
       ],
-      "Rejowiec": [
+      Rejowiec: [
         "Rybie",
         "Siedliszczki",
         "Stary Majdan",
@@ -11996,11 +11943,11 @@ export const voivodeship = {
         "Rejowiec-Kolonia",
         "Adamów",
         "Bieniów",
-        "Niemirów"
-      ]
+        "Niemirów",
+      ],
     },
-    "hrubieszowski": {
-      "Hrubieszów": [
+    hrubieszowski: {
+      Hrubieszów: [
         "Kobło",
         "Cichobórz",
         "Annopol",
@@ -12066,9 +12013,9 @@ export const voivodeship = {
         "Ubrodowice-Kolonia",
         "Stefankowice-Kolonia",
         "Łotoszyny",
-        "Dąbrowa"
+        "Dąbrowa",
       ],
-      "Dołhobyczów": [
+      Dołhobyczów: [
         "Podhajczyki",
         "Liski",
         "Dłużniów",
@@ -12108,9 +12055,9 @@ export const voivodeship = {
         "Uśmierz",
         "Wólka Poturzyńska",
         "Gołębie",
-        "Kościaszyn"
+        "Kościaszyn",
       ],
-      "Horodło": [
+      Horodło: [
         "Horodło",
         "Kopyłów",
         "Cegielnia",
@@ -12138,9 +12085,9 @@ export const voivodeship = {
         "Komora",
         "Janki Górne",
         "Ciołki",
-        "Kobło-Kolonia"
+        "Kobło-Kolonia",
       ],
-      "Mircze": [
+      Mircze: [
         "Miętkie-Kolonia",
         "Mircze",
         "Łasków",
@@ -12181,9 +12128,9 @@ export const voivodeship = {
         "Marysin",
         "Małków Nowy",
         "Szychowice Nowe",
-        "Modryń-Kolonia"
+        "Modryń-Kolonia",
       ],
-      "Trzeszczany": [
+      Trzeszczany: [
         "Nieledew",
         "Trzeszczany Pierwsze",
         "Zadębce",
@@ -12210,9 +12157,9 @@ export const voivodeship = {
         "Sadzonka",
         "Kolonia",
         "Leopoldów",
-        "Zadębce-Kolonia"
+        "Zadębce-Kolonia",
       ],
-      "Uchanie": [
+      Uchanie: [
         "Chyżowice",
         "Drohiczany",
         "Rozkoszówka",
@@ -12263,9 +12210,9 @@ export const voivodeship = {
         "Łuszczów-Kolonia",
         "Wandzin",
         "Feliksów",
-        "Dąbrowa"
+        "Dąbrowa",
       ],
-      "Werbkowice": [
+      Werbkowice: [
         "Honiatyczki",
         "Strzyżowiec",
         "Sahryń",
@@ -12323,11 +12270,11 @@ export const voivodeship = {
         "Dobromierzyce-Kolonia",
         "Podhorce-Kolonia",
         "Sahryń",
-        "Turkowice"
-      ]
+        "Turkowice",
+      ],
     },
-    "janowski": {
-      "Batorz": [
+    janowski: {
+      Batorz: [
         "Błażek",
         "Stawce",
         "Wola Studzieńska",
@@ -12343,9 +12290,9 @@ export const voivodeship = {
         "Batorz Drugi",
         "Batorz-Kolonia",
         "Samary",
-        "Wólka Batorska-Kolonia"
+        "Wólka Batorska-Kolonia",
       ],
-      "Chrzanów": [
+      Chrzanów: [
         "Łada",
         "Chrzanów",
         "Otrocz",
@@ -12360,9 +12307,9 @@ export const voivodeship = {
         "Dąbrowa",
         "Kolonia Otrocz",
         "Chrzanów Pierwszy",
-        "Chrzanów-Kolonia"
+        "Chrzanów-Kolonia",
       ],
-      "Dzwola": [
+      Dzwola: [
         "Konstantów",
         "Zofianka Dolna",
         "Branewka-Kolonia",
@@ -12392,9 +12339,9 @@ export const voivodeship = {
         "Kolonia Zofianka",
         "Rożki",
         "Sapy",
-        "Celinki"
+        "Celinki",
       ],
-      "Godziszów": [
+      Godziszów: [
         "Nowa Osada",
         "Godziszów",
         "Rataj Ordynacki",
@@ -12425,7 +12372,7 @@ export const voivodeship = {
         "Południaki",
         "Zdziłowice Trzecie",
         "Księża Góra",
-        "Daśkowa Góra"
+        "Daśkowa Góra",
       ],
       "Janów Lubelski": [
         "Łążek Garncarski",
@@ -12466,9 +12413,9 @@ export const voivodeship = {
         "Jonaki",
         "Jakuby",
         "Gierlachy",
-        "Cegielnia"
+        "Cegielnia",
       ],
-      "Modliborzyce": [
+      Modliborzyce: [
         "Antolin",
         "Bilsko",
         "Brzeziny",
@@ -12512,7 +12459,7 @@ export const voivodeship = {
         "Kopaniny",
         "Majdan-Kolonia",
         "Stojeszyn-Kolonia",
-        "Wolica-Kolonia"
+        "Wolica-Kolonia",
       ],
       "Potok Wielki": [
         "Maliniec",
@@ -12545,11 +12492,11 @@ export const voivodeship = {
         "Popielarnia",
         "Popielarnia",
         "Popielarnia",
-        "Chabudówka"
-      ]
+        "Chabudówka",
+      ],
     },
-    "krasnostawski": {
-      "Krasnystaw": [
+    krasnostawski: {
+      Krasnystaw: [
         "Jaślików",
         "Rońsko",
         "Wincentów",
@@ -12583,9 +12530,9 @@ export const voivodeship = {
         "Zastawie-Kolonia",
         "Widniówka",
         "Namule",
-        "Namule"
+        "Namule",
       ],
-      "Fajsławice": [
+      Fajsławice: [
         "Bielecha",
         "Ksawerówka",
         "Marysin",
@@ -12598,9 +12545,9 @@ export const voivodeship = {
         "Ignasin",
         "Siedliska Drugie",
         "Kosnowiec",
-        "Zosin"
+        "Zosin",
       ],
-      "Gorzków": [
+      Gorzków: [
         "Borów",
         "Chorupnik",
         "Orchowiec",
@@ -12624,9 +12571,9 @@ export const voivodeship = {
         "Felicjan",
         "Józefów",
         "Widniówka",
-        "Chorupnik-Kolonia"
+        "Chorupnik-Kolonia",
       ],
-      "Izbica": [
+      Izbica: [
         "Wirkowice Pierwsze",
         "Orłów Drewniany",
         "Kryniczki",
@@ -12657,9 +12604,9 @@ export const voivodeship = {
         "Marianka",
         "Izbica",
         "Tarnogóra-Kolonia",
-        "Mchy"
+        "Mchy",
       ],
-      "Kraśniczyn": [
+      Kraśniczyn: [
         "Zalesie",
         "Kraśniczyn",
         "Majdan Surhowski",
@@ -12683,7 +12630,7 @@ export const voivodeship = {
         "Kolonia Stara Wieś",
         "Wojciechów",
         "Bończa-Kolonia",
-        "Surhów-Kolonia"
+        "Surhów-Kolonia",
       ],
       "Łopiennik Górny": [
         "Dobryniów",
@@ -12702,9 +12649,9 @@ export const voivodeship = {
         "Żulin-Kolonia",
         "Nowa Wieś",
         "Łopiennik Dolny-Kolonia",
-        "Dobryniów-Kolonia"
+        "Dobryniów-Kolonia",
       ],
-      "Rudnik": [
+      Rudnik: [
         "Płonka Poleśna",
         "Kaszuby",
         "Joanin",
@@ -12734,7 +12681,7 @@ export const voivodeship = {
         "Serafin",
         "Płonka-Kolonia",
         "Mościska-Kolonia",
-        "Nowiny"
+        "Nowiny",
       ],
       "Siennica Różana": [
         "Siennica Królewska Duża",
@@ -12751,9 +12698,9 @@ export const voivodeship = {
         "Siennica Różana",
         "Kozieniec",
         "Siennica Królewska Mała",
-        "Siennica Różana"
+        "Siennica Różana",
       ],
-      "Żółkiewka": [
+      Żółkiewka: [
         "Wola Żółkiewska",
         "Poperczyn",
         "Rożki",
@@ -12787,11 +12734,11 @@ export const voivodeship = {
         "Żółkiewka-Osada",
         "Żółkiew-Kolonia",
         "Władysławin",
-        "Borowina"
-      ]
+        "Borowina",
+      ],
     },
-    "kraśnicki": {
-      "Kraśnik": [
+    kraśnicki: {
+      Kraśnik: [
         "Dąbrowa-Bór",
         "Kowalin",
         "Suchynia",
@@ -12818,9 +12765,9 @@ export const voivodeship = {
         "Rudki",
         "Kraśnik",
         "Góry",
-        "Pasieka-Kolonia"
+        "Pasieka-Kolonia",
       ],
-      "Annopol": [
+      Annopol: [
         "Stary Rachów",
         "Świeciechów Poduchowny",
         "Wymysłów",
@@ -12861,9 +12808,9 @@ export const voivodeship = {
         "Zofipole",
         "Niedbałki",
         "Kozłówka",
-        "Lasek"
+        "Lasek",
       ],
-      "Dzierzkowice": [
+      Dzierzkowice: [
         "Ludmiłówka",
         "Dzierzkowice-Wola",
         "Wyżnianka",
@@ -12880,9 +12827,9 @@ export const voivodeship = {
         "Krzywie",
         "Wyżnica-Kolonia",
         "Zwierzyniec",
-        "Wyżnianka-Kolonia"
+        "Wyżnianka-Kolonia",
       ],
-      "Gościeradów": [
+      Gościeradów: [
         "Liśnik Duży-Kolonia",
         "Gościeradów Ukazowy",
         "Łany",
@@ -12920,9 +12867,9 @@ export const voivodeship = {
         "Liśnik",
         "Sadki",
         "Agatówka",
-        "Wymysłów"
+        "Wymysłów",
       ],
-      "Szastarka": [
+      Szastarka: [
         "Cieślanki",
         "Huta Józefów",
         "Polichna",
@@ -12945,7 +12892,7 @@ export const voivodeship = {
         "Wojciechów-Kolonia",
         "Blinów-Kolonia",
         "Blinów Pierwszy",
-        "Szastarka"
+        "Szastarka",
       ],
       "Trzydnik Duży": [
         "Dębowiec",
@@ -12971,9 +12918,9 @@ export const voivodeship = {
         "Baranów",
         "Trzydnik Duży-Kolonia",
         "Dąbrowa-Kolonia",
-        "Dąbrowa-Choiny"
+        "Dąbrowa-Choiny",
       ],
-      "Urzędów": [
+      Urzędów: [
         "Wierzbica",
         "Zadworze",
         "Rankowskie",
@@ -13010,9 +12957,9 @@ export const voivodeship = {
         "Moniaki-Kolonia",
         "Okręglica-Kolonia",
         "Wierzbica-Kolonia",
-        "Józefin"
+        "Józefin",
       ],
-      "Wilkołaz": [
+      Wilkołaz: [
         "Zdrapy",
         "Wilkołaz Trzeci",
         "Wólka Rudnicka",
@@ -13032,9 +12979,9 @@ export const voivodeship = {
         "Rudnik-Kolonia",
         "Wilkołaz Górny",
         "Zamajdanie",
-        "Obroki"
+        "Obroki",
       ],
-      "Zakrzówek": [
+      Zakrzówek: [
         "Majdan-Grabina",
         "Rudnik Pierwszy",
         "Józefin",
@@ -13055,11 +13002,11 @@ export const voivodeship = {
         "Rudki",
         "Majorat",
         "Studzianki-Kolonia",
-        "Góry"
-      ]
+        "Góry",
+      ],
     },
-    "lubartowski": {
-      "Lubartów": [
+    lubartowski: {
+      Lubartów: [
         "Annobór",
         "Łucka",
         "Skrobów",
@@ -13098,9 +13045,9 @@ export const voivodeship = {
         "Majdan Kozłowiecki",
         "Stróżek",
         "Kopanina",
-        "Stary Tartak"
+        "Stary Tartak",
       ],
-      "Abramów": [
+      Abramów: [
         "Sosnówka",
         "Glinnik",
         "Marcinów",
@@ -13120,9 +13067,9 @@ export const voivodeship = {
         "Podlasie",
         "Stara Wieś",
         "Podwórze",
-        "Kobusówka"
+        "Kobusówka",
       ],
-      "Firlej": [
+      Firlej: [
         "Wólka Rozwadowska",
         "Czerwonka Poleśna",
         "Firlej",
@@ -13172,9 +13119,9 @@ export const voivodeship = {
         "Krzywda",
         "Pólki",
         "Sobolew-Kolonia",
-        "Serock"
+        "Serock",
       ],
-      "Jeziorzany": [
+      Jeziorzany: [
         "Wola Blizocka",
         "Walentynów",
         "Skarbiciesz",
@@ -13192,9 +13139,9 @@ export const voivodeship = {
         "Nowiny Przytockie",
         "Mściska",
         "Kawęczyn",
-        "Stawik"
+        "Stawik",
       ],
-      "Kamionka": [
+      Kamionka: [
         "Samoklęski",
         "Samoklęski-Kolonia Druga",
         "Samoklęski-Kolonia Pierwsza",
@@ -13241,9 +13188,9 @@ export const voivodeship = {
         "Ostrów",
         "Grabowy Las",
         "Kierzkówka-Kolonia",
-        "Starościn-Kolonia"
+        "Starościn-Kolonia",
       ],
-      "Kock": [
+      Kock: [
         "Talczyn",
         "Ruska Wieś",
         "Górka",
@@ -13278,9 +13225,9 @@ export const voivodeship = {
         "Lebiedziów",
         "Ług",
         "Mostkowy Dół",
-        "Podbielek"
+        "Podbielek",
       ],
-      "Michów": [
+      Michów: [
         "Podlodówek",
         "Elżbietów",
         "Krupy",
@@ -13340,9 +13287,9 @@ export const voivodeship = {
         "Załącze",
         "Zabiele",
         "Rudzienko-Kolonia",
-        "Kolonia Giżyce"
+        "Kolonia Giżyce",
       ],
-      "Niedźwiada": [
+      Niedźwiada: [
         "Klementynów",
         "Górka Lubartowska",
         "Berejów",
@@ -13360,7 +13307,7 @@ export const voivodeship = {
         "Ruski Las",
         "Pałecznica-Kolonia",
         "Tarło-Kolonia",
-        "Brzeźnica Bychawska-Kolonia"
+        "Brzeźnica Bychawska-Kolonia",
       ],
       "Ostrów Lubelski": [
         "Wólka Stara Kijańska",
@@ -13393,9 +13340,9 @@ export const voivodeship = {
         "Pod Osówką",
         "Wzgórek",
         "Pasy",
-        "Kolechowice-Kolonia"
+        "Kolechowice-Kolonia",
       ],
-      "Ostrówek": [
+      Ostrówek: [
         "Antoniówka",
         "Babczyzna",
         "Cegielnia",
@@ -13410,9 +13357,9 @@ export const voivodeship = {
         "Kamienowola",
         "Żurawiniec-Kolonia",
         "Dębica-Kolonia",
-        "Ostrówek-Kolonia"
+        "Ostrówek-Kolonia",
       ],
-      "Serniki": [
+      Serniki: [
         "Brzostówka",
         "Wólka Zawieprzycka",
         "Czerniejów",
@@ -13434,9 +13381,9 @@ export const voivodeship = {
         "Brzostówka-Kolonia",
         "Serniki-Kolonia",
         "Wola Sernicka-Kolonia",
-        "Las-Baran"
+        "Las-Baran",
       ],
-      "Uścimów": [
+      Uścimów: [
         "Orzechów-Kolonia",
         "Nowa Jedlanka",
         "Rudka Starościańska",
@@ -13457,11 +13404,11 @@ export const voivodeship = {
         "Ryczka",
         "Kosów",
         "Jedlanka",
-        "Ochoża"
-      ]
+        "Ochoża",
+      ],
     },
-    "lubelski": {
-      "Bełżyce": [
+    lubelski: {
+      Bełżyce: [
         "Stare Wierzchowiska",
         "Krężnica Okrągła",
         "Chmielnik-Kolonia",
@@ -13512,9 +13459,9 @@ export const voivodeship = {
         "Kolonia Trzecia",
         "Krężnica Okrągła",
         "Jaroszewice-Kolonia",
-        "Wronów-Kolonia"
+        "Wronów-Kolonia",
       ],
-      "Borzechów": [
+      Borzechów: [
         "Kępa Borzechowska",
         "Majdan Borzechowski",
         "Osina",
@@ -13542,9 +13489,9 @@ export const voivodeship = {
         "Łopiennik-Kolonia",
         "Ludwinów-Kolonia",
         "Chrzanów",
-        "Borzechów-Kolonia"
+        "Borzechów-Kolonia",
       ],
-      "Bychawa": [
+      Bychawa: [
         "Zaraszów",
         "Łęczyca",
         "Kowersk",
@@ -13604,9 +13551,9 @@ export const voivodeship = {
         "Ziunin",
         "Zajezierze",
         "Kolonia Ośniak",
-        "Wólka Osowska"
+        "Wólka Osowska",
       ],
-      "Garbów": [
+      Garbów: [
         "Piotrowice Wielkie",
         "Gutanów",
         "Bogucin",
@@ -13624,9 +13571,9 @@ export const voivodeship = {
         "Orlicz",
         "Wola Przybysławska Druga",
         "Marianka",
-        "Meszno"
+        "Meszno",
       ],
-      "Głusk": [
+      Głusk: [
         "Majdan Mętowski",
         "Abramowice Prywatne",
         "Nowiny",
@@ -13648,9 +13595,9 @@ export const voivodeship = {
         "Kalinówka",
         "Kazimierzówka",
         "Kliny",
-        "Wilczopole-Kolonia"
+        "Wilczopole-Kolonia",
       ],
-      "Jabłonna": [
+      Jabłonna: [
         "Piotrków-Kolonia",
         "Chmiel Drugi",
         "Jabłonna Pierwsza",
@@ -13669,9 +13616,9 @@ export const voivodeship = {
         "Piotrków Pierwszy",
         "Jabłonna-Majątek",
         "Sachalin",
-        "Majdanek Chmielowski"
+        "Majdanek Chmielowski",
       ],
-      "Jastków": [
+      Jastków: [
         "Płouszowice",
         "Sieprawki",
         "Dębówka",
@@ -13704,9 +13651,9 @@ export const voivodeship = {
         "Tomaszowice-Kolonia",
         "Moszna-Kolonia",
         "Natalin",
-        "Płouszowice-Kolonia"
+        "Płouszowice-Kolonia",
       ],
-      "Konopnica": [
+      Konopnica: [
         "Radawiec Mały",
         "Konopnica",
         "Sporniak",
@@ -13731,9 +13678,9 @@ export const voivodeship = {
         "Radawczyk Drugi",
         "Kozubszczyzna",
         "Marynin",
-        "Motycz-Józefin"
+        "Motycz-Józefin",
       ],
-      "Krzczonów": [
+      Krzczonów: [
         "Gierniak",
         "Pustelnik",
         "Piotrkówek",
@@ -13765,7 +13712,7 @@ export const voivodeship = {
         "Krzczonów-Sołtysy",
         "Lipniak",
         "Rynek",
-        "Kosarzew-Stróża-Kolonia"
+        "Kosarzew-Stróża-Kolonia",
       ],
       "Niedrzwica Duża": [
         "Sobieszczany",
@@ -13813,9 +13760,9 @@ export const voivodeship = {
         "Kandydaty",
         "Górki",
         "Sobieszczany-Kolonia",
-        "Niedrzwica Kościelna-Kolonia"
+        "Niedrzwica Kościelna-Kolonia",
       ],
-      "Niemce": [
+      Niemce: [
         "Dys",
         "Nasutów",
         "Majdan Krasieniński",
@@ -13857,9 +13804,9 @@ export const voivodeship = {
         "Pólko",
         "Stoczek-Kolonia",
         "Krasienin-Kolonia",
-        "Jakubowice Konińskie-Kolonia"
+        "Jakubowice Konińskie-Kolonia",
       ],
-      "Strzyżewice": [
+      Strzyżewice: [
         "Piotrowice",
         "Kolonia Kiełczewice Dolne",
         "Pawłówek",
@@ -13903,9 +13850,9 @@ export const voivodeship = {
         "Stary Pawłówek",
         "Rechta",
         "Rechtówek",
-        "Pszczela Wola"
+        "Pszczela Wola",
       ],
-      "Wojciechów": [
+      Wojciechów: [
         "Wojciechów",
         "Stasin",
         "Nowy Gaj",
@@ -13936,9 +13883,9 @@ export const voivodeship = {
         "Tomaszówka",
         "Łubki-Kolonia",
         "Wojciechów-Kolonia Pierwsza",
-        "Saganów"
+        "Saganów",
       ],
-      "Wólka": [
+      Wólka: [
         "Turka",
         "Łysaków",
         "Łuszczów Drugi",
@@ -13959,9 +13906,9 @@ export const voivodeship = {
         "Kolonia Pliszczyn",
         "Świdnik Duży-Leśniczówka",
         "Kolonia Świdnik Mały",
-        "Biskupie-Kolonia"
+        "Biskupie-Kolonia",
       ],
-      "Wysokie": [
+      Wysokie: [
         "Giełczew",
         "Biskupie",
         "Spławy",
@@ -13990,9 +13937,9 @@ export const voivodeship = {
         "Cegielnia",
         "Borowszczyzna",
         "Biskupie-Kolonia",
-        "Łosień"
+        "Łosień",
       ],
-      "Zakrzew": [
+      Zakrzew: [
         "Baraki",
         "Majdan Starowiejski",
         "Szklarnia",
@@ -14020,11 +13967,11 @@ export const voivodeship = {
         "Boćków",
         "Budy",
         "Targowisko-Kolonia",
-        "Zakrzew-Kolonia"
-      ]
+        "Zakrzew-Kolonia",
+      ],
     },
-    "łęczyński": {
-      "Cyców": [
+    łęczyński: {
+      Cyców: [
         "Sewerynów",
         "Ostrówek Podyski",
         "Biesiadki",
@@ -14084,9 +14031,9 @@ export const voivodeship = {
         "Stefanów",
         "Szczupak",
         "Świerszczów",
-        "Cyców-Kolonia Druga"
+        "Cyców-Kolonia Druga",
       ],
-      "Ludwin": [
+      Ludwin: [
         "Kaniwola",
         "Piaseczno",
         "Rogóźno",
@@ -14108,9 +14055,9 @@ export const voivodeship = {
         "Dąbrowa",
         "Dratów",
         "Ludwin-Kolonia",
-        "Dratów-Kolonia"
+        "Dratów-Kolonia",
       ],
-      "Łęczna": [
+      Łęczna: [
         "Witaniów",
         "Rossosz",
         "Zakrzów",
@@ -14135,9 +14082,9 @@ export const voivodeship = {
         "Leopoldów",
         "Piotrówek Drugi",
         "Stara Wieś-Kolonia",
-        "Podzamcze"
+        "Podzamcze",
       ],
-      "Milejów": [
+      Milejów: [
         "Maryniów",
         "Starościce",
         "Cyganka",
@@ -14162,9 +14109,9 @@ export const voivodeship = {
         "Wólka Bielecka",
         "Antoniów-Kolonia",
         "Kajetanówka",
-        "Klarów"
+        "Klarów",
       ],
-      "Puchaczów": [
+      Puchaczów: [
         "Albertów",
         "Brzeziny",
         "Puchaczów",
@@ -14184,9 +14131,9 @@ export const voivodeship = {
         "Konkoraty",
         "Jasieniec",
         "Turowola-Kolonia",
-        "Puchaczów-Kolonia"
+        "Puchaczów-Kolonia",
       ],
-      "Spiczyn": [
+      Spiczyn: [
         "Jawidz",
         "Nowa Wólka",
         "Zawieprzyce",
@@ -14213,11 +14160,11 @@ export const voivodeship = {
         "Wydmuchów",
         "Charlęż-Kolonia",
         "Kijany Kościelne",
-        "Zawieprzyce-Kolonia"
-      ]
+        "Zawieprzyce-Kolonia",
+      ],
     },
-    "łukowski": {
-      "Łuków": [
+    łukowski: {
+      Łuków: [
         "Świdry",
         "Zarzecz Łukowski",
         "Podgaj",
@@ -14315,7 +14262,7 @@ export const voivodeship = {
         "Smolarz",
         "Jata Pierwsza",
         "Klimki",
-        "Łazy-Kolonia Trzecia"
+        "Łazy-Kolonia Trzecia",
       ],
       "Stoczek Łukowski": [
         "Zgórznica",
@@ -14376,9 +14323,9 @@ export const voivodeship = {
         "Chrusty",
         "Róża",
         "Warkocz",
-        "Jamielnik"
+        "Jamielnik",
       ],
-      "Adamów": [
+      Adamów: [
         "Lipiny",
         "Kalinowy Dół",
         "Gułów",
@@ -14412,9 +14359,9 @@ export const voivodeship = {
         "Ruszcza",
         "Sitnik",
         "Zaździebulichy",
-        "Grabina"
+        "Grabina",
       ],
-      "Krzywda": [
+      Krzywda: [
         "Stary Patok",
         "Wielgolas",
         "Kożuchówka",
@@ -14472,9 +14419,9 @@ export const voivodeship = {
         "Kobylczyk",
         "Pasmug",
         "Zagórze",
-        "Radoryż"
+        "Radoryż",
       ],
-      "Serokomla": [
+      Serokomla: [
         "Hordzież",
         "Leonardów",
         "Ernestynów",
@@ -14511,9 +14458,9 @@ export const voivodeship = {
         "Bielany Trzecie",
         "Krzywda",
         "Karolina",
-        "Kolonia Wólka"
+        "Kolonia Wólka",
       ],
-      "Stanin": [
+      Stanin: [
         "Kij",
         "Stanin",
         "Nowa Wróblina",
@@ -14586,9 +14533,9 @@ export const voivodeship = {
         "Kierzków",
         "Kij",
         "Kolonia Kosuty",
-        "Jedlanka"
+        "Jedlanka",
       ],
-      "Trzebieszów": [
+      Trzebieszów: [
         "Szaniawy-Matysy",
         "Wierzejki",
         "Leszczanka",
@@ -14653,9 +14600,9 @@ export const voivodeship = {
         "Zabiałcze-Kolonia",
         "Zaolszynie",
         "Trzebieszów",
-        "Zawycienna"
+        "Zawycienna",
       ],
-      "Wojcieszków": [
+      Wojcieszków: [
         "Zofibór",
         "Oszczepalin Pierwszy",
         "Wólka Domaszewska",
@@ -14710,7 +14657,7 @@ export const voivodeship = {
         "Dąbrowa",
         "Nowiny",
         "Wola Burzecka-Kolonia",
-        "Przytulin"
+        "Przytulin",
       ],
       "Wola Mysłowska": [
         "Lisikierz",
@@ -14754,11 +14701,11 @@ export const voivodeship = {
         "Budki",
         "Płóski",
         "Pszczelnik",
-        "Zadole"
-      ]
+        "Zadole",
+      ],
     },
-    "opolski": {
-      "Chodel": [
+    opolski: {
+      Chodel: [
         "Chodel",
         "Antonówka",
         "Budzyń",
@@ -14805,7 +14752,7 @@ export const voivodeship = {
         "Fryszerka",
         "Wodące",
         "Świdno-Kolonia",
-        "Stasin"
+        "Stasin",
       ],
       "Józefów nad Wisłą": [
         "Pielgrzymka",
@@ -14853,9 +14800,9 @@ export const voivodeship = {
         "Kaliszany-Kolonia",
         "Boiska-Kolonia",
         "Chruślina-Kolonia",
-        "Wałowice-Kolonia"
+        "Wałowice-Kolonia",
       ],
-      "Karczmiska": [
+      Karczmiska: [
         "Mieczysławka",
         "Karczmiska Pierwsze",
         "Głusko Duże",
@@ -14888,9 +14835,9 @@ export const voivodeship = {
         "Głusko Małe",
         "Uściąż-Kolonia",
         "Głusko Duże-Kolonia",
-        "Zaborze-Kolonia"
+        "Zaborze-Kolonia",
       ],
-      "Łaziska": [
+      Łaziska: [
         "Głodno",
         "Trzciniec",
         "Zgoda",
@@ -14938,7 +14885,7 @@ export const voivodeship = {
         "Stara Nieciecz",
         "Ćwiętalka",
         "Kamień-Kolonia",
-        "Piotrawin-Kolonia"
+        "Piotrawin-Kolonia",
       ],
       "Opole Lubelskie": [
         "Wrzelowiec",
@@ -15024,9 +14971,9 @@ export const voivodeship = {
         "Zofiówka",
         "Pomorze",
         "Elżbieta-Kolonia",
-        "Kleniewo"
+        "Kleniewo",
       ],
-      "Poniatowa": [
+      Poniatowa: [
         "Kowala Pierwsza",
         "Kraczewice Rządowe",
         "Poniatowa",
@@ -15062,9 +15009,9 @@ export const voivodeship = {
         "Zajączków",
         "Niezabitów-Kolonia",
         "Poniatowa-Kolonia",
-        "Szczuczki-Kolonia"
+        "Szczuczki-Kolonia",
       ],
-      "Wilków": [
+      Wilków: [
         "Rybaki",
         "Kosiorów",
         "Podgórz",
@@ -15098,10 +15045,10 @@ export const voivodeship = {
         "Kijasków",
         "Ogrody-Kolonia",
         "Wilków-Kolonia",
-        "Szczekarków-Kolonia"
-      ]
+        "Szczekarków-Kolonia",
+      ],
     },
-    "parczewski": {
+    parczewski: {
       "Dębowa Kłoda": [
         "Pachole",
         "Białka",
@@ -15131,9 +15078,9 @@ export const voivodeship = {
         "Chałupne",
         "Borki",
         "Uhnin",
-        "Smolarz"
+        "Smolarz",
       ],
-      "Jabłoń": [
+      Jabłoń: [
         "Paszenki",
         "Holendernia",
         "Kolano",
@@ -15147,9 +15094,9 @@ export const voivodeship = {
         "Łubno",
         "Wantopol",
         "Sewerynówka",
-        "Jabłoń"
+        "Jabłoń",
       ],
-      "Milanów": [
+      Milanów: [
         "Rudno",
         "Milanów",
         "Czeberaki",
@@ -15174,9 +15121,9 @@ export const voivodeship = {
         "Zabłocie",
         "Milanów-Kolonia",
         "Góry Brzeziny",
-        "Czarny Las"
+        "Czarny Las",
       ],
-      "Parczew": [
+      Parczew: [
         "Jasionka",
         "Michałówka",
         "Wola Przewłocka",
@@ -15202,9 +15149,9 @@ export const voivodeship = {
         "Mariampol",
         "Jasionka Pierwsza",
         "Babianka",
-        "Welin"
+        "Welin",
       ],
-      "Podedwórze": [
+      Podedwórze: [
         "Niecielin",
         "Opole",
         "Grabówka",
@@ -15230,9 +15177,9 @@ export const voivodeship = {
         "Ostrówki",
         "Szlubów",
         "Zadnie",
-        "Załawie"
+        "Załawie",
       ],
-      "Siemień": [
+      Siemień: [
         "Siemień",
         "Jezioro",
         "Władysławów",
@@ -15258,9 +15205,9 @@ export const voivodeship = {
         "Szatamanka",
         "Juliopol-Kolonia",
         "Siemień-Kolonia",
-        "Barwinów"
+        "Barwinów",
       ],
-      "Sosnowica": [
+      Sosnowica: [
         "Komarówka",
         "Bohutyn",
         "Nowy Orzechów",
@@ -15289,11 +15236,11 @@ export const voivodeship = {
         "Sosnowica-Dwór",
         "Turno",
         "Zienki",
-        "Pieszowola"
-      ]
+        "Pieszowola",
+      ],
     },
-    "puławski": {
-      "Puławy": [
+    puławski: {
+      Puławy: [
         "Dobrosławów",
         "Sosnów",
         "Tomaszów",
@@ -15327,9 +15274,9 @@ export const voivodeship = {
         "Kuroszów",
         "Żabianka",
         "Żuławy",
-        "Wólka Pachnowolska"
+        "Wólka Pachnowolska",
       ],
-      "Baranów": [
+      Baranów: [
         "Kozioł",
         "Łukawica",
         "Pogonów",
@@ -15351,9 +15298,9 @@ export const voivodeship = {
         "Kolonia Czołna",
         "Baranów",
         "Marianka",
-        "Zagrody"
+        "Zagrody",
       ],
-      "Janowiec": [
+      Janowiec: [
         "Oblasy",
         "Brześce",
         "Janowice",
@@ -15363,7 +15310,7 @@ export const voivodeship = {
         "Wojszyn",
         "Polesie Wojszyńskie",
         "Dworek",
-        "Brześce-Kolonia"
+        "Brześce-Kolonia",
       ],
       "Kazimierz Dolny": [
         "Witoszyn",
@@ -15392,9 +15339,9 @@ export const voivodeship = {
         "Mięćmierz",
         "Josiniec",
         "Granica",
-        "Kolonia Zbędowice"
+        "Kolonia Zbędowice",
       ],
-      "Końskowola": [
+      Końskowola: [
         "Rudy",
         "Sielce",
         "Młynki",
@@ -15417,9 +15364,9 @@ export const voivodeship = {
         "Pulki-Majątek",
         "Zakierzki",
         "Zażuk",
-        "Końskowola"
+        "Końskowola",
       ],
-      "Kurów": [
+      Kurów: [
         "Łąkoć",
         "Posiołek",
         "Choszczów",
@@ -15442,9 +15389,9 @@ export const voivodeship = {
         "Wygoda",
         "Kurów",
         "Józefów",
-        "Kozi Las"
+        "Kozi Las",
       ],
-      "Markuszów": [
+      Markuszów: [
         "Zabłocie",
         "Wólka Kątna",
         "Olszowiec",
@@ -15454,9 +15401,9 @@ export const voivodeship = {
         "Kaleń",
         "Bobowiska",
         "Markuszów",
-        "Góry-Kolonia"
+        "Góry-Kolonia",
       ],
-      "Nałęczów": [
+      Nałęczów: [
         "Bronice",
         "Sadurki",
         "Strzelce",
@@ -15480,9 +15427,9 @@ export const voivodeship = {
         "Drzewce-Kolonia",
         "Bochotnica-Kolonia",
         "Bronice-Kolonia",
-        "Chruszczów-Kolonia"
+        "Chruszczów-Kolonia",
       ],
-      "Wąwolnica": [
+      Wąwolnica: [
         "Rąblów",
         "Zgórzyńskie",
         "Mareczki",
@@ -15507,9 +15454,9 @@ export const voivodeship = {
         "Iłki",
         "Podchoina",
         "Sieraków",
-        "Łopatki-Kolonia"
+        "Łopatki-Kolonia",
       ],
-      "Żyrzyn": [
+      Żyrzyn: [
         "Żyrzyn",
         "Bałtów",
         "Wola Osińska",
@@ -15529,10 +15476,10 @@ export const voivodeship = {
         "Borysów-Kolonia",
         "Dworzysko",
         "Las-Jawor",
-        "Las-Grzęba"
-      ]
+        "Las-Grzęba",
+      ],
     },
-    "radzyński": {
+    radzyński: {
       "Radzyń Podlaski": [
         "Żabików",
         "Paszki Duże",
@@ -15568,9 +15515,9 @@ export const voivodeship = {
         "Kolonia Paszkowska",
         "Józefów",
         "Dwór",
-        "Jaski"
+        "Jaski",
       ],
-      "Borki": [
+      Borki: [
         "Nowiny",
         "Wola Chomejowa",
         "Maruszewiec Pofolwarczny",
@@ -15605,9 +15552,9 @@ export const voivodeship = {
         "Podlasie",
         "Tchórzewek",
         "Wrzosów",
-        "Pasieka"
+        "Pasieka",
       ],
-      "Czemierniki": [
+      Czemierniki: [
         "Stójka",
         "Skoki",
         "Wygnanów",
@@ -15624,9 +15571,9 @@ export const voivodeship = {
         "Branka",
         "Podlas",
         "Rozwil",
-        "Awuls"
+        "Awuls",
       ],
-      "Kąkolewnica": [
+      Kąkolewnica: [
         "Mościska",
         "Olszewnica",
         "Sokule",
@@ -15686,7 +15633,7 @@ export const voivodeship = {
         "Anielki",
         "Brzozowica Duża",
         "Grabowiec",
-        "Miłolas"
+        "Miłolas",
       ],
       "Komarówka Podlaska": [
         "Kolembrody",
@@ -15726,7 +15673,7 @@ export const voivodeship = {
         "Wiski",
         "Bagna",
         "Kolembrody",
-        "Żelizna"
+        "Żelizna",
       ],
       "Ulan-Majorat": [
         "Klębów",
@@ -15766,9 +15713,9 @@ export const voivodeship = {
         "Koło Kościoła",
         "Kozły",
         "Domaszki",
-        "Paskudy"
+        "Paskudy",
       ],
-      "Wohyń": [
+      Wohyń: [
         "Planta",
         "Zbulitów Mały",
         "Bezwola",
@@ -15828,11 +15775,11 @@ export const voivodeship = {
         "Podlasie",
         "Barania Szyja",
         "Suchowola",
-        "Suchowola"
-      ]
+        "Suchowola",
+      ],
     },
-    "rycki": {
-      "Dęblin": [
+    rycki: {
+      Dęblin: [
         "Dęblin",
         "Rycice",
         "Stawy",
@@ -15849,9 +15796,9 @@ export const voivodeship = {
         "Starówka",
         "Twierdza",
         "Michalinów",
-        "Żdżary"
+        "Żdżary",
       ],
-      "Kłoczew": [
+      Kłoczew: [
         "Kłoczew",
         "Nowe Zadybie",
         "Wola Zadybska",
@@ -15900,9 +15847,9 @@ export const voivodeship = {
         "Własność",
         "Kusiak",
         "Jagodne",
-        "Kawęczyn"
+        "Kawęczyn",
       ],
-      "Nowodwór": [
+      Nowodwór: [
         "Borki",
         "Niedźwiedź",
         "Grabowce Górne",
@@ -15930,9 +15877,9 @@ export const voivodeship = {
         "Luniec",
         "Dziatki",
         "Hektary",
-        "Zawitała"
+        "Zawitała",
       ],
-      "Ryki": [
+      Ryki: [
         "Nowa Dąbia",
         "Sędowice",
         "Brusów",
@@ -16000,9 +15947,9 @@ export const voivodeship = {
         "Zadole",
         "Sędowice",
         "Krasnogliny",
-        "Zalesie-Kolonia"
+        "Zalesie-Kolonia",
       ],
-      "Stężyca": [
+      Stężyca: [
         "Krukówka",
         "Zielonka",
         "Piotrowice",
@@ -16024,9 +15971,9 @@ export const voivodeship = {
         "Brzeziny-Kolonia",
         "Plebanka",
         "Bory",
-        "Zapiaszcze"
+        "Zapiaszcze",
       ],
-      "Ułęż": [
+      Ułęż: [
         "Żabianka",
         "Podlodówka",
         "Drążgów",
@@ -16049,11 +15996,11 @@ export const voivodeship = {
         "Miłosze",
         "Osmolice",
         "Drewnik",
-        "Sarny"
-      ]
+        "Sarny",
+      ],
     },
-    "świdnicki": {
-      "Świdnik": [
+    świdnicki: {
+      Świdnik: [
         "Świdnik",
         "Leśniczówka",
         "Nowy Krępiec",
@@ -16063,9 +16010,9 @@ export const voivodeship = {
         "Adampol",
         "Franciszków",
         "Biskupie",
-        "Kalinówka"
+        "Kalinówka",
       ],
-      "Mełgiew": [
+      Mełgiew: [
         "Janowice",
         "Żurawniki",
         "Dominów",
@@ -16087,9 +16034,9 @@ export const voivodeship = {
         "Janówek",
         "Minkowice-Kolonia",
         "Jacków",
-        "Lubieniec"
+        "Lubieniec",
       ],
-      "Piaski": [
+      Piaski: [
         "Józefów",
         "Kozice Dolne",
         "Żegotów",
@@ -16129,9 +16076,9 @@ export const voivodeship = {
         "Jadwisin",
         "Nowiny",
         "Borkowszczyzna",
-        "Kolonia Wola Piasecka"
+        "Kolonia Wola Piasecka",
       ],
-      "Rybczewice": [
+      Rybczewice: [
         "Stryjno Pierwsze",
         "Zygmuntów",
         "Karczew",
@@ -16154,9 +16101,9 @@ export const voivodeship = {
         "Izdebno-Kolonia",
         "Stryjno-Kolonia",
         "Chodyłówka",
-        "Pasów"
+        "Pasów",
       ],
-      "Trawniki": [
+      Trawniki: [
         "Siostrzytów",
         "Majdan Siostrzytowski",
         "Struża",
@@ -16168,10 +16115,10 @@ export const voivodeship = {
         "Ewopole",
         "Struża-Kolonia",
         "Bonów",
-        "Trawniki-Kolonia"
-      ]
+        "Trawniki-Kolonia",
+      ],
     },
-    "tomaszowski": {
+    tomaszowski: {
       "Tomaszów Lubelski": [
         "Justynówka",
         "Nowa Wieś",
@@ -16237,9 +16184,9 @@ export const voivodeship = {
         "Dulne",
         "Wieprzowe Jezioro",
         "Rogóźno-Kolonia",
-        "Łaszczówka-Kolonia"
+        "Łaszczówka-Kolonia",
       ],
-      "Bełżec": [
+      Bełżec: [
         "Bełżec",
         "Chyże",
         "Szalenik-Kolonia",
@@ -16254,9 +16201,9 @@ export const voivodeship = {
         "Stara Poczta",
         "Grzybowe",
         "Żmulisko",
-        "Kolonia"
+        "Kolonia",
       ],
-      "Jarczów": [
+      Jarczów: [
         "Jarczów",
         "Jurów",
         "Jarczów-Kolonia Pierwsza",
@@ -16294,9 +16241,9 @@ export const voivodeship = {
         "Pomiary",
         "Leliszka",
         "Jarczów-Kolonia Druga",
-        "Wola Gródecka-Kolonia"
+        "Wola Gródecka-Kolonia",
       ],
-      "Krynice": [
+      Krynice: [
         "Zadnoga",
         "Huta Dzierążyńska",
         "Polany",
@@ -16347,7 +16294,7 @@ export const voivodeship = {
         "Turzyna",
         "Majdanek",
         "Zwiartów-Kolonia",
-        "Majdan-Sielec"
+        "Majdan-Sielec",
       ],
       "Lubycza Królewska": [
         "Hrebenne",
@@ -16386,9 +16333,9 @@ export const voivodeship = {
         "Machnów Nowy",
         "Machnów Stary",
         "Wierzbica",
-        "Ruda Lubycka"
+        "Ruda Lubycka",
       ],
-      "Łaszczów": [
+      Łaszczów: [
         "Dobużek-Kolonia",
         "Hopkie",
         "Kmiczyn",
@@ -16446,9 +16393,9 @@ export const voivodeship = {
         "Steniatyn-Kolonia",
         "Pukarzów",
         "Kmiczyn-Kolonia",
-        "Sośnina"
+        "Sośnina",
       ],
-      "Rachanie": [
+      Rachanie: [
         "Józefówka",
         "Pawłówka",
         "Zwiartówek",
@@ -16503,9 +16450,9 @@ export const voivodeship = {
         "Korea",
         "Sojnica",
         "Werechanie",
-        "Pawłówka"
+        "Pawłówka",
       ],
-      "Susiec": [
+      Susiec: [
         "Paary",
         "Wólka Łosiniecka",
         "Majdan Sopocki Drugi",
@@ -16561,9 +16508,9 @@ export const voivodeship = {
         "Swidy",
         "Wioska",
         "Łozowica",
-        "Kolonia Pasieki"
+        "Kolonia Pasieki",
       ],
-      "Tarnawatka": [
+      Tarnawatka: [
         "Podhucie",
         "Tarnawatka",
         "Tymin",
@@ -16595,9 +16542,9 @@ export const voivodeship = {
         "Pucharki",
         "Gajówka",
         "Łanowe Sołtysy",
-        "Tarnawatka"
+        "Tarnawatka",
       ],
-      "Telatyn": [
+      Telatyn: [
         "Kryszyn",
         "Dutrów",
         "Wasylów",
@@ -16643,9 +16590,9 @@ export const voivodeship = {
         "Kolonia Wasylów",
         "Radków-Kolonia",
         "Nowosiółki-Osada",
-        "Suszów-Osada"
+        "Suszów-Osada",
       ],
-      "Tyszowce": [
+      Tyszowce: [
         "Soból",
         "Nowinki",
         "Przewale",
@@ -16698,9 +16645,9 @@ export const voivodeship = {
         "Perespa-Kolonia",
         "Gwoździak",
         "Rudka",
-        "Gołaicha"
+        "Gołaicha",
       ],
-      "Ulhówek": [
+      Ulhówek: [
         "Budynin",
         "Dębina",
         "Dyniska",
@@ -16748,11 +16695,11 @@ export const voivodeship = {
         "Korczmin-Osada",
         "Rzeplin-Osada",
         "Szczepiatyn-Osada",
-        "Dębina-Osada"
-      ]
+        "Dębina-Osada",
+      ],
     },
-    "włodawski": {
-      "Włodawa": [
+    włodawski: {
+      Włodawa: [
         "Okuninka",
         "Luta",
         "Krasówka",
@@ -16784,9 +16731,9 @@ export const voivodeship = {
         "Demianówka",
         "Połód",
         "Sobibór",
-        "Adamki"
+        "Adamki",
       ],
-      "Hanna": [
+      Hanna: [
         "Kuzawka",
         "Dołhobrody",
         "Hanna",
@@ -16831,9 +16778,9 @@ export const voivodeship = {
         "Rzywuchy",
         "Komarówka",
         "Osieńczuki",
-        "Porchuciny"
+        "Porchuciny",
       ],
-      "Hańsk": [
+      Hańsk: [
         "Rudka Łowiecka",
         "Hańsk Pierwszy",
         "Bukowski Las",
@@ -16887,7 +16834,7 @@ export const voivodeship = {
         "Toki",
         "Osowa",
         "Gajówka",
-        "Kulczyn-Kolonia"
+        "Kulczyn-Kolonia",
       ],
       "Stary Brus": [
         "Kamień",
@@ -16917,9 +16864,9 @@ export const voivodeship = {
         "Szelibudy",
         "Kułaków",
         "Wielki Łan",
-        "Podgórze"
+        "Podgórze",
       ],
-      "Urszulin": [
+      Urszulin: [
         "Wielkopole",
         "Nowe Załucze",
         "Wólka Wytycka",
@@ -16977,7 +16924,7 @@ export const voivodeship = {
         "Grobelki",
         "Wiązowiec",
         "Andrzejów-Osada",
-        "Łysocha"
+        "Łysocha",
       ],
       "Wola Uhruska": [
         "Zbereże",
@@ -17027,9 +16974,9 @@ export const voivodeship = {
         "Piaski Uhruskie",
         "Potoki",
         "Stanisławów",
-        "Zastawie"
+        "Zastawie",
       ],
-      "Wyryki": [
+      Wyryki: [
         "Wyryki-Adampol",
         "Lubień",
         "Horostyta",
@@ -17064,11 +17011,11 @@ export const voivodeship = {
         "Suchawa",
         "Adampol",
         "Krukowo",
-        "Wyryki-Kolonia"
-      ]
+        "Wyryki-Kolonia",
+      ],
     },
-    "zamojski": {
-      "Adamów": [
+    zamojski: {
+      Adamów: [
         "Jacnia",
         "Potoczek",
         "Adamów",
@@ -17129,9 +17076,9 @@ export const voivodeship = {
         "Mazury",
         "Czarnowoda-Kolonia",
         "Koziarka Druga",
-        "Gamlówka"
+        "Gamlówka",
       ],
-      "Grabowiec": [
+      Grabowiec: [
         "Grabowczyk",
         "Ornatowice",
         "Rogów",
@@ -17160,7 +17107,7 @@ export const voivodeship = {
         "Ornatowice-Kolonia",
         "Siedlisko",
         "Grabowiec-Góra",
-        "Dańczypol"
+        "Dańczypol",
       ],
       "Komarów-Osada": [
         "Janówka Zachodnia",
@@ -17219,9 +17166,9 @@ export const voivodeship = {
         "Podgórze",
         "Berestki",
         "Tuczapy",
-        "Szczerbiki"
+        "Szczerbiki",
       ],
-      "Krasnobród": [
+      Krasnobród: [
         "Wólka Husińska",
         "Majdan Mały",
         "Hutki",
@@ -17274,9 +17221,9 @@ export const voivodeship = {
         "Tarnawatka",
         "Borki",
         "Figarnia",
-        "Belfont"
+        "Belfont",
       ],
-      "Łabunie": [
+      Łabunie: [
         "Dąbrowa",
         "Ruszów",
         "Barchaczów",
@@ -17297,9 +17244,9 @@ export const voivodeship = {
         "Przecięcie Północne",
         "Wołyń",
         "Bilskie",
-        "Namule"
+        "Namule",
       ],
-      "Miączyn": [
+      Miączyn: [
         "Kotlice-Kolonia",
         "Gdeszyn",
         "Horyszów",
@@ -17335,9 +17282,9 @@ export const voivodeship = {
         "Zaokręgowa",
         "Frankamionka",
         "Pniaki",
-        "Lachmanówka"
+        "Lachmanówka",
       ],
-      "Nielisz": [
+      Nielisz: [
         "Gruszka Mała Pierwsza",
         "Średnie Duże",
         "Gruszka Duża",
@@ -17408,9 +17355,9 @@ export const voivodeship = {
         "Borek Noakowski",
         "Stara Wieś",
         "Las",
-        "Nowiny"
+        "Nowiny",
       ],
-      "Radecznica": [
+      Radecznica: [
         "Gorajec-Zastawie",
         "Gaj Gruszczański",
         "Czarnystok",
@@ -17466,9 +17413,9 @@ export const voivodeship = {
         "Granice",
         "Przymiarki",
         "Doliny",
-        "Pożarki"
+        "Pożarki",
       ],
-      "Sitno": [
+      Sitno: [
         "Wólka Horyszowska",
         "Rozdoły",
         "Kornelówka",
@@ -17513,9 +17460,9 @@ export const voivodeship = {
         "Reforma",
         "Chabrosówka",
         "Kopanina",
-        "Góra"
+        "Góra",
       ],
-      "Skierbieszów": [
+      Skierbieszów: [
         "Huszczka Mała",
         "Hajowniki",
         "Dębowiec-Kolonia",
@@ -17584,7 +17531,7 @@ export const voivodeship = {
         "Stara Wieś",
         "Szynkarkowa Ulica",
         "Zarudka",
-        "Pawłówka"
+        "Pawłówka",
       ],
       "Stary Zamość": [
         "Wierzba",
@@ -17637,9 +17584,9 @@ export const voivodeship = {
         "Dwór",
         "Stara Wieś",
         "Karolówka",
-        "Pańska Dolina"
+        "Pańska Dolina",
       ],
-      "Sułów": [
+      Sułów: [
         "Rozłopy",
         "Deszkowice Drugie",
         "Tworyczów",
@@ -17683,9 +17630,9 @@ export const voivodeship = {
         "Kątek",
         "Gaj",
         "Pałac",
-        "Polówka"
+        "Polówka",
       ],
-      "Szczebrzeszyn": [
+      Szczebrzeszyn: [
         "Kąty Drugie",
         "Wielącza-Kolonia",
         "Kawęczyn",
@@ -17733,9 +17680,9 @@ export const voivodeship = {
         "Stare Brody",
         "Chałupki",
         "Kępa",
-        "Wymysłówka"
+        "Wymysłówka",
       ],
-      "Zamość": [
+      Zamość: [
         "Sitaniec-Wolica",
         "Szopinek",
         "Lipsko",
@@ -17838,9 +17785,9 @@ export const voivodeship = {
         "Nowa Wieś",
         "Stara Wieś",
         "Zalesie",
-        "Zarudzie"
+        "Zarudzie",
       ],
-      "Zwierzyniec": [
+      Zwierzyniec: [
         "Turzyniec",
         "Kosobudy",
         "Sochy",
@@ -17867,8 +17814,8 @@ export const voivodeship = {
         "Bór",
         "Horodzisko",
         "Jarugi",
-        "Sekretarzówka"
-      ]
+        "Sekretarzówka",
+      ],
     },
     "Biała Podlaska": {
       "Biała Podlaska": [
@@ -17891,11 +17838,11 @@ export const voivodeship = {
         "Szendery",
         "Uhło",
         "Glinki",
-        "Francuska"
-      ]
+        "Francuska",
+      ],
     },
-    "Chełm": {
-      "Chełm": [
+    Chełm: {
+      Chełm: [
         "Chełm",
         "Antonin",
         "Horodyszcze",
@@ -17912,11 +17859,11 @@ export const voivodeship = {
         "Trubaków",
         "Wolwinów",
         "Bazylany",
-        "Wygon"
-      ]
+        "Wygon",
+      ],
     },
-    "Lublin": {
-      "Lublin": [
+    Lublin: {
+      Lublin: [
         "Lublin",
         "Chruszczanka",
         "Czechów Górny",
@@ -18000,11 +17947,11 @@ export const voivodeship = {
         "Wrotków",
         "Zadębie Drugie",
         "Zemborzyce Górne",
-        "Kolonia Sławin"
-      ]
+        "Kolonia Sławin",
+      ],
     },
-    "Zamość": {
-      "Zamość": [
+    Zamość: {
+      Zamość: [
         "Zamość",
         "Stare Miasto",
         "Przedmieście Lubelskie",
@@ -18020,21 +17967,21 @@ export const voivodeship = {
         "Reforma",
         "Zamczysko",
         "Nowa Osada",
-        "Błonie"
-      ]
-    }
+        "Błonie",
+      ],
+    },
   },
-  "LUBUSKIE": {
-    "gorzowski": {
+  LUBUSKIE: {
+    gorzowski: {
       "Kostrzyn nad Odrą": [
         "Stary Kostrzyn",
         "Szumiłowo",
         "Drzewice",
         "Osiedle Leśne",
         "Warniki",
-        "Kostrzyn nad Odrą"
+        "Kostrzyn nad Odrą",
       ],
-      "Bogdaniec": [
+      Bogdaniec: [
         "Motylewo",
         "Kwiatkowice",
         "Podjenin",
@@ -18056,9 +18003,9 @@ export const voivodeship = {
         "Łupowo",
         "Jeninek",
         "Jeniniec",
-        "Krzyszczyna"
+        "Krzyszczyna",
       ],
-      "Deszczno": [
+      Deszczno: [
         "Kiełpin",
         "Krupczyn",
         "Ulim",
@@ -18080,9 +18027,9 @@ export const voivodeship = {
         "Płonica",
         "Glinik",
         "Łagodzin",
-        "Prądocin"
+        "Prądocin",
       ],
-      "Kłodawa": [
+      Kłodawa: [
         "Mironice",
         "Smolarki",
         "Zamoksze",
@@ -18101,9 +18048,9 @@ export const voivodeship = {
         "Kłodawa",
         "Mironice",
         "Santoczno",
-        "Rybakowo"
+        "Rybakowo",
       ],
-      "Lubiszyn": [
+      Lubiszyn: [
         "Kretkowo",
         "Zapadlisko",
         "Jastrzębiec",
@@ -18136,9 +18083,9 @@ export const voivodeship = {
         "Buszów",
         "Marwice",
         "Staw",
-        "Łąkomin"
+        "Łąkomin",
       ],
-      "Santok": [
+      Santok: [
         "Gralewo",
         "Mąkoszyce",
         "Lipki Wielkie",
@@ -18153,9 +18100,9 @@ export const voivodeship = {
         "Ludzisławice",
         "Baranowice",
         "Santok",
-        "Stare Polichno"
+        "Stare Polichno",
       ],
-      "Witnica": [
+      Witnica: [
         "Sosny",
         "Tarnówek",
         "Nowe Dzieduszyce",
@@ -18178,11 +18125,11 @@ export const voivodeship = {
         "Białcz",
         "Oksza",
         "Kamień Mały",
-        "Nowe Dzieduszyce"
-      ]
+        "Nowe Dzieduszyce",
+      ],
     },
-    "krośnieński": {
-      "Gubin": [
+    krośnieński: {
+      Gubin: [
         "Kolonia Wałowice",
         "Polanowice",
         "Grabczyna",
@@ -18233,9 +18180,9 @@ export const voivodeship = {
         "Stargard Gubiński",
         "Przyborowice",
         "Sękowice",
-        "Sadzarzewice"
+        "Sadzarzewice",
       ],
-      "Bobrowice": [
+      Bobrowice: [
         "Młyniec",
         "Bronkówek",
         "Lubnica",
@@ -18257,9 +18204,9 @@ export const voivodeship = {
         "Strużka",
         "Kukadło",
         "Dęby",
-        "Dychów"
+        "Dychów",
       ],
-      "Bytnica": [
+      Bytnica: [
         "Budachów-Kolonia",
         "Łasiczyn",
         "Głęboczek",
@@ -18275,9 +18222,9 @@ export const voivodeship = {
         "Budachów",
         "Grabin",
         "Gryżyna",
-        "Struga"
+        "Struga",
       ],
-      "Dąbie": [
+      Dąbie: [
         "Olszewiec",
         "Godziejów",
         "Mokry Młyn",
@@ -18298,7 +18245,7 @@ export const voivodeship = {
         "Brzeźnica",
         "Gola",
         "Kosierz",
-        "Szczawno"
+        "Szczawno",
       ],
       "Krosno Odrzańskie": [
         "Sarnie Łęgi",
@@ -18326,9 +18273,9 @@ export const voivodeship = {
         "Bielów",
         "Retno",
         "Kamień",
-        "Gostchorze"
+        "Gostchorze",
       ],
-      "Maszewo": [
+      Maszewo: [
         "Nowosiedle",
         "Maszewko",
         "Wyczółkowo",
@@ -18351,11 +18298,11 @@ export const voivodeship = {
         "Miłów",
         "Trzebiechów",
         "Siedlisko",
-        "Bytomiec"
-      ]
+        "Bytomiec",
+      ],
     },
-    "międzyrzecki": {
-      "Bledzew": [
+    międzyrzecki: {
+      Bledzew: [
         "Bledzewka",
         "Osiecko",
         "Krzywokleszcz",
@@ -18376,9 +18323,9 @@ export const voivodeship = {
         "Bledzew",
         "Templewo",
         "Stary Dworek",
-        "Sokola Dąbrowa"
+        "Sokola Dąbrowa",
       ],
-      "Międzyrzecz": [
+      Międzyrzecz: [
         "Lubosinek",
         "Jeleniegłowy",
         "Jagielnik",
@@ -18423,9 +18370,9 @@ export const voivodeship = {
         "Kalsko",
         "Żółwin",
         "Kuźnik",
-        "Bukowiec"
+        "Bukowiec",
       ],
-      "Przytoczna": [
+      Przytoczna: [
         "Żabno",
         "Murowiec",
         "Dziubielewo",
@@ -18452,9 +18399,9 @@ export const voivodeship = {
         "Goraj",
         "Gaj",
         "Przytoczna",
-        "Wierzbno"
+        "Wierzbno",
       ],
-      "Pszczew": [
+      Pszczew: [
         "Rańsko",
         "Świechocin",
         "Biercza",
@@ -18472,9 +18419,9 @@ export const voivodeship = {
         "Policko",
         "Borowy Młyn",
         "Nowe Gorzycko",
-        "Rańsko"
+        "Rańsko",
       ],
-      "Skwierzyna": [
+      Skwierzyna: [
         "Czerwieniec",
         "Kijewice",
         "Warcin",
@@ -18497,9 +18444,9 @@ export const voivodeship = {
         "Krobielewko",
         "Wiejce",
         "Świniary",
-        "Gościnowo"
+        "Gościnowo",
       ],
-      "Trzciel": [
+      Trzciel: [
         "Trzciel",
         "Jasieniec",
         "Smolniki",
@@ -18521,10 +18468,10 @@ export const voivodeship = {
         "Stary Dwór",
         "Łagowiec",
         "Rybojady",
-        "Lutol Suchy"
-      ]
+        "Lutol Suchy",
+      ],
     },
-    "nowosolski": {
+    nowosolski: {
       "Nowa Sól": [
         "Odra",
         "Porębów",
@@ -18550,7 +18497,7 @@ export const voivodeship = {
         "Lubieszów",
         "Jeziorna",
         "Lelechów",
-        "Stary Staw"
+        "Stary Staw",
       ],
       "Bytom Odrzański": [
         "Ścieżyna",
@@ -18566,9 +18513,9 @@ export const voivodeship = {
         "Popowo",
         "Bycz",
         "Królikowice",
-        "Tarnów Bycki"
+        "Tarnów Bycki",
       ],
-      "Kolsko": [
+      Kolsko: [
         "Karszynek",
         "Tatarki",
         "Jesionka",
@@ -18585,9 +18532,9 @@ export const voivodeship = {
         "Sławocin",
         "Uście",
         "Konotop",
-        "Mesze"
+        "Mesze",
       ],
-      "Kożuchów": [
+      Kożuchów: [
         "Przyborze",
         "Bielice",
         "Zawada",
@@ -18611,7 +18558,7 @@ export const voivodeship = {
         "Radwanów",
         "Mirocin Górny",
         "Mirocin Dolny",
-        "Solniki"
+        "Solniki",
       ],
       "Nowe Miasteczko": [
         "Osada Leśna",
@@ -18627,9 +18574,9 @@ export const voivodeship = {
         "Żuków",
         "Nieciecz",
         "Gołaszyn",
-        "Popęszyce"
+        "Popęszyce",
       ],
-      "Otyń": [
+      Otyń: [
         "Borki",
         "Otyń",
         "Modrzyca",
@@ -18638,9 +18585,9 @@ export const voivodeship = {
         "Ługi",
         "Bobrowniki",
         "Czasław",
-        "Konradowo"
+        "Konradowo",
       ],
-      "Siedlisko": [
+      Siedlisko: [
         "Tarnowskie Młyny",
         "Dębianka",
         "Radocin",
@@ -18651,11 +18598,11 @@ export const voivodeship = {
         "Różanówka",
         "Piękne Kąty",
         "Borowiec",
-        "Siedlisko"
-      ]
+        "Siedlisko",
+      ],
     },
-    "słubicki": {
-      "Cybinka": [
+    słubicki: {
+      Cybinka: [
         "Radzikówek",
         "Tawęcin",
         "Bieganów",
@@ -18674,9 +18621,9 @@ export const voivodeship = {
         "Drzeniów",
         "Grzmiąca",
         "Kłopot",
-        "Radzików"
+        "Radzików",
       ],
-      "Górzyca": [
+      Górzyca: [
         "Owczary",
         "Ługi Górzyckie",
         "Żabczyn",
@@ -18688,7 +18635,7 @@ export const voivodeship = {
         "Żabice",
         "Górzyca",
         "Czarnów",
-        "Stańsk"
+        "Stańsk",
       ],
       "Ośno Lubuskie": [
         "Jamno",
@@ -18706,9 +18653,9 @@ export const voivodeship = {
         "Radachów",
         "Połęcko",
         "Lubień",
-        "Smogóry"
+        "Smogóry",
       ],
-      "Rzepin": [
+      Rzepin: [
         "Rzepinek",
         "Kamienny Bród",
         "Maniszewo",
@@ -18731,9 +18678,9 @@ export const voivodeship = {
         "Radów",
         "Kowalów",
         "Lubiechnia Mała",
-        "Serbów"
+        "Serbów",
       ],
-      "Słubice": [
+      Słubice: [
         "Dzierzążna",
         "Kunowiczki",
         "Sułówek",
@@ -18752,11 +18699,11 @@ export const voivodeship = {
         "Rybocice",
         "Pławidło",
         "Stare Biskupice",
-        "Kunice"
-      ]
+        "Kunice",
+      ],
     },
     "strzelecko-drezdenecki": {
-      "Dobiegniew": [
+      Dobiegniew: [
         "Urszulanka",
         "Grabionka",
         "Rozkochowo",
@@ -18811,9 +18758,9 @@ export const voivodeship = {
         "Chrapów",
         "Osiek",
         "Starczewo",
-        "Grąsy"
+        "Grąsy",
       ],
-      "Drezdenko": [
+      Drezdenko: [
         "Chojna",
         "Jelenia Głowa",
         "Białacz",
@@ -18874,7 +18821,7 @@ export const voivodeship = {
         "Czartowo",
         "Lipno",
         "Marzenin",
-        "Kijów"
+        "Kijów",
       ],
       "Stare Kurowo": [
         "Smolarz",
@@ -18895,7 +18842,7 @@ export const voivodeship = {
         "Łącznica",
         "Głęboczek",
         "Łęgowo",
-        "Rokitno"
+        "Rokitno",
       ],
       "Strzelce Krajeńskie": [
         "Golczewice",
@@ -18934,9 +18881,9 @@ export const voivodeship = {
         "Sokólsko",
         "Lubicz",
         "Bobrówko",
-        "Danków"
+        "Danków",
       ],
-      "Zwierzyn": [
+      Zwierzyn: [
         "Owczarki",
         "Przysieka",
         "Sierosławice",
@@ -18950,11 +18897,11 @@ export const voivodeship = {
         "Błotno",
         "Zwierzyn",
         "Górecko",
-        "Zagaje"
-      ]
+        "Zagaje",
+      ],
     },
-    "sulęciński": {
-      "Krzeszyce": [
+    sulęciński: {
+      Krzeszyce: [
         "Krzeszyce",
         "Altona",
         "Brzozówka",
@@ -18982,9 +18929,9 @@ export const voivodeship = {
         "Krzemów",
         "Rudnica",
         "Zaszczytowo",
-        "Piskorzno"
+        "Piskorzno",
       ],
-      "Lubniewice": [
+      Lubniewice: [
         "Sobieraj",
         "Rybakówko",
         "Zofiówka",
@@ -18996,9 +18943,9 @@ export const voivodeship = {
         "Lubniewice",
         "Rogi",
         "Glisno",
-        "Jarnatów"
+        "Jarnatów",
       ],
-      "Słońsk": [
+      Słońsk: [
         "Podgórze",
         "Czaplin",
         "Głuchowo-Kolonia",
@@ -19012,9 +18959,9 @@ export const voivodeship = {
         "Ownice",
         "Grodzisk",
         "Lemierzyce",
-        "Polne"
+        "Polne",
       ],
-      "Sulęcin": [
+      Sulęcin: [
         "Ostrów",
         "Pamiątkowice",
         "Grzeszów",
@@ -19038,9 +18985,9 @@ export const voivodeship = {
         "Długoszyn",
         "Trzemeszno Lubuskie",
         "Wielowieś",
-        "Miechów"
+        "Miechów",
       ],
-      "Torzym": [
+      Torzym: [
         "Rojek",
         "Góry",
         "Jelenie Pole",
@@ -19072,11 +19019,11 @@ export const voivodeship = {
         "Tarnawa Rzepińska",
         "Grabów",
         "Drzewce",
-        "Gądków Wielki"
-      ]
+        "Gądków Wielki",
+      ],
     },
-    "świebodziński": {
-      "Lubrza": [
+    świebodziński: {
+      Lubrza: [
         "Laski",
         "Mrówczyn",
         "Tyczyno",
@@ -19097,9 +19044,9 @@ export const voivodeship = {
         "Bucze",
         "Przełazy",
         "Boryszyn",
-        "Nowa Wioska"
+        "Nowa Wioska",
       ],
-      "Łagów": [
+      Łagów: [
         "Gronów-Winiarnia",
         "Stok",
         "Czartów",
@@ -19128,9 +19075,9 @@ export const voivodeship = {
         "Jemiołów",
         "Łagówek",
         "Gronów",
-        "Niedźwiedź"
+        "Niedźwiedź",
       ],
-      "Skąpe": [
+      Skąpe: [
         "Złoty Potok",
         "Cząbry",
         "Kaliszkowice",
@@ -19152,9 +19099,9 @@ export const voivodeship = {
         "Przetocznica",
         "Rokitnica",
         "Ołobok",
-        "Błonie"
+        "Błonie",
       ],
-      "Szczaniec": [
+      Szczaniec: [
         "Nowe Karcze",
         "Wilenko",
         "Kiełcze",
@@ -19166,9 +19113,9 @@ export const voivodeship = {
         "Opalewo",
         "Dąbrówka Mała",
         "Myszęcin",
-        "Szczaniec"
+        "Szczaniec",
       ],
-      "Świebodzin": [
+      Świebodzin: [
         "Miłkowo",
         "Leniwka",
         "Wygon",
@@ -19202,9 +19149,9 @@ export const voivodeship = {
         "Nowy Dworek",
         "Kępsko",
         "Raków",
-        "Rzeczyca"
+        "Rzeczyca",
       ],
-      "Zbąszynek": [
+      Zbąszynek: [
         "Bronikowo",
         "Boleń",
         "Depot",
@@ -19217,11 +19164,11 @@ export const voivodeship = {
         "Chlastawa",
         "Rogoziniec",
         "Kręcko",
-        "Dąbrówka Wielkopolska"
-      ]
+        "Dąbrówka Wielkopolska",
+      ],
     },
-    "zielonogórski": {
-      "Babimost": [
+    zielonogórski: {
+      Babimost: [
         "Janowiec",
         "Podzamcze",
         "Młynisko",
@@ -19235,9 +19182,9 @@ export const voivodeship = {
         "Laski",
         "Kolesin",
         "Stare Kramsko",
-        "Nowe Kramsko"
+        "Nowe Kramsko",
       ],
-      "Bojadła": [
+      Bojadła: [
         "Kliniczki",
         "Wirówek",
         "Pólko",
@@ -19251,9 +19198,9 @@ export const voivodeship = {
         "Przewóz",
         "Pyrnik",
         "Siadcza",
-        "Bełcze"
+        "Bełcze",
       ],
-      "Czerwieńsk": [
+      Czerwieńsk: [
         "Boryń",
         "Dobrzęcin",
         "Piaśnica",
@@ -19270,9 +19217,9 @@ export const voivodeship = {
         "Sycowice",
         "Leśniów Mały",
         "Nietków",
-        "Zagórze"
+        "Zagórze",
       ],
-      "Kargowa": [
+      Kargowa: [
         "Szarki",
         "Przeszkoda",
         "Kaliska",
@@ -19286,7 +19233,7 @@ export const voivodeship = {
         "Dąbrówka",
         "Stary Jaromierz",
         "Smolno Wielkie",
-        "Karszyn"
+        "Karszyn",
       ],
       "Nowogród Bobrzański": [
         "Krzywaniec",
@@ -19317,9 +19264,9 @@ export const voivodeship = {
         "Klępina",
         "Skibice",
         "Sterków",
-        "Kaczenice"
+        "Kaczenice",
       ],
-      "Sulechów": [
+      Sulechów: [
         "Gradowo",
         "Głoguszyn",
         "Łochowo",
@@ -19355,9 +19302,9 @@ export const voivodeship = {
         "Leśna Góra",
         "Krężoły",
         "Łęgowo",
-        "Nowy Świat"
+        "Nowy Świat",
       ],
-      "Świdnica": [
+      Świdnica: [
         "Wirówek",
         "Dobra",
         "Rybno",
@@ -19373,9 +19320,9 @@ export const voivodeship = {
         "Świdnica",
         "Buchałów",
         "Radomia",
-        "Wilkanowo"
+        "Wilkanowo",
       ],
-      "Trzebiechów": [
+      Trzebiechów: [
         "Trzebiechów",
         "Sadowo",
         "Głęboka",
@@ -19388,9 +19335,9 @@ export const voivodeship = {
         "Mieszkowo",
         "Gębice",
         "Borek",
-        "Trzebiechów"
+        "Trzebiechów",
       ],
-      "Zabór": [
+      Zabór: [
         "Wielobłota",
         "Gęsin",
         "Mielno",
@@ -19404,15 +19351,12 @@ export const voivodeship = {
         "Dąbrowa",
         "Łaz",
         "Czarna",
-        "Przytok"
-      ]
-    },
-    "żagański": {
-      "Gozdnica": [
-        "Dębówek",
-        "Gozdnica"
+        "Przytok",
       ],
-      "Żagań": [
+    },
+    żagański: {
+      Gozdnica: ["Dębówek", "Gozdnica"],
+      Żagań: [
         "Niemcza",
         "Machów",
         "Jelenin Górny",
@@ -19442,9 +19386,9 @@ export const voivodeship = {
         "Bukowina Bobrzańska",
         "Kocin",
         "Tomaszowo",
-        "Bożnów"
+        "Bożnów",
       ],
-      "Brzeźnica": [
+      Brzeźnica: [
         "Studnice",
         "Wojsławice",
         "Przyborze",
@@ -19457,9 +19401,9 @@ export const voivodeship = {
         "Wrzesiny",
         "Brzeźnica",
         "Jabłonów",
-        "Karczówka"
+        "Karczówka",
       ],
-      "Iłowa": [
+      Iłowa: [
         "Chwalimierz",
         "Skarbiec",
         "Karolinów",
@@ -19474,18 +19418,18 @@ export const voivodeship = {
         "Kowalice",
         "Żaganiec",
         "Konin Żagański",
-        "Borowe"
+        "Borowe",
       ],
-      "Małomice": [
+      Małomice: [
         "Małomice",
         "Chichy",
         "Janowiec",
         "Żelisław",
         "Lubiechów",
         "Śliwnik",
-        "Bobrzany"
+        "Bobrzany",
       ],
-      "Niegosławice": [
+      Niegosławice: [
         "Jurzyn",
         "Bukowiczka",
         "Nowa Bukowica",
@@ -19505,9 +19449,9 @@ export const voivodeship = {
         "Sucha Dolna",
         "Krzywczyce",
         "Mycielin",
-        "Przecław"
+        "Przecław",
       ],
-      "Szprotawa": [
+      Szprotawa: [
         "Zarzecze",
         "Meksyk",
         "Kopanie",
@@ -19532,23 +19476,21 @@ export const voivodeship = {
         "Witków",
         "Dzikowice",
         "Bobrowice",
-        "Dziećmiarowice"
+        "Dziećmiarowice",
       ],
-      "Wymiarki": [
+      Wymiarki: [
         "Witoszyn Górny",
         "Silno Małe",
         "Lubieszów",
         "Lubartów",
         "Lutynka",
         "Witoszyn",
-        "Wymiarki"
-      ]
-    },
-    "żarski": {
-      "Łęknica": [
-        "Łęknica"
+        "Wymiarki",
       ],
-      "Żary": [
+    },
+    żarski: {
+      Łęknica: ["Łęknica"],
+      Żary: [
         "Janików",
         "Sieniawa Żarska",
         "Kadłubia",
@@ -19575,9 +19517,9 @@ export const voivodeship = {
         "Olszyniec",
         "Grabik",
         "Drożków",
-        "Stawnik"
+        "Stawnik",
       ],
-      "Brody": [
+      Brody: [
         "Żytni Młyn",
         "Proszów",
         "Marianka",
@@ -19597,9 +19539,9 @@ export const voivodeship = {
         "Jeziory Wysokie",
         "Nabłoto",
         "Kumiałtowice",
-        "Jeziory Dolne"
+        "Jeziory Dolne",
       ],
-      "Jasień": [
+      Jasień: [
         "Stary Jasień",
         "Jasień",
         "Wicina",
@@ -19618,7 +19560,7 @@ export const voivodeship = {
         "Lipsk Żarski",
         "Mirkowice",
         "Roztoki",
-        "Bronice"
+        "Bronice",
       ],
       "Lipinki Łużyckie": [
         "Pietrzyków",
@@ -19632,9 +19574,9 @@ export const voivodeship = {
         "Grotów",
         "Piotrowice",
         "Zajączek",
-        "Sieciejów"
+        "Sieciejów",
       ],
-      "Lubsko": [
+      Lubsko: [
         "Glinka Górna",
         "Gareja",
         "Nowiniec",
@@ -19660,9 +19602,9 @@ export const voivodeship = {
         "Chocicz",
         "Tarnów",
         "Kałek",
-        "Tuchola Żarska"
+        "Tuchola Żarska",
       ],
-      "Przewóz": [
+      Przewóz: [
         "Bucze",
         "Dąbrowa Łużycka",
         "Straszów",
@@ -19677,9 +19619,9 @@ export const voivodeship = {
         "Sobolice",
         "Potok",
         "Przewóz",
-        "Włochów"
+        "Włochów",
       ],
-      "Trzebiel": [
+      Trzebiel: [
         "Pustków",
         "Bogaczów",
         "Bukowina",
@@ -19713,9 +19655,9 @@ export const voivodeship = {
         "Królów",
         "Karsówka",
         "Buczyny",
-        "Siemiradz"
+        "Siemiradz",
       ],
-      "Tuplice": [
+      Tuplice: [
         "Grabówek",
         "Matuszowice",
         "Grabów",
@@ -19729,11 +19671,11 @@ export const voivodeship = {
         "Łazy",
         "Drzeniów",
         "Świbinki",
-        "Jagłowice"
-      ]
+        "Jagłowice",
+      ],
     },
-    "wschowski": {
-      "Sława": [
+    wschowski: {
+      Sława: [
         "Przylesie",
         "Dębina",
         "Jutrzenka",
@@ -19773,9 +19715,9 @@ export const voivodeship = {
         "Śmieszkowo",
         "Szreniawa",
         "Wróblów",
-        "Tarnów Jezierny"
+        "Tarnów Jezierny",
       ],
-      "Szlichtyngowa": [
+      Szlichtyngowa: [
         "Puszcza",
         "Szlichtyngowa",
         "Zamysłów",
@@ -19787,9 +19729,9 @@ export const voivodeship = {
         "Kowalewo",
         "Nowe Drzewce",
         "Jędrzychowice",
-        "Dryżyna"
+        "Dryżyna",
       ],
-      "Wschowa": [
+      Wschowa: [
         "Mały Bór",
         "Sieplnica",
         "Nowe Ogrody",
@@ -19813,8 +19755,8 @@ export const voivodeship = {
         "Przyczyna Górna",
         "Siedlnica",
         "Tylewice",
-        "Wygnańczyce"
-      ]
+        "Wygnańczyce",
+      ],
     },
     "Gorzów Wielkopolski": {
       "Gorzów Wielkopolski": [
@@ -19830,8 +19772,8 @@ export const voivodeship = {
         "Kłodawa",
         "Zieleniec",
         "Siedliczki",
-        "Gorzów Wielkopolski"
-      ]
+        "Gorzów Wielkopolski",
+      ],
     },
     "Zielona Góra": {
       "Zielona Góra": [
@@ -19862,13 +19804,13 @@ export const voivodeship = {
         "Raculka",
         "Chynów",
         "Jędrzychów",
-        "Zielona Góra"
-      ]
-    }
+        "Zielona Góra",
+      ],
+    },
   },
-  "ŁÓDZKIE": {
-    "bełchatowski": {
-      "Bełchatów": [
+  ŁÓDZKIE: {
+    bełchatowski: {
+      Bełchatów: [
         "Zalesna",
         "Zdzieszulice Górne",
         "Zawadów",
@@ -19961,9 +19903,9 @@ export const voivodeship = {
         "Wawrzkowizna",
         "Zdzieszulice Górne",
         "Adamów",
-        "Góry Borowskie"
+        "Góry Borowskie",
       ],
-      "Drużbice": [
+      Drużbice: [
         "Bukowie Dolne",
         "Brzezie",
         "Bukowie Górne",
@@ -20012,9 +19954,9 @@ export const voivodeship = {
         "Pieńki Głupickie",
         "Wola Głupicka",
         "Łazy",
-        "Janówek"
+        "Janówek",
       ],
-      "Kleszczów": [
+      Kleszczów: [
         "Kleszczów",
         "Stawek",
         "Wolica",
@@ -20046,9 +19988,9 @@ export const voivodeship = {
         "Łuszczanowice-Kolonia",
         "Będków",
         "Słok-Młyn",
-        "Cieślowizna"
+        "Cieślowizna",
       ],
-      "Kluki": [
+      Kluki: [
         "Chmielowiec",
         "Imielnia",
         "Kawalce",
@@ -20091,9 +20033,9 @@ export const voivodeship = {
         "Zagony",
         "Borowiny",
         "Wierzchowiec",
-        "Smugi"
+        "Smugi",
       ],
-      "Rusiec": [
+      Rusiec: [
         "Jastrzębice",
         "Zagrodniki",
         "Aleksandrów",
@@ -20157,9 +20099,9 @@ export const voivodeship = {
         "Pomorze",
         "Lesiska",
         "Kresy",
-        "Dąbrówki Kobylańskie"
+        "Dąbrówki Kobylańskie",
       ],
-      "Szczerców": [
+      Szczerców: [
         "Osiny",
         "Żabczanka",
         "Polowa",
@@ -20219,9 +20161,9 @@ export const voivodeship = {
         "Nowy Świat",
         "Piecówka",
         "Komórew",
-        "Sarnówka"
+        "Sarnówka",
       ],
-      "Zelów": [
+      Zelów: [
         "Jamborek",
         "Kolonia Grabostów",
         "Bocianicha",
@@ -20305,11 +20247,11 @@ export const voivodeship = {
         "Prusinowice",
         "Józefka",
         "Sromutka",
-        "Konie"
-      ]
+        "Konie",
+      ],
     },
-    "kutnowski": {
-      "Kutno": [
+    kutnowski: {
+      Kutno: [
         "Stanisławów",
         "Adamów",
         "Marianki",
@@ -20369,9 +20311,9 @@ export const voivodeship = {
         "Wiejska",
         "Dudki",
         "Dębina",
-        "Kalinowa"
+        "Kalinowa",
       ],
-      "Bedlno": [
+      Bedlno: [
         "Karolew",
         "Tomaszew",
         "Antoniew",
@@ -20464,9 +20406,9 @@ export const voivodeship = {
         "Odolinek",
         "Wiktorów",
         "Plecka Dąbrowa",
-        "Wojszyce"
+        "Wojszyce",
       ],
-      "Dąbrowice": [
+      Dąbrowice: [
         "Rozopol",
         "Ostrówki",
         "Baby",
@@ -20484,9 +20426,9 @@ export const voivodeship = {
         "Majdany",
         "Dzięgost",
         "Nowe Baby",
-        "Łojewka"
+        "Łojewka",
       ],
-      "Krośniewice": [
+      Krośniewice: [
         "Kajew",
         "Zieleniew",
         "Pomarzany",
@@ -20549,9 +20491,9 @@ export const voivodeship = {
         "Głogowa",
         "Szubsk-Towarzystwo",
         "Godzięby",
-        "Głaznów"
+        "Głaznów",
       ],
-      "Krzyżanów": [
+      Krzyżanów: [
         "Zawady",
         "Pawłowice",
         "Sokół",
@@ -20600,9 +20542,9 @@ export const voivodeship = {
         "Uroczysko Leśne",
         "Daninów",
         "Mieczysławów",
-        "Kaszewy-Spójnia"
+        "Kaszewy-Spójnia",
       ],
-      "Łanięta": [
+      Łanięta: [
         "Świeciny",
         "Kąty",
         "Wola Chruścińska",
@@ -20628,7 +20570,7 @@ export const voivodeship = {
         "Nutowo",
         "Marianów",
         "Łanięta-Kolonia",
-        "Lipie"
+        "Lipie",
       ],
       "Nowe Ostrowy": [
         "Ostrowy",
@@ -20654,9 +20596,9 @@ export const voivodeship = {
         "Kierz",
         "Kały",
         "Błota",
-        "Ostrowy-Cukrownia"
+        "Ostrowy-Cukrownia",
       ],
-      "Oporów": [
+      Oporów: [
         "Stanisławów",
         "Szczyt",
         "Wola Owsiana",
@@ -20703,9 +20645,9 @@ export const voivodeship = {
         "Świechów-Parcel",
         "Kolonia Oporów",
         "Kolonia Pobórz",
-        "Kolonia Mnich"
+        "Kolonia Mnich",
       ],
-      "Strzelce": [
+      Strzelce: [
         "Zgórze",
         "Karolew",
         "Sójki",
@@ -20747,9 +20689,9 @@ export const voivodeship = {
         "Stara Kozia Góra",
         "Strzelce",
         "Strzelce",
-        "Strzelce Kujawskie"
+        "Strzelce Kujawskie",
       ],
-      "Żychlin": [
+      Żychlin: [
         "Kaczkowizna",
         "Drzewoszki Wielkie",
         "Gajew",
@@ -20797,11 +20739,11 @@ export const voivodeship = {
         "Oleszcze",
         "Śleszyn Mały",
         "Kozanki",
-        "Zarębów"
-      ]
+        "Zarębów",
+      ],
     },
-    "łaski": {
-      "Buczek": [
+    łaski: {
+      Buczek: [
         "Czestków A",
         "Buczek",
         "Strupiny",
@@ -20856,9 +20798,9 @@ export const voivodeship = {
         "Folwark",
         "Wola Buczkowska-Kolonia",
         "Moczylno",
-        "Krzewina"
+        "Krzewina",
       ],
-      "Łask": [
+      Łask: [
         "Grabina",
         "Orchów",
         "Karszew",
@@ -20927,9 +20869,9 @@ export const voivodeship = {
         "Tumidaj",
         "Żdżary",
         "Szadek",
-        "Łętków"
+        "Łętków",
       ],
-      "Sędziejowice": [
+      Sędziejowice: [
         "Grabia",
         "Grabia Trzecia",
         "Brzeski",
@@ -20977,9 +20919,9 @@ export const voivodeship = {
         "Wrzesiny-Kolonia",
         "Osiny-Kolonia",
         "Kresy",
-        "Strugi"
+        "Strugi",
       ],
-      "Widawa": [
+      Widawa: [
         "Babina",
         "Wrzosy",
         "Górki Grabińskie",
@@ -21061,9 +21003,9 @@ export const voivodeship = {
         "Józiuchna",
         "Bród Widawski",
         "Siemiechów-Kolonia",
-        "Chociw Łaski"
+        "Chociw Łaski",
       ],
-      "Wodzierady": [
+      Wodzierady: [
         "Julianów",
         "Elodia",
         "Chorzeszów",
@@ -21111,11 +21053,11 @@ export const voivodeship = {
         "Mikołajewice",
         "Kazimierz",
         "Leśnica",
-        "Kwiatkowice Poduchowne"
-      ]
+        "Kwiatkowice Poduchowne",
+      ],
     },
-    "łęczycki": {
-      "Łęczyca": [
+    łęczycki: {
+      Łęczyca: [
         "Łęka",
         "Siedlec",
         "Dzierzbiętów Duży",
@@ -21198,9 +21140,9 @@ export const voivodeship = {
         "Wichrów-Kolonia",
         "Leszcze",
         "Szarowizna",
-        "Pełczyska"
+        "Pełczyska",
       ],
-      "Daszyna": [
+      Daszyna: [
         "Mazew",
         "Koryta",
         "Łubno",
@@ -21260,7 +21202,7 @@ export const voivodeship = {
         "Jarochówek",
         "Zieleniew",
         "Koryta",
-        "Walew-Parcele"
+        "Walew-Parcele",
       ],
       "Góra Świętej Małgorzaty": [
         "Podgórzyce",
@@ -21313,9 +21255,9 @@ export const voivodeship = {
         "Bachorza",
         "Moraków-Kolonia",
         "Maciejów",
-        "Mierczyn"
+        "Mierczyn",
       ],
-      "Grabów": [
+      Grabów: [
         "Szłapy",
         "Stanisławki",
         "Brudzeń",
@@ -21417,9 +21359,9 @@ export const voivodeship = {
         "Kotowice",
         "Bujak",
         "Srebrna",
-        "Ostrówek-Kolonia"
+        "Ostrówek-Kolonia",
       ],
-      "Piątek": [
+      Piątek: [
         "Balków",
         "Bielice",
         "Boguszyce",
@@ -21464,7 +21406,7 @@ export const voivodeship = {
         "Broników",
         "Pęcławice-Parcele",
         "Włostowice-Parcele",
-        "Niedziałki"
+        "Niedziałki",
       ],
       "Świnice Warckie": [
         "Stemplew",
@@ -21518,9 +21460,9 @@ export const voivodeship = {
         "Holendry",
         "Stemplew",
         "Miecanki",
-        "Wola-Olesin"
+        "Wola-Olesin",
       ],
-      "Witonia": [
+      Witonia: [
         "Kuchary",
         "Wargawka Młoda",
         "Gledzianów",
@@ -21556,11 +21498,11 @@ export const voivodeship = {
         "Górka",
         "Dołek",
         "Węglewice-Kolonia",
-        "Anusin"
-      ]
+        "Anusin",
+      ],
     },
-    "łowicki": {
-      "Łowicz": [
+    łowicki: {
+      Łowicz: [
         "Bocheń",
         "Małszyce",
         "Popów",
@@ -21611,9 +21553,9 @@ export const voivodeship = {
         "Za Koleją",
         "Mystkowice Małe",
         "Podbielnia",
-        "Parcela"
+        "Parcela",
       ],
-      "Bielawy": [
+      Bielawy: [
         "Trzaskowice",
         "Walewice",
         "Wola Gosławska",
@@ -21705,9 +21647,9 @@ export const voivodeship = {
         "Wrzosy",
         "Stanisławów",
         "Mroga",
-        "Stanisławów"
+        "Stanisławów",
       ],
-      "Chąśno": [
+      Chąśno: [
         "Skowroda Południowa",
         "Przemysłów",
         "Błędów",
@@ -21737,9 +21679,9 @@ export const voivodeship = {
         "Sierżniki od Chąśna",
         "Stara Wieś",
         "Stara Wieś",
-        "Stolin"
+        "Stolin",
       ],
-      "Domaniewice": [
+      Domaniewice: [
         "Lisiewice Duże",
         "Lisiewice Małe",
         "Reczyce",
@@ -21781,9 +21723,9 @@ export const voivodeship = {
         "Domaniewice Poduchowne",
         "Nowy Dziadowiec",
         "Nowa Wieś",
-        "Osówie"
+        "Osówie",
       ],
-      "Kiernozia": [
+      Kiernozia: [
         "Kiernozia",
         "Niedzieliska",
         "Osiny",
@@ -21836,7 +21778,7 @@ export const voivodeship = {
         "Osmoleniec",
         "Witusza-Poprzeczka",
         "Krzewinki",
-        "Długie"
+        "Długie",
       ],
       "Kocierzew Południowy": [
         "Kocierzew Południowy",
@@ -21880,9 +21822,9 @@ export const voivodeship = {
         "Czaplinek",
         "Kobylec",
         "Jeziorko Południowe",
-        "Różyce-Trakt"
+        "Różyce-Trakt",
       ],
-      "Łyszkowice": [
+      Łyszkowice: [
         "Zakulin",
         "Kalenice",
         "Seroki",
@@ -21936,9 +21878,9 @@ export const voivodeship = {
         "Daniek",
         "Kolonia Seligówek",
         "Stara Wieś",
-        "Bobrowa"
+        "Bobrowa",
       ],
-      "Nieborów": [
+      Nieborów: [
         "Sypień",
         "Karolew",
         "Bobrowniki",
@@ -21988,9 +21930,9 @@ export const voivodeship = {
         "Bąkowiec",
         "Janówek",
         "Polesie",
-        "Siwica"
+        "Siwica",
       ],
-      "Zduny": [
+      Zduny: [
         "Bogoria Dolna",
         "Dąbrowa",
         "Jackowice",
@@ -22057,11 +21999,11 @@ export const voivodeship = {
         "Łapówka",
         "Kolonia Północna",
         "Winkiel",
-        "Zduny-Wieś"
-      ]
+        "Zduny-Wieś",
+      ],
     },
     "łódzki wschodni": {
-      "Andrespol": [
+      Andrespol: [
         "Wiśniowa Góra",
         "Stróża",
         "Justynów",
@@ -22073,9 +22015,9 @@ export const voivodeship = {
         "Nowy Bedoń",
         "Ludwików",
         "Zielona Góra",
-        "Hulanka"
+        "Hulanka",
       ],
-      "Brójce": [
+      Brójce: [
         "Giemzówek",
         "Pałczew",
         "Wardzyn",
@@ -22108,9 +22050,9 @@ export const voivodeship = {
         "Stary Wardzyń",
         "Bukowiec Duży",
         "Kozica",
-        "Posada"
+        "Posada",
       ],
-      "Koluszki": [
+      Koluszki: [
         "Gałków Duży",
         "Nowy Redzeń",
         "Borowa",
@@ -22169,9 +22111,9 @@ export const voivodeship = {
         "Leopoldów",
         "Przanowska Parcela",
         "Michałów",
-        "Świny"
+        "Świny",
       ],
-      "Nowosolna": [
+      Nowosolna: [
         "Janów",
         "Moskwa",
         "Natolin",
@@ -22200,9 +22142,9 @@ export const voivodeship = {
         "Podwiączyń",
         "Laski",
         "Jerzmanów",
-        "Grabina Dolna"
+        "Grabina Dolna",
       ],
-      "Rzgów": [
+      Rzgów: [
         "Babichy",
         "Guzew",
         "Gospodarz",
@@ -22223,9 +22165,9 @@ export const voivodeship = {
         "Czyżeminek Pierwszy",
         "Czyżeminek Trzeci",
         "Kalinko-Morgi",
-        "Kalinko w Pole"
+        "Kalinko w Pole",
       ],
-      "Tuszyn": [
+      Tuszyn: [
         "Górki Duże",
         "Wodzin-Okupniki",
         "Żeromin",
@@ -22287,11 +22229,11 @@ export const voivodeship = {
         "Tuszynek",
         "Tuszynek Starościński",
         "Żeromin",
-        "Zagrody"
-      ]
+        "Zagrody",
+      ],
     },
-    "opoczyński": {
-      "Białaczów": [
+    opoczyński: {
+      Białaczów: [
         "Żelazowice",
         "Kuraszków",
         "Białaczów",
@@ -22335,9 +22277,9 @@ export const voivodeship = {
         "Ilińsko",
         "Wólka Dobromirowa",
         "Płaczków",
-        "Trzebany"
+        "Trzebany",
       ],
-      "Drzewica": [
+      Drzewica: [
         "Idzikowice",
         "Krzczonów",
         "Radzice Duże",
@@ -22392,9 +22334,9 @@ export const voivodeship = {
         "Kamyków",
         "Zalesie",
         "Podlipów",
-        "Malinie"
+        "Malinie",
       ],
-      "Mniszków": [
+      Mniszków: [
         "Marianka",
         "Owczary",
         "Stok",
@@ -22457,9 +22399,9 @@ export const voivodeship = {
         "Zarzęcin",
         "Małe Końskie",
         "Małe Końskie",
-        "Zarzęcin"
+        "Zarzęcin",
       ],
-      "Opoczno": [
+      Opoczno: [
         "Dzielna",
         "Zameczek",
         "Kruszewiec-Kolonia",
@@ -22557,9 +22499,9 @@ export const voivodeship = {
         "Zameczek",
         "Januszewice",
         "Sitowa",
-        "Dęborzeczka"
+        "Dęborzeczka",
       ],
-      "Paradyż": [
+      Paradyż: [
         "Przyłęk",
         "Stanisławów",
         "Solec",
@@ -22600,9 +22542,9 @@ export const voivodeship = {
         "Daleszewice-Kolonia Trzecia",
         "Piaski",
         "Pępków",
-        "Bogusławy"
+        "Bogusławy",
       ],
-      "Poświętne": [
+      Poświętne: [
         "Poręby",
         "Buczek",
         "Mysiakowiec",
@@ -22647,9 +22589,9 @@ export const voivodeship = {
         "Kępa Mysiakowska",
         "Lubieniec",
         "Działy",
-        "Bielawy"
+        "Bielawy",
       ],
-      "Sławno": [
+      Sławno: [
         "Grudzeń-Kolonia",
         "Zachorzów-Kolonia",
         "Szadkowice",
@@ -22712,9 +22654,9 @@ export const voivodeship = {
         "Murzynek",
         "Huta",
         "Olszowiec-Kolonia",
-        "Prymusowa Wola"
+        "Prymusowa Wola",
       ],
-      "Żarnów": [
+      Żarnów: [
         "Paszkowice",
         "Topolice",
         "Kamieniec",
@@ -22778,10 +22720,10 @@ export const voivodeship = {
         "Pod Lasem",
         "Dwór",
         "Zalesie",
-        "Niemojowice-Kolonia"
-      ]
+        "Niemojowice-Kolonia",
+      ],
     },
-    "pabianicki": {
+    pabianicki: {
       "Konstantynów Łódzki": [
         "Konstantynów Łódzki",
         "Ignacew",
@@ -22796,9 +22738,9 @@ export const voivodeship = {
         "Kolonia Rszew",
         "Rszew-Legionowo",
         "Rszewek",
-        "Żabiczki"
+        "Żabiczki",
       ],
-      "Pabianice": [
+      Pabianice: [
         "Bychlew",
         "Terenin",
         "Wola Żytowska",
@@ -22824,9 +22766,9 @@ export const voivodeship = {
         "Pawlikowice",
         "Pliszka",
         "Potaźnia",
-        "Petrykozy-Osiedle"
+        "Petrykozy-Osiedle",
       ],
-      "Dłutów": [
+      Dłutów: [
         "Drzewociny",
         "Dąbrowa",
         "Dłutówek",
@@ -22862,9 +22804,9 @@ export const voivodeship = {
         "Władysławów",
         "Pawłówek",
         "Dłutów",
-        "Kociołki-Las"
+        "Kociołki-Las",
       ],
-      "Dobroń": [
+      Dobroń: [
         "Róża",
         "Wymysłów-Piaski",
         "Barycz",
@@ -22890,18 +22832,18 @@ export const voivodeship = {
         "Brogi",
         "Chechło Drugie",
         "Bieski",
-        "Talar"
+        "Talar",
       ],
-      "Ksawerów": [
+      Ksawerów: [
         "Nowa Gadka",
         "Wola Zaradzyńska",
         "Ksawerów",
         "Żdżary",
         "Teklin",
         "Widzew",
-        "Kolonia Wola Zaradzyńska"
+        "Kolonia Wola Zaradzyńska",
       ],
-      "Lutomiersk": [
+      Lutomiersk: [
         "Zalew",
         "Franciszków",
         "Mirosławice",
@@ -22964,11 +22906,11 @@ export const voivodeship = {
         "Grabczyna",
         "Zacisze",
         "Zdziechów-Kolonia",
-        "Zofiówka"
-      ]
+        "Zofiówka",
+      ],
     },
-    "pajęczański": {
-      "Działoszyn": [
+    pajęczański: {
+      Działoszyn: [
         "Draby",
         "Kiedosy",
         "Bobrowniki",
@@ -23018,9 +22960,9 @@ export const voivodeship = {
         "Posmykowizna",
         "Pieńki",
         "Sadowiec-Niwa",
-        "Sadowiec-Wrzosy"
+        "Sadowiec-Wrzosy",
       ],
-      "Kiełczygłów": [
+      Kiełczygłów: [
         "Pierzyny Małe",
         "Lipie",
         "Studzienica",
@@ -23067,7 +23009,7 @@ export const voivodeship = {
         "Wyręba",
         "Komorniki Obrowskie",
         "Bugaj Chorzewski",
-        "Piaski"
+        "Piaski",
       ],
       "Nowa Brzeźnica": [
         "Stoczki",
@@ -23117,9 +23059,9 @@ export const voivodeship = {
         "Puchy",
         "Łążek",
         "Gajówka Prusicko",
-        "Płaszczyzna"
+        "Płaszczyzna",
       ],
-      "Pajęczno": [
+      Pajęczno: [
         "Wręczyca",
         "Łężce",
         "Niwiska Dolne",
@@ -23166,9 +23108,9 @@ export const voivodeship = {
         "Wistka",
         "Czerkiesy",
         "Sierociniec",
-        "Podmurowaniec"
+        "Podmurowaniec",
       ],
-      "Rząśnia": [
+      Rząśnia: [
         "Stróża",
         "Broszęcin",
         "Kopy",
@@ -23222,9 +23164,9 @@ export const voivodeship = {
         "Wyrwas",
         "Grabowiec",
         "Stróża",
-        "Kolonia Broszęcin"
+        "Kolonia Broszęcin",
       ],
-      "Siemkowice": [
+      Siemkowice: [
         "Marchewki",
         "Miętno",
         "Mokre",
@@ -23290,7 +23232,7 @@ export const voivodeship = {
         "Miedźno",
         "Młynki",
         "Papierek",
-        "Smolarnia"
+        "Smolarnia",
       ],
       "Strzelce Wielkie": [
         "Pomiary",
@@ -23331,9 +23273,9 @@ export const voivodeship = {
         "Piekary",
         "Wistka-Kolonia",
         "Praca",
-        "Błota Kruplińskie"
+        "Błota Kruplińskie",
       ],
-      "Sulmierzyce": [
+      Sulmierzyce: [
         "Sulmierzyce",
         "Bogumiłowice",
         "Chorzenice",
@@ -23373,11 +23315,11 @@ export const voivodeship = {
         "Dworszowice Pakoszowe",
         "Filipowizna",
         "Anielów",
-        "Dąbrowa"
-      ]
+        "Dąbrowa",
+      ],
     },
-    "piotrkowski": {
-      "Aleksandrów": [
+    piotrkowski: {
+      Aleksandrów: [
         "Aleksandrów",
         "Niewierszyn",
         "Sieczka",
@@ -23463,9 +23405,9 @@ export const voivodeship = {
         "Przedmieście",
         "Góry",
         "Jaksonek",
-        "Przykopy"
+        "Przykopy",
       ],
-      "Czarnocin": [
+      Czarnocin: [
         "Dalków",
         "Grabina Wola",
         "Wola Kutowa",
@@ -23490,9 +23432,9 @@ export const voivodeship = {
         "Rzepki Włościańskie",
         "Stara Wieś",
         "Ostrówek",
-        "Zamość-Kolonia Pierwsza"
+        "Zamość-Kolonia Pierwsza",
       ],
-      "Gorzkowice": [
+      Gorzkowice: [
         "Grabostów",
         "Krosno",
         "Bujniczki",
@@ -23547,9 +23489,9 @@ export const voivodeship = {
         "Rogów",
         "Jadwinów",
         "Komorniki",
-        "Kolonia Gorzędów"
+        "Kolonia Gorzędów",
       ],
-      "Grabica": [
+      Grabica: [
         "Brzoza",
         "Bąkowiec",
         "Zaborów",
@@ -23617,7 +23559,7 @@ export const voivodeship = {
         "Wola Bykowska",
         "Papieże-Kolonia",
         "Szydłówka",
-        "Poleśna"
+        "Poleśna",
       ],
       "Łęki Szlacheckie": [
         "Olszyny",
@@ -23676,9 +23618,9 @@ export const voivodeship = {
         "Piwatki",
         "Gortatowiec",
         "Nakielniki",
-        "Górale"
+        "Górale",
       ],
-      "Moszczenica": [
+      Moszczenica: [
         "Gościmowice Drugie",
         "Kosów",
         "Jarosty",
@@ -23727,9 +23669,9 @@ export const voivodeship = {
         "Powęziny",
         "Raków",
         "Maciejek",
-        "Lewkówka"
+        "Lewkówka",
       ],
-      "Ręczno": [
+      Ręczno: [
         "Placówka",
         "Stobnica",
         "Majkowice",
@@ -23772,9 +23714,9 @@ export const voivodeship = {
         "Ręczno",
         "Wyrębel",
         "Brzezie",
-        "Brzezie-Piła"
+        "Brzezie-Piła",
       ],
-      "Rozprza": [
+      Rozprza: [
         "Budy Porajskie",
         "Truszczanek",
         "Gieski",
@@ -23831,9 +23773,9 @@ export const voivodeship = {
         "Gaj",
         "Kazimierzów",
         "Kolonia Mierzyn",
-        "Milejów-Kolonia"
+        "Milejów-Kolonia",
       ],
-      "Sulejów": [
+      Sulejów: [
         "Witów",
         "Adelinów",
         "Barkowice Mokre",
@@ -23884,7 +23826,7 @@ export const voivodeship = {
         "Kolonia",
         "Łazy-Kolonia",
         "Łazy",
-        "Wdowinów"
+        "Wdowinów",
       ],
       "Wola Krzysztoporska": [
         "Bujny",
@@ -23964,9 +23906,9 @@ export const voivodeship = {
         "Gąski",
         "Piekarki",
         "Czartek",
-        "Zamłynie"
+        "Zamłynie",
       ],
-      "Wolbórz": [
+      Wolbórz: [
         "Komorniki",
         "Leonów",
         "Krzykowice",
@@ -24030,11 +23972,11 @@ export const voivodeship = {
         "Golesze-Parcela",
         "Bogusławice",
         "Żywocin",
-        "Żywocin"
-      ]
+        "Żywocin",
+      ],
     },
-    "poddębicki": {
-      "Dalików": [
+    poddębicki: {
+      Dalików: [
         "Dąbrówka Woźnicka",
         "Symonia",
         "Krzemieniew",
@@ -24104,9 +24046,9 @@ export const voivodeship = {
         "Brudnów Czwarty",
         "Antoniew-Lubocha",
         "Marysin",
-        "Stanisławów"
+        "Stanisławów",
       ],
-      "Pęczniew": [
+      Pęczniew: [
         "Popów",
         "Osowiec",
         "Księże Młyny",
@@ -24169,9 +24111,9 @@ export const voivodeship = {
         "Stara Wieś",
         "Jatki",
         "Łęg Popowski",
-        "Księże Młyny"
+        "Księże Młyny",
       ],
-      "Poddębice": [
+      Poddębice: [
         "Borysew",
         "Adamów",
         "Lipnica",
@@ -24305,9 +24247,9 @@ export const voivodeship = {
         "Wykaźniki",
         "Budki",
         "Stacja Poddębice",
-        "Sworawa"
+        "Sworawa",
       ],
-      "Uniejów": [
+      Uniejów: [
         "Zieleń",
         "Felicjanów",
         "Dąbrowa",
@@ -24360,9 +24302,9 @@ export const voivodeship = {
         "Ubysław",
         "Grodzisko",
         "Człopki",
-        "Kościelnica"
+        "Kościelnica",
       ],
-      "Wartkowice": [
+      Wartkowice: [
         "Drwalew",
         "Saków",
         "Wierzbowa",
@@ -24461,9 +24403,9 @@ export const voivodeship = {
         "Wólki",
         "Biernacice",
         "Bronów",
-        "Bronówek"
+        "Bronówek",
       ],
-      "Zadzim": [
+      Zadzim: [
         "Pałki",
         "Hilarów",
         "Ruda Jeżewska",
@@ -24557,11 +24499,11 @@ export const voivodeship = {
         "Krócice",
         "Grabinka",
         "Grabina",
-        "Zygry"
-      ]
+        "Zygry",
+      ],
     },
-    "radomszczański": {
-      "Radomsko": [
+    radomszczański: {
+      Radomsko: [
         "Płoszów",
         "Dziepółć",
         "Grzebień",
@@ -24588,9 +24530,9 @@ export const voivodeship = {
         "Gaj",
         "Kolonia Strzałkowska",
         "Kudłata Wieś",
-        "Brylisko"
+        "Brylisko",
       ],
-      "Dobryszyce": [
+      Dobryszyce: [
         "Galonki",
         "Wiewiórów",
         "Zalesiczki",
@@ -24614,9 +24556,9 @@ export const voivodeship = {
         "Biała Góra",
         "Malutkie",
         "Borowa",
-        "Blok Dobryszyce"
+        "Blok Dobryszyce",
       ],
-      "Gidle": [
+      Gidle: [
         "Młynek",
         "Ciężkowice",
         "Borowa",
@@ -24654,9 +24596,9 @@ export const voivodeship = {
         "Borki",
         "Borowa",
         "Mękwa",
-        "Wojnowice"
+        "Wojnowice",
       ],
-      "Gomunice": [
+      Gomunice: [
         "Gertrudów",
         "Kocierzowy",
         "Wojciechów",
@@ -24681,9 +24623,9 @@ export const voivodeship = {
         "Borowiecko-Kolonia",
         "Paciorkowizna",
         "Kletnia",
-        "Kosówka"
+        "Kosówka",
       ],
-      "Kamieńsk": [
+      Kamieńsk: [
         "Szpinalów",
         "Danielów",
         "Pytowice",
@@ -24721,7 +24663,7 @@ export const voivodeship = {
         "Mościska",
         "Kmiecizna",
         "Huta",
-        "Kotlewy"
+        "Kotlewy",
       ],
       "Kobiele Wielkie": [
         "Przydatki Przybyszowskie",
@@ -24772,9 +24714,9 @@ export const voivodeship = {
         "Kajetanówka",
         "Celina",
         "Nadrożna",
-        "Wrony"
+        "Wrony",
       ],
-      "Kodrąb": [
+      Kodrąb: [
         "Feliksów",
         "Wola Malowana",
         "Gosławice",
@@ -24823,7 +24765,7 @@ export const voivodeship = {
         "Gąszczówka",
         "Teodorów Mały",
         "Barwinek",
-        "Kolonia Rzejowice"
+        "Kolonia Rzejowice",
       ],
       "Lgota Wielka": [
         "Wiewiórów",
@@ -24843,9 +24785,9 @@ export const voivodeship = {
         "Pieńki Krzywańskie",
         "Józefina",
         "Otocze",
-        "Dąbrowa Wiewiórowska"
+        "Dąbrowa Wiewiórowska",
       ],
-      "Ładzice": [
+      Ładzice: [
         "Kozia Woda",
         "Radziechowice Pierwsze",
         "Borki",
@@ -24867,9 +24809,9 @@ export const voivodeship = {
         "Huby Wierzbickie",
         "Stobiecko Szlacheckie-Kolonia",
         "Ludwinów",
-        "Karolinów"
+        "Karolinów",
       ],
-      "Masłowice": [
+      Masłowice: [
         "Borki",
         "Strzelce Małe",
         "Kawęczyn",
@@ -24921,9 +24863,9 @@ export const voivodeship = {
         "Konstantynów",
         "Koń",
         "Lipowczyce-Bór",
-        "Chaptyzów"
+        "Chaptyzów",
       ],
-      "Przedbórz": [
+      Przedbórz: [
         "Przyłanki",
         "Wyrębiska",
         "Wierzchlas",
@@ -25006,9 +24948,9 @@ export const voivodeship = {
         "Kolonia Policzko",
         "Koszary",
         "Sewerynów",
-        "Zawodzie"
+        "Zawodzie",
       ],
-      "Wielgomłyny": [
+      Wielgomłyny: [
         "Zagórze",
         "Rogi",
         "Wólka Bankowa",
@@ -25054,9 +24996,9 @@ export const voivodeship = {
         "Borecznica",
         "Wielgomłyny",
         "Wola Życińska",
-        "Kruszyna"
+        "Kruszyna",
       ],
-      "Żytno": [
+      Żytno: [
         "Sudzin",
         "Rędziny",
         "Magdalenki",
@@ -25113,10 +25055,10 @@ export const voivodeship = {
         "Pławidła",
         "Sowin",
         "Kępa",
-        "Wymysłów"
-      ]
+        "Wymysłów",
+      ],
     },
-    "rawski": {
+    rawski: {
       "Rawa Mazowiecka": [
         "Zawady",
         "Żydomice",
@@ -25171,7 +25113,7 @@ export const voivodeship = {
         "Boguszyce",
         "Garłów",
         "Kurzeszyn",
-        "Rossocha"
+        "Rossocha",
       ],
       "Biała Rawska": [
         "Byki",
@@ -25244,9 +25186,9 @@ export const voivodeship = {
         "Żurawia",
         "Prusso",
         "Grzymkowice",
-        "Galinki"
+        "Galinki",
       ],
-      "Cielądz": [
+      Cielądz: [
         "Brzozówka",
         "Kuczyzna",
         "Niemgłowy",
@@ -25269,9 +25211,9 @@ export const voivodeship = {
         "Nowe Sierzchowy",
         "Nowa Mała Wieś",
         "Stare Niemgłowy",
-        "Nowy Komorów"
+        "Nowy Komorów",
       ],
-      "Regnów": [
+      Regnów: [
         "Wólka Strońska",
         "Kazimierzów",
         "Rylsk Duży",
@@ -25283,9 +25225,9 @@ export const voivodeship = {
         "Nowy Regnów",
         "Rylsk",
         "Rylsk Mały",
-        "Sowidół"
+        "Sowidół",
       ],
-      "Sadkowice": [
+      Sadkowice: [
         "Lutobory",
         "Lubania",
         "Turobowice",
@@ -25321,11 +25263,11 @@ export const voivodeship = {
         "Nowe Sadkowice",
         "Sadkowice",
         "Nowy Trębaczew",
-        "Nowa Skarbkowa"
-      ]
+        "Nowa Skarbkowa",
+      ],
     },
-    "sieradzki": {
-      "Sieradz": [
+    sieradzki: {
+      Sieradz: [
         "Dzierlin",
         "Kowale",
         "Wiechucice",
@@ -25409,9 +25351,9 @@ export const voivodeship = {
         "Borzewisko",
         "Bogumiłów-Kolonia",
         "Monice",
-        "Woźniki"
+        "Woźniki",
       ],
-      "Błaszki": [
+      Błaszki: [
         "Kąśnie",
         "Kamienna-Kolonia",
         "Kalinowa",
@@ -25555,9 +25497,9 @@ export const voivodeship = {
         "Stare Suliszewice",
         "Włocin-Kolonia",
         "Kwasków",
-        "Zaborów"
+        "Zaborów",
       ],
-      "Brąszewice": [
+      Brąszewice: [
         "Ciupki",
         "Trzcinka",
         "Lisy",
@@ -25624,9 +25566,9 @@ export const voivodeship = {
         "Kurek",
         "Błota",
         "Gałki",
-        "Kosatka"
+        "Kosatka",
       ],
-      "Brzeźnio": [
+      Brzeźnio: [
         "Rembów",
         "Pustelnik",
         "Stefanów Barczewski Pierwszy",
@@ -25695,9 +25637,9 @@ export const voivodeship = {
         "Zgórz",
         "Staropole",
         "Gozdeckie",
-        "Stefanów Ruszkowski"
+        "Stefanów Ruszkowski",
       ],
-      "Burzenin": [
+      Burzenin: [
         "Świerki",
         "Ręszew",
         "Niechmirów",
@@ -25756,9 +25698,9 @@ export const voivodeship = {
         "Krępica",
         "Ligota",
         "Tyczyn",
-        "Kolonia Niechmirów"
+        "Kolonia Niechmirów",
       ],
-      "Goszczanów": [
+      Goszczanów: [
         "Stojanów",
         "Wacławów",
         "Waliszewice",
@@ -25795,9 +25737,9 @@ export const voivodeship = {
         "Góry Strachanowskie",
         "Modła",
         "Borek Goszczanowski",
-        "Janówek"
+        "Janówek",
       ],
-      "Klonowa": [
+      Klonowa: [
         "Grzyb",
         "Kuźnica Błońska",
         "Leliwa",
@@ -25863,9 +25805,9 @@ export const voivodeship = {
         "Komorniki Leliwskie",
         "Olender",
         "Leśniki",
-        "Tomczyki"
+        "Tomczyki",
       ],
-      "Warta": [
+      Warta: [
         "Proboszczowice",
         "Raczków",
         "Wola Miłkowska",
@@ -25979,9 +25921,9 @@ export const voivodeship = {
         "Szczawno Rożdżalskie",
         "Kamionacz",
         "Włyń",
-        "Miedźno"
+        "Miedźno",
       ],
-      "Wróblew": [
+      Wróblew: [
         "Inczew",
         "Bliźniew",
         "Słomków Suchy",
@@ -26052,9 +25994,9 @@ export const voivodeship = {
         "Rudnik",
         "Zimna Woda",
         "Repta",
-        "Oraczew Mały"
+        "Oraczew Mały",
       ],
-      "Złoczew": [
+      Złoczew: [
         "Grójec Mały",
         "Stolec",
         "Broszki",
@@ -26128,11 +26070,11 @@ export const voivodeship = {
         "Wandalin nad Szosą",
         "Przylepka",
         "Grójec Wielki",
-        "Grójec Wielki"
-      ]
+        "Grójec Wielki",
+      ],
     },
-    "skierniewicki": {
-      "Bolimów": [
+    skierniewicki: {
+      Bolimów: [
         "Łasieczniki",
         "Sierzchów",
         "Wólka Łasiecka",
@@ -26155,9 +26097,9 @@ export const voivodeship = {
         "Ziemiary",
         "Parcela",
         "Chojniak",
-        "Tartak Bolimowski"
+        "Tartak Bolimowski",
       ],
-      "Głuchów": [
+      Głuchów: [
         "Michowice",
         "Białynin-Południe",
         "Borysław",
@@ -26178,18 +26120,18 @@ export const voivodeship = {
         "Skoczykłody",
         "Gostynki",
         "Chrapy",
-        "Pod Borem"
+        "Pod Borem",
       ],
-      "Godzianów": [
+      Godzianów: [
         "Byczki",
         "Płyćwia",
         "Godzianów",
         "Zapady",
         "Kawęczyn",
         "Lnisno",
-        "Płyćwia"
+        "Płyćwia",
       ],
-      "Kowiesy": [
+      Kowiesy: [
         "Zawady",
         "Pękoszew",
         "Jakubów",
@@ -26227,7 +26169,7 @@ export const voivodeship = {
         "Chełmce-Towarzystwo",
         "Jaśminówka",
         "Jeruzal Poduchowny",
-        "Chojnatka"
+        "Chojnatka",
       ],
       "Lipce Reymontowskie": [
         "Lipce Reymontowskie",
@@ -26238,9 +26180,9 @@ export const voivodeship = {
         "Wólka-Podlesie",
         "Retniowiec",
         "Wola Drzewiecka",
-        "Wólka Krosnowska"
+        "Wólka Krosnowska",
       ],
-      "Maków": [
+      Maków: [
         "Pszczonów",
         "Dąbrowice",
         "Wola Makowska",
@@ -26268,7 +26210,7 @@ export const voivodeship = {
         "Bażantarnia",
         "Kresy",
         "Święte Laski-Kolonia",
-        "Zwierzyniec"
+        "Zwierzyniec",
       ],
       "Nowy Kawęczyn": [
         "Zglinna Duża",
@@ -26314,9 +26256,9 @@ export const voivodeship = {
         "Orłów",
         "Krzyżanów",
         "Marianka",
-        "Nowy Dwór"
+        "Nowy Dwór",
       ],
-      "Skierniewice": [
+      Skierniewice: [
         "Dębowa Góra",
         "Budy Grabskie",
         "Nowe Rowiska",
@@ -26357,9 +26299,9 @@ export const voivodeship = {
         "Budy Grabskie",
         "Samice",
         "Mokra",
-        "Żelazna-Majątek"
+        "Żelazna-Majątek",
       ],
-      "Słupia": [
+      Słupia: [
         "Wólka-Nazdroje",
         "Winna Góra",
         "Gzów",
@@ -26375,10 +26317,10 @@ export const voivodeship = {
         "Bliski Gaj",
         "Borki",
         "Brzozowica",
-        "Zimna Woda"
-      ]
+        "Zimna Woda",
+      ],
     },
-    "tomaszowski": {
+    tomaszowski: {
       "Tomaszów Mazowiecki": [
         "Komorów",
         "Wąwał",
@@ -26417,9 +26359,9 @@ export const voivodeship = {
         "Gajówka Trzebiatów",
         "Leśniczówka Trzebiatów",
         "Gajówka Smardzewice",
-        "Cekanów"
+        "Cekanów",
       ],
-      "Będków": [
+      Będków: [
         "Remiszewice",
         "Ewcin",
         "Będków-Kolonia",
@@ -26442,9 +26384,9 @@ export const voivodeship = {
         "Rudnik",
         "Dąbrowa",
         "Adamów",
-        "Wołkowa"
+        "Wołkowa",
       ],
-      "Budziszewice": [
+      Budziszewice: [
         "Nepomucenów",
         "Adamów",
         "Walentynów",
@@ -26464,9 +26406,9 @@ export const voivodeship = {
         "Bartoszówka",
         "Zagórze",
         "Subina",
-        "Nowy Rękawiec"
+        "Nowy Rękawiec",
       ],
-      "Czerniewice": [
+      Czerniewice: [
         "Lipie",
         "Podkonice Miejskie",
         "Zubki Duże",
@@ -26501,9 +26443,9 @@ export const voivodeship = {
         "Czerniewice",
         "Turobów",
         "Zubki Małe",
-        "Helenów"
+        "Helenów",
       ],
-      "Inowłódz": [
+      Inowłódz: [
         "Dąbrowa",
         "Brzustów",
         "Żądłowice",
@@ -26522,9 +26464,9 @@ export const voivodeship = {
         "Leśnictwo",
         "Spała",
         "Konewka",
-        "Wytoka"
+        "Wytoka",
       ],
-      "Lubochnia": [
+      Lubochnia: [
         "Lubochnia-Górki",
         "Małecz",
         "Nowy Jasień",
@@ -26555,9 +26497,9 @@ export const voivodeship = {
         "Szczurek",
         "Rzekietka",
         "Kruszewiec",
-        "Nowy Glinnik-Osiedle"
+        "Nowy Glinnik-Osiedle",
       ],
-      "Rokiciny": [
+      Rokiciny: [
         "Albertów",
         "Łaznowska Wola",
         "Nowe Chrusty",
@@ -26582,9 +26524,9 @@ export const voivodeship = {
         "Janków Trzeci",
         "Stefanów",
         "Janinów",
-        "Rokiciny"
+        "Rokiciny",
       ],
-      "Rzeczyca": [
+      Rzeczyca: [
         "Zawady",
         "Lubocz",
         "Kanice",
@@ -26607,9 +26549,9 @@ export const voivodeship = {
         "Bobrowiec",
         "Nowa Rzeczyca",
         "Czekaj",
-        "Tłumy"
+        "Tłumy",
       ],
-      "Ujazd": [
+      Ujazd: [
         "Szymanów",
         "Łominy",
         "Stasiolas",
@@ -26652,9 +26594,9 @@ export const voivodeship = {
         "Józefów",
         "Mącznik",
         "Leszczyny",
-        "Niewiadów-Kolonia"
+        "Niewiadów-Kolonia",
       ],
-      "Żelechlinek": [
+      Żelechlinek: [
         "Świniokierz Dworski",
         "Teklin",
         "Bukowiec",
@@ -26696,11 +26638,11 @@ export const voivodeship = {
         "Nowa Czerwonka",
         "Janów",
         "Nowe Byliny",
-        "Sokołówka"
-      ]
+        "Sokołówka",
+      ],
     },
-    "wieluński": {
-      "Biała": [
+    wieluński: {
+      Biała: [
         "Radomina",
         "Dębina",
         "Rososz",
@@ -26751,9 +26693,9 @@ export const voivodeship = {
         "Mirków",
         "Kierków",
         "Przychody",
-        "Madej"
+        "Madej",
       ],
-      "Czarnożyły": [
+      Czarnożyły: [
         "Stawek",
         "Opojowice",
         "Platoń",
@@ -26791,9 +26733,9 @@ export const voivodeship = {
         "Hubicze",
         "Teklina",
         "Leniszki",
-        "Leniszki"
+        "Leniszki",
       ],
-      "Konopnica": [
+      Konopnica: [
         "Wrońsko",
         "Głuchów",
         "Kamyk",
@@ -26851,9 +26793,9 @@ export const voivodeship = {
         "Uwrocie",
         "Wroński Bór",
         "Wycinki",
-        "Żabieniec"
+        "Żabieniec",
       ],
-      "Mokrsko": [
+      Mokrsko: [
         "Słupsko",
         "Zmyślona",
         "Orzechowiec",
@@ -26909,9 +26851,9 @@ export const voivodeship = {
         "Banasie",
         "Konstantynówka",
         "Głęboki Ruczaj",
-        "Sakrajda"
+        "Sakrajda",
       ],
-      "Osjaków": [
+      Osjaków: [
         "Krzętle",
         "Borki Walkowskie",
         "Raduczyce",
@@ -26965,9 +26907,9 @@ export const voivodeship = {
         "Stara Wieś",
         "Zagóry",
         "Kajdas",
-        "Kolonia Raducka"
+        "Kolonia Raducka",
       ],
-      "Ostrówek": [
+      Ostrówek: [
         "Skrzynno",
         "Wola Rudlicka",
         "Marynka",
@@ -27032,9 +26974,9 @@ export const voivodeship = {
         "Rajkówek",
         "Brzeście",
         "Staropole",
-        "Wola Rudlicka"
+        "Wola Rudlicka",
       ],
-      "Pątnów": [
+      Pątnów: [
         "Kałuże",
         "Kluski",
         "Bukowce",
@@ -27077,9 +27019,9 @@ export const voivodeship = {
         "Kubery",
         "Madeły",
         "Kępowizna",
-        "Źródła"
+        "Źródła",
       ],
-      "Skomlin": [
+      Skomlin: [
         "Wróblew",
         "Walenczyzna",
         "Zadole",
@@ -27106,9 +27048,9 @@ export const voivodeship = {
         "Grześlaki",
         "Królewska Grobla",
         "Maręże",
-        "Niedźwiady"
+        "Niedźwiady",
       ],
-      "Wieluń": [
+      Wieluń: [
         "Kadłub",
         "Gaszyn",
         "Srebrnica",
@@ -27161,9 +27103,9 @@ export const voivodeship = {
         "Klusiny",
         "Grodzisko",
         "Chodaki",
-        "Mokrosze"
+        "Mokrosze",
       ],
-      "Wierzchlas": [
+      Wierzchlas: [
         "Przycłapy",
         "Przywóz",
         "Broników",
@@ -27211,11 +27153,11 @@ export const voivodeship = {
         "Doły",
         "Pod Łysą Górą",
         "Parcela Północna",
-        "Wieszagi"
-      ]
+        "Wieszagi",
+      ],
     },
-    "wieruszowski": {
-      "Bolesławiec": [
+    wieruszowski: {
+      Bolesławiec: [
         "Chotynin",
         "Kamionka",
         "Podbolesławiec",
@@ -27246,9 +27188,9 @@ export const voivodeship = {
         "Chróścin-Młyn",
         "Krupka",
         "Koziołek",
-        "Wełny"
+        "Wełny",
       ],
-      "Czastary": [
+      Czastary: [
         "Krajanka",
         "Stępna",
         "Chorobel",
@@ -27270,9 +27212,9 @@ export const voivodeship = {
         "Olendry",
         "Jaśki",
         "Bielawka",
-        "Koza"
+        "Koza",
       ],
-      "Galewice": [
+      Galewice: [
         "Galewice",
         "Foluszczyki",
         "Brzeziny",
@@ -27339,9 +27281,9 @@ export const voivodeship = {
         "Ciupki",
         "Mąki",
         "Pustki",
-        "Głowinkowskie"
+        "Głowinkowskie",
       ],
-      "Lututów": [
+      Lututów: [
         "Augustynów",
         "Brzozowiec",
         "Chojny",
@@ -27387,9 +27329,9 @@ export const voivodeship = {
         "Knapy",
         "Kłoniczki",
         "Kozub",
-        "Hipolity"
+        "Hipolity",
       ],
-      "Łubnice": [
+      Łubnice: [
         "Brzozówka",
         "Rzepisko",
         "Łubnice",
@@ -27414,9 +27356,9 @@ export const voivodeship = {
         "Gielniówka",
         "Krupka",
         "Makowszczyzna",
-        "Bezula"
+        "Bezula",
       ],
-      "Sokolniki": [
+      Sokolniki: [
         "Góry",
         "Nowy Ochędzyn",
         "Gumnisko",
@@ -27449,9 +27391,9 @@ export const voivodeship = {
         "Malanów",
         "Wiktorówek",
         "Szustry",
-        "Sokolniki-Leśniczówka"
+        "Sokolniki-Leśniczówka",
       ],
-      "Wieruszów": [
+      Wieruszów: [
         "Mieleszynek",
         "Cieszęcin",
         "Sopel",
@@ -27491,10 +27433,10 @@ export const voivodeship = {
         "Mieleszyn",
         "Ochędzyn",
         "Przywory",
-        "Dobrydział"
-      ]
+        "Dobrydział",
+      ],
     },
-    "zduńskowolski": {
+    zduńskowolski: {
       "Zduńska Wola": [
         "Maciejów",
         "Beniaminów",
@@ -27557,9 +27499,9 @@ export const voivodeship = {
         "Kraszęcin",
         "Krobanówek",
         "Wiktorów",
-        "Rębieskie-Kolonia"
+        "Rębieskie-Kolonia",
       ],
-      "Szadek": [
+      Szadek: [
         "Łobudzice",
         "Wielka Wieś",
         "Wilamów",
@@ -27639,9 +27581,9 @@ export const voivodeship = {
         "Szadek",
         "Szadkowice",
         "Prusinowice",
-        "Babiniec"
+        "Babiniec",
       ],
-      "Zapolice": [
+      Zapolice: [
         "Paprotnia",
         "Jeziorko",
         "Zapolice",
@@ -27674,11 +27616,11 @@ export const voivodeship = {
         "Branica Kalinowska",
         "Beleńskie Huby",
         "Zygmuntów",
-        "Adamówek"
-      ]
+        "Adamówek",
+      ],
     },
-    "zgierski": {
-      "Głowno": [
+    zgierski: {
+      Głowno: [
         "Rudniczek",
         "Wola Zbrożkowa",
         "Ziewanice",
@@ -27728,9 +27670,9 @@ export const voivodeship = {
         "Ruchna",
         "Sopel",
         "Dąbrowa",
-        "Glinnik"
+        "Glinnik",
       ],
-      "Ozorków": [
+      Ozorków: [
         "Katarzynów",
         "Borszyn",
         "Leśmierz",
@@ -27764,9 +27706,9 @@ export const voivodeship = {
         "Śliwniki",
         "Parzyce",
         "Solca Wielka",
-        "Duraj"
+        "Duraj",
       ],
-      "Zgierz": [
+      Zgierz: [
         "Rosanów",
         "Rogóźno",
         "Jasionka",
@@ -27868,7 +27810,7 @@ export const voivodeship = {
         "Duża Swoboda",
         "Lućmierz-Ośrodek",
         "Swoboda",
-        "Ciosny"
+        "Ciosny",
       ],
       "Aleksandrów Łódzki": [
         "Stare Krasnodęby",
@@ -27931,9 +27873,9 @@ export const voivodeship = {
         "Rąbień B",
         "Rąbień-Stary Dwór",
         "Kolonia Brużyca",
-        "Chrośno"
+        "Chrośno",
       ],
-      "Parzęczew": [
+      Parzęczew: [
         "Skórka",
         "Śliwniki",
         "Leźnica Wielka",
@@ -27996,9 +27938,9 @@ export const voivodeship = {
         "Władysławów",
         "Leźnica Wielka",
         "Marysławów",
-        "Leźnica Wielka-Osiedle"
+        "Leźnica Wielka-Osiedle",
       ],
-      "Stryków": [
+      Stryków: [
         "Tymianka",
         "Smolice",
         "Swędów",
@@ -28058,11 +28000,11 @@ export const voivodeship = {
         "Sosnowiec-Pieńki",
         "Wrzask",
         "Sosnowiec Dolny",
-        "Dobra Poduchowna"
-      ]
+        "Dobra Poduchowna",
+      ],
     },
-    "brzeziński": {
-      "Brzeziny": [
+    brzeziński: {
+      Brzeziny: [
         "Adamów",
         "Bielanki",
         "Stare Koluszki",
@@ -28121,9 +28063,9 @@ export const voivodeship = {
         "Czyżyków",
         "Bielanki",
         "Janinów",
-        "Tadzin"
+        "Tadzin",
       ],
-      "Dmosin": [
+      Dmosin: [
         "Nowostawy Dolne",
         "Osiny",
         "Kraszew",
@@ -28176,9 +28118,9 @@ export const voivodeship = {
         "Gózd",
         "Lubowidza-Nowiny",
         "Kraszewek",
-        "Praga"
+        "Praga",
       ],
-      "Jeżów": [
+      Jeżów: [
         "Mościska",
         "Przybyszyce",
         "Rewica",
@@ -28212,9 +28154,9 @@ export const voivodeship = {
         "Mikulin-Parcela",
         "Popień-Parcela",
         "Leszczyny-Kolonia",
-        "Dąbrowa"
+        "Dąbrowa",
       ],
-      "Rogów": [
+      Rogów: [
         "Jasień",
         "Kobylin",
         "Kotulin",
@@ -28233,13 +28175,11 @@ export const voivodeship = {
         "Romanówek",
         "Nowe Wągry",
         "Zacywilki",
-        "Rogów"
-      ]
-    },
-    "Łódź": {
-      "Łódź": [
-        "Łódź"
+        "Rogów",
       ],
+    },
+    Łódź: {
+      Łódź: ["Łódź"],
       "Łódź-Bałuty": [
         "Łódź-Bałuty",
         "Żubardź",
@@ -28273,7 +28213,7 @@ export const voivodeship = {
         "Kały",
         "Łodzianka",
         "Mikołajew",
-        "Modrzew"
+        "Modrzew",
       ],
       "Łódź-Górna": [
         "Łódź-Górna",
@@ -28305,7 +28245,7 @@ export const voivodeship = {
         "Kurak",
         "Marysin",
         "Nowe Rokicie",
-        "Wiskitno A-Las"
+        "Wiskitno A-Las",
       ],
       "Łódź-Polesie": [
         "Łódź-Polesie",
@@ -28325,12 +28265,9 @@ export const voivodeship = {
         "Smulsko",
         "Nowy Józefów",
         "Stare Złotno",
-        "Retkinia"
+        "Retkinia",
       ],
-      "Łódź-Śródmieście": [
-        "Łódź-Śródmieście",
-        "Śródmieście"
-      ],
+      "Łódź-Śródmieście": ["Łódź-Śródmieście", "Śródmieście"],
       "Łódź-Widzew": [
         "Łódź-Widzew",
         "Andrzejów",
@@ -28354,8 +28291,8 @@ export const voivodeship = {
         "Popielarnia",
         "Przylesie",
         "Nowosolna",
-        "Sikawa"
-      ]
+        "Sikawa",
+      ],
     },
     "Piotrków Trybunalski": {
       "Piotrków Trybunalski": [
@@ -28379,11 +28316,11 @@ export const voivodeship = {
         "Twardosławice",
         "Bugaj",
         "Budki",
-        "Raków"
-      ]
+        "Raków",
+      ],
     },
-    "Skierniewice": {
-      "Skierniewice": [
+    Skierniewice: {
+      Skierniewice: [
         "Skierniewice",
         "Feliksów",
         "Halinów",
@@ -28391,13 +28328,13 @@ export const voivodeship = {
         "Grabina Miedniewicka",
         "Sadowiczów",
         "Rawka",
-        "Starbacicha-Gajówka"
-      ]
-    }
+        "Starbacicha-Gajówka",
+      ],
+    },
   },
-  "MAŁOPOLSKIE": {
-    "bocheński": {
-      "Bochnia": [
+  MAŁOPOLSKIE: {
+    bocheński: {
+      Bochnia: [
         "Na Dole",
         "Kiebło",
         "Podlesie",
@@ -28560,9 +28497,9 @@ export const voivodeship = {
         "Dąbrowica",
         "Stradomka",
         "Majkowice",
-        "Proszówki"
+        "Proszówki",
       ],
-      "Drwinia": [
+      Drwinia: [
         "Olszyny",
         "Pasternik",
         "Piaski",
@@ -28622,7 +28559,7 @@ export const voivodeship = {
         "Dziewin",
         "Zielona",
         "Świniary",
-        "Trawniki"
+        "Trawniki",
       ],
       "Lipnica Murowana": [
         "Mulki",
@@ -28701,9 +28638,9 @@ export const voivodeship = {
         "Lipnica Górna",
         "Rajbrot",
         "Lipnica Murowana",
-        "Lipnica Dolna"
+        "Lipnica Dolna",
       ],
-      "Łapanów": [
+      Łapanów: [
         "Grobla",
         "Brożkówka",
         "Budzyń",
@@ -28819,7 +28756,7 @@ export const voivodeship = {
         "Łapanów",
         "Boczów",
         "Tarnawa",
-        "Zbydniów"
+        "Zbydniów",
       ],
       "Nowy Wiśnicz": [
         "Podgródek",
@@ -28896,9 +28833,9 @@ export const voivodeship = {
         "Wiśnicz Mały",
         "Łomna",
         "Stary Wiśnicz",
-        "Chronów"
+        "Chronów",
       ],
-      "Rzezawa": [
+      Rzezawa: [
         "Jodłówka",
         "Gaj",
         "Kąty",
@@ -28944,9 +28881,9 @@ export const voivodeship = {
         "Dąbrówka",
         "Jodłówka",
         "Borek",
-        "Okulice"
+        "Okulice",
       ],
-      "Trzciana": [
+      Trzciana: [
         "Pasternik",
         "Sikornice",
         "Pachówka",
@@ -29007,9 +28944,9 @@ export const voivodeship = {
         "Ujazd",
         "Rdzawa",
         "Łąkta Dolna",
-        "Kamionna"
+        "Kamionna",
       ],
-      "Żegocina": [
+      Żegocina: [
         "Mrowcówka",
         "Najbrówka",
         "Rola",
@@ -29069,11 +29006,11 @@ export const voivodeship = {
         "Bytomsko",
         "Łąkta Górna",
         "Rozdziele",
-        "Bełdno"
-      ]
+        "Bełdno",
+      ],
     },
-    "brzeski": {
-      "Borzęcin": [
+    brzeski: {
+      Borzęcin: [
         "Przymiarki",
         "Pukiel",
         "Bagno",
@@ -29119,9 +29056,9 @@ export const voivodeship = {
         "Borzęcin",
         "Przyborów",
         "Łęki",
-        "Bielcza"
+        "Bielcza",
       ],
-      "Brzesko": [
+      Brzesko: [
         "Zagrody Wielkie",
         "Bocheniec",
         "Gawroniec",
@@ -29209,9 +29146,9 @@ export const voivodeship = {
         "Poręba Spytkowska",
         "Mokrzyska",
         "Jadowniki",
-        "Jasień"
+        "Jasień",
       ],
-      "Czchów": [
+      Czchów: [
         "Zagrody",
         "Góry",
         "Granice",
@@ -29269,9 +29206,9 @@ export const voivodeship = {
         "Tymowa",
         "Wytrzyszczka",
         "Złota",
-        "Tworkowa"
+        "Tworkowa",
       ],
-      "Dębno": [
+      Dębno: [
         "Borek",
         "Godów",
         "Sufczyn Dolny",
@@ -29346,9 +29283,9 @@ export const voivodeship = {
         "Doły",
         "Biadoliny Szlacheckie",
         "Sufczyn",
-        "Wola Dębińska"
+        "Wola Dębińska",
       ],
-      "Gnojnik": [
+      Gnojnik: [
         "Rędzina",
         "Pisarzówka",
         "Przyrwa",
@@ -29387,9 +29324,9 @@ export const voivodeship = {
         "Uszew",
         "Biesiadki",
         "Gosprzydowa",
-        "Gnojnik"
+        "Gnojnik",
       ],
-      "Iwkowa": [
+      Iwkowa: [
         "Pagórek",
         "Kąciny",
         "Burdak",
@@ -29447,9 +29384,9 @@ export const voivodeship = {
         "Kąty",
         "Iwkowa",
         "Dobrociesz",
-        "Połom Mały"
+        "Połom Mały",
       ],
-      "Szczurowa": [
+      Szczurowa: [
         "Kopalina",
         "Lipie",
         "Strachorówka",
@@ -29535,11 +29472,11 @@ export const voivodeship = {
         "Kwików",
         "Księże Kopacze",
         "Strzelce Małe",
-        "Wrzępia"
-      ]
+        "Wrzępia",
+      ],
     },
-    "chrzanowski": {
-      "Alwernia": [
+    chrzanowski: {
+      Alwernia: [
         "Czarna Góra",
         "Pod Rudnem",
         "Kamionka Duża",
@@ -29580,9 +29517,9 @@ export const voivodeship = {
         "Brodła",
         "Kwaczała",
         "Nieporaz",
-        "Poręba Żegoty"
+        "Poręba Żegoty",
       ],
-      "Babice": [
+      Babice: [
         "Dąbrowa",
         "Kulawki",
         "Lipowiec",
@@ -29614,9 +29551,9 @@ export const voivodeship = {
         "Babice",
         "Rozkochów",
         "Zagórze",
-        "Mętków"
+        "Mętków",
       ],
-      "Chrzanów": [
+      Chrzanów: [
         "Kaniowizna",
         "Skotnica",
         "Kolonia Działki",
@@ -29656,9 +29593,9 @@ export const voivodeship = {
         "Luszowice",
         "Balin",
         "Pogorzyce",
-        "Płaza"
+        "Płaza",
       ],
-      "Libiąż": [
+      Libiąż: [
         "Olszynka",
         "Za Strugą",
         "Zarośle",
@@ -29701,9 +29638,9 @@ export const voivodeship = {
         "Ziajki",
         "Libiąż",
         "Żarki",
-        "Gromiec"
+        "Gromiec",
       ],
-      "Trzebinia": [
+      Trzebinia: [
         "Przy Karniowicach",
         "Granice",
         "Skałki",
@@ -29793,11 +29730,11 @@ export const voivodeship = {
         "Młoszowa",
         "Bolęcin",
         "Myślachowice",
-        "Psary"
-      ]
+        "Psary",
+      ],
     },
-    "dąbrowski": {
-      "Bolesław": [
+    dąbrowski: {
+      Bolesław: [
         "Wacków",
         "Górki",
         "Łęka Wiślana",
@@ -29835,7 +29772,7 @@ export const voivodeship = {
         "Świebodzin",
         "Samocice",
         "Kuzie",
-        "Pawłów"
+        "Pawłów",
       ],
       "Dąbrowa Tarnowska": [
         "Podkaczówka",
@@ -29897,9 +29834,9 @@ export const voivodeship = {
         "Gruszów Wielki",
         "Sutków",
         "Brnik",
-        "Smęgorzów"
+        "Smęgorzów",
       ],
-      "Gręboszów": [
+      Gręboszów: [
         "Posina",
         "Bugaj",
         "Przedmieście",
@@ -29933,9 +29870,9 @@ export const voivodeship = {
         "Zapasternicze",
         "Lubiczko",
         "Hubenice",
-        "Gręboszów"
+        "Gręboszów",
       ],
-      "Mędrzechów": [
+      Mędrzechów: [
         "Bór Świątkowski",
         "Kolejowa",
         "Podkalenie",
@@ -29971,9 +29908,9 @@ export const voivodeship = {
         "Grądy",
         "Odmęt",
         "Mędrzechów",
-        "Wola Mędrzechowska"
+        "Wola Mędrzechowska",
       ],
-      "Olesno": [
+      Olesno: [
         "Dębnik",
         "Dąbrówka",
         "Bugaj",
@@ -30026,9 +29963,9 @@ export const voivodeship = {
         "Swarzów",
         "Adamierz",
         "Dąbrówki Breńskie",
-        "Podborze"
+        "Podborze",
       ],
-      "Radgoszcz": [
+      Radgoszcz: [
         "Czarkówka",
         "Dwór",
         "Górka",
@@ -30063,9 +30000,9 @@ export const voivodeship = {
         "Żdżary",
         "Radgoszcz",
         "Luszowice",
-        "Smyków"
+        "Smyków",
       ],
-      "Szczucin": [
+      Szczucin: [
         "Knieja",
         "Podlesie",
         "Nowa Wieś",
@@ -30172,11 +30109,11 @@ export const voivodeship = {
         "Radwan",
         "Świdrówka",
         "Zabrnie",
-        "Wola Szczucińska"
-      ]
+        "Wola Szczucińska",
+      ],
     },
-    "gorlicki": {
-      "Gorlice": [
+    gorlicki: {
+      Gorlice: [
         "Smołówka",
         "Za Działem",
         "Zdzior",
@@ -30267,9 +30204,9 @@ export const voivodeship = {
         "Bielanka",
         "Zagórzany",
         "Szymbark",
-        "Stróżówka"
+        "Stróżówka",
       ],
-      "Biecz": [
+      Biecz: [
         "Ukraina",
         "Góra",
         "Wygon",
@@ -30361,9 +30298,9 @@ export const voivodeship = {
         "Rożnowice",
         "Strzeszyn",
         "Racławice",
-        "Sitnica"
+        "Sitnica",
       ],
-      "Bobowa": [
+      Bobowa: [
         "Wilkówka",
         "Lipniczka",
         "Podrudawie",
@@ -30419,9 +30356,9 @@ export const voivodeship = {
         "Stróżna",
         "Siedliska",
         "Sędziszowa",
-        "Jankowa"
+        "Jankowa",
       ],
-      "Lipinki": [
+      Lipinki: [
         "Pańskie",
         "Pod Lasem",
         "Pasieki",
@@ -30451,9 +30388,9 @@ export const voivodeship = {
         "Bednarka",
         "Lipinki",
         "Wójtowa",
-        "Kryg"
+        "Kryg",
       ],
-      "Łużna": [
+      Łużna: [
         "Pogwizdów",
         "Pańskie Pola",
         "Górzyna",
@@ -30509,9 +30446,9 @@ export const voivodeship = {
         "Wola Łużańska",
         "Mszanka",
         "Biesna",
-        "Łużna"
+        "Łużna",
       ],
-      "Moszczenica": [
+      Moszczenica: [
         "Granice od Sitnicy",
         "Pod Sitnicą",
         "Sperkówka",
@@ -30546,9 +30483,9 @@ export const voivodeship = {
         "Sołtystwo",
         "Wydartuchy",
         "Moszczenica",
-        "Staszkówka"
+        "Staszkówka",
       ],
-      "Ropa": [
+      Ropa: [
         "Zagóra",
         "Pociecha",
         "Obczary",
@@ -30602,9 +30539,9 @@ export const voivodeship = {
         "Zalesie",
         "Łosie",
         "Klimkówka",
-        "Ropa"
+        "Ropa",
       ],
-      "Sękowa": [
+      Sękowa: [
         "Chłopski Las",
         "Kozłówka",
         "Dół",
@@ -30660,7 +30597,7 @@ export const voivodeship = {
         "Wołowiec",
         "Męcina Mała",
         "Bodaki",
-        "Owczary"
+        "Owczary",
       ],
       "Uście Gorlickie": [
         "Wierchnia",
@@ -30713,11 +30650,11 @@ export const voivodeship = {
         "Hańczowa",
         "Czarna",
         "Nowica",
-        "Ropki"
-      ]
+        "Ropki",
+      ],
     },
-    "krakowski": {
-      "Czernichów": [
+    krakowski: {
+      Czernichów: [
         "Zajazie",
         "Kukówka",
         "Bagienna",
@@ -30821,7 +30758,7 @@ export const voivodeship = {
         "Kamień",
         "Przeginia Duchowna",
         "Przeginia Narodowa",
-        "Rybna"
+        "Rybna",
       ],
       "Igołomia-Wawrzeńczyce": [
         "Koźlica Tropiszowska",
@@ -30879,9 +30816,9 @@ export const voivodeship = {
         "Tropiszów",
         "Pobiednik Mały",
         "Wawrzeńczyce",
-        "Zofipole"
+        "Zofipole",
       ],
-      "Iwanowice": [
+      Iwanowice: [
         "Kolonia",
         "Babia Góra",
         "Toporek",
@@ -30952,7 +30889,7 @@ export const voivodeship = {
         "Iwanowice Dworskie",
         "Władysław",
         "Zalesie",
-        "Grzegorzowice Małe"
+        "Grzegorzowice Małe",
       ],
       "Jerzmanowice-Przeginia": [
         "Pod Skałą",
@@ -31018,7 +30955,7 @@ export const voivodeship = {
         "Przeginia",
         "Czubrowice",
         "Szklary",
-        "Racławice"
+        "Racławice",
       ],
       "Kocmyrzów-Luborzyca": [
         "Legionówka Goszycka",
@@ -31089,9 +31026,9 @@ export const voivodeship = {
         "Rawałowice",
         "Sadowie",
         "Wiktorowice",
-        "Wola Luborzycka"
+        "Wola Luborzycka",
       ],
-      "Krzeszowice": [
+      Krzeszowice: [
         "Za Białką",
         "Wrzosy",
         "Satniówka",
@@ -31191,9 +31128,9 @@ export const voivodeship = {
         "Dębnik",
         "Paczółtowice",
         "Zalas",
-        "Ostrężnica"
+        "Ostrężnica",
       ],
-      "Liszki": [
+      Liszki: [
         "Barcza",
         "Pastwisko",
         "Bory",
@@ -31280,9 +31217,9 @@ export const voivodeship = {
         "Kaszów",
         "Piekary",
         "Ściejowice",
-        "Mników"
+        "Mników",
       ],
-      "Michałowice": [
+      Michałowice: [
         "Szpilka",
         "Środek Wsi",
         "Widerka",
@@ -31340,9 +31277,9 @@ export const voivodeship = {
         "Zagórzyce Dworskie",
         "Pielgrzymowice",
         "Kończyce",
-        "Młodziejowice"
+        "Młodziejowice",
       ],
-      "Mogilany": [
+      Mogilany: [
         "Łobzów",
         "Łobzów",
         "Rzym",
@@ -31429,9 +31366,9 @@ export const voivodeship = {
         "Mogilany",
         "Lusina",
         "Brzyczyna",
-        "Libertów"
+        "Libertów",
       ],
-      "Skała": [
+      Skała: [
         "Popowiec-Leśniczówka",
         "Na Odolu",
         "Do Marcina",
@@ -31508,9 +31445,9 @@ export const voivodeship = {
         "Sobiesęki",
         "Stoki",
         "Rzeplin",
-        "Zamłynie"
+        "Zamłynie",
       ],
-      "Skawina": [
+      Skawina: [
         "Brzegi",
         "Skotnica",
         "Kopanka Pierwsza",
@@ -31628,9 +31565,9 @@ export const voivodeship = {
         "Jurczyce",
         "Grabie",
         "Wola Radziszowska",
-        "Borek Szlachecki"
+        "Borek Szlachecki",
       ],
-      "Słomniki": [
+      Słomniki: [
         "Nowa Wieś",
         "Zaborze Drugie",
         "Błonie",
@@ -31720,9 +31657,9 @@ export const voivodeship = {
         "Orłów",
         "Brończyce",
         "Ratajów",
-        "Kępa"
+        "Kępa",
       ],
-      "Sułoszowa": [
+      Sułoszowa: [
         "Stopina Góra",
         "Grodzisko",
         "Kamieniec",
@@ -31754,7 +31691,7 @@ export const voivodeship = {
         "Podzamcze",
         "Wielmoża",
         "Wola Kalinowska",
-        "Sułoszowa"
+        "Sułoszowa",
       ],
       "Świątniki Górne": [
         "Rędziny",
@@ -31804,7 +31741,7 @@ export const voivodeship = {
         "Rzeszotary",
         "Wrząsowice",
         "Olszowice",
-        "Ochojno"
+        "Ochojno",
       ],
       "Wielka Wieś": [
         "Kawiory",
@@ -31848,9 +31785,9 @@ export const voivodeship = {
         "Szyce",
         "Tomaszowice",
         "Prądnik Korzkiewski",
-        "Wielka Wieś"
+        "Wielka Wieś",
       ],
-      "Zabierzów": [
+      Zabierzów: [
         "Grzybów",
         "Popówka",
         "Lipka",
@@ -31906,9 +31843,9 @@ export const voivodeship = {
         "Kleszczów",
         "Brzezinka",
         "Bolechowice",
-        "Więckowice"
+        "Więckowice",
       ],
-      "Zielonki": [
+      Zielonki: [
         "Dolina",
         "Marszowiec",
         "Czekaj",
@@ -31942,11 +31879,11 @@ export const voivodeship = {
         "Trojanowice",
         "Węgrzce",
         "Pękowice",
-        "Dziekanowice"
-      ]
+        "Dziekanowice",
+      ],
     },
-    "limanowski": {
-      "Limanowa": [
+    limanowski: {
+      Limanowa: [
         "Zarębki",
         "Dzielec",
         "Zarzecze",
@@ -32181,7 +32118,7 @@ export const voivodeship = {
         "Wysokie",
         "Rupniów",
         "Pisarzowa",
-        "Bałażówka"
+        "Bałażówka",
       ],
       "Mszana Dolna": [
         "Klimkówka",
@@ -32594,9 +32531,9 @@ export const voivodeship = {
         "Lubomierz",
         "Mszana Górna",
         "Raba Niżna",
-        "Łętowe"
+        "Łętowe",
       ],
-      "Dobra": [
+      Dobra: [
         "Do Jani",
         "Słuchany",
         "Tracze",
@@ -32810,9 +32747,9 @@ export const voivodeship = {
         "Jurków",
         "Skrzydlna",
         "Chyszówki",
-        "Stróża"
+        "Stróża",
       ],
-      "Jodłownik": [
+      Jodłownik: [
         "Godusza",
         "Bazyńskie",
         "Zimna Woda",
@@ -32903,9 +32840,9 @@ export const voivodeship = {
         "Sadek",
         "Góra Świętego Jana",
         "Słupia",
-        "Krasne-Lasocice"
+        "Krasne-Lasocice",
       ],
-      "Kamienica": [
+      Kamienica: [
         "Majochy",
         "Mikołajczyki",
         "Pode Drapą",
@@ -33048,9 +32985,9 @@ export const voivodeship = {
         "Szczawa",
         "Zasadne",
         "Zbludza",
-        "Zalesie"
+        "Zalesie",
       ],
-      "Laskowa": [
+      Laskowa: [
         "Gwizdówka",
         "Nadole",
         "Załpa",
@@ -33153,9 +33090,9 @@ export const voivodeship = {
         "Krosna",
         "Strzeszyce",
         "Kamionka Mała",
-        "Jaworzna"
+        "Jaworzna",
       ],
-      "Łukowica": [
+      Łukowica: [
         "Rola",
         "Jastrzębie Dolne",
         "Pod Skiełkiem",
@@ -33238,9 +33175,9 @@ export const voivodeship = {
         "Owieczka",
         "Roztoka",
         "Łukowica",
-        "Przyszowa"
+        "Przyszowa",
       ],
-      "Niedźwiedź": [
+      Niedźwiedź: [
         "Podgronie",
         "Starmachy",
         "Janaski",
@@ -33360,9 +33297,9 @@ export const voivodeship = {
         "Poręba Wielka",
         "Konina",
         "Podobin",
-        "Niedźwiedź"
+        "Niedźwiedź",
       ],
-      "Słopnice": [
+      Słopnice: [
         "Zaświercze",
         "Giemziki Górne",
         "Śliwówka",
@@ -33421,9 +33358,9 @@ export const voivodeship = {
         "Wikarówka",
         "Woźniówka",
         "Zadziele",
-        "Słopnice"
+        "Słopnice",
       ],
-      "Tymbark": [
+      Tymbark: [
         "Kapicówka",
         "Kwaśniakówka",
         "Dwór",
@@ -33492,11 +33429,11 @@ export const voivodeship = {
         "Piekiełko",
         "Zawadka",
         "Zamieście",
-        "Podłopień"
-      ]
+        "Podłopień",
+      ],
     },
-    "miechowski": {
-      "Charsznica": [
+    miechowski: {
+      Charsznica: [
         "Gajówka",
         "Marianów",
         "Parcela",
@@ -33560,9 +33497,9 @@ export const voivodeship = {
         "Charsznica",
         "Uniejów-Rędziny",
         "Dąbrowiec",
-        "Wierzbie"
+        "Wierzbie",
       ],
-      "Gołcza": [
+      Gołcza: [
         "Wielkanocki Koniec",
         "Łąka",
         "Dąbrówka",
@@ -33630,9 +33567,9 @@ export const voivodeship = {
         "Buk",
         "Chobędza",
         "Zawadka",
-        "Cieplice"
+        "Cieplice",
       ],
-      "Kozłów": [
+      Kozłów: [
         "Pierwsza Kolonia za Górą",
         "Florentynów",
         "Staszyn",
@@ -33679,7 +33616,7 @@ export const voivodeship = {
         "Kozłów",
         "Przybysławice",
         "Bryzdzyn",
-        "Karczowice"
+        "Karczowice",
       ],
       "Książ Wielki": [
         "Cisie-Gajówka",
@@ -33754,9 +33691,9 @@ export const voivodeship = {
         "Antolka",
         "Konaszówka",
         "Częstoszowice",
-        "Cisia Wola"
+        "Cisia Wola",
       ],
-      "Miechów": [
+      Miechów: [
         "Stare Lisiny",
         "Podleśna Wola Górna",
         "Parcelacja",
@@ -33868,9 +33805,9 @@ export const voivodeship = {
         "Falniów",
         "Pojałowice",
         "Kalina Mała",
-        "Strzeżów Drugi"
+        "Strzeżów Drugi",
       ],
-      "Racławice": [
+      Racławice: [
         "Półanki",
         "Pod Lisinami",
         "Igóra-Bidziny",
@@ -33921,9 +33858,9 @@ export const voivodeship = {
         "Marchocice",
         "Janowiczki",
         "Miroszów",
-        "Dosłońce"
+        "Dosłońce",
       ],
-      "Słaboszów": [
+      Słaboszów: [
         "Kalina-Wysiołek",
         "Stara Wieś",
         "Kalina Zarzeczna",
@@ -33970,11 +33907,11 @@ export const voivodeship = {
         "Buszków",
         "Święcice",
         "Rzemiędzice",
-        "Rędziny-Borek"
-      ]
+        "Rędziny-Borek",
+      ],
     },
-    "myślenicki": {
-      "Dobczyce": [
+    myślenicki: {
+      Dobczyce: [
         "Wiatrowice",
         "Dziudża",
         "Wielka Góra",
@@ -34038,9 +33975,9 @@ export const voivodeship = {
         "Brzączowice",
         "Kędzierzynka",
         "Rudnik",
-        "Bieńkowice"
+        "Bieńkowice",
       ],
-      "Lubień": [
+      Lubień: [
         "Lachówka",
         "Leśniakowa",
         "Gilowa",
@@ -34189,9 +34126,9 @@ export const voivodeship = {
         "Skomielna Biała",
         "Lubień",
         "Krzeczów",
-        "Tenczyn"
+        "Tenczyn",
       ],
-      "Myślenice": [
+      Myślenice: [
         "Wincentówka",
         "Brzeg",
         "Piłogrzbiet",
@@ -34320,9 +34257,9 @@ export const voivodeship = {
         "Łęki",
         "Droginia",
         "Zasań",
-        "Borzęta"
+        "Borzęta",
       ],
-      "Pcim": [
+      Pcim: [
         "Mleczkowo",
         "Balinkowa",
         "Burtanowa",
@@ -34484,9 +34421,9 @@ export const voivodeship = {
         "Żabowo Górne",
         "Pcim",
         "Trzebunia",
-        "Stróża"
+        "Stróża",
       ],
-      "Raciechowice": [
+      Raciechowice: [
         "Drogi",
         "Wieża",
         "Moczury",
@@ -34573,9 +34510,9 @@ export const voivodeship = {
         "Krzyworzeka",
         "Gruszów",
         "Żerosławice",
-        "Sawa"
+        "Sawa",
       ],
-      "Siepraw": [
+      Siepraw: [
         "Pola",
         "Brzeg",
         "Kawęciny",
@@ -34614,9 +34551,9 @@ export const voivodeship = {
         "Łyczanka",
         "Zakliczyn",
         "Czechówka",
-        "Siepraw"
+        "Siepraw",
       ],
-      "Sułkowice": [
+      Sułkowice: [
         "Kalitówka",
         "Krzywoniówka",
         "Dział",
@@ -34685,9 +34622,9 @@ export const voivodeship = {
         "Biertowice",
         "Harbutowice",
         "Rudnik",
-        "Krzywaczka"
+        "Krzywaczka",
       ],
-      "Tokarnia": [
+      Tokarnia: [
         "Gracze",
         "Pachury",
         "Bargłowa",
@@ -34833,9 +34770,9 @@ export const voivodeship = {
         "Bogdanówka",
         "Zawadka",
         "Więciórka",
-        "Krzczonów"
+        "Krzczonów",
       ],
-      "Wiśniowa": [
+      Wiśniowa: [
         "Zarzecze",
         "Jamrozówka",
         "Majdówka",
@@ -34961,11 +34898,11 @@ export const voivodeship = {
         "Kobielnik",
         "Poznachowice Dolne",
         "Lipnik",
-        "Węglówka"
-      ]
+        "Węglówka",
+      ],
     },
-    "nowosądecki": {
-      "Grybów": [
+    nowosądecki: {
+      Grybów: [
         "Granice",
         "Matusówka",
         "Pod Świnką",
@@ -35183,9 +35120,9 @@ export const voivodeship = {
         "Cieniawa",
         "Stara Wieś",
         "Polna",
-        "Ptaszkowa"
+        "Ptaszkowa",
       ],
-      "Chełmiec": [
+      Chełmiec: [
         "Śmierciakówka",
         "Zalesie",
         "Zazdrość",
@@ -35355,7 +35292,7 @@ export const voivodeship = {
         "Krasne Potockie",
         "Kunów",
         "Kurów",
-        "Librantowa"
+        "Librantowa",
       ],
       "Gródek nad Dunajcem": [
         "Dział",
@@ -35426,7 +35363,7 @@ export const voivodeship = {
         "Jelna",
         "Zbyszyce",
         "Lipie",
-        "Przydonica"
+        "Przydonica",
       ],
       "Kamionka Wielka": [
         "Gracze",
@@ -35550,9 +35487,9 @@ export const voivodeship = {
         "Mszalnica",
         "Kamionka Wielka",
         "Mystków",
-        "Królowa Górna"
+        "Królowa Górna",
       ],
-      "Korzenna": [
+      Korzenna: [
         "Żebraczka",
         "Ulesie",
         "Górna Wieś",
@@ -35642,7 +35579,7 @@ export const voivodeship = {
         "Janczowa",
         "Siedlce",
         "Łęka",
-        "Miłkowa"
+        "Miłkowa",
       ],
       "Krynica-Zdrój": [
         "Bradów",
@@ -35684,9 +35621,9 @@ export const voivodeship = {
         "Polany",
         "Mochnaczka Wyżna",
         "Piorunka",
-        "Muszynka"
+        "Muszynka",
       ],
-      "Łabowa": [
+      Łabowa: [
         "Niemcówka",
         "Patranówka",
         "Pagórki",
@@ -35727,9 +35664,9 @@ export const voivodeship = {
         "Łabowiec",
         "Czaczów",
         "Maciejowa",
-        "Barnowiec"
+        "Barnowiec",
       ],
-      "Łącko": [
+      Łącko: [
         "Kluczniki",
         "Górka",
         "Gronie",
@@ -36161,7 +36098,7 @@ export const voivodeship = {
         "Łazy Brzyńskie",
         "Maszkowice",
         "Jazowsko",
-        "Obidza"
+        "Obidza",
       ],
       "Łososina Dolna": [
         "Kamyk",
@@ -36281,9 +36218,9 @@ export const voivodeship = {
         "Bilsko",
         "Zawadka",
         "Łososina Dolna",
-        "Łęki"
+        "Łęki",
       ],
-      "Muszyna": [
+      Muszyna: [
         "Żegiestów-Zdrój",
         "Boryłów",
         "Żegiestów-Stacja",
@@ -36330,9 +36267,9 @@ export const voivodeship = {
         "Milik",
         "Wojkowa",
         "Jastrzębik",
-        "Leluchów"
+        "Leluchów",
       ],
-      "Nawojowa": [
+      Nawojowa: [
         "Góry",
         "Dolinka",
         "Gomulcówka",
@@ -36424,7 +36361,7 @@ export const voivodeship = {
         "Nawojowa",
         "Żeleźnikowa Mała",
         "Żeleźnikowa Wielka",
-        "Popardowa"
+        "Popardowa",
       ],
       "Piwniczna-Zdrój": [
         "Niemcowa",
@@ -36580,9 +36517,9 @@ export const voivodeship = {
         "Wierchomla Wielka",
         "Zubrzyk",
         "Głębokie",
-        "Wierchomla Mała"
+        "Wierchomla Mała",
       ],
-      "Podegrodzie": [
+      Podegrodzie: [
         "Granica",
         "Burdak",
         "Dół",
@@ -36673,9 +36610,9 @@ export const voivodeship = {
         "Długołęka-Świerkla",
         "Podrzecze",
         "Brzezna",
-        "Podegrodzie"
+        "Podegrodzie",
       ],
-      "Rytro": [
+      Rytro: [
         "Wielochówka",
         "Wilkówka",
         "Mikołaska",
@@ -36716,7 +36653,7 @@ export const voivodeship = {
         "Obłazy Ryterskie",
         "Sucha Struga",
         "Roztoka Ryterska",
-        "Rytro"
+        "Rytro",
       ],
       "Stary Sącz": [
         "Baranówka",
@@ -36835,10 +36772,10 @@ export const voivodeship = {
         "Gołkowice Górne",
         "Łazy Biegonickie",
         "Gołkowice Dolne",
-        "Wola Krogulecka"
-      ]
+        "Wola Krogulecka",
+      ],
     },
-    "nowotarski": {
+    nowotarski: {
       "Nowy Targ": [
         "Obroczna",
         "Grapa",
@@ -36888,9 +36825,9 @@ export const voivodeship = {
         "Ludźmierz",
         "Harklowa",
         "Krauszów",
-        "Szlembark"
+        "Szlembark",
       ],
-      "Szczawnica": [
+      Szczawnica: [
         "Zapustek",
         "Na Brzegu",
         "Czarna Woda",
@@ -36919,7 +36856,7 @@ export const voivodeship = {
         "Padołek",
         "Szczawnica",
         "Szlachtowa",
-        "Jaworki"
+        "Jaworki",
       ],
       "Czarny Dunajec": [
         "Chraca",
@@ -37079,9 +37016,9 @@ export const voivodeship = {
         "Ratułów",
         "Podszkle",
         "Czarny Dunajec",
-        "Koniówka"
+        "Koniówka",
       ],
-      "Czorsztyn": [
+      Czorsztyn: [
         "Kąty",
         "Podbrzezie",
         "Pod Hoborgiem",
@@ -37118,9 +37055,9 @@ export const voivodeship = {
         "Sromowce Wyżne",
         "Czorsztyn",
         "Sromowce Niżne",
-        "Mizerna"
+        "Mizerna",
       ],
-      "Jabłonka": [
+      Jabłonka: [
         "Zawodzie",
         "Danielki",
         "Rola Sadłowa",
@@ -37238,7 +37175,7 @@ export const voivodeship = {
         "Zubrzyca Górna",
         "Zubrzyca Dolna",
         "Podwilk",
-        "Orawka"
+        "Orawka",
       ],
       "Krościenko nad Dunajcem": [
         "Ogrodziska",
@@ -37300,7 +37237,7 @@ export const voivodeship = {
         "Krościenko nad Dunajcem",
         "Tylka",
         "Krośnica",
-        "Grywałd"
+        "Grywałd",
       ],
       "Lipnica Wielka": [
         "Leśniczówka na Lniarce",
@@ -37330,7 +37267,7 @@ export const voivodeship = {
         "Piaskowa Polana",
         "Styrułowa Polana",
         "Kiczory",
-        "Lipnica Wielka"
+        "Lipnica Wielka",
       ],
       "Łapsze Niżne": [
         "Ziębowski",
@@ -37385,7 +37322,7 @@ export const voivodeship = {
         "Kacwin",
         "Niedzica",
         "Trybsz",
-        "Łapszanka"
+        "Łapszanka",
       ],
       "Ochotnica Dolna": [
         "Górniki",
@@ -37560,7 +37497,7 @@ export const voivodeship = {
         "Jaszcze",
         "Ochotnica Dolna",
         "Tylmanowa",
-        "Ochotnica Górna"
+        "Ochotnica Górna",
       ],
       "Raba Wyżna": [
         "Role",
@@ -37738,7 +37675,7 @@ export const voivodeship = {
         "Rokiciny Podhalańskie",
         "Harkabuz",
         "Bielanka",
-        "Skawa"
+        "Skawa",
       ],
       "Rabka-Zdrój": [
         "Możdżeniówka",
@@ -37905,9 +37842,9 @@ export const voivodeship = {
         "Rabka-Zdrój",
         "Rdzawka",
         "Chabówka",
-        "Ponice"
+        "Ponice",
       ],
-      "Spytkowice": [
+      Spytkowice: [
         "Banasiówka",
         "Brandysówka",
         "Brzezinówka",
@@ -37954,9 +37891,9 @@ export const voivodeship = {
         "Bodakówka",
         "Niedźwiedziówka",
         "Rusnakówka",
-        "Spytkowice"
+        "Spytkowice",
       ],
-      "Szaflary": [
+      Szaflary: [
         "Chodówka",
         "Migle",
         "Osiedle Cygańskie",
@@ -38000,11 +37937,11 @@ export const voivodeship = {
         "Skrzypne",
         "Maruszyna",
         "Szaflary",
-        "Zaskale"
-      ]
+        "Zaskale",
+      ],
     },
-    "olkuski": {
-      "Bukowno": [
+    olkuski: {
+      Bukowno: [
         "Piaski",
         "Tłukienka",
         "Starczynów-Kolonia",
@@ -38031,9 +37968,9 @@ export const voivodeship = {
         "Jabłoń",
         "Świnia Góra",
         "Jeziorki",
-        "Bukowno"
+        "Bukowno",
       ],
-      "Bolesław": [
+      Bolesław: [
         "Posada",
         "Dziurka",
         "Górka",
@@ -38073,9 +38010,9 @@ export const voivodeship = {
         "Krzykawka",
         "Małobądz",
         "Podlipie",
-        "Krzykawa"
+        "Krzykawa",
       ],
-      "Klucze": [
+      Klucze: [
         "Zarole",
         "Zalesie Golczowskie",
         "Godawica",
@@ -38127,9 +38064,9 @@ export const voivodeship = {
         "Krzywopłoty",
         "Golczowice",
         "Kwaśniów Dolny",
-        "Ryczówek"
+        "Ryczówek",
       ],
-      "Olkusz": [
+      Olkusz: [
         "Kolonia Zimkówka",
         "Kogutek",
         "Czarny Las",
@@ -38213,9 +38150,9 @@ export const voivodeship = {
         "Rabsztyn",
         "Olewin",
         "Zederman",
-        "Sieniczno"
+        "Sieniczno",
       ],
-      "Trzyciąż": [
+      Trzyciąż: [
         "Stroniczki",
         "Kolonia Dolna",
         "Kolonia Górna",
@@ -38273,9 +38210,9 @@ export const voivodeship = {
         "Trzyciąż",
         "Sucha",
         "Porąbka",
-        "Ściborzyce"
+        "Ściborzyce",
       ],
-      "Wolbrom": [
+      Wolbrom: [
         "Nadmłynie",
         "Majorat",
         "Rędziny",
@@ -38415,11 +38352,11 @@ export const voivodeship = {
         "Jeżówka",
         "Miechówka",
         "Zarzecze",
-        "Poręba Górna"
-      ]
+        "Poręba Górna",
+      ],
     },
-    "oświęcimski": {
-      "Oświęcim": [
+    oświęcimski: {
+      Oświęcim: [
         "Puściny",
         "Przedzieleń",
         "Sośnina",
@@ -38476,9 +38413,9 @@ export const voivodeship = {
         "Brzezinka",
         "Grojec",
         "Włosienica",
-        "Łazy"
+        "Łazy",
       ],
-      "Brzeszcze": [
+      Brzeszcze: [
         "Korea",
         "Podlesie Brzeskie",
         "Chałupy",
@@ -38529,9 +38466,9 @@ export const voivodeship = {
         "Skidziń",
         "Zasole",
         "Przecieszyn",
-        "Jawiszowice"
+        "Jawiszowice",
       ],
-      "Chełmek": [
+      Chełmek: [
         "Nowopole",
         "Kopanki",
         "Małowy",
@@ -38548,9 +38485,9 @@ export const voivodeship = {
         "Podzagórnie",
         "Chełmek",
         "Gorzów",
-        "Bobrek"
+        "Bobrek",
       ],
-      "Kęty": [
+      Kęty: [
         "Granica",
         "Owczarnia",
         "Sybir",
@@ -38615,9 +38552,9 @@ export const voivodeship = {
         "Witkowice",
         "Malec",
         "Łęki",
-        "Nowa Wieś"
+        "Nowa Wieś",
       ],
-      "Osiek": [
+      Osiek: [
         "Karolina",
         "Rzepowskie",
         "Krzaki",
@@ -38651,7 +38588,7 @@ export const voivodeship = {
         "Zielona",
         "Dalachowice",
         "Głębowice",
-        "Osiek"
+        "Osiek",
       ],
       "Polanka Wielka": [
         "Pasternik",
@@ -38670,9 +38607,9 @@ export const voivodeship = {
         "Łysówka",
         "Majcherowiec",
         "Studziennik",
-        "Polanka Wielka"
+        "Polanka Wielka",
       ],
-      "Przeciszów": [
+      Przeciszów: [
         "Nyklówka",
         "Makuchówka",
         "Na Tarnówce",
@@ -38712,9 +38649,9 @@ export const voivodeship = {
         "Przyrąb",
         "Las",
         "Piotrowice",
-        "Przeciszów"
+        "Przeciszów",
       ],
-      "Zator": [
+      Zator: [
         "Podjarki",
         "Olszyna",
         "Grabie Pierwsze",
@@ -38751,11 +38688,11 @@ export const voivodeship = {
         "Grodzisko",
         "Palczowice",
         "Łowiczki",
-        "Trzebieńczyce"
-      ]
+        "Trzebieńczyce",
+      ],
     },
-    "proszowicki": {
-      "Koniusza": [
+    proszowicki: {
+      Koniusza: [
         "Średnia Kolonia",
         "Rędzina",
         "Korycizna",
@@ -38882,9 +38819,9 @@ export const voivodeship = {
         "Gnatowice",
         "Wronin",
         "Polekarcice",
-        "Glew"
+        "Glew",
       ],
-      "Koszyce": [
+      Koszyce: [
         "Miodowo",
         "Macieczyna",
         "Parcela Dolna",
@@ -38955,7 +38892,7 @@ export const voivodeship = {
         "Siedliska",
         "Włostowice",
         "Jankowice",
-        "Sokołowice"
+        "Sokołowice",
       ],
       "Nowe Brzesko": [
         "Gościniec",
@@ -38991,9 +38928,9 @@ export const voivodeship = {
         "Gruszów",
         "Sierosławice",
         "Szpitary",
-        "Śmiłowice"
+        "Śmiłowice",
       ],
-      "Pałecznica": [
+      Pałecznica: [
         "Wzorek",
         "Korea",
         "Wysiołek",
@@ -39043,9 +38980,9 @@ export const voivodeship = {
         "Łaszów",
         "Niezwojowice",
         "Czuszów",
-        "Lelowice-Kolonia"
+        "Lelowice-Kolonia",
       ],
-      "Proszowice": [
+      Proszowice: [
         "Szreniawa",
         "Podwale",
         "Kolonia",
@@ -39139,9 +39076,9 @@ export const voivodeship = {
         "Makocice",
         "Klimontów",
         "Łaganów",
-        "Opatkowice"
+        "Opatkowice",
       ],
-      "Radziemice": [
+      Radziemice: [
         "Przypaść",
         "Kalisz Głęboki",
         "Płósy",
@@ -39185,11 +39122,11 @@ export const voivodeship = {
         "Łętkowice-Kolonia",
         "Wrocimowice",
         "Błogocice",
-        "Kaczowice"
-      ]
+        "Kaczowice",
+      ],
     },
-    "suski": {
-      "Jordanów": [
+    suski: {
+      Jordanów: [
         "Klimasowa",
         "Folwark",
         "Morawówka",
@@ -39368,7 +39305,7 @@ export const voivodeship = {
         "Osielec",
         "Łętownia",
         "Toporzysko",
-        "Naprawa"
+        "Naprawa",
       ],
       "Sucha Beskidzka": [
         "Podksięże",
@@ -39427,9 +39364,9 @@ export const voivodeship = {
         "Listwanówka",
         "Szklarczyki",
         "U Burego",
-        "Sucha Beskidzka"
+        "Sucha Beskidzka",
       ],
-      "Budzów": [
+      Budzów: [
         "Polany",
         "U Bukowskiego",
         "Adamkówka",
@@ -39627,7 +39564,7 @@ export const voivodeship = {
         "Palcza",
         "Zachełmna",
         "Jachówka",
-        "Baczyn"
+        "Baczyn",
       ],
       "Bystra-Sidzina": [
         "Do Kamieńskiego",
@@ -39735,7 +39672,7 @@ export const voivodeship = {
         "Stopkowa",
         "Sidzinka Mała",
         "Bystra Podhalańska",
-        "Sidzina"
+        "Sidzina",
       ],
       "Maków Podhalański": [
         "Jurki",
@@ -39991,9 +39928,9 @@ export const voivodeship = {
         "Grzechynia",
         "Kojszówka",
         "Żarnówka",
-        "Białka"
+        "Białka",
       ],
-      "Stryszawa": [
+      Stryszawa: [
         "Krale",
         "Laliki",
         "Zagrody",
@@ -40226,9 +40163,9 @@ export const voivodeship = {
         "Lachowice",
         "Hucisko",
         "Stryszawa",
-        "Kuków"
+        "Kuków",
       ],
-      "Zawoja": [
+      Zawoja: [
         "Stonów",
         "Cyrchel",
         "Norczak",
@@ -40471,9 +40408,9 @@ export const voivodeship = {
         "Skutowa",
         "Śpikówka",
         "Zawoja",
-        "Skawica"
+        "Skawica",
       ],
-      "Zembrzyce": [
+      Zembrzyce: [
         "Cyrchel",
         "Jaworki",
         "Tarnawska Góra",
@@ -40558,11 +40495,11 @@ export const voivodeship = {
         "Śleszowice",
         "Tarnawa Górna",
         "Zembrzyce",
-        "Tarnawa Dolna"
-      ]
+        "Tarnawa Dolna",
+      ],
     },
-    "tarnowski": {
-      "Ciężkowice": [
+    tarnowski: {
+      Ciężkowice: [
         "Borys",
         "Pogórze",
         "Zagórze",
@@ -40655,9 +40592,9 @@ export const voivodeship = {
         "Siekierczyna",
         "Jastrzębia",
         "Falkowa",
-        "Pławna"
+        "Pławna",
       ],
-      "Gromnik": [
+      Gromnik: [
         "Bacówka",
         "Bieniówka",
         "Chmielnik",
@@ -40717,7 +40654,7 @@ export const voivodeship = {
         "Brzozowa",
         "Siemiechów",
         "Polichty",
-        "Gromnik"
+        "Gromnik",
       ],
       "Lisia Góra": [
         "Zagórze",
@@ -40776,9 +40713,9 @@ export const voivodeship = {
         "Pawęzów",
         "Lisia Góra",
         "Stare Żukowice",
-        "Nowe Żukowice"
+        "Nowe Żukowice",
       ],
-      "Pleśna": [
+      Pleśna: [
         "Zadziele",
         "Stadniczówka",
         "Pod Starym Mostem",
@@ -40864,9 +40801,9 @@ export const voivodeship = {
         "Łowczówek",
         "Szczepanowice",
         "Lichwin",
-        "Pleśna"
+        "Pleśna",
       ],
-      "Radłów": [
+      Radłów: [
         "Skałka",
         "Śmietana",
         "Podlesie",
@@ -40893,9 +40830,9 @@ export const voivodeship = {
         "Przybysławice",
         "Sanoka",
         "Siedlec",
-        "Wał-Ruda"
+        "Wał-Ruda",
       ],
-      "Ryglice": [
+      Ryglice: [
         "Nagórze Południowe",
         "Nagórze Północne",
         "Góry",
@@ -40960,7 +40897,7 @@ export const voivodeship = {
         "Wola Lubecka",
         "Uniszowa",
         "Zalasowa",
-        "Joniny"
+        "Joniny",
       ],
       "Rzepiennik Strzyżewski": [
         "Zapotok",
@@ -41008,9 +40945,9 @@ export const voivodeship = {
         "Rzepiennik Biskupi",
         "Turza",
         "Rzepiennik Suchy",
-        "Olszyny"
+        "Olszyny",
       ],
-      "Skrzyszów": [
+      Skrzyszów: [
         "Góra",
         "Granica",
         "Grota",
@@ -41048,9 +40985,9 @@ export const voivodeship = {
         "Łękawica",
         "Pogórska Wola",
         "Ładna",
-        "Szynwałd"
+        "Szynwałd",
       ],
-      "Tarnów": [
+      Tarnów: [
         "Rola",
         "Pod Dunajcem",
         "Urwiska",
@@ -41141,9 +41078,9 @@ export const voivodeship = {
         "Błonie",
         "Nowodworze",
         "Koszyce Wielkie",
-        "Tarnowiec"
+        "Tarnowiec",
       ],
-      "Tuchów": [
+      Tuchów: [
         "Ryje",
         "Brzegi",
         "Górka",
@@ -41274,9 +41211,9 @@ export const voivodeship = {
         "Jodłówka Tuchowska",
         "Dąbrówka Tuchowska",
         "Łowczów",
-        "Buchcice"
+        "Buchcice",
       ],
-      "Wierzchosławice": [
+      Wierzchosławice: [
         "Szujec",
         "Głodna Wieś",
         "Małe Błonie",
@@ -41302,9 +41239,9 @@ export const voivodeship = {
         "Sieciechowice",
         "Mikołajowice",
         "Rudka",
-        "Bobrowniki Małe"
+        "Bobrowniki Małe",
       ],
-      "Wietrzychowice": [
+      Wietrzychowice: [
         "Polanka",
         "Waryś",
         "Borek",
@@ -41335,9 +41272,9 @@ export const voivodeship = {
         "Pałuszyce",
         "Jadowniki Mokre",
         "Nowopole",
-        "Miechowice Małe"
+        "Miechowice Małe",
       ],
-      "Wojnicz": [
+      Wojnicz: [
         "Góry Olszyńskie",
         "Krasówka",
         "Podgórze",
@@ -41396,9 +41333,9 @@ export const voivodeship = {
         "Wielka Wieś",
         "Więckowice",
         "Sukmanie",
-        "Rudka"
+        "Rudka",
       ],
-      "Zakliczyn": [
+      Zakliczyn: [
         "Gałkówka",
         "Więciorki",
         "Na Zamku",
@@ -41526,9 +41463,9 @@ export const voivodeship = {
         "Dzierżaniny",
         "Jamna",
         "Kończyska",
-        "Gwoździec"
+        "Gwoździec",
       ],
-      "Żabno": [
+      Żabno: [
         "Studzienki",
         "Dolny Łęg",
         "Czarne Niwy",
@@ -41608,9 +41545,9 @@ export const voivodeship = {
         "Pierszyce",
         "Sieradza",
         "Czyżów",
-        "Odporyszów"
+        "Odporyszów",
       ],
-      "Szerzyny": [
+      Szerzyny: [
         "Na Kamieniu",
         "Biedoszyce",
         "Pasterniki",
@@ -41650,11 +41587,11 @@ export const voivodeship = {
         "Szerzyny",
         "Żurowa",
         "Swoszowa",
-        "Ołpiny"
-      ]
+        "Ołpiny",
+      ],
     },
-    "tatrzański": {
-      "Zakopane": [
+    tatrzański: {
+      Zakopane: [
         "Kotelnica",
         "Bilinówka",
         "Galicówka",
@@ -41724,7 +41661,7 @@ export const voivodeship = {
         "Strążyska",
         "Ubocz",
         "Walowa Góra",
-        "Zakopane"
+        "Zakopane",
       ],
       "Biały Dunajec": [
         "Błękowie",
@@ -41781,7 +41718,7 @@ export const voivodeship = {
         "Gliczarów Dolny",
         "Sierockie",
         "Gliczarów Górny",
-        "Biały Dunajec"
+        "Biały Dunajec",
       ],
       "Bukowina Tatrzańska": [
         "Łysa Polana",
@@ -41849,9 +41786,9 @@ export const voivodeship = {
         "Brzegi",
         "Jurgów",
         "Groń",
-        "Czarna Góra"
+        "Czarna Góra",
       ],
-      "Kościelisko": [
+      Kościelisko: [
         "Rysulówka",
         "Pod Jaworki",
         "Brzuchacze",
@@ -41919,9 +41856,9 @@ export const voivodeship = {
         "Roztoki",
         "Dzianisz",
         "Kościelisko",
-        "Witów"
+        "Witów",
       ],
-      "Poronin": [
+      Poronin: [
         "Budzów Wierch",
         "Capówka",
         "Chycakówka",
@@ -41974,11 +41911,11 @@ export const voivodeship = {
         "Ząb",
         "Poronin",
         "Nowe Bystre",
-        "Bustryk"
-      ]
+        "Bustryk",
+      ],
     },
-    "wadowicki": {
-      "Andrychów": [
+    wadowicki: {
+      Andrychów: [
         "Groń",
         "Bagna",
         "Targanice Dolne",
@@ -42109,9 +42046,9 @@ export const voivodeship = {
         "Inwałd",
         "Targanice",
         "Rzyki",
-        "Brzezinka"
+        "Brzezinka",
       ],
-      "Brzeźnica": [
+      Brzeźnica: [
         "Machówka",
         "Przyśnica",
         "Łysa Góra",
@@ -42197,7 +42134,7 @@ export const voivodeship = {
         "Kopytówka",
         "Tłuczań",
         "Brzezinka",
-        "Wyźrał"
+        "Wyźrał",
       ],
       "Kalwaria Zebrzydowska": [
         "Stawki",
@@ -42298,9 +42235,9 @@ export const voivodeship = {
         "Leńcze",
         "Podolany",
         "Stanisław Dolny",
-        "Brody"
+        "Brody",
       ],
-      "Lanckorona": [
+      Lanckorona: [
         "Twardoszówka",
         "Obcar",
         "Jastrzębia Górna",
@@ -42361,9 +42298,9 @@ export const voivodeship = {
         "Podchybie",
         "Skawinki",
         "Jastrzębia",
-        "Lanckorona"
+        "Lanckorona",
       ],
-      "Mucharz": [
+      Mucharz: [
         "Konikówka",
         "Lachówka",
         "Stanikowo",
@@ -42433,9 +42370,9 @@ export const voivodeship = {
         "Mucharz",
         "Świnna Poręba",
         "Skawce",
-        "Koziniec"
+        "Koziniec",
       ],
-      "Spytkowice": [
+      Spytkowice: [
         "Kościelnik",
         "Spytkowice Dolne",
         "Folwark",
@@ -42483,9 +42420,9 @@ export const voivodeship = {
         "Bachowice",
         "Spytkowice",
         "Ryczów",
-        "Lipowa"
+        "Lipowa",
       ],
-      "Stryszów": [
+      Stryszów: [
         "Nawsie",
         "Pagórek",
         "Srokówka",
@@ -42567,9 +42504,9 @@ export const voivodeship = {
         "Stryszów",
         "Łękawica",
         "Zakrzów",
-        "Leśnica"
+        "Leśnica",
       ],
-      "Tomice": [
+      Tomice: [
         "Widów",
         "Hornikówka",
         "Pod Krzemionką",
@@ -42618,9 +42555,9 @@ export const voivodeship = {
         "Woźniki",
         "Radocza",
         "Tomice",
-        "Lgota"
+        "Lgota",
       ],
-      "Wadowice": [
+      Wadowice: [
         "Górnica",
         "Leniówka",
         "Buchałówka",
@@ -42766,9 +42703,9 @@ export const voivodeship = {
         "Kaczyna",
         "Barwałd Dolny",
         "Klecza Górna",
-        "Zawadka"
+        "Zawadka",
       ],
-      "Wieprz": [
+      Wieprz: [
         "Ochoc",
         "Ruseczyzna",
         "Nowy Świat",
@@ -42838,11 +42775,11 @@ export const voivodeship = {
         "Nidek",
         "Wieprz",
         "Frydrychowice",
-        "Gierałtowiczki"
-      ]
+        "Gierałtowiczki",
+      ],
     },
-    "wielicki": {
-      "Biskupice": [
+    wielicki: {
+      Biskupice: [
         "Rędziny",
         "Stara Droga",
         "Podryje",
@@ -42909,9 +42846,9 @@ export const voivodeship = {
         "Jawczyce",
         "Łazany",
         "Zabłocie",
-        "Bodzanów"
+        "Bodzanów",
       ],
-      "Gdów": [
+      Gdów: [
         "Podwale",
         "Korbielów",
         "Podgrodzie",
@@ -43043,9 +42980,9 @@ export const voivodeship = {
         "Gdów",
         "Zagórzany",
         "Niżowa",
-        "Fałkowice"
+        "Fałkowice",
       ],
-      "Kłaj": [
+      Kłaj: [
         "Poszyna",
         "Poszynka",
         "Ptakówka",
@@ -43085,9 +43022,9 @@ export const voivodeship = {
         "Łężkowice",
         "Grodkowice",
         "Szarów",
-        "Dąbrowa"
+        "Dąbrowa",
       ],
-      "Niepołomice": [
+      Niepołomice: [
         "Odrzecze",
         "Rudzica",
         "Świdowa",
@@ -43199,9 +43136,9 @@ export const voivodeship = {
         "Słomiróg",
         "Chobot",
         "Podłęże",
-        "Ochmanów"
+        "Ochmanów",
       ],
-      "Wieliczka": [
+      Wieliczka: [
         "Gąsiory",
         "Pasternik",
         "Mostki",
@@ -43391,13 +43328,11 @@ export const voivodeship = {
         "Gorzków",
         "Dobranowice",
         "Zabawa",
-        "Byszyce"
-      ]
-    },
-    "Kraków": {
-      "Kraków": [
-        "Kraków"
+        "Byszyce",
       ],
+    },
+    Kraków: {
+      Kraków: ["Kraków"],
       "Kraków-Krowodrza": [
         "Cichy Kącik",
         "Krowodrza",
@@ -43422,7 +43357,7 @@ export const voivodeship = {
         "Bielany",
         "Wola Justowska",
         "Łobzów",
-        "Kraków-Krowodrza"
+        "Kraków-Krowodrza",
       ],
       "Kraków-Nowa Huta": [
         "Kościelniki",
@@ -43451,7 +43386,7 @@ export const voivodeship = {
         "Lubocza",
         "Mistrzejowice",
         "Ruszcza",
-        "Kraków-Nowa Huta"
+        "Kraków-Nowa Huta",
       ],
       "Kraków-Podgórze": [
         "Zbydniówki",
@@ -43490,7 +43425,7 @@ export const voivodeship = {
         "Płaszów",
         "Borek Fałęcki",
         "Soboniowice",
-        "Kraków-Podgórze"
+        "Kraków-Podgórze",
       ],
       "Kraków-Śródmieście": [
         "Rakowice",
@@ -43510,8 +43445,8 @@ export const voivodeship = {
         "Kazimierz",
         "Olsza",
         "Ugorek",
-        "Kraków-Śródmieście"
-      ]
+        "Kraków-Śródmieście",
+      ],
     },
     "Nowy Sącz": {
       "Nowy Sącz": [
@@ -43561,11 +43496,11 @@ export const voivodeship = {
         "Gołąbkowice",
         "Poręba Mała",
         "Zawada",
-        "Nowy Sącz"
-      ]
+        "Nowy Sącz",
+      ],
     },
-    "Tarnów": {
-      "Tarnów": [
+    Tarnów: {
+      Tarnów: [
         "Dąbrówka Infułacka",
         "Grabówka",
         "Rzędzin",
@@ -43576,13 +43511,13 @@ export const voivodeship = {
         "Chyszów",
         "Klikowa",
         "Strusina",
-        "Tarnów"
-      ]
-    }
+        "Tarnów",
+      ],
+    },
   },
-  "MAZOWIECKIE": {
-    "białobrzeski": {
-      "Białobrzegi": [
+  MAZOWIECKIE: {
+    białobrzeski: {
+      Białobrzegi: [
         "Kamień",
         "Budy Brankowskie",
         "Dąbrówka",
@@ -43612,9 +43547,9 @@ export const voivodeship = {
         "Walerianów",
         "Wojtałówka",
         "Kolonia Brzeźce",
-        "Turno"
+        "Turno",
       ],
-      "Promna": [
+      Promna: [
         "Góry",
         "Adamów",
         "Olszamy",
@@ -43674,9 +43609,9 @@ export const voivodeship = {
         "Na Górce",
         "Za Lasem",
         "Klin Branecki",
-        "Gajówka Jastrzębia"
+        "Gajówka Jastrzębia",
       ],
-      "Radzanów": [
+      Radzanów: [
         "Rogolin",
         "Czarnocin",
         "Podlesie",
@@ -43725,7 +43660,7 @@ export const voivodeship = {
         "Gościniec",
         "Marianki",
         "Śliwiny",
-        "Las-Wyręba"
+        "Las-Wyręba",
       ],
       "Stara Błotnica": [
         "Czyżówka",
@@ -43778,9 +43713,9 @@ export const voivodeship = {
         "Zamłynie",
         "Nowe Żdżary",
         "Łępin",
-        "Gozdawska Wola"
+        "Gozdawska Wola",
       ],
-      "Stromiec": [
+      Stromiec: [
         "Niedabyl",
         "Małe Boże",
         "Stromiec",
@@ -43836,9 +43771,9 @@ export const voivodeship = {
         "Bobrek-Kolonia",
         "Radosz",
         "Nadleśnictwo Dobieszyn",
-        "Majdan"
+        "Majdan",
       ],
-      "Wyśmierzyce": [
+      Wyśmierzyce: [
         "Korzeń",
         "Kozłów",
         "Ulaski Stamirowskie",
@@ -43880,11 +43815,11 @@ export const voivodeship = {
         "Bielawy Jabłońskie",
         "Zaborze",
         "Jakubówka",
-        "Las Hulaski"
-      ]
+        "Las Hulaski",
+      ],
     },
-    "ciechanowski": {
-      "Ciechanów": [
+    ciechanowski: {
+      Ciechanów: [
         "Gąski",
         "Rzeczki",
         "Rykaczewo",
@@ -43940,9 +43875,9 @@ export const voivodeship = {
         "Józefowo",
         "Pieńki Niechodzkie",
         "Kukleńszczyzna",
-        "Maliniak"
+        "Maliniak",
       ],
-      "Glinojeck": [
+      Glinojeck: [
         "Zalesie",
         "Żeleźnia",
         "Krusz",
@@ -44004,7 +43939,7 @@ export const voivodeship = {
         "Ościsłowo",
         "Ościsłowo",
         "Kondrajec Pański",
-        "Działy"
+        "Działy",
       ],
       "Gołymin-Ośrodek": [
         "Gołymin-Południe",
@@ -44058,9 +43993,9 @@ export const voivodeship = {
         "Watkowo-Kolonia",
         "Smosarz-Pianki",
         "Konarzewo Wielkie",
-        "Nasierowo Dolne"
+        "Nasierowo Dolne",
       ],
-      "Grudusk": [
+      Grudusk: [
         "Strzelnia",
         "Purzyce-Trojany",
         "Żarnowo",
@@ -44097,9 +44032,9 @@ export const voivodeship = {
         "Zakrzewo Małe",
         "Polanka",
         "Mierzanowo-Kolonia",
-        "Sokólnik"
+        "Sokólnik",
       ],
-      "Ojrzeń": [
+      Ojrzeń: [
         "Kicin",
         "Lipówiec",
         "Gostomin",
@@ -44146,7 +44081,7 @@ export const voivodeship = {
         "Stary Grabowiec",
         "Wandowo",
         "Żochy-Pieńki",
-        "Nowe Rzeszotko"
+        "Nowe Rzeszotko",
       ],
       "Opinogóra Górna": [
         "Łaguny",
@@ -44205,9 +44140,9 @@ export const voivodeship = {
         "Trętowo-Pełzy",
         "Elżbiecin",
         "Kołaczków",
-        "Wierzbowo"
+        "Wierzbowo",
       ],
-      "Regimin": [
+      Regimin: [
         "Grzybowo",
         "Klice",
         "Radomka",
@@ -44239,9 +44174,9 @@ export const voivodeship = {
         "Stawy",
         "Bogdanka",
         "Klin",
-        "Korczyn"
+        "Korczyn",
       ],
-      "Sońsk": [
+      Sońsk: [
         "Niesłuchy",
         "Olszewka",
         "Ślubowo",
@@ -44288,11 +44223,11 @@ export const voivodeship = {
         "Pogąsty",
         "Bieńki-Bucice",
         "Damięty-Prosty",
-        "Mężenino-Kłoski"
-      ]
+        "Mężenino-Kłoski",
+      ],
     },
-    "garwoliński": {
-      "Garwolin": [
+    garwoliński: {
+      Garwolin: [
         "Wola Władysławowska",
         "Miętne",
         "Ruda Talubska",
@@ -44360,9 +44295,9 @@ export const voivodeship = {
         "Pod Górą",
         "Henryczyn",
         "Huta Garwolińska",
-        "Siedem Mórg"
+        "Siedem Mórg",
       ],
-      "Łaskarzew": [
+      Łaskarzew: [
         "Aleksandrów",
         "Dąbrowa",
         "Izdebno",
@@ -44409,9 +44344,9 @@ export const voivodeship = {
         "Włodków",
         "Baranicha",
         "Wiktorzyn",
-        "Onufrynów"
+        "Onufrynów",
       ],
-      "Borowie": [
+      Borowie: [
         "Dudka",
         "Kamionka",
         "Gościewicz",
@@ -44448,9 +44383,9 @@ export const voivodeship = {
         "Borowie-Kolonia",
         "Głosków-Kolonia",
         "Gózd-Kolonia",
-        "Podlaliny"
+        "Podlaliny",
       ],
-      "Górzno": [
+      Górzno: [
         "Goździk",
         "Samorządki-Kolonia",
         "Kobyla Wola",
@@ -44490,9 +44425,9 @@ export const voivodeship = {
         "Witoldów",
         "Chęciny-Kolonia",
         "Paliszew",
-        "Antonin"
+        "Antonin",
       ],
-      "Maciejowice": [
+      Maciejowice: [
         "Topolin",
         "Podłęż",
         "Podwierzbie",
@@ -44555,7 +44490,7 @@ export const voivodeship = {
         "Podzamcze",
         "Gulki",
         "Konopatka",
-        "Bączki"
+        "Bączki",
       ],
       "Miastków Kościelny": [
         "Zasiadały",
@@ -44594,9 +44529,9 @@ export const voivodeship = {
         "Leśniczówka Gąsew",
         "Rudnik",
         "Górki",
-        "Miastków"
+        "Miastków",
       ],
-      "Parysów": [
+      Parysów: [
         "Poschła",
         "Parysów",
         "Słup",
@@ -44621,9 +44556,9 @@ export const voivodeship = {
         "Majdan",
         "Obręb",
         "Andrzejówka",
-        "Józinek"
+        "Józinek",
       ],
-      "Pilawa": [
+      Pilawa: [
         "Lipówki",
         "Niesadna",
         "Żelazna",
@@ -44645,9 +44580,9 @@ export const voivodeship = {
         "Resztówka",
         "Grzebowilk",
         "Zawadka",
-        "Rogalec"
+        "Rogalec",
       ],
-      "Sobolew": [
+      Sobolew: [
         "Kownacica",
         "Ostrożeń Pierwszy",
         "Kaleń Drugi",
@@ -44688,9 +44623,9 @@ export const voivodeship = {
         "Uśniak",
         "Leonorów",
         "Nowiny Sobolewskie",
-        "Wiktorzyn"
+        "Wiktorzyn",
       ],
-      "Trojanów": [
+      Trojanów: [
         "Skruda",
         "Ruda",
         "Piotrówek",
@@ -44733,9 +44668,9 @@ export const voivodeship = {
         "Kozice-Kolonia",
         "Grąd",
         "Babice-Kolonia",
-        "Stasin"
+        "Stasin",
       ],
-      "Wilga": [
+      Wilga: [
         "Mariańskie Porzecze",
         "Celejów",
         "Skurcza",
@@ -44796,9 +44731,9 @@ export const voivodeship = {
         "Zarzecze",
         "Borowina",
         "Olszynka",
-        "Podgórze"
+        "Podgórze",
       ],
-      "Żelechów": [
+      Żelechów: [
         "Sokolniki",
         "Gąsiory",
         "Stefanów",
@@ -44845,11 +44780,11 @@ export const voivodeship = {
         "Nad Rzeką",
         "Kałuskie",
         "Brzeziaki",
-        "Ostrożeń Trzeci"
-      ]
+        "Ostrożeń Trzeci",
+      ],
     },
-    "gostyniński": {
-      "Gostynin": [
+    gostyniński: {
+      Gostynin: [
         "Skrzany",
         "Budy Kozickie",
         "Budy Lucieńskie",
@@ -44951,9 +44886,9 @@ export const voivodeship = {
         "Mniszek",
         "Gaśno",
         "Gajówka Sokołowska",
-        "Kruk"
+        "Kruk",
       ],
-      "Pacyna": [
+      Pacyna: [
         "Luszyn",
         "Radycza",
         "Sejkowice",
@@ -44980,9 +44915,9 @@ export const voivodeship = {
         "Łuszczanów Drugi",
         "Kąty",
         "Rezlerka",
-        "Poddębina-Gajówka"
+        "Poddębina-Gajówka",
       ],
-      "Sanniki": [
+      Sanniki: [
         "Brzezia",
         "Brzeziny",
         "Czyżew",
@@ -45005,7 +44940,7 @@ export const voivodeship = {
         "Sanniki",
         "Jagodzinek",
         "Mocarzewo",
-        "Wólka Wysoka"
+        "Wólka Wysoka",
       ],
       "Szczawin Kościelny": [
         "Holendry Dobrowskie",
@@ -45067,11 +45002,11 @@ export const voivodeship = {
         "Leopoldów",
         "Trębki",
         "Trębki-Leśniczówka",
-        "Trębki"
-      ]
+        "Trębki",
+      ],
     },
-    "grodziski": {
-      "Milanówek": [
+    grodziski: {
+      Milanówek: [
         "Milanówek",
         "Graniczna",
         "Chrzanów",
@@ -45082,12 +45017,10 @@ export const voivodeship = {
         "Polesie",
         "Naddawki Falenckie",
         "Grudów",
-        "Turczynek"
+        "Turczynek",
       ],
-      "Podkowa Leśna": [
-        "Podkowa Leśna"
-      ],
-      "Baranów": [
+      "Podkowa Leśna": ["Podkowa Leśna"],
+      Baranów: [
         "Boża Wola",
         "Nowa Pułapina",
         "Cegłów",
@@ -45128,7 +45061,7 @@ export const voivodeship = {
         "Gradowica",
         "Kaski-Granice",
         "Kosiorowo",
-        "Niepokalanów"
+        "Niepokalanów",
       ],
       "Grodzisk Mazowiecki": [
         "Szczęsne",
@@ -45184,9 +45117,9 @@ export const voivodeship = {
         "Kozery-Folwark",
         "Izdebno Małe",
         "Jordanowice",
-        "Kłudzienko"
+        "Kłudzienko",
       ],
-      "Jaktorów": [
+      Jaktorów: [
         "Mariampol",
         "Stare Budy",
         "Budy Michałowskie",
@@ -45206,7 +45139,7 @@ export const voivodeship = {
         "Stare Budy Drugie",
         "Stare Budy Pierwsze",
         "Kołaczek",
-        "Maruna"
+        "Maruna",
       ],
       "Żabia Wola": [
         "Siestrzeń",
@@ -45252,10 +45185,10 @@ export const voivodeship = {
         "Żabia Wola",
         "Popiele",
         "Ręczaj",
-        "Ojcówek"
-      ]
+        "Ojcówek",
+      ],
     },
-    "grójecki": {
+    grójecki: {
       "Belsk Duży": [
         "Rożce",
         "Sadków Duchowny",
@@ -45308,9 +45241,9 @@ export const voivodeship = {
         "Cegielnia-Łęczeszyce",
         "Gajówka Lewiczyn",
         "Gajówka Łęczeszyce",
-        "Gajówka Modrzewina"
+        "Gajówka Modrzewina",
       ],
-      "Błędów": [
+      Błędów: [
         "Śmiechówek",
         "Trzylatków Duży",
         "Wilhelmów",
@@ -45373,9 +45306,9 @@ export const voivodeship = {
         "Sadurki",
         "Bielany-Łąki",
         "Cesinów-Głudna",
-        "Wilków Trzeci"
+        "Wilków Trzeci",
       ],
-      "Chynów": [
+      Chynów: [
         "Mąkosin",
         "Rososz",
         "Wola Pieczyska",
@@ -45437,9 +45370,9 @@ export const voivodeship = {
         "Jurandów",
         "Marianów",
         "Bogdaniec",
-        "Palestyna"
+        "Palestyna",
       ],
-      "Goszczyn": [
+      Goszczyn: [
         "Modrzewina",
         "Długowola",
         "Goszczyn",
@@ -45451,9 +45384,9 @@ export const voivodeship = {
         "Nowa Długowola",
         "Kolonia Bądków",
         "Jakubów",
-        "Tąkiele"
+        "Tąkiele",
       ],
-      "Grójec": [
+      Grójec: [
         "Bikówek",
         "Częstoniew",
         "Zalesie",
@@ -45497,9 +45430,9 @@ export const voivodeship = {
         "Grójec",
         "Cierniówka",
         "Ogrodzienice",
-        "Drozdy"
+        "Drozdy",
       ],
-      "Jasieniec": [
+      Jasieniec: [
         "Marynin",
         "Łychów",
         "Łychowska Wola",
@@ -45536,9 +45469,9 @@ export const voivodeship = {
         "Orzechowo",
         "Wierzchowina",
         "Stefanków",
-        "Gajówka Rytomoczydła"
+        "Gajówka Rytomoczydła",
       ],
-      "Mogielnica": [
+      Mogielnica: [
         "Stamirowice",
         "Ługowice",
         "Michałowice",
@@ -45583,7 +45516,7 @@ export const voivodeship = {
         "Przylesie",
         "Belweder",
         "Przykościółek",
-        "Kolonia Kozietuły"
+        "Kolonia Kozietuły",
       ],
       "Nowe Miasto nad Pilicą": [
         "Wólka Magierowa",
@@ -45623,9 +45556,9 @@ export const voivodeship = {
         "Józefów",
         "Borowina",
         "Czerwona Karczma",
-        "Nowe Strzałki"
+        "Nowe Strzałki",
       ],
-      "Pniewy": [
+      Pniewy: [
         "Wola Pniewska",
         "Dąbrówka",
         "Jeziórka",
@@ -45670,9 +45603,9 @@ export const voivodeship = {
         "Śreniawa",
         "Załęże-Parcela",
         "Gajówka Petrykozy",
-        "Gajówka Wiatrowiec"
+        "Gajówka Wiatrowiec",
       ],
-      "Warka": [
+      Warka: [
         "Dębnowola",
         "Krześniaków",
         "Kalina",
@@ -45728,10 +45661,10 @@ export const voivodeship = {
         "Niemojewice",
         "Paulin",
         "Oskardów",
-        "Gajówka Michałów"
-      ]
+        "Gajówka Michałów",
+      ],
     },
-    "kozienicki": {
+    kozienicki: {
       "Garbatka-Letnisko": [
         "Bogucin",
         "Garbatka-Letnisko",
@@ -45754,9 +45687,9 @@ export const voivodeship = {
         "Cyganówka",
         "Grudzka Droga",
         "Majorat",
-        "Podtetlów"
+        "Podtetlów",
       ],
-      "Głowaczów": [
+      Głowaczów: [
         "Wólka Brzózka",
         "Helenów",
         "Henryków",
@@ -45831,9 +45764,9 @@ export const voivodeship = {
         "Parcela",
         "Piaski",
         "Chodków",
-        "Nadleśnictwo Studzianki"
+        "Nadleśnictwo Studzianki",
       ],
-      "Gniewoszów": [
+      Gniewoszów: [
         "Kociołek",
         "Gniewoszów",
         "Markowola-Kolonia",
@@ -45883,7 +45816,7 @@ export const voivodeship = {
         "Nowy Oleksów",
         "Brzeziny",
         "Stara Wieś",
-        "Kolonia"
+        "Kolonia",
       ],
       "Grabów nad Pilicą": [
         "Grabów Zaleśny",
@@ -45951,9 +45884,9 @@ export const voivodeship = {
         "Kukawka",
         "Leśniczówka Nowa Wola",
         "Gajówka Paprotnia",
-        "Strzyżyna"
+        "Strzyżyna",
       ],
-      "Kozienice": [
+      Kozienice: [
         "Holendry Kuźmińskie",
         "Brzeźnica",
         "Wilczkowice Górne",
@@ -46022,9 +45955,9 @@ export const voivodeship = {
         "Nowy Łuczynów",
         "Nowy Chinów",
         "Pastwisko",
-        "Cztery Kopce"
+        "Cztery Kopce",
       ],
-      "Magnuszew": [
+      Magnuszew: [
         "Anielin",
         "Latków",
         "Osiemborów",
@@ -46079,9 +46012,9 @@ export const voivodeship = {
         "Anielin Górny",
         "Gajówka Basinów",
         "Leśniczówka Bożówka",
-        "Trzebień"
+        "Trzebień",
       ],
-      "Sieciechów": [
+      Sieciechów: [
         "Mozolice Duże",
         "Wólka Wojcieszkowska",
         "Zbyczyn",
@@ -46107,18 +46040,12 @@ export const voivodeship = {
         "Kamelanka",
         "Praga",
         "Witle",
-        "Leśna Rzeka"
-      ]
-    },
-    "legionowski": {
-      "Legionowo": [
-        "Legionowo",
-        "Ludwisin",
-        "Cegielnia",
-        "Grudzie",
-        "Bukowiec"
+        "Leśna Rzeka",
       ],
-      "Jabłonna": [
+    },
+    legionowski: {
+      Legionowo: ["Legionowo", "Ludwisin", "Cegielnia", "Grudzie", "Bukowiec"],
+      Jabłonna: [
         "Boża Wola",
         "Skierdy",
         "Suchocin",
@@ -46134,9 +46061,9 @@ export const voivodeship = {
         "Chotomów",
         "Bagno",
         "Bukowiec",
-        "Rajszew"
+        "Rajszew",
       ],
-      "Nieporęt": [
+      Nieporęt: [
         "Nieporęt",
         "Kąty Węgierskie",
         "Rynia",
@@ -46162,9 +46089,9 @@ export const voivodeship = {
         "Biele",
         "Czarna Struga",
         "Kontrowers",
-        "Łysa Góra"
+        "Łysa Góra",
       ],
-      "Serock": [
+      Serock: [
         "Wola Kiełpińska",
         "Ludwinowo Dębskie",
         "Marynino",
@@ -46201,9 +46128,9 @@ export const voivodeship = {
         "Zegrzynek",
         "Skubianka-Kolonia",
         "Wola Smolana",
-        "Wola Kiełpińska"
+        "Wola Kiełpińska",
       ],
-      "Wieliszew": [
+      Wieliszew: [
         "Janówek Pierwszy",
         "Góra",
         "Wieliszew",
@@ -46221,11 +46148,11 @@ export const voivodeship = {
         "Derlacz",
         "Wieliszew-Kolonia",
         "Poniatów",
-        "Olszewnica"
-      ]
+        "Olszewnica",
+      ],
     },
-    "lipski": {
-      "Chotcza": [
+    lipski: {
+      Chotcza: [
         "Kijanka",
         "Karolów",
         "Chotcza Górna",
@@ -46263,9 +46190,9 @@ export const voivodeship = {
         "Krótka",
         "Kolonia Wola Solecka",
         "Białobrzegi-Kolonia",
-        "Browarka"
+        "Browarka",
       ],
-      "Ciepielów": [
+      Ciepielów: [
         "Łaziska",
         "Czarnolas",
         "Chotyze",
@@ -46358,9 +46285,9 @@ export const voivodeship = {
         "Olszownica",
         "Nowy Kawęczyn",
         "Stary Kawęczyn",
-        "Dziurów-Petrów"
+        "Dziurów-Petrów",
       ],
-      "Lipsko": [
+      Lipsko: [
         "Tomaszówka",
         "Długowola Druga",
         "Dąbrówka",
@@ -46427,9 +46354,9 @@ export const voivodeship = {
         "Lisiny",
         "Rokitów",
         "Rafałów",
-        "Dąbrówka Daniszewska"
+        "Dąbrówka Daniszewska",
       ],
-      "Rzeczniów": [
+      Rzeczniów: [
         "Płósy",
         "Rzeczniówek",
         "Jelanka",
@@ -46482,9 +46409,9 @@ export const voivodeship = {
         "Gościniec",
         "Dąbrówki",
         "Pole",
-        "Leśniczówka Michałów"
+        "Leśniczówka Michałów",
       ],
-      "Sienno": [
+      Sienno: [
         "Adamów",
         "Bronisławów",
         "Leśniczówka",
@@ -46565,7 +46492,7 @@ export const voivodeship = {
         "Leśniczówka Jawor Solecki",
         "Kolonia Janów",
         "Jawor Solecki",
-        "Kolonia A-Jawor Solecki"
+        "Kolonia A-Jawor Solecki",
       ],
       "Solec nad Wisłą": [
         "Glina",
@@ -46631,11 +46558,11 @@ export const voivodeship = {
         "Leśniczówka Dziurków",
         "Kolonia Pawłowice",
         "Kolonia Wola Pawłowska",
-        "Gościniec Siennieński"
-      ]
+        "Gościniec Siennieński",
+      ],
     },
-    "łosicki": {
-      "Huszlew": [
+    łosicki: {
+      Huszlew: [
         "Felin",
         "Krasna",
         "Krzywośnity",
@@ -46663,9 +46590,9 @@ export const voivodeship = {
         "Wygoda",
         "Milejki",
         "Krawce",
-        "Krzywośnity-Kolonia"
+        "Krzywośnity-Kolonia",
       ],
-      "Łosice": [
+      Łosice: [
         "Czuchleby",
         "Łuzki",
         "Różowa",
@@ -46691,9 +46618,9 @@ export const voivodeship = {
         "Artych",
         "Dwór",
         "Nowodomki",
-        "Niemojki"
+        "Niemojki",
       ],
-      "Olszanka": [
+      Olszanka: [
         "Korczówka",
         "Klimy",
         "Olszanka",
@@ -46716,9 +46643,9 @@ export const voivodeship = {
         "Kokosia",
         "Poprzeczki",
         "Wyczółki",
-        "Bolesty-Kolonia"
+        "Bolesty-Kolonia",
       ],
-      "Platerów": [
+      Platerów: [
         "Platerów",
         "Kisielew",
         "Hruszniew-Kolonia",
@@ -46756,9 +46683,9 @@ export const voivodeship = {
         "Górki-Leśniczówka",
         "Kisielew",
         "Tryba-Gajówka",
-        "Hruszew"
+        "Hruszew",
       ],
-      "Sarnaki": [
+      Sarnaki: [
         "Stare Litewniki",
         "Chybów",
         "Nowe Hołowczyce",
@@ -46801,7 +46728,7 @@ export const voivodeship = {
         "Zabuże",
         "Trojan",
         "Sułów-Gajówka",
-        "Wisielec-Gajówka"
+        "Wisielec-Gajówka",
       ],
       "Stara Kornica": [
         "Koszelówka",
@@ -46842,16 +46769,12 @@ export const voivodeship = {
         "Kornica-Kolonia",
         "Walimek",
         "Zabagnie",
-        "Kobylany"
-      ]
-    },
-    "makowski": {
-      "Maków Mazowiecki": [
-        "Maków Mazowiecki",
-        "Bazar",
-        "Bielany"
+        "Kobylany",
       ],
-      "Czerwonka": [
+    },
+    makowski: {
+      "Maków Mazowiecki": ["Maków Mazowiecki", "Bazar", "Bielany"],
+      Czerwonka: [
         "Krzyżewo-Jurki",
         "Kałęczyn",
         "Cieciórki Włościańskie",
@@ -46880,9 +46803,9 @@ export const voivodeship = {
         "Jankowo",
         "Sewerynowo",
         "Wąski Las",
-        "Ulaski"
+        "Ulaski",
       ],
-      "Karniewo": [
+      Karniewo: [
         "Karniewo",
         "Czarnostów",
         "Chełchy-Jakusy",
@@ -46921,9 +46844,9 @@ export const voivodeship = {
         "Chełchy Dzierskie",
         "Rutki",
         "Zalesie",
-        "Nowe Zaręby"
+        "Nowe Zaręby",
       ],
-      "Krasnosielc": [
+      Krasnosielc: [
         "Pieczyska",
         "Pienice",
         "Amelin",
@@ -46973,9 +46896,9 @@ export const voivodeship = {
         "Sławki",
         "Wykno",
         "Karłowo",
-        "Załogi"
+        "Załogi",
       ],
-      "Młynarze": [
+      Młynarze: [
         "Sadykierz",
         "Strzemieczne-Oleksy",
         "Załęże-Ponikiewka",
@@ -46993,7 +46916,7 @@ export const voivodeship = {
         "Kołaki",
         "Długołęka-Koski",
         "Strzemieczne-Hieronimy",
-        "Wysiekiery"
+        "Wysiekiery",
       ],
       "Płoniawy-Bramura": [
         "Bobino Wielkie",
@@ -47038,9 +46961,9 @@ export const voivodeship = {
         "Krasiniec",
         "Jaciążek-Kolonia",
         "Młodzianowo",
-        "Płoniawy-Bramura"
+        "Płoniawy-Bramura",
       ],
-      "Różan": [
+      Różan: [
         "Dąbrówka",
         "Kaszewiec",
         "Załęże-Eliasze",
@@ -47062,9 +46985,9 @@ export const voivodeship = {
         "Litwa",
         "Grzęda",
         "Paulinowo",
-        "Załuzie"
+        "Załuzie",
       ],
-      "Rzewnie": [
+      Rzewnie: [
         "Bindużka",
         "Napiórki Ciężkie",
         "Nowy Sielc",
@@ -47102,9 +47025,9 @@ export const voivodeship = {
         "Łachy Borowe",
         "Lipiny",
         "Łaś",
-        "Święta Rozalia"
+        "Święta Rozalia",
       ],
-      "Sypniewo": [
+      Sypniewo: [
         "Glącka",
         "Rawy",
         "Rzechówek",
@@ -47135,9 +47058,9 @@ export const voivodeship = {
         "Poświętne",
         "Sławkowo",
         "Różanica",
-        "Gutowo"
+        "Gutowo",
       ],
-      "Szelków": [
+      Szelków: [
         "Magnuszew Duży",
         "Grzanka",
         "Nowy Szelków",
@@ -47170,10 +47093,10 @@ export const voivodeship = {
         "Bazar",
         "Laski",
         "Magnuszew",
-        "Magnuszew"
-      ]
+        "Magnuszew",
+      ],
     },
-    "miński": {
+    miński: {
       "Mińsk Mazowiecki": [
         "Wólka Mińska",
         "Marianka",
@@ -47233,9 +47156,9 @@ export const voivodeship = {
         "Nowy Królewiec",
         "Walerianów",
         "Karolina-Kolonia",
-        "Kolonia Janów"
+        "Kolonia Janów",
       ],
-      "Cegłów": [
+      Cegłów: [
         "Podskwarne",
         "Huta Kuflewska",
         "Skupie",
@@ -47276,7 +47199,7 @@ export const voivodeship = {
         "Gajówka Posiadały",
         "Gajówka Rososz",
         "Gajówka Rudnik",
-        "Gajówka Skwarne"
+        "Gajówka Skwarne",
       ],
       "Dębe Wielkie": [
         "Górki",
@@ -47310,9 +47233,9 @@ export const voivodeship = {
         "Pod Górą",
         "Choszczak",
         "Kąty Goździejewskie Pierwsze",
-        "Kąty Goździejewskie Drugie"
+        "Kąty Goździejewskie Drugie",
       ],
-      "Dobre": [
+      Dobre: [
         "Makówiec Mały",
         "Sąchocin",
         "Jaczewek",
@@ -47361,9 +47284,9 @@ export const voivodeship = {
         "Tadeuszów",
         "Leonów",
         "Zdrojówki",
-        "Kojdony"
+        "Kojdony",
       ],
-      "Halinów": [
+      Halinów: [
         "Okuniew",
         "Stary Konik",
         "Wielgolas Brzeziński",
@@ -47396,9 +47319,9 @@ export const voivodeship = {
         "Gęśle",
         "Mrowiska Małe",
         "Mrowiska Duże",
-        "Nowiny za Koleją"
+        "Nowiny za Koleją",
       ],
-      "Jakubów": [
+      Jakubów: [
         "Przedewsie",
         "Tymoteuszew",
         "Wiśniew",
@@ -47430,9 +47353,9 @@ export const voivodeship = {
         "Mataki",
         "Olechów",
         "Wiśniówka",
-        "Witkowizna"
+        "Witkowizna",
       ],
-      "Kałuszyn": [
+      Kałuszyn: [
         "Gołębiówka",
         "Budy Przytockie",
         "Leonów",
@@ -47470,9 +47393,9 @@ export const voivodeship = {
         "Ogrodziarze",
         "Piaski",
         "Nowa Przytoka",
-        "Górki"
+        "Górki",
       ],
-      "Latowicz": [
+      Latowicz: [
         "Dębe Małe",
         "Gołełąki",
         "Generałowo",
@@ -47501,9 +47424,9 @@ export const voivodeship = {
         "Ogrody",
         "Wymyśle",
         "Piaski",
-        "Nowiny"
+        "Nowiny",
       ],
-      "Mrozy": [
+      Mrozy: [
         "Dębowce",
         "Choszcze",
         "Dąbrowa",
@@ -47550,9 +47473,9 @@ export const voivodeship = {
         "Rudka-Sanatorium",
         "Gajówka Florianów",
         "Barania Ruda",
-        "Jeziorek"
+        "Jeziorek",
       ],
-      "Siennica": [
+      Siennica: [
         "Starogród",
         "Krzywica",
         "Wojciechówka",
@@ -47600,9 +47523,9 @@ export const voivodeship = {
         "Patok Łękawicki",
         "Czapków",
         "Księżówka",
-        "Wiśniówka"
+        "Wiśniówka",
       ],
-      "Stanisławów": [
+      Stanisławów: [
         "Sokóle",
         "Retków",
         "Szymankowszczyzna",
@@ -47641,20 +47564,20 @@ export const voivodeship = {
         "Marcelin",
         "Ogrodziska",
         "Katarzynów",
-        "Poręby Leśne"
+        "Poręby Leśne",
       ],
-      "Sulejówek": [
+      Sulejówek: [
         "Sulejówek",
         "Długa Szlachecka",
         "Miłosna",
         "Ratajewo",
         "Szkopówka",
         "Żurawka",
-        "Cechówka"
-      ]
+        "Cechówka",
+      ],
     },
-    "mławski": {
-      "Mława": [
+    mławski: {
+      Mława: [
         "Mława",
         "Mławka",
         "Budy Mławskie",
@@ -47662,9 +47585,9 @@ export const voivodeship = {
         "Studzieniec",
         "Krajewo",
         "Piekiełko",
-        "Stanisławowo"
+        "Stanisławowo",
       ],
-      "Dzierzgowo": [
+      Dzierzgowo: [
         "Stare Brzozowo",
         "Brzozowo-Czary",
         "Brzozowo-Dąbrówka",
@@ -47704,7 +47627,7 @@ export const voivodeship = {
         "Brzozowo-Utraty",
         "Szumsk-Sodowo",
         "Rogale",
-        "Kolonia Choszczewka"
+        "Kolonia Choszczewka",
       ],
       "Lipowiec Kościelny": [
         "Wola Kęczewska",
@@ -47726,9 +47649,9 @@ export const voivodeship = {
         "Słomka",
         "Lipowiec Podborny",
         "Ruda",
-        "Parcele Łomskie"
+        "Parcele Łomskie",
       ],
-      "Radzanów": [
+      Radzanów: [
         "Cegielnia Ratowska",
         "Trzciniec",
         "Zgliczyn Witowy",
@@ -47765,9 +47688,9 @@ export const voivodeship = {
         "Zbrzeźnia",
         "Zgliczyn Kościelny",
         "Leśniczówka Ratowo",
-        "Radzanówek"
+        "Radzanówek",
       ],
-      "Strzegowo": [
+      Strzegowo: [
         "Mdzewko",
         "Mączewo",
         "Augustowo",
@@ -47844,9 +47767,9 @@ export const voivodeship = {
         "Budy Strzegowskie",
         "Budy Kowalewkowskie",
         "Wygoda",
-        "Budy Mdzewskie"
+        "Budy Mdzewskie",
       ],
-      "Stupsk": [
+      Stupsk: [
         "Olszewo-Bołąki",
         "Żmijewo Kościelne",
         "Krośnice",
@@ -47898,9 +47821,9 @@ export const voivodeship = {
         "Strzałkowo-Ojców",
         "Strzałkowo-Ostrów",
         "Pieczyska",
-        "Żmijewo-Trojany"
+        "Żmijewo-Trojany",
       ],
-      "Szreńsk": [
+      Szreńsk: [
         "Przychód",
         "Rochnia",
         "Wola Proszkowska",
@@ -47931,9 +47854,9 @@ export const voivodeship = {
         "Kraśnik",
         "Gryty",
         "Przychód",
-        "Stołowo"
+        "Stołowo",
       ],
-      "Szydłowo": [
+      Szydłowo: [
         "Trzcianka-Kolonia",
         "Szydłowo",
         "Nowe Nosarzewo",
@@ -47975,7 +47898,7 @@ export const voivodeship = {
         "Garlino-Racibory",
         "Giednia-Kolonia",
         "Sławogóra-Kolonia",
-        "Stara Giednia"
+        "Stara Giednia",
       ],
       "Wieczfnia Kościelna": [
         "Łęg",
@@ -48014,9 +47937,9 @@ export const voivodeship = {
         "Marianowo",
         "Chmielewo Małe",
         "Rukały",
-        "Wieczfnia-Kolonia"
+        "Wieczfnia-Kolonia",
       ],
-      "Wiśniewo": [
+      Wiśniewo: [
         "Stara Otocznia",
         "Kosiny Kapiczne",
         "Wiśniewo",
@@ -48037,10 +47960,10 @@ export const voivodeship = {
         "Halinowo",
         "Głużek-Kolonia",
         "Kowalewo-Borki",
-        "Żarnówka"
-      ]
+        "Żarnówka",
+      ],
     },
-    "nowodworski": {
+    nowodworski: {
       "Nowy Dwór Mazowiecki": [
         "Nowy Dwór Mazowiecki",
         "Głasica",
@@ -48051,9 +47974,9 @@ export const voivodeship = {
         "Łęczna",
         "Nowodworzanka",
         "Okunin",
-        "Nowołęczna"
+        "Nowołęczna",
       ],
-      "Czosnów": [
+      Czosnów: [
         "Cząstków Mazowiecki",
         "Cząstków Polski",
         "Kazuń Polski",
@@ -48094,9 +48017,9 @@ export const voivodeship = {
         "Syndykoszczyzna",
         "Kazuń-Bielany",
         "Młynisko",
-        "Pociecha"
+        "Pociecha",
       ],
-      "Leoncin": [
+      Leoncin: [
         "Secyminek",
         "Stara Dąbrowa",
         "Zamość",
@@ -48130,11 +48053,11 @@ export const voivodeship = {
         "Rybitew",
         "Gać",
         "Zamczysko",
-        "Nowe Polesie"
+        "Nowe Polesie",
       ],
-      "Nasielsk": [
+      Nasielsk: [
         "Kosewo",
-        "Mazewo Dworskie\"B",
+        'Mazewo Dworskie"B',
         "Miękoszyn",
         "Psucin",
         "Toruń Dworski",
@@ -48182,7 +48105,7 @@ export const voivodeship = {
         "Siennica",
         "Stare Pieścirogi",
         "Studzianki",
-        "Mazewo Dworskie\"A",
+        'Mazewo Dworskie"A',
         "Wągrodno",
         "Mokrzyce Włościańskie",
         "Głodowo Wielkie",
@@ -48230,9 +48153,9 @@ export const voivodeship = {
         "Kolonia Cieksyn",
         "Glice",
         "Pianowo-Folwark",
-        "Pianowo-Pątki"
+        "Pianowo-Pątki",
       ],
-      "Pomiechówek": [
+      Pomiechówek: [
         "Stanisławowo",
         "Kosewko",
         "Falbogi Borowe",
@@ -48262,9 +48185,9 @@ export const voivodeship = {
         "Brody",
         "Kolonia",
         "Czarnowo",
-        "Goławice"
+        "Goławice",
       ],
-      "Zakroczym": [
+      Zakroczym: [
         "Henrysin",
         "Janowo",
         "Swobodnia",
@@ -48291,11 +48214,11 @@ export const voivodeship = {
         "Utrata",
         "Ostrzykowizna",
         "Mokradle",
-        "Smoszewo"
-      ]
+        "Smoszewo",
+      ],
     },
-    "ostrołęcki": {
-      "Baranowo": [
+    ostrołęcki: {
+      Baranowo: [
         "Witowy Most",
         "Wola Błędowska",
         "Zawady",
@@ -48344,9 +48267,9 @@ export const voivodeship = {
         "Grabownica",
         "Gutocha",
         "Seborki",
-        "Toporek"
+        "Toporek",
       ],
-      "Czarnia": [
+      Czarnia: [
         "Michałowo",
         "Brzozowy Kąt",
         "Czarnia",
@@ -48358,9 +48281,9 @@ export const voivodeship = {
         "Rutkowo",
         "Dunaj",
         "Brzozowy Kąt",
-        "Chrzonek"
+        "Chrzonek",
       ],
-      "Czerwin": [
+      Czerwin: [
         "Stylągi",
         "Wojsze",
         "Zaorze",
@@ -48407,9 +48330,9 @@ export const voivodeship = {
         "Skarżyn",
         "Żochy",
         "Czerwin-Kolonia",
-        "Gucin"
+        "Gucin",
       ],
-      "Goworowo": [
+      Goworowo: [
         "Borki",
         "Brzeźno-Kolonia",
         "Jawory-Podmaście",
@@ -48461,9 +48384,9 @@ export const voivodeship = {
         "Kruszewo",
         "Lipianka",
         "Kaszewiec",
-        "Gogol-Gajówka"
+        "Gogol-Gajówka",
       ],
-      "Kadzidło": [
+      Kadzidło: [
         "Wach",
         "Jeglijowiec",
         "Jazgarka",
@@ -48506,9 +48429,9 @@ export const voivodeship = {
         "Karaska-Leśniczówka",
         "Piasecznia",
         "Podgórze",
-        "Rokitówka"
+        "Rokitówka",
       ],
-      "Lelis": [
+      Lelis: [
         "Gnaty",
         "Szafarczyska",
         "Lelis",
@@ -48550,9 +48473,9 @@ export const voivodeship = {
         "Płoszyce",
         "Dąbrówka",
         "Kurpiewskie",
-        "Łodziska"
+        "Łodziska",
       ],
-      "Łyse": [
+      Łyse: [
         "Antonia",
         "Wejdo",
         "Zalas",
@@ -48645,9 +48568,9 @@ export const voivodeship = {
         "Brzeźniaki",
         "Dąbrówki",
         "Kruczy Borek",
-        "Serafin"
+        "Serafin",
       ],
-      "Myszyniec": [
+      Myszyniec: [
         "Wydmusy",
         "Cięćk",
         "Krysiaki",
@@ -48669,7 +48592,7 @@ export const voivodeship = {
         "Białusny Lasek",
         "Zdunek",
         "Zawodzie",
-        "Olszyny"
+        "Olszyny",
       ],
       "Olszewo-Borki": [
         "Rataje",
@@ -48719,9 +48642,9 @@ export const voivodeship = {
         "Przyłaje",
         "Wojska Biel",
         "Zambrzycha",
-        "Zabiele Wielkie"
+        "Zabiele Wielkie",
       ],
-      "Rzekuń": [
+      Rzekuń: [
         "Zabiele",
         "Czarnowiec",
         "Ołdaki",
@@ -48748,9 +48671,9 @@ export const voivodeship = {
         "Rogal",
         "Piotrówka",
         "Kupniki",
-        "Czarnowiec"
+        "Czarnowiec",
       ],
-      "Troszyn": [
+      Troszyn: [
         "Kurpie Dworskie",
         "Mieczki-Poziemaki",
         "Grucele",
@@ -48791,10 +48714,10 @@ export const voivodeship = {
         "Łątczyn",
         "Chrostowo",
         "Opęchowo",
-        "Siemiątkowo"
-      ]
+        "Siemiątkowo",
+      ],
     },
-    "ostrowski": {
+    ostrowski: {
       "Ostrów Mazowiecka": [
         "Sulęcin-Kolonia",
         "Kuskowizna",
@@ -48863,9 +48786,9 @@ export const voivodeship = {
         "Prochowo",
         "Rogóźnia",
         "Stawek",
-        "Zalesie"
+        "Zalesie",
       ],
-      "Andrzejewo": [
+      Andrzejewo: [
         "Króle Duże",
         "Dąbrowa",
         "Stara Ruskołęka",
@@ -48911,7 +48834,7 @@ export const voivodeship = {
         "Bujak",
         "Cechny",
         "Zaręby Ciemne",
-        "Zaręby Zaborcze"
+        "Zaręby Zaborcze",
       ],
       "Boguty-Pianki": [
         "Zawisty",
@@ -48977,9 +48900,9 @@ export const voivodeship = {
         "Zawisty-Koziany",
         "Kolonia Kamieńczyk Wielki",
         "Tymianki-Pachoły",
-        "Zawisty-Króle"
+        "Zawisty-Króle",
       ],
-      "Brok": [
+      Brok: [
         "Laskowizna",
         "Puzdrowizna",
         "Bojany",
@@ -49011,7 +48934,7 @@ export const voivodeship = {
         "Żurawieniec",
         "Antonowo",
         "Jeleni Dół",
-        "Puzdrowizna"
+        "Puzdrowizna",
       ],
       "Małkinia Górna": [
         "Podgórze-Gazdy",
@@ -49061,9 +48984,9 @@ export const voivodeship = {
         "Malinówka",
         "Orło",
         "Biel",
-        "Żachy-Pawły"
+        "Żachy-Pawły",
       ],
-      "Nur": [
+      Nur: [
         "Opatowina",
         "Kossaki",
         "Żebry-Laskowiec",
@@ -49096,7 +49019,7 @@ export const voivodeship = {
         "Kolonie Zachodnie",
         "Łaz",
         "Nagórne",
-        "Godlewo-Plewy"
+        "Godlewo-Plewy",
       ],
       "Stary Lubotyń": [
         "Sulęcin Włościański",
@@ -49125,7 +49048,7 @@ export const voivodeship = {
         "Gawki",
         "Żyłowo",
         "Chmielewo",
-        "Rabędy"
+        "Rabędy",
       ],
       "Szulborze Wielkie": [
         "Słup",
@@ -49147,9 +49070,9 @@ export const voivodeship = {
         "Smolewo-Wieś",
         "Szulborze-Koty",
         "Mianówek",
-        "Grabniak"
+        "Grabniak",
       ],
-      "Wąsewo": [
+      Wąsewo: [
         "Bartosy",
         "Przedświt",
         "Rząśnik Szlachecki",
@@ -49189,7 +49112,7 @@ export const voivodeship = {
         "Kantor",
         "Na Placu",
         "Wąsewo-Lachowiec",
-        "Trynosy"
+        "Trynosy",
       ],
       "Zaręby Kościelne": [
         "Świerże Zielone",
@@ -49230,11 +49153,11 @@ export const voivodeship = {
         "Rabędy",
         "Tworki",
         "Nowa Złotoria-Parcele",
-        "Świerże-Kolonia"
-      ]
+        "Świerże-Kolonia",
+      ],
     },
-    "otwocki": {
-      "Józefów": [
+    otwocki: {
+      Józefów: [
         "Józefów",
         "Dębinka",
         "Górki",
@@ -49244,9 +49167,9 @@ export const voivodeship = {
         "Rycice",
         "Świdry Małe",
         "Kolonia Błota",
-        "Dzieciakowo"
+        "Dzieciakowo",
       ],
-      "Otwock": [
+      Otwock: [
         "Otwock",
         "Natalin",
         "Tolin",
@@ -49264,9 +49187,9 @@ export const voivodeship = {
         "Środborów",
         "Bojarów",
         "Jabłonna",
-        "Ługi"
+        "Ługi",
       ],
-      "Celestynów": [
+      Celestynów: [
         "Celestynów",
         "Zabieżki",
         "Podbiel",
@@ -49304,9 +49227,9 @@ export const voivodeship = {
         "Nowaki",
         "Karniłówka",
         "Okoły",
-        "Samuszyn"
+        "Samuszyn",
       ],
-      "Karczew": [
+      Karczew: [
         "Całowanie",
         "Kosumce",
         "Otwock Wielki",
@@ -49335,9 +49258,9 @@ export const voivodeship = {
         "Pijary",
         "Rosłonki",
         "Pękatka",
-        "Rokola"
+        "Rokola",
       ],
-      "Kołbiel": [
+      Kołbiel: [
         "Kąty",
         "Gózd",
         "Antoninek",
@@ -49387,9 +49310,9 @@ export const voivodeship = {
         "Tarachowizna",
         "Bolechówek",
         "Wilczarz",
-        "Kujawki"
+        "Kujawki",
       ],
-      "Osieck": [
+      Osieck: [
         "Wójtowizna",
         "Natolin",
         "Stare Kościeliska",
@@ -49413,7 +49336,7 @@ export const voivodeship = {
         "Kolonia Pogorzel",
         "Pod Rudnikiem",
         "Osieck pod Górą",
-        "Osieck pod Grabinką"
+        "Osieck pod Grabinką",
       ],
       "Sobienie-Jeziory": [
         "Sobienie-Jeziory",
@@ -49462,9 +49385,9 @@ export const voivodeship = {
         "Przedwabie",
         "Brzezinki",
         "Zuzanów",
-        "Potok"
+        "Potok",
       ],
-      "Wiązowna": [
+      Wiązowna: [
         "Emów",
         "Czarnówka",
         "Glinianka",
@@ -49512,10 +49435,10 @@ export const voivodeship = {
         "Płachta",
         "Zdroja",
         "Radiówek",
-        "Zagórze"
-      ]
+        "Zagórze",
+      ],
     },
-    "piaseczyński": {
+    piaseczyński: {
       "Góra Kalwaria": [
         "Szymanów",
         "Sierzchów",
@@ -49581,7 +49504,7 @@ export const voivodeship = {
         "Kolonia Sobików",
         "Krzymów",
         "Tatary",
-        "Budki Moczydłowskie"
+        "Budki Moczydłowskie",
       ],
       "Konstancin-Jeziorna": [
         "Łęg",
@@ -49637,9 +49560,9 @@ export const voivodeship = {
         "Kierszek pod Lasem",
         "Głodny Kawenczynek",
         "Łyczyn",
-        "Imielin"
+        "Imielin",
       ],
-      "Lesznowola": [
+      Lesznowola: [
         "Mroków",
         "Stachowo",
         "Jabłonowo",
@@ -49674,9 +49597,9 @@ export const voivodeship = {
         "Wygoda",
         "Zamienie",
         "Borowina",
-        "Mroków-Kolonia"
+        "Mroków-Kolonia",
       ],
-      "Piaseczno": [
+      Piaseczno: [
         "Wólka Pracka",
         "Złotokłos",
         "Baszkówka",
@@ -49736,9 +49659,9 @@ export const voivodeship = {
         "Runów",
         "Leśniczówka na Zielonym",
         "Pilawa",
-        "Pęchery"
+        "Pęchery",
       ],
-      "Prażmów": [
+      Prażmów: [
         "Koryta",
         "Krupia Wólka",
         "Piskórka",
@@ -49791,9 +49714,9 @@ export const voivodeship = {
         "Wysoczyn",
         "Czachówek Południowy",
         "Łoś",
-        "Łoś"
+        "Łoś",
       ],
-      "Tarczyn": [
+      Tarczyn: [
         "Marylka",
         "Nosy",
         "Pawłowice",
@@ -49838,11 +49761,11 @@ export const voivodeship = {
         "Stara Kopana",
         "Duki",
         "Drozdy",
-        "Księżowola"
-      ]
+        "Księżowola",
+      ],
     },
-    "płocki": {
-      "Bielsk": [
+    płocki: {
+      Bielsk: [
         "Kleniewo",
         "Jaroszewo Biskupie",
         "Józinek",
@@ -49889,9 +49812,9 @@ export const voivodeship = {
         "Piączyn",
         "Brody",
         "Rudówko",
-        "Umienino-Łubki"
+        "Umienino-Łubki",
       ],
-      "Bodzanów": [
+      Bodzanów: [
         "Stanowo",
         "Ramutówko",
         "Nowe Miszewo",
@@ -49936,7 +49859,7 @@ export const voivodeship = {
         "Kornia",
         "Niesłuchowo-Gajówka",
         "Pod Choiną",
-        "Stasin"
+        "Stasin",
       ],
       "Brudzeń Duży": [
         "Radotki",
@@ -50016,9 +49939,9 @@ export const voivodeship = {
         "Wyskwitno",
         "Zenobin",
         "Sikórz",
-        "Sikórz"
+        "Sikórz",
       ],
-      "Bulkowo": [
+      Bulkowo: [
         "Krubice Stare",
         "Nadułki",
         "Nowe Łubki",
@@ -50073,9 +49996,9 @@ export const voivodeship = {
         "Blichowo-Cytatki",
         "Nadułki-Góry",
         "Stare Chlebowo",
-        "Osiek"
+        "Osiek",
       ],
-      "Drobin": [
+      Drobin: [
         "Chudzynek",
         "Cieśle",
         "Kowalewo",
@@ -50146,9 +50069,9 @@ export const voivodeship = {
         "Ośrodek",
         "Łęg Kasztelański",
         "Krajkowo",
-        "Świerczyn-Bęchy"
+        "Świerczyn-Bęchy",
       ],
-      "Gąbin": [
+      Gąbin: [
         "Nowa Korzeniówka",
         "Nowe Wymyśle",
         "Kamień-Słubice",
@@ -50186,9 +50109,9 @@ export const voivodeship = {
         "Golonka",
         "Kielniki",
         "Letniska",
-        "Muchowo"
+        "Muchowo",
       ],
-      "Łąck": [
+      Łąck: [
         "Koszelówka",
         "Wola Łącka",
         "Kościuszków",
@@ -50217,7 +50140,7 @@ export const voivodeship = {
         "Dębowa Góra",
         "Jeziorkowo-Gajówka",
         "Nowa Wieś",
-        "Łąck"
+        "Łąck",
       ],
       "Mała Wieś": [
         "Wilkanowo",
@@ -50260,7 +50183,7 @@ export const voivodeship = {
         "Wójtostwo",
         "Nowy Chylin",
         "Stary Chylin",
-        "Przykory"
+        "Przykory",
       ],
       "Nowy Duninów": [
         "Brzezinna Góra",
@@ -50287,9 +50210,9 @@ export const voivodeship = {
         "Mościska",
         "Kobyle Błoto",
         "Krzywy Kołek",
-        "Studzianka"
+        "Studzianka",
       ],
-      "Radzanowo": [
+      Radzanowo: [
         "Śniegocin",
         "Chomętowo",
         "Woźniki",
@@ -50358,9 +50281,9 @@ export const voivodeship = {
         "Probostwo",
         "Sobota",
         "Stare Radzanowo",
-        "Gojki"
+        "Gojki",
       ],
-      "Słubice": [
+      Słubice: [
         "Sady",
         "Świniary",
         "Juliszew",
@@ -50392,9 +50315,9 @@ export const voivodeship = {
         "Kępa Kamińska",
         "Macocha",
         "Wielki Kierz",
-        "Rękawki"
+        "Rękawki",
       ],
-      "Słupno": [
+      Słupno: [
         "Szeligi",
         "Borowiczki-Pieńki",
         "Barcikowo",
@@ -50434,7 +50357,7 @@ export const voivodeship = {
         "Błotko",
         "Włościany",
         "Parcele",
-        "Pieńki Ośnickie"
+        "Pieńki Ośnickie",
       ],
       "Stara Biała": [
         "Biała",
@@ -50468,9 +50391,9 @@ export const voivodeship = {
         "Biała-Parcela",
         "Poświętne",
         "Antonówka",
-        "Pieńki"
+        "Pieńki",
       ],
-      "Staroźreby": [
+      Staroźreby: [
         "Góra",
         "Przeciszewo",
         "Zdziar Mały",
@@ -50548,9 +50471,9 @@ export const voivodeship = {
         "Kościółki",
         "Krawięczyn",
         "Dłużniewo Małe",
-        "Opatówiec"
+        "Opatówiec",
       ],
-      "Wyszogród": [
+      Wyszogród: [
         "Bolino",
         "Rakowo",
         "Marcjanka",
@@ -50574,11 +50497,11 @@ export const voivodeship = {
         "Grodkówko",
         "Bielice",
         "Imolinek",
-        "Wychylówka"
-      ]
+        "Wychylówka",
+      ],
     },
-    "płoński": {
-      "Płońsk": [
+    płoński: {
+      Płońsk: [
         "Szerominek",
         "Kluczewo",
         "Michowo",
@@ -50624,9 +50547,9 @@ export const voivodeship = {
         "Zawady",
         "Dalanówko",
         "Poświętne",
-        "Radzymin"
+        "Radzymin",
       ],
-      "Raciąż": [
+      Raciąż: [
         "Grzybowo",
         "Młody Niedróż",
         "Kraszewo-Sławęcin",
@@ -50715,9 +50638,9 @@ export const voivodeship = {
         "Stare Młodochowo",
         "Charzyny-Borzymy",
         "Charzyny-Sadkowięta",
-        "Kocięcin-Parcele"
+        "Kocięcin-Parcele",
       ],
-      "Baboszewo": [
+      Baboszewo: [
         "Dziektarzewo",
         "Dłużniewo",
         "Bożewo",
@@ -50763,7 +50686,7 @@ export const voivodeship = {
         "Tyski",
         "Pieńki Rzewińskie",
         "Dziektarzewo-Wylaty",
-        "Kiełki-Osada"
+        "Kiełki-Osada",
       ],
       "Czerwińsk nad Wisłą": [
         "Miączynek",
@@ -50808,9 +50731,9 @@ export const voivodeship = {
         "Nadzieja",
         "Ostrowa",
         "Parcele",
-        "Stanisławowo"
+        "Stanisławowo",
       ],
-      "Dzierzążnia": [
+      Dzierzążnia: [
         "Wierzbica Szlachecka",
         "Chrościn",
         "Nowe Kucice",
@@ -50842,9 +50765,9 @@ export const voivodeship = {
         "Stare Gumino",
         "Błomino-Gule",
         "Błomino Gumowskie",
-        "Gumowo-Józefina"
+        "Gumowo-Józefina",
       ],
-      "Joniec": [
+      Joniec: [
         "Stara Wrona",
         "Szumlin",
         "Proboszczewice",
@@ -50864,9 +50787,9 @@ export const voivodeship = {
         "Omięciny",
         "Proboszczewice-Kolonia",
         "Wkra",
-        "Joniec-Kolonia"
+        "Joniec-Kolonia",
       ],
-      "Naruszewo": [
+      Naruszewo: [
         "Skwary",
         "Radzymin",
         "Stachowo",
@@ -50913,7 +50836,7 @@ export const voivodeship = {
         "Nacpolsk",
         "Drochówka za Rąbieżem",
         "Stary Skarszyn",
-        "Tustań-Leśniczówka"
+        "Tustań-Leśniczówka",
       ],
       "Nowe Miasto": [
         "Nowe Miasto-Folwark",
@@ -50965,9 +50888,9 @@ export const voivodeship = {
         "Bielne",
         "Czernie",
         "Modzele-Bartłomieje",
-        "Modzele-Gajówka"
+        "Modzele-Gajówka",
       ],
-      "Sochocin": [
+      Sochocin: [
         "Koliszewo",
         "Kolonia Sochocin",
         "Kołoząb",
@@ -51003,9 +50926,9 @@ export const voivodeship = {
         "Idzikowice-Kolonia",
         "Smardzewo",
         "Podsmardzewo-Grzeszówka",
-        "Rzy"
+        "Rzy",
       ],
-      "Załuski": [
+      Załuski: [
         "Szczytno",
         "Stare Olszyny",
         "Kamienica",
@@ -51045,14 +50968,12 @@ export const voivodeship = {
         "Kamienica-Pieńki",
         "Głodowo",
         "Zarzecze",
-        "Kamienica-Kozaki"
-      ]
-    },
-    "pruszkowski": {
-      "Piastów": [
-        "Piastów"
+        "Kamienica-Kozaki",
       ],
-      "Pruszków": [
+    },
+    pruszkowski: {
+      Piastów: ["Piastów"],
+      Pruszków: [
         "Pruszków",
         "Tworki",
         "Bąki",
@@ -51060,9 +50981,9 @@ export const voivodeship = {
         "Wyględówek",
         "Gąsin",
         "Malichy",
-        "Żbików"
+        "Żbików",
       ],
-      "Brwinów": [
+      Brwinów: [
         "Krosna-Parcela",
         "Czubin",
         "Kotowice",
@@ -51096,9 +51017,9 @@ export const voivodeship = {
         "Czubinek",
         "Biskupice-Majątek",
         "Magdalenów",
-        "Popówek"
+        "Popówek",
       ],
-      "Michałowice": [
+      Michałowice: [
         "Opacz-Kolonia",
         "Opacz Mała",
         "Nowa Wieś",
@@ -51111,9 +51032,9 @@ export const voivodeship = {
         "Suchy Las",
         "Pęcice Małe",
         "Michałowice",
-        "Helenów"
+        "Helenów",
       ],
-      "Nadarzyn": [
+      Nadarzyn: [
         "Rozalin",
         "Wola Krakowiańska",
         "Wolica",
@@ -51137,9 +51058,9 @@ export const voivodeship = {
         "Czarny Las",
         "Olesin",
         "Żabieniec",
-        "Paszków"
+        "Paszków",
       ],
-      "Raszyn": [
+      Raszyn: [
         "Falenty Duże",
         "Słomin",
         "Podolszyn Nowy",
@@ -51158,11 +51079,11 @@ export const voivodeship = {
         "Wypędy",
         "Dawidy",
         "Falenty",
-        "Sękocin-Las"
-      ]
+        "Sękocin-Las",
+      ],
     },
-    "przasnyski": {
-      "Przasnysz": [
+    przasnyski: {
+      Przasnysz: [
         "Mchówko",
         "Osówiec Kmiecy",
         "Trzcianka",
@@ -51220,9 +51141,9 @@ export const voivodeship = {
         "Smoleń-Suwino",
         "Cegielnia",
         "Karwacz",
-        "Karwacz"
+        "Karwacz",
       ],
-      "Chorzele": [
+      Chorzele: [
         "Rycice",
         "Bagienice",
         "Wasiły-Zygny",
@@ -51294,7 +51215,7 @@ export const voivodeship = {
         "Pruskołęka",
         "Rycice",
         "Rycice",
-        "Jarzynny Kierz"
+        "Jarzynny Kierz",
       ],
       "Czernice Borowe": [
         "Toki",
@@ -51341,9 +51262,9 @@ export const voivodeship = {
         "Ostafieje",
         "Kuskowo",
         "Wyderka",
-        "Piechy"
+        "Piechy",
       ],
-      "Jednorożec": [
+      Jednorożec: [
         "Budy Rządowe",
         "Stegna",
         "Żelazna Prywatna",
@@ -51392,9 +51313,9 @@ export const voivodeship = {
         "Zadziory",
         "Przejmy",
         "Parciaki-Stacja",
-        "Żelazna Rządowa-Gutocha"
+        "Żelazna Rządowa-Gutocha",
       ],
-      "Krasne": [
+      Krasne: [
         "Kozin",
         "Żbiki",
         "Żbiki-Gawronki",
@@ -51448,7 +51369,7 @@ export const voivodeship = {
         "Barańce",
         "Grabowo Gęsie",
         "Żbiki-Antosy",
-        "Helenów"
+        "Helenów",
       ],
       "Krzynowłoga Mała": [
         "Świniary",
@@ -51525,11 +51446,11 @@ export const voivodeship = {
         "Borowe-Gryki",
         "Gadomiec-Wyraki",
         "Ulatowo-Janowięta",
-        "Grabowo-Grądy"
-      ]
+        "Grabowo-Grądy",
+      ],
     },
-    "przysuski": {
-      "Borkowice": [
+    przysuski: {
+      Borkowice: [
         "Bryzgów",
         "Borkowice",
         "Smagów",
@@ -51564,9 +51485,9 @@ export const voivodeship = {
         "Za Gajem",
         "Za Olszowcem",
         "Krasna Góra",
-        "Pałąki"
+        "Pałąki",
       ],
-      "Gielniów": [
+      Gielniów: [
         "Gielniów",
         "Mechlin",
         "Stoczki",
@@ -51609,9 +51530,9 @@ export const voivodeship = {
         "Rożek",
         "Chonowa",
         "Brzezinki",
-        "Piaski"
+        "Piaski",
       ],
-      "Klwów": [
+      Klwów: [
         "Kadź",
         "Klwów",
         "Ligęzów",
@@ -51648,9 +51569,9 @@ export const voivodeship = {
         "Kierkut",
         "Pakulanka",
         "Podwólka",
-        "Trzcianka"
+        "Trzcianka",
       ],
-      "Odrzywół": [
+      Odrzywół: [
         "Różanna",
         "Walerianów",
         "Wysokin",
@@ -51684,9 +51605,9 @@ export const voivodeship = {
         "Gać",
         "Leśniczówka",
         "Gajówka",
-        "Pod Domasznem"
+        "Pod Domasznem",
       ],
-      "Potworów": [
+      Potworów: [
         "Kacperków",
         "Grabowa",
         "Dłuska Wola",
@@ -51723,9 +51644,9 @@ export const voivodeship = {
         "Pod Rzeką",
         "Zachatka",
         "Nowy Wir-Kolonia",
-        "Olszyna"
+        "Olszyna",
       ],
-      "Przysucha": [
+      Przysucha: [
         "Głęboka Droga",
         "Ruski Bród",
         "Wistka",
@@ -51790,9 +51711,9 @@ export const voivodeship = {
         "Zapniów",
         "Puszcza",
         "Gąsiorów",
-        "Suchodół"
+        "Suchodół",
       ],
-      "Rusinów": [
+      Rusinów: [
         "Bąków",
         "Władysławów",
         "Nieznamierowice",
@@ -51820,9 +51741,9 @@ export const voivodeship = {
         "Pod Choinką",
         "Zychorzyn-Kolonia",
         "Jabłonna",
-        "Żurawiniec"
+        "Żurawiniec",
       ],
-      "Wieniawa": [
+      Wieniawa: [
         "Kamień Duży",
         "Brudnów",
         "Wieniawa",
@@ -51860,11 +51781,11 @@ export const voivodeship = {
         "Konary",
         "Pod Rogową",
         "Brzozowica",
-        "Komorów-Gajówka"
-      ]
+        "Komorów-Gajówka",
+      ],
     },
-    "pułtuski": {
-      "Gzy": [
+    pułtuski: {
+      Gzy: [
         "Słończewo",
         "Porzowo",
         "Grochy-Imbrzyki",
@@ -51914,9 +51835,9 @@ export const voivodeship = {
         "Zalesie-Grzymały",
         "Kałęczyn",
         "Ołdaki-Stefanowo",
-        "Przewodowo-Majorat"
+        "Przewodowo-Majorat",
       ],
-      "Obryte": [
+      Obryte: [
         "Ulaski",
         "Obryte",
         "Rozdziały",
@@ -51978,9 +51899,9 @@ export const voivodeship = {
         "Wzgórze-Leśniczówka",
         "Wielgolas-Leśniczówka",
         "Lutobrok-Gajówka",
-        "Zambski-Gajówka"
+        "Zambski-Gajówka",
       ],
-      "Pokrzywnica": [
+      Pokrzywnica: [
         "Trzepowo",
         "Pobyłkowo Duże",
         "Witki",
@@ -52018,9 +51939,9 @@ export const voivodeship = {
         "Pobyłkowo Małe",
         "Pobyłkowo Duże",
         "Łubienica",
-        "Pobyłkowo Małe"
+        "Pobyłkowo Małe",
       ],
-      "Pułtusk": [
+      Pułtusk: [
         "Boby",
         "Głodowo",
         "Białowieża",
@@ -52050,9 +51971,9 @@ export const voivodeship = {
         "Rapaty",
         "Radzice",
         "Dworek",
-        "Lemany-Nadleśnictwo"
+        "Lemany-Nadleśnictwo",
       ],
-      "Świercze": [
+      Świercze: [
         "Brodowo",
         "Świerkowo",
         "Gaj",
@@ -52087,9 +52008,9 @@ export const voivodeship = {
         "Malice",
         "Brodowo-Kuce",
         "Chmielewko",
-        "Śmietanki"
+        "Śmietanki",
       ],
-      "Winnica": [
+      Winnica: [
         "Budy-Zbroszki",
         "Białe Błoto",
         "Brodowo-Bąboły",
@@ -52134,9 +52055,9 @@ export const voivodeship = {
         "Budy-Bielany",
         "Gnaty-Gromadze",
         "Gnaty-Zarazy",
-        "Mieszki-Bursy"
+        "Mieszki-Bursy",
       ],
-      "Zatory": [
+      Zatory: [
         "Drwały",
         "Kruczy Borek",
         "Nowe Borsuki",
@@ -52181,11 +52102,11 @@ export const voivodeship = {
         "Stawinoga-Leśniczówka",
         "Stawinoga-Rybakówka",
         "Wielęcin",
-        "Wólka Zatorska-Gajówka"
-      ]
+        "Wólka Zatorska-Gajówka",
+      ],
     },
-    "radomski": {
-      "Pionki": [
+    radomski: {
+      Pionki: [
         "Karpówka",
         "Kamyk",
         "Kieszek",
@@ -52267,9 +52188,9 @@ export const voivodeship = {
         "Patków",
         "Gajówka Zadobrze",
         "Zadobrze",
-        "Żdżary"
+        "Żdżary",
       ],
-      "Gózd": [
+      Gózd: [
         "Drożanki",
         "Lipiny",
         "Kuczki-Kolonia",
@@ -52321,9 +52242,9 @@ export const voivodeship = {
         "Pięciomorgi",
         "Adamów",
         "Górki",
-        "Pieńki"
+        "Pieńki",
       ],
-      "Iłża": [
+      Iłża: [
         "Starosiedlice",
         "Alojzów",
         "Pastwiska",
@@ -52447,9 +52368,9 @@ export const voivodeship = {
         "Leśniczówka Niwy",
         "Leśniczówka Seredzice",
         "Gajówka Pieńki",
-        "Lipie"
+        "Lipie",
       ],
-      "Jastrzębia": [
+      Jastrzębia: [
         "Wolska Dąbrowa",
         "Kolonia Lesiów",
         "Wola Owadowska",
@@ -52493,9 +52414,9 @@ export const voivodeship = {
         "Wolica",
         "Spezja",
         "Zadulowa",
-        "Bartodzieje-Kolonia"
+        "Bartodzieje-Kolonia",
       ],
-      "Jedlińsk": [
+      Jedlińsk: [
         "Piaseczno",
         "Klwaty",
         "Stare Zawady",
@@ -52576,7 +52497,7 @@ export const voivodeship = {
         "Jankowice-Kolonia",
         "Klwaty-Ludwików",
         "Józefów",
-        "Brody"
+        "Brody",
       ],
       "Jedlnia-Letnisko": [
         "Groszowice",
@@ -52613,9 +52534,9 @@ export const voivodeship = {
         "Górki",
         "Kolonka",
         "Polesie",
-        "Siczki k. Młyna"
+        "Siczki k. Młyna",
       ],
-      "Kowala": [
+      Kowala: [
         "Kowala-Stępocina",
         "Romanów",
         "Huta Mazowszańska",
@@ -52654,9 +52575,9 @@ export const voivodeship = {
         "Błonie",
         "Zabierzów",
         "Kosów-Stacja",
-        "Huta Dolna"
+        "Huta Dolna",
       ],
-      "Przytyk": [
+      Przytyk: [
         "Maksymilianów",
         "Domaniów",
         "Goszczewice",
@@ -52715,9 +52636,9 @@ export const voivodeship = {
         "Zameczek",
         "Zameczek-Kolonia",
         "Oblas",
-        "Podgajek-Kolonia"
+        "Podgajek-Kolonia",
       ],
-      "Skaryszew": [
+      Skaryszew: [
         "Gębarzów",
         "Modrzejowice",
         "Sołtyków",
@@ -52802,9 +52723,9 @@ export const voivodeship = {
         "Gębarzów",
         "Modrzejowice",
         "Dąbrówka Makowska",
-        "Makowiec-Leśniczówka"
+        "Makowiec-Leśniczówka",
       ],
-      "Wierzbica": [
+      Wierzbica: [
         "Rzeczków",
         "Podgórki",
         "Łączany",
@@ -52832,9 +52753,9 @@ export const voivodeship = {
         "Głodna Wólka",
         "Zalesice-Opoka",
         "Pod Lasem",
-        "Marianów"
+        "Marianów",
       ],
-      "Wolanów": [
+      Wolanów: [
         "Waliny",
         "Wawrzyszów",
         "Wacławów",
@@ -52894,9 +52815,9 @@ export const voivodeship = {
         "Pod Chronówkiem",
         "Pod Franciszkowem",
         "Soszyn-Zaderki",
-        "Babia Góra"
+        "Babia Góra",
       ],
-      "Zakrzew": [
+      Zakrzew: [
         "Zatopolice",
         "Legęzów",
         "Mleczków",
@@ -52951,11 +52872,11 @@ export const voivodeship = {
         "Taczowskie Pieńki",
         "Jaszowice-Kolonia",
         "Wiktorów",
-        "Milejowice-Kolonia"
-      ]
+        "Milejowice-Kolonia",
+      ],
     },
-    "siedlecki": {
-      "Domanice": [
+    siedlecki: {
+      Domanice: [
         "Czachy",
         "Olszyc Szlachecki",
         "Podzdrój",
@@ -52971,9 +52892,9 @@ export const voivodeship = {
         "Zażelazna",
         "Przywory Duże",
         "Gajówka",
-        "Jagodne"
+        "Jagodne",
       ],
-      "Korczew": [
+      Korczew: [
         "Ruda",
         "Nowy Bartków",
         "Szczeglacin",
@@ -53005,9 +52926,9 @@ export const voivodeship = {
         "Bartków",
         "Mokrany-Gajówka",
         "Tokary-Gajówka",
-        "Juhana"
+        "Juhana",
       ],
-      "Kotuń": [
+      Kotuń: [
         "Żeliszew Duży",
         "Gręzów",
         "Ryczyca",
@@ -53046,9 +52967,9 @@ export const voivodeship = {
         "Janin",
         "Zofinów",
         "Rytki",
-        "Nadzieja"
+        "Nadzieja",
       ],
-      "Mokobody": [
+      Mokobody: [
         "Księżopole-Smolaki",
         "Zemły",
         "Osiny Dolne",
@@ -53077,9 +52998,9 @@ export const voivodeship = {
         "Świniary",
         "Wólka Żukowska",
         "Księżopole-Jałmużny",
-        "Tuszetów"
+        "Tuszetów",
       ],
-      "Mordy": [
+      Mordy: [
         "Radzików-Kornica",
         "Ptaszki",
         "Radzików Wielki",
@@ -53115,9 +53036,9 @@ export const voivodeship = {
         "Kierzczane",
         "Pod Rogóziec",
         "Dworszczyzna",
-        "Kolonia Mordy"
+        "Kolonia Mordy",
       ],
-      "Paprotnia": [
+      Paprotnia: [
         "Kobylany-Kozy",
         "Koryciany",
         "Trębice Dolne",
@@ -53139,9 +53060,9 @@ export const voivodeship = {
         "Trębice Górne",
         "Stasin",
         "Paprotnia",
-        "Krynki"
+        "Krynki",
       ],
-      "Przesmyki": [
+      Przesmyki: [
         "Łysów",
         "Stare Rzewuski",
         "Kamianki-Nicki",
@@ -53172,9 +53093,9 @@ export const voivodeship = {
         "Dworszczyzna",
         "Bagno",
         "Mokrzec",
-        "Ksawerów"
+        "Ksawerów",
       ],
-      "Siedlce": [
+      Siedlce: [
         "Wólka Leśna",
         "Stare Iganie",
         "Pustki",
@@ -53212,9 +53133,9 @@ export const voivodeship = {
         "Stok Lacki-Folwark",
         "Swoboda",
         "Rybakówka",
-        "Wyględówka"
+        "Wyględówka",
       ],
-      "Skórzec": [
+      Skórzec: [
         "Nowaki",
         "Teodorów",
         "Wólka Kobyla",
@@ -53238,9 +53159,9 @@ export const voivodeship = {
         "Dąbrówka-Niwka",
         "Osińskie",
         "Czelustki",
-        "Pieńki"
+        "Pieńki",
       ],
-      "Suchożebry": [
+      Suchożebry: [
         "Kownaciska",
         "Stany Małe",
         "Borki Siedleckie",
@@ -53261,9 +53182,9 @@ export const voivodeship = {
         "Stany Duże",
         "Pieńki",
         "Szydłowiec",
-        "Rogóż"
+        "Rogóż",
       ],
-      "Wiśniew": [
+      Wiśniew: [
         "Ciosny",
         "Kaczory",
         "Okniny-Podzdrój",
@@ -53292,9 +53213,9 @@ export const voivodeship = {
         "Borki-Paduchy",
         "Baranek",
         "Jastrzębie Kąty",
-        "Leśniczówka"
+        "Leśniczówka",
       ],
-      "Wodynie": [
+      Wodynie: [
         "Kaczory",
         "Wodynie",
         "Młynki",
@@ -53333,9 +53254,9 @@ export const voivodeship = {
         "Strójnik",
         "Zamłynie",
         "Lipiny",
-        "Nowiny"
+        "Nowiny",
       ],
-      "Zbuczyn": [
+      Zbuczyn: [
         "Tarcze",
         "Olędy",
         "Pogonów",
@@ -53383,11 +53304,11 @@ export const voivodeship = {
         "Świercze",
         "Kijki",
         "Koryta",
-        "Grochówka"
-      ]
+        "Grochówka",
+      ],
     },
-    "sierpecki": {
-      "Sierpc": [
+    sierpecki: {
+      Sierpc: [
         "Goleszyn",
         "Białoskóry",
         "Dąbrówki",
@@ -53449,9 +53370,9 @@ export const voivodeship = {
         "Żarówka",
         "Kępa",
         "Troska",
-        "Walerianowo"
+        "Walerianowo",
       ],
-      "Gozdowo": [
+      Gozdowo: [
         "Bronoszewice",
         "Cetlin",
         "Bombalice",
@@ -53504,9 +53425,9 @@ export const voivodeship = {
         "Kolonia Przybyszewo",
         "Parcele",
         "Przybyszewo",
-        "Zimna Woda"
+        "Zimna Woda",
       ],
-      "Mochowo": [
+      Mochowo: [
         "Mochowo-Parcele",
         "Zglenice Małe",
         "Zglenice Duże",
@@ -53560,9 +53481,9 @@ export const voivodeship = {
         "Pokrzywnica",
         "Kotarczyn",
         "Sulkowo-Jesionki",
-        "Jakubowo"
+        "Jakubowo",
       ],
-      "Rościszewo": [
+      Rościszewo: [
         "Babiec Piaseczny",
         "Rzeszotary-Gortaty",
         "Śniedzanowo",
@@ -53596,9 +53517,9 @@ export const voivodeship = {
         "Rumunki Pszczelowskie",
         "Nadolnik",
         "Babiec-Wrzosy",
-        "Zamość-Gajówka"
+        "Zamość-Gajówka",
       ],
-      "Szczutowo": [
+      Szczutowo: [
         "Blizno",
         "Mościska",
         "Dziki Bór",
@@ -53643,9 +53564,9 @@ export const voivodeship = {
         "Koszary",
         "Marcelin",
         "Nowiny",
-        "Pieńki"
+        "Pieńki",
       ],
-      "Zawidz": [
+      Zawidz: [
         "Gutowo-Górki",
         "Nowe Kowalewo",
         "Jaworowo-Kłódź",
@@ -53722,11 +53643,11 @@ export const voivodeship = {
         "Łażewo",
         "Narkiewiczyzna",
         "Młotkowo-Kolonia",
-        "Gajówka Osiek-Włostybory"
-      ]
+        "Gajówka Osiek-Włostybory",
+      ],
     },
-    "sochaczewski": {
-      "Sochaczew": [
+    sochaczewski: {
+      Sochaczew: [
         "Rozlazłów",
         "Karwowo",
         "Czyste",
@@ -53801,9 +53722,9 @@ export const voivodeship = {
         "Janówek Żdżarowski",
         "Bielice",
         "Sielice-Kolonia",
-        "Stare Kąty"
+        "Stare Kąty",
       ],
-      "Brochów": [
+      Brochów: [
         "Andrzejów",
         "Wólka Smolana",
         "Tułowice",
@@ -53854,9 +53775,9 @@ export const voivodeship = {
         "Jakubówka",
         "Janice",
         "Kaptury",
-        "Karczonek"
+        "Karczonek",
       ],
-      "Iłów": [
+      Iłów: [
         "Rzepki",
         "Białocin",
         "Gilówka Górna",
@@ -53930,9 +53851,9 @@ export const voivodeship = {
         "Nowa Stegna",
         "Stara Stegna",
         "Stoczek",
-        "Mały Uderz"
+        "Mały Uderz",
       ],
-      "Młodzieszyn": [
+      Młodzieszyn: [
         "Leontynów",
         "Helenów",
         "Skutki",
@@ -53999,7 +53920,7 @@ export const voivodeship = {
         "Stara Kępa-Januszew",
         "Stefanów",
         "Witkowice",
-        "Leśniczówka"
+        "Leśniczówka",
       ],
       "Nowa Sucha": [
         "Braki",
@@ -54058,9 +53979,9 @@ export const voivodeship = {
         "Kurdwanów Poduchowny",
         "Emilianów",
         "Granaty",
-        "Juliuszówek"
+        "Juliuszówek",
       ],
-      "Rybno": [
+      Rybno: [
         "Nowy Szwarocin",
         "Kamieńszczyzna",
         "Stary Szwarocin",
@@ -54123,9 +54044,9 @@ export const voivodeship = {
         "Piaski",
         "Stare Wężyki",
         "Wężyki-Parcela",
-        "Zofiówka"
+        "Zofiówka",
       ],
-      "Teresin": [
+      Teresin: [
         "Nowe Gnatowice",
         "Granice",
         "Topołowa",
@@ -54165,10 +54086,10 @@ export const voivodeship = {
         "Dębówka",
         "Witoldów",
         "Teresin-Gaj",
-        "Kawęczyn"
-      ]
+        "Kawęczyn",
+      ],
     },
-    "sokołowski": {
+    sokołowski: {
       "Sokołów Podlaski": [
         "Walerów",
         "Węże",
@@ -54227,9 +54148,9 @@ export const voivodeship = {
         "Łubianki",
         "Przeździatka-Kolonia",
         "Kolonia Dąbrowa",
-        "Przeździatka-Leśniczówka"
+        "Przeździatka-Leśniczówka",
       ],
-      "Bielany": [
+      Bielany: [
         "Kudelczyn",
         "Korabie",
         "Patrykozy",
@@ -54266,9 +54187,9 @@ export const voivodeship = {
         "Ruda-Kolonia",
         "Patrykozy-Kolonia",
         "Kolonia Księżopole-Komory",
-        "Trebień"
+        "Trebień",
       ],
-      "Ceranów": [
+      Ceranów: [
         "Rytele-Wszołki",
         "Długie Kamieńskie",
         "Radość",
@@ -54320,7 +54241,7 @@ export const voivodeship = {
         "Bór",
         "Podorle",
         "Holendernia",
-        "Majdan"
+        "Majdan",
       ],
       "Jabłonna Lacka": [
         "Toczyski Podborne",
@@ -54388,7 +54309,7 @@ export const voivodeship = {
         "Krzemień-Zagacie",
         "Łuzki-Kolonia",
         "Czortki",
-        "Kolonia Toczyski Średnie"
+        "Kolonia Toczyski Średnie",
       ],
       "Kosów Lacki": [
         "Albinów",
@@ -54458,9 +54379,9 @@ export const voivodeship = {
         "Guty-Marianka",
         "Bolkowizna",
         "Dębiny",
-        "Dybów-Zaolszyna"
+        "Dybów-Zaolszyna",
       ],
-      "Repki": [
+      Repki: [
         "Frankopol",
         "Kanabród",
         "Bohy",
@@ -54530,9 +54451,9 @@ export const voivodeship = {
         "Kolonie Sawickie",
         "Pieńki Skrzeszewskie",
         "Wirów-Kolonia",
-        "Miotki"
+        "Miotki",
       ],
-      "Sabnie": [
+      Sabnie: [
         "Hołowienki",
         "Stasin",
         "Suchodół Włościański",
@@ -54560,9 +54481,9 @@ export const voivodeship = {
         "Kolonia Zembrów",
         "Poświątne",
         "Emilin",
-        "Podsuchodół"
+        "Podsuchodół",
       ],
-      "Sterdyń": [
+      Sterdyń: [
         "Kiełpiniec",
         "Kamieńczyk",
         "Paulinów",
@@ -54622,11 +54543,11 @@ export const voivodeship = {
         "Kolonia Stary Ratyniec",
         "Stelągi-Kolonia",
         "Dąbrówka",
-        "Borki"
-      ]
+        "Borki",
+      ],
     },
-    "szydłowiecki": {
-      "Chlewiska": [
+    szydłowiecki: {
+      Chlewiska: [
         "Majdanki",
         "Skłoby",
         "Huta",
@@ -54660,9 +54581,9 @@ export const voivodeship = {
         "Kolonia Ostałów",
         "Bieduszki",
         "Romanów",
-        "Pociecha"
+        "Pociecha",
       ],
-      "Jastrząb": [
+      Jastrząb: [
         "Kuźnia",
         "Wola Lipieniecka Mała",
         "Nowy Dwór",
@@ -54677,9 +54598,9 @@ export const voivodeship = {
         "Orłów",
         "Lipienice Górne",
         "Lipienice Dolne",
-        "Kurkoć"
+        "Kurkoć",
       ],
-      "Mirów": [
+      Mirów: [
         "Bieszków Dolny",
         "Mirów Stary",
         "Zbijów Duży",
@@ -54688,9 +54609,9 @@ export const voivodeship = {
         "Rogów",
         "Mirów Nowy",
         "Bieszków Górny",
-        "Komorniki Rogowskie"
+        "Komorniki Rogowskie",
       ],
-      "Orońsko": [
+      Orońsko: [
         "Śniadków",
         "Tomaszów",
         "Ciepła",
@@ -54712,9 +54633,9 @@ export const voivodeship = {
         "Chronów-Kolonia",
         "Wola Guzowska",
         "Kolonia Dolna",
-        "Kolonia Górna"
+        "Kolonia Górna",
       ],
-      "Szydłowiec": [
+      Szydłowiec: [
         "Świniów",
         "Zdziechów",
         "Omięcin",
@@ -54761,11 +54682,11 @@ export const voivodeship = {
         "Działy",
         "Mętków",
         "Zdziechów",
-        "Jarzębia"
-      ]
+        "Jarzębia",
+      ],
     },
     "warszawski zachodni": {
-      "Błonie": [
+      Błonie: [
         "Żukówka",
         "Wawrzyszew",
         "Witki",
@@ -54817,9 +54738,9 @@ export const voivodeship = {
         "Chruślin",
         "Pass",
         "Rokitno-Majątek",
-        "Radzików"
+        "Radzików",
       ],
-      "Izabelin": [
+      Izabelin: [
         "Mościska",
         "Truskaw",
         "Hornówek",
@@ -54832,9 +54753,9 @@ export const voivodeship = {
         "Opaleń",
         "Ciechowszczyzna",
         "Laski-Dąbrowa",
-        "Izabelin"
+        "Izabelin",
       ],
-      "Kampinos": [
+      Kampinos: [
         "Józefów",
         "Łazy Leśne",
         "Grabnik",
@@ -54876,9 +54797,9 @@ export const voivodeship = {
         "Strzyżew-Parcela",
         "Szczytno-Ośrodek",
         "Szczytno-Parcela",
-        "Zalasek"
+        "Zalasek",
       ],
-      "Leszno": [
+      Leszno: [
         "Wyględy",
         "Kępiaste",
         "Powązki",
@@ -54921,9 +54842,9 @@ export const voivodeship = {
         "Białuty",
         "Rochale",
         "Karpinek",
-        "Rózin"
+        "Rózin",
       ],
-      "Łomianki": [
+      Łomianki: [
         "Kępa Kiełpińska",
         "Kiełpin",
         "Sadowa",
@@ -54936,7 +54857,7 @@ export const voivodeship = {
         "Łomianki",
         "Buraków",
         "Łomianki Górne",
-        "Sadówka"
+        "Sadówka",
       ],
       "Ożarów Mazowiecki": [
         "Myszczyn",
@@ -54973,7 +54894,7 @@ export const voivodeship = {
         "Strzykuły",
         "Kręczki",
         "Józefów",
-        "Wolica"
+        "Wolica",
       ],
       "Stare Babice": [
         "Latchorzew",
@@ -55007,11 +54928,11 @@ export const voivodeship = {
         "Górki",
         "Trytew Zaborowska",
         "Borzęcin",
-        "Zielonki"
-      ]
+        "Zielonki",
+      ],
     },
-    "węgrowski": {
-      "Węgrów": [
+    węgrowski: {
+      Węgrów: [
         "Węgrów",
         "Gródzie",
         "Gaj",
@@ -55022,9 +54943,9 @@ export const voivodeship = {
         "Miedzianka",
         "Bagno",
         "Nowiny",
-        "Szembrowizna"
+        "Szembrowizna",
       ],
-      "Grębków": [
+      Grębków: [
         "Grębków",
         "Ziomaki",
         "Nowa Sucha",
@@ -55072,9 +54993,9 @@ export const voivodeship = {
         "Zagoździe",
         "Stoczek",
         "Kolonia Polków-Sagały",
-        "Ulaski"
+        "Ulaski",
       ],
-      "Korytnica": [
+      Korytnica: [
         "Rowiska",
         "Wielądki",
         "Zalesie",
@@ -55125,9 +55046,9 @@ export const voivodeship = {
         "Kietlanka",
         "Kwaśnianka",
         "Kolonia Paplin",
-        "Leśniczówka Turna"
+        "Leśniczówka Turna",
       ],
-      "Liw": [
+      Liw: [
         "Wyszków",
         "Janowo",
         "Ruchenka",
@@ -55174,9 +55095,9 @@ export const voivodeship = {
         "Miedzanka-Gajówka",
         "Ignasin",
         "Sitarze",
-        "Maciejów"
+        "Maciejów",
       ],
-      "Łochów": [
+      Łochów: [
         "Barchów",
         "Budziska",
         "Jerzyska",
@@ -55243,9 +55164,9 @@ export const voivodeship = {
         "Łosiewice",
         "Gajówka Nadkole",
         "Samotrzask",
-        "Zagrodniki"
+        "Zagrodniki",
       ],
-      "Miedzna": [
+      Miedzna: [
         "Wrzoski",
         "Ugoszcz",
         "Glina",
@@ -55263,9 +55184,9 @@ export const voivodeship = {
         "Karpiny",
         "Kolonia Podchojce",
         "Syberia",
-        "Tchórzowa-Gajówka"
+        "Tchórzowa-Gajówka",
       ],
-      "Sadowne": [
+      Sadowne: [
         "Zarzetka",
         "Sadoleś",
         "Sokółka",
@@ -55313,9 +55234,9 @@ export const voivodeship = {
         "Zieleniec",
         "Czaplowizna-Gajówka",
         "Orzełek",
-        "Kocielnik"
+        "Kocielnik",
       ],
-      "Stoczek": [
+      Stoczek: [
         "Grabowiec",
         "Mrozowa Wola",
         "Kazimierzów",
@@ -55350,9 +55271,9 @@ export const voivodeship = {
         "Lubierz-Leśniczówka",
         "Miednik",
         "Wycech-Gajówka",
-        "Toboły-Gajówka"
+        "Toboły-Gajówka",
       ],
-      "Wierzbno": [
+      Wierzbno: [
         "Wólka",
         "Józefy",
         "Wyględówek",
@@ -55391,11 +55312,11 @@ export const voivodeship = {
         "Przecze",
         "Sitarze",
         "Emin",
-        "Pawłówka-Gajówka"
-      ]
+        "Pawłówka-Gajówka",
+      ],
     },
-    "wołomiński": {
-      "Kobyłka": [
+    wołomiński: {
+      Kobyłka: [
         "Kobyłka",
         "Antolek",
         "Maciołki",
@@ -55405,9 +55326,9 @@ export const voivodeship = {
         "Nadarzyn",
         "Jędrzejek",
         "Sosnówka",
-        "Grabicz"
+        "Grabicz",
       ],
-      "Marki": [
+      Marki: [
         "Marki",
         "Czarna Struga",
         "Cisówka",
@@ -55419,20 +55340,11 @@ export const voivodeship = {
         "Jaworówek",
         "Pustelnik",
         "Jarków",
-        "Jeżak"
+        "Jeżak",
       ],
-      "Ząbki": [
-        "Ząbki",
-        "Drewnica"
-      ],
-      "Zielonka": [
-        "Zielonka",
-        "Zosinek",
-        "Bankówka",
-        "Siwki",
-        "Kobylak"
-      ],
-      "Dąbrówka": [
+      Ząbki: ["Ząbki", "Drewnica"],
+      Zielonka: ["Zielonka", "Zosinek", "Bankówka", "Siwki", "Kobylak"],
+      Dąbrówka: [
         "Trojany",
         "Ludwinów",
         "Marianów",
@@ -55460,9 +55372,9 @@ export const voivodeship = {
         "Stasiopole",
         "Ślężany",
         "Sokołówek",
-        "Jaktory"
+        "Jaktory",
       ],
-      "Jadów": [
+      Jadów: [
         "Podbale",
         "Wólka Sulejowska",
         "Wujówka",
@@ -55495,9 +55407,9 @@ export const voivodeship = {
         "Owsianka",
         "Wyrobki",
         "Olszyny",
-        "Bale"
+        "Bale",
       ],
-      "Klembów": [
+      Klembów: [
         "Nowy Kraszew",
         "Lipka",
         "Michałów",
@@ -55524,9 +55436,9 @@ export const voivodeship = {
         "Pokoje",
         "Porębiska",
         "Zagórze",
-        "Zamość"
+        "Zamość",
       ],
-      "Poświętne": [
+      Poświętne: [
         "Ręczaje Polskie",
         "Małków",
         "Nadbiel",
@@ -55556,9 +55468,9 @@ export const voivodeship = {
         "Szymanka",
         "Szymanka",
         "Jadwiniew",
-        "Stróżki"
+        "Stróżki",
       ],
-      "Radzymin": [
+      Radzymin: [
         "Ciemne",
         "Łąki",
         "Stary Dybów",
@@ -55603,9 +55515,9 @@ export const voivodeship = {
         "Górki",
         "Pólko",
         "Teresin",
-        "Ciemne"
+        "Ciemne",
       ],
-      "Strachówka": [
+      Strachówka: [
         "Równe",
         "Marysin",
         "Rozalin",
@@ -55637,9 +55549,9 @@ export const voivodeship = {
         "Ołówki",
         "Berędy",
         "Kąty Czernickie",
-        "Równe"
+        "Równe",
       ],
-      "Tłuszcz": [
+      Tłuszcz: [
         "Białki",
         "Rudniki",
         "Stasinów",
@@ -55693,9 +55605,9 @@ export const voivodeship = {
         "Zalesie",
         "Radziowizna",
         "Chrzęsne",
-        "Moczydło"
+        "Moczydło",
       ],
-      "Wołomin": [
+      Wołomin: [
         "Nowe Lipiny",
         "Nowe Grabie",
         "Lipinki",
@@ -55723,11 +55635,11 @@ export const voivodeship = {
         "Janina",
         "Jaroszewek",
         "Nowiny",
-        "Smugi"
-      ]
+        "Smugi",
+      ],
     },
-    "wyszkowski": {
-      "Brańszczyk": [
+    wyszkowski: {
+      Brańszczyk: [
         "Poręba Średnia",
         "Nowy Brańszczyk",
         "Udrzyn",
@@ -55774,9 +55686,9 @@ export const voivodeship = {
         "Lipa-Gajówka",
         "Gajówka Natalin",
         "Leśniczówka Natalin",
-        "Ślepioty"
+        "Ślepioty",
       ],
-      "Długosiodło": [
+      Długosiodło: [
         "Adamowo",
         "Stasin",
         "Sieczychy",
@@ -55850,9 +55762,9 @@ export const voivodeship = {
         "Gajówka Lipniak-Majorat",
         "Gajówka Grabnik",
         "Gajówka Zapole",
-        "Pecynka"
+        "Pecynka",
       ],
-      "Rząśnik": [
+      Rząśnik: [
         "Nowy Lubiel",
         "Stary Lubiel",
         "Ochudno",
@@ -55910,9 +55822,9 @@ export const voivodeship = {
         "Grabnik",
         "Przyspa",
         "Trzecie Pole-Gajówka",
-        "Gajówka Podwielątki"
+        "Gajówka Podwielątki",
       ],
-      "Somianka": [
+      Somianka: [
         "Huta Podgórna",
         "Somianka",
         "Popowo Kościelne",
@@ -55959,9 +55871,9 @@ export const voivodeship = {
         "Pod Lasem",
         "Osiny",
         "Leśniczówka Popowo",
-        "Leśniczówka Somianka"
+        "Leśniczówka Somianka",
       ],
-      "Wyszków": [
+      Wyszków: [
         "Drogoszewo",
         "Ślubów",
         "Leszczydół-Pustki",
@@ -56031,9 +55943,9 @@ export const voivodeship = {
         "Błonie",
         "Suwiec",
         "Brzeźniaki",
-        "Rafa"
+        "Rafa",
       ],
-      "Zabrodzie": [
+      Zabrodzie: [
         "Lipiny",
         "Niegów",
         "Gaj",
@@ -56056,11 +55968,11 @@ export const voivodeship = {
         "Anastazew",
         "Młynarze",
         "Adelin",
-        "Grzegorzewo"
-      ]
+        "Grzegorzewo",
+      ],
     },
-    "zwoleński": {
-      "Kazanów": [
+    zwoleński: {
+      Kazanów: [
         "Niedarczów Dolny-Wieś",
         "Borów",
         "Dębniak",
@@ -56143,9 +56055,9 @@ export const voivodeship = {
         "Leśniczówka Ruda",
         "Biedów",
         "Kępa",
-        "Poduchowne"
+        "Poduchowne",
       ],
-      "Policzna": [
+      Policzna: [
         "Wilczowola",
         "Annów",
         "Antoniówka",
@@ -56230,9 +56142,9 @@ export const voivodeship = {
         "Kazimierzówka",
         "Kopacz",
         "Gródek Nowy",
-        "Gródek Stary"
+        "Gródek Stary",
       ],
-      "Przyłęk": [
+      Przyłęk: [
         "Lipiny",
         "Pająków",
         "Wysocin",
@@ -56339,9 +56251,9 @@ export const voivodeship = {
         "Górki",
         "Klin",
         "Kruk",
-        "Kulczyn"
+        "Kulczyn",
       ],
-      "Tczów": [
+      Tczów: [
         "Janów",
         "Podzakrzówek",
         "Bartodzieje",
@@ -56380,9 +56292,9 @@ export const voivodeship = {
         "Praga",
         "Chałupy",
         "Podtynica",
-        "Przerwańce"
+        "Przerwańce",
       ],
-      "Zwoleń": [
+      Zwoleń: [
         "Atalin",
         "Strykowice Błotne",
         "Helenów",
@@ -56457,11 +56369,11 @@ export const voivodeship = {
         "Motorzyny",
         "Motorzyny",
         "Linów",
-        "Miodne"
-      ]
+        "Miodne",
+      ],
     },
-    "żuromiński": {
-      "Bieżuń": [
+    żuromiński: {
+      Bieżuń: [
         "Kobyla Łąka",
         "Wilewo",
         "Bielawy Gołuskie",
@@ -56502,7 +56414,7 @@ export const voivodeship = {
         "Borki",
         "Karniszyn-Parcele",
         "Kocewko",
-        "Ludwinowo"
+        "Ludwinowo",
       ],
       "Kuczbork-Osada": [
         "Olszewko",
@@ -56527,9 +56439,9 @@ export const voivodeship = {
         "Bagienice Duże",
         "Kuczbork-Osada",
         "Gościszka-Baraki",
-        "Wygoda"
+        "Wygoda",
       ],
-      "Lubowidz": [
+      Lubowidz: [
         "Zdrojki",
         "Biały Dwór",
         "Osówka",
@@ -56581,9 +56493,9 @@ export const voivodeship = {
         "Piegowo",
         "Borczyny",
         "Rudniwa",
-        "Zieluń-Osada"
+        "Zieluń-Osada",
       ],
-      "Lutocin": [
+      Lutocin: [
         "Parlin",
         "Obręb",
         "Głęboka",
@@ -56612,9 +56524,9 @@ export const voivodeship = {
         "Rudziska",
         "Brzuchowo",
         "Psota",
-        "Rak"
+        "Rak",
       ],
-      "Siemiątkowo": [
+      Siemiątkowo: [
         "Siciarz",
         "Rostowa",
         "Stare Budy Osieckie",
@@ -56667,9 +56579,9 @@ export const voivodeship = {
         "Goszczk",
         "Kolonia Siemiątkowska",
         "Wolany",
-        "Kolonia Łaszewska"
+        "Kolonia Łaszewska",
       ],
-      "Żuromin": [
+      Żuromin: [
         "Kruszewo",
         "Raczyny",
         "Franciszkowo",
@@ -56706,19 +56618,19 @@ export const voivodeship = {
         "Bidakowo",
         "Ostrów",
         "Białe Błoto",
-        "Nadratowo-Bieńki"
-      ]
+        "Nadratowo-Bieńki",
+      ],
     },
-    "żyrardowski": {
-      "Żyrardów": [
+    żyrardowski: {
+      Żyrardów: [
         "Żyrardów",
         "Podblich",
         "Teklin",
         "Dobra-Sokule",
         "Piotrowina",
-        "Podlas"
+        "Podlas",
       ],
-      "Mszczonów": [
+      Mszczonów: [
         "Budy-Strzyże",
         "Dębiny Osuchowskie",
         "Michalin",
@@ -56790,7 +56702,7 @@ export const voivodeship = {
         "Huta Piekarska",
         "Dwórzynek",
         "Huta Lutkowska",
-        "Baraki Osuchowskie"
+        "Baraki Osuchowskie",
       ],
       "Puszcza Mariańska": [
         "Górki",
@@ -56848,9 +56760,9 @@ export const voivodeship = {
         "Chrząszczew",
         "Patoki",
         "Żerań",
-        "Budy-Kałki"
+        "Budy-Kałki",
       ],
-      "Radziejowice": [
+      Radziejowice: [
         "Radziejowice",
         "Chroboty",
         "Tartak Brzózki",
@@ -56875,9 +56787,9 @@ export const voivodeship = {
         "Radziejowice-Parcel",
         "Nowe Budy",
         "Korytów A",
-        "Dobiegała"
+        "Dobiegała",
       ],
-      "Wiskitki": [
+      Wiskitki: [
         "Jesionka",
         "Józefów",
         "Kamionka",
@@ -56927,11 +56839,11 @@ export const voivodeship = {
         "Babski Borek",
         "Miedniewice-Gajówka",
         "Sokule Drugie",
-        "Sokule Pierwsze"
-      ]
+        "Sokule Pierwsze",
+      ],
     },
-    "Ostrołęka": {
-      "Ostrołęka": [
+    Ostrołęka: {
+      Ostrołęka: [
         "Ostrołęka",
         "Wojciechowice",
         "Grabowo",
@@ -56941,11 +56853,11 @@ export const voivodeship = {
         "Kaczyny-Wypychy",
         "Łazek",
         "Ostrołęka-Stacja",
-        "Nowa Wieś Leśna"
-      ]
+        "Nowa Wieś Leśna",
+      ],
     },
-    "Płock": {
-      "Płock": [
+    Płock: {
+      Płock: [
         "Płock",
         "Góry",
         "Longinus",
@@ -56973,11 +56885,11 @@ export const voivodeship = {
         "Imielnica",
         "Ogrody",
         "Winiary",
-        "Góry-Nadleśnictwo"
-      ]
+        "Góry-Nadleśnictwo",
+      ],
     },
-    "Radom": {
-      "Radom": [
+    Radom: {
+      Radom: [
         "Radom",
         "Las Kapturski",
         "Stara Wola Gołębiowska",
@@ -57040,11 +56952,11 @@ export const voivodeship = {
         "Komorniki Rajeckie",
         "Malenice",
         "Młyn-Wójtostwo",
-        "Szczygieł"
-      ]
+        "Szczygieł",
+      ],
     },
-    "Siedlce": {
-      "Siedlce": [
+    Siedlce: {
+      Siedlce: [
         "Siedlce",
         "Taradajki",
         "Piaski Zamiejskie",
@@ -57055,14 +56967,12 @@ export const voivodeship = {
         "Błonie",
         "Piaski Starowiejskie",
         "Przymiarki",
-        "Stara Wieś"
-      ]
-    },
-    "Warszawa": {
-      "Warszawa": [
-        "Warszawa"
+        "Stara Wieś",
       ],
-      "Bemowo": [
+    },
+    Warszawa: {
+      Warszawa: ["Warszawa"],
+      Bemowo: [
         "Bemowo",
         "Bemowo",
         "Chrzanów",
@@ -57071,9 +56981,9 @@ export const voivodeship = {
         "Karolin",
         "Nowe Górce",
         "Odolany",
-        "Górce"
+        "Górce",
       ],
-      "Białołęka": [
+      Białołęka: [
         "Białołęka",
         "Annopol",
         "Augustów",
@@ -57110,9 +57020,9 @@ export const voivodeship = {
         "Żerań",
         "Żerań Wschodni",
         "Szylówek",
-        "Góry Skierdowskie"
+        "Góry Skierdowskie",
       ],
-      "Bielany": [
+      Bielany: [
         "Bielany",
         "Brzeziny",
         "Bielany",
@@ -57127,9 +57037,9 @@ export const voivodeship = {
         "Słodowiec",
         "Wawrzyszew",
         "Wólka Węglowa",
-        "Rudawka"
+        "Rudawka",
       ],
-      "Mokotów": [
+      Mokotów: [
         "Mokotów",
         "Czerniaków",
         "Dolny Mokotów",
@@ -57146,14 +57056,9 @@ export const voivodeship = {
         "Służew",
         "Służewiec",
         "Stegny",
-        "Wierzbno"
+        "Wierzbno",
       ],
-      "Ochota": [
-        "Ochota",
-        "Ochota",
-        "Rakowiec",
-        "Szczęśliwice"
-      ],
+      Ochota: ["Ochota", "Ochota", "Rakowiec", "Szczęśliwice"],
       "Praga-Południe": [
         "Praga-Południe",
         "Olszynka Grochowska",
@@ -57164,7 +57069,7 @@ export const voivodeship = {
         "Kamionek",
         "Kępa Gocławska",
         "Kozia Górka",
-        "Praga-Południe"
+        "Praga-Południe",
       ],
       "Praga-Północ": [
         "Praga-Północ",
@@ -57172,9 +57077,9 @@ export const voivodeship = {
         "Pelcowizna",
         "Praga",
         "Szmulki",
-        "Praga-Północ"
+        "Praga-Północ",
       ],
-      "Rembertów": [
+      Rembertów: [
         "Rembertów",
         "Wygoda",
         "Mokry Ług",
@@ -57185,9 +57090,9 @@ export const voivodeship = {
         "Stary Rembertów",
         "Magenta",
         "Karolówka",
-        "Kawęczyn"
+        "Kawęczyn",
       ],
-      "Śródmieście": [
+      Śródmieście: [
         "Śródmieście",
         "Latawiec",
         "Mariensztat",
@@ -57196,24 +57101,19 @@ export const voivodeship = {
         "Stare Miasto",
         "Śródmieście",
         "Muranów",
-        "Mirów"
+        "Mirów",
       ],
-      "Targówek": [
+      Targówek: [
         "Targówek",
         "Elsnerów",
         "Nowe Bródno",
         "Targówek",
         "Ugory",
         "Zacisze",
-        "Bródno"
+        "Bródno",
       ],
-      "Ursus": [
-        "Ursus",
-        "Gołąbki",
-        "Skorosze",
-        "Ursus"
-      ],
-      "Ursynów": [
+      Ursus: ["Ursus", "Gołąbki", "Skorosze", "Ursus"],
+      Ursynów: [
         "Ursynów",
         "Dawidy Poduchowne",
         "Dąbrówka",
@@ -57232,9 +57132,9 @@ export const voivodeship = {
         "Pyry",
         "Ursynów",
         "Wyczółki",
-        "Imielin"
+        "Imielin",
       ],
-      "Wawer": [
+      Wawer: [
         "Wawer",
         "Wólka Zerzeńska",
         "Zagóźdź",
@@ -57261,9 +57161,9 @@ export const voivodeship = {
         "Julianów",
         "Aleksandrów Drugi",
         "Aleksandrów Pierwszy",
-        "Aleksandrów Trzeci"
+        "Aleksandrów Trzeci",
       ],
-      "Wesoła": [
+      Wesoła: [
         "Wesoła",
         "Groszówka",
         "Grzybowa",
@@ -57271,9 +57171,9 @@ export const voivodeship = {
         "Stara Miłosna",
         "Wola Grzybowska",
         "Zielona",
-        "Wesoła"
+        "Wesoła",
       ],
-      "Wilanów": [
+      Wilanów: [
         "Wilanów",
         "Augustówka",
         "Kępa Latoszkowa",
@@ -57285,9 +57185,9 @@ export const voivodeship = {
         "Wilanów",
         "Wolica",
         "Zamość",
-        "Zawady"
+        "Zawady",
       ],
-      "Włochy": [
+      Włochy: [
         "Włochy",
         "Gorzkiewki",
         "Nowy Służewiec",
@@ -57300,9 +57200,9 @@ export const voivodeship = {
         "Włochy",
         "Załuski",
         "Zbarz",
-        "Opacz-Parcela"
+        "Opacz-Parcela",
       ],
-      "Wola": [
+      Wola: [
         "Wola",
         "Czyste",
         "Koło",
@@ -57310,24 +57210,15 @@ export const voivodeship = {
         "Młynów",
         "Muranów",
         "Ulrychów",
-        "Wola"
+        "Wola",
       ],
-      "Żoliborz": [
-        "Żoliborz",
-        "Buraków",
-        "Cytadela",
-        "Powązki",
-        "Żoliborz"
-      ]
-    }
+      Żoliborz: ["Żoliborz", "Buraków", "Cytadela", "Powązki", "Żoliborz"],
+    },
   },
-  "OPOLSKIE": {
-    "brzeski": {
-      "Brzeg": [
-        "Rataje",
-        "Brzeg"
-      ],
-      "Skarbimierz": [
+  OPOLSKIE: {
+    brzeski: {
+      Brzeg: ["Rataje", "Brzeg"],
+      Skarbimierz: [
         "Zwanowice",
         "Skarbimierz-Osiedle",
         "Kopanie",
@@ -57343,9 +57234,9 @@ export const voivodeship = {
         "Zielęcice",
         "Zwanowice",
         "Żłobizna",
-        "Lipki"
+        "Lipki",
       ],
-      "Grodków": [
+      Grodków: [
         "Półwiosek",
         "Podlesie",
         "Lesie",
@@ -57387,7 +57278,7 @@ export const voivodeship = {
         "Żelazna",
         "Gola Grodkowska",
         "Jędrzejów",
-        "Jeszkotle"
+        "Jeszkotle",
       ],
       "Lewin Brzeski": [
         "Leśniczówka",
@@ -57416,9 +57307,9 @@ export const voivodeship = {
         "Kantorowice",
         "Mikolin",
         "Sarny Małe",
-        "Różyna"
+        "Różyna",
       ],
-      "Lubsza": [
+      Lubsza: [
         "Sielska Woda",
         "Garbów",
         "Borek",
@@ -57450,9 +57341,9 @@ export const voivodeship = {
         "Myśliborzyce",
         "Michałowice",
         "Rogalice",
-        "Pisarzowice"
+        "Pisarzowice",
       ],
-      "Olszanka": [
+      Olszanka: [
         "Janów",
         "Obórki",
         "Czeska Wieś",
@@ -57462,11 +57353,11 @@ export const voivodeship = {
         "Jankowice Wielkie",
         "Gierszowice",
         "Krzyżowice",
-        "Przylesie"
-      ]
+        "Przylesie",
+      ],
     },
-    "głubczycki": {
-      "Baborów": [
+    głubczycki: {
+      Baborów: [
         "Czerwonków-Osiedle",
         "Langowo",
         "Jaroniów",
@@ -57483,9 +57374,9 @@ export const voivodeship = {
         "Tłustomosty",
         "Szczyty",
         "Raków",
-        "Czerwonków"
+        "Czerwonków",
       ],
-      "Branice": [
+      Branice: [
         "Dzbańce-Osiedle",
         "Włodzienin-Kolonia",
         "Niekazanice-Kałduny",
@@ -57507,9 +57398,9 @@ export const voivodeship = {
         "Turków",
         "Jabłonka",
         "Wiechowice",
-        "Wódka"
+        "Wódka",
       ],
-      "Głubczyce": [
+      Głubczyce: [
         "Żabczyce",
         "Bernacice",
         "Brachowice",
@@ -57567,9 +57458,9 @@ export const voivodeship = {
         "Bernacice",
         "Chomiąża",
         "Dobieszów",
-        "Debrzyca"
+        "Debrzyca",
       ],
-      "Kietrz": [
+      Kietrz: [
         "Gęsina",
         "Nowa Cerekwia",
         "Krotoszyn",
@@ -57590,8 +57481,8 @@ export const voivodeship = {
         "Rogożany",
         "Dzierżysław",
         "Nowa Cerekwia",
-        "Ściborzyce Wielkie"
-      ]
+        "Ściborzyce Wielkie",
+      ],
     },
     "kędzierzyńsko-kozielski": {
       "Kędzierzyn-Koźle": [
@@ -57615,9 +57506,9 @@ export const voivodeship = {
         "Blachownia Śląska",
         "Koźle-Port",
         "Miejsce Kłodnickie",
-        "Kędzierzyn-Koźle"
+        "Kędzierzyn-Koźle",
       ],
-      "Bierawa": [
+      Bierawa: [
         "Utrata",
         "Kąt",
         "Klichów",
@@ -57635,9 +57526,9 @@ export const voivodeship = {
         "Dziergowice",
         "Brzeźce",
         "Stara Kuźnia",
-        "Grabówka"
+        "Grabówka",
       ],
-      "Cisek": [
+      Cisek: [
         "Olszowa",
         "Lasaki",
         "Głogowiec",
@@ -57664,9 +57555,9 @@ export const voivodeship = {
         "Miejsce Odrzańskie",
         "Steblów",
         "Cisek",
-        "Błażejowice"
+        "Błażejowice",
       ],
-      "Pawłowiczki": [
+      Pawłowiczki: [
         "Krasowa",
         "Warmuntowice",
         "Rzeczyce",
@@ -57699,7 +57590,7 @@ export const voivodeship = {
         "Karchów",
         "Borzysławice",
         "Dobrosławice",
-        "Ucieszków"
+        "Ucieszków",
       ],
       "Polska Cerekiew": [
         "Miłowice",
@@ -57722,7 +57613,7 @@ export const voivodeship = {
         "Grzędzin",
         "Koza",
         "Ligota Mała",
-        "Wronin"
+        "Wronin",
       ],
       "Reńska Wieś": [
         "Wygoda",
@@ -57742,11 +57633,11 @@ export const voivodeship = {
         "Pokrzywnica",
         "Długomiłowice",
         "Naczysławki",
-        "Mechnica"
-      ]
+        "Mechnica",
+      ],
     },
-    "kluczborski": {
-      "Byczyna": [
+    kluczborski: {
+      Byczyna: [
         "Kluczów",
         "Dąbrówka",
         "Kania",
@@ -57786,9 +57677,9 @@ export const voivodeship = {
         "Gosław",
         "Wojsławice",
         "Janówka",
-        "Jakubowice"
+        "Jakubowice",
       ],
-      "Kluczbork": [
+      Kluczbork: [
         "Damnik",
         "Dobrzyny",
         "Drzewiec",
@@ -57839,7 +57730,7 @@ export const voivodeship = {
         "Maciejów",
         "Ligota Górna",
         "Czaple Wolne",
-        "Żabiniec"
+        "Żabiniec",
       ],
       "Lasowice Wielkie": [
         "Radomil",
@@ -57894,9 +57785,9 @@ export const voivodeship = {
         "Chudoba",
         "Chocianowice",
         "Oś",
-        "Szumirad"
+        "Szumirad",
       ],
-      "Wołczyn": [
+      Wołczyn: [
         "Cegielnia",
         "Krystyna",
         "Kołoczek",
@@ -57948,11 +57839,11 @@ export const voivodeship = {
         "Brzezinki",
         "Świniary Wielkie",
         "Gierałcice",
-        "Wierzchy"
-      ]
+        "Wierzchy",
+      ],
     },
-    "krapkowicki": {
-      "Gogolin": [
+    krapkowicki: {
+      Gogolin: [
         "Pod Lasem",
         "Wapienniki",
         "Dzioły",
@@ -57976,9 +57867,9 @@ export const voivodeship = {
         "Zakrzów",
         "Chorula",
         "Malnia",
-        "Kamionek"
+        "Kamionek",
       ],
-      "Krapkowice": [
+      Krapkowice: [
         "Czekaj",
         "Wygon",
         "Jarczowice",
@@ -58001,9 +57892,9 @@ export const voivodeship = {
         "Steblów",
         "Borek",
         "Nowy Dwór Prudnicki",
-        "Kórnica"
+        "Kórnica",
       ],
-      "Strzeleczki": [
+      Strzeleczki: [
         "Zbychowice",
         "Nowy Bud",
         "Nowy Młyn",
@@ -58023,9 +57914,9 @@ export const voivodeship = {
         "Dobra",
         "Smolarnia",
         "Zielina",
-        "Komorniki"
+        "Komorniki",
       ],
-      "Walce": [
+      Walce: [
         "Brzezina",
         "Olszyna",
         "Marianków",
@@ -58045,9 +57936,9 @@ export const voivodeship = {
         "Grocholub",
         "Brożec",
         "Zabierzów",
-        "Stradunia"
+        "Stradunia",
       ],
-      "Zdzieszowice": [
+      Zdzieszowice: [
         "Dalnie",
         "Bąków",
         "Paryż",
@@ -58071,11 +57962,11 @@ export const voivodeship = {
         "Krępna",
         "Januszkowice",
         "Żyrowa",
-        "Rozwadza"
-      ]
+        "Rozwadza",
+      ],
     },
-    "namysłowski": {
-      "Domaszowice": [
+    namysłowski: {
+      Domaszowice: [
         "Zalesie",
         "Jarzębiec",
         "Zalesie",
@@ -58096,9 +57987,9 @@ export const voivodeship = {
         "Strzelce",
         "Woskowice Górne",
         "Siemysłów",
-        "Polkowskie"
+        "Polkowskie",
       ],
-      "Namysłów": [
+      Namysłów: [
         "Siedlec",
         "Lesiny",
         "Zbytki",
@@ -58153,9 +58044,9 @@ export const voivodeship = {
         "Żaba",
         "Ziemiełowice",
         "Pawłowice Namysłowskie",
-        "Objazda"
+        "Objazda",
       ],
-      "Pokój": [
+      Pokój: [
         "Szum",
         "Jaginów",
         "Winna Góra",
@@ -58178,9 +58069,9 @@ export const voivodeship = {
         "Lubnów",
         "Kopalina",
         "Ładza",
-        "Domaradzka Kuźnia"
+        "Domaradzka Kuźnia",
       ],
-      "Świerczów": [
+      Świerczów: [
         "Lipa",
         "Skórze",
         "Przygorzele",
@@ -58208,9 +58099,9 @@ export const voivodeship = {
         "Starościn",
         "Kuźnica Dąbrowska",
         "Świerczów",
-        "Zbica"
+        "Zbica",
       ],
-      "Wilków": [
+      Wilków: [
         "Wojciechów",
         "Chrząstów",
         "Pągówek",
@@ -58226,11 +58117,11 @@ export const voivodeship = {
         "Wojciechów",
         "Pągów",
         "Jakubowice",
-        "Lubska"
-      ]
+        "Lubska",
+      ],
     },
-    "nyski": {
-      "Głuchołazy": [
+    nyski: {
+      Głuchołazy: [
         "Osiedle Pasterówka",
         "Osiedle Pionierów",
         "Łączki",
@@ -58262,9 +58153,9 @@ export const voivodeship = {
         "Markowice",
         "Nowy Las",
         "Nowy Świętów",
-        "Pokrzywna"
+        "Pokrzywna",
       ],
-      "Kamiennik": [
+      Kamiennik: [
         "Siodłary",
         "Suliszów",
         "Tarnów",
@@ -58280,9 +58171,9 @@ export const voivodeship = {
         "Białowieża",
         "Cieszanowice",
         "Kamiennik",
-        "Szklary"
+        "Szklary",
       ],
-      "Korfantów": [
+      Korfantów: [
         "Ulianówka",
         "Smolarnia",
         "Ligota Ścinawska",
@@ -58312,9 +58203,9 @@ export const voivodeship = {
         "Borek",
         "Kuźnica Ligocka",
         "Przechód",
-        "Jegielnica"
+        "Jegielnica",
       ],
-      "Łambinowice": [
+      Łambinowice: [
         "Okopy",
         "Dworzysko",
         "Bardno",
@@ -58329,9 +58220,9 @@ export const voivodeship = {
         "Malerzowice Wielkie",
         "Budzieszowice",
         "Jasienica Dolna",
-        "Wierzbie"
+        "Wierzbie",
       ],
-      "Nysa": [
+      Nysa: [
         "Radoszyn",
         "Górna Wieś",
         "Dolna Wieś",
@@ -58366,9 +58257,9 @@ export const voivodeship = {
         "Siestrzechowice",
         "Lipowa",
         "Konradowa",
-        "Koperniki"
+        "Koperniki",
       ],
-      "Otmuchów": [
+      Otmuchów: [
         "Bednary",
         "Rysiowice",
         "Zawsie",
@@ -58409,9 +58300,9 @@ export const voivodeship = {
         "Ratnowice",
         "Kwiatków",
         "Maciejowice",
-        "Buków"
+        "Buków",
       ],
-      "Paczków": [
+      Paczków: [
         "Paczkówek",
         "Frydrychów",
         "Książe",
@@ -58426,9 +58317,9 @@ export const voivodeship = {
         "Ujeździec",
         "Unikowice",
         "Wilamowa",
-        "Kozielno"
+        "Kozielno",
       ],
-      "Pakosławice": [
+      Pakosławice: [
         "Godkowice",
         "Radowice",
         "Frączków",
@@ -58446,9 +58337,9 @@ export const voivodeship = {
         "Smolice",
         "Goszowice",
         "Bykowice",
-        "Nowaki"
+        "Nowaki",
       ],
-      "Skoroszyce": [
+      Skoroszyce: [
         "Łanów",
         "Zacisze",
         "Czarnolas",
@@ -58460,11 +58351,11 @@ export const voivodeship = {
         "Giełczyce",
         "Brzeziny",
         "Stary Grodków",
-        "Mroczkowa"
-      ]
+        "Mroczkowa",
+      ],
     },
-    "oleski": {
-      "Dobrodzień": [
+    oleski: {
+      Dobrodzień: [
         "Kolejka",
         "Marzatka",
         "Zwóz",
@@ -58507,7 +58398,7 @@ export const voivodeship = {
         "Klekotna",
         "Gosławice",
         "Kocury",
-        "Główczyce"
+        "Główczyce",
       ],
       "Gorzów Śląski": [
         "Pawłowicki Folwark",
@@ -58562,9 +58453,9 @@ export const voivodeship = {
         "Uszyce",
         "Kozłowice",
         "Jastrzygowice",
-        "Zdziechowice"
+        "Zdziechowice",
       ],
-      "Olesno": [
+      Olesno: [
         "Stara Chudoba",
         "Czarny Las",
         "Nowy Wachów",
@@ -58629,9 +58520,9 @@ export const voivodeship = {
         "Świercze",
         "Wachów",
         "Łomnica",
-        "Sowczyce"
+        "Sowczyce",
       ],
-      "Praszka": [
+      Praszka: [
         "Stanisławów",
         "Grabówka",
         "Wygiełdów",
@@ -58677,9 +58568,9 @@ export const voivodeship = {
         "Tokary",
         "Gana",
         "Prosna",
-        "Aleksandrów"
+        "Aleksandrów",
       ],
-      "Radłów": [
+      Radłów: [
         "Diabli Młynek",
         "Wytoka",
         "Stare Karmonki",
@@ -58707,9 +58598,9 @@ export const voivodeship = {
         "Kościeliska",
         "Wolęcin",
         "Ligota Oleska",
-        "Kolonia Biskupska"
+        "Kolonia Biskupska",
       ],
-      "Rudniki": [
+      Rudniki: [
         "Mostki",
         "Cieciułów",
         "Glinki",
@@ -58765,9 +58656,9 @@ export const voivodeship = {
         "Jaworzno Bankowe",
         "Jaworzno",
         "Żytniów",
-        "Polesie"
+        "Polesie",
       ],
-      "Zębowice": [
+      Zębowice: [
         "Bąkownia",
         "Osina",
         "Sośnie",
@@ -58794,11 +58685,11 @@ export const voivodeship = {
         "Prusków",
         "Łąka",
         "Osiecko",
-        "Siedliska"
-      ]
+        "Siedliska",
+      ],
     },
-    "opolski": {
-      "Chrząstowice": [
+    opolski: {
+      Chrząstowice: [
         "Kamionka",
         "Zbicko",
         "Kolonia",
@@ -58810,9 +58701,9 @@ export const voivodeship = {
         "Suchy Bór",
         "Falmirowice",
         "Chrząstowice",
-        "Dębie"
+        "Dębie",
       ],
-      "Dąbrowa": [
+      Dąbrowa: [
         "Sokolniki",
         "Jemielin",
         "Turzak",
@@ -58835,7 +58726,7 @@ export const voivodeship = {
         "Nowa Jamka",
         "Siedliska",
         "Ciepielowice",
-        "Chróścina"
+        "Chróścina",
       ],
       "Dobrzeń Wielki": [
         "Młyn",
@@ -58854,9 +58745,9 @@ export const voivodeship = {
         "Dobrzeń Wielki",
         "Dobrzeń Mały",
         "Chróścice",
-        "Kup"
+        "Kup",
       ],
-      "Komprachcice": [
+      Komprachcice: [
         "Palecznica",
         "Osiedle",
         "Domecka Kuźnia",
@@ -58867,9 +58758,9 @@ export const voivodeship = {
         "Polska Nowa Wieś",
         "Domecko",
         "Osiny",
-        "Ochodze"
+        "Ochodze",
       ],
-      "Łubniany": [
+      Łubniany: [
         "Niwa",
         "Łączysko",
         "Martynie",
@@ -58897,9 +58788,9 @@ export const voivodeship = {
         "Łubniany",
         "Kolanowice",
         "Kobylno",
-        "Masów"
+        "Masów",
       ],
-      "Murów": [
+      Murów: [
         "Wojszyn",
         "Podkraje",
         "Kopiec",
@@ -58922,9 +58813,9 @@ export const voivodeship = {
         "Murów",
         "Kały",
         "Zagwiździe",
-        "Okoły"
+        "Okoły",
       ],
-      "Niemodlin": [
+      Niemodlin: [
         "Kolonia Leśna",
         "Kolonia Robotnicza",
         "Wesele",
@@ -58961,9 +58852,9 @@ export const voivodeship = {
         "Wydrowice",
         "Rzędziwojowice",
         "Roszkowice",
-        "Rutki"
+        "Rutki",
       ],
-      "Ozimek": [
+      Ozimek: [
         "Niwa Schodzieńska",
         "Kopalnia",
         "Nieznowice",
@@ -58987,9 +58878,9 @@ export const voivodeship = {
         "Dylaki",
         "Krzyżowa Dolina",
         "Biestrzynnik",
-        "Schodnia"
+        "Schodnia",
       ],
-      "Popielów": [
+      Popielów: [
         "Zawada",
         "Osiedle",
         "Kobylice",
@@ -59013,9 +58904,9 @@ export const voivodeship = {
         "Kuźnica Katowska",
         "Lubienia",
         "Nowe Siołkowice",
-        "Karłowice"
+        "Karłowice",
       ],
-      "Prószków": [
+      Prószków: [
         "Droździce",
         "Pulów",
         "Osiny",
@@ -59049,7 +58940,7 @@ export const voivodeship = {
         "Folwark",
         "Górki",
         "Zimnice Małe",
-        "Zimnice Wielkie"
+        "Zimnice Wielkie",
       ],
       "Tarnów Opolski": [
         "Łowiecko",
@@ -59062,17 +58953,17 @@ export const voivodeship = {
         "Walidrogi",
         "Nakło",
         "Tarnów Opolski",
-        "Kosorowice"
+        "Kosorowice",
       ],
-      "Tułowice": [
+      Tułowice: [
         "Tułowice Małe",
         "Tułowice",
         "Szydłów",
         "Goszczowice",
         "Ligota Tułowicka",
-        "Skarbiszowice"
+        "Skarbiszowice",
       ],
-      "Turawa": [
+      Turawa: [
         "Piła",
         "Borek",
         "Bierdzańska Kolonia",
@@ -59096,11 +58987,11 @@ export const voivodeship = {
         "Kotórz Wielki",
         "Kotórz Mały",
         "Zakrzów Turawski",
-        "Węgry"
-      ]
+        "Węgry",
+      ],
     },
-    "prudnicki": {
-      "Biała": [
+    prudnicki: {
+      Biała: [
         "Jeleni Dwór",
         "Śródlesie",
         "Śródlesie",
@@ -59146,9 +59037,9 @@ export const voivodeship = {
         "Prężyna",
         "Kolnowice",
         "Ligota Bialska",
-        "Łącznik"
+        "Łącznik",
       ],
-      "Głogówek": [
+      Głogówek: [
         "Młodziejowice",
         "Hojnowice",
         "Wyszków",
@@ -59186,9 +59077,9 @@ export const voivodeship = {
         "Leśnik",
         "Mionów",
         "Racławice Śląskie",
-        "Nowe Kotkowice"
+        "Nowe Kotkowice",
       ],
-      "Lubrza": [
+      Lubrza: [
         "Dobroszewice",
         "Lubrza",
         "Trzebina",
@@ -59200,9 +59091,9 @@ export const voivodeship = {
         "Skrzypiec",
         "Olszynka",
         "Krzyżkowice",
-        "Laskowice"
+        "Laskowice",
       ],
-      "Prudnik": [
+      Prudnik: [
         "Moszczanka-Kolonia",
         "Chocim",
         "Gajówka",
@@ -59224,11 +59115,11 @@ export const voivodeship = {
         "Łąka Prudnicka",
         "Niemysłowice",
         "Piorunkowice",
-        "Moszczanka"
-      ]
+        "Moszczanka",
+      ],
     },
-    "strzelecki": {
-      "Izbicko": [
+    strzelecki: {
+      Izbicko: [
         "Lwowska",
         "Utrata",
         "Kamień Śląski",
@@ -59244,9 +59135,9 @@ export const voivodeship = {
         "Sprzęcice",
         "Otmice",
         "Poznowice",
-        "Grabów"
+        "Grabów",
       ],
-      "Jemielnica": [
+      Jemielnica: [
         "Graniczny",
         "Miłosna",
         "Redwina",
@@ -59267,9 +59158,9 @@ export const voivodeship = {
         "Piotrówka",
         "Wierchlesie",
         "Barut",
-        "Łaziska"
+        "Łaziska",
       ],
-      "Kolonowskie": [
+      Kolonowskie: [
         "Baniak",
         "Granica",
         "Magda",
@@ -59283,9 +59174,9 @@ export const voivodeship = {
         "Kolonowskie",
         "Spórok",
         "Staniszcze Małe",
-        "Staniszcze Wielkie"
+        "Staniszcze Wielkie",
       ],
-      "Leśnica": [
+      Leśnica: [
         "Dolnica",
         "Stanięcin",
         "Rokicie",
@@ -59306,7 +59197,7 @@ export const voivodeship = {
         "Wysoka",
         "Dolna",
         "Lichynia",
-        "Czarnocin"
+        "Czarnocin",
       ],
       "Strzelce Opolskie": [
         "Stara Poczta",
@@ -59356,9 +59247,9 @@ export const voivodeship = {
         "Warmątowice",
         "Szczepanek",
         "Ligota Górna",
-        "Osiek"
+        "Osiek",
       ],
-      "Ujazd": [
+      Ujazd: [
         "Janków",
         "Komorniki",
         "Księży Las",
@@ -59380,9 +59271,9 @@ export const voivodeship = {
         "Balcarzowice",
         "Jaryszów",
         "Zimna Wódka",
-        "Niezdrowice"
+        "Niezdrowice",
       ],
-      "Zawadzkie": [
+      Zawadzkie: [
         "Samosz",
         "Nowa Wieś Strzelecka",
         "Bombelka",
@@ -59397,11 +59288,11 @@ export const voivodeship = {
         "Górki",
         "Zawadzkie",
         "Żędowice",
-        "Kielcza"
-      ]
+        "Kielcza",
+      ],
     },
-    "Opole": {
-      "Opole": [
+    Opole: {
+      Opole: [
         "Wyspa Bolko",
         "Kolonia Gosławicka",
         "Szczepanowice",
@@ -59442,13 +59333,13 @@ export const voivodeship = {
         "Wróblin",
         "Zaodrze",
         "Chwałkowice",
-        "Opole"
-      ]
-    }
+        "Opole",
+      ],
+    },
   },
-  "PODKARPACKIE": {
-    "bieszczadzki": {
-      "Czarna": [
+  PODKARPACKIE: {
+    bieszczadzki: {
+      Czarna: [
         "Rabe",
         "Polana",
         "Żłobek",
@@ -59469,9 +59360,9 @@ export const voivodeship = {
         "Chrewt",
         "Olchowiec",
         "Sokołowa Wola",
-        "Tworylne"
+        "Tworylne",
       ],
-      "Lutowiska": [
+      Lutowiska: [
         "Dwernik",
         "Chmiel",
         "Smolnik",
@@ -59506,7 +59397,7 @@ export const voivodeship = {
         "Nasiczne",
         "Dźwiniacz Górny",
         "Muczne",
-        "Żurawin"
+        "Żurawin",
       ],
       "Ustrzyki Dolne": [
         "Nowosielce Kozickie",
@@ -59571,11 +59462,11 @@ export const voivodeship = {
         "Kwaszenina",
         "Trójca",
         "Trzcianiec",
-        "Arłamów"
-      ]
+        "Arłamów",
+      ],
     },
-    "brzozowski": {
-      "Brzozów": [
+    brzozowski: {
+      Brzozów: [
         "Przysietnica",
         "Turze Pole",
         "Humniska",
@@ -59662,9 +59553,9 @@ export const voivodeship = {
         "Ostrowiec",
         "Grabiec",
         "Korea",
-        "Gołaszówka"
+        "Gołaszówka",
       ],
-      "Domaradz": [
+      Domaradz: [
         "Domaradz",
         "Barycz",
         "Golcowa",
@@ -59723,9 +59614,9 @@ export const voivodeship = {
         "Stecówka",
         "Wanicówka",
         "Zakarczma",
-        "Kudłówka"
+        "Kudłówka",
       ],
-      "Dydnia": [
+      Dydnia: [
         "Krzemienna",
         "Niewistka",
         "Jabłonka",
@@ -59783,9 +59674,9 @@ export const voivodeship = {
         "Łaz",
         "Góra",
         "Ulucz",
-        "Hroszówka"
+        "Hroszówka",
       ],
-      "Haczów": [
+      Haczów: [
         "Wzdów",
         "Jabłonica Polska",
         "Trześniów",
@@ -59819,7 +59710,7 @@ export const voivodeship = {
         "Ruda",
         "Paniczówka",
         "Nowa Wieś",
-        "Łęg"
+        "Łęg",
       ],
       "Jasienica Rosielna": [
         "Blizne",
@@ -59874,9 +59765,9 @@ export const voivodeship = {
         "Miasteczko",
         "Stara Poczta",
         "Zagórze",
-        "Drożdżalówka"
+        "Drożdżalówka",
       ],
-      "Nozdrzec": [
+      Nozdrzec: [
         "Wesoła",
         "Hłudno",
         "Huta Poręby",
@@ -59961,11 +59852,11 @@ export const voivodeship = {
         "Dół",
         "Filówka",
         "Turoniówka",
-        "Rymarczyna"
-      ]
+        "Rymarczyna",
+      ],
     },
-    "dębicki": {
-      "Dębica": [
+    dębicki: {
+      Dębica: [
         "Brzeźnica",
         "Gumniska",
         "Kędzierz",
@@ -60061,9 +59952,9 @@ export const voivodeship = {
         "Południk",
         "Sewerówka",
         "Rola",
-        "Głodomanek"
+        "Głodomanek",
       ],
-      "Brzostek": [
+      Brzostek: [
         "Siedliska-Bogusz",
         "Przeczyca",
         "Opacionka",
@@ -60125,9 +60016,9 @@ export const voivodeship = {
         "Rzeki",
         "Góry",
         "Okrągła",
-        "Dąbrówka"
+        "Dąbrówka",
       ],
-      "Czarna": [
+      Czarna: [
         "Podlesie",
         "Przeryty Bór",
         "Żdżary",
@@ -60208,9 +60099,9 @@ export const voivodeship = {
         "Wiochna",
         "Kowalówka",
         "Rynek",
-        "Przyborów"
+        "Przyborów",
       ],
-      "Jodłowa": [
+      Jodłowa: [
         "Dęborzyn",
         "Jodłowa",
         "Dębowa",
@@ -60234,9 +60125,9 @@ export const voivodeship = {
         "Nadole",
         "Nagórze",
         "Piekło",
-        "Podosiny"
+        "Podosiny",
       ],
-      "Pilzno": [
+      Pilzno: [
         "Jaworze Górne",
         "Dobrków",
         "Lipiny",
@@ -60330,9 +60221,9 @@ export const voivodeship = {
         "Rędziny",
         "Sołtystwo",
         "Za Górą",
-        "Zagumnie"
+        "Zagumnie",
       ],
-      "Żyraków": [
+      Żyraków: [
         "Wola Żyrakowska",
         "Żyraków",
         "Zasów",
@@ -60379,11 +60270,11 @@ export const voivodeship = {
         "Na Dworskiem",
         "Bródki",
         "Kędzierz",
-        "Podedwór"
-      ]
+        "Podedwór",
+      ],
     },
-    "jarosławski": {
-      "Jarosław": [
+    jarosławski: {
+      Jarosław: [
         "Makowisko",
         "Munina",
         "Surochów",
@@ -60454,9 +60345,9 @@ export const voivodeship = {
         "Z Dołu",
         "Makowiska",
         "Mendlówka",
-        "Murowanka"
+        "Murowanka",
       ],
-      "Radymno": [
+      Radymno: [
         "Zabłotce",
         "Skołoszów",
         "Młyny",
@@ -60528,9 +60419,9 @@ export const voivodeship = {
         "Pod Świętem",
         "Łapajówka",
         "Zadąbrowie",
-        "Moszczany"
+        "Moszczany",
       ],
-      "Chłopice": [
+      Chłopice: [
         "Dobkowice",
         "Łowce",
         "Boratyn",
@@ -60562,9 +60453,9 @@ export const voivodeship = {
         "Tapińska Część",
         "Mokra",
         "Sośnina",
-        "Karwaka"
+        "Karwaka",
       ],
-      "Laszki": [
+      Laszki: [
         "Bobrówka",
         "Miękisz Nowy",
         "Miękisz Stary",
@@ -60615,9 +60506,9 @@ export const voivodeship = {
         "Stawisko",
         "Wietlin",
         "Tuchla",
-        "Bukowina"
+        "Bukowina",
       ],
-      "Pawłosiów": [
+      Pawłosiów: [
         "Ożańsk",
         "Maleniska",
         "Cieszacin Wielki",
@@ -60646,9 +60537,9 @@ export const voivodeship = {
         "Ogrody",
         "Podlesie",
         "Ożogów",
-        "Za Wsią"
+        "Za Wsią",
       ],
-      "Pruchnik": [
+      Pruchnik: [
         "Jodłówka",
         "Kramarzówka",
         "Rozbórz Długi",
@@ -60711,9 +60602,9 @@ export const voivodeship = {
         "Zakącie",
         "Zaokówka",
         "Parcelacja",
-        "Psiarnia"
+        "Psiarnia",
       ],
-      "Rokietnica": [
+      Rokietnica: [
         "Tuligłowy",
         "Rokietnica",
         "Czelatyce",
@@ -60745,9 +60636,9 @@ export const voivodeship = {
         "Pod Lasem",
         "Zawarcie",
         "Żarkówka",
-        "Słomianka"
+        "Słomianka",
       ],
-      "Roźwienica": [
+      Roźwienica: [
         "Chorzów",
         "Węgierka",
         "Wola Węgierska",
@@ -60797,9 +60688,9 @@ export const voivodeship = {
         "Zamyślówka",
         "Parcelacja od Roźwienicy",
         "Borowiec",
-        "Gajówka Śmigłówka"
+        "Gajówka Śmigłówka",
       ],
-      "Wiązownica": [
+      Wiązownica: [
         "Radawa",
         "Szówsko",
         "Wólka Zapałowska",
@@ -60871,11 +60762,11 @@ export const voivodeship = {
         "Chrapy",
         "Biała Góra",
         "Surmaczów-Kolonia",
-        "Łapajówka"
-      ]
+        "Łapajówka",
+      ],
     },
-    "jasielski": {
-      "Jasło": [
+    jasielski: {
+      Jasło: [
         "Bierówka",
         "Chrząstówka",
         "Gorajowice",
@@ -60937,9 +60828,9 @@ export const voivodeship = {
         "Granice",
         "Zapłocie",
         "Podlas",
-        "Banasiówka"
+        "Banasiówka",
       ],
-      "Brzyska": [
+      Brzyska: [
         "Błażkowa",
         "Lipnica Dolna",
         "Kłodawa",
@@ -60954,9 +60845,9 @@ export const voivodeship = {
         "Góry",
         "Guminy",
         "Machowa",
-        "Góry"
+        "Góry",
       ],
-      "Dębowiec": [
+      Dębowiec: [
         "Dobrynia",
         "Pagórek",
         "Dębowiec",
@@ -60982,9 +60873,9 @@ export const voivodeship = {
         "Dąbrówka",
         "Syzma",
         "Podlas",
-        "Skała"
+        "Skała",
       ],
-      "Kołaczyce": [
+      Kołaczyce: [
         "Lublica",
         "Krajowice",
         "Nawsie Kołaczyckie",
@@ -61019,9 +60910,9 @@ export const voivodeship = {
         "Sowina Górna",
         "Sowina Dolna",
         "Rzym",
-        "Kozówka"
+        "Kozówka",
       ],
-      "Krempna": [
+      Krempna: [
         "Krempna",
         "Kotań",
         "Huta Polańska",
@@ -61046,7 +60937,7 @@ export const voivodeship = {
         "Koniec Dolny",
         "Suchowac Mały",
         "Żydowskie",
-        "Ożenna"
+        "Ożenna",
       ],
       "Nowy Żmigród": [
         "Brzezowa",
@@ -61094,7 +60985,7 @@ export const voivodeship = {
         "Okrajki",
         "Bobule",
         "Wyżni Koniec",
-        "Niżni Koniec"
+        "Niżni Koniec",
       ],
       "Osiek Jasielski": [
         "Samoklęski",
@@ -61115,9 +61006,9 @@ export const voivodeship = {
         "Równie",
         "Pod Dębiną",
         "Pod Skałą",
-        "Kraczeniówka"
+        "Kraczeniówka",
       ],
-      "Skołyszyn": [
+      Skołyszyn: [
         "Skołyszyn",
         "Święcany",
         "Bączal Dolny",
@@ -61176,9 +61067,9 @@ export const voivodeship = {
         "Podlas",
         "Zagumnie",
         "Czernianka",
-        "Mała Strona"
+        "Mała Strona",
       ],
-      "Tarnowiec": [
+      Tarnowiec: [
         "Gąsówka",
         "Sądkowa",
         "Umieszcz",
@@ -61235,11 +61126,11 @@ export const voivodeship = {
         "Podlas",
         "Gwoździec",
         "Fudaleja",
-        "Podlas"
-      ]
+        "Podlas",
+      ],
     },
-    "kolbuszowski": {
-      "Cmolas": [
+    kolbuszowski: {
+      Cmolas: [
         "Cmolas",
         "Ostrowy Baranowskie",
         "Hadykówka",
@@ -61284,9 +61175,9 @@ export const voivodeship = {
         "Nowa Wieś",
         "Ulanów",
         "Czachory",
-        "Grabie"
+        "Grabie",
       ],
-      "Kolbuszowa": [
+      Kolbuszowa: [
         "Kupno",
         "Poręby Kupieńskie",
         "Świerczów",
@@ -61340,7 +61231,7 @@ export const voivodeship = {
         "Łąki",
         "Dworskie Pola",
         "Dymarka",
-        "Stare Poręby"
+        "Stare Poręby",
       ],
       "Majdan Królewski": [
         "Brzostowa Góra",
@@ -61390,9 +61281,9 @@ export const voivodeship = {
         "Obary",
         "Miasto",
         "Ciepucha",
-        "Rębisze"
+        "Rębisze",
       ],
-      "Niwiska": [
+      Niwiska: [
         "Hucisko",
         "Leszcze",
         "Hucina",
@@ -61425,9 +61316,9 @@ export const voivodeship = {
         "Półanki",
         "Zadwórz",
         "Dolny Przyłęk",
-        "Pustki"
+        "Pustki",
       ],
-      "Raniżów": [
+      Raniżów: [
         "Wola Raniżowska",
         "Zielonka",
         "Mazury",
@@ -61455,9 +61346,9 @@ export const voivodeship = {
         "Lisy",
         "Wilki",
         "Badunie",
-        "Bąki"
+        "Bąki",
       ],
-      "Dzikowiec": [
+      Dzikowiec: [
         "Mechowiec",
         "Płazówka",
         "Nowy Dzikowiec",
@@ -61514,11 +61405,11 @@ export const voivodeship = {
         "Serafiny",
         "Spie",
         "Tęcze",
-        "Józefów"
-      ]
+        "Józefów",
+      ],
     },
-    "krośnieński": {
-      "Chorkówka": [
+    krośnieński: {
+      Chorkówka: [
         "Szczepańcowa",
         "Leśniówka",
         "Chorkówka",
@@ -61612,9 +61503,9 @@ export const voivodeship = {
         "Wygon",
         "Podskale",
         "Zadwór",
-        "Zawodziany"
+        "Zawodziany",
       ],
-      "Dukla": [
+      Dukla: [
         "Trzciana",
         "Lipowica",
         "Równe",
@@ -61783,7 +61674,7 @@ export const voivodeship = {
         "Wygon",
         "Dół",
         "Moskalówka",
-        "Granica"
+        "Granica",
       ],
       "Iwonicz-Zdrój": [
         "Iwonicz",
@@ -61853,9 +61744,9 @@ export const voivodeship = {
         "Ziębówka",
         "Zimówka Górna",
         "Dół",
-        "Kopcówki"
+        "Kopcówki",
       ],
-      "Jedlicze": [
+      Jedlicze: [
         "Żarnowiec",
         "Moderówka",
         "Potok",
@@ -61925,9 +61816,9 @@ export const voivodeship = {
         "Działek",
         "Czekaj",
         "Grabie",
-        "Za Lasem"
+        "Za Lasem",
       ],
-      "Korczyna": [
+      Korczyna: [
         "Węglówka",
         "Krasna",
         "Kombornia",
@@ -61990,7 +61881,7 @@ export const voivodeship = {
         "Dół",
         "Korzenica",
         "Górna Wieś",
-        "Doliny"
+        "Doliny",
       ],
       "Krościenko Wyżne": [
         "Krościenko Wyżne",
@@ -62003,7 +61894,7 @@ export const voivodeship = {
         "Góra",
         "Browar",
         "Strona Północna",
-        "Zagórze Pierwsze"
+        "Zagórze Pierwsze",
       ],
       "Miejsce Piastowe": [
         "Wrocanka",
@@ -62058,9 +61949,9 @@ export const voivodeship = {
         "Bajoro",
         "Dół",
         "Koło Folwarku",
-        "Krzaki"
+        "Krzaki",
       ],
-      "Rymanów": [
+      Rymanów: [
         "Wisłoczek",
         "Rymanów-Zdrój",
         "Bałucianka",
@@ -62110,9 +62001,9 @@ export const voivodeship = {
         "Wołtuszowa",
         "Deszno",
         "Puławy",
-        "Rudawka Rymanowska"
+        "Rudawka Rymanowska",
       ],
-      "Wojaszówka": [
+      Wojaszówka: [
         "Ustrobna",
         "Łęki Strzyżowskie",
         "Wojaszówka",
@@ -62187,9 +62078,9 @@ export const voivodeship = {
         "Tłoki",
         "Wielkie Bajdy",
         "Zagóra",
-        "Prawa Wieś"
+        "Prawa Wieś",
       ],
-      "Jaśliska": [
+      Jaśliska: [
         "Daliowa",
         "Wola Niżna",
         "Jaśliska",
@@ -62210,11 +62101,11 @@ export const voivodeship = {
         "Wola Wyżna",
         "Czeremcha",
         "Moszczaniec",
-        "Darów"
-      ]
+        "Darów",
+      ],
     },
-    "leżajski": {
-      "Leżajsk": [
+    leżajski: {
+      Leżajsk: [
         "Giedlarowa",
         "Biedaczów",
         "Hucisko",
@@ -62289,7 +62180,7 @@ export const voivodeship = {
         "Zabłociska",
         "Parcelacja",
         "Kudłacz",
-        "Zerwanka"
+        "Zerwanka",
       ],
       "Grodzisko Dolne": [
         "Opaleniska",
@@ -62335,9 +62226,9 @@ export const voivodeship = {
         "Moczary",
         "Źródła",
         "Kopanie Zmysłowskie",
-        "Wesoła"
+        "Wesoła",
       ],
-      "Kuryłówka": [
+      Kuryłówka: [
         "Tarnawiec",
         "Ożanna",
         "Kuryłówka",
@@ -62377,7 +62268,7 @@ export const voivodeship = {
         "Mielniki",
         "Ugory",
         "Ożanna Mała",
-        "Ożanna Wielka"
+        "Ożanna Wielka",
       ],
       "Nowa Sarzyna": [
         "Sarzyna",
@@ -62431,11 +62322,11 @@ export const voivodeship = {
         "Budy-Zagumnie",
         "Budy-Zastawie",
         "Borki-Nawsie",
-        "Borki-Zagumnie"
-      ]
+        "Borki-Zagumnie",
+      ],
     },
-    "lubaczowski": {
-      "Lubaczów": [
+    lubaczowski: {
+      Lubaczów: [
         "Budomierz",
         "Basznia Dolna",
         "Basznia Górna",
@@ -62498,9 +62389,9 @@ export const voivodeship = {
         "Czarne",
         "Onyszczaki",
         "Cetynia",
-        "Huta Kryształowa"
+        "Huta Kryształowa",
       ],
-      "Cieszanów": [
+      Cieszanów: [
         "Gorajec",
         "Chotylub",
         "Nowe Sioło",
@@ -62522,7 +62413,7 @@ export const voivodeship = {
         "Henryków",
         "Sośnina",
         "Kosobudy",
-        "Folwarki Cieszanowskie"
+        "Folwarki Cieszanowskie",
       ],
       "Horyniec-Zdrój": [
         "Wólka Horyniecka",
@@ -62552,9 +62443,9 @@ export const voivodeship = {
         "Dziewięcierz",
         "Polanka Horyniecka",
         "Monasterz",
-        "Niwki"
+        "Niwki",
       ],
-      "Narol": [
+      Narol: [
         "Jędrzejówka",
         "Narol-Wieś",
         "Płazów",
@@ -62598,9 +62489,9 @@ export const voivodeship = {
         "Gajówka",
         "Majdan",
         "Złomy Polskie",
-        "Stara Huta"
+        "Stara Huta",
       ],
-      "Oleszyce": [
+      Oleszyce: [
         "Nowa Grobla",
         "Borchów",
         "Futory",
@@ -62618,7 +62509,7 @@ export const voivodeship = {
         "Maślanki",
         "Mielniki",
         "Lubomierz",
-        "Sucha Wola"
+        "Sucha Wola",
       ],
       "Stary Dzików": [
         "Stary Dzików",
@@ -62631,7 +62522,7 @@ export const voivodeship = {
         "Parachówka",
         "Wola Cewkowska",
         "Witki",
-        "Lebiedzie"
+        "Lebiedzie",
       ],
       "Wielkie Oczy": [
         "Majdan Lipowiecki",
@@ -62662,11 +62553,11 @@ export const voivodeship = {
         "Czopy",
         "Niwa",
         "Ulica",
-        "Horysznie"
-      ]
+        "Horysznie",
+      ],
     },
-    "łańcucki": {
-      "Łańcut": [
+    łańcucki: {
+      Łańcut: [
         "Kosina",
         "Albigowa",
         "Kraczkowa",
@@ -62736,9 +62627,9 @@ export const voivodeship = {
         "Zagumnie",
         "Tkacze",
         "Rogóżno Górne",
-        "Rogóżno Dolne"
+        "Rogóżno Dolne",
       ],
-      "Białobrzegi": [
+      Białobrzegi: [
         "Korniaktów Północny",
         "Dębina",
         "Budy Łańcuckie",
@@ -62775,9 +62666,9 @@ export const voivodeship = {
         "Bycze Jajo",
         "Poręby",
         "Kmiecie",
-        "Hacklówka"
+        "Hacklówka",
       ],
-      "Czarna": [
+      Czarna: [
         "Medynia Głogowska",
         "Dąbrówki",
         "Wola Mała",
@@ -62823,9 +62714,9 @@ export const voivodeship = {
         "Podarenda",
         "Kolonia",
         "Podlesie",
-        "Rejmanówka"
+        "Rejmanówka",
       ],
-      "Markowa": [
+      Markowa: [
         "Tarnawka",
         "Husów",
         "Markowa",
@@ -62846,9 +62737,9 @@ export const voivodeship = {
         "Zdrój",
         "Górna Karczma",
         "Górnica",
-        "Podlas"
+        "Podlas",
       ],
-      "Rakszawa": [
+      Rakszawa: [
         "Węgliska",
         "Wydrze",
         "Rakszawa",
@@ -62868,9 +62759,9 @@ export const voivodeship = {
         "Julin",
         "Basakówka",
         "Bieleckówka",
-        "Nowe Pola"
+        "Nowe Pola",
       ],
-      "Żołynia": [
+      Żołynia: [
         "Smolarzyny",
         "Żołynia",
         "Brzóza Stadnicka",
@@ -62892,11 +62783,11 @@ export const voivodeship = {
         "Góra",
         "Podgóry",
         "Podkudłacz",
-        "Grabnik"
-      ]
+        "Grabnik",
+      ],
     },
-    "mielecki": {
-      "Mielec": [
+    mielecki: {
+      Mielec: [
         "Wola Chorzelowska",
         "Rzędzianowice",
         "Szydłowiec",
@@ -62959,9 +62850,9 @@ export const voivodeship = {
         "Zawierzbie",
         "Górki",
         "Wrażniówka",
-        "Łuże"
+        "Łuże",
       ],
-      "Borowa": [
+      Borowa: [
         "Łysakówek",
         "Surowa",
         "Górki",
@@ -63016,9 +62907,9 @@ export const voivodeship = {
         "Piasek",
         "Za Siciną",
         "Stawy",
-        "Kolonia"
+        "Kolonia",
       ],
-      "Czermin": [
+      Czermin: [
         "Szafranów",
         "Dąbrówka Osuchowska",
         "Wola Otałęska",
@@ -63089,9 +62980,9 @@ export const voivodeship = {
         "Podszkole",
         "Pasmuga",
         "Pietrzyki",
-        "Wychylówka"
+        "Wychylówka",
       ],
-      "Gawłuszowice": [
+      Gawłuszowice: [
         "Brzyście",
         "Ostrówek",
         "Gawłuszowice",
@@ -63120,7 +63011,7 @@ export const voivodeship = {
         "Górki",
         "Małe Górki",
         "Nad Brniem",
-        "Kolonia"
+        "Kolonia",
       ],
       "Padew Narodowa": [
         "Kębłów",
@@ -63180,9 +63071,9 @@ export const voivodeship = {
         "Majdanek",
         "Niziny",
         "Czarna Rola",
-        "Wygoda"
+        "Wygoda",
       ],
-      "Przecław": [
+      Przecław: [
         "Dobrynin",
         "Kiełków",
         "Podole",
@@ -63254,7 +63145,7 @@ export const voivodeship = {
         "Pikułówka",
         "Kolonia",
         "Gumienice",
-        "Debrzyna"
+        "Debrzyna",
       ],
       "Radomyśl Wielki": [
         "Pień",
@@ -63327,7 +63218,7 @@ export const voivodeship = {
         "Kwatery",
         "Prewenda",
         "Wilcza Wola",
-        "Wilcza Wola-Borowina"
+        "Wilcza Wola-Borowina",
       ],
       "Tuszów Narodowy": [
         "Sarnów",
@@ -63396,7 +63287,7 @@ export const voivodeship = {
         "Majdanek",
         "Budy",
         "Piachy",
-        "Pod Karczmą"
+        "Pod Karczmą",
       ],
       "Wadowice Górne": [
         "Jamy",
@@ -63471,11 +63362,11 @@ export const voivodeship = {
         "Zabłocie",
         "Bożówka",
         "Przybysz",
-        "Zwiernik"
-      ]
+        "Zwiernik",
+      ],
     },
-    "niżański": {
-      "Harasiuki": [
+    niżański: {
+      Harasiuki: [
         "Sieraków",
         "Nowa Wieś",
         "Banachy",
@@ -63526,9 +63417,9 @@ export const voivodeship = {
         "Mokrowola",
         "Borowina",
         "Osada Leśna",
-        "Kolonia Łazorska"
+        "Kolonia Łazorska",
       ],
-      "Jarocin": [
+      Jarocin: [
         "Jarocin",
         "Majdan Golczański",
         "Mostki",
@@ -63577,9 +63468,9 @@ export const voivodeship = {
         "Podpory",
         "Błogie",
         "Oleszki",
-        "Podchoina"
+        "Podchoina",
       ],
-      "Jeżowe": [
+      Jeżowe: [
         "Sójkowa",
         "Stary Nart",
         "Nowy Nart",
@@ -63623,9 +63514,9 @@ export const voivodeship = {
         "Podgórze",
         "Kolonia",
         "Kąty",
-        "Łętownia"
+        "Łętownia",
       ],
-      "Krzeszów": [
+      Krzeszów: [
         "Łazów",
         "Podolszynka Ordynacka",
         "Podolszynka Plebańska",
@@ -63649,9 +63540,9 @@ export const voivodeship = {
         "Piechotne",
         "Kamionka Górna",
         "Kamionka Średnia",
-        "Kamionka Dolna"
+        "Kamionka Dolna",
       ],
-      "Nisko": [
+      Nisko: [
         "Racławice",
         "Zarzecze",
         "Wolina",
@@ -63688,7 +63579,7 @@ export const voivodeship = {
         "Kudelki",
         "Ług",
         "Nowa Wieś",
-        "Nadjeziorze"
+        "Nadjeziorze",
       ],
       "Rudnik nad Sanem": [
         "Kopki",
@@ -63717,9 +63608,9 @@ export const voivodeship = {
         "Zagrody",
         "Zagumnie",
         "Olszyna",
-        "Zastawie"
+        "Zastawie",
       ],
-      "Ulanów": [
+      Ulanów: [
         "Dąbrówka",
         "Glinianka",
         "Kurzyna Średnia",
@@ -63778,11 +63669,11 @@ export const voivodeship = {
         "Koszary",
         "Podbór",
         "Strumień",
-        "Piaski"
-      ]
+        "Piaski",
+      ],
     },
-    "przemyski": {
-      "Bircza": [
+    przemyski: {
+      Bircza: [
         "Huta Brzuska",
         "Kotów",
         "Kuźmina",
@@ -63855,9 +63746,9 @@ export const voivodeship = {
         "Żujowy Potok",
         "Górne Hucisko",
         "Łomna",
-        "Łodzinka Dolna"
+        "Łodzinka Dolna",
       ],
-      "Dubiecko": [
+      Dubiecko: [
         "Bachórzec",
         "Drohobyczka",
         "Hucisko Nienadowskie",
@@ -63954,9 +63845,9 @@ export const voivodeship = {
         "Śliwnica Górna",
         "Zarąbki",
         "Zasan",
-        "Dział"
+        "Dział",
       ],
-      "Fredropol": [
+      Fredropol: [
         "Koniusza",
         "Kupiatycze",
         "Kłokowice",
@@ -63999,9 +63890,9 @@ export const voivodeship = {
         "Polska Ulica",
         "Zawiar",
         "Pod Cerkwią",
-        "Dolny Koniec"
+        "Dolny Koniec",
       ],
-      "Krasiczyn": [
+      Krasiczyn: [
         "Korytniki",
         "Krzeczkowa",
         "Brylińce",
@@ -64040,9 +63931,9 @@ export const voivodeship = {
         "Zagrabiec",
         "Garb",
         "Browar",
-        "Dolny Młyn"
+        "Dolny Młyn",
       ],
-      "Krzywcza": [
+      Krzywcza: [
         "Średnia",
         "Skopów",
         "Wola Krzywiecka",
@@ -64078,9 +63969,9 @@ export const voivodeship = {
         "Kamionka",
         "Łazy",
         "Półanki Skopowskie",
-        "Na Szwedach"
+        "Na Szwedach",
       ],
-      "Medyka": [
+      Medyka: [
         "Torki",
         "Jaksmanice",
         "Siedliska",
@@ -64098,9 +63989,9 @@ export const voivodeship = {
         "Kąt",
         "Oprenki",
         "Górne Hureczko",
-        "Zaokop"
+        "Zaokop",
       ],
-      "Orły": [
+      Orły: [
         "Drohojów",
         "Zadąbrowie",
         "Wacławice",
@@ -64144,9 +64035,9 @@ export const voivodeship = {
         "Kacze Doły",
         "Granica",
         "Mordownia",
-        "Kolonia"
+        "Kolonia",
       ],
-      "Przemyśl": [
+      Przemyśl: [
         "Witoszyńce",
         "Ostrów",
         "Stanisławczyk",
@@ -64179,9 +64070,9 @@ export const voivodeship = {
         "Zalesie",
         "Pod Łuczycami",
         "Łazy",
-        "Hołubla"
+        "Hołubla",
       ],
-      "Stubno": [
+      Stubno: [
         "Barycz",
         "Hruszowice",
         "Stubienko",
@@ -64199,9 +64090,9 @@ export const voivodeship = {
         "Kowaliki",
         "Kolonia",
         "Chałupki Dusowskie",
-        "Nowostawy"
+        "Nowostawy",
       ],
-      "Żurawica": [
+      Żurawica: [
         "Batycze",
         "Buszkowice",
         "Buszkowiczki",
@@ -64239,11 +64130,11 @@ export const voivodeship = {
         "Olesiów",
         "Kolonia",
         "Czajków",
-        "Góra"
-      ]
+        "Góra",
+      ],
     },
-    "przeworski": {
-      "Przeworsk": [
+    przeworski: {
+      Przeworsk: [
         "Nowosielce",
         "Rozbórz",
         "Mirocin",
@@ -64282,9 +64173,9 @@ export const voivodeship = {
         "Podgrzęszcze",
         "Szewnia",
         "Plebanka",
-        "Łazy"
+        "Łazy",
       ],
-      "Adamówka": [
+      Adamówka: [
         "Majdan Sieniawski",
         "Adamówka",
         "Dobcza",
@@ -64327,9 +64218,9 @@ export const voivodeship = {
         "Przyimek",
         "Izabelin",
         "Pod Piwnem",
-        "Pawłowa"
+        "Pawłowa",
       ],
-      "Gać": [
+      Gać: [
         "Dębów",
         "Ostrów",
         "Gać",
@@ -64343,7 +64234,7 @@ export const voivodeship = {
         "Jaworznik",
         "Górki",
         "Wojciechówka",
-        "Chałupki"
+        "Chałupki",
       ],
       "Jawornik Polski": [
         "Zagórze",
@@ -64393,9 +64284,9 @@ export const voivodeship = {
         "Barć",
         "Podedwór",
         "Wełcze",
-        "Łęgi"
+        "Łęgi",
       ],
-      "Kańczuga": [
+      Kańczuga: [
         "Niżatyce",
         "Wola Rzeplińska",
         "Chodakówka",
@@ -64437,9 +64328,9 @@ export const voivodeship = {
         "Gaj",
         "Psi Młynek",
         "Jaz",
-        "Kopalina"
+        "Kopalina",
       ],
-      "Sieniawa": [
+      Sieniawa: [
         "Wylewa",
         "Leżachów",
         "Paluchy",
@@ -64503,9 +64394,9 @@ export const voivodeship = {
         "Króle",
         "Krupki",
         "Słoty",
-        "Pod Lupą"
+        "Pod Lupą",
       ],
-      "Tryńcza": [
+      Tryńcza: [
         "Tryńcza",
         "Głogowiec",
         "Gniewczyna Łańcucka",
@@ -64555,9 +64446,9 @@ export const voivodeship = {
         "Podchodaczów",
         "Podwólcze",
         "Zawisłocze",
-        "Mały Ubieszyn"
+        "Mały Ubieszyn",
       ],
-      "Zarzecze": [
+      Zarzecze: [
         "Maćkówka",
         "Żurawiczki",
         "Rożniatów",
@@ -64583,11 +64474,11 @@ export const voivodeship = {
         "Szwaby",
         "Rutka",
         "Parcelacja",
-        "Cegielnia"
-      ]
+        "Cegielnia",
+      ],
     },
     "ropczycko-sędziszowski": {
-      "Iwierzyce": [
+      Iwierzyce: [
         "Bystrzyca",
         "Olchowa",
         "Będzienica",
@@ -64641,9 +64532,9 @@ export const voivodeship = {
         "Łysa Góra",
         "Dolna Wiśniowa",
         "Doły",
-        "Łono"
+        "Łono",
       ],
-      "Ostrów": [
+      Ostrów: [
         "Kozodrza",
         "Wola Ociecka",
         "Ostrów",
@@ -64696,9 +64587,9 @@ export const voivodeship = {
         "Anastazów",
         "Wilczyca",
         "Stary Szlak-Leśniczówka",
-        "Zdżary"
+        "Zdżary",
       ],
-      "Ropczyce": [
+      Ropczyce: [
         "Gnojnica",
         "Okonin",
         "Mała",
@@ -64791,7 +64682,7 @@ export const voivodeship = {
         "Na Stronie",
         "Wola Gnojnicka",
         "Granice",
-        "Potoki"
+        "Potoki",
       ],
       "Sędziszów Małopolski": [
         "Klęczany",
@@ -64901,7 +64792,7 @@ export const voivodeship = {
         "Szymankówka",
         "Ostrów",
         "Zabłocie",
-        "Bukowina"
+        "Bukowina",
       ],
       "Wielopole Skrzyńskie": [
         "Brzeziny",
@@ -64969,11 +64860,11 @@ export const voivodeship = {
         "Ku Szkodowej",
         "Bucze",
         "Rzegocin",
-        "Rzeki Rzegockie"
-      ]
+        "Rzeki Rzegockie",
+      ],
     },
-    "rzeszowski": {
-      "Dynów": [
+    rzeszowski: {
+      Dynów: [
         "Harta",
         "Ulanica",
         "Bachórz",
@@ -65075,9 +64966,9 @@ export const voivodeship = {
         "Mątewki",
         "Podtopole",
         "Radanówki",
-        "Śliwy"
+        "Śliwy",
       ],
-      "Błażowa": [
+      Błażowa: [
         "Kąkolówka",
         "Piątkowa",
         "Futoma",
@@ -65168,9 +65059,9 @@ export const voivodeship = {
         "Kamieniec",
         "Góry",
         "Wyskielówka",
-        "Liwośka"
+        "Liwośka",
       ],
-      "Boguchwała": [
+      Boguchwała: [
         "Mogielnica",
         "Niechobrz",
         "Lutoryż",
@@ -65234,9 +65125,9 @@ export const voivodeship = {
         "Przymiarki",
         "Resztówka",
         "Za Rzeką",
-        "Przymiarki"
+        "Przymiarki",
       ],
-      "Chmielnik": [
+      Chmielnik: [
         "Błędowa Tyczyńska",
         "Chmielnik",
         "Wola Rafałowska",
@@ -65296,7 +65187,7 @@ export const voivodeship = {
         "Kozielec",
         "Czarna",
         "Potoki",
-        "Czarna"
+        "Czarna",
       ],
       "Głogów Małopolski": [
         "Pogwizdów Stary",
@@ -65361,9 +65252,9 @@ export const voivodeship = {
         "Górka",
         "Górki",
         "Pod Gatką",
-        "Budy"
+        "Budy",
       ],
-      "Hyżne": [
+      Hyżne: [
         "Dylągówka",
         "Hyżne",
         "Szklary",
@@ -65420,9 +65311,9 @@ export const voivodeship = {
         "Zaprzylasek",
         "Budy",
         "Dół",
-        "Piekło"
+        "Piekło",
       ],
-      "Kamień": [
+      Kamień: [
         "Łowisko",
         "Nowy Kamień",
         "Kamień",
@@ -65441,9 +65332,9 @@ export const voivodeship = {
         "Sitowiny",
         "Trzebniki",
         "Środek",
-        "Morgi"
+        "Morgi",
       ],
-      "Krasne": [
+      Krasne: [
         "Strażów",
         "Krasne",
         "Palikówka",
@@ -65464,9 +65355,9 @@ export const voivodeship = {
         "Dół",
         "Wólka",
         "Olszyny",
-        "Pańskie"
+        "Pańskie",
       ],
-      "Lubenia": [
+      Lubenia: [
         "Lubenia",
         "Straszydle",
         "Siedliska",
@@ -65516,7 +65407,7 @@ export const voivodeship = {
         "Pólka",
         "Lubenki",
         "Piekliska",
-        "Podlas"
+        "Podlas",
       ],
       "Sokołów Małopolski": [
         "Wólka Niedźwiedzka",
@@ -65570,9 +65461,9 @@ export const voivodeship = {
         "Mościny",
         "Krasne",
         "Kosaki",
-        "Kąty Trzebuskie"
+        "Kąty Trzebuskie",
       ],
-      "Świlcza": [
+      Świlcza: [
         "Rudna Wielka",
         "Mrowla",
         "Woliczka",
@@ -65632,9 +65523,9 @@ export const voivodeship = {
         "Chodyrówka",
         "Obszar",
         "Bugaj",
-        "Miśtówka"
+        "Miśtówka",
       ],
-      "Trzebownisko": [
+      Trzebownisko: [
         "Wólka Podleśna",
         "Zaczernie",
         "Jasionka",
@@ -65696,9 +65587,9 @@ export const voivodeship = {
         "Nowa Wieś Zaczerska",
         "Budy",
         "Zagumnie",
-        "Krzywe"
+        "Krzywe",
       ],
-      "Tyczyn": [
+      Tyczyn: [
         "Kielnarowa",
         "Borek Stary",
         "Hermanowa",
@@ -65733,11 +65624,11 @@ export const voivodeship = {
         "Przylasek",
         "Działy",
         "Kanada",
-        "Podklasztor"
-      ]
+        "Podklasztor",
+      ],
     },
-    "sanocki": {
-      "Sanok": [
+    sanocki: {
+      Sanok: [
         "Sanoczek",
         "Srogów Dolny",
         "Raczkowa",
@@ -65816,9 +65707,9 @@ export const voivodeship = {
         "Dwór",
         "Korea",
         "Tuchorz",
-        "Stróże Wielkie"
+        "Stróże Wielkie",
       ],
-      "Besko": [
+      Besko: [
         "Mymoń",
         "Besko",
         "Grabień",
@@ -65827,9 +65718,9 @@ export const voivodeship = {
         "Wola",
         "Zakącie",
         "Zapowiedź",
-        "Sucha Wieś"
+        "Sucha Wieś",
       ],
-      "Bukowsko": [
+      Bukowsko: [
         "Dudyńce",
         "Nagórzany",
         "Tokarnia",
@@ -65861,9 +65752,9 @@ export const voivodeship = {
         "Miasteczko",
         "Równie",
         "Wygnanka",
-        "Płonna"
+        "Płonna",
       ],
-      "Komańcza": [
+      Komańcza: [
         "Wysoczany",
         "Kulaszne",
         "Szczawne",
@@ -65898,7 +65789,7 @@ export const voivodeship = {
         "Nowy Łupków",
         "Mików",
         "Stary Łupków",
-        "Maniów"
+        "Maniów",
       ],
       "Tyrawa Wołoska": [
         "Hołuczków",
@@ -65921,9 +65812,9 @@ export const voivodeship = {
         "Brzózka",
         "Sadziska",
         "Tarnawka",
-        "Przerwy"
+        "Przerwy",
       ],
-      "Zagórz": [
+      Zagórz: [
         "Poraż",
         "Mokre",
         "Zahutyń",
@@ -65965,9 +65856,9 @@ export const voivodeship = {
         "Pod Kiczerą",
         "Za Rzeką",
         "Czekaj",
-        "Kąty"
+        "Kąty",
       ],
-      "Zarszyn": [
+      Zarszyn: [
         "Nowosielce",
         "Posada Zarszyńska",
         "Jaćmierz",
@@ -65994,10 +65885,10 @@ export const voivodeship = {
         "Huczkowa",
         "Odrzechówki",
         "Brzeg",
-        "Grędówka"
-      ]
+        "Grędówka",
+      ],
     },
-    "stalowowolski": {
+    stalowowolski: {
       "Stalowa Wola": [
         "Stalowa Wola",
         "Ciemny Kąt",
@@ -66012,9 +65903,9 @@ export const voivodeship = {
         "Swoły",
         "Charzewice",
         "Krzyżowe Drogi",
-        "Pławo"
+        "Pławo",
       ],
-      "Bojanów": [
+      Bojanów: [
         "Przyszów",
         "Bojanów",
         "Stany",
@@ -66051,9 +65942,9 @@ export const voivodeship = {
         "Gojanów",
         "Piachy",
         "Barda",
-        "Biedaczów"
+        "Biedaczów",
       ],
-      "Pysznica": [
+      Pysznica: [
         "Pysznica",
         "Studzieniec",
         "Chłopska Wola",
@@ -66108,7 +65999,7 @@ export const voivodeship = {
         "Borek",
         "Rędziny",
         "Moskale",
-        "Kniejka"
+        "Kniejka",
       ],
       "Radomyśl nad Sanem": [
         "Rzeczyca Okrągła",
@@ -66191,9 +66082,9 @@ export const voivodeship = {
         "Mała Połać",
         "Zajezierze",
         "Brzeźnik",
-        "Czarne"
+        "Czarne",
       ],
-      "Zaklików": [
+      Zaklików: [
         "Irena",
         "Lipa",
         "Łążek",
@@ -66214,9 +66105,9 @@ export const voivodeship = {
         "Antoniówka",
         "Radna Góra",
         "Józefów",
-        "Karkówka"
+        "Karkówka",
       ],
-      "Zaleszany": [
+      Zaleszany: [
         "Agatówka",
         "Skowierzyn",
         "Turbia",
@@ -66303,11 +66194,11 @@ export const voivodeship = {
         "Ruski Bród",
         "Poręby",
         "Łączki",
-        "Łęki"
-      ]
+        "Łęki",
+      ],
     },
-    "strzyżowski": {
-      "Czudec": [
+    strzyżowski: {
+      Czudec: [
         "Wyżne",
         "Nowa Wieś",
         "Babica",
@@ -66384,9 +66275,9 @@ export const voivodeship = {
         "Pasoczyzna",
         "Pstrągowa Górna",
         "Ryboniówka",
-        "Górna"
+        "Górna",
       ],
-      "Frysztak": [
+      Frysztak: [
         "Kobyle",
         "Glinik Średni",
         "Twierdza",
@@ -66475,9 +66366,9 @@ export const voivodeship = {
         "Piekło",
         "Bajorki",
         "Smagączówka",
-        "Kamieniec"
+        "Kamieniec",
       ],
-      "Niebylec": [
+      Niebylec: [
         "Konieczkowa",
         "Gwoźnica Górna",
         "Gwoźnica Dolna",
@@ -66568,9 +66459,9 @@ export const voivodeship = {
         "Michnówka",
         "Łęgi",
         "Gąsiorówki",
-        "Góra"
+        "Góra",
       ],
-      "Strzyżów": [
+      Strzyżów: [
         "Żyznów",
         "Wysoka Strzyżowska",
         "Dobrzechów",
@@ -66698,9 +66589,9 @@ export const voivodeship = {
         "Na Grabówce",
         "Przyrwa",
         "Przyrwa",
-        "Za Dworem"
+        "Za Dworem",
       ],
-      "Wiśniowa": [
+      Wiśniowa: [
         "Markuszowa",
         "Niewodna",
         "Kożuchów",
@@ -66784,10 +66675,10 @@ export const voivodeship = {
         "Wytrząska",
         "Stawiska",
         "Doły",
-        "Ponikwa"
-      ]
+        "Ponikwa",
+      ],
     },
-    "tarnobrzeski": {
+    tarnobrzeski: {
       "Baranów Sandomierski": [
         "Dymitrów Duży",
         "Wola Baranowska",
@@ -66875,9 +66766,9 @@ export const voivodeship = {
         "Porębniki",
         "Podgóra",
         "Podpołoń",
-        "Poręba"
+        "Poręba",
       ],
-      "Gorzyce": [
+      Gorzyce: [
         "Motycze Poduchowne",
         "Sokolniki",
         "Gorzyce",
@@ -66929,9 +66820,9 @@ export const voivodeship = {
         "Kłajpeda",
         "Przybyłów",
         "Raj",
-        "Niwka"
+        "Niwka",
       ],
-      "Grębów": [
+      Grębów: [
         "Krawce",
         "Jamnica",
         "Żupawa",
@@ -67010,7 +66901,7 @@ export const voivodeship = {
         "Lisia Góra",
         "Olendry",
         "Borek",
-        "Klewiec"
+        "Klewiec",
       ],
       "Nowa Dęba": [
         "Chmielów",
@@ -67063,11 +66954,11 @@ export const voivodeship = {
         "Kozielec",
         "Leszcze",
         "Gawralin",
-        "Przybowe Bardo"
-      ]
+        "Przybowe Bardo",
+      ],
     },
-    "leski": {
-      "Baligród": [
+    leski: {
+      Baligród: [
         "Baligród",
         "Nowosiółki",
         "Rabe",
@@ -67089,9 +66980,9 @@ export const voivodeship = {
         "Żernica Wyżna",
         "Bystre",
         "Kołonice",
-        "Łubne"
+        "Łubne",
       ],
-      "Cisna": [
+      Cisna: [
         "Wetlina",
         "Żubracze",
         "Przysłup",
@@ -67114,9 +67005,9 @@ export const voivodeship = {
         "Zazwór",
         "Majdan",
         "Habkowce",
-        "Moczarne"
+        "Moczarne",
       ],
-      "Lesko": [
+      Lesko: [
         "Średnia Wieś",
         "Łukawica",
         "Postołów",
@@ -67144,9 +67035,9 @@ export const voivodeship = {
         "Podstaw",
         "Górny Koniec",
         "Kąt",
-        "Dolny Koniec"
+        "Dolny Koniec",
       ],
-      "Olszanica": [
+      Olszanica: [
         "Olszanica",
         "Orelec",
         "Paszowa",
@@ -67165,9 +67056,9 @@ export const voivodeship = {
         "Mikołajec",
         "Podmagura",
         "Tunel",
-        "Wygnanka"
+        "Wygnanka",
       ],
-      "Solina": [
+      Solina: [
         "Zawóz",
         "Rybne",
         "Wola Matiaszowa",
@@ -67197,11 +67088,11 @@ export const voivodeship = {
         "Rapiszka",
         "Na Granicach",
         "Zabrodzie",
-        "Polanki"
-      ]
+        "Polanki",
+      ],
     },
-    "Krosno": {
-      "Krosno": [
+    Krosno: {
+      Krosno: [
         "Krosno",
         "Rokowiec",
         "Sienierówka",
@@ -67235,11 +67126,11 @@ export const voivodeship = {
         "Suchodół",
         "Szewczykówka",
         "Zakolejaki",
-        "Załęże"
-      ]
+        "Załęże",
+      ],
     },
-    "Przemyśl": {
-      "Przemyśl": [
+    Przemyśl: {
+      Przemyśl: [
         "Przemyśl",
         "Kaczanów",
         "Kruhel Mały",
@@ -67278,11 +67169,11 @@ export const voivodeship = {
         "Herburtów",
         "Pobrzeże",
         "Podwinie",
-        "Kruhel Wielki"
-      ]
+        "Kruhel Wielki",
+      ],
     },
-    "Rzeszów": {
-      "Rzeszów": [
+    Rzeszów: {
+      Rzeszów: [
         "Rzeszów",
         "Pobitno",
         "Nowe Miasto",
@@ -67341,11 +67232,11 @@ export const voivodeship = {
         "Świdrówka",
         "Matysówka",
         "Działy",
-        "Góra"
-      ]
+        "Góra",
+      ],
     },
-    "Tarnobrzeg": {
-      "Tarnobrzeg": [
+    Tarnobrzeg: {
+      Tarnobrzeg: [
         "Tarnobrzeg",
         "Bugaj",
         "Majdanek",
@@ -67372,13 +67263,13 @@ export const voivodeship = {
         "Środek",
         "Zakrzów",
         "Sielec",
-        "Dzików"
-      ]
-    }
+        "Dzików",
+      ],
+    },
   },
-  "PODLASKIE": {
-    "augustowski": {
-      "Augustów": [
+  PODLASKIE: {
+    augustowski: {
+      Augustów: [
         "Stuczanka",
         "Topiłówka",
         "Kolnica",
@@ -67443,7 +67334,7 @@ export const voivodeship = {
         "Mazurki",
         "Kolnica",
         "Twardy Róg",
-        "Netta Pierwsza"
+        "Netta Pierwsza",
       ],
       "Bargłów Kościelny": [
         "Karpa",
@@ -67499,9 +67390,9 @@ export const voivodeship = {
         "Nowiny Bargłowskie",
         "Łabętnik",
         "Komorniki",
-        "Pieńki"
+        "Pieńki",
       ],
-      "Lipsk": [
+      Lipsk: [
         "Lipsk Murowany",
         "Lubinowo",
         "Ostryńskie",
@@ -67533,9 +67424,9 @@ export const voivodeship = {
         "Kolonie Lipsk",
         "Dulkowszczyzna",
         "Nowy Lipsk",
-        "Nowy Rogożyn"
+        "Nowy Rogożyn",
       ],
-      "Nowinka": [
+      Nowinka: [
         "Szczepki",
         "Ateny",
         "Szczepki",
@@ -67588,9 +67479,9 @@ export const voivodeship = {
         "Nowinka",
         "Olszanka",
         "Podkrólówek",
-        "Walne"
+        "Walne",
       ],
-      "Płaska": [
+      Płaska: [
         "Księży Mostek",
         "Hanus",
         "Hanus",
@@ -67625,9 +67516,9 @@ export const voivodeship = {
         "Gorczyca",
         "Rubcowo",
         "Rygol",
-        "Osienniki"
+        "Osienniki",
       ],
-      "Sztabin": [
+      Sztabin: [
         "Grzędy",
         "Brzozowe Grądy",
         "Brzozowe Grądy",
@@ -67700,11 +67591,11 @@ export const voivodeship = {
         "Ostrowie",
         "Jagłowo",
         "Krasnybór",
-        "Podcisówek"
-      ]
+        "Podcisówek",
+      ],
     },
-    "białostocki": {
-      "Choroszcz": [
+    białostocki: {
+      Choroszcz: [
         "Gajowniki-Kolonia",
         "Zaczerlany-Kolonia",
         "Kolonia Czaplino",
@@ -67747,7 +67638,7 @@ export const voivodeship = {
         "Kruszewo",
         "Porosły",
         "Rogowo-Majątek",
-        "Rogówek"
+        "Rogówek",
       ],
       "Czarna Białostocka": [
         "Hutki",
@@ -67799,7 +67690,7 @@ export const voivodeship = {
         "Karczmisko",
         "Brzozówka Koronna",
         "Zamczysk",
-        "Brzozówka Ziemiańska"
+        "Brzozówka Ziemiańska",
       ],
       "Dobrzyniewo Duże": [
         "Kopisk",
@@ -67841,9 +67732,9 @@ export const voivodeship = {
         "Letniki",
         "Pogorzałki",
         "Podleńce",
-        "Ponikła"
+        "Ponikła",
       ],
-      "Gródek": [
+      Gródek: [
         "Waliły-Dwór",
         "Gródek-Kolonia",
         "Waliły-Osada",
@@ -67904,7 +67795,7 @@ export const voivodeship = {
         "Zubry",
         "Pieszczaniki",
         "Podozierany",
-        "Kołodno"
+        "Kołodno",
       ],
       "Juchnowiec Kościelny": [
         "Kozowszczyzna",
@@ -67961,9 +67852,9 @@ export const voivodeship = {
         "Bogdanki",
         "Klewinowo",
         "Niewodnica Nargilewska",
-        "Szerenosy"
+        "Szerenosy",
       ],
-      "Łapy": [
+      Łapy: [
         "Pułac",
         "Kaczorowo",
         "Roszki-Bieńki",
@@ -68026,9 +67917,9 @@ export const voivodeship = {
         "Płonka-Matyski",
         "Gąsówka-Oleksin",
         "Łapy-Łynki",
-        "Daniłowo Małe"
+        "Daniłowo Małe",
       ],
-      "Michałowo": [
+      Michałowo: [
         "Julianka",
         "Kuchmy-Pietruki",
         "Gorbacze",
@@ -68112,9 +68003,9 @@ export const voivodeship = {
         "Bieńdziuga",
         "Garbary",
         "Bołtryki",
-        "Rudnia"
+        "Rudnia",
       ],
-      "Poświętne": [
+      Poświętne: [
         "Kuran",
         "Ostrów",
         "Stoczek",
@@ -68165,9 +68056,9 @@ export const voivodeship = {
         "Liza Stara",
         "Wilkowo Stare",
         "Brzozowo-Korabie",
-        "Brzozowo-Chabdy"
+        "Brzozowo-Chabdy",
       ],
-      "Supraśl": [
+      Supraśl: [
         "Cegielnia",
         "Pólko",
         "Izoby",
@@ -68211,9 +68102,9 @@ export const voivodeship = {
         "Henrykowo",
         "Sokołda",
         "Ogrodniczki",
-        "Surażkowo"
+        "Surażkowo",
       ],
-      "Suraż": [
+      Suraż: [
         "Ostrów",
         "Nowy Koniec",
         "Piaski",
@@ -68229,7 +68120,7 @@ export const voivodeship = {
         "Kowale",
         "Rynki",
         "Zawyki-Ferma",
-        "Zimnochy-Świechy"
+        "Zimnochy-Świechy",
       ],
       "Turośń Kościelna": [
         "Reńszczyzna",
@@ -68294,9 +68185,9 @@ export const voivodeship = {
         "Chodory",
         "Iwanówka",
         "Dołki",
-        "Markowszczyzna"
+        "Markowszczyzna",
       ],
-      "Tykocin": [
+      Tykocin: [
         "Stelmachowo-Kolonia",
         "Dobki",
         "Janin",
@@ -68339,9 +68230,9 @@ export const voivodeship = {
         "Popowlany",
         "Broniszewo",
         "Łopuchowo",
-        "Piaski"
+        "Piaski",
       ],
-      "Wasilków": [
+      Wasilków: [
         "Burczak",
         "Katrynka",
         "Mostek",
@@ -68372,9 +68263,9 @@ export const voivodeship = {
         "Nowodworce",
         "Wólka Poduchowna",
         "Rybniki",
-        "Studzianki"
+        "Studzianki",
       ],
-      "Zabłudów": [
+      Zabłudów: [
         "Kościukówka",
         "Słomianka",
         "Borowiki",
@@ -68430,9 +68321,9 @@ export const voivodeship = {
         "Ostrówki",
         "Koźliki",
         "Ryboły",
-        "Gnieciuki"
+        "Gnieciuki",
       ],
-      "Zawady": [
+      Zawady: [
         "Marylki",
         "Zawady-Kolonia",
         "Targonie-Wity",
@@ -68462,10 +68353,10 @@ export const voivodeship = {
         "Cibory-Chrzczony",
         "Kurpiki",
         "Konopki-Klimki",
-        "Stare Chlebiotki"
-      ]
+        "Stare Chlebiotki",
+      ],
     },
-    "bielski": {
+    bielski: {
       "Bielsk Podlaski": [
         "Hendzel",
         "Korpacz",
@@ -68548,9 +68439,9 @@ export const voivodeship = {
         "Hryniewicze Małe",
         "Husaki",
         "Piliki",
-        "Chraboły"
+        "Chraboły",
       ],
-      "Brańsk": [
+      Brańsk: [
         "Kalnowiec",
         "Majorowizna",
         "Popławy",
@@ -68607,9 +68498,9 @@ export const voivodeship = {
         "Kiersnowo",
         "Kiersnówek",
         "Kalnica",
-        "Olszewo"
+        "Olszewo",
       ],
-      "Boćki": [
+      Boćki: [
         "Kolonia Boćki",
         "Bodaczki",
         "Wandalin",
@@ -68654,9 +68545,9 @@ export const voivodeship = {
         "Wygonowo",
         "Dziecinne",
         "Nurzec",
-        "Hawryłki"
+        "Hawryłki",
       ],
-      "Orla": [
+      Orla: [
         "Gredele-Kolonia",
         "Gregorowce",
         "Baranowce",
@@ -68684,9 +68575,9 @@ export const voivodeship = {
         "Koszele",
         "Paszkowszczyzna",
         "Orla",
-        "Topczykały"
+        "Topczykały",
       ],
-      "Rudka": [
+      Rudka: [
         "Józefin",
         "Józefin",
         "Olendy",
@@ -68697,9 +68588,9 @@ export const voivodeship = {
         "Niemyje-Jarnąty",
         "Niemyje-Skłody",
         "Koce Borowe",
-        "Rudka"
+        "Rudka",
       ],
-      "Wyszki": [
+      Wyszki: [
         "Pulsze",
         "Ostrówek",
         "Krupice",
@@ -68764,11 +68655,11 @@ export const voivodeship = {
         "Samułki Małe",
         "Szczepany",
         "Wólka Zaleska",
-        "Godzieby"
-      ]
+        "Godzieby",
+      ],
     },
-    "grajewski": {
-      "Grajewo": [
+    grajewski: {
+      Grajewo: [
         "Białaszewo",
         "Kolonie Sojczyn Borowy",
         "Wojewodzin",
@@ -68824,9 +68715,9 @@ export const voivodeship = {
         "Kurejwa",
         "Grozimy",
         "Flesze",
-        "Chojnówek"
+        "Chojnówek",
       ],
-      "Radziłów": [
+      Radziłów: [
         "Grąd",
         "Łazy",
         "Święcienin-Kolonia",
@@ -68872,9 +68763,9 @@ export const voivodeship = {
         "Borawskie-Awissa",
         "Czerwonki",
         "Rydzewo Szlacheckie",
-        "Klimaszewnica"
+        "Klimaszewnica",
       ],
-      "Rajgród": [
+      Rajgród: [
         "Pikły",
         "Przejma",
         "Tama",
@@ -68918,9 +68809,9 @@ export const voivodeship = {
         "Turczyn",
         "Sołki",
         "Rydzewo",
-        "Rybczyzna"
+        "Rybczyzna",
       ],
-      "Szczuczyn": [
+      Szczuczyn: [
         "Zofiówka",
         "Adamowo",
         "Zimna Woda",
@@ -68961,9 +68852,9 @@ export const voivodeship = {
         "Niećkowo",
         "Skaje",
         "Brzeźno",
-        "Rakowo"
+        "Rakowo",
       ],
-      "Wąsosz": [
+      Wąsosz: [
         "Kolonie Ławsk",
         "Kolonia Gródź",
         "Kolonia Łazy",
@@ -68984,11 +68875,11 @@ export const voivodeship = {
         "Zalesie",
         "Kędziorowo",
         "Komosewo",
-        "Sulewo-Kownaty"
-      ]
+        "Sulewo-Kownaty",
+      ],
     },
-    "hajnowski": {
-      "Hajnówka": [
+    hajnowski: {
+      Hajnówka: [
         "Nieznany Bór",
         "Budy Leśne",
         "Czerlonka Leśna",
@@ -69072,9 +68963,9 @@ export const voivodeship = {
         "Stare Berezowo",
         "Dubicze Osoczne",
         "Borysówka",
-        "Bielszczyzna"
+        "Bielszczyzna",
       ],
-      "Białowieża": [
+      Białowieża: [
         "Zwierzyniec",
         "Przewłoka",
         "Podcerkwy",
@@ -69087,9 +68978,9 @@ export const voivodeship = {
         "Białowieża",
         "Pogorzelce",
         "Budy",
-        "Teremiski"
+        "Teremiski",
       ],
-      "Czeremcha": [
+      Czeremcha: [
         "Gajki",
         "Pożniki",
         "Chlewiszcze",
@@ -69114,9 +69005,9 @@ export const voivodeship = {
         "Czeremcha-Wieś",
         "Zubacze",
         "Bobrówka",
-        "Opaka Duża"
+        "Opaka Duża",
       ],
-      "Czyże": [
+      Czyże: [
         "Bujakowszczyzna",
         "Hrabniak",
         "Klebańszczyzna",
@@ -69163,7 +69054,7 @@ export const voivodeship = {
         "Rakowicze",
         "Zbucz",
         "Wólka",
-        "Podrzeczany"
+        "Podrzeczany",
       ],
       "Dubicze Cerkiewne": [
         "Kruhłe",
@@ -69198,9 +69089,9 @@ export const voivodeship = {
         "Stary Kornin",
         "Jelonka",
         "Werstok",
-        "Jagodniki"
+        "Jagodniki",
       ],
-      "Kleszczele": [
+      Kleszczele: [
         "Dąbrowa",
         "Kośna",
         "Za Osmolaną",
@@ -69232,9 +69123,9 @@ export const voivodeship = {
         "Toporki",
         "Żuki",
         "Biała Straż",
-        "Piotrowszczyzna"
+        "Piotrowszczyzna",
       ],
-      "Narew": [
+      Narew: [
         "Gramotne",
         "Stawek",
         "Podwaśki",
@@ -69320,9 +69211,9 @@ export const voivodeship = {
         "Koweła",
         "Gorędy",
         "Waniewo",
-        "Waśki"
+        "Waśki",
       ],
-      "Narewka": [
+      Narewka: [
         "Bielscy",
         "Chomińszczyzna",
         "Nowiny",
@@ -69391,11 +69282,11 @@ export const voivodeship = {
         "Michnówka",
         "Narewka",
         "Grodzisk",
-        "Siemianówka"
-      ]
+        "Siemianówka",
+      ],
     },
-    "kolneński": {
-      "Kolno": [
+    kolneński: {
+      Kolno: [
         "Laskowiec",
         "Pasterczyk",
         "Podłosiacze",
@@ -69460,9 +69351,9 @@ export const voivodeship = {
         "Kozioł",
         "Górskie",
         "Truszki-Patory",
-        "Danowo"
+        "Danowo",
       ],
-      "Grabowo": [
+      Grabowo: [
         "Jadłówek",
         "Borzymy",
         "Dąbrowa",
@@ -69503,7 +69394,7 @@ export const voivodeship = {
         "Świdry-Dobrzyce",
         "Łebki Duże",
         "Pasichy",
-        "Skroda Wielka"
+        "Skroda Wielka",
       ],
       "Mały Płock": [
         "Marwino",
@@ -69545,9 +69436,9 @@ export const voivodeship = {
         "Rudka-Skroda",
         "Chludnie",
         "Rogienice-Wypychy",
-        "Włodki"
+        "Włodki",
       ],
-      "Stawiski": [
+      Stawiski: [
         "Łojewek",
         "Poryte Małe",
         "Dąbrowa",
@@ -69595,9 +69486,9 @@ export const voivodeship = {
         "Kuczyny",
         "Tafiły",
         "Budziski",
-        "Chmielewo"
+        "Chmielewo",
       ],
-      "Turośl": [
+      Turośl: [
         "Turośl",
         "Pudełko",
         "Jesionki",
@@ -69635,11 +69526,11 @@ export const voivodeship = {
         "Charubin",
         "Cieloszka",
         "Leman",
-        "Potasie"
-      ]
+        "Potasie",
+      ],
     },
-    "łomżyński": {
-      "Jedwabne": [
+    łomżyński: {
+      Jedwabne: [
         "Kajetanowo",
         "Biczki",
         "Kąciki",
@@ -69708,9 +69599,9 @@ export const voivodeship = {
         "Nadbory",
         "Pawełki",
         "Chrostowo",
-        "Kaimy"
+        "Kaimy",
       ],
-      "Łomża": [
+      Łomża: [
         "Rubinówka",
         "Mikołajew",
         "Bacze-Lipnik",
@@ -69772,9 +69663,9 @@ export const voivodeship = {
         "Bacze Suche",
         "Grzymały Szczepankowskie",
         "Jarnuty",
-        "Gać"
+        "Gać",
       ],
-      "Miastkowo": [
+      Miastkowo: [
         "Drogoszewo",
         "Bartkowizna",
         "Orło",
@@ -69805,9 +69696,9 @@ export const voivodeship = {
         "Rydzewo-Gozdy",
         "Podosie",
         "Kaliszki",
-        "Kraska"
+        "Kraska",
       ],
-      "Nowogród": [
+      Nowogród: [
         "Kule",
         "Praga",
         "Dwór",
@@ -69827,9 +69718,9 @@ export const voivodeship = {
         "Jankowo-Skarbowo",
         "Sulimy",
         "Dzierzgi",
-        "Grądy"
+        "Grądy",
       ],
-      "Piątnica": [
+      Piątnica: [
         "Wyrąb",
         "Kownaty-Kolonia",
         "Gomulnik",
@@ -69901,9 +69792,9 @@ export const voivodeship = {
         "Poniat",
         "Wyłudzin",
         "Zabawka",
-        "Nowy Cydzyn"
+        "Nowy Cydzyn",
       ],
-      "Przytuły": [
+      Przytuły: [
         "Aleksandrowo",
         "Parcele",
         "Mieczki",
@@ -69925,9 +69816,9 @@ export const voivodeship = {
         "Przytuły-Kolonia",
         "Kubra-Przebudówka",
         "Stara Kubra",
-        "Supy"
+        "Supy",
       ],
-      "Śniadowo": [
+      Śniadowo: [
         "Koryta",
         "Bagno",
         "Jakać Borowa",
@@ -69998,9 +69889,9 @@ export const voivodeship = {
         "Stara Jastrząbka",
         "Uśnik-Kolonia",
         "Osobne",
-        "Sierzputy-Marki"
+        "Sierzputy-Marki",
       ],
-      "Wizna": [
+      Wizna: [
         "Lisno",
         "Podkosacze",
         "Witkowo",
@@ -70045,9 +69936,9 @@ export const voivodeship = {
         "Rutkowskie",
         "Srebrowo",
         "Stare Bożejewo",
-        "Zanklewo"
+        "Zanklewo",
       ],
-      "Zbójna": [
+      Zbójna: [
         "Nowogród",
         "Dobry Las",
         "Osowiec",
@@ -70100,11 +69991,11 @@ export const voivodeship = {
         "Laski",
         "Bienduszka",
         "Gawrychy",
-        "Pianki"
-      ]
+        "Pianki",
+      ],
     },
-    "moniecki": {
-      "Goniądz": [
+    moniecki: {
+      Goniądz: [
         "Osowiec-Twierdza",
         "Układek",
         "Grzędy",
@@ -70132,9 +70023,9 @@ export const voivodeship = {
         "Łazy",
         "Downary",
         "Klewianka",
-        "Wroceń"
+        "Wroceń",
       ],
-      "Jasionówka": [
+      Jasionówka: [
         "Marylant",
         "Zacisze",
         "Pawelce",
@@ -70155,9 +70046,9 @@ export const voivodeship = {
         "Milewskie",
         "Krzywa",
         "Brzozówka Folwarczna",
-        "Dobrzyniówka"
+        "Dobrzyniówka",
       ],
-      "Jaświły": [
+      Jaświły: [
         "Brzozowa-Kolonia",
         "Mikicin-Kolonia",
         "Dolistowo-Kolonia",
@@ -70182,9 +70073,9 @@ export const voivodeship = {
         "Starowola",
         "Szpakowo",
         "Radzie",
-        "Bagno"
+        "Bagno",
       ],
-      "Knyszyn": [
+      Knyszyn: [
         "Lewonie",
         "Kalinówka Kościelna",
         "Kropiwnica",
@@ -70212,9 +70103,9 @@ export const voivodeship = {
         "Wodziłówka",
         "Knyszyn-Zamek",
         "Ogrodniki",
-        "Poniklica"
+        "Poniklica",
       ],
-      "Krypno": [
+      Krypno: [
         "Warszawa",
         "Paryż",
         "Peńskie",
@@ -70231,9 +70122,9 @@ export const voivodeship = {
         "Góra",
         "Rekle",
         "Bajki-Zalesie",
-        "Długołęka"
+        "Długołęka",
       ],
-      "Mońki": [
+      Mońki: [
         "Ginie",
         "Kiślak",
         "Boguszewka",
@@ -70279,9 +70170,9 @@ export const voivodeship = {
         "Ołdaki",
         "Hornostaje",
         "Łupichy",
-        "Zalesie"
+        "Zalesie",
       ],
-      "Trzcianne": [
+      Trzcianne: [
         "Dobarz",
         "Kleszcze",
         "Stójka",
@@ -70312,11 +70203,11 @@ export const voivodeship = {
         "Trzcianne",
         "Zajki",
         "Boguszki",
-        "Chojnowo"
-      ]
+        "Chojnowo",
+      ],
     },
-    "sejneński": {
-      "Sejny": [
+    sejneński: {
+      Sejny: [
         "Klejwy",
         "Bierżałowce",
         "Nożegary",
@@ -70408,9 +70299,9 @@ export const voivodeship = {
         "Kielczany",
         "Rachelany",
         "Półkoty",
-        "Radziuszki"
+        "Radziuszki",
       ],
-      "Giby": [
+      Giby: [
         "Budwieć",
         "Dworczysko",
         "Muły",
@@ -70496,9 +70387,9 @@ export const voivodeship = {
         "Iwanówka",
         "Stanowisko",
         "Posejnele",
-        "Wysoki Most"
+        "Wysoki Most",
       ],
-      "Krasnopol": [
+      Krasnopol: [
         "Rutka Pachuckich",
         "Maćkowa Ruda",
         "Budzisko",
@@ -70578,9 +70469,9 @@ export const voivodeship = {
         "Rudawka",
         "Ryżówka",
         "Czarna Buchta",
-        "Głuszyn"
+        "Głuszyn",
       ],
-      "Puńsk": [
+      Puńsk: [
         "Dowiaciszki",
         "Bukowizna",
         "Czarnoziemie",
@@ -70633,11 +70524,11 @@ export const voivodeship = {
         "Wojciuliszki",
         "Poluńce",
         "Szołtany",
-        "Tauroszyszki"
-      ]
+        "Tauroszyszki",
+      ],
     },
-    "siemiatycki": {
-      "Siemiatycze": [
+    siemiatycki: {
+      Siemiatycze: [
         "Żurobice",
         "Kadłub",
         "Hryćki",
@@ -70702,9 +70593,9 @@ export const voivodeship = {
         "Korzeniówka Duża",
         "Czartajew",
         "Cecele",
-        "Zalesie"
+        "Zalesie",
       ],
-      "Drohiczyn": [
+      Drohiczyn: [
         "Arbasy Małe",
         "Przesieka",
         "Wierzchuca Nadbużna",
@@ -70753,9 +70644,9 @@ export const voivodeship = {
         "Tonkiele",
         "Putkowice Nagórne",
         "Putkowice Nadolne",
-        "Siekierki"
+        "Siekierki",
       ],
-      "Dziadkowice": [
+      Dziadkowice: [
         "Żurobice-Bagno",
         "Mała Jasienówka",
         "Chrościanka",
@@ -70779,9 +70670,9 @@ export const voivodeship = {
         "Malinowo",
         "Jasienówka",
         "Smolugi",
-        "Kąty"
+        "Kąty",
       ],
-      "Grodzisk": [
+      Grodzisk: [
         "Grodzisk",
         "Dobrogoszcz",
         "Krynki-Miklasy",
@@ -70839,9 +70730,9 @@ export const voivodeship = {
         "Stadniki",
         "Kamianki",
         "Kosianka-Boruty",
-        "Rybałty"
+        "Rybałty",
       ],
-      "Mielnik": [
+      Mielnik: [
         "Adamowo",
         "Olchowicze",
         "Stankowicze",
@@ -70872,9 +70763,9 @@ export const voivodeship = {
         "Mielnik",
         "Moszczona Królewska",
         "Końskie Góry",
-        "Wilanowo"
+        "Wilanowo",
       ],
-      "Milejczyce": [
+      Milejczyce: [
         "Osinki",
         "Choroszczewo",
         "Pokaniewo-Kolonia",
@@ -70900,7 +70791,7 @@ export const voivodeship = {
         "Biełki",
         "Grabarka",
         "Lewosze",
-        "Nowosiółki"
+        "Nowosiółki",
       ],
       "Nurzec-Stacja": [
         "Nurzec-Stacja",
@@ -70943,9 +70834,9 @@ export const voivodeship = {
         "Moszczona Pańska",
         "Stołbce",
         "Zalesie",
-        "Siemichocze"
+        "Siemichocze",
       ],
-      "Perlejewo": [
+      Perlejewo: [
         "Łazy",
         "Nowe Granne",
         "Wieska",
@@ -70985,10 +70876,10 @@ export const voivodeship = {
         "Moczydły-Dubiny",
         "Moczydły-Kukiełki",
         "Osnówka-Wyręby",
-        "Koski-Wypychy"
-      ]
+        "Koski-Wypychy",
+      ],
     },
-    "sokólski": {
+    sokólski: {
       "Dąbrowa Białostocka": [
         "Pogorzałe",
         "Brzozowy Borek",
@@ -71053,9 +70944,9 @@ export const voivodeship = {
         "Harasimowicze",
         "Zwierzyniec Mały",
         "Wroczyńszczyzna",
-        "Osmołowszczyzna"
+        "Osmołowszczyzna",
       ],
-      "Janów": [
+      Janów: [
         "Kizielewszczyzna",
         "Budzisk-Bagno",
         "Budzisk-Strużka",
@@ -71105,9 +70996,9 @@ export const voivodeship = {
         "Budno",
         "Cieśnisk Mały",
         "Soroczy Mostek",
-        "Łubianka"
+        "Łubianka",
       ],
-      "Korycin": [
+      Korycin: [
         "Wysiółki",
         "Mielewszczyzna",
         "Romaszkówka",
@@ -71145,9 +71036,9 @@ export const voivodeship = {
         "Kumiała",
         "Mielniki",
         "Wysokie",
-        "Zagórze"
+        "Zagórze",
       ],
-      "Krynki": [
+      Krynki: [
         "Żylicze",
         "Seroczyńszczyzna",
         "Podlipki",
@@ -71187,9 +71078,9 @@ export const voivodeship = {
         "Ozierskie",
         "Szaciły",
         "Stara Grzybowszczyzna",
-        "Sanniki"
+        "Sanniki",
       ],
-      "Kuźnica": [
+      Kuźnica: [
         "Kierkielewszczyzna",
         "Łosośna Mała",
         "Zajzdra",
@@ -71237,7 +71128,7 @@ export const voivodeship = {
         "Saczkowce",
         "Długosielce",
         "Achrymowce",
-        "Popławce"
+        "Popławce",
       ],
       "Nowy Dwór": [
         "Chilmony-Kolonia",
@@ -71266,9 +71157,9 @@ export const voivodeship = {
         "Dubaśno",
         "Plebanowce",
         "Chorużowce",
-        "Jaginty"
+        "Jaginty",
       ],
-      "Sidra": [
+      Sidra: [
         "Zelwa",
         "Gudebsk",
         "Makowlany",
@@ -71324,9 +71215,9 @@ export const voivodeship = {
         "Nowinka",
         "Chwaszczewo",
         "Szostaki",
-        "Bieniasze"
+        "Bieniasze",
       ],
-      "Sokółka": [
+      Sokółka: [
         "Zaścianki k. Kurowszczyzny",
         "Halańskie Ogrodniki",
         "Podjałówka",
@@ -71419,9 +71310,9 @@ export const voivodeship = {
         "Drahle",
         "Zawistowszczyzna",
         "Żuki",
-        "Bohoniki"
+        "Bohoniki",
       ],
-      "Suchowola": [
+      Suchowola: [
         "Chodorówka Stara-Kolonia",
         "Połomin-Kolonia",
         "Dubasiewskie Kolonie",
@@ -71485,9 +71376,9 @@ export const voivodeship = {
         "Horodnianka",
         "Karpowicze",
         "Wólka",
-        "Rutkowszczyzna"
+        "Rutkowszczyzna",
       ],
-      "Szudziałowo": [
+      Szudziałowo: [
         "Klin",
         "Litwinowy Ług",
         "Pierekał",
@@ -71546,11 +71437,11 @@ export const voivodeship = {
         "Knyszewicze",
         "Minkowce",
         "Nowinka",
-        "Nowy Ostrów"
-      ]
+        "Nowy Ostrów",
+      ],
     },
-    "suwalski": {
-      "Bakałarzewo": [
+    suwalski: {
+      Bakałarzewo: [
         "Podgórze",
         "Nowy Dwór",
         "Czerwonka",
@@ -71598,9 +71489,9 @@ export const voivodeship = {
         "Karasiewo",
         "Stara Kamionka",
         "Maryna",
-        "Płociczno"
+        "Płociczno",
       ],
-      "Filipów": [
+      Filipów: [
         "Garbas Drugi",
         "Bitkowo",
         "Zuśnieńska Linia",
@@ -71655,9 +71546,9 @@ export const voivodeship = {
         "Czarne",
         "Jemieliste",
         "Filipów Czwarty",
-        "Rospuda"
+        "Rospuda",
       ],
-      "Jeleniewo": [
+      Jeleniewo: [
         "Jaczno",
         "Udziejek",
         "Suchodoły",
@@ -71691,9 +71582,9 @@ export const voivodeship = {
         "Udryn",
         "Zarzecze Jeleniewskie",
         "Błaskowizna",
-        "Ścibowo"
+        "Ścibowo",
       ],
-      "Przerośl": [
+      Przerośl: [
         "Sypytka",
         "Pawłówka Mała",
         "Mała Przerośl",
@@ -71724,9 +71615,9 @@ export const voivodeship = {
         "Blenda",
         "Przerośl",
         "Nowa Przerośl",
-        "Kruszki"
+        "Kruszki",
       ],
-      "Raczki": [
+      Raczki: [
         "Dowspuda",
         "Kolonia Korytki",
         "Kolonie Wronowo",
@@ -71813,7 +71704,7 @@ export const voivodeship = {
         "Małe Raczki",
         "Stoki",
         "Chodźki",
-        "Józefowo"
+        "Józefowo",
       ],
       "Rutka-Tartak": [
         "Postawelek",
@@ -71844,9 +71735,9 @@ export const voivodeship = {
         "Krejwiany",
         "Ejszeryszki",
         "Trzcianka",
-        "Rutka-Tartak"
+        "Rutka-Tartak",
       ],
-      "Suwałki": [
+      Suwałki: [
         "Stary Folwark",
         "Gielniewo",
         "Słupie",
@@ -71902,9 +71793,9 @@ export const voivodeship = {
         "Tartak",
         "Sobolewo",
         "Przebród",
-        "Kuków-Folwark"
+        "Kuków-Folwark",
       ],
-      "Szypliszki": [
+      Szypliszki: [
         "Czerwonka",
         "Szelment",
         "Szymanowizna",
@@ -71959,9 +71850,9 @@ export const voivodeship = {
         "Majdan",
         "Białobłota",
         "Kupowo-Folwark",
-        "Jeziorki"
+        "Jeziorki",
       ],
-      "Wiżajny": [
+      Wiżajny: [
         "Jaczne",
         "Stara Hańcza",
         "Stołupianka",
@@ -71997,10 +71888,10 @@ export const voivodeship = {
         "Rogożajny Małe",
         "Maszutkinie",
         "Marianka",
-        "Kamionka"
-      ]
+        "Kamionka",
+      ],
     },
-    "wysokomazowiecki": {
+    wysokomazowiecki: {
       "Wysokie Mazowieckie": [
         "Wiśniówek-Kolonia",
         "Osipy-Wandzin",
@@ -72058,9 +71949,9 @@ export const voivodeship = {
         "Gołasze-Górki",
         "Mścichy",
         "Osipy-Kolonia",
-        "Święck Wielki"
+        "Święck Wielki",
       ],
-      "Ciechanowiec": [
+      Ciechanowiec: [
         "Kostuszyn-Kolonia",
         "Gaj",
         "Sawczyn",
@@ -72111,9 +72002,9 @@ export const voivodeship = {
         "Winna-Chroły",
         "Radziszewo-Sieńczuch",
         "Wojtkowice-Dady",
-        "Winna-Poświętna"
+        "Winna-Poświętna",
       ],
-      "Czyżew": [
+      Czyżew: [
         "Brulino-Starozumy",
         "Brulino-Oprawczyki",
         "Brulino-Koski",
@@ -72179,9 +72070,9 @@ export const voivodeship = {
         "Kaczyn-Herbasy",
         "Krzeczkowo-Gromadzyn",
         "Krzeczkowo-Nowe Bieńki",
-        "Krzeczkowo-Stare Bieńki"
+        "Krzeczkowo-Stare Bieńki",
       ],
-      "Klukowo": [
+      Klukowo: [
         "Wiktorzyn",
         "Janki",
         "Dzikowiny",
@@ -72220,7 +72111,7 @@ export const voivodeship = {
         "Wyszonki-Błonie",
         "Malinowo",
         "Stare Zalesie",
-        "Stare Warele"
+        "Stare Warele",
       ],
       "Kobylin-Borzymy": [
         "Kropiewnica-Kiernozki",
@@ -72264,7 +72155,7 @@ export const voivodeship = {
         "Sikory-Tomkowięta",
         "Sikory-Bartyczki",
         "Sikory-Pawłowięta",
-        "Wnory-Kużele"
+        "Wnory-Kużele",
       ],
       "Kulesze Kościelne": [
         "Nowe Wiechy",
@@ -72298,7 +72189,7 @@ export const voivodeship = {
         "Gołasze-Dąb",
         "Grodzkie Szczepanowięta",
         "Stypułki-Giemzino",
-        "Wnory-Wiechy"
+        "Wnory-Wiechy",
       ],
       "Nowe Piekuty": [
         "Skłody-Wróble",
@@ -72337,9 +72228,9 @@ export const voivodeship = {
         "Kostry-Litwa",
         "Krasowo-Częstki",
         "Krasowo-Siódmaki",
-        "Skłody-Przyrusy"
+        "Skłody-Przyrusy",
       ],
-      "Sokoły": [
+      Sokoły: [
         "Wyrąb",
         "Piaszczyna",
         "Jeńki-Romanowo",
@@ -72410,9 +72301,9 @@ export const voivodeship = {
         "Stare Truskolasy",
         "Kowalewszczyzna-Folwark",
         "Czajki",
-        "Jamiołki-Piotrowięta"
+        "Jamiołki-Piotrowięta",
       ],
-      "Szepietowo": [
+      Szepietowo: [
         "Pułazie-Wojdyły",
         "Zabiele",
         "Chorążyce",
@@ -72463,11 +72354,11 @@ export const voivodeship = {
         "Stary Kamień",
         "Dąbrowa-Moczydły",
         "Dąbrowa-Tworki",
-        "Dąbrowa-Wilki"
-      ]
+        "Dąbrowa-Wilki",
+      ],
     },
-    "zambrowski": {
-      "Zambrów": [
+    zambrowski: {
+      Zambrów: [
         "Grabówka",
         "Czerwony Bór",
         "Szeligi-Kolonia",
@@ -72541,7 +72432,7 @@ export const voivodeship = {
         "Grochy-Pogorzele",
         "Koziki-Jałbrzyków Stok",
         "Goski Duże",
-        "Krajewo-Łętowo"
+        "Krajewo-Łętowo",
       ],
       "Kołaki Kościelne": [
         "Nowe Kołaki",
@@ -72569,9 +72460,9 @@ export const voivodeship = {
         "Głodowo-Dąb",
         "Ćwikły-Rupie",
         "Podłatki Małe",
-        "Łętowo-Dąb"
+        "Łętowo-Dąb",
       ],
-      "Rutki": [
+      Rutki: [
         "Jaworki",
         "Grądy-Woniecko",
         "Konopki Leśne",
@@ -72617,9 +72508,9 @@ export const voivodeship = {
         "Zambrzyce-Kapusty",
         "Pęsy-Lipno",
         "Rutki-Jatki",
-        "Zambrzyce-Plewki"
+        "Zambrzyce-Plewki",
       ],
-      "Szumowo": [
+      Szumowo: [
         "Mroczki-Stylongi",
         "Wyszomierz-Kolonia",
         "Jarzębie",
@@ -72644,11 +72535,11 @@ export const voivodeship = {
         "Żabikowo Prywatne",
         "Głębocz Wielki",
         "Kaczynek",
-        "Szumowo"
-      ]
+        "Szumowo",
+      ],
     },
-    "Białystok": {
-      "Białystok": [
+    Białystok: {
+      Białystok: [
         "Zawady",
         "Dojlidy Górne",
         "Dojlidy-Kolonia",
@@ -72678,11 +72569,11 @@ export const voivodeship = {
         "Antoniuk",
         "Dojlidy Dolne",
         "Antoniuk Fabryczny",
-        "Białystok"
-      ]
+        "Białystok",
+      ],
     },
-    "Łomża": {
-      "Łomża": [
+    Łomża: {
+      Łomża: [
         "Łomżyca-Przedmieście",
         "Zawady-Przedmieście",
         "Rybaki",
@@ -72690,11 +72581,11 @@ export const voivodeship = {
         "Pociejewo",
         "Rembelin",
         "Kraska",
-        "Łomża"
-      ]
+        "Łomża",
+      ],
     },
-    "Suwałki": {
-      "Suwałki": [
+    Suwałki: {
+      Suwałki: [
         "Krzywólka",
         "Maniówka",
         "Białorogi",
@@ -72702,13 +72593,13 @@ export const voivodeship = {
         "Szwajcaria",
         "Dąbrówka-Młynek",
         "Papiernia",
-        "Suwałki"
-      ]
-    }
+        "Suwałki",
+      ],
+    },
   },
-  "POMORSKIE": {
-    "bytowski": {
-      "Borzytuchom": [
+  POMORSKIE: {
+    bytowski: {
+      Borzytuchom: [
         "Dąbrówka",
         "Jutrzenka",
         "Krosnowo",
@@ -72721,9 +72612,9 @@ export const voivodeship = {
         "Kamieńc",
         "Kamieńczyn",
         "Kamienica",
-        "Osieczki"
+        "Osieczki",
       ],
-      "Bytów": [
+      Bytów: [
         "Świątkowo",
         "Niezabyszewo",
         "Dąbie",
@@ -72763,7 +72654,7 @@ export const voivodeship = {
         "Dąbki",
         "Świerkówko",
         "Leśno",
-        "Bory"
+        "Bory",
       ],
       "Czarna Dąbrówka": [
         "Mikorowo",
@@ -72823,9 +72714,9 @@ export const voivodeship = {
         "Podkomorki",
         "Lipieniec",
         "Skotawsko",
-        "Brzezinka"
+        "Brzezinka",
       ],
-      "Kołczygłowy": [
+      Kołczygłowy: [
         "Kołczygłowy",
         "Witanowo",
         "Przyborze",
@@ -72863,9 +72754,9 @@ export const voivodeship = {
         "Barnowo",
         "Stara Jesionka",
         "Stankowo",
-        "Wierszynko"
+        "Wierszynko",
       ],
-      "Lipnica": [
+      Lipnica: [
         "Luboń",
         "Mielno",
         "Lipnica",
@@ -72944,9 +72835,9 @@ export const voivodeship = {
         "Luboń",
         "Modrzejewo",
         "Rosocha",
-        "Kocioł"
+        "Kocioł",
       ],
-      "Miastko": [
+      Miastko: [
         "Bobięcino",
         "Piaszczyna",
         "Kwisno",
@@ -73037,9 +72928,9 @@ export const voivodeship = {
         "Łosośniki",
         "Klewno",
         "Czaplino",
-        "Suchodębie"
+        "Suchodębie",
       ],
-      "Parchowo": [
+      Parchowo: [
         "Chośnica",
         "Grabowo Parchowskie",
         "Jamno",
@@ -73075,9 +72966,9 @@ export const voivodeship = {
         "Sumin",
         "Chałupa",
         "Folwark",
-        "Parchowo"
+        "Parchowo",
       ],
-      "Studzienice": [
+      Studzienice: [
         "Rabacino",
         "Prądzonka",
         "Przewóz",
@@ -73113,9 +73004,9 @@ export const voivodeship = {
         "Sominy",
         "Bukówki",
         "Lipuszek",
-        "Róg-Gajówka"
+        "Róg-Gajówka",
       ],
-      "Trzebielino": [
+      Trzebielino: [
         "Zielin",
         "Miszewo",
         "Myślimierz",
@@ -73148,9 +73039,9 @@ export const voivodeship = {
         "Popielewo",
         "Suchorze",
         "Kletoch",
-        "Zielin"
+        "Zielin",
       ],
-      "Tuchomie": [
+      Tuchomie: [
         "Tuchomie",
         "Nowe Huty",
         "Tągowie",
@@ -73173,11 +73064,11 @@ export const voivodeship = {
         "Wykowo",
         "Gołogóra",
         "Uciesze",
-        "Sośnica"
-      ]
+        "Sośnica",
+      ],
     },
-    "chojnicki": {
-      "Chojnice": [
+    chojnicki: {
+      Chojnice: [
         "Silno",
         "Pawłowo",
         "Doręgowice",
@@ -73293,9 +73184,9 @@ export const voivodeship = {
         "Drzewicz",
         "Powałki",
         "Krojanty",
-        "Jabłonka"
+        "Jabłonka",
       ],
-      "Brusy": [
+      Brusy: [
         "Czarnowo",
         "Czarniż",
         "Lubnia",
@@ -73395,9 +73286,9 @@ export const voivodeship = {
         "Lubnia-Wybudowanie",
         "Małe Chełmy-Wybudowanie",
         "Wielkie Chełmy-Wybudowanie",
-        "Zalesie-Wybudowanie"
+        "Zalesie-Wybudowanie",
       ],
-      "Czersk": [
+      Czersk: [
         "Zapędowo",
         "Złotowo",
         "Brda",
@@ -73509,9 +73400,9 @@ export const voivodeship = {
         "Rytel-Dworzec",
         "Olszyny",
         "Spierewnik",
-        "Juńcza"
+        "Juńcza",
       ],
-      "Konarzyny": [
+      Konarzyny: [
         "Ciecholewy",
         "Zielona Huta",
         "Binduga",
@@ -73542,11 +73433,11 @@ export const voivodeship = {
         "Złota Góra",
         "Duża Kępina",
         "Łachmany",
-        "Żychce"
-      ]
+        "Żychce",
+      ],
     },
-    "człuchowski": {
-      "Człuchów": [
+    człuchowski: {
+      Człuchów: [
         "Skarszewo",
         "Wierzchowo",
         "Polnica",
@@ -73608,9 +73499,9 @@ export const voivodeship = {
         "Jeziorno",
         "Kątki",
         "Gozdnica",
-        "Śniaty"
+        "Śniaty",
       ],
-      "Czarne": [
+      Czarne: [
         "Sierpowo",
         "Raciniewo",
         "Biernatka",
@@ -73633,9 +73524,9 @@ export const voivodeship = {
         "Wierzbnik",
         "Wronkowo",
         "Malinowo",
-        "Janowiec"
+        "Janowiec",
       ],
-      "Debrzno": [
+      Debrzno: [
         "Strzeczona",
         "Buka",
         "Prusinowo",
@@ -73674,9 +73565,9 @@ export const voivodeship = {
         "Ostrza",
         "Borówno-Folwark",
         "Gronowski Młyn",
-        "Przypólsko"
+        "Przypólsko",
       ],
-      "Koczała": [
+      Koczała: [
         "Zapadłe",
         "Pietrzykowo",
         "Trzyniec",
@@ -73705,9 +73596,9 @@ export const voivodeship = {
         "Zagaje",
         "Niesiłowo",
         "Stara Brda",
-        "Kałka"
+        "Kałka",
       ],
-      "Przechlewo": [
+      Przechlewo: [
         "Dąbrowa Człuchowska",
         "Nowa Wieś",
         "Lisewo",
@@ -73744,9 +73635,9 @@ export const voivodeship = {
         "Trzęsacz",
         "Wiśnica",
         "Lipczynek",
-        "Szyszka"
+        "Szyszka",
       ],
-      "Rzeczenica": [
+      Rzeczenica: [
         "Grodzisko",
         "Międzybórz",
         "Trzmielewo",
@@ -73775,10 +73666,10 @@ export const voivodeship = {
         "Bagnica",
         "Działek",
         "Gockówko",
-        "Mulnica"
-      ]
+        "Mulnica",
+      ],
     },
-    "gdański": {
+    gdański: {
       "Pruszcz Gdański": [
         "Lędowo",
         "Żukczyn",
@@ -73812,7 +73703,7 @@ export const voivodeship = {
         "Świńcz",
         "Rotmanka",
         "Malentyn",
-        "Wiślinka"
+        "Wiślinka",
       ],
       "Cedry Wielkie": [
         "Kiezmark",
@@ -73836,9 +73727,9 @@ export const voivodeship = {
         "Błotnik Pierwszy",
         "Serowo",
         "Miłocin",
-        "Szerzawa"
+        "Szerzawa",
       ],
-      "Kolbudy": [
+      Kolbudy: [
         "Jankowo Gdańskie",
         "Babidół",
         "Bielkówko",
@@ -73859,9 +73750,9 @@ export const voivodeship = {
         "Pręgówko",
         "Ostróżki",
         "Bąkowo",
-        "Bielkowo"
+        "Bielkowo",
       ],
-      "Przywidz": [
+      Przywidz: [
         "Marszewo",
         "Klonowo Dolne",
         "Częstocin",
@@ -73902,9 +73793,9 @@ export const voivodeship = {
         "Stoszewo",
         "Zalesie Przywidzkie",
         "Ząbrsko Dolne",
-        "Borzyszewo"
+        "Borzyszewo",
       ],
-      "Pszczółki": [
+      Pszczółki: [
         "Różyny",
         "Kleszczewko",
         "Kolnik",
@@ -73914,7 +73805,7 @@ export const voivodeship = {
         "Ulkowy",
         "Żelisław",
         "Żelisławki",
-        "Ostrowite"
+        "Ostrowite",
       ],
       "Suchy Dąb": [
         "Ostrowite",
@@ -73926,7 +73817,7 @@ export const voivodeship = {
         "Steblewo",
         "Krzywe Koło",
         "Grabiny-Zameczek",
-        "Krzywe Koło"
+        "Krzywe Koło",
       ],
       "Trąbki Wielkie": [
         "Trąbki Wielkie",
@@ -73968,11 +73859,11 @@ export const voivodeship = {
         "Lesk",
         "Kłodnia",
         "Kobierzyn-Cegielnia",
-        "Lisiki"
-      ]
+        "Lisiki",
+      ],
     },
-    "kartuski": {
-      "Chmielno": [
+    kartuski: {
+      Chmielno: [
         "Cieszenie",
         "Reskowo",
         "Borzestowska Huta",
@@ -74011,9 +73902,9 @@ export const voivodeship = {
         "Dziewcza Góra",
         "Maks",
         "Haska",
-        "Sznurki"
+        "Sznurki",
       ],
-      "Kartuzy": [
+      Kartuzy: [
         "Brodnica Górna",
         "Brodnica Dolna",
         "Dzierżążno",
@@ -74100,9 +73991,9 @@ export const voivodeship = {
         "Dzierżążno-Leśnictwo",
         "Smętowo Leśne",
         "Mirachowo",
-        "Kaliska"
+        "Kaliska",
       ],
-      "Przodkowo": [
+      Przodkowo: [
         "Szarłata",
         "Czeczewo",
         "Pomieczyno",
@@ -74145,9 +74036,9 @@ export const voivodeship = {
         "Bielawy",
         "Trzy Rzeki",
         "Kawle Górne",
-        "Sośniak"
+        "Sośniak",
       ],
-      "Sierakowice": [
+      Sierakowice: [
         "Borowy Las",
         "Paczewo",
         "Sierakowska Huta",
@@ -74214,9 +74105,9 @@ export const voivodeship = {
         "Kowale",
         "Migi",
         "Bącka Huta",
-        "Tuchlinek"
+        "Tuchlinek",
       ],
-      "Somonino": [
+      Somonino: [
         "Goręczyno",
         "Starkowa Huta",
         "Ostrzyce",
@@ -74252,9 +74143,9 @@ export const voivodeship = {
         "Lisia Góra",
         "Nowy Dwór",
         "Chylowa Huta",
-        "Kolańska Huta"
+        "Kolańska Huta",
       ],
-      "Stężyca": [
+      Stężyca: [
         "Smokowo",
         "Łosienice",
         "Przyrowie",
@@ -74315,9 +74206,9 @@ export const voivodeship = {
         "Kolano",
         "Delowo",
         "Nowa Sikorska Huta",
-        "Stara Sikorska Huta"
+        "Stara Sikorska Huta",
       ],
-      "Sulęczyno": [
+      Sulęczyno: [
         "Bukowa Góra",
         "Mściszewice",
         "Węsiory",
@@ -74368,9 +74259,9 @@ export const voivodeship = {
         "Nowy Dwór",
         "Zdunowice",
         "Małe Zdunowice",
-        "Ostrowite"
+        "Ostrowite",
       ],
-      "Żukowo": [
+      Żukowo: [
         "Przyjaźń",
         "Czaple",
         "Leźno",
@@ -74413,11 +74304,11 @@ export const voivodeship = {
         "Nowy Świat",
         "Borowiec",
         "Stara Piła",
-        "Piaski"
-      ]
+        "Piaski",
+      ],
     },
-    "kościerski": {
-      "Kościerzyna": [
+    kościerski: {
+      Kościerzyna: [
         "Będominek",
         "Kłobuczyno",
         "Wieprznica",
@@ -74492,9 +74383,9 @@ export const voivodeship = {
         "Dębrzyno",
         "Wawrzynowo",
         "Kula-Młyn",
-        "Czarlina-Osada"
+        "Czarlina-Osada",
       ],
-      "Dziemiany": [
+      Dziemiany: [
         "Raduń",
         "Trzebuń",
         "Piechowice",
@@ -74543,9 +74434,9 @@ export const voivodeship = {
         "Laska",
         "Zarośle",
         "Głuchy Bór",
-        "Borsztal"
+        "Borsztal",
       ],
-      "Karsin": [
+      Karsin: [
         "Wiele",
         "Miedzno",
         "Osowo",
@@ -74603,9 +74494,9 @@ export const voivodeship = {
         "Ostrzywilk",
         "Chojny",
         "Dębowiec",
-        "Mniszek"
+        "Mniszek",
       ],
-      "Liniewo": [
+      Liniewo: [
         "Chrósty Wysińskie",
         "Deka",
         "Garczyn",
@@ -74634,9 +74525,9 @@ export const voivodeship = {
         "Stary Wiec",
         "Brzęczek",
         "Janowo",
-        "Gorczonki"
+        "Gorczonki",
       ],
-      "Lipusz": [
+      Lipusz: [
         "Śluza",
         "Gostomko",
         "Szklana Huta",
@@ -74680,7 +74571,7 @@ export const voivodeship = {
         "Czajki-Błoto",
         "Dębowa Góra",
         "Jasna Gwiazda",
-        "Szczeblewo"
+        "Szczeblewo",
       ],
       "Nowa Karczma": [
         "Stary Barkoczyn",
@@ -74718,7 +74609,7 @@ export const voivodeship = {
         "Zimne Zdroje",
         "Olszowy Kierz",
         "Zielona Wieś",
-        "Nowy Barkoczyn"
+        "Nowy Barkoczyn",
       ],
       "Stara Kiszewa": [
         "Stary Bukowiec",
@@ -74769,11 +74660,11 @@ export const voivodeship = {
         "Grzybno",
         "Olpuch-Dworzec",
         "Łasinek",
-        "Nowiny"
-      ]
+        "Nowiny",
+      ],
     },
-    "kwidzyński": {
-      "Kwidzyn": [
+    kwidzyński: {
+      Kwidzyn: [
         "Rakowice",
         "Pastwa",
         "Mareza",
@@ -74812,9 +74703,9 @@ export const voivodeship = {
         "Piekarski Młyn",
         "Szadowski Młyn",
         "Mały Baldram",
-        "Szałwinek"
+        "Szałwinek",
       ],
-      "Gardeja": [
+      Gardeja: [
         "Zebrdowo",
         "Morawy",
         "Otoczyn",
@@ -74844,9 +74735,9 @@ export const voivodeship = {
         "Rozajny Małe",
         "Trumieje",
         "Wilkowo",
-        "Wracławek"
+        "Wracławek",
       ],
-      "Prabuty": [
+      Prabuty: [
         "Pilichowo",
         "Stańkowo",
         "Raniewo",
@@ -74886,9 +74777,9 @@ export const voivodeship = {
         "Grazymowo",
         "Stadnina",
         "Stary Kamień",
-        "Liwiec"
+        "Liwiec",
       ],
-      "Ryjewo": [
+      Ryjewo: [
         "Rudniki",
         "Borowy Młyn",
         "Jarzębina",
@@ -74912,9 +74803,9 @@ export const voivodeship = {
         "Watkowice Małe",
         "Watkowice",
         "Klecewko",
-        "Sarnowo"
+        "Sarnowo",
       ],
-      "Sadlinki": [
+      Sadlinki: [
         "Nebrowo Małe",
         "Grabowo",
         "Bronisławowo",
@@ -74929,18 +74820,13 @@ export const voivodeship = {
         "Glina",
         "Kaniczki",
         "Bogusze",
-        "Dziwno"
-      ]
+        "Dziwno",
+      ],
     },
-    "lęborski": {
-      "Lębork": [
-        "Lębork"
-      ],
-      "Łeba": [
-        "Łeba",
-        "Rąbka"
-      ],
-      "Cewice": [
+    lęborski: {
+      Lębork: ["Lębork"],
+      Łeba: ["Łeba", "Rąbka"],
+      Cewice: [
         "Siemirowice",
         "Krępkowice",
         "Dziechno",
@@ -74996,7 +74882,7 @@ export const voivodeship = {
         "Unieszynko",
         "Przepłochy",
         "Rogowo",
-        "Sobieszewko"
+        "Sobieszewko",
       ],
       "Nowa Wieś Lęborska": [
         "Żelazkowo",
@@ -75038,9 +74924,9 @@ export const voivodeship = {
         "Rybki",
         "Małoszyce",
         "Janowice",
-        "Janisławiec"
+        "Janisławiec",
       ],
-      "Wicko": [
+      Wicko: [
         "Wojciechowo",
         "Szczenurze",
         "Gęś",
@@ -75083,11 +74969,11 @@ export const voivodeship = {
         "Dychlino",
         "Komaszewo",
         "Poraj",
-        "Steknica"
-      ]
+        "Steknica",
+      ],
     },
-    "malborski": {
-      "Malbork": [
+    malborski: {
+      Malbork: [
         "Nowa Wieś Malborska",
         "Pielica",
         "Grobelno",
@@ -75107,9 +74993,9 @@ export const voivodeship = {
         "Tragamin",
         "Cisy",
         "Wielbark",
-        "Kamienice"
+        "Kamienice",
       ],
-      "Lichnowy": [
+      Lichnowy: [
         "Starynia",
         "Parszewo",
         "Dąbrowa",
@@ -75123,9 +75009,9 @@ export const voivodeship = {
         "Boręty Drugie",
         "Boręty Pierwsze",
         "Lichnówki Pierwsze",
-        "Lichnówki Drugie"
+        "Lichnówki Drugie",
       ],
-      "Miłoradz": [
+      Miłoradz: [
         "Gnojewo",
         "Miłoradz",
         "Stara Kościelnica",
@@ -75139,7 +75025,7 @@ export const voivodeship = {
         "Kłosowo",
         "Miłoradz",
         "Stara Wisła",
-        "Mątowy Wielkie"
+        "Mątowy Wielkie",
       ],
       "Nowy Staw": [
         "Dębina",
@@ -75163,7 +75049,7 @@ export const voivodeship = {
         "Martąg",
         "Świerki",
         "Lubiszewo Drugie",
-        "Trępnowy"
+        "Trępnowy",
       ],
       "Stare Pole": [
         "Złotowo",
@@ -75183,15 +75069,15 @@ export const voivodeship = {
         "Królewo Malborskie",
         "Kaczynos",
         "Kaczynos-Kolonia",
-        "Krzyżanowo"
-      ]
+        "Krzyżanowo",
+      ],
     },
-    "nowodworski": {
+    nowodworski: {
       "Krynica Morska": [
         "Krynica Morska",
         "Nowa Karczma",
         "Przebrno",
-        "Młyniska"
+        "Młyniska",
       ],
       "Nowy Dwór Gdański": [
         "Żelichowo",
@@ -75232,9 +75118,9 @@ export const voivodeship = {
         "Piotrowo",
         "Cyganek",
         "Orłówko",
-        "Gozdawa-Osada"
+        "Gozdawa-Osada",
       ],
-      "Ostaszewo": [
+      Ostaszewo: [
         "Jeziernik",
         "Nowa Cerkiew",
         "Nowa Kościelnica",
@@ -75245,9 +75131,9 @@ export const voivodeship = {
         "Groblica",
         "Komarówka",
         "Lubiszynek Pierwszy",
-        "Pułkownikówka"
+        "Pułkownikówka",
       ],
-      "Stegna": [
+      Stegna: [
         "Chełmek",
         "Chorążówka",
         "Mikoszewo",
@@ -75278,9 +75164,9 @@ export const voivodeship = {
         "Szkarpawa",
         "Wybicko",
         "Niedźwiedziówka",
-        "Jantar-Leśniczówka"
+        "Jantar-Leśniczówka",
       ],
-      "Sztutowo": [
+      Sztutowo: [
         "Kąty Rybackie",
         "Płonina",
         "Sztutowo",
@@ -75292,19 +75178,13 @@ export const voivodeship = {
         "Grochowo Trzecie",
         "Graniczna",
         "Groszkowo",
-        "Skowronki"
-      ]
+        "Skowronki",
+      ],
     },
-    "pucki": {
-      "Hel": [
-        "Hel"
-      ],
-      "Jastarnia": [
-        "Jastarnia",
-        "Jurata",
-        "Kuźnica"
-      ],
-      "Puck": [
+    pucki: {
+      Hel: ["Hel"],
+      Jastarnia: ["Jastarnia", "Jurata", "Kuźnica"],
+      Puck: [
         "Leśniewo",
         "Brudzewo",
         "Darzlubie",
@@ -75358,9 +75238,9 @@ export const voivodeship = {
         "Czarna Góra",
         "Łyśniewo",
         "Mieroszyno-Parcele",
-        "Beka"
+        "Beka",
       ],
-      "Władysławowo": [
+      Władysławowo: [
         "Rozewie",
         "Karwia",
         "Ostrowo",
@@ -75371,9 +75251,9 @@ export const voivodeship = {
         "Władysławowo",
         "Cetniewo",
         "Poczernino",
-        "Lisi Jar"
+        "Lisi Jar",
       ],
-      "Kosakowo": [
+      Kosakowo: [
         "Pogórze",
         "Dębogórze",
         "Rewa",
@@ -75384,9 +75264,9 @@ export const voivodeship = {
         "Suchy Dwór",
         "Kazimierz",
         "Dębogórze-Wybudowanie",
-        "Stare Obłuże"
+        "Stare Obłuże",
       ],
-      "Krokowa": [
+      Krokowa: [
         "Karlikowo",
         "Lubocino",
         "Parszczyce",
@@ -75432,11 +75312,11 @@ export const voivodeship = {
         "Szary Dwór",
         "Parszkowo",
         "Połchówko",
-        "Robakowski Młyn"
-      ]
+        "Robakowski Młyn",
+      ],
     },
-    "słupski": {
-      "Ustka": [
+    słupski: {
+      Ustka: [
         "Grabno",
         "Lędowo",
         "Machowinko",
@@ -75477,9 +75357,9 @@ export const voivodeship = {
         "Orzechowo",
         "Wytowno",
         "Dominek",
-        "Ciosaniec"
+        "Ciosaniec",
       ],
-      "Damnica": [
+      Damnica: [
         "Dąbrówka",
         "Wiszno",
         "Stara Dąbrowa",
@@ -75507,7 +75387,7 @@ export const voivodeship = {
         "Bobrowniki",
         "Świtały",
         "Wielogłowy",
-        "Paprzyce"
+        "Paprzyce",
       ],
       "Dębnica Kaszubska": [
         "Budowo",
@@ -75561,9 +75441,9 @@ export const voivodeship = {
         "Starniczki",
         "Zakłodno",
         "Sulin",
-        "Leśna Polana"
+        "Leśna Polana",
       ],
-      "Główczyce": [
+      Główczyce: [
         "Siodłonie",
         "Klęcino",
         "Michałowo",
@@ -75623,9 +75503,9 @@ export const voivodeship = {
         "Rówienko",
         "Zgojewo",
         "Zgojewko",
-        "Murowaniec"
+        "Murowaniec",
       ],
-      "Kępice": [
+      Kępice: [
         "Żelice",
         "Osowo",
         "Korzybie",
@@ -75672,9 +75552,9 @@ export const voivodeship = {
         "Potoczek",
         "Murowaniec",
         "Borzysław",
-        "Nakło"
+        "Nakło",
       ],
-      "Kobylnica": [
+      Kobylnica: [
         "Bolesławice",
         "Lubuń",
         "Lulemino",
@@ -75715,9 +75595,9 @@ export const voivodeship = {
         "Giełdoń",
         "Kończewko",
         "Maszkowo",
-        "Miedzno"
+        "Miedzno",
       ],
-      "Potęgowo": [
+      Potęgowo: [
         "Warcimino",
         "Głuszynko",
         "Nowe Skórowo",
@@ -75749,9 +75629,9 @@ export const voivodeship = {
         "Grapiczki",
         "Karznica",
         "Grapice",
-        "Gaje"
+        "Gaje",
       ],
-      "Słupsk": [
+      Słupsk: [
         "Wiklino",
         "Wrzeście",
         "Włynkowo",
@@ -75807,9 +75687,9 @@ export const voivodeship = {
         "Redzikowo",
         "Bukówka",
         "Gajki",
-        "Mirosławin"
+        "Mirosławin",
       ],
-      "Smołdzino": [
+      Smołdzino: [
         "Stojcino",
         "Siecie",
         "Komnino",
@@ -75830,19 +75710,19 @@ export const voivodeship = {
         "Czołpino",
         "Siedliszcze",
         "Łokciowe",
-        "Przybynin"
-      ]
+        "Przybynin",
+      ],
     },
-    "starogardzki": {
+    starogardzki: {
       "Czarna Woda": [
         "Huta Kalna",
         "Lubiki",
         "Lubiki Małe",
         "Czarna Woda",
         "Kamionna",
-        "Podlesie"
+        "Podlesie",
       ],
-      "Skórcz": [
+      Skórcz: [
         "Pączewo",
         "Wolental",
         "Czarnylas",
@@ -75861,7 +75741,7 @@ export const voivodeship = {
         "Nowy Bukowiec",
         "Drewniaczki",
         "Czarne",
-        "Bojanowo"
+        "Bojanowo",
       ],
       "Starogard Gdański": [
         "Janowo",
@@ -75915,9 +75795,9 @@ export const voivodeship = {
         "Semlin",
         "Stary Las",
         "Wygoda",
-        "Helenowo"
+        "Helenowo",
       ],
-      "Bobowo": [
+      Bobowo: [
         "Grabowiec",
         "Jabłówko",
         "Wysoka",
@@ -75928,9 +75808,9 @@ export const voivodeship = {
         "Rusek",
         "Urbanowo",
         "Mysinek",
-        "Maksymilianowo"
+        "Maksymilianowo",
       ],
-      "Kaliska": [
+      Kaliska: [
         "Cieciorka",
         "Studzienice",
         "Czarne",
@@ -75961,9 +75841,9 @@ export const voivodeship = {
         "Lipski Młyn",
         "Stara Lipa",
         "Biedaczek",
-        "Okoninki"
+        "Okoninki",
       ],
-      "Lubichowo": [
+      Lubichowo: [
         "Bietowo",
         "Mermet",
         "Wda",
@@ -75995,9 +75875,9 @@ export const voivodeship = {
         "Baby",
         "Sowi Dół",
         "Lasek",
-        "Szlaga"
+        "Szlaga",
       ],
-      "Osieczna": [
+      Osieczna: [
         "Duże Krówno",
         "Szlachta",
         "Zimne Zdroje",
@@ -76016,9 +75896,9 @@ export const voivodeship = {
         "Owcze Błota",
         "Szary Kierz",
         "Nowy Dwór",
-        "Osieczna-Wybudowanie"
+        "Osieczna-Wybudowanie",
       ],
-      "Osiek": [
+      Osiek: [
         "Skrzynia",
         "Karszanek",
         "Bukowiny",
@@ -76058,9 +75938,9 @@ export const voivodeship = {
         "Dębia Góra",
         "Kałębnica",
         "Zdrójki",
-        "Łuby"
+        "Łuby",
       ],
-      "Skarszewy": [
+      Skarszewy: [
         "Czarnocin",
         "Obozin",
         "Jaroszewy",
@@ -76105,7 +75985,7 @@ export const voivodeship = {
         "Wałachowo",
         "Wilcze Góry",
         "Marianka",
-        "Jastrzębce"
+        "Jastrzębce",
       ],
       "Smętowo Graniczne": [
         "Stara Jania",
@@ -76125,9 +76005,9 @@ export const voivodeship = {
         "Kulmaga",
         "Rudawki",
         "Stary Bobrowiec",
-        "Słuchacz"
+        "Słuchacz",
       ],
-      "Zblewo": [
+      Zblewo: [
         "Białachówko",
         "Białachowo",
         "Pinczyn",
@@ -76158,11 +76038,11 @@ export const voivodeship = {
         "Jeziornik",
         "Wirty",
         "Cis",
-        "Twardy Dół"
-      ]
+        "Twardy Dół",
+      ],
     },
-    "tczewski": {
-      "Tczew": [
+    tczewski: {
+      Tczew: [
         "Bałdowo",
         "Boroszewo",
         "Dalwin",
@@ -76211,9 +76091,9 @@ export const voivodeship = {
         "Polesie",
         "Boroszewko",
         "Stęclówka",
-        "Piwnice"
+        "Piwnice",
       ],
-      "Gniew": [
+      Gniew: [
         "Jaźwiska",
         "Gogolewo",
         "Pieniążkowo",
@@ -76293,9 +76173,9 @@ export const voivodeship = {
         "Wielkie Wyręby",
         "Dębiny",
         "Duże Wiosło",
-        "Małe Wiosło"
+        "Małe Wiosło",
       ],
-      "Morzeszczyn": [
+      Morzeszczyn: [
         "Lipia Góra",
         "Kierwałd",
         "Bielsk",
@@ -76314,9 +76194,9 @@ export const voivodeship = {
         "Borkowo Leśne",
         "Brzeźno",
         "Majewo",
-        "Rzeżęcin-Pole"
+        "Rzeżęcin-Pole",
       ],
-      "Pelplin": [
+      Pelplin: [
         "Wielki Garc",
         "Rożental",
         "Rajkowy",
@@ -76355,9 +76235,9 @@ export const voivodeship = {
         "Korytyba",
         "Wybudowanie Gręblińskie",
         "Wybudowanie",
-        "Nadleśnictwo"
+        "Nadleśnictwo",
       ],
-      "Subkowy": [
+      Subkowy: [
         "Wielka Słońca",
         "Subkowy",
         "Brzuśce",
@@ -76376,25 +76256,20 @@ export const voivodeship = {
         "Subkowy Dworzec",
         "Płaczewo",
         "Mały Gorzędziej",
-        "Małe Subkowy"
-      ]
-    },
-    "wejherowski": {
-      "Reda": [
-        "Reda",
-        "Rekowo Dolne",
-        "Pieleszewo",
-        "Ciechocino"
+        "Małe Subkowy",
       ],
-      "Rumia": [
+    },
+    wejherowski: {
+      Reda: ["Reda", "Rekowo Dolne", "Pieleszewo", "Ciechocino"],
+      Rumia: [
         "Rumia",
         "Biała Rzeka",
         "Stara Piła",
         "Zagórze",
         "Janowo",
-        "Szmelta"
+        "Szmelta",
       ],
-      "Wejherowo": [
+      Wejherowo: [
         "Nowy Dwór Wejherowski",
         "Kniewo",
         "Ustarbowo",
@@ -76436,9 +76311,9 @@ export const voivodeship = {
         "Pryśniewo",
         "Biała",
         "Borowo",
-        "Warszkowo-Młyn"
+        "Warszkowo-Młyn",
       ],
-      "Choczewo": [
+      Choczewo: [
         "Borkowo Lęborskie",
         "Kierzkowo",
         "Słajkowo",
@@ -76481,9 +76356,9 @@ export const voivodeship = {
         "Łętowo",
         "Osieki Lęborskie",
         "Zwartowo",
-        "Zwarcienko"
+        "Zwarcienko",
       ],
-      "Gniewino": [
+      Gniewino: [
         "Bychowo",
         "Rybienko",
         "Łęczyn Dolny",
@@ -76521,9 +76396,9 @@ export const voivodeship = {
         "Wiciny",
         "Rukowo",
         "Rybska Karczma",
-        "Dębina"
+        "Dębina",
       ],
-      "Linia": [
+      Linia: [
         "Smażyno",
         "Pobłocie",
         "Linia",
@@ -76559,9 +76434,9 @@ export const voivodeship = {
         "Potęgowo",
         "Wyższe Pólko",
         "Igrzyczno",
-        "Kukówka"
+        "Kukówka",
       ],
-      "Luzino": [
+      Luzino: [
         "Barłomino",
         "Kochanowo",
         "Milwino",
@@ -76591,9 +76466,9 @@ export const voivodeship = {
         "Tabacznik",
         "Dąbrowski Młyn",
         "Kozłowskie",
-        "Wielki Las"
+        "Wielki Las",
       ],
-      "Łęczyce": [
+      Łęczyce: [
         "Dzięcielec",
         "Bożepole Wielkie",
         "Chrzanowo",
@@ -76646,9 +76521,9 @@ export const voivodeship = {
         "Żurawiniec",
         "Krzykowice",
         "Dębino",
-        "Chudoba"
+        "Chudoba",
       ],
-      "Szemud": [
+      Szemud: [
         "Dobrzewino",
         "Warzno",
         "Łebieńska Huta",
@@ -76753,11 +76628,11 @@ export const voivodeship = {
         "Psale",
         "Rabarnia",
         "Głodowo",
-        "Rosocha"
-      ]
+        "Rosocha",
+      ],
     },
-    "sztumski": {
-      "Dzierzgoń": [
+    sztumski: {
+      Dzierzgoń: [
         "Blunaki",
         "Jasna",
         "Ankamaty",
@@ -76794,7 +76669,7 @@ export const voivodeship = {
         "Bągart",
         "Chartowo",
         "Lisi Las",
-        "Sporowo"
+        "Sporowo",
       ],
       "Mikołajki Pomorskie": [
         "Krastudy",
@@ -76816,7 +76691,7 @@ export const voivodeship = {
         "Dworek",
         "Linki",
         "Nowe Minięta",
-        "Stążki"
+        "Stążki",
       ],
       "Stary Dzierzgoń": [
         "Stare Miasto",
@@ -76864,7 +76739,7 @@ export const voivodeship = {
         "Pogorzele",
         "Bartne Łąki",
         "Zakręty",
-        "Zamek"
+        "Zamek",
       ],
       "Stary Targ": [
         "Bukowo",
@@ -76908,9 +76783,9 @@ export const voivodeship = {
         "Zielonki",
         "Czerwony Dwór",
         "Krzyżówki",
-        "Gintro"
+        "Gintro",
       ],
-      "Sztum": [
+      Sztum: [
         "Parpary",
         "Koślinka",
         "Nowa Wieś",
@@ -76951,11 +76826,11 @@ export const voivodeship = {
         "Szpitalna Wieś",
         "Sztumska Wieś",
         "Węgry",
-        "Grzępa"
-      ]
+        "Grzępa",
+      ],
     },
-    "Gdańsk": {
-      "Gdańsk": [
+    Gdańsk: {
+      Gdańsk: [
         "Gdańsk",
         "Zamczysko",
         "Wisłoujście",
@@ -77057,11 +76932,11 @@ export const voivodeship = {
         "Karczemki Nynkowskie",
         "Sobieszewko",
         "Biskupia Górka",
-        "Migowo Lęborskie"
-      ]
+        "Migowo Lęborskie",
+      ],
     },
-    "Gdynia": {
-      "Gdynia": [
+    Gdynia: {
+      Gdynia: [
         "Gdynia",
         "Kolonia",
         "Babie Doły",
@@ -77105,27 +76980,19 @@ export const voivodeship = {
         "Kolonia Rybacka",
         "Krykulec",
         "Obłuże",
-        "Oksywie"
-      ]
+        "Oksywie",
+      ],
     },
-    "Słupsk": {
-      "Słupsk": [
-        "Słupsk",
-        "Ryczewo"
-      ]
+    Słupsk: {
+      Słupsk: ["Słupsk", "Ryczewo"],
     },
-    "Sopot": {
-      "Sopot": [
-        "Sopot",
-        "Przylesie",
-        "Kamienny Potok",
-        "Wyścigi"
-      ]
-    }
+    Sopot: {
+      Sopot: ["Sopot", "Przylesie", "Kamienny Potok", "Wyścigi"],
+    },
   },
-  "ŚLĄSKIE": {
-    "będziński": {
-      "Będzin": [
+  ŚLĄSKIE: {
+    będziński: {
+      Będzin: [
         "Boleradz",
         "Glinice",
         "Gzichów",
@@ -77141,17 +77008,17 @@ export const voivodeship = {
         "Brzozowica",
         "Grodziec",
         "Koszelew",
-        "Będzin"
+        "Będzin",
       ],
-      "Czeladź": [
+      Czeladź: [
         "Madera",
         "Brazylia",
         "Kolonia Małobądz",
         "Piaski",
         "Kolonia Rożka",
-        "Czeladź"
+        "Czeladź",
       ],
-      "Wojkowice": [
+      Wojkowice: [
         "Krzyżówka",
         "Stara Kolonia",
         "Kamyce",
@@ -77161,9 +77028,9 @@ export const voivodeship = {
         "Brzeziny",
         "Maszyńsko",
         "Piaski",
-        "Wojkowice"
+        "Wojkowice",
       ],
-      "Bobrowniki": [
+      Bobrowniki: [
         "Najdziszów",
         "Ossy",
         "Niebyła",
@@ -77186,9 +77053,9 @@ export const voivodeship = {
         "Sączów",
         "Dobieszowice",
         "Wymysłów",
-        "Siemonia"
+        "Siemonia",
       ],
-      "Mierzęcice": [
+      Mierzęcice: [
         "Sławniów",
         "Pałęczak",
         "Przy Szosie",
@@ -77219,9 +77086,9 @@ export const voivodeship = {
         "Boguchwałowice",
         "Najdziszów",
         "Nowa Wieś",
-        "Toporowice"
+        "Toporowice",
       ],
-      "Psary": [
+      Psary: [
         "Gajówka Łagisza",
         "Psary-Wańkowce",
         "Szosowa",
@@ -77258,9 +77125,9 @@ export const voivodeship = {
         "Brzękowice-Wał",
         "Brzękowice Górne",
         "Malinowice",
-        "Góra Siewierska"
+        "Góra Siewierska",
       ],
-      "Siewierz": [
+      Siewierz: [
         "Słowik",
         "Dzierżawa",
         "Sulikowskie",
@@ -77316,9 +77183,9 @@ export const voivodeship = {
         "Czekanka",
         "Gołuchowice",
         "Podwarpie",
-        "Dziewki"
+        "Dziewki",
       ],
-      "Sławków": [
+      Sławków: [
         "Chwaliboskie",
         "Miedawa",
         "Niwa",
@@ -77332,11 +77199,11 @@ export const voivodeship = {
         "Stawki",
         "Walcownia",
         "Zagródki",
-        "Sławków"
-      ]
+        "Sławków",
+      ],
     },
-    "bielski": {
-      "Szczyrk": [
+    bielski: {
+      Szczyrk: [
         "Reich",
         "Więzikówka",
         "Pośrednie",
@@ -77418,9 +77285,9 @@ export const voivodeship = {
         "Bieńkula",
         "Świniarki",
         "Wielki Kęs",
-        "Szczyrk"
+        "Szczyrk",
       ],
-      "Bestwina": [
+      Bestwina: [
         "Centrum",
         "Miasteczko",
         "Alej Borowa",
@@ -77458,9 +77325,9 @@ export const voivodeship = {
         "Bestwina",
         "Kaniów",
         "Janowice",
-        "Bestwinka"
+        "Bestwinka",
       ],
-      "Buczkowice": [
+      Buczkowice: [
         "Za Wodą",
         "Zakępy",
         "Bór",
@@ -77501,7 +77368,7 @@ export const voivodeship = {
         "Rybarzowice",
         "Buczkowice",
         "Godziszka",
-        "Kalna"
+        "Kalna",
       ],
       "Czechowice-Dziedzice": [
         "Zawodzie",
@@ -77553,9 +77420,9 @@ export const voivodeship = {
         "Czechowice-Dziedzice",
         "Zabrzeg",
         "Ligota",
-        "Bronów"
+        "Bronów",
       ],
-      "Jasienica": [
+      Jasienica: [
         "Za Stawie",
         "Pan Landek",
         "Osiedle Zarzeczan k. Łazów",
@@ -77645,9 +77512,9 @@ export const voivodeship = {
         "Roztropice",
         "Międzyrzecze Górne",
         "Rudzica",
-        "Biery"
+        "Biery",
       ],
-      "Jaworze": [
+      Jaworze: [
         "Błatnia",
         "Jaworze Średnie",
         "Jaworze Dolne",
@@ -77655,9 +77522,9 @@ export const voivodeship = {
         "Jaworze Nałęże",
         "Pelchrim",
         "Grabka",
-        "Jaworze"
+        "Jaworze",
       ],
-      "Kozy": [
+      Kozy: [
         "Folwark",
         "Wróblowice",
         "Pasieki",
@@ -77674,9 +77541,9 @@ export const voivodeship = {
         "Małe Kozy",
         "Kamienna Łąka",
         "Bagrówka",
-        "Kozy"
+        "Kozy",
       ],
-      "Porąbka": [
+      Porąbka: [
         "Łaziska",
         "Pagóry",
         "U Jazu",
@@ -77775,9 +77642,9 @@ export const voivodeship = {
         "Porąbka",
         "Bujaków",
         "Kobiernice",
-        "Czaniec"
+        "Czaniec",
       ],
-      "Wilamowice": [
+      Wilamowice: [
         "Nowa Wieś za Sołą",
         "Pola Bestwińskie",
         "Pola Jawiszowskie",
@@ -77829,9 +77696,9 @@ export const voivodeship = {
         "Dankowice",
         "Hecznarowice",
         "Stara Wieś",
-        "Pisarzowice"
+        "Pisarzowice",
       ],
-      "Wilkowice": [
+      Wilkowice: [
         "Bystra Dolna",
         "Bystra Górna",
         "Bór Łodygowski",
@@ -77872,11 +77739,11 @@ export const voivodeship = {
         "Magurka",
         "Bystra",
         "Wilkowice",
-        "Meszna"
-      ]
+        "Meszna",
+      ],
     },
-    "cieszyński": {
-      "Cieszyn": [
+    cieszyński: {
+      Cieszyn: [
         "Błogocice",
         "Kalembice",
         "Pastwiska",
@@ -77886,9 +77753,9 @@ export const voivodeship = {
         "Gułdowy",
         "Mnisztwo",
         "Marklowice",
-        "Cieszyn"
+        "Cieszyn",
       ],
-      "Ustroń": [
+      Ustroń: [
         "Orłowa",
         "Hermanice",
         "Jaszowiec",
@@ -77913,9 +77780,9 @@ export const voivodeship = {
         "Lipowiec",
         "Równica",
         "Zawodzie Dolne",
-        "Ustroń"
+        "Ustroń",
       ],
-      "Wisła": [
+      Wisła: [
         "Koszarki",
         "Nowa Osada",
         "Na Bukową",
@@ -77964,9 +77831,9 @@ export const voivodeship = {
         "Pod Kobylę",
         "Tokarnia",
         "Partecznik",
-        "Wisła"
+        "Wisła",
       ],
-      "Brenna": [
+      Brenna: [
         "Goczowska",
         "Kisiałka Niżnia",
         "Krzosy",
@@ -78071,9 +77938,9 @@ export const voivodeship = {
         "Kąty",
         "Brenna",
         "Górki Wielkie",
-        "Górki Małe"
+        "Górki Małe",
       ],
-      "Chybie": [
+      Chybie: [
         "Gawroniec",
         "Chodniczny",
         "Osiedle",
@@ -78098,9 +77965,9 @@ export const voivodeship = {
         "Zaborze",
         "Frelichów",
         "Zarzecze",
-        "Mnich"
+        "Mnich",
       ],
-      "Dębowiec": [
+      Dębowiec: [
         "Samlowiec",
         "Za Wodą",
         "Owczarek",
@@ -78121,9 +77988,9 @@ export const voivodeship = {
         "Dębowiec",
         "Łączka",
         "Ogrodzona",
-        "Gumna"
+        "Gumna",
       ],
-      "Goleszów": [
+      Goleszów: [
         "Centrum",
         "Pasieki",
         "Goleszów Dolny",
@@ -78169,9 +78036,9 @@ export const voivodeship = {
         "Kisielów",
         "Cisownica",
         "Goleszów",
-        "Leszna Górna"
+        "Leszna Górna",
       ],
-      "Hażlach": [
+      Hażlach: [
         "Podlesie",
         "Kopiec",
         "Odnóżka",
@@ -78203,9 +78070,9 @@ export const voivodeship = {
         "Pogwizdów",
         "Brzezówka",
         "Rudnik",
-        "Kończyce Wielkie"
+        "Kończyce Wielkie",
       ],
-      "Istebna": [
+      Istebna: [
         "Szymonkowie",
         "Andziółówka",
         "Mrażnice",
@@ -78355,9 +78222,9 @@ export const voivodeship = {
         "Żurówka",
         "Jaworzynka",
         "Koniaków",
-        "Istebna"
+        "Istebna",
       ],
-      "Skoczów": [
+      Skoczów: [
         "Bagna",
         "Baranowice",
         "Buczyna",
@@ -78410,9 +78277,9 @@ export const voivodeship = {
         "Kiczyce",
         "Pierściec",
         "Międzyświeć",
-        "Bładnice Górne"
+        "Bładnice Górne",
       ],
-      "Strumień": [
+      Strumień: [
         "Podbór",
         "Oblaski",
         "Nowy Świat",
@@ -78445,9 +78312,9 @@ export const voivodeship = {
         "Bąków",
         "Zbytków",
         "Pruchna",
-        "Drogomyśl"
+        "Drogomyśl",
       ],
-      "Zebrzydowice": [
+      Zebrzydowice: [
         "Kaczyce Dolne",
         "Kaczyce Górne",
         "Otrębów",
@@ -78475,11 +78342,11 @@ export const voivodeship = {
         "Kaczyce",
         "Zebrzydowice",
         "Marklowice Górne",
-        "Kończyce Małe"
-      ]
+        "Kończyce Małe",
+      ],
     },
-    "częstochowski": {
-      "Blachownia": [
+    częstochowski: {
+      Blachownia: [
         "Cisie",
         "Kierzek-Gajówka",
         "Cisie-Gajówka",
@@ -78503,7 +78370,7 @@ export const voivodeship = {
         "Wyrazów",
         "Gorzelnia",
         "Konradów",
-        "Łojki"
+        "Łojki",
       ],
       "Dąbrowa Zielona": [
         "Bocian",
@@ -78534,9 +78401,9 @@ export const voivodeship = {
         "Niebyła",
         "Lipie",
         "Dąbrowa Zielona",
-        "Cielętniki"
+        "Cielętniki",
       ],
-      "Janów": [
+      Janów: [
         "Julianka-Nadleśnictwo",
         "Sygontka-Leśniczówka",
         "Apolonka-Leśniczówka",
@@ -78588,7 +78455,7 @@ export const voivodeship = {
         "Zagórze",
         "Hucisko",
         "Skowronów",
-        "Sokole Pole"
+        "Sokole Pole",
       ],
       "Kamienica Polska": [
         "Gajówka Osiny",
@@ -78603,9 +78470,9 @@ export const voivodeship = {
         "Kolonia Klepaczka",
         "Rudnik Wielki",
         "Podlesie",
-        "Zawisna"
+        "Zawisna",
       ],
-      "Kłomnice": [
+      Kłomnice: [
         "Nalesie",
         "Smardzew",
         "Lipicze",
@@ -78655,9 +78522,9 @@ export const voivodeship = {
         "Rzerzęczyce",
         "Przybyłów",
         "Huby",
-        "Bartkowice"
+        "Bartkowice",
       ],
-      "Koniecpol": [
+      Koniecpol: [
         "Siernicze-Gajówka",
         "Borek",
         "Pod Jatnym",
@@ -78704,9 +78571,9 @@ export const voivodeship = {
         "Zaróg",
         "Oblasy",
         "Okołowice",
-        "Łabędź"
+        "Łabędź",
       ],
-      "Konopiska": [
+      Konopiska: [
         "Walaszczyki",
         "Leśniaki",
         "Kolonia Hutki",
@@ -78728,9 +78595,9 @@ export const voivodeship = {
         "Jamki",
         "Korzonek",
         "Hutki",
-        "Walaszczyki"
+        "Walaszczyki",
       ],
-      "Kruszyna": [
+      Kruszyna: [
         "Młynek",
         "Przerębów",
         "Cegielnia-Leśniczówka",
@@ -78758,9 +78625,9 @@ export const voivodeship = {
         "Wikłów",
         "Kruszyna",
         "Lgota Mała",
-        "Baby"
+        "Baby",
       ],
-      "Lelów": [
+      Lelów: [
         "Brzozowa Góra",
         "Bysów",
         "Kosmówki",
@@ -78809,9 +78676,9 @@ export const voivodeship = {
         "Ślęzany",
         "Celiny",
         "Nakło",
-        "Mełchów"
+        "Mełchów",
       ],
-      "Mstów": [
+      Mstów: [
         "Latosówka",
         "Rajsko",
         "Chrapoń",
@@ -78834,9 +78701,9 @@ export const voivodeship = {
         "Cegielnia",
         "Krasice",
         "Małusy Wielkie",
-        "Kuchary"
+        "Kuchary",
       ],
-      "Mykanów": [
+      Mykanów: [
         "Borowno-Gajówka",
         "Zasmole",
         "Cykarzew",
@@ -78901,9 +78768,9 @@ export const voivodeship = {
         "Kuźnica Lechowa",
         "Łochynia",
         "Kuźnica Kiedrzyńska",
-        "Kokawa"
+        "Kokawa",
       ],
-      "Olsztyn": [
+      Olsztyn: [
         "Odrzykoń",
         "Bloki Kolejowe",
         "Leśniczówka Dębowiec",
@@ -78945,9 +78812,9 @@ export const voivodeship = {
         "Skrajnica",
         "Turów",
         "Kusięta",
-        "Zrębice"
+        "Zrębice",
       ],
-      "Poczesna": [
+      Poczesna: [
         "Adamów",
         "Dębowiec",
         "Brzeziny-Kolonia",
@@ -78968,9 +78835,9 @@ export const voivodeship = {
         "Młynek",
         "Wrzosowa",
         "Poczesna",
-        "Kolonia Poczesna"
+        "Kolonia Poczesna",
       ],
-      "Przyrów": [
+      Przyrów: [
         "Czerniczno",
         "Sieraków",
         "Stawki",
@@ -78989,9 +78856,9 @@ export const voivodeship = {
         "Zalesice",
         "Stanisławów",
         "Zarębice",
-        "Przyrów"
+        "Przyrów",
       ],
-      "Rędziny": [
+      Rędziny: [
         "Rędziny-Kolonia",
         "Glinianki",
         "Lipówka",
@@ -79007,32 +78874,28 @@ export const voivodeship = {
         "Marianka Rędzińska",
         "Konin",
         "Madalin",
-        "Rudniki"
+        "Rudniki",
       ],
-      "Starcza": [
+      Starcza: [
         "Zielone Górki",
         "Łazy",
         "Starcza",
         "Rudnik Mały",
         "Łysiec",
         "Klepaczka",
-        "Własna"
-      ]
-    },
-    "gliwicki": {
-      "Knurów": [
-        "Krywałd",
-        "Szczygłowice",
-        "Knurów"
+        "Własna",
       ],
-      "Pyskowice": [
+    },
+    gliwicki: {
+      Knurów: ["Krywałd", "Szczygłowice", "Knurów"],
+      Pyskowice: [
         "Dzierżno",
         "Czerwionka",
         "Mikuszowina",
         "Zaolszany",
-        "Pyskowice"
+        "Pyskowice",
       ],
-      "Gierałtowice": [
+      Gierałtowice: [
         "Beksza",
         "Dwór",
         "Borek",
@@ -79041,18 +78904,18 @@ export const voivodeship = {
         "Przyszowice",
         "Gierałtowice",
         "Paniówki",
-        "Chudów"
+        "Chudów",
       ],
-      "Pilchowice": [
+      Pilchowice: [
         "Stanica",
         "Nieborowice",
         "Pilchowice",
         "Wilcza",
         "Żernica",
         "Leboszowice",
-        "Kuźnia Nieborowska"
+        "Kuźnia Nieborowska",
       ],
-      "Rudziniec": [
+      Rudziniec: [
         "Łącza",
         "Ligota Łabędzka",
         "Chechło",
@@ -79069,9 +78932,9 @@ export const voivodeship = {
         "Bycina",
         "Bojszów",
         "Niewiesze",
-        "Rudziniec"
+        "Rudziniec",
       ],
-      "Sośnicowice": [
+      Sośnicowice: [
         "Nowa Wieś",
         "Zamoście",
         "Łęg",
@@ -79089,9 +78952,9 @@ export const voivodeship = {
         "Tworóg Mały",
         "Sierakowice",
         "Rachowice",
-        "Smolnica"
+        "Smolnica",
       ],
-      "Toszek": [
+      Toszek: [
         "Proboszczowice",
         "Paczynka",
         "Zalesie",
@@ -79122,9 +78985,9 @@ export const voivodeship = {
         "Paczynka",
         "Płużniczka",
         "Ligota Toszecka",
-        "Pawłowice"
+        "Pawłowice",
       ],
-      "Wielowieś": [
+      Wielowieś: [
         "Dąbrówka-Hubertus",
         "Kotków",
         "Gaj",
@@ -79146,11 +79009,11 @@ export const voivodeship = {
         "Radonia",
         "Świbie",
         "Gajowice",
-        "Czarków"
-      ]
+        "Czarków",
+      ],
     },
-    "kłobucki": {
-      "Kłobuck": [
+    kłobucki: {
+      Kłobuck: [
         "Wapiennik",
         "Nadleśnictwo Kłobuck",
         "Łobodno",
@@ -79192,9 +79055,9 @@ export const voivodeship = {
         "Rybno",
         "Lgota",
         "Kopiec",
-        "Gruszewnia"
+        "Gruszewnia",
       ],
-      "Krzepice": [
+      Krzepice: [
         "Zajączki Pierwsze-Ruda",
         "Młyn",
         "Starokrzepice-Zawodzie",
@@ -79228,9 +79091,9 @@ export const voivodeship = {
         "Dankowice Pierwsze",
         "Podłęże Królewskie",
         "Starokrzepice",
-        "Dankowice Trzecie"
+        "Dankowice Trzecie",
       ],
-      "Lipie": [
+      Lipie: [
         "Cegielnia-Grabarze",
         "Stawy",
         "Piła",
@@ -79268,9 +79131,9 @@ export const voivodeship = {
         "Giętkowizna",
         "Kleśniska",
         "Szyszków",
-        "Wapiennik"
+        "Wapiennik",
       ],
-      "Miedźno": [
+      Miedźno: [
         "Rębielice",
         "Mazówki",
         "Wiktorów",
@@ -79315,9 +79178,9 @@ export const voivodeship = {
         "Izbiska",
         "Władysławów",
         "Rywaczki",
-        "Mokra"
+        "Mokra",
       ],
-      "Opatów": [
+      Opatów: [
         "Brzezinki",
         "Cmentarna",
         "Dąbrówka",
@@ -79351,9 +79214,9 @@ export const voivodeship = {
         "Iwanowice Małe",
         "Iwanowice Duże",
         "Waleńczów",
-        "Opatów"
+        "Opatów",
       ],
-      "Panki": [
+      Panki: [
         "Pod Dąbrową",
         "Gajówka Konieczki",
         "Jaciska-Gajówka",
@@ -79390,9 +79253,9 @@ export const voivodeship = {
         "Konieczki",
         "Kawki",
         "Kałmuki",
-        "Panki"
+        "Panki",
       ],
-      "Popów": [
+      Popów: [
         "Dębie-Leśniczówka",
         "Osiniec",
         "Wąsosz",
@@ -79440,9 +79303,9 @@ export const voivodeship = {
         "Florianów",
         "Marianów",
         "Kamieńszczyzna",
-        "Więcki"
+        "Więcki",
       ],
-      "Przystajń": [
+      Przystajń: [
         "Ługi",
         "Doły",
         "Sachalin",
@@ -79472,7 +79335,7 @@ export const voivodeship = {
         "Siekierowizna",
         "Górki",
         "Kamińsko",
-        "Stany"
+        "Stany",
       ],
       "Wręczyca Wielka": [
         "Gajówka Bieżeń",
@@ -79527,11 +79390,11 @@ export const voivodeship = {
         "Piła Pierwsza",
         "Węglowice",
         "Kalej",
-        "Kuleje"
-      ]
+        "Kuleje",
+      ],
     },
-    "lubliniecki": {
-      "Lubliniec": [
+    lubliniecki: {
+      Lubliniec: [
         "Leśnica",
         "Droniowiczki",
         "Steblów",
@@ -79541,9 +79404,9 @@ export const voivodeship = {
         "Posmyk",
         "Pusta Kuźnica",
         "Wymyślacz",
-        "Lubliniec"
+        "Lubliniec",
       ],
-      "Boronów": [
+      Boronów: [
         "Cielec",
         "Szklana Huta",
         "Doły",
@@ -79552,9 +79415,9 @@ export const voivodeship = {
         "Boronów",
         "Dębowa Góra",
         "Hucisko",
-        "Zumpy"
+        "Zumpy",
       ],
-      "Ciasna": [
+      Ciasna: [
         "Ciasna",
         "Sobkowe",
         "Czarne",
@@ -79623,9 +79486,9 @@ export const voivodeship = {
         "Zborowskie",
         "Wędzina",
         "Glinica",
-        "Ciasna"
+        "Ciasna",
       ],
-      "Herby": [
+      Herby: [
         "Cztery Kopy",
         "Piłka",
         "Niwy",
@@ -79649,9 +79512,9 @@ export const voivodeship = {
         "Hadra",
         "Herby",
         "Kalina",
-        "Lisów"
+        "Lisów",
       ],
-      "Kochanowice": [
+      Kochanowice: [
         "Biały Ług",
         "Gajówka Kochcice",
         "Śródlesie",
@@ -79673,9 +79536,9 @@ export const voivodeship = {
         "Ostrów",
         "Jawornica",
         "Kochcice",
-        "Kochanowice"
+        "Kochanowice",
       ],
-      "Koszęcin": [
+      Koszęcin: [
         "Rzyce",
         "Piłka",
         "Bagno",
@@ -79702,9 +79565,9 @@ export const voivodeship = {
         "Brusiek",
         "Koszęcin",
         "Rusinowice",
-        "Sadów"
+        "Sadów",
       ],
-      "Pawonków": [
+      Pawonków: [
         "Łagiewniki Małe",
         "Gajówka Dziewcza Góra",
         "Podgroblany",
@@ -79745,9 +79608,9 @@ export const voivodeship = {
         "Gwoździany",
         "Kośmidry",
         "Łagiewniki Małe",
-        "Lisowice"
+        "Lisowice",
       ],
-      "Woźniki": [
+      Woźniki: [
         "Widawa",
         "Czarny Las",
         "Głazówka",
@@ -79775,19 +79638,19 @@ export const voivodeship = {
         "Kamieńskie Młyny",
         "Kamienica",
         "Psary",
-        "Lubsza"
-      ]
+        "Lubsza",
+      ],
     },
-    "mikołowski": {
+    mikołowski: {
       "Łaziska Górne": [
         "Brada",
         "Łaziska Średnie",
         "Łazy",
         "Kieszki",
         "Łaziska Dolne",
-        "Łaziska Górne"
+        "Łaziska Górne",
       ],
-      "Mikołów": [
+      Mikołów: [
         "Rusinów",
         "Śmiłowice",
         "Kolonia Wojewódzka",
@@ -79813,9 +79676,9 @@ export const voivodeship = {
         "Marzankowice",
         "Gniotek",
         "Borowa Wieś",
-        "Mikołów"
+        "Mikołów",
       ],
-      "Orzesze": [
+      Orzesze: [
         "Peclówka",
         "Rybówka",
         "Zawiść",
@@ -79827,23 +79690,19 @@ export const voivodeship = {
         "Woszczyce",
         "Gardawice",
         "Mościska",
-        "Orzesze"
+        "Orzesze",
       ],
-      "Ornontowice": [
+      Ornontowice: [
         "Marzankowice",
         "Kolonia Graniczna",
         "Solarnia",
         "Żabik",
-        "Ornontowice"
+        "Ornontowice",
       ],
-      "Wyry": [
-        "Leśniczówka Wyry",
-        "Gostyń",
-        "Wyry"
-      ]
+      Wyry: ["Leśniczówka Wyry", "Gostyń", "Wyry"],
     },
-    "myszkowski": {
-      "Myszków": [
+    myszkowski: {
+      Myszków: [
         "Kręciwilk",
         "Papiernia",
         "Sikorka",
@@ -79870,9 +79729,9 @@ export const voivodeship = {
         "Pustkowie Mijaczowskie",
         "Nowa Wieś Żarecka",
         "Smudzówka",
-        "Myszków"
+        "Myszków",
       ],
-      "Koziegłowy": [
+      Koziegłowy: [
         "Wilcza Jama",
         "Koziegłówki-Leśniczówka",
         "Ogumie",
@@ -79957,9 +79816,9 @@ export const voivodeship = {
         "Lgota-Mokrzesz",
         "Zabijak",
         "Gniazdów",
-        "Cynków"
+        "Cynków",
       ],
-      "Niegowa": [
+      Niegowa: [
         "Okupniki",
         "Doły",
         "Podlelowie",
@@ -79987,9 +79846,9 @@ export const voivodeship = {
         "Dąbrowno",
         "Tomiszowice",
         "Niegówka",
-        "Ludwinów"
+        "Ludwinów",
       ],
-      "Poraj": [
+      Poraj: [
         "Poraj",
         "Kuźnica-Folwark",
         "Pustkowie Gęzyńskie",
@@ -80004,9 +79863,9 @@ export const voivodeship = {
         "Poraj",
         "Dębowiec",
         "Masłońskie",
-        "Żarki-Letnisko"
+        "Żarki-Letnisko",
       ],
-      "Żarki": [
+      Żarki: [
         "Kępina Wysocka",
         "Leśniczówka Kotowice",
         "Masłoń",
@@ -80038,17 +79897,13 @@ export const voivodeship = {
         "Kotowice",
         "Ostrów",
         "Suliszowice",
-        "Przybynów"
-      ]
+        "Przybynów",
+      ],
     },
-    "pszczyński": {
-      "Goczałkowice-Zdrój": [
-        "Goczałkowice-Zdrój"
-      ],
-      "Kobiór": [
-        "Kobiór"
-      ],
-      "Miedźna": [
+    pszczyński: {
+      "Goczałkowice-Zdrój": ["Goczałkowice-Zdrój"],
+      Kobiór: ["Kobiór"],
+      Miedźna: [
         "Gajówka Wola",
         "Zielonkówka",
         "Babudy",
@@ -80069,9 +79924,9 @@ export const voivodeship = {
         "Miedźna",
         "Gilowice",
         "Wola",
-        "Frydek"
+        "Frydek",
       ],
-      "Pawłowice": [
+      Pawłowice: [
         "Randówka",
         "Bliźniaczek",
         "Dolny Dwór",
@@ -80104,9 +79959,9 @@ export const voivodeship = {
         "Jarząbkowice",
         "Pielgrzymowice",
         "Pawłowice",
-        "Warszowice"
+        "Warszowice",
       ],
-      "Pszczyna": [
+      Pszczyna: [
         "Grzybiarnia",
         "Jankowice",
         "Nowa Siągarnia",
@@ -80157,9 +80012,9 @@ export const voivodeship = {
         "Piasek",
         "Ćwiklice",
         "Rudołtowice",
-        "Wisła Wielka"
+        "Wisła Wielka",
       ],
-      "Suszec": [
+      Suszec: [
         "Lasoki",
         "Konradów",
         "Podlesie",
@@ -80179,11 +80034,11 @@ export const voivodeship = {
         "Kobielice",
         "Rudziczka",
         "Suszec",
-        "Radostowice"
-      ]
+        "Radostowice",
+      ],
     },
-    "raciborski": {
-      "Racibórz": [
+    raciborski: {
+      Racibórz: [
         "Markowice",
         "Dębicz",
         "Łężczak",
@@ -80201,9 +80056,9 @@ export const voivodeship = {
         "Miedonia",
         "Nowe Zagrody",
         "Stara Wieś",
-        "Racibórz"
+        "Racibórz",
       ],
-      "Kornowac": [
+      Kornowac: [
         "Kolonia Kornowacka",
         "Lęgów",
         "Wyględów",
@@ -80212,18 +80067,18 @@ export const voivodeship = {
         "Łańce",
         "Pogrzebień",
         "Rzuchów",
-        "Kornowac"
+        "Kornowac",
       ],
-      "Krzanowice": [
+      Krzanowice: [
         "Chabowiec",
         "Krzanowice",
         "Krzanowice",
         "Bojanów",
         "Borucin",
         "Pietraszyn",
-        "Wojnowice"
+        "Wojnowice",
       ],
-      "Krzyżanowice": [
+      Krzyżanowice: [
         "Wydale",
         "Stare Chałupki",
         "Stary Dwór",
@@ -80242,7 +80097,7 @@ export const voivodeship = {
         "Zabełków",
         "Krzyżanowice",
         "Roszków",
-        "Bieńkowice"
+        "Bieńkowice",
       ],
       "Kuźnia Raciborska": [
         "Wildek",
@@ -80263,9 +80118,9 @@ export const voivodeship = {
         "Ruda Kozielska",
         "Siedliska",
         "Rudy",
-        "Ruda"
+        "Ruda",
       ],
-      "Nędza": [
+      Nędza: [
         "Orzeszków",
         "Trawniki",
         "Piła",
@@ -80275,7 +80130,7 @@ export const voivodeship = {
         "Szymocice",
         "Ciechowice",
         "Nędza",
-        "Babice"
+        "Babice",
       ],
       "Pietrowice Wielkie": [
         "Poddębina",
@@ -80298,9 +80153,9 @@ export const voivodeship = {
         "Cyprzanów",
         "Gródczanki",
         "Żerdziny",
-        "Krowiarki"
+        "Krowiarki",
       ],
-      "Rudnik": [
+      Rudnik: [
         "Dolędzin",
         "Folwark",
         "Gacki",
@@ -80323,10 +80178,10 @@ export const voivodeship = {
         "Sławienko",
         "Strzybnik",
         "Jastrzębie",
-        "Ligota Książęca"
-      ]
+        "Ligota Książęca",
+      ],
     },
-    "rybnicki": {
+    rybnicki: {
       "Czerwionka-Leszczyny": [
         "Jesionka",
         "Marynów",
@@ -80355,9 +80210,9 @@ export const voivodeship = {
         "Książenice",
         "Przegędza",
         "Palowice",
-        "Bełk"
+        "Bełk",
       ],
-      "Gaszowice": [
+      Gaszowice: [
         "Dwór",
         "Osinki",
         "Jeruzalem",
@@ -80367,13 +80222,10 @@ export const voivodeship = {
         "Czernica",
         "Piece",
         "Gaszowice",
-        "Szczerbice"
+        "Szczerbice",
       ],
-      "Jejkowice": [
-        "Pustki",
-        "Jejkowice"
-      ],
-      "Lyski": [
+      Jejkowice: ["Pustki", "Jejkowice"],
+      Lyski: [
         "Kamionki",
         "Podlesie",
         "Bączkowiec",
@@ -80390,9 +80242,9 @@ export const voivodeship = {
         "Zwonowice",
         "Nowa Wieś",
         "Żytna",
-        "Adamowice"
+        "Adamowice",
       ],
-      "Świerklany": [
+      Świerklany: [
         "Świerklany Dolne",
         "Kucharzówka",
         "Świerklany Górne",
@@ -80401,11 +80253,11 @@ export const voivodeship = {
         "Podkościele",
         "Michałkowice",
         "Świerklany",
-        "Jankowice"
-      ]
+        "Jankowice",
+      ],
     },
-    "tarnogórski": {
-      "Kalety": [
+    tarnogórski: {
+      Kalety: [
         "Mokrus",
         "Drutarnia",
         "Kuczów",
@@ -80414,7 +80266,7 @@ export const voivodeship = {
         "Lubocz",
         "Jędrysek",
         "Zielona",
-        "Kalety"
+        "Kalety",
       ],
       "Miasteczko Śląskie": [
         "Mieczysko",
@@ -80425,13 +80277,9 @@ export const voivodeship = {
         "Żyglin-Wodociągi",
         "Imielów",
         "Żyglinek",
-        "Miasteczko Śląskie"
+        "Miasteczko Śląskie",
       ],
-      "Radzionków": [
-        "Rojca",
-        "Buchacz",
-        "Radzionków"
-      ],
+      Radzionków: ["Rojca", "Buchacz", "Radzionków"],
       "Tarnowskie Góry": [
         "Repeckie",
         "Opatowice",
@@ -80454,7 +80302,7 @@ export const voivodeship = {
         "Płuczki",
         "Pniowiec",
         "Tłuczykąt",
-        "Tarnowskie Góry"
+        "Tarnowskie Góry",
       ],
       "Krupski Młyn": [
         "Ziętek",
@@ -80462,9 +80310,9 @@ export const voivodeship = {
         "Odmuchów",
         "Żyłka",
         "Potępa",
-        "Krupski Młyn"
+        "Krupski Młyn",
       ],
-      "Ożarowice": [
+      Ożarowice: [
         "Strąków",
         "Dąbrówka",
         "Ostrowy",
@@ -80474,18 +80322,18 @@ export const voivodeship = {
         "Pyrzowice",
         "Ossy",
         "Celiny",
-        "Ożarowice"
+        "Ożarowice",
       ],
-      "Świerklaniec": [
+      Świerklaniec: [
         "Ostrożnica",
         "Wapienniki",
         "Bizja",
         "Nakło Śląskie",
         "Orzech",
         "Nowe Chechło",
-        "Świerklaniec"
+        "Świerklaniec",
       ],
-      "Tworóg": [
+      Tworóg: [
         "Krywałd",
         "Pusta Kuźnica",
         "Wykierz",
@@ -80504,9 +80352,9 @@ export const voivodeship = {
         "Brynek",
         "Połomia",
         "Świniowice",
-        "Koty"
+        "Koty",
       ],
-      "Zbrosławice": [
+      Zbrosławice: [
         "Łubki",
         "Kopanina",
         "Łubie Dolne",
@@ -80539,11 +80387,11 @@ export const voivodeship = {
         "Boniowice",
         "Kamieniec",
         "Łubie",
-        "Ptakowice"
-      ]
+        "Ptakowice",
+      ],
     },
     "bieruńsko-lędziński": {
-      "Bieruń": [
+      Bieruń: [
         "Bieruń Nowy",
         "Baraniec",
         "Jajosty",
@@ -80556,9 +80404,9 @@ export const voivodeship = {
         "Bieruń Stary",
         "Bijasowice",
         "Czarnuchowice",
-        "Bieruń"
+        "Bieruń",
       ],
-      "Imielin": [
+      Imielin: [
         "Cisowiec",
         "Jamnice",
         "Wioski",
@@ -80567,9 +80415,9 @@ export const voivodeship = {
         "Imielin-Jazd",
         "Nowa Gać",
         "Stara Gać",
-        "Imielin"
+        "Imielin",
       ],
-      "Lędziny": [
+      Lędziny: [
         "Blich",
         "Kolonia Piast",
         "Kolonia Ziemowit",
@@ -80579,35 +80427,21 @@ export const voivodeship = {
         "Goławiec",
         "Górki",
         "Smardzowice",
-        "Lędziny"
+        "Lędziny",
       ],
-      "Bojszowy": [
+      Bojszowy: [
         "Bojszowy Nowe",
         "Międzyrzecze",
         "Świerczyniec",
         "Jedlina",
-        "Bojszowy"
+        "Bojszowy",
       ],
-      "Chełm Śląski": [
-        "Kopciowice",
-        "Chełm Śląski"
-      ]
+      "Chełm Śląski": ["Kopciowice", "Chełm Śląski"],
     },
-    "wodzisławski": {
-      "Pszów": [
-        "Doły Pszowskie",
-        "Kolonia Krzyżkowice",
-        "Krzyżkowice",
-        "Pszów"
-      ],
-      "Radlin": [
-        "Marcel",
-        "Głożyny",
-        "Obszary",
-        "Biertułtowy",
-        "Radlin"
-      ],
-      "Rydułtowy": [
+    wodzisławski: {
+      Pszów: ["Doły Pszowskie", "Kolonia Krzyżkowice", "Krzyżkowice", "Pszów"],
+      Radlin: ["Marcel", "Głożyny", "Obszary", "Biertułtowy", "Radlin"],
+      Rydułtowy: [
         "Bunczowiec",
         "Kalwaria",
         "Karol",
@@ -80617,7 +80451,7 @@ export const voivodeship = {
         "Orłowiec",
         "Pietrzkowice",
         "Radoszowy",
-        "Rydułtowy"
+        "Rydułtowy",
       ],
       "Wodzisław Śląski": [
         "Sakandrzak",
@@ -80637,9 +80471,9 @@ export const voivodeship = {
         "Jedłownik",
         "Stary Wodzisław",
         "Wilchwy",
-        "Wodzisław Śląski"
+        "Wodzisław Śląski",
       ],
-      "Godów": [
+      Godów: [
         "Głębocz",
         "Borowica",
         "Podlesie",
@@ -80653,9 +80487,9 @@ export const voivodeship = {
         "Gołkowice",
         "Skrbeńsko",
         "Godów",
-        "Krostoszowice"
+        "Krostoszowice",
       ],
-      "Gorzyce": [
+      Gorzyce: [
         "Syrynka",
         "Osiny",
         "Kolonia Fryderyka",
@@ -80680,9 +80514,9 @@ export const voivodeship = {
         "Bełsznica",
         "Kamień nad Odrą",
         "Uchylsko",
-        "Gorzyce"
+        "Gorzyce",
       ],
-      "Lubomia": [
+      Lubomia: [
         "Światłowiec",
         "Wielikąt",
         "Buglowiec",
@@ -80704,9 +80538,9 @@ export const voivodeship = {
         "Ligota Tworkowska",
         "Lubomia",
         "Nieboczowy",
-        "Grabówka"
+        "Grabówka",
       ],
-      "Marklowice": [
+      Marklowice: [
         "Grodzisko",
         "Kępa",
         "Wilczek",
@@ -80714,9 +80548,9 @@ export const voivodeship = {
         "Marklowice-Praga",
         "Marklowice-Chałupki",
         "Marklowice Górne",
-        "Marklowice"
+        "Marklowice",
       ],
-      "Mszana": [
+      Mszana: [
         "Paproć",
         "Wielodroga",
         "Biedaczów",
@@ -80728,19 +80562,19 @@ export const voivodeship = {
         "Boża Góra",
         "Połomia",
         "Gogołowa",
-        "Mszana"
-      ]
+        "Mszana",
+      ],
     },
-    "zawierciański": {
-      "Poręba": [
+    zawierciański: {
+      Poręba: [
         "Dziechciarze",
         "Kierszula",
         "Krawce",
         "Krzemenda",
         "Niwki",
-        "Poręba"
+        "Poręba",
       ],
-      "Zawiercie": [
+      Zawiercie: [
         "Skarżyce",
         "Argentyna",
         "Borowe Pole",
@@ -80760,9 +80594,9 @@ export const voivodeship = {
         "Wydra Zielona",
         "Kosowska Niwa",
         "Warty",
-        "Zawiercie"
+        "Zawiercie",
       ],
-      "Irządze": [
+      Irządze: [
         "Zawada-Leśniczówka",
         "Stawy",
         "Wyszki",
@@ -80814,9 +80648,9 @@ export const voivodeship = {
         "Wilków",
         "Sadowie",
         "Mikołajewice",
-        "Wilgoszcza"
+        "Wilgoszcza",
       ],
-      "Kroczyce": [
+      Kroczyce: [
         "Przybyszów",
         "Marianka",
         "Dołki",
@@ -80851,9 +80685,9 @@ export const voivodeship = {
         "Siedliszowice",
         "Trzciniec",
         "Kostkowice",
-        "Dobrogoszczyce"
+        "Dobrogoszczyce",
       ],
-      "Łazy": [
+      Łazy: [
         "Ciągowice",
         "Trzebyczka",
         "Zacisze",
@@ -80898,9 +80732,9 @@ export const voivodeship = {
         "Grabowa",
         "Turza",
         "Niegowoniczki",
-        "Ciągowice"
+        "Ciągowice",
       ],
-      "Ogrodzieniec": [
+      Ogrodzieniec: [
         "Markowizna",
         "Giebło-Kolonia",
         "Józefów",
@@ -80916,9 +80750,9 @@ export const voivodeship = {
         "Fugasówka",
         "Mokrus",
         "Giebło",
-        "Żelazko"
+        "Żelazko",
       ],
-      "Pilica": [
+      Pilica: [
         "Przykopy",
         "Podcisowie",
         "Polska",
@@ -81019,9 +80853,9 @@ export const voivodeship = {
         "Kocikowa",
         "Wierzbica",
         "Smoleń",
-        "Wierbka"
+        "Wierbka",
       ],
-      "Szczekociny": [
+      Szczekociny: [
         "Gajówka",
         "Podkaszczor",
         "Podlipie",
@@ -81078,9 +80912,9 @@ export const voivodeship = {
         "Szyszki",
         "Wólka Ołudzka",
         "Drużykowa",
-        "Małachów"
+        "Małachów",
       ],
-      "Włodowice": [
+      Włodowice: [
         "Parkoszowice-Kolonia",
         "Borowe Pole",
         "Kopaniny",
@@ -81099,9 +80933,9 @@ export const voivodeship = {
         "Skałka",
         "Hucisko",
         "Góra Włodowska",
-        "Morsko"
+        "Morsko",
       ],
-      "Żarnowiec": [
+      Żarnowiec: [
         "Ostra Górka",
         "Zamiechówka",
         "Nad Stoki",
@@ -81168,11 +81002,11 @@ export const voivodeship = {
         "Koryczany",
         "Otola",
         "Otola Mała",
-        "Jeziorowice"
-      ]
+        "Jeziorowice",
+      ],
     },
-    "żywiecki": {
-      "Żywiec": [
+    żywiecki: {
+      Żywiec: [
         "Do Musiaków",
         "Kolonia Sporysz",
         "Oczkowa",
@@ -81247,9 +81081,9 @@ export const voivodeship = {
         "Do Cygoniów",
         "Do Kozaków",
         "Do Szymiczków",
-        "Żywiec"
+        "Żywiec",
       ],
-      "Czernichów": [
+      Czernichów: [
         "Do Doliny",
         "Do Ogórka",
         "Dudki",
@@ -81314,9 +81148,9 @@ export const voivodeship = {
         "Międzybrodzie Bialskie",
         "Międzybrodzie Żywieckie",
         "Tresna",
-        "Czernichów"
+        "Czernichów",
       ],
-      "Gilowice": [
+      Gilowice: [
         "Bednarczykowie",
         "Rędzina",
         "Stary Dwór",
@@ -81352,9 +81186,9 @@ export const voivodeship = {
         "Mrowce",
         "Rozcięta",
         "Gilowice",
-        "Rychwałd"
+        "Rychwałd",
       ],
-      "Jeleśnia": [
+      Jeleśnia: [
         "Garniec",
         "Rówienki",
         "Wojtaśne",
@@ -81455,9 +81289,9 @@ export const voivodeship = {
         "Sopotnia Wielka",
         "Jeleśnia",
         "Korbielów",
-        "Krzyżowa"
+        "Krzyżowa",
       ],
-      "Koszarawa": [
+      Koszarawa: [
         "U Lacha",
         "Sternale",
         "U Orawina",
@@ -81489,9 +81323,9 @@ export const voivodeship = {
         "Żłabne",
         "Bystra",
         "Cicha",
-        "Koszarawa"
+        "Koszarawa",
       ],
-      "Lipowa": [
+      Lipowa: [
         "Jastrząbka",
         "Solisko",
         "Zagrody",
@@ -81526,9 +81360,9 @@ export const voivodeship = {
         "Twardorzeczka",
         "Sienna",
         "Leśna",
-        "Słotwina"
+        "Słotwina",
       ],
-      "Łękawica": [
+      Łękawica: [
         "Cerla",
         "Bednarzówka",
         "Bykowska Polana",
@@ -81564,9 +81398,9 @@ export const voivodeship = {
         "Kocierz Moszczanicki",
         "Okrajnik",
         "Kocierz Rychwałdzki",
-        "Łysina"
+        "Łysina",
       ],
-      "Łodygowice": [
+      Łodygowice: [
         "Kalonka",
         "Kąty",
         "Na Grapie",
@@ -81616,9 +81450,9 @@ export const voivodeship = {
         "Zarzecze",
         "Pietrzykowice",
         "Bierna",
-        "Łodygowice"
+        "Łodygowice",
       ],
-      "Milówka": [
+      Milówka: [
         "Gruszkowa",
         "Berkówka",
         "Berkówki",
@@ -81700,7 +81534,7 @@ export const voivodeship = {
         "Laliki",
         "Nieledwia",
         "Kamesznica",
-        "Szare"
+        "Szare",
       ],
       "Radziechowy-Wieprz": [
         "Czajowie",
@@ -81745,9 +81579,9 @@ export const voivodeship = {
         "Radziechowy",
         "Wieprz",
         "Juszczyna",
-        "Bystra"
+        "Bystra",
       ],
-      "Rajcza": [
+      Rajcza: [
         "Młaki",
         "Na Bułkowej",
         "Na Praszywce",
@@ -81864,9 +81698,9 @@ export const voivodeship = {
         "Rajcza",
         "Rycerka Górna",
         "Rycerka Dolna",
-        "Sól"
+        "Sól",
       ],
-      "Ślemień": [
+      Ślemień: [
         "Góra",
         "Jochemkówka",
         "Krzakówka",
@@ -81931,9 +81765,9 @@ export const voivodeship = {
         "Groń",
         "Las",
         "Ślemień",
-        "Kocoń"
+        "Kocoń",
       ],
-      "Świnna": [
+      Świnna: [
         "Janikówka",
         "Biedaszek",
         "Parciki",
@@ -81991,9 +81825,9 @@ export const voivodeship = {
         "Przyłęków",
         "Rychwałdek",
         "Trzebinia",
-        "Pewel Ślemieńska"
+        "Pewel Ślemieńska",
       ],
-      "Ujsoły": [
+      Ujsoły: [
         "Bęściów",
         "Lipowska",
         "Straceniec",
@@ -82059,7 +81893,7 @@ export const voivodeship = {
         "Złatna",
         "Glinka",
         "Ujsoły",
-        "Soblówka"
+        "Soblówka",
       ],
       "Węgierska Górka": [
         "Bukowina",
@@ -82087,8 +81921,8 @@ export const voivodeship = {
         "Cięcina",
         "Cisiec",
         "Żabnica",
-        "Węgierska Górka"
-      ]
+        "Węgierska Górka",
+      ],
     },
     "Bielsko-Biała": {
       "Bielsko-Biała": [
@@ -82134,11 +81968,11 @@ export const voivodeship = {
         "Olszówka Górna",
         "Przy Strzelnicy",
         "Trzy Lipki",
-        "Bielsko-Biała"
-      ]
+        "Bielsko-Biała",
+      ],
     },
-    "Bytom": {
-      "Bytom": [
+    Bytom: {
+      Bytom: [
         "Szombierki",
         "Zgorzelec",
         "Stroszek",
@@ -82155,11 +81989,11 @@ export const voivodeship = {
         "Stolarzowice",
         "Blachówka",
         "Kolonia Zygmunt",
-        "Bytom"
-      ]
+        "Bytom",
+      ],
     },
-    "Chorzów": {
-      "Chorzów": [
+    Chorzów: {
+      Chorzów: [
         "Kolonia Joanny",
         "Szarlociniec",
         "Węzłowiec",
@@ -82169,11 +82003,11 @@ export const voivodeship = {
         "Hajduki Wielkie",
         "Niedźwiedziniec",
         "Pniaki",
-        "Chorzów"
-      ]
+        "Chorzów",
+      ],
     },
-    "Częstochowa": {
-      "Częstochowa": [
+    Częstochowa: {
+      Częstochowa: [
         "Bugaj",
         "Zagajnik",
         "Złota Góra",
@@ -82221,8 +82055,8 @@ export const voivodeship = {
         "Kawodrza Górna",
         "Sabinów",
         "Bór",
-        "Częstochowa"
-      ]
+        "Częstochowa",
+      ],
     },
     "Dąbrowa Górnicza": {
       "Dąbrowa Górnicza": [
@@ -82280,11 +82114,11 @@ export const voivodeship = {
         "Łęknice",
         "Ratanice",
         "Wypaleniska",
-        "Dąbrowa Górnicza"
-      ]
+        "Dąbrowa Górnicza",
+      ],
     },
-    "Gliwice": {
-      "Gliwice": [
+    Gliwice: {
+      Gliwice: [
         "Wilcze Gardło",
         "Ostropa",
         "Szobiszowice",
@@ -82300,8 +82134,8 @@ export const voivodeship = {
         "Żerniki",
         "Ligota Zabrska",
         "Niepaszyce",
-        "Gliwice"
-      ]
+        "Gliwice",
+      ],
     },
     "Jastrzębie-Zdrój": {
       "Jastrzębie-Zdrój": [
@@ -82320,11 +82154,11 @@ export const voivodeship = {
         "Moszczenica",
         "Ruptawa",
         "Szotkowice",
-        "Jastrzębie-Zdrój"
-      ]
+        "Jastrzębie-Zdrój",
+      ],
     },
-    "Jaworzno": {
-      "Jaworzno": [
+    Jaworzno: {
+      Jaworzno: [
         "Bory",
         "Byczyna",
         "Dąb",
@@ -82375,11 +82209,11 @@ export const voivodeship = {
         "Cezarówka Górna",
         "Fortuna",
         "Bory-Sobieski",
-        "Jaworzno"
-      ]
+        "Jaworzno",
+      ],
     },
-    "Katowice": {
-      "Katowice": [
+    Katowice: {
+      Katowice: [
         "Cegielnia-Murcki",
         "Wełnowiec",
         "Burowiec",
@@ -82421,11 +82255,11 @@ export const voivodeship = {
         "Szopienice",
         "Bogucice",
         "Zadole",
-        "Katowice"
-      ]
+        "Katowice",
+      ],
     },
-    "Mysłowice": {
-      "Mysłowice": [
+    Mysłowice: {
+      Mysłowice: [
         "Kosztowy",
         "Słupna",
         "Wesoła",
@@ -82440,8 +82274,8 @@ export const voivodeship = {
         "Janów Miejski",
         "Morgi",
         "Szabelnia",
-        "Mysłowice"
-      ]
+        "Mysłowice",
+      ],
     },
     "Piekary Śląskie": {
       "Piekary Śląskie": [
@@ -82455,8 +82289,8 @@ export const voivodeship = {
         "Kamień",
         "Brzozowice-Kamień",
         "Dołki",
-        "Piekary Śląskie"
-      ]
+        "Piekary Śląskie",
+      ],
     },
     "Ruda Śląska": {
       "Ruda Śląska": [
@@ -82472,11 +82306,11 @@ export const voivodeship = {
         "Kłodnica",
         "Godula",
         "Halemba",
-        "Ruda Śląska"
-      ]
+        "Ruda Śląska",
+      ],
     },
-    "Rybnik": {
-      "Rybnik": [
+    Rybnik: {
+      Rybnik: [
         "Kuźnia Ligocka",
         "Ochojec",
         "Niedobczyce",
@@ -82515,8 +82349,8 @@ export const voivodeship = {
         "Meksyk",
         "Stawiska",
         "Stodoły",
-        "Rybnik"
-      ]
+        "Rybnik",
+      ],
     },
     "Siemianowice Śląskie": {
       "Siemianowice Śląskie": [
@@ -82525,11 +82359,11 @@ export const voivodeship = {
         "Sadzawki",
         "Michałkowice",
         "Bytków",
-        "Siemianowice Śląskie"
-      ]
+        "Siemianowice Śląskie",
+      ],
     },
-    "Sosnowiec": {
-      "Sosnowiec": [
+    Sosnowiec: {
+      Sosnowiec: [
         "Klimontów",
         "Milowice",
         "Maczki",
@@ -82559,11 +82393,11 @@ export const voivodeship = {
         "Bobrek",
         "Juliusz",
         "Kazimierz",
-        "Sosnowiec"
-      ]
+        "Sosnowiec",
+      ],
     },
-    "Świętochłowice": {
-      "Świętochłowice": [
+    Świętochłowice: {
+      Świętochłowice: [
         "Zgoda",
         "Chropaczów",
         "Szyb Marcina",
@@ -82572,11 +82406,11 @@ export const voivodeship = {
         "Kolonia Janasa",
         "Kolonia Kolejowa",
         "Podgórze",
-        "Świętochłowice"
-      ]
+        "Świętochłowice",
+      ],
     },
-    "Tychy": {
-      "Tychy": [
+    Tychy: {
+      Tychy: [
         "Mąkołowiec",
         "Urbanowice",
         "Suble",
@@ -82592,11 +82426,11 @@ export const voivodeship = {
         "Wartogłowiec",
         "Wygorzele",
         "Zwierzyniec",
-        "Tychy"
-      ]
+        "Tychy",
+      ],
     },
-    "Zabrze": {
-      "Zabrze": [
+    Zabrze: {
+      Zabrze: [
         "Maciejów",
         "Makoszowy",
         "Pawłów",
@@ -82607,11 +82441,11 @@ export const voivodeship = {
         "Helenka",
         "Grzybowice",
         "Biskupice",
-        "Zabrze"
-      ]
+        "Zabrze",
+      ],
     },
-    "Żory": {
-      "Żory": [
+    Żory: {
+      Żory: [
         "Dąbie",
         "Zostawa",
         "Rój",
@@ -82630,12 +82464,12 @@ export const voivodeship = {
         "Rowień",
         "Kleszczów",
         "Żwaka",
-        "Żory"
-      ]
-    }
+        "Żory",
+      ],
+    },
   },
-  "ŚWIĘTOKRZYSKIE": {
-    "buski": {
+  ŚWIĘTOKRZYSKIE: {
+    buski: {
       "Busko-Zdrój": [
         "Gadawa",
         "Wełecz",
@@ -82859,9 +82693,9 @@ export const voivodeship = {
         "Kapturów",
         "Bogoria",
         "Na Chrustach",
-        "Wolica Siesławska"
+        "Wolica Siesławska",
       ],
-      "Gnojno": [
+      Gnojno: [
         "Jarząbki",
         "Grabki Małe",
         "Gorzakiew",
@@ -82939,7 +82773,7 @@ export const voivodeship = {
         "Kamionka",
         "Zielonka",
         "Potyrała",
-        "Ciechlów"
+        "Ciechlów",
       ],
       "Nowy Korczyn": [
         "Grotniki Duże",
@@ -82988,9 +82822,9 @@ export const voivodeship = {
         "Winiary Wiślickie",
         "Łąki",
         "Podwale",
-        "Grądy Świniarskie"
+        "Grądy Świniarskie",
       ],
-      "Pacanów": [
+      Pacanów: [
         "Biskupice",
         "Książnice",
         "Kwasów",
@@ -83117,7 +82951,7 @@ export const voivodeship = {
         "Komorówek",
         "Ugory",
         "Gołożyny",
-        "Szumarka"
+        "Szumarka",
       ],
       "Solec-Zdrój": [
         "Sułkowice",
@@ -83199,9 +83033,9 @@ export const voivodeship = {
         "Podkopce",
         "Czarny Gaj",
         "Konstantynów-Kolonia",
-        "Klucz"
+        "Klucz",
       ],
-      "Stopnica": [
+      Stopnica: [
         "Suchowola",
         "Szczeglin",
         "Szczytniki",
@@ -83303,9 +83137,9 @@ export const voivodeship = {
         "Borki",
         "Zasadzie",
         "Podlas",
-        "Czajków"
+        "Czajków",
       ],
-      "Tuczępy": [
+      Tuczępy: [
         "Dobrów",
         "Brzozówka",
         "Rzędów",
@@ -83362,9 +83196,9 @@ export const voivodeship = {
         "Wschodnia Tuczępska",
         "Leśnictwo",
         "Żalówka",
-        "Górna Droga"
+        "Górna Droga",
       ],
-      "Wiślica": [
+      Wiślica: [
         "Skorocice",
         "Skotniki Dolne",
         "Skotniki Górne",
@@ -83424,11 +83258,11 @@ export const voivodeship = {
         "Zielonki",
         "Sielec Szpitalny",
         "Budzyń",
-        "Bezgłowie"
-      ]
+        "Bezgłowie",
+      ],
     },
-    "jędrzejowski": {
-      "Imielno": [
+    jędrzejowski: {
+      Imielno: [
         "Opatkowice Cysterskie",
         "Opatkowice Murowane",
         "Opatkowice Pojałowskie",
@@ -83486,9 +83320,9 @@ export const voivodeship = {
         "Za Olszynką",
         "Olszynka",
         "Olszowiec",
-        "Karolówka"
+        "Karolówka",
       ],
-      "Jędrzejów": [
+      Jędrzejów: [
         "Wólka",
         "Podlaszcze",
         "Mnichów",
@@ -83608,9 +83442,9 @@ export const voivodeship = {
         "Podłącze",
         "Józefów",
         "Rakówek",
-        "Rakówek"
+        "Rakówek",
       ],
-      "Małogoszcz": [
+      Małogoszcz: [
         "Kozłów",
         "Żarczyce Duże",
         "Wola Tesserowa",
@@ -83686,9 +83520,9 @@ export const voivodeship = {
         "Ława",
         "Hektary",
         "Pręty",
-        "Stacja Małogoszcz"
+        "Stacja Małogoszcz",
       ],
-      "Nagłowice": [
+      Nagłowice: [
         "Deszno",
         "Rejowiec",
         "Brynica Mokra",
@@ -83743,9 +83577,9 @@ export const voivodeship = {
         "Ignaców",
         "Ustronie",
         "Piaski",
-        "Kierzki"
+        "Kierzki",
       ],
-      "Oksa": [
+      Oksa: [
         "Rembiechowa",
         "Stare Kanice",
         "Rzeszówek",
@@ -83802,9 +83636,9 @@ export const voivodeship = {
         "Dzierążnia",
         "Gawrony",
         "Podlesie",
-        "Nad Stawami"
+        "Nad Stawami",
       ],
-      "Sędziszów": [
+      Sędziszów: [
         "Białowieża",
         "Krzelów",
         "Łowinia",
@@ -83889,9 +83723,9 @@ export const voivodeship = {
         "Raj",
         "Janinów",
         "Józefów",
-        "Wojciechów"
+        "Wojciechów",
       ],
-      "Słupia": [
+      Słupia: [
         "Wielkopole",
         "Sieńsko",
         "Rawka",
@@ -83964,9 +83798,9 @@ export const voivodeship = {
         "Koło Cmentarza",
         "Bór",
         "Kreślina",
-        "Kresy"
+        "Kresy",
       ],
-      "Sobków": [
+      Sobków: [
         "Nowe Kotlice",
         "Bizoręda",
         "Niziny",
@@ -84030,9 +83864,9 @@ export const voivodeship = {
         "Sobków-Przystanek",
         "Leflerówka",
         "Wierzbica Górna",
-        "Piaski"
+        "Piaski",
       ],
-      "Wodzisław": [
+      Wodzisław: [
         "Folga Pierwsza",
         "Jeziorki",
         "Judasze",
@@ -84150,11 +83984,11 @@ export const voivodeship = {
         "Młynówka",
         "Zagóra",
         "Za Lasem",
-        "Pinechówka"
-      ]
+        "Pinechówka",
+      ],
     },
-    "kazimierski": {
-      "Bejsce": [
+    kazimierski: {
+      Bejsce: [
         "Zbeltowice",
         "Prokocice",
         "Królewice",
@@ -84235,9 +84069,9 @@ export const voivodeship = {
         "Podkrzyzie",
         "Księża Strona",
         "Szlachecka Strona",
-        "Stara Wieś"
+        "Stara Wieś",
       ],
-      "Czarnocin": [
+      Czarnocin: [
         "Koryto",
         "Ciuślice",
         "Mikołajów",
@@ -84302,7 +84136,7 @@ export const voivodeship = {
         "Gościniec",
         "Bugaj Zagajowski",
         "Budziszowice",
-        "Zielonki"
+        "Zielonki",
       ],
       "Kazimierza Wielka": [
         "Donosy",
@@ -84462,9 +84296,9 @@ export const voivodeship = {
         "Kobiele",
         "Kozina",
         "Grobla",
-        "Pamuła"
+        "Pamuła",
       ],
-      "Opatowiec": [
+      Opatowiec: [
         "Senisławice",
         "Mistrzowice",
         "Trębaczów",
@@ -84534,9 +84368,9 @@ export const voivodeship = {
         "Chmielnik",
         "Kolonia",
         "Legatka",
-        "Kraśniów-Kolonia"
+        "Kraśniów-Kolonia",
       ],
-      "Skalbmierz": [
+      Skalbmierz: [
         "Rosiejów",
         "Baranów",
         "Drożejowice",
@@ -84631,11 +84465,11 @@ export const voivodeship = {
         "Podgoszczynek",
         "Podsietejów",
         "Zakrzyzie",
-        "Zagórze"
-      ]
+        "Zagórze",
+      ],
     },
-    "kielecki": {
-      "Bieliny": [
+    kielecki: {
+      Bieliny: [
         "Napęków",
         "Czaplów",
         "Huta Podłysica",
@@ -84703,9 +84537,9 @@ export const voivodeship = {
         "Skrzetle",
         "Stara Wieś",
         "Podlesie",
-        "Dąbrówki"
+        "Dąbrówki",
       ],
-      "Bodzentyn": [
+      Bodzentyn: [
         "Sieradowice Pierwsze",
         "Wola Szczygiełkowa",
         "Celiny",
@@ -84760,9 +84594,9 @@ export const voivodeship = {
         "Dąbrówka",
         "Siekierno-Smyków",
         "Siekierno-Stara Wieś",
-        "Wzorki"
+        "Wzorki",
       ],
-      "Chęciny": [
+      Chęciny: [
         "Bolmin",
         "Korzecko",
         "Siedlce",
@@ -84820,9 +84654,9 @@ export const voivodeship = {
         "Piekło",
         "Gościniec",
         "Murowaniec",
-        "Nowe Młyny"
+        "Nowe Młyny",
       ],
-      "Chmielnik": [
+      Chmielnik: [
         "Sędziejowice",
         "Zrecze Małe",
         "Suskrajowice",
@@ -84923,9 +84757,9 @@ export const voivodeship = {
         "Borków",
         "Grzybowa",
         "Zagrzybowie",
-        "Borowiec"
+        "Borowiec",
       ],
-      "Daleszyce": [
+      Daleszyce: [
         "Borków",
         "Mójcza",
         "Niestachów",
@@ -84988,9 +84822,9 @@ export const voivodeship = {
         "Gajówka Żarnowiec",
         "Leśniczówka Kryczka",
         "Łuczewnica",
-        "Słopiec Rządowy-Kolonia"
+        "Słopiec Rządowy-Kolonia",
       ],
-      "Górno": [
+      Górno: [
         "Skorzeszyce",
         "Górno-Parcele",
         "Podmąchocice",
@@ -85056,9 +84890,9 @@ export const voivodeship = {
         "Kolonia",
         "Okręglica",
         "Parcele",
-        "Górno-Osiedle"
+        "Górno-Osiedle",
       ],
-      "Łagów": [
+      Łagów: [
         "Duraczów",
         "Gęsice",
         "Lechówek",
@@ -85134,9 +84968,9 @@ export const voivodeship = {
         "Leśniczówka Paprocice",
         "Pola Płuckie",
         "Gajówka Melonek",
-        "Gajówka Małacentów"
+        "Gajówka Małacentów",
       ],
-      "Łopuszno": [
+      Łopuszno: [
         "Ewelinów",
         "Sarbice Drugie",
         "Zasłońce",
@@ -85217,9 +85051,9 @@ export const voivodeship = {
         "Fryszerka",
         "Knieja",
         "Michala Góra",
-        "Wysoka Góra"
+        "Wysoka Góra",
       ],
-      "Masłów": [
+      Masłów: [
         "Masłów Pierwszy",
         "Domaszowice",
         "Mąchocice-Scholasteria",
@@ -85268,7 +85102,7 @@ export const voivodeship = {
         "Od Chaby",
         "Podemłynie",
         "Ameliówka",
-        "Wiśniówka"
+        "Wiśniówka",
       ],
       "Miedziana Góra": [
         "Porzecze",
@@ -85315,9 +85149,9 @@ export const voivodeship = {
         "Wyrowce",
         "Kobylaki",
         "Światełek",
-        "Wyręba"
+        "Wyręba",
       ],
-      "Mniów": [
+      Mniów: [
         "Kontrewers",
         "Borki",
         "Cierchy",
@@ -85400,9 +85234,9 @@ export const voivodeship = {
         "Komorniki",
         "Stara Wieś",
         "Zapole",
-        "Baran-Gajówka"
+        "Baran-Gajówka",
       ],
-      "Morawica": [
+      Morawica: [
         "Lisów",
         "Bilcza",
         "Brudzów",
@@ -85511,7 +85345,7 @@ export const voivodeship = {
         "Kolonia",
         "Wydrzysz",
         "Dwór",
-        "Podziałki"
+        "Podziałki",
       ],
       "Nowa Słupia": [
         "Skały",
@@ -85589,9 +85423,9 @@ export const voivodeship = {
         "Włochy-Kolonia",
         "Rudki",
         "Kapkaz",
-        "Jeleniów-Kolonia"
+        "Jeleniów-Kolonia",
       ],
-      "Piekoszów": [
+      Piekoszów: [
         "Łaziska",
         "Janów",
         "Rykoszyn",
@@ -85671,9 +85505,9 @@ export const voivodeship = {
         "Stara Wieś",
         "Wincentów Piekoszowski",
         "Wieprzówka",
-        "Stara Wieś"
+        "Stara Wieś",
       ],
-      "Pierzchnica": [
+      Pierzchnica: [
         "Podstoła",
         "Podlesie",
         "Strojnów",
@@ -85734,9 +85568,9 @@ export const voivodeship = {
         "Towarzystwo",
         "Koźlaki",
         "Osiny-Lizawy",
-        "Młynek"
+        "Młynek",
       ],
-      "Raków": [
+      Raków: [
         "Szumsko",
         "Głuchów-Lasy",
         "Chańcza",
@@ -85844,9 +85678,9 @@ export const voivodeship = {
         "Podgrodzie",
         "Kajetanów",
         "Podkorzenno",
-        "Antoniów"
+        "Antoniów",
       ],
-      "Nowiny": [
+      Nowiny: [
         "Wola Murowana",
         "Szewce",
         "Bolechowice",
@@ -85866,9 +85700,9 @@ export const voivodeship = {
         "Odpadki",
         "Podgatcze",
         "Trzcianki",
-        "Trzcianki"
+        "Trzcianki",
       ],
-      "Strawczyn": [
+      Strawczyn: [
         "Promnik",
         "Kuźniaki",
         "Małogoskie",
@@ -85962,9 +85796,9 @@ export const voivodeship = {
         "Wilczków",
         "Janów-Jamy Faustowskie",
         "Poręby Janowskie",
-        "Górka Lasku"
+        "Górka Lasku",
       ],
-      "Zagnańsk": [
+      Zagnańsk: [
         "Samsonów-Dudków",
         "Zagnańsk",
         "Kaniów",
@@ -86013,11 +85847,11 @@ export const voivodeship = {
         "Rurarnia",
         "Kacza Góra",
         "Zaupuście",
-        "Wilczy Bór"
-      ]
+        "Wilczy Bór",
+      ],
     },
-    "konecki": {
-      "Fałków": [
+    konecki: {
+      Fałków: [
         "Czarna Smuga",
         "Olszamowice",
         "Starzechowice",
@@ -86084,9 +85918,9 @@ export const voivodeship = {
         "Adelinów",
         "Dobry Widok",
         "Bulianów-Gajówka",
-        "Grzmot"
+        "Grzmot",
       ],
-      "Gowarczów": [
+      Gowarczów: [
         "Giełzów",
         "Gowarczów",
         "Komaszyce",
@@ -86125,9 +85959,9 @@ export const voivodeship = {
         "Błonia",
         "Osada Młyńska",
         "Felicjanów",
-        "Ludwinów"
+        "Ludwinów",
       ],
-      "Końskie": [
+      Końskie: [
         "Baczyna",
         "Proćwin",
         "Stary Sokołów",
@@ -86280,9 +86114,9 @@ export const voivodeship = {
         "Gracuch",
         "Małachów-Dęba",
         "Kamienny Krzyż",
-        "Piekło-Gajówka"
+        "Piekło-Gajówka",
       ],
-      "Radoszyce": [
+      Radoszyce: [
         "Lewoszów",
         "Łysów",
         "Jarząb",
@@ -86368,7 +86202,7 @@ export const voivodeship = {
         "Posada",
         "Leśniczówka Krzyżówki",
         "Jakimowice-Kolonia",
-        "Kłucko-Kolonia"
+        "Kłucko-Kolonia",
       ],
       "Ruda Maleniecka": [
         "Tama",
@@ -86427,7 +86261,7 @@ export const voivodeship = {
         "Zalesie",
         "Głuszec",
         "Gatka",
-        "Lewki"
+        "Lewki",
       ],
       "Słupia Konecka": [
         "Wólka",
@@ -86471,9 +86305,9 @@ export const voivodeship = {
         "Kadłub",
         "Niwki",
         "Mogielnica",
-        "Konradów"
+        "Konradów",
       ],
-      "Smyków": [
+      Smyków: [
         "Strażnica",
         "Kozów",
         "Trawniki",
@@ -86514,9 +86348,9 @@ export const voivodeship = {
         "Królewiec-Leśniczówka",
         "Skała-Gajówka",
         "Cisownik-Gajówka",
-        "Kawęczyn"
+        "Kawęczyn",
       ],
-      "Stąporków": [
+      Stąporków: [
         "Komorów",
         "Niekłań Mały",
         "Niekłań Wielki",
@@ -86609,11 +86443,11 @@ export const voivodeship = {
         "Bieliny",
         "Janów",
         "Duraczów-Gajówka",
-        "Osicowa Góra"
-      ]
+        "Osicowa Góra",
+      ],
     },
-    "opatowski": {
-      "Baćkowice": [
+    opatowski: {
+      Baćkowice: [
         "Piskrzyn",
         "Baćkowice",
         "Modliborzyce",
@@ -86667,9 +86501,9 @@ export const voivodeship = {
         "W Grobiu",
         "Górka",
         "Janczyce-Kolonie",
-        "Zarzeka"
+        "Zarzeka",
       ],
-      "Iwaniska": [
+      Iwaniska: [
         "Wojnowice",
         "Łopatno",
         "Mydłów",
@@ -86758,9 +86592,9 @@ export const voivodeship = {
         "Kamienna Góra",
         "Poręba",
         "Płaszczyzna",
-        "Stobiec-Kolonie"
+        "Stobiec-Kolonie",
       ],
-      "Lipnik": [
+      Lipnik: [
         "Malice Kościelne",
         "Leszczków",
         "Międzygórz",
@@ -86817,9 +86651,9 @@ export const voivodeship = {
         "Nowa Wieś",
         "Kolonie",
         "Wesołówka",
-        "Rogal"
+        "Rogal",
       ],
-      "Opatów": [
+      Opatów: [
         "Strzyżowice",
         "Okalina-Kolonia",
         "Jurkowice",
@@ -86915,9 +86749,9 @@ export const voivodeship = {
         "Kolonia na Podworskiem",
         "Przecinka",
         "Pod Lasem",
-        "Kania"
+        "Kania",
       ],
-      "Ożarów": [
+      Ożarów: [
         "Przybysławice",
         "Janowice",
         "Janów",
@@ -86998,9 +86832,9 @@ export const voivodeship = {
         "Dąbrówka",
         "Skałecznica",
         "Stróża",
-        "Prusy-Kolonie"
+        "Prusy-Kolonie",
       ],
-      "Sadowie": [
+      Sadowie: [
         "Niemienice",
         "Czerwona Góra",
         "Grocholice",
@@ -87063,9 +86897,9 @@ export const voivodeship = {
         "Okręgliczka",
         "Bogusławice-Kolonia",
         "Zadole",
-        "Skarszyny"
+        "Skarszyny",
       ],
-      "Tarłów": [
+      Tarłów: [
         "Potoczek",
         "Wesołówka",
         "Kozłówek",
@@ -87136,9 +86970,9 @@ export const voivodeship = {
         "Za Łysą Górą",
         "Zakościele",
         "Potoczek-Kolonia",
-        "Leśniczówka"
+        "Leśniczówka",
       ],
-      "Wojciechowice": [
+      Wojciechowice: [
         "Drygulec",
         "Ługi",
         "Bidziny",
@@ -87202,10 +87036,10 @@ export const voivodeship = {
         "Podgajcze",
         "Przylesie",
         "Wojciechowice Poduchowne",
-        "Kolonie Inwalidzkie"
-      ]
+        "Kolonie Inwalidzkie",
+      ],
     },
-    "ostrowiecki": {
+    ostrowiecki: {
       "Ostrowiec Świętokrzyski": [
         "Ostrowiec Świętokrzyski",
         "Cukrownia",
@@ -87234,9 +87068,9 @@ export const voivodeship = {
         "Zygmuntówka",
         "Denków",
         "Józefówka",
-        "Kolonia Piaski"
+        "Kolonia Piaski",
       ],
-      "Bałtów": [
+      Bałtów: [
         "Antoniów",
         "Rudka Bałtowska",
         "Wólka Bałtowska",
@@ -87290,9 +87124,9 @@ export const voivodeship = {
         "Leśniczówka Potoczek",
         "Ulów",
         "Góry",
-        "Na Górze"
+        "Na Górze",
       ],
-      "Bodzechów": [
+      Bodzechów: [
         "Goździelin",
         "Sarnówek Duży",
         "Sudół",
@@ -87403,9 +87237,9 @@ export const voivodeship = {
         "Młyn",
         "Bodzechów-Folwark",
         "Sowia Góra",
-        "Łączki"
+        "Łączki",
       ],
-      "Ćmielów": [
+      Ćmielów: [
         "Drzenkowice",
         "Krzczonowice",
         "Podgórze",
@@ -87468,9 +87302,9 @@ export const voivodeship = {
         "Wrzawy",
         "Czworaki",
         "Korycizna",
-        "Małachów-Kolonia"
+        "Małachów-Kolonia",
       ],
-      "Kunów": [
+      Kunów: [
         "Boksycka",
         "Chocimów",
         "Prawęcin",
@@ -87541,9 +87375,9 @@ export const voivodeship = {
         "Jeleniec",
         "Zwierzyniec",
         "Trzecia Wieś",
-        "Sadłowizna"
+        "Sadłowizna",
       ],
-      "Waśniów": [
+      Waśniów: [
         "Nosów",
         "Roztylice",
         "Boksyce",
@@ -87636,11 +87470,11 @@ export const voivodeship = {
         "Strupice-Kolonia",
         "Gajówka",
         "Karpaty",
-        "Kozi Ogon"
-      ]
+        "Kozi Ogon",
+      ],
     },
-    "pińczowski": {
-      "Działoszyce": [
+    pińczowski: {
+      Działoszyce: [
         "Wolica",
         "Podrózie",
         "Sancygniów",
@@ -87750,9 +87584,9 @@ export const voivodeship = {
         "Żółta Kolonia",
         "Węchadłowskie",
         "Gołębiówka",
-        "Tomków-Gajówka"
+        "Tomków-Gajówka",
       ],
-      "Kije": [
+      Kije: [
         "Umianowice",
         "Kokot",
         "Lipnik",
@@ -87832,9 +87666,9 @@ export const voivodeship = {
         "Bugaj",
         "Średnie",
         "Praga",
-        "Podborcze"
+        "Podborcze",
       ],
-      "Michałów": [
+      Michałów: [
         "Wrocieryż",
         "Zagajówek",
         "Polichno",
@@ -87908,9 +87742,9 @@ export const voivodeship = {
         "Wymysłów",
         "Pożory",
         "Folwark",
-        "Młynki"
+        "Młynki",
       ],
-      "Pińczów": [
+      Pińczów: [
         "Kowala",
         "Bogucice Pierwsze",
         "Marzęcin",
@@ -88041,9 +87875,9 @@ export const voivodeship = {
         "Gajówka",
         "Włochy-Leśniczówka",
         "Gołąb",
-        "Zawarża"
+        "Zawarża",
       ],
-      "Złota": [
+      Złota: [
         "Stawiszyce",
         "Niegosławice",
         "Probołowice",
@@ -88102,11 +87936,11 @@ export const voivodeship = {
         "Podkościół",
         "Bobrowa",
         "Źródła",
-        "Gliniki"
-      ]
+        "Gliniki",
+      ],
     },
-    "sandomierski": {
-      "Sandomierz": [
+    sandomierski: {
+      Sandomierz: [
         "Sandomierz",
         "Kruków",
         "Mokoszyn",
@@ -88127,9 +87961,9 @@ export const voivodeship = {
         "Budowa",
         "Cegielnia",
         "Chwałki",
-        "Dzielnica Zachodnia"
+        "Dzielnica Zachodnia",
       ],
-      "Dwikozy": [
+      Dwikozy: [
         "Doraz",
         "Buczek",
         "Stary Garbów",
@@ -88220,9 +88054,9 @@ export const voivodeship = {
         "Jaroszówka",
         "Kogutki",
         "Zalesie",
-        "Buczek"
+        "Buczek",
       ],
-      "Klimontów": [
+      Klimontów: [
         "Byszówka",
         "Dziewków",
         "Goźlice",
@@ -88292,9 +88126,9 @@ export const voivodeship = {
         "Julianów",
         "Pod Klimontowem",
         "Zielonka",
-        "Kolonia Klimontowska"
+        "Kolonia Klimontowska",
       ],
-      "Koprzywnica": [
+      Koprzywnica: [
         "Postronna",
         "Sośniczany",
         "Trzykosy",
@@ -88337,9 +88171,9 @@ export const voivodeship = {
         "Zastawie",
         "W Wąwozie",
         "Majorat-Zaródcze",
-        "Gnieszowice"
+        "Gnieszowice",
       ],
-      "Łoniów": [
+      Łoniów: [
         "Jasienica",
         "Sulisławice",
         "Suliszów",
@@ -88409,9 +88243,9 @@ export const voivodeship = {
         "Pod Lasem",
         "Wikle",
         "Trzebiesławice Stare",
-        "Pełpin"
+        "Pełpin",
       ],
-      "Obrazów": [
+      Obrazów: [
         "Węgrce Panieńskie",
         "Świątniki",
         "Komorna",
@@ -88474,9 +88308,9 @@ export const voivodeship = {
         "Kolonia",
         "Zdanów",
         "Kolonia Piekary",
-        "Zdanów-Kolonia"
+        "Zdanów-Kolonia",
       ],
-      "Samborzec": [
+      Samborzec: [
         "Strochcice",
         "Zawisełcze",
         "Łojowice",
@@ -88544,9 +88378,9 @@ export const voivodeship = {
         "Kolonie",
         "Kobierniki Miejskie",
         "Górki",
-        "Koćmierzów-Kolonia"
+        "Koćmierzów-Kolonia",
       ],
-      "Wilczyce": [
+      Wilczyce: [
         "Dobrocice",
         "Gałkowice-Ocin",
         "Przezwody",
@@ -88595,9 +88429,9 @@ export const voivodeship = {
         "Kolonie",
         "Kamionka",
         "Dobrocice Górne",
-        "Bugaj"
+        "Bugaj",
       ],
-      "Zawichost": [
+      Zawichost: [
         "Linów-Kolonia",
         "Linów",
         "Piotrowice",
@@ -88640,10 +88474,10 @@ export const voivodeship = {
         "Linów-Góry",
         "Słomianka",
         "Pawłów",
-        "Szymanówka"
-      ]
+        "Szymanówka",
+      ],
     },
-    "skarżyski": {
+    skarżyski: {
       "Skarżysko-Kamienna": [
         "Skarżysko-Kamienna",
         "Bzinek",
@@ -88681,9 +88515,9 @@ export const voivodeship = {
         "Zaszosie",
         "Leśniczówka Skarżysko Książęce",
         "Pastwiska",
-        "Usłów-Place"
+        "Usłów-Place",
       ],
-      "Bliżyn": [
+      Bliżyn: [
         "Sobótka",
         "Drożdżów",
         "Górki",
@@ -88780,9 +88614,9 @@ export const voivodeship = {
         "Płaczków-Piechotne",
         "Klonina",
         "Rosochy",
-        "Świnia Góra"
+        "Świnia Góra",
       ],
-      "Łączna": [
+      Łączna: [
         "Zaskale",
         "Podzagnańszcze",
         "Gózd",
@@ -88818,7 +88652,7 @@ export const voivodeship = {
         "Zalezianka Górna",
         "Zajamie",
         "Stara Poduchowna Występa",
-        "Zalezianka Dolna"
+        "Zalezianka Dolna",
       ],
       "Skarżysko Kościelne": [
         "Lipowe Pole Skarbowe",
@@ -88848,9 +88682,9 @@ export const voivodeship = {
         "Gajówka Podebzin",
         "Leśniczówka Skarżysko Kościelne",
         "Gajówka Michałów",
-        "Leśniczówka Pleśniówka"
+        "Leśniczówka Pleśniówka",
       ],
-      "Suchedniów": [
+      Suchedniów: [
         "Ostojów",
         "Mostki",
         "Michniów",
@@ -88876,11 +88710,11 @@ export const voivodeship = {
         "Jędrów",
         "Kruk",
         "Leśniczówka",
-        "Posada Leśna"
-      ]
+        "Posada Leśna",
+      ],
     },
-    "starachowicki": {
-      "Starachowice": [
+    starachowicki: {
+      Starachowice: [
         "Starachowice",
         "Abisynia",
         "Gajówka Krzyżowa Wola",
@@ -88914,9 +88748,9 @@ export const voivodeship = {
         "Michałów-Lecznica",
         "Brazylia",
         "Orłowo",
-        "Skałka"
+        "Skałka",
       ],
-      "Brody": [
+      Brody: [
         "Budy Brodzkie",
         "Połągiew",
         "Młynek",
@@ -89003,9 +88837,9 @@ export const voivodeship = {
         "Myszki",
         "Nadleśnictwo Lubienia",
         "Zawały",
-        "Zębiec"
+        "Zębiec",
       ],
-      "Mirzec": [
+      Mirzec: [
         "Małyszyn Górny",
         "Trębowiec Duży",
         "Jagodne",
@@ -89041,9 +88875,9 @@ export const voivodeship = {
         "Leśniczówka Mirzec",
         "Leśniczówka Tychów",
         "Leśniczówka Gadka",
-        "Leśniczówka Bugaj"
+        "Leśniczówka Bugaj",
       ],
-      "Pawłów": [
+      Pawłów: [
         "Pokrzywnica",
         "Radkowice-Kolonia",
         "Kałków",
@@ -89196,9 +89030,9 @@ export const voivodeship = {
         "Cegielnia-Łyżnik",
         "Miłoszów",
         "Wymysłów",
-        "Rysiowiec"
+        "Rysiowiec",
       ],
-      "Wąchock": [
+      Wąchock: [
         "Wielka Wieś",
         "Rataje",
         "Wymysłów",
@@ -89219,11 +89053,11 @@ export const voivodeship = {
         "Gajówka Węglów",
         "Gajówka Kaczka",
         "Leśniczówka Parszów",
-        "Leśniczówka Rataje"
-      ]
+        "Leśniczówka Rataje",
+      ],
     },
-    "staszowski": {
-      "Bogoria": [
+    staszowski: {
+      Bogoria: [
         "Mała Wieś",
         "Kolonia Pęcławska",
         "Jurkowice",
@@ -89294,9 +89128,9 @@ export const voivodeship = {
         "Kolonia Gorzków",
         "Kolonia Grzybów",
         "Józefów Witowicki",
-        "Jurkowice-Kamieniołom"
+        "Jurkowice-Kamieniołom",
       ],
-      "Łubnice": [
+      Łubnice: [
         "Słupiec",
         "Wilkowa",
         "Rejterówka",
@@ -89360,9 +89194,9 @@ export const voivodeship = {
         "W Ogrodach",
         "Czajków",
         "Zakupne",
-        "Zajeziorze"
+        "Zajeziorze",
       ],
-      "Oleśnica": [
+      Oleśnica: [
         "Bydłowa",
         "Brody",
         "Podlesie",
@@ -89404,9 +89238,9 @@ export const voivodeship = {
         "Młyn",
         "Na Górce",
         "Przedewsie",
-        "Wadówka"
+        "Wadówka",
       ],
-      "Osiek": [
+      Osiek: [
         "Lipnik",
         "Pliskowola",
         "Kąty",
@@ -89443,9 +89277,9 @@ export const voivodeship = {
         "Tursko Wielkie-Kolonia",
         "Otoka Gągolińska",
         "Gajówka",
-        "Trzcianka-Kolonia"
+        "Trzcianka-Kolonia",
       ],
-      "Połaniec": [
+      Połaniec: [
         "Łęg",
         "Ruszcza",
         "Zrębin",
@@ -89473,9 +89307,9 @@ export const voivodeship = {
         "Kolonia",
         "Stawy-Sieragi",
         "Tursko Małe-Kolonia",
-        "Zdzieci Nowe"
+        "Zdzieci Nowe",
       ],
-      "Rytwiany": [
+      Rytwiany: [
         "Podborek",
         "Rytwiany",
         "Święcica",
@@ -89510,9 +89344,9 @@ export const voivodeship = {
         "Klasztor",
         "Wiśniówka",
         "Skrzypiec",
-        "Adamówka"
+        "Adamówka",
       ],
-      "Staszów": [
+      Staszów: [
         "Koniemłoty",
         "Krzczonowice",
         "Grzybów",
@@ -89581,9 +89415,9 @@ export const voivodeship = {
         "Wólka Łaziska",
         "Łepki",
         "Dziadówka",
-        "Kamionki"
+        "Kamionki",
       ],
-      "Szydłów": [
+      Szydłów: [
         "Wymysłów",
         "Gacki",
         "Grabki Duże",
@@ -89642,11 +89476,11 @@ export const voivodeship = {
         "Folwark",
         "Zielonka",
         "Widanka",
-        "Zagrodniki"
-      ]
+        "Zagrodniki",
+      ],
     },
-    "włoszczowski": {
-      "Kluczewsko": [
+    włoszczowski: {
+      Kluczewsko: [
         "Kolonia Bobrowska Wola",
         "Bobrowniki",
         "Ciemiętniki",
@@ -89703,9 +89537,9 @@ export const voivodeship = {
         "Pod Korzeniem",
         "Łęg Januszewski",
         "Gęsiarnia",
-        "Biały Brzeg"
+        "Biały Brzeg",
       ],
-      "Krasocin": [
+      Krasocin: [
         "Jakubów",
         "Ludynia",
         "Nowy Dwór",
@@ -89773,9 +89607,9 @@ export const voivodeship = {
         "Zagórnica",
         "Zakrze",
         "Nowa Huta",
-        "Pod Lasem"
+        "Pod Lasem",
       ],
-      "Moskorzew": [
+      Moskorzew: [
         "Mękarzów",
         "Chebdzie",
         "Jadwigów",
@@ -89792,9 +89626,9 @@ export const voivodeship = {
         "Gaje",
         "Józefów",
         "Feliksówka",
-        "Zagórze"
+        "Zagórze",
       ],
-      "Radków": [
+      Radków: [
         "Bałków",
         "Sulików",
         "Brzeście",
@@ -89821,9 +89655,9 @@ export const voivodeship = {
         "Syberia",
         "Dębnik",
         "Pod Krasowem",
-        "Krasówek"
+        "Krasówek",
       ],
-      "Secemin": [
+      Secemin: [
         "Wałkonowy Górne",
         "Ropocice",
         "Krzepice",
@@ -89872,9 +89706,9 @@ export const voivodeship = {
         "Marianów",
         "Pod Bujakiem",
         "Smugi",
-        "Borowe"
+        "Borowe",
       ],
-      "Włoszczowa": [
+      Włoszczowa: [
         "Kurzelów",
         "Wymysłów",
         "Nieznanowice",
@@ -90026,11 +89860,11 @@ export const voivodeship = {
         "Klekot",
         "Kaleń",
         "Wyrąb",
-        "Martynnik"
-      ]
+        "Martynnik",
+      ],
     },
-    "Kielce": {
-      "Kielce": [
+    Kielce: {
+      Kielce: [
         "Kielce",
         "Dobromyśl",
         "Górka",
@@ -90103,13 +89937,13 @@ export const voivodeship = {
         "Głęboczka",
         "Karczówka",
         "Koszary",
-        "Kozi Lasek"
-      ]
-    }
+        "Kozi Lasek",
+      ],
+    },
   },
   "WARMIŃSKO-MAZURSKIE": {
-    "bartoszycki": {
-      "Bartoszyce": [
+    bartoszycki: {
+      Bartoszyce: [
         "Łęg",
         "Zawiersze",
         "Gierczyn",
@@ -90219,7 +90053,7 @@ export const voivodeship = {
         "Wardomy",
         "Tromity",
         "Osieka",
-        "Sortławki"
+        "Sortławki",
       ],
       "Górowo Iławeckie": [
         "Katławki",
@@ -90308,9 +90142,9 @@ export const voivodeship = {
         "Pudlikajmy",
         "Glądy",
         "Świadki Iławeckie",
-        "Warszkajty"
+        "Warszkajty",
       ],
-      "Bisztynek": [
+      Bisztynek: [
         "Biegonity",
         "Janowiec",
         "Krzewina",
@@ -90342,9 +90176,9 @@ export const voivodeship = {
         "Sułowo",
         "Troszkowo",
         "Dąbrowa",
-        "Lądek"
+        "Lądek",
       ],
-      "Sępopol": [
+      Sępopol: [
         "Gaj",
         "Gierkiny",
         "Gulkajmy",
@@ -90399,11 +90233,11 @@ export const voivodeship = {
         "Wiatrowiec",
         "Rogielkajmy",
         "Rygarby",
-        "Prętławki"
-      ]
+        "Prętławki",
+      ],
     },
-    "braniewski": {
-      "Braniewo": [
+    braniewski: {
+      Braniewo: [
         "Kalina",
         "Siedlisko",
         "Działy",
@@ -90464,9 +90298,9 @@ export const voivodeship = {
         "Mikołajewo",
         "Szyleny",
         "Stępień",
-        "Zakrzewiec"
+        "Zakrzewiec",
       ],
-      "Frombork": [
+      Frombork: [
         "Niewiastowo",
         "Wilanowo-Leśniczówka",
         "Baranówka-Leśniczówka",
@@ -90483,9 +90317,9 @@ export const voivodeship = {
         "Biedkowo",
         "Jędrychowo",
         "Krzyżewo",
-        "Nowiny"
+        "Nowiny",
       ],
-      "Lelkowo": [
+      Lelkowo: [
         "Białobór",
         "Wyszkowo",
         "Jachowo",
@@ -90520,9 +90354,9 @@ export const voivodeship = {
         "Krzekoty",
         "Bieńkowo",
         "Miłaki",
-        "Sówki"
+        "Sówki",
       ],
-      "Pieniężno": [
+      Pieniężno: [
         "Białczyn",
         "Gajle",
         "Kowale",
@@ -90565,9 +90399,9 @@ export const voivodeship = {
         "Niedbałki",
         "Pawły",
         "Żugienie",
-        "Gaudyny"
+        "Gaudyny",
       ],
-      "Płoskinia": [
+      Płoskinia: [
         "Piórkowo",
         "Szalmia",
         "Jarzębiec",
@@ -90595,9 +90429,9 @@ export const voivodeship = {
         "Wysoka Braniewska",
         "Chruściel",
         "Dąbrowa",
-        "Strubno"
+        "Strubno",
       ],
-      "Wilczęta": [
+      Wilczęta: [
         "Kaginowo",
         "Góry",
         "Jankówko",
@@ -90622,11 +90456,11 @@ export const voivodeship = {
         "Dębiny",
         "Stare Siedlisko",
         "Sopoty",
-        "Wilczęta"
-      ]
+        "Wilczęta",
+      ],
     },
-    "działdowski": {
-      "Działdowo": [
+    działdowski: {
+      Działdowo: [
         "Krasnołąka",
         "Rudolfowo",
         "Wilamowo",
@@ -90664,7 +90498,7 @@ export const voivodeship = {
         "Ruszkowo",
         "Sękowo",
         "Gnojno",
-        "Zakrzewo"
+        "Zakrzewo",
       ],
       "Iłowo-Osada": [
         "Dwukoły",
@@ -90686,9 +90520,9 @@ export const voivodeship = {
         "Mansfeldy",
         "Janowo",
         "Kraszewo",
-        "Dźwierznia"
+        "Dźwierznia",
       ],
-      "Lidzbark": [
+      Lidzbark: [
         "Kurojady",
         "Zielonka",
         "Borówno",
@@ -90747,9 +90581,9 @@ export const voivodeship = {
         "Nowe Dłutowo",
         "Zalesie",
         "Jeleń",
-        "Bryńsk Szlachecki"
+        "Bryńsk Szlachecki",
       ],
-      "Płośnica": [
+      Płośnica: [
         "Morycówka",
         "Mała Turza",
         "Mały Łęck",
@@ -90772,9 +90606,9 @@ export const voivodeship = {
         "Zalesie",
         "Wielki Łęck",
         "Skurpie",
-        "Mały Łęck"
+        "Mały Łęck",
       ],
-      "Rybno": [
+      Rybno: [
         "Gralewo-Stacja",
         "Szczupliniak",
         "Kostkowo",
@@ -90809,11 +90643,11 @@ export const voivodeship = {
         "Jeglia",
         "Groszki",
         "Hartowiec",
-        "Tuczki"
-      ]
+        "Tuczki",
+      ],
     },
-    "elbląski": {
-      "Elbląg": [
+    elbląski: {
+      Elbląg: [
         "Przezmark-Osiedle",
         "Bielnik Drugi",
         "Bielnik Pierwszy",
@@ -90854,9 +90688,9 @@ export const voivodeship = {
         "Cieplice",
         "Raczki Elbląskie",
         "Nowe Batorowo",
-        "Pilona"
+        "Pilona",
       ],
-      "Godkowo": [
+      Godkowo: [
         "Kwitajny Małe",
         "Niekwitajny",
         "Siedlisko",
@@ -90892,7 +90726,7 @@ export const voivodeship = {
         "Swędkowo",
         "Dobry",
         "Nowe Wikrowo",
-        "Osiek"
+        "Osiek",
       ],
       "Gronowo Elbląskie": [
         "Wiktorowo",
@@ -90914,9 +90748,9 @@ export const voivodeship = {
         "Oleśno",
         "Wikrowo",
         "Szopy",
-        "Mojkowo"
+        "Mojkowo",
       ],
-      "Markusy": [
+      Markusy: [
         "Jeziorna",
         "Nowe Kępniewo",
         "Stare Dolno",
@@ -90939,9 +90773,9 @@ export const voivodeship = {
         "Kępniewo",
         "Wiśniewo",
         "Żółwiniec",
-        "Stalewo"
+        "Stalewo",
       ],
-      "Milejewo": [
+      Milejewo: [
         "Jeziorki",
         "Wilkowo",
         "Pomorska Wieś",
@@ -90955,9 +90789,9 @@ export const voivodeship = {
         "Zalesie",
         "Milejewo",
         "Jagodnik",
-        "Stoboje"
+        "Stoboje",
       ],
-      "Młynary": [
+      Młynary: [
         "Myśliniec",
         "Rucianka",
         "Nowe Sadłuki",
@@ -90988,9 +90822,9 @@ export const voivodeship = {
         "Janiki Pasłęckie",
         "Kwietnik",
         "Zaścianki",
-        "Płonne"
+        "Płonne",
       ],
-      "Pasłęk": [
+      Pasłęk: [
         "Piniewo",
         "Rydzówka",
         "Rzędy",
@@ -91067,9 +90901,9 @@ export const voivodeship = {
         "Aniołowo",
         "Kawki",
         "Kąty",
-        "Wikrowo"
+        "Wikrowo",
       ],
-      "Rychliki": [
+      Rychliki: [
         "Buczyniec",
         "Grądowy Młyn",
         "Barzyna",
@@ -91098,9 +90932,9 @@ export const voivodeship = {
         "Kwietniewo",
         "Rychliki",
         "Buczyniec",
-        "Wopity"
+        "Wopity",
       ],
-      "Tolkmicko": [
+      Tolkmicko: [
         "Biała Leśniczówka",
         "Pagórki",
         "Bogdaniec",
@@ -91124,11 +90958,11 @@ export const voivodeship = {
         "Suchacz",
         "Nowinka",
         "Łęcze",
-        "Pogrodzie"
-      ]
+        "Pogrodzie",
+      ],
     },
-    "ełcki": {
-      "Ełk": [
+    ełcki: {
+      Ełk: [
         "Lipinka",
         "Krokocie",
         "Pisanica",
@@ -91217,9 +91051,9 @@ export const voivodeship = {
         "Rękusy",
         "Talusy",
         "Przykopka",
-        "Przytuły"
+        "Przytuły",
       ],
-      "Kalinowo": [
+      Kalinowo: [
         "Ryczywół",
         "Kuczki",
         "Kowale",
@@ -91272,9 +91106,9 @@ export const voivodeship = {
         "Czyńcze",
         "Mazurowo",
         "Grądzkie Ełckie",
-        "Dorsze"
+        "Dorsze",
       ],
-      "Prostki": [
+      Prostki: [
         "Kibisy",
         "Bobry",
         "Borki",
@@ -91319,7 +91153,7 @@ export const voivodeship = {
         "Sołtmany",
         "Olszewo",
         "Krzywe",
-        "Niedźwiedzkie"
+        "Niedźwiedzkie",
       ],
       "Stare Juchy": [
         "Sikory Juskie",
@@ -91349,11 +91183,11 @@ export const voivodeship = {
         "Jeziorowskie",
         "Płowce",
         "Stare Krzywe",
-        "Czerwonka"
-      ]
+        "Czerwonka",
+      ],
     },
-    "giżycki": {
-      "Giżycko": [
+    giżycki: {
+      Giżycko: [
         "Nowe Sołdany",
         "Zielony Gaj",
         "Bystry",
@@ -91404,9 +91238,9 @@ export const voivodeship = {
         "Kożuchy Wielkie",
         "Szczybały Giżyckie",
         "Upałty",
-        "Kruklin"
+        "Kruklin",
       ],
-      "Kruklanki": [
+      Kruklanki: [
         "Chmielewo",
         "Jelonek",
         "Diabla Góra",
@@ -91434,9 +91268,9 @@ export const voivodeship = {
         "Sołtmany",
         "Jeziorowskie",
         "Żywki",
-        "Boćwinka"
+        "Boćwinka",
       ],
-      "Miłki": [
+      Miłki: [
         "Wyłudki",
         "Jedamki",
         "Kleszczewo-Osada",
@@ -91468,9 +91302,9 @@ export const voivodeship = {
         "Kleszczewo",
         "Bielskie",
         "Paprotki",
-        "Konopki Wielkie"
+        "Konopki Wielkie",
       ],
-      "Ryn": [
+      Ryn: [
         "Dzikowizna",
         "Głąbowo",
         "Knis-Podewsie",
@@ -91507,9 +91341,9 @@ export const voivodeship = {
         "Mrówki",
         "Prażmowo",
         "Skop",
-        "Krzyżany"
+        "Krzyżany",
       ],
-      "Wydminy": [
+      Wydminy: [
         "Skomack Mały",
         "Łękuk Mały",
         "Róg Orłowski",
@@ -91552,11 +91386,11 @@ export const voivodeship = {
         "Szczybały Orłowskie",
         "Zelki",
         "Mazuchówka",
-        "Cybulki"
-      ]
+        "Cybulki",
+      ],
     },
-    "iławski": {
-      "Iława": [
+    iławski: {
+      Iława: [
         "Stęgwica",
         "Różek",
         "Smolniki-Nadleśnictwo",
@@ -91640,9 +91474,9 @@ export const voivodeship = {
         "Ząbrowo",
         "Gromoty",
         "Makowo",
-        "Nejdyki"
+        "Nejdyki",
       ],
-      "Lubawa": [
+      Lubawa: [
         "Napromek",
         "Gajówka",
         "Napromek",
@@ -91682,9 +91516,9 @@ export const voivodeship = {
         "Losy",
         "Sampława",
         "Rożental",
-        "Raczek"
+        "Raczek",
       ],
-      "Kisielice": [
+      Kisielice: [
         "Łęgowo",
         "Nojdek",
         "Kantowo",
@@ -91711,9 +91545,9 @@ export const voivodeship = {
         "Goryń",
         "Łęgowo",
         "Klimy",
-        "Biskupiczki"
+        "Biskupiczki",
       ],
-      "Susz": [
+      Susz: [
         "Piaski",
         "Bałoszyce",
         "Bałoszyce Małe",
@@ -91765,9 +91599,9 @@ export const voivodeship = {
         "Grabowiec",
         "Redaki",
         "Chełmżyca",
-        "Michałowo"
+        "Michałowo",
       ],
-      "Zalewo": [
+      Zalewo: [
         "Nowe Chmielówko",
         "Bukowiec",
         "Nowe Jaśkowo",
@@ -91821,11 +91655,11 @@ export const voivodeship = {
         "Gajdy",
         "Bajdy",
         "Barty",
-        "Mazanki"
-      ]
+        "Mazanki",
+      ],
     },
-    "kętrzyński": {
-      "Kętrzyn": [
+    kętrzyński: {
+      Kętrzyn: [
         "Kętrzyńska Kępa",
         "Salpik Dolny",
         "Gierłoż",
@@ -91912,9 +91746,9 @@ export const voivodeship = {
         "Filipówka",
         "Biedaszki Małe",
         "Salpik",
-        "Gnatowo"
+        "Gnatowo",
       ],
-      "Barciany": [
+      Barciany: [
         "Zielone",
         "Anielin",
         "Bogusławki",
@@ -92002,9 +91836,9 @@ export const voivodeship = {
         "Skandawa",
         "Modgarby",
         "Krzeczewo",
-        "Niedziały"
+        "Niedziały",
       ],
-      "Korsze": [
+      Korsze: [
         "Dąb",
         "Błuskajmy Wielkie",
         "Błuskajmy Małe",
@@ -92071,9 +91905,9 @@ export const voivodeship = {
         "Piaskowiec",
         "Błogoszewo",
         "Stawnica",
-        "Kraskowo"
+        "Kraskowo",
       ],
-      "Reszel": [
+      Reszel: [
         "Grzybowo",
         "Fiugaty",
         "Bezławecki Dwór",
@@ -92116,9 +91950,9 @@ export const voivodeship = {
         "Pilec",
         "Zawidy",
         "Siemki",
-        "Pasterzewo"
+        "Pasterzewo",
       ],
-      "Srokowo": [
+      Srokowo: [
         "Jegławki",
         "Niedziały",
         "Wilcze",
@@ -92176,10 +92010,10 @@ export const voivodeship = {
         "Leśny Rów",
         "Leśniewo",
         "Wilczyny",
-        "Wyskok"
-      ]
+        "Wyskok",
+      ],
     },
-    "lidzbarski": {
+    lidzbarski: {
       "Lidzbark Warmiński": [
         "Łaniewo-Leśnictwo",
         "Jagodów",
@@ -92239,9 +92073,9 @@ export const voivodeship = {
         "Bugi",
         "Kraszewo",
         "Sarnowo",
-        "Workiejmy"
+        "Workiejmy",
       ],
-      "Kiwity": [
+      Kiwity: [
         "Maków",
         "Rejsy",
         "Kłajty",
@@ -92266,9 +92100,9 @@ export const voivodeship = {
         "Połapin",
         "Stoczek",
         "Tolniki Wielkie",
-        "Kierwiny"
+        "Kierwiny",
       ],
-      "Lubomino": [
+      Lubomino: [
         "Ełdyty Wielkie",
         "Zajączki",
         "Biała Wola",
@@ -92288,9 +92122,9 @@ export const voivodeship = {
         "Rogiedle",
         "Wapnik",
         "Wolnica",
-        "Wójtowo"
+        "Wójtowo",
       ],
-      "Orneta": [
+      Orneta: [
         "Wojciechowo",
         "Wola Lipecka",
         "Biały Dwór",
@@ -92324,11 +92158,11 @@ export const voivodeship = {
         "Henrykowo",
         "Krosno",
         "Lejławki Małe",
-        "Bogatyńskie"
-      ]
+        "Bogatyńskie",
+      ],
     },
-    "mrągowski": {
-      "Mrągowo": [
+    mrągowski: {
+      Mrągowo: [
         "Gronowo",
         "Notyst Dolny",
         "Boże Małe",
@@ -92397,9 +92231,9 @@ export const voivodeship = {
         "Muntowo",
         "Marcinkowo",
         "Szczerzbowo",
-        "Wólka Bagnowska"
+        "Wólka Bagnowska",
       ],
-      "Mikołajki": [
+      Mikołajki: [
         "Mikołajki",
         "Łuknajno",
         "Lisiny",
@@ -92454,9 +92288,9 @@ export const voivodeship = {
         "Baranowo",
         "Tałty",
         "Prawdowo",
-        "Cudnochy"
+        "Cudnochy",
       ],
-      "Piecki": [
+      Piecki: [
         "Kołowin",
         "Kosowiec",
         "Kołowinek",
@@ -92511,9 +92345,9 @@ export const voivodeship = {
         "Krutyń",
         "Lipowo",
         "Piecki",
-        "Prusinowo"
+        "Prusinowo",
       ],
-      "Sorkwity": [
+      Sorkwity: [
         "Słomowo",
         "Załuki",
         "Janiszewo",
@@ -92557,10 +92391,10 @@ export const voivodeship = {
         "Borowe",
         "Choszczewo",
         "Jędrychowo",
-        "Jełmuń"
-      ]
+        "Jełmuń",
+      ],
     },
-    "nidzicki": {
+    nidzicki: {
       "Janowiec Kościelny": [
         "Zbyluty",
         "Bukowiec Mały",
@@ -92614,9 +92448,9 @@ export const voivodeship = {
         "Zabłocie Kanigowskie",
         "Wiłunie",
         "Stare Połcie",
-        "Smolany-Żardawy"
+        "Smolany-Żardawy",
       ],
-      "Janowo": [
+      Janowo: [
         "Ulesie",
         "Zdrojek",
         "Uścianek",
@@ -92640,9 +92474,9 @@ export const voivodeship = {
         "Komorowo",
         "Szemplino Czarne",
         "Szemplino Wielkie",
-        "Muszaki"
+        "Muszaki",
       ],
-      "Kozłowo": [
+      Kozłowo: [
         "Rodowo",
         "Borowiec",
         "Wronowo",
@@ -92685,9 +92519,9 @@ export const voivodeship = {
         "Kownatki",
         "Pielgrzymowo",
         "Sarnowo",
-        "Ważyny"
+        "Ważyny",
       ],
-      "Nidzica": [
+      Nidzica: [
         "Wilczyce",
         "Koniuszyn",
         "Moczysko",
@@ -92749,10 +92583,10 @@ export const voivodeship = {
         "Borowy Młyn",
         "Wały",
         "Módłki",
-        "Bolejny"
-      ]
+        "Bolejny",
+      ],
     },
-    "nowomiejski": {
+    nowomiejski: {
       "Nowe Miasto Lubawskie": [
         "Bagno",
         "Kaczek",
@@ -92815,9 +92649,9 @@ export const voivodeship = {
         "Gryźliny",
         "Skarlin",
         "Bratian",
-        "Pacółtowo"
+        "Pacółtowo",
       ],
-      "Biskupiec": [
+      Biskupiec: [
         "Wąkop",
         "Kaługa",
         "Podwólka",
@@ -92898,9 +92732,9 @@ export const voivodeship = {
         "Mierzyn",
         "Podlasek Mały",
         "Rywałdzik",
-        "Sumin"
+        "Sumin",
       ],
-      "Grodziczno": [
+      Grodziczno: [
         "Białobłoty",
         "Linowiec",
         "Za Wlem",
@@ -92975,9 +92809,9 @@ export const voivodeship = {
         "Mroczno",
         "Nowe Grodziczno",
         "Zajączkowo",
-        "Lorki"
+        "Lorki",
       ],
-      "Kurzętnik": [
+      Kurzętnik: [
         "Ostrówki",
         "Kacze Bagno",
         "Rygiel",
@@ -93042,10 +92876,10 @@ export const voivodeship = {
         "Otręba",
         "Kamionka",
         "Sugajenko",
-        "Brzozie Lubawskie"
-      ]
+        "Brzozie Lubawskie",
+      ],
     },
-    "olecki": {
+    olecki: {
       "Kowale Oleckie": [
         "Czerwony Dwór",
         "Borki",
@@ -93096,9 +92930,9 @@ export const voivodeship = {
         "Stożne",
         "Monety",
         "Guzy",
-        "Cicha Wólka"
+        "Cicha Wólka",
       ],
-      "Olecko": [
+      Olecko: [
         "Dąbrowskie-Osada",
         "Biała Olecka",
         "Kolonie Dąbrowskie",
@@ -93143,9 +92977,9 @@ export const voivodeship = {
         "Kukowo",
         "Dąbrowskie",
         "Zajdy",
-        "Borawskie"
+        "Borawskie",
       ],
-      "Świętajno": [
+      Świętajno: [
         "Smolnik",
         "Jurki",
         "Jurkowo",
@@ -93179,9 +93013,9 @@ export const voivodeship = {
         "Dudki",
         "Rogojny",
         "Krzywe",
-        "Sulejki"
+        "Sulejki",
       ],
-      "Wieliczki": [
+      Wieliczki: [
         "Bartki",
         "Niedźwiedzkie",
         "Gąsiorówko",
@@ -93210,11 +93044,11 @@ export const voivodeship = {
         "Krupin",
         "Puchówka",
         "Urbanki",
-        "Wojnasy"
-      ]
+        "Wojnasy",
+      ],
     },
-    "olsztyński": {
-      "Barczewo": [
+    olsztyński: {
+      Barczewo: [
         "Leszno Małe",
         "Koronowo",
         "Czerwony Bór",
@@ -93271,9 +93105,9 @@ export const voivodeship = {
         "Ramsówko",
         "Łęgajny",
         "Barczewko",
-        "Jedzbark"
+        "Jedzbark",
       ],
-      "Biskupiec": [
+      Biskupiec: [
         "Sadłowo",
         "Rudziska",
         "Gęsikowo",
@@ -93334,7 +93168,7 @@ export const voivodeship = {
         "Węgój",
         "Zabrodzie",
         "Stanclewo",
-        "Mojtyny"
+        "Mojtyny",
       ],
       "Dobre Miasto": [
         "Chmury",
@@ -93367,9 +93201,9 @@ export const voivodeship = {
         "Barcikowo",
         "Głotowo",
         "Międzylesie",
-        "Jesionowo"
+        "Jesionowo",
       ],
-      "Dywity": [
+      Dywity: [
         "Lipniak",
         "Wopy",
         "Bukowina",
@@ -93396,9 +93230,9 @@ export const voivodeship = {
         "Nowe Włóki",
         "Dąbrówka Wielka",
         "Bukwałd",
-        "Gady"
+        "Gady",
       ],
-      "Gietrzwałd": [
+      Gietrzwałd: [
         "Zdrojek",
         "Nowy Młyn",
         "Kudypy",
@@ -93434,9 +93268,9 @@ export const voivodeship = {
         "Śródka",
         "Rapaty",
         "Gronity",
-        "Łupstych"
+        "Łupstych",
       ],
-      "Jeziorany": [
+      Jeziorany: [
         "Wójtówko",
         "Kalis",
         "Potryty",
@@ -93464,9 +93298,9 @@ export const voivodeship = {
         "Modliny",
         "Piszewo",
         "Franknowo",
-        "Studzianka"
+        "Studzianka",
       ],
-      "Jonkowo": [
+      Jonkowo: [
         "Polejki Leśne",
         "Bobry",
         "Szelągowo",
@@ -93495,9 +93329,9 @@ export const voivodeship = {
         "Polejki",
         "Gamerki Wielkie",
         "Giedajty",
-        "Jonkowo"
+        "Jonkowo",
       ],
-      "Kolno": [
+      Kolno: [
         "Gajówka Augustowska",
         "Kolenko",
         "Bęsia",
@@ -93519,9 +93353,9 @@ export const voivodeship = {
         "Otry",
         "Wójtowo",
         "Samławki",
-        "Wągsty"
+        "Wągsty",
       ],
-      "Olsztynek": [
+      Olsztynek: [
         "Dębowa Góra",
         "Kurecki Młyn",
         "Jagiełek",
@@ -93591,9 +93425,9 @@ export const voivodeship = {
         "Witramowo",
         "Warlity Małe",
         "Łutynowo",
-        "Drwęck"
+        "Drwęck",
       ],
-      "Purda": [
+      Purda: [
         "Kośno",
         "Lalka",
         "Mazuchy",
@@ -93655,9 +93489,9 @@ export const voivodeship = {
         "Kopanki",
         "Przykop",
         "Klebark Mały",
-        "Linowo"
+        "Linowo",
       ],
-      "Stawiguda": [
+      Stawiguda: [
         "Jełguń",
         "Łański Piec",
         "Stawiguda",
@@ -93689,9 +93523,9 @@ export const voivodeship = {
         "Dorotowo",
         "Stawiguda",
         "Miodówko",
-        "Wymój"
+        "Wymój",
       ],
-      "Świątki": [
+      Świątki: [
         "Brzydowo",
         "Brzeźno",
         "Drzazgi",
@@ -93717,11 +93551,11 @@ export const voivodeship = {
         "Wysokie",
         "Kalisty",
         "Garzewo",
-        "Jankowo"
-      ]
+        "Jankowo",
+      ],
     },
-    "ostródzki": {
-      "Ostróda": [
+    ostródzki: {
+      Ostróda: [
         "Stara Gierłoż",
         "Przylądek",
         "Nowa Gierłoż",
@@ -93811,9 +93645,9 @@ export const voivodeship = {
         "Górka",
         "Międzylesie",
         "Giętlewo",
-        "Durąg"
+        "Durąg",
       ],
-      "Dąbrówno": [
+      Dąbrówno: [
         "Dąbrowa",
         "Klonówko",
         "Leszcz",
@@ -93846,9 +93680,9 @@ export const voivodeship = {
         "Tułodziad",
         "Lewałd Wielki",
         "Stare Miasto",
-        "Brzeźno Mazurskie"
+        "Brzeźno Mazurskie",
       ],
-      "Grunwald": [
+      Grunwald: [
         "Grunwald",
         "Dylewo",
         "Dylewko",
@@ -93885,9 +93719,9 @@ export const voivodeship = {
         "Frygnowo",
         "Domkowo",
         "Jędrychowo",
-        "Rychnowo"
+        "Rychnowo",
       ],
-      "Łukta": [
+      Łukta: [
         "Dragolice",
         "Skwary",
         "Orlik",
@@ -93925,9 +93759,9 @@ export const voivodeship = {
         "Wynki",
         "Molza",
         "Sobno",
-        "Ględy"
+        "Ględy",
       ],
-      "Małdyty": [
+      Małdyty: [
         "Kanty",
         "Leszczynka",
         "Szymonówko",
@@ -93977,9 +93811,9 @@ export const voivodeship = {
         "Surzyki Wielkie",
         "Drynki",
         "Dziśnity",
-        "Małdyty"
+        "Małdyty",
       ],
-      "Miłakowo": [
+      Miłakowo: [
         "Głodówko",
         "Rycerzewo",
         "Gudniki",
@@ -94018,9 +93852,9 @@ export const voivodeship = {
         "Mysłaki",
         "Klugajny",
         "Warkały",
-        "Nowe Mieczysławy"
+        "Nowe Mieczysławy",
       ],
-      "Miłomłyn": [
+      Miłomłyn: [
         "Zatoka Leśna",
         "Wólka Majdańska",
         "Barcinek",
@@ -94056,9 +93890,9 @@ export const voivodeship = {
         "Bynowo",
         "Dębinka",
         "Winiec",
-        "Tarda"
+        "Tarda",
       ],
-      "Morąg": [
+      Morąg: [
         "Piłąg",
         "Anin",
         "Morzewko",
@@ -94122,10 +93956,10 @@ export const voivodeship = {
         "Żabi Róg",
         "Markowo",
         "Strużyna",
-        "Słonecznik"
-      ]
+        "Słonecznik",
+      ],
     },
-    "piski": {
+    piski: {
       "Biała Piska": [
         "Klarewo",
         "Kolonia Konopki",
@@ -94194,9 +94028,9 @@ export const voivodeship = {
         "Kózki",
         "Rogale Wielkie",
         "Mikuty",
-        "Kukły"
+        "Kukły",
       ],
-      "Orzysz": [
+      Orzysz: [
         "Buwełno",
         "Tyrkło",
         "Rzęśniki",
@@ -94250,9 +94084,9 @@ export const voivodeship = {
         "Dziubiele",
         "Grzegorze",
         "Nowa Wieś",
-        "Mikosze"
+        "Mikosze",
       ],
-      "Pisz": [
+      Pisz: [
         "Kulik",
         "Jaśkowo",
         "Lisie Jamy",
@@ -94319,7 +94153,7 @@ export const voivodeship = {
         "Maldanin",
         "Rakowo Piskie",
         "Szczechy Małe",
-        "Łupki"
+        "Łupki",
       ],
       "Ruciane-Nida": [
         "Karwica Mazurska",
@@ -94374,11 +94208,11 @@ export const voivodeship = {
         "Onufryjewo",
         "Osiniak-Piotrowo",
         "Wygryny",
-        "Ukta"
-      ]
+        "Ukta",
+      ],
     },
-    "szczycieński": {
-      "Szczytno": [
+    szczycieński: {
+      Szczytno: [
         "Łęg Leśny",
         "Ruski Bór",
         "Ulążki",
@@ -94435,9 +94269,9 @@ export const voivodeship = {
         "Piecuchy",
         "Lipowa Góra Wschodnia",
         "Gawrzyjałki",
-        "Szczycionek"
+        "Szczycionek",
       ],
-      "Dźwierzuty": [
+      Dźwierzuty: [
         "Rów",
         "Kulka",
         "Byki",
@@ -94481,9 +94315,9 @@ export const voivodeship = {
         "Linowo",
         "Dźwierzuty",
         "Rańsk",
-        "Sąpłaty"
+        "Sąpłaty",
       ],
-      "Jedwabno": [
+      Jedwabno: [
         "Rekowe",
         "Dębowiec",
         "Nowy Las",
@@ -94508,9 +94342,9 @@ export const voivodeship = {
         "Nowe Borowe",
         "Warchały",
         "Waplewo",
-        "Witowo"
+        "Witowo",
       ],
-      "Pasym": [
+      Pasym: [
         "Gaj",
         "Pasym",
         "Otole",
@@ -94535,9 +94369,9 @@ export const voivodeship = {
         "Rusek Wielki",
         "Siedliska",
         "Dybowo",
-        "Elganowo"
+        "Elganowo",
       ],
-      "Rozogi": [
+      Rozogi: [
         "Kopytko",
         "Dąbrowy-Działy",
         "Grodzie",
@@ -94568,9 +94402,9 @@ export const voivodeship = {
         "Łuka",
         "Księży Lasek",
         "Kowalik",
-        "Wilamowo"
+        "Wilamowo",
       ],
-      "Świętajno": [
+      Świętajno: [
         "Myszadło",
         "Kobiel",
         "Łąck Mały",
@@ -94600,9 +94434,9 @@ export const voivodeship = {
         "Koczek",
         "Kolonia",
         "Świętajno",
-        "Zielone"
+        "Zielone",
       ],
-      "Wielbark": [
+      Wielbark: [
         "Stachy",
         "Dąbrowa",
         "Rokitka",
@@ -94640,10 +94474,10 @@ export const voivodeship = {
         "Jesionowiec",
         "Lesiny Małe",
         "Sędrowo",
-        "Wyżegi"
-      ]
+        "Wyżegi",
+      ],
     },
-    "gołdapski": {
+    gołdapski: {
       "Banie Mazurskie": [
         "Różanka-Dwór",
         "Szarek",
@@ -94710,9 +94544,9 @@ export const voivodeship = {
         "Rogale",
         "Audyniszki",
         "Sapałówka",
-        "Surminy"
+        "Surminy",
       ],
-      "Dubeninki": [
+      Dubeninki: [
         "Bludzie Wielkie",
         "Boczki",
         "Markowo",
@@ -94761,9 +94595,9 @@ export const voivodeship = {
         "Linowo",
         "Łoje",
         "Będziszewo",
-        "Białe Jeziorki"
+        "Białe Jeziorki",
       ],
-      "Gołdap": [
+      Gołdap: [
         "Dunajek",
         "Jurkiszki",
         "Szyliny",
@@ -94851,11 +94685,11 @@ export const voivodeship = {
         "Osowo",
         "Bałupiany",
         "Barkowo",
-        "Bitkowo"
-      ]
+        "Bitkowo",
+      ],
     },
-    "węgorzewski": {
-      "Budry": [
+    węgorzewski: {
+      Budry: [
         "Sąkieły Wielkie",
         "Skalisze",
         "Jurgucie",
@@ -94892,9 +94726,9 @@ export const voivodeship = {
         "Góry",
         "Sobiechy",
         "Wężówko",
-        "Więcki"
+        "Więcki",
       ],
-      "Pozezdrze": [
+      Pozezdrze: [
         "Okowizna",
         "Radziszewo",
         "Wilkus",
@@ -94918,9 +94752,9 @@ export const voivodeship = {
         "Przytuły",
         "Stręgielek",
         "Wyłudy",
-        "Krzywińskie"
+        "Krzywińskie",
       ],
-      "Węgorzewo": [
+      Węgorzewo: [
         "Zacisz",
         "Mamerki",
         "Kamień",
@@ -94981,11 +94815,11 @@ export const voivodeship = {
         "Węgielsztyn",
         "Wilkowo",
         "Wysiecza",
-        "Zielony Ostrów"
-      ]
+        "Zielony Ostrów",
+      ],
     },
-    "Elbląg": {
-      "Elbląg": [
+    Elbląg: {
+      Elbląg: [
         "Rubno Wielkie",
         "Zawodzie",
         "Krasny Las",
@@ -94999,11 +94833,11 @@ export const voivodeship = {
         "Próchnik",
         "Rakowo",
         "Leszków",
-        "Elbląg"
-      ]
+        "Elbląg",
+      ],
     },
-    "Olsztyn": {
-      "Olsztyn": [
+    Olsztyn: {
+      Olsztyn: [
         "Kortowo",
         "Dajtki",
         "Hubertów",
@@ -95014,13 +94848,13 @@ export const voivodeship = {
         "Grądek",
         "Karolin",
         "Track",
-        "Olsztyn"
-      ]
-    }
+        "Olsztyn",
+      ],
+    },
   },
-  "WIELKOPOLSKIE": {
-    "chodzieski": {
-      "Chodzież": [
+  WIELKOPOLSKIE: {
+    chodzieski: {
+      Chodzież: [
         "Oleśnica",
         "Milcz",
         "Rataje",
@@ -95051,9 +94885,9 @@ export const voivodeship = {
         "Jacewko",
         "Kierzkowice",
         "Gołe Pole",
-        "Papiernia"
+        "Papiernia",
       ],
-      "Budzyń": [
+      Budzyń: [
         "Brzekiniec",
         "Bukowiec",
         "Nowa Wieś Wyszyńska",
@@ -95078,9 +94912,9 @@ export const voivodeship = {
         "Kolonia",
         "Nowki",
         "Szklarnia",
-        "Strzelecki Gaj"
+        "Strzelecki Gaj",
       ],
-      "Margonin": [
+      Margonin: [
         "Sypniewo",
         "Klotyldzin",
         "Żoń",
@@ -95109,9 +94943,9 @@ export const voivodeship = {
         "Krakowskie Osady",
         "Bugaj",
         "Lipiny",
-        "Próchnowo-Duże Osady"
+        "Próchnowo-Duże Osady",
       ],
-      "Szamocin": [
+      Szamocin: [
         "Józefowice",
         "Jaktorowo",
         "Heliodorowo",
@@ -95149,11 +94983,11 @@ export const voivodeship = {
         "Lipa Druga",
         "Lipa Pierwsza",
         "Nowy Młyn Pierwszy",
-        "Śluza Krostkowo"
-      ]
+        "Śluza Krostkowo",
+      ],
     },
     "czarnkowsko-trzcianecki": {
-      "Czarnków": [
+      Czarnków: [
         "Romanowo Dolne",
         "Pianówka",
         "Gębice",
@@ -95228,9 +95062,9 @@ export const voivodeship = {
         "Goraj-Zamek",
         "Hutka",
         "Marunówko",
-        "Ciążyń"
+        "Ciążyń",
       ],
-      "Drawsko": [
+      Drawsko: [
         "Moczydła",
         "Kawczyn",
         "Chełst",
@@ -95270,7 +95104,7 @@ export const voivodeship = {
         "Ameryka",
         "Brazylia",
         "Bryza",
-        "Drawsko"
+        "Drawsko",
       ],
       "Krzyż Wielkopolski": [
         "Brzegi",
@@ -95294,9 +95128,9 @@ export const voivodeship = {
         "Dębina",
         "Nowe Osieczno",
         "Zacisze",
-        "Topno"
+        "Topno",
       ],
-      "Lubasz": [
+      Lubasz: [
         "Goraj",
         "Miłkowo",
         "Dębe",
@@ -95333,9 +95167,9 @@ export const voivodeship = {
         "Zielonowo",
         "Żabia Ameryka",
         "Krucz",
-        "Krutecki Bór"
+        "Krutecki Bór",
       ],
-      "Połajewo": [
+      Połajewo: [
         "Krosin",
         "Krosinek",
         "Tarnówko",
@@ -95368,9 +95202,9 @@ export const voivodeship = {
         "Garncarski Bród",
         "Ludomicko",
         "Długi Bród",
-        "Tarnowiec"
+        "Tarnowiec",
       ],
-      "Trzcianka": [
+      Trzcianka: [
         "Nowa Wieś",
         "Niekursko",
         "Sarcz",
@@ -95426,9 +95260,9 @@ export const voivodeship = {
         "Rychlik",
         "Stobno",
         "Wygoda",
-        "Teresin"
+        "Teresin",
       ],
-      "Wieleń": [
+      Wieleń: [
         "Herburtowo",
         "Mężyk",
         "Dzierżążno Małe",
@@ -95484,11 +95318,11 @@ export const voivodeship = {
         "Osina",
         "Potrzebowice",
         "Zawada",
-        "Ogrodzieniec"
-      ]
+        "Ogrodzieniec",
+      ],
     },
-    "gnieźnieński": {
-      "Gniezno": [
+    gnieźnieński: {
+      Gniezno: [
         "Braciszewo",
         "Strzyżewo Smykowe",
         "Mnichowo",
@@ -95526,9 +95360,9 @@ export const voivodeship = {
         "Braciszewo",
         "Łabiszynek",
         "Brody",
-        "Gołaźnia"
+        "Gołaźnia",
       ],
-      "Czerniejewo": [
+      Czerniejewo: [
         "Żydowo",
         "Szczytniki Czerniejewskie",
         "Goranin",
@@ -95560,9 +95394,9 @@ export const voivodeship = {
         "Daniele",
         "Głożyna",
         "Karw",
-        "Linery"
+        "Linery",
       ],
-      "Kiszkowo": [
+      Kiszkowo: [
         "Skrzetuszewo",
         "Kiszkowo",
         "Głębokie",
@@ -95590,9 +95424,9 @@ export const voivodeship = {
         "Pola Lednickie",
         "Kamionek",
         "Karczewo",
-        "Wola Łagiewnicka"
+        "Wola Łagiewnicka",
       ],
-      "Kłecko": [
+      Kłecko: [
         "Michalcza",
         "Polska Wieś",
         "Waliszewo",
@@ -95621,9 +95455,9 @@ export const voivodeship = {
         "Probostwo",
         "Gajki",
         "Kopydłowo",
-        "Parcewo"
+        "Parcewo",
       ],
-      "Łubowo": [
+      Łubowo: [
         "Łubowo",
         "Leśniewo",
         "Rzegnowo",
@@ -95648,9 +95482,9 @@ export const voivodeship = {
         "Przyborówko",
         "Nowa Wieś Lednogórska",
         "Chwałkówko",
-        "Goraninek"
+        "Goraninek",
       ],
-      "Mieleszyn": [
+      Mieleszyn: [
         "Łopienno",
         "Karniszewo",
         "Dębłowo",
@@ -95669,9 +95503,9 @@ export const voivodeship = {
         "Popowo Podleśne",
         "Kowalewko",
         "Nowaszyce",
-        "Dziadkówko"
+        "Dziadkówko",
       ],
-      "Niechanowo": [
+      Niechanowo: [
         "Niechanowo",
         "Marysin",
         "Mierzewo",
@@ -95695,9 +95529,9 @@ export const voivodeship = {
         "Jelitowo",
         "Drachowo",
         "Żelazkowo",
-        "Jelonek"
+        "Jelonek",
       ],
-      "Trzemeszno": [
+      Trzemeszno: [
         "Wydartowo",
         "Szydłowo",
         "Niewolno",
@@ -95741,9 +95575,9 @@ export const voivodeship = {
         "Brzozówiec",
         "Kurzegrzędy",
         "Kocin",
-        "Lubinek"
+        "Lubinek",
       ],
-      "Witkowo": [
+      Witkowo: [
         "Piaski",
         "Odrowąż",
         "Ostrowite Prymasowskie",
@@ -95784,10 +95618,10 @@ export const voivodeship = {
         "Skorzęcin",
         "Piłka",
         "Stary Dwór",
-        "Popielarze"
-      ]
+        "Popielarze",
+      ],
     },
-    "gostyński": {
+    gostyński: {
       "Borek Wielkopolski": [
         "Studzianna",
         "Bolesławów",
@@ -95825,9 +95659,9 @@ export const voivodeship = {
         "Wroniny",
         "Zacisze",
         "Frasunek",
-        "Maksymilianów"
+        "Maksymilianów",
       ],
-      "Gostyń": [
+      Gostyń: [
         "Krajewice",
         "Ostrowo",
         "Szczodrochowo",
@@ -95867,9 +95701,9 @@ export const voivodeship = {
         "Kosowo Wielkopolskie",
         "Płaczkowo",
         "Klony",
-        "Miranowo"
+        "Miranowo",
       ],
-      "Krobia": [
+      Krobia: [
         "Gogolewo",
         "Chwałkowo",
         "Pudliszki",
@@ -95898,9 +95732,9 @@ export const voivodeship = {
         "Zygmuntowo",
         "Dębina",
         "Florynki",
-        "Przyborowo"
+        "Przyborowo",
       ],
-      "Pępowo": [
+      Pępowo: [
         "Magdalenki",
         "Skoraszewice",
         "Wilkonice",
@@ -95925,9 +95759,9 @@ export const voivodeship = {
         "Dąbie",
         "Czerwona Róża",
         "Siedlec",
-        "Wilkoniczki"
+        "Wilkoniczki",
       ],
-      "Piaski": [
+      Piaski: [
         "Rębowo",
         "Smogorzewo",
         "Grabonóg",
@@ -95958,9 +95792,9 @@ export const voivodeship = {
         "Stefanowo",
         "Bielawy Szelejewskie",
         "Zabornia",
-        "Głogówko"
+        "Głogówko",
       ],
-      "Pogorzela": [
+      Pogorzela: [
         "Bułaków",
         "Kromolice",
         "Głuchów",
@@ -95980,9 +95814,9 @@ export const voivodeship = {
         "Międzyborze",
         "Taczanówko",
         "Dobra Pomoc",
-        "Nowiny"
+        "Nowiny",
       ],
-      "Poniec": [
+      Poniec: [
         "Bączylas",
         "Czarkowo",
         "Wydawy",
@@ -96014,11 +95848,11 @@ export const voivodeship = {
         "Grodzisko",
         "Janiszewo",
         "Łęka Wielka",
-        "Rokosowo"
-      ]
+        "Rokosowo",
+      ],
     },
-    "grodziski": {
-      "Granowo": [
+    grodziski: {
+      Granowo: [
         "Granówko",
         "Niemierzyce",
         "Kąkolewo",
@@ -96031,7 +95865,7 @@ export const voivodeship = {
         "Bielawy",
         "Drużyń",
         "Dalekie",
-        "Separowo"
+        "Separowo",
       ],
       "Grodzisk Wielkopolski": [
         "Kąkolewo",
@@ -96060,9 +95894,9 @@ export const voivodeship = {
         "Młyniewo",
         "Porażynko",
         "Zwierzyniec",
-        "Sworzyce"
+        "Sworzyce",
       ],
-      "Kamieniec": [
+      Kamieniec: [
         "Ujazd",
         "Ujazd-Huby",
         "Wąbiewo",
@@ -96091,9 +95925,9 @@ export const voivodeship = {
         "Lechowo",
         "Płastowo",
         "Konojad-Doły",
-        "Plastowo"
+        "Plastowo",
       ],
-      "Rakoniewice": [
+      Rakoniewice: [
         "Stodolsko",
         "Narożniki",
         "Komorówko",
@@ -96141,9 +95975,9 @@ export const voivodeship = {
         "Rakoniewice",
         "Winnica",
         "Zamieście",
-        "Ruchocice"
+        "Ruchocice",
       ],
-      "Wielichowo": [
+      Wielichowo: [
         "Trzcinica",
         "Prochy",
         "Wilkowo Polskie",
@@ -96164,11 +95998,11 @@ export const voivodeship = {
         "Borek",
         "Mokrzec",
         "Ziemin",
-        "Prochy"
-      ]
+        "Prochy",
+      ],
     },
-    "jarociński": {
-      "Jaraczewo": [
+    jarociński: {
+      Jaraczewo: [
         "Parzęczew",
         "Nosków",
         "Cerekwica Nowa",
@@ -96196,9 +96030,9 @@ export const voivodeship = {
         "Janów",
         "Smolarnia",
         "Budy",
-        "Parzęczew"
+        "Parzęczew",
       ],
-      "Jarocin": [
+      Jarocin: [
         "Osiek",
         "Dąbrowa",
         "Annapol",
@@ -96242,9 +96076,9 @@ export const voivodeship = {
         "Potarzyca",
         "Tarce",
         "Borowiec",
-        "Roszkówko"
+        "Roszkówko",
       ],
-      "Kotlin": [
+      Kotlin: [
         "Wyszki",
         "Racendów",
         "Kotlin",
@@ -96256,9 +96090,9 @@ export const voivodeship = {
         "Sławoszew",
         "Wilcza",
         "Magnuszewice",
-        "Wysogotówek"
+        "Wysogotówek",
       ],
-      "Żerków": [
+      Żerków: [
         "Sierszew",
         "Szczonów",
         "Żerniki",
@@ -96297,11 +96131,11 @@ export const voivodeship = {
         "Śmiełów",
         "Siekierzyn",
         "Laski",
-        "Rozmarynów"
-      ]
+        "Rozmarynów",
+      ],
     },
-    "kaliski": {
-      "Blizanów": [
+    kaliski: {
+      Blizanów: [
         "Blizanówek",
         "Żerniki",
         "Lipe Trzecie",
@@ -96354,9 +96188,9 @@ export const voivodeship = {
         "Bolmów",
         "Brzezina",
         "Podciświca",
-        "Bliźnięta Leśne"
+        "Bliźnięta Leśne",
       ],
-      "Brzeziny": [
+      Brzeziny: [
         "Świerczyna",
         "Piegonisko-Pustkowie",
         "Ostrów Kaliski",
@@ -96391,7 +96225,7 @@ export const voivodeship = {
         "Bugaj",
         "Pieczyska",
         "Wróbel",
-        "Świerczyna"
+        "Świerczyna",
       ],
       "Ceków-Kolonia": [
         "Kamień",
@@ -96429,7 +96263,7 @@ export const voivodeship = {
         "Odpadki",
         "Świdle",
         "Orli Staw",
-        "Malcówka"
+        "Malcówka",
       ],
       "Godziesze Wielkie": [
         "Sobocin",
@@ -96459,9 +96293,9 @@ export const voivodeship = {
         "Kąpie",
         "Stobno Szóste",
         "Jeziorko-Leśniczówka",
-        "Kolano-Świerczyna"
+        "Kolano-Świerczyna",
       ],
-      "Koźminek": [
+      Koźminek: [
         "Bogdanów",
         "Chodybki",
         "Dębsko",
@@ -96500,9 +96334,9 @@ export const voivodeship = {
         "Raszawy",
         "Sokołówka",
         "Murowaniec",
-        "Gać Pawęzowa"
+        "Gać Pawęzowa",
       ],
-      "Lisków": [
+      Lisków: [
         "Wygoda",
         "Lisków",
         "Swoboda",
@@ -96556,9 +96390,9 @@ export const voivodeship = {
         "Lisków-Dąbrowice",
         "Tomaszew",
         "Koźlątków",
-        "Annopol"
+        "Annopol",
       ],
-      "Mycielin": [
+      Mycielin: [
         "Grabek",
         "Stropieszyn",
         "Klotyldów",
@@ -96590,9 +96424,9 @@ export const voivodeship = {
         "Kresy",
         "Gadówek",
         "Rudunki",
-        "Bugaj"
+        "Bugaj",
       ],
-      "Opatówek": [
+      Opatówek: [
         "Kobierno",
         "Michałów Drugi",
         "Cienia Trzecia",
@@ -96627,9 +96461,9 @@ export const voivodeship = {
         "Opatówek",
         "Michałów Pierwszy",
         "Bogumiłów",
-        "Frankowizna"
+        "Frankowizna",
       ],
-      "Stawiszyn": [
+      Stawiszyn: [
         "Piątek Wielki",
         "Łyczyn",
         "Długa Wieś Pierwsza",
@@ -96650,9 +96484,9 @@ export const voivodeship = {
         "Stary Kiączyn",
         "Stawiszyn",
         "Miedza",
-        "Brzezina"
+        "Brzezina",
       ],
-      "Szczytniki": [
+      Szczytniki: [
         "Bronibór",
         "Murowaniec",
         "Szczytniki",
@@ -96707,9 +96541,9 @@ export const voivodeship = {
         "Tymieniec-Niwka",
         "Guzdek",
         "Korzekwin",
-        "Marchwacz"
+        "Marchwacz",
       ],
-      "Żelazków": [
+      Żelazków: [
         "Szosa Turecka",
         "Witoldów",
         "Żelazków",
@@ -96746,11 +96580,11 @@ export const voivodeship = {
         "Kolonia Skarszewek",
         "Szkurłaty",
         "Adamówek",
-        "Chrusty"
-      ]
+        "Chrusty",
+      ],
     },
-    "kępiński": {
-      "Baranów": [
+    kępiński: {
+      Baranów: [
         "Baranów",
         "Łęka Mroczeńska",
         "Jankowy",
@@ -96782,9 +96616,9 @@ export const voivodeship = {
         "Borówno",
         "Słupia-Majątek",
         "Żurawiniec-Folwark",
-        "Berlinek"
+        "Berlinek",
       ],
-      "Bralin": [
+      Bralin: [
         "Czermin",
         "Chojęcin",
         "Weronikopole",
@@ -96811,9 +96645,9 @@ export const voivodeship = {
         "Najdki",
         "Roszkowice",
         "Czermin",
-        "Bralin"
+        "Bralin",
       ],
-      "Kępno": [
+      Kępno: [
         "Osiny",
         "Kliny",
         "Przybyszów",
@@ -96853,7 +96687,7 @@ export const voivodeship = {
         "Hanulin",
         "Mianowice",
         "Domanin",
-        "Myjomice-Leśniczówka"
+        "Myjomice-Leśniczówka",
       ],
       "Łęka Opatowska": [
         "Zmyślona Słupska",
@@ -96895,9 +96729,9 @@ export const voivodeship = {
         "Dobrygość",
         "Wielisławice",
         "Marianka-Leśniczówka",
-        "Wesoła"
+        "Wesoła",
       ],
-      "Perzów": [
+      Perzów: [
         "Koza Wielka",
         "Trębaczów",
         "Miechów",
@@ -96916,9 +96750,9 @@ export const voivodeship = {
         "Nieprosin",
         "Gęsia Górka",
         "Posmyk",
-        "Kuropka"
+        "Kuropka",
       ],
-      "Rychtal": [
+      Rychtal: [
         "Sadogóra",
         "Mały Buczek",
         "Krzyżowniki",
@@ -96944,9 +96778,9 @@ export const voivodeship = {
         "Dworzyszcze",
         "Remiszówka",
         "Nowa Wieś Książęca",
-        "Wesoła"
+        "Wesoła",
       ],
-      "Trzcinica": [
+      Trzcinica: [
         "Kuźnica Trzcińska",
         "Aniołka Pierwsza",
         "Pomiany",
@@ -96974,11 +96808,11 @@ export const voivodeship = {
         "Laski-Tartak",
         "Ignacówka Pierwsza",
         "Laski",
-        "Smardze"
-      ]
+        "Smardze",
+      ],
     },
-    "kolski": {
-      "Koło": [
+    kolski: {
+      Koło: [
         "Wrząca Wielka",
         "Sokołowo",
         "Podlesie",
@@ -97033,9 +96867,9 @@ export const voivodeship = {
         "Zamłynie",
         "Stellutyszki",
         "Poddąbrowa",
-        "Ksawerowo"
+        "Ksawerowo",
       ],
-      "Babiak": [
+      Babiak: [
         "Lipie Góry",
         "Lubotyń",
         "Stefanowo",
@@ -97091,9 +96925,9 @@ export const voivodeship = {
         "Wawrzyny",
         "Zakrzewo",
         "Kiejsze",
-        "Psary"
+        "Psary",
       ],
-      "Chodów": [
+      Chodów: [
         "Jagiełłów",
         "Kaleń Mała",
         "Wojciechowo",
@@ -97137,9 +96971,9 @@ export const voivodeship = {
         "Korczyn",
         "Niwki",
         "Turzynów",
-        "Koserz-Osada"
+        "Koserz-Osada",
       ],
-      "Dąbie": [
+      Dąbie: [
         "Majdany",
         "Sobótka",
         "Tarnówka",
@@ -97198,9 +97032,9 @@ export const voivodeship = {
         "Rośle Małe",
         "Cichmiana Dolna",
         "Ladorudz-Kolonia",
-        "Chełmno"
+        "Chełmno",
       ],
-      "Grzegorzew": [
+      Grzegorzew: [
         "Boguszyniec",
         "Kiełczewek",
         "Borysławice Kościelne",
@@ -97230,9 +97064,9 @@ export const voivodeship = {
         "Hermanowo",
         "Skąpe",
         "Byliczki",
-        "Budy Tarnowskie"
+        "Budy Tarnowskie",
       ],
-      "Kłodawa": [
+      Kłodawa: [
         "Bierzwienna Długa",
         "Kęcerzyn",
         "Mała Wieś",
@@ -97297,9 +97131,9 @@ export const voivodeship = {
         "Kłodawa-Folwark",
         "Budy Kęcerskie",
         "Korzecznik Rgilewski",
-        "Straszków"
+        "Straszków",
       ],
-      "Kościelec": [
+      Kościelec: [
         "Trzęśniew",
         "Dąbrowice Częściowe",
         "Białków Górny",
@@ -97336,9 +97170,9 @@ export const voivodeship = {
         "Police Ruszkowskie",
         "Koble",
         "Koble Polickie",
-        "Mariampol"
+        "Mariampol",
       ],
-      "Olszówka": [
+      Olszówka: [
         "Głębokie",
         "Umień",
         "Drzewce",
@@ -97394,7 +97228,7 @@ export const voivodeship = {
         "Faustynów",
         "Ponętówek",
         "Bogatka",
-        "Dębowice"
+        "Dębowice",
       ],
       "Osiek Mały": [
         "Młynek",
@@ -97458,9 +97292,9 @@ export const voivodeship = {
         "Drzewce-Kolonia",
         "Piaski",
         "Zagaj",
-        "Dęby Szlacheckie"
+        "Dęby Szlacheckie",
       ],
-      "Przedecz": [
+      Przedecz: [
         "Katarzyna",
         "Lipiny",
         "Łączewna",
@@ -97524,11 +97358,11 @@ export const voivodeship = {
         "Łączewna-Folwark",
         "Duży Koniec",
         "Pod Dziwiem",
-        "Zabłotniki"
-      ]
+        "Zabłotniki",
+      ],
     },
-    "koniński": {
-      "Golina": [
+    koniński: {
+      Golina: [
         "Węglewskie Holendry",
         "Rosocha-Kolonia",
         "Przyjma",
@@ -97583,9 +97417,9 @@ export const voivodeship = {
         "Maksymów",
         "Bobrowo-Kolonia",
         "Zalesie-Polesie",
-        "Piotrowo"
+        "Piotrowo",
       ],
-      "Grodziec": [
+      Grodziec: [
         "Junno",
         "Janów",
         "Bystrzyca",
@@ -97620,7 +97454,7 @@ export const voivodeship = {
         "Słownica",
         "Wymysłów",
         "Lądek-Kolonia",
-        "Królików"
+        "Królików",
       ],
       "Kazimierz Biskupi": [
         "Posada",
@@ -97670,9 +97504,9 @@ export const voivodeship = {
         "Wygoda",
         "Bieniszew",
         "Trzy Kopce",
-        "Bieniszew-Klasztor"
+        "Bieniszew-Klasztor",
       ],
-      "Kleczew": [
+      Kleczew: [
         "Budzisław Kościelny",
         "Izabelin",
         "Jabłonka",
@@ -97724,9 +97558,9 @@ export const voivodeship = {
         "Kamionka-Kolonia",
         "Stogi",
         "Danków A",
-        "Słaboludz-Kolonia"
+        "Słaboludz-Kolonia",
       ],
-      "Kramsk": [
+      Kramsk: [
         "Pogorzałki",
         "Brzózki",
         "Drążek",
@@ -97794,9 +97628,9 @@ export const voivodeship = {
         "Grąblinek",
         "Długa Łąka",
         "Dąbrówka",
-        "Rudzica-Leśniczówka"
+        "Rudzica-Leśniczówka",
       ],
-      "Krzymów": [
+      Krzymów: [
         "Potażniki",
         "Rożek Krzymowski",
         "Brzezińskie Holendry",
@@ -97858,9 +97692,9 @@ export const voivodeship = {
         "Wierzchy",
         "Nowe Paprockie Holendry",
         "Wrząca",
-        "Nowe Potaźniki"
+        "Nowe Potaźniki",
       ],
-      "Rychwał": [
+      Rychwał: [
         "Święcia",
         "Zosinki",
         "Siąszyce Trzecie",
@@ -97923,9 +97757,9 @@ export const voivodeship = {
         "Stefanówek",
         "Dąbrowa",
         "Siąszyce Ósme",
-        "Urszulin"
+        "Urszulin",
       ],
-      "Rzgów": [
+      Rzgów: [
         "Bobrowo",
         "Witnica",
         "Goździków",
@@ -97969,9 +97803,9 @@ export const voivodeship = {
         "Śmieszne",
         "Lisiniec",
         "Piaski",
-        "Maradz"
+        "Maradz",
       ],
-      "Skulsk": [
+      Skulsk: [
         "Galiszewo",
         "Buszkowo",
         "Skulska Wieś",
@@ -98013,9 +97847,9 @@ export const voivodeship = {
         "Warzymowo",
         "Zalesie",
         "Dąb",
-        "Buszkowo-Parcele"
+        "Buszkowo-Parcele",
       ],
-      "Sompolno": [
+      Sompolno: [
         "Zakrzewek",
         "Racięcice",
         "Błonawy",
@@ -98077,7 +97911,7 @@ export const voivodeship = {
         "Piaski",
         "Wymysłowo",
         "Romanowo",
-        "Łagiewniki"
+        "Łagiewniki",
       ],
       "Stare Miasto": [
         "Karsy",
@@ -98104,9 +97938,9 @@ export const voivodeship = {
         "Posada",
         "Tomaszew",
         "Kruszyna",
-        "Niklas"
+        "Niklas",
       ],
-      "Ślesin": [
+      Ślesin: [
         "Marianowo",
         "Władysławów",
         "Sławęcin",
@@ -98195,9 +98029,9 @@ export const voivodeship = {
         "Wygoda",
         "Chmielnik",
         "Smolarnia",
-        "Kolonia Sarnowa"
+        "Kolonia Sarnowa",
       ],
-      "Wierzbinek": [
+      Wierzbinek: [
         "Władysławowo",
         "Ciepłowo",
         "Galczyce",
@@ -98283,9 +98117,9 @@ export const voivodeship = {
         "Biele",
         "Dziadoch",
         "Sosnówka",
-        "Trzciniec"
+        "Trzciniec",
       ],
-      "Wilczyn": [
+      Wilczyn: [
         "Wiśniewa",
         "Cegielnia",
         "Dębówiec",
@@ -98329,11 +98163,11 @@ export const voivodeship = {
         "Kopydłowo Pierwsze",
         "Karolkowo",
         "Dębówiec-Kolonia",
-        "Kolonia Wilczogóra"
-      ]
+        "Kolonia Wilczogóra",
+      ],
     },
-    "kościański": {
-      "Kościan": [
+    kościański: {
+      Kościan: [
         "Widziszewo",
         "Turew",
         "Kurowo",
@@ -98385,9 +98219,9 @@ export const voivodeship = {
         "Stara Przysieka",
         "Witkówki",
         "Wyskoć Mała",
-        "Losówko"
+        "Losówko",
       ],
-      "Czempiń": [
+      Czempiń: [
         "Bieczyny",
         "Betkowo",
         "Piotrkowice",
@@ -98420,9 +98254,9 @@ export const voivodeship = {
         "Bieczyny",
         "Helenopol",
         "Piotrkowice",
-        "Stare Borówko"
+        "Stare Borówko",
       ],
-      "Krzywiń": [
+      Krzywiń: [
         "Rogaczewo Wielkie",
         "Rogaczewo Małe",
         "Lubiń",
@@ -98458,9 +98292,9 @@ export const voivodeship = {
         "Wymysłowo",
         "Rąbinek",
         "Jurkowo",
-        "Mościszki"
+        "Mościszki",
       ],
-      "Śmigiel": [
+      Śmigiel: [
         "Bielawy",
         "Nowa Wieś",
         "Nowy Białcz",
@@ -98507,17 +98341,12 @@ export const voivodeship = {
         "Stare Szczepankowo",
         "Smolno",
         "Sikorzyn",
-        "Prętkowice"
-      ]
-    },
-    "krotoszyński": {
-      "Sulmierzyce": [
-        "Sulmierzyce",
-        "Nowe Osiedle",
-        "Granowice",
-        "Błonie"
+        "Prętkowice",
       ],
-      "Kobylin": [
+    },
+    krotoszyński: {
+      Sulmierzyce: ["Sulmierzyce", "Nowe Osiedle", "Granowice", "Błonie"],
+      Kobylin: [
         "Długołęka",
         "Fijałów",
         "Zalesie Małe",
@@ -98548,7 +98377,7 @@ export const voivodeship = {
         "Lipówiec",
         "Biała Róża",
         "Kuklinów",
-        "Kuklinów"
+        "Kuklinów",
       ],
       "Koźmin Wielkopolski": [
         "Pogorzałki Wielkie",
@@ -98593,9 +98422,9 @@ export const voivodeship = {
         "Orlinka",
         "Wrotków",
         "Józefów",
-        "Góreczki"
+        "Góreczki",
       ],
-      "Krotoszyn": [
+      Krotoszyn: [
         "Nowy Folwark",
         "Osusz",
         "Gorzupia",
@@ -98672,9 +98501,9 @@ export const voivodeship = {
         "Stary Las",
         "Teresiny",
         "Rąbież",
-        "Zofiówka"
+        "Zofiówka",
       ],
-      "Rozdrażew": [
+      Rozdrażew: [
         "Rozdrażew",
         "Budy",
         "Wyki",
@@ -98695,9 +98524,9 @@ export const voivodeship = {
         "Kościuszków",
         "Raczki",
         "Dębowiec",
-        "Ryczków"
+        "Ryczków",
       ],
-      "Zduny": [
+      Zduny: [
         "Perzyce",
         "Bestwin",
         "Chachalnia",
@@ -98722,11 +98551,11 @@ export const voivodeship = {
         "Rochy",
         "Helenopol",
         "Katarzynów",
-        "Zielony Dąb"
-      ]
+        "Zielony Dąb",
+      ],
     },
-    "leszczyński": {
-      "Krzemieniewo": [
+    leszczyński: {
+      Krzemieniewo: [
         "Lubonia",
         "Bojanice",
         "Krzemieniewo",
@@ -98755,9 +98584,9 @@ export const voivodeship = {
         "Czarny Las",
         "Kałowo",
         "Nadolnik",
-        "Krzemieniewo"
+        "Krzemieniewo",
       ],
-      "Lipno": [
+      Lipno: [
         "Smyczyna",
         "Wyciążkowo",
         "Targowisko",
@@ -98784,9 +98613,9 @@ export const voivodeship = {
         "Maryszewice",
         "Błotkowo",
         "Smyczyna",
-        "Wilkowo-Gaj"
+        "Wilkowo-Gaj",
       ],
-      "Osieczna": [
+      Osieczna: [
         "Grodzisko",
         "Ziemnice",
         "Frankowo",
@@ -98818,9 +98647,9 @@ export const voivodeship = {
         "Borowa Karczma",
         "Kąkolewo",
         "Łoniewo",
-        "Kowale"
+        "Kowale",
       ],
-      "Rydzyna": [
+      Rydzyna: [
         "Tworzanki",
         "Kaczkowo",
         "Jabłonna",
@@ -98845,9 +98674,9 @@ export const voivodeship = {
         "Robczysko",
         "Dąbcze",
         "Rydzyna",
-        "Nowy Świat"
+        "Nowy Świat",
       ],
-      "Święciechowa": [
+      Święciechowa: [
         "Gołanice",
         "Henrykowo",
         "Przybyszewo",
@@ -98861,9 +98690,9 @@ export const voivodeship = {
         "Trzebiny",
         "Święciechowa",
         "Ogrody",
-        "Książęcy Las"
+        "Książęcy Las",
       ],
-      "Wijewo": [
+      Wijewo: [
         "Brenno",
         "Miastko",
         "Potrzebowo",
@@ -98874,9 +98703,9 @@ export const voivodeship = {
         "Filipowo",
         "Siedmiórki",
         "Kalek",
-        "Wilanów"
+        "Wilanów",
       ],
-      "Włoszakowice": [
+      Włoszakowice: [
         "Grotniki",
         "Dominice",
         "Dłużyna",
@@ -98904,10 +98733,10 @@ export const voivodeship = {
         "Krzyżowiec",
         "Mścigniew",
         "Papiernia",
-        "Tłucznia"
-      ]
+        "Tłucznia",
+      ],
     },
-    "międzychodzki": {
+    międzychodzki: {
       "Chrzypsko Wielkie": [
         "Białokoszyce",
         "Białcz",
@@ -98926,9 +98755,9 @@ export const voivodeship = {
         "Białokoszek",
         "Wymysłowo",
         "Orle-Młyn",
-        "Półko"
+        "Półko",
       ],
-      "Kwilcz": [
+      Kwilcz: [
         "Lubosz",
         "Stara Dąbrowa",
         "Daleszynek",
@@ -98961,9 +98790,9 @@ export const voivodeship = {
         "Nowy Młyn",
         "Kozubówka",
         "Dąbrowa",
-        "Stary Młyn"
+        "Stary Młyn",
       ],
-      "Międzychód": [
+      Międzychód: [
         "Dzięcielin",
         "Skrzydlewo",
         "Lewice",
@@ -99024,9 +98853,9 @@ export const voivodeship = {
         "Radusz",
         "Międzychód",
         "Dąbrówka",
-        "Papiernia"
+        "Papiernia",
       ],
-      "Sieraków": [
+      Sieraków: [
         "Góra",
         "Bucharzewo",
         "Chalin",
@@ -99063,11 +98892,11 @@ export const voivodeship = {
         "Lichwin",
         "Pławiska",
         "Sośnia",
-        "Jeleniec"
-      ]
+        "Jeleniec",
+      ],
     },
-    "nowotomyski": {
-      "Kuślin": [
+    nowotomyski: {
+      Kuślin: [
         "Dąbrowa",
         "Śliwno",
         "Kuślin",
@@ -99087,9 +98916,9 @@ export const voivodeship = {
         "Tomaszewo",
         "Wąsówko",
         "Wymysłowo",
-        "Chraplewo"
+        "Chraplewo",
       ],
-      "Lwówek": [
+      Lwówek: [
         "Brody",
         "Grudzianka",
         "Linie",
@@ -99121,9 +98950,9 @@ export const voivodeship = {
         "Marszewo",
         "Posadówek",
         "Posadowo",
-        "Paryżewo"
+        "Paryżewo",
       ],
-      "Miedzichowo": [
+      Miedzichowo: [
         "Piotry",
         "Bolewice",
         "Sępolno",
@@ -99156,7 +98985,7 @@ export const voivodeship = {
         "Modrzewina",
         "Smolarnia",
         "Królewiec",
-        "Osetna-Młyn"
+        "Osetna-Młyn",
       ],
       "Nowy Tomyśl": [
         "Paproć",
@@ -99183,9 +99012,9 @@ export const voivodeship = {
         "Ochabica",
         "Mniszek",
         "Glińskie Góry",
-        "Wytomyśl"
+        "Wytomyśl",
       ],
-      "Opalenica": [
+      Opalenica: [
         "Terespotockie",
         "Kopanki",
         "Jastrzębniki",
@@ -99210,9 +99039,9 @@ export const voivodeship = {
         "Jastrzębniki",
         "Porażyn",
         "Sielinko",
-        "Porażyn"
+        "Porażyn",
       ],
-      "Zbąszyń": [
+      Zbąszyń: [
         "Strzyżewo",
         "Nowa Wieś",
         "Nowe Jastrzębsko",
@@ -99242,11 +99071,11 @@ export const voivodeship = {
         "Stare Czeskie",
         "Nowe Czeskie",
         "Chrośnica",
-        "Dąbrowa"
-      ]
+        "Dąbrowa",
+      ],
     },
-    "obornicki": {
-      "Oborniki": [
+    obornicki: {
+      Oborniki: [
         "Wymysłowo",
         "Dąbrówka Leśna",
         "Bąblinek",
@@ -99309,9 +99138,9 @@ export const voivodeship = {
         "Lipka",
         "Radzim",
         "Papiernia",
-        "Dołęga"
+        "Dołęga",
       ],
-      "Rogoźno": [
+      Rogoźno: [
         "Tarnowo",
         "Cieśle",
         "Kaziopole",
@@ -99348,9 +99177,9 @@ export const voivodeship = {
         "Nowy Młyn",
         "Żołędzin",
         "Wojciechowo",
-        "Biniewo"
+        "Biniewo",
       ],
-      "Ryczywół": [
+      Ryczywół: [
         "Gościejewko",
         "Połajewice",
         "Piotrowo",
@@ -99385,10 +99214,10 @@ export const voivodeship = {
         "Igrzyna",
         "Gościejewo Leśne",
         "Lipa-Bagna",
-        "Ludomy"
-      ]
+        "Ludomy",
+      ],
     },
-    "ostrowski": {
+    ostrowski: {
       "Ostrów Wielkopolski": [
         "Lewkowiec",
         "Czekanów",
@@ -99442,7 +99271,7 @@ export const voivodeship = {
         "Rejtanów",
         "Fabryka",
         "Kąkolewo",
-        "Warszty"
+        "Warszty",
       ],
       "Nowe Skalmierzyce": [
         "Kurów",
@@ -99486,9 +99315,9 @@ export const voivodeship = {
         "Kwiatkówek",
         "Pawłówek",
         "Czachory",
-        "Miedzianówek"
+        "Miedzianówek",
       ],
-      "Odolanów": [
+      Odolanów: [
         "Nabyszyce",
         "Wierzbno",
         "Uciechów",
@@ -99525,9 +99354,9 @@ export const voivodeship = {
         "Boników",
         "Karłowice",
         "Mogiłka",
-        "Mościska"
+        "Mościska",
       ],
-      "Przygodzice": [
+      Przygodzice: [
         "Hetmanów",
         "Dębnica",
         "Antonin",
@@ -99557,9 +99386,9 @@ export const voivodeship = {
         "Katarzynów",
         "Kocięba",
         "Popłomyk",
-        "Zawidzyn"
+        "Zawidzyn",
       ],
-      "Raszków": [
+      Raszków: [
         "Drogosław",
         "Głogowa",
         "Bieganin",
@@ -99588,9 +99417,9 @@ export const voivodeship = {
         "Majchry",
         "Nychy",
         "Bieganinek",
-        "Florek"
+        "Florek",
       ],
-      "Sieroszewice": [
+      Sieroszewice: [
         "Namysłaki",
         "Sławin",
         "Zamość",
@@ -99629,9 +99458,9 @@ export const voivodeship = {
         "Biskupice",
         "Kaliszkowice",
         "Miłaszka",
-        "Wielowieś"
+        "Wielowieś",
       ],
-      "Sośnie": [
+      Sośnie: [
         "Kuźnica Kącka",
         "Pawłów",
         "Konradów",
@@ -99663,11 +99492,11 @@ export const voivodeship = {
         "Bronisławka",
         "Surmin",
         "Wrzesina",
-        "Niwki Książęce"
-      ]
+        "Niwki Książęce",
+      ],
     },
-    "ostrzeszowski": {
-      "Czajków": [
+    ostrzeszowski: {
+      Czajków: [
         "Muchy",
         "Michałów",
         "Czajków",
@@ -99701,9 +99530,9 @@ export const voivodeship = {
         "Zadki",
         "Dziwińskie",
         "Załomskie",
-        "Niedźwiadek"
+        "Niedźwiadek",
       ],
-      "Doruchów": [
+      Doruchów: [
         "Mieleszówka",
         "Przytocznica",
         "Oświęcim",
@@ -99737,7 +99566,7 @@ export const voivodeship = {
         "Skiera",
         "Zalesie",
         "Wrzosy",
-        "Tokarzew"
+        "Tokarzew",
       ],
       "Grabów nad Prosną": [
         "Skrzynki",
@@ -99783,7 +99612,7 @@ export const voivodeship = {
         "Grabów-Pustkowie",
         "Marczykowskie",
         "Kamola",
-        "Chlewo"
+        "Chlewo",
       ],
       "Kobyla Góra": [
         "Pisarzowice",
@@ -99830,9 +99659,9 @@ export const voivodeship = {
         "Święconka",
         "Wilcze Oko",
         "Marcinki",
-        "Marcinki"
+        "Marcinki",
       ],
-      "Kraszewice": [
+      Kraszewice: [
         "Renta",
         "Jelenie",
         "Kuźnica Grabowska",
@@ -99858,9 +99687,9 @@ export const voivodeship = {
         "Poduchowne",
         "Podkuźnica",
         "Podlas",
-        "Jeziorki"
+        "Jeziorki",
       ],
-      "Mikstat": [
+      Mikstat: [
         "Kaliszkowice Ołobockie",
         "Kaliszkowice Kaliskie",
         "Przedborów",
@@ -99898,9 +99727,9 @@ export const voivodeship = {
         "Piwonie",
         "Helenów",
         "Drożdżyny",
-        "Wanda"
+        "Wanda",
       ],
-      "Ostrzeszów": [
+      Ostrzeszów: [
         "Zajączki",
         "Kochłowy",
         "Bledzianów",
@@ -99959,11 +99788,11 @@ export const voivodeship = {
         "Gęstwa",
         "Jezioro",
         "Krupa",
-        "Lubeszczyk"
-      ]
+        "Lubeszczyk",
+      ],
     },
-    "pilski": {
-      "Piła": [
+    pilski: {
+      Piła: [
         "Piła",
         "Kośno",
         "Płotki",
@@ -99986,9 +99815,9 @@ export const voivodeship = {
         "Górne",
         "Bydgoskie Przedmieście",
         "Czarnobór",
-        "Motylewo"
+        "Motylewo",
       ],
-      "Białośliwie": [
+      Białośliwie: [
         "Białośliwie",
         "Nieżychówko",
         "Nieżychowo",
@@ -100008,9 +99837,9 @@ export const voivodeship = {
         "Różnowo",
         "Cielechówko",
         "Białośliwie",
-        "Nieżychowo"
+        "Nieżychowo",
       ],
-      "Kaczory": [
+      Kaczory: [
         "Zelgniewo",
         "Kaczory",
         "Dziembówko",
@@ -100029,9 +99858,9 @@ export const voivodeship = {
         "Żabostowo",
         "Kalina",
         "Garncarsko",
-        "Śmiłowo"
+        "Śmiłowo",
       ],
-      "Łobżenica": [
+      Łobżenica: [
         "Fanianowo",
         "Liszkowo",
         "Witrogoszcz-Kolonia",
@@ -100071,7 +99900,7 @@ export const voivodeship = {
         "Łobżonka",
         "Piesno",
         "Młynowo",
-        "Stebionek"
+        "Stebionek",
       ],
       "Miasteczko Krajeńskie": [
         "Miasteczko-Huby",
@@ -100084,9 +99913,9 @@ export const voivodeship = {
         "Brzostowo",
         "Brzostowice",
         "Kocewo",
-        "Solnówek"
+        "Solnówek",
       ],
-      "Szydłowo": [
+      Szydłowo: [
         "Róża Wielka",
         "Tarnowo",
         "Zawada",
@@ -100119,9 +99948,9 @@ export const voivodeship = {
         "Pluty",
         "Czaplino",
         "Kłoda",
-        "Skrobek"
+        "Skrobek",
       ],
-      "Ujście": [
+      Ujście: [
         "Mirosław",
         "Byszki",
         "Jabłonowo",
@@ -100150,9 +99979,9 @@ export const voivodeship = {
         "Wybudowanie Kruszewskie",
         "Nowie",
         "Śluza Nowe",
-        "Bronisławki"
+        "Bronisławki",
       ],
-      "Wyrzysk": [
+      Wyrzysk: [
         "Kosztowo",
         "Ruda",
         "Falmierowo",
@@ -100189,9 +100018,9 @@ export const voivodeship = {
         "Marynka",
         "Bagdad",
         "Ostrówek",
-        "Zielona Góra"
+        "Zielona Góra",
       ],
-      "Wysoka": [
+      Wysoka: [
         "Stare",
         "Młotkowo",
         "Jeziorki Kosztowskie",
@@ -100210,11 +100039,11 @@ export const voivodeship = {
         "Mościska-Kolonia",
         "Gmurowo",
         "Kostrzynek",
-        "Czajcze"
-      ]
+        "Czajcze",
+      ],
     },
-    "pleszewski": {
-      "Chocz": [
+    pleszewski: {
+      Chocz: [
         "Brudzewek",
         "Józefów",
         "Kuźnia",
@@ -100226,9 +100055,9 @@ export const voivodeship = {
         "Piła",
         "Stara Kaźmierka",
         "Stary Olesiec",
-        "Chocz"
+        "Chocz",
       ],
-      "Czermin": [
+      Czermin: [
         "Robaków",
         "Mamoty",
         "Łęg",
@@ -100244,9 +100073,9 @@ export const voivodeship = {
         "Grab",
         "Skrzypnia",
         "Wola Duchowna",
-        "Żale"
+        "Żale",
       ],
-      "Dobrzyca": [
+      Dobrzyca: [
         "Czarnuszka",
         "Trzebin",
         "Karmin",
@@ -100271,9 +100100,9 @@ export const voivodeship = {
         "Glapiniec",
         "Jarmużew",
         "Perkanów",
-        "Marianów"
+        "Marianów",
       ],
-      "Gizałki": [
+      Gizałki: [
         "Szymanowice",
         "Tomice",
         "Wronów",
@@ -100297,9 +100126,9 @@ export const voivodeship = {
         "Tomice-Młynik",
         "Krzyżówka",
         "Gizałki-Las",
-        "Studzianka"
+        "Studzianka",
       ],
-      "Gołuchów": [
+      Gołuchów: [
         "Gołuchów",
         "Jedlec",
         "Borczysko",
@@ -100328,9 +100157,9 @@ export const voivodeship = {
         "Krzyżówki",
         "Paulinów",
         "Podlesie",
-        "Kościelna Wieś"
+        "Kościelna Wieś",
       ],
-      "Pleszew": [
+      Pleszew: [
         "Nowa Wieś",
         "Grodzisko",
         "Sowina Błotna",
@@ -100376,24 +100205,24 @@ export const voivodeship = {
         "Kotarby",
         "Karczemka",
         "Gminka",
-        "Turowy"
-      ]
+        "Turowy",
+      ],
     },
-    "poznański": {
-      "Luboń": [
+    poznański: {
+      Luboń: [
         "Luboń",
         "Żabikowo-Kolonia",
         "Lasek",
         "Stare Żabikowo",
-        "Żabikowo"
+        "Żabikowo",
       ],
-      "Puszczykowo": [
+      Puszczykowo: [
         "Puszczykowo",
         "Stare Puszczykowo",
         "Niwka",
-        "Puszczykówko"
+        "Puszczykówko",
       ],
-      "Buk": [
+      Buk: [
         "Wysoczka",
         "Szewce",
         "Wiktorowo",
@@ -100412,9 +100241,9 @@ export const voivodeship = {
         "Buk",
         "Zgoda",
         "Michalin",
-        "Józefowo"
+        "Józefowo",
       ],
-      "Czerwonak": [
+      Czerwonak: [
         "Bolechówko",
         "Bolechowo",
         "Miękowo",
@@ -100431,9 +100260,9 @@ export const voivodeship = {
         "Koziegłowy",
         "Potasze",
         "Annowo",
-        "Ludwikowo"
+        "Ludwikowo",
       ],
-      "Dopiewo": [
+      Dopiewo: [
         "Palędzie",
         "Więckowice",
         "Trzcielin",
@@ -100457,9 +100286,9 @@ export const voivodeship = {
         "Podgaj",
         "Więckowice",
         "Żarnowiec",
-        "Zborówko"
+        "Zborówko",
       ],
-      "Kleszczewo": [
+      Kleszczewo: [
         "Komorniki",
         "Markowice",
         "Tanibórz",
@@ -100475,9 +100304,9 @@ export const voivodeship = {
         "Krzyżowniki",
         "Bugaj",
         "Lipowiec",
-        "Nagradowice"
+        "Nagradowice",
       ],
-      "Komorniki": [
+      Komorniki: [
         "Szreniawa",
         "Walerianowo",
         "Komorniki",
@@ -100493,9 +100322,9 @@ export const voivodeship = {
         "Jarosławiec",
         "Wypalanki",
         "Kątnik",
-        "Wiry"
+        "Wiry",
       ],
-      "Kostrzyn": [
+      Kostrzyn: [
         "Wróblewo",
         "Brzeźno",
         "Czerlejnko",
@@ -100535,9 +100364,9 @@ export const voivodeship = {
         "Antonin",
         "Rujsca",
         "Chorzałki",
-        "Leśna Grobla"
+        "Leśna Grobla",
       ],
-      "Kórnik": [
+      Kórnik: [
         "Dębiec",
         "Kamionki",
         "Gądki",
@@ -100589,9 +100418,9 @@ export const voivodeship = {
         "Błażejewo",
         "Daszewice",
         "Bielawy",
-        "Czołowo"
+        "Czołowo",
       ],
-      "Mosina": [
+      Mosina: [
         "Sowinki",
         "Krajkowo",
         "Czapury",
@@ -100637,7 +100466,7 @@ export const voivodeship = {
         "Jeziory",
         "Konstantynowo",
         "Bogulin",
-        "Kubalin"
+        "Kubalin",
       ],
       "Murowana Goślina": [
         "Białężyn",
@@ -100683,9 +100512,9 @@ export const voivodeship = {
         "Starczanowo",
         "Brody",
         "Okoniec",
-        "Boduszewo"
+        "Boduszewo",
       ],
-      "Pobiedziska": [
+      Pobiedziska: [
         "Węglewo",
         "Bednary",
         "Stara Górka",
@@ -100758,9 +100587,9 @@ export const voivodeship = {
         "Jezierce",
         "Olszak",
         "Suchy Bór",
-        "Promno"
+        "Promno",
       ],
-      "Rokietnica": [
+      Rokietnica: [
         "Cerekwica",
         "Rostworowo",
         "Pawłowice",
@@ -100779,9 +100608,9 @@ export const voivodeship = {
         "Żydowo",
         "Zmysłowo",
         "Gajówka Sobota",
-        "Huby"
+        "Huby",
       ],
-      "Stęszew": [
+      Stęszew: [
         "Skrzynki",
         "Trzebaw",
         "Jeziorki",
@@ -100819,7 +100648,7 @@ export const voivodeship = {
         "Łódź",
         "Zamysłowo",
         "Srocko",
-        "Twardowo"
+        "Twardowo",
       ],
       "Suchy Las": [
         "Suchy Las",
@@ -100830,9 +100659,9 @@ export const voivodeship = {
         "Golęczewo",
         "Złotniki",
         "Chludowo",
-        "Marianowo"
+        "Marianowo",
       ],
-      "Swarzędz": [
+      Swarzędz: [
         "Rabowice",
         "Sarbinowo",
         "Kobylnica",
@@ -100863,7 +100692,7 @@ export const voivodeship = {
         "Mechowo",
         "Gortatowo-Huby",
         "Święcinek",
-        "Pawłówko"
+        "Pawłówko",
       ],
       "Tarnowo Podgórne": [
         "Lusowo",
@@ -100887,11 +100716,11 @@ export const voivodeship = {
         "Baranówko",
         "Edmundowo",
         "Marianów",
-        "Sobiesiernie"
-      ]
+        "Sobiesiernie",
+      ],
     },
-    "rawicki": {
-      "Bojanowo": [
+    rawicki: {
+      Bojanowo: [
         "Trzebosz",
         "Wydartowo Pierwsze",
         "Golina Wielka",
@@ -100926,9 +100755,9 @@ export const voivodeship = {
         "Kawcze",
         "Sowiny",
         "Sowiny",
-        "Lambertowo"
+        "Lambertowo",
       ],
-      "Jutrosin": [
+      Jutrosin: [
         "Bielawy",
         "Domaradzice",
         "Szymonki",
@@ -100964,7 +100793,7 @@ export const voivodeship = {
         "Zygmuntowo",
         "Stary Sielec",
         "Wielki Bór",
-        "Wielki Bór"
+        "Wielki Bór",
       ],
       "Miejska Górka": [
         "Dłoń",
@@ -101008,9 +100837,9 @@ export const voivodeship = {
         "Dłoń",
         "Zwierzęcina",
         "Roszkówko",
-        "Zmysłowo"
+        "Zmysłowo",
       ],
-      "Pakosław": [
+      Pakosław: [
         "Pakosław",
         "Pomocno",
         "Zaorle",
@@ -101039,9 +100868,9 @@ export const voivodeship = {
         "Zielony Dąb",
         "Zaorle",
         "Skrzyptowo",
-        "Osiek"
+        "Osiek",
       ],
-      "Rawicz": [
+      Rawicz: [
         "Dębno Polskie",
         "Sierakowo",
         "Łąkta",
@@ -101079,11 +100908,11 @@ export const voivodeship = {
         "Krasnolipki",
         "Żołędnica",
         "Dąbrówka",
-        "Konarzewo"
-      ]
+        "Konarzewo",
+      ],
     },
-    "słupecki": {
-      "Słupca": [
+    słupecki: {
+      Słupca: [
         "Koszuty Małe",
         "Kowalewo-Sołectwo",
         "Kąty",
@@ -101151,9 +100980,9 @@ export const voivodeship = {
         "Piotrowice-Parcele",
         "Posada",
         "Zaborze",
-        "Czerwonka"
+        "Czerwonka",
       ],
-      "Lądek": [
+      Lądek: [
         "Jaroszyn-Kolonia",
         "Policko",
         "Piotrowo",
@@ -101175,9 +101004,9 @@ export const voivodeship = {
         "Policko-Góry",
         "Działy",
         "Nakielec",
-        "Żbin"
+        "Żbin",
       ],
-      "Orchowo": [
+      Orchowo: [
         "Skubarczewo",
         "Mlecze",
         "Wólka Orchowska",
@@ -101211,9 +101040,9 @@ export const voivodeship = {
         "Kinno",
         "Kosakowo",
         "Podlesie",
-        "Głucha Puszcza"
+        "Głucha Puszcza",
       ],
-      "Ostrowite": [
+      Ostrowite: [
         "Siernicze Małe",
         "Chrzanowo",
         "Milejewo",
@@ -101257,9 +101086,9 @@ export const voivodeship = {
         "Moczadła",
         "Wiktorowo",
         "Pieńki",
-        "Hejna"
+        "Hejna",
       ],
-      "Powidz": [
+      Powidz: [
         "Smolniki Powidzkie",
         "Wylatkowo",
         "Anastazewo",
@@ -101276,9 +101105,9 @@ export const voivodeship = {
         "Rudunek",
         "Rzymachowo",
         "Charbin",
-        "Dolina"
+        "Dolina",
       ],
-      "Strzałkowo": [
+      Strzałkowo: [
         "Paruszewo",
         "Ostrowo Kościelne",
         "Młodziejewice",
@@ -101327,9 +101156,9 @@ export const voivodeship = {
         "Słomczyce-Parcele",
         "Słomczyce-Huby",
         "Radłowo Leśne",
-        "Chwalibogowo-Huby"
+        "Chwalibogowo-Huby",
       ],
-      "Zagórów": [
+      Zagórów: [
         "Zalesie",
         "Wrąbczyn",
         "Chruściki",
@@ -101385,11 +101214,11 @@ export const voivodeship = {
         "Długa Górka",
         "Łukom",
         "Wymysłów",
-        "Michalinów"
-      ]
+        "Michalinów",
+      ],
     },
-    "szamotulski": {
-      "Obrzycko": [
+    szamotulski: {
+      Obrzycko: [
         "Stobnicko",
         "Gaj Mały",
         "Jaryszewo",
@@ -101417,9 +101246,9 @@ export const voivodeship = {
         "Mędzisko",
         "Chraplewo",
         "Bugaj",
-        "Daniele"
+        "Daniele",
       ],
-      "Duszniki": [
+      Duszniki: [
         "Duszniki",
         "Mieściska",
         "Chełminko",
@@ -101453,9 +101282,9 @@ export const voivodeship = {
         "Duszniki-Osiedle",
         "Duszniczki",
         "Huby",
-        "Ludowo"
+        "Ludowo",
       ],
-      "Kaźmierz": [
+      Kaźmierz: [
         "Piersko",
         "Młodasko",
         "Sierpówko",
@@ -101486,9 +101315,9 @@ export const voivodeship = {
         "Miecki",
         "Stramnica",
         "Chlewiska",
-        "Gaj Wielki"
+        "Gaj Wielki",
       ],
-      "Ostroróg": [
+      Ostroróg: [
         "Dobrojewo",
         "Kluczewo",
         "Szczepankowo",
@@ -101509,9 +101338,9 @@ export const voivodeship = {
         "Oporowo",
         "Piaskowo",
         "Bielejewo Leśne",
-        "Klemensowo"
+        "Klemensowo",
       ],
-      "Pniewy": [
+      Pniewy: [
         "Zamorze",
         "Jakubowo",
         "Rudka",
@@ -101554,9 +101383,9 @@ export const voivodeship = {
         "Bukowina",
         "Jakubowo",
         "Podborowo",
-        "Stefanowo"
+        "Stefanowo",
       ],
-      "Szamotuły": [
+      Szamotuły: [
         "Przyborówko",
         "Kępa",
         "Przyborowo",
@@ -101601,9 +101430,9 @@ export const voivodeship = {
         "Rudnik",
         "Nowy Folwark",
         "Grabowiec",
-        "Mielno"
+        "Mielno",
       ],
-      "Wronki": [
+      Wronki: [
         "Huby-Oporowo",
         "Nowa Wieś",
         "Samołęż",
@@ -101671,11 +101500,11 @@ export const voivodeship = {
         "Tomaszewo",
         "Głuchowiec",
         "Smolarnia",
-        "Winnogóra"
-      ]
+        "Winnogóra",
+      ],
     },
-    "średzki": {
-      "Dominowo": [
+    średzki: {
+      Dominowo: [
         "Sabaszczewo",
         "Bukowy Las",
         "Rusibórz",
@@ -101703,9 +101532,9 @@ export const voivodeship = {
         "Bagrowo",
         "Wysławice",
         "Janowo",
-        "Michałowo"
+        "Michałowo",
       ],
-      "Krzykosy": [
+      Krzykosy: [
         "Młodzikówko",
         "Borowo",
         "Witowo",
@@ -101738,7 +101567,7 @@ export const voivodeship = {
         "Kikusz",
         "Przymiarki Sulęcińskie",
         "Ciołki",
-        "Młodzikowo"
+        "Młodzikowo",
       ],
       "Nowe Miasto nad Wartą": [
         "Chwalęcin",
@@ -101775,7 +101604,7 @@ export const voivodeship = {
         "Teresa",
         "Hermanów",
         "Komorze Nowe",
-        "Wolica Nowa"
+        "Wolica Nowa",
       ],
       "Środa Wielkopolska": [
         "Nietrzanowo",
@@ -101843,9 +101672,9 @@ export const voivodeship = {
         "Topola",
         "Podgaj",
         "Brodowo",
-        "Turek"
+        "Turek",
       ],
-      "Zaniemyśl": [
+      Zaniemyśl: [
         "Jeziory Małe",
         "Pigłowice",
         "Winna",
@@ -101881,11 +101710,11 @@ export const voivodeship = {
         "Pigłowskie Huby",
         "Zofiówka",
         "Konstantynowo",
-        "Józefowo"
-      ]
+        "Józefowo",
+      ],
     },
-    "śremski": {
-      "Brodnica": [
+    śremski: {
+      Brodnica: [
         "Brodniczka",
         "Żabno",
         "Kopyta",
@@ -101912,9 +101741,9 @@ export const voivodeship = {
         "Sulejewo",
         "Tworzykowo",
         "Żabno",
-        "Ogieniowo"
+        "Ogieniowo",
       ],
-      "Dolsk": [
+      Dolsk: [
         "Pokrzywnica",
         "Księginki",
         "Drzonek",
@@ -101957,7 +101786,7 @@ export const voivodeship = {
         "Orliniec",
         "Podlesie",
         "Biedaszkowo",
-        "Brzednia"
+        "Brzednia",
       ],
       "Książ Wielkopolski": [
         "Włościejewice",
@@ -101992,9 +101821,9 @@ export const voivodeship = {
         "Obreda",
         "Zabawa",
         "Mchy",
-        "Włościejewki"
+        "Włościejewki",
       ],
-      "Śrem": [
+      Śrem: [
         "Zbrudzewo",
         "Wyrzeka",
         "Kawcze",
@@ -102054,11 +101883,11 @@ export const voivodeship = {
         "Dobczyn",
         "Łęg",
         "Kadzewo",
-        "Grobelka"
-      ]
+        "Grobelka",
+      ],
     },
-    "turecki": {
-      "Turek": [
+    turecki: {
+      Turek: [
         "Szadów Pański",
         "Dzierżązna",
         "Żuki",
@@ -102091,9 +101920,9 @@ export const voivodeship = {
         "Turkowice-Kolonia",
         "Wichrza",
         "Dębina",
-        "Zdrojki"
+        "Zdrojki",
       ],
-      "Brudzew": [
+      Brudzew: [
         "Marulew",
         "Kolnica",
         "Cichów",
@@ -102126,9 +101955,9 @@ export const voivodeship = {
         "Bogdałów-Kolonia",
         "Brudzyń",
         "Smolina",
-        "Sacały"
+        "Sacały",
       ],
-      "Dobra": [
+      Dobra: [
         "Zborów",
         "Miłkowice",
         "Skęczniew",
@@ -102166,9 +101995,9 @@ export const voivodeship = {
         "Dobra",
         "Długa Wieś",
         "Żeronice",
-        "Staruchy"
+        "Staruchy",
       ],
-      "Kawęczyn": [
+      Kawęczyn: [
         "Skarżyn",
         "Tokary Pierwsze",
         "Siedliska",
@@ -102201,9 +102030,9 @@ export const voivodeship = {
         "Nowy Orzepów",
         "Siewieruszki Małe",
         "Kolonia Lipicze",
-        "Pacht"
+        "Pacht",
       ],
-      "Malanów": [
+      Malanów: [
         "Grąbków",
         "Dziadowice-Folwark",
         "Żdżenice",
@@ -102229,9 +102058,9 @@ export const voivodeship = {
         "Paździerowice",
         "Deszno",
         "Józefów",
-        "Bielawy"
+        "Bielawy",
       ],
-      "Przykona": [
+      Przykona: [
         "Olszówka",
         "Trzymsze",
         "Gąsin",
@@ -102270,9 +102099,9 @@ export const voivodeship = {
         "Zwierzyniec",
         "Słomów",
         "Czarnowiec",
-        "Wichertów"
+        "Wichertów",
       ],
-      "Tuliszków": [
+      Tuliszków: [
         "Dryja",
         "Grabowiec",
         "Krępa",
@@ -102302,9 +102131,9 @@ export const voivodeship = {
         "Wymysłów",
         "Smaszew",
         "Dęby",
-        "Ogorzelczyn"
+        "Ogorzelczyn",
       ],
-      "Władysławów": [
+      Władysławów: [
         "Beznazwa",
         "Mariantów",
         "Polichno",
@@ -102331,11 +102160,11 @@ export const voivodeship = {
         "Józefów",
         "Wandów",
         "Przemysławów",
-        "Felicjanów"
-      ]
+        "Felicjanów",
+      ],
     },
-    "wągrowiecki": {
-      "Wągrowiec": [
+    wągrowiecki: {
+      Wągrowiec: [
         "Rąbczyn",
         "Rudnicze",
         "Sienno",
@@ -102406,9 +102235,9 @@ export const voivodeship = {
         "Micharzewo",
         "Dębina",
         "Orla",
-        "Nowe"
+        "Nowe",
       ],
-      "Damasławek": [
+      Damasławek: [
         "Gruntowice",
         "Międzylesie",
         "Rakowo",
@@ -102428,9 +102257,9 @@ export const voivodeship = {
         "Turza",
         "Kołybki",
         "Miąża",
-        "Modrzewie"
+        "Modrzewie",
       ],
-      "Gołańcz": [
+      Gołańcz: [
         "Chojna",
         "Grabowo",
         "Rybowo",
@@ -102467,9 +102296,9 @@ export const voivodeship = {
         "Gręziny",
         "Jeziorki",
         "Smogulec",
-        "Jeleń"
+        "Jeleń",
       ],
-      "Mieścisko": [
+      Mieścisko: [
         "Gołaszewo",
         "Nieświastowice",
         "Gorzewo",
@@ -102500,9 +102329,9 @@ export const voivodeship = {
         "Tumidaj",
         "Popowo-Huby",
         "Popowo-Kolonia",
-        "Mieścisko-Ulica"
+        "Mieścisko-Ulica",
       ],
-      "Skoki": [
+      Skoki: [
         "Sławica",
         "Budziszewice",
         "Kuszewo",
@@ -102550,9 +102379,9 @@ export const voivodeship = {
         "Pomarzanki",
         "Gozdowiec",
         "Antoniewo",
-        "Antoniewo"
+        "Antoniewo",
       ],
-      "Wapno": [
+      Wapno: [
         "Komasin",
         "Podolin",
         "Aleksandrowo",
@@ -102560,11 +102389,11 @@ export const voivodeship = {
         "Stołężyn",
         "Graboszewo",
         "Wapno",
-        "Srebrna Góra"
-      ]
+        "Srebrna Góra",
+      ],
     },
-    "wolsztyński": {
-      "Przemęt": [
+    wolsztyński: {
+      Przemęt: [
         "Błotnica",
         "Osłonin",
         "Siekówko",
@@ -102599,9 +102428,9 @@ export const voivodeship = {
         "Święte Jezioro",
         "Przemęt-Leśniczówka",
         "Wroniawy-Leśniczówka",
-        "Radomierz-Leśniczówka"
+        "Radomierz-Leśniczówka",
       ],
-      "Siedlec": [
+      Siedlec: [
         "Kiełpiny",
         "Siedlec",
         "Wojciechowo",
@@ -102642,9 +102471,9 @@ export const voivodeship = {
         "Węglisz",
         "Godziszewo",
         "Wąchabno",
-        "Morgi"
+        "Morgi",
       ],
-      "Wolsztyn": [
+      Wolsztyn: [
         "Świętno",
         "Tłoki",
         "Wroniawy",
@@ -102685,11 +102514,11 @@ export const voivodeship = {
         "Kębłowo",
         "Krzyż",
         "Ruchocki Młyn",
-        "Nowy Młyn"
-      ]
+        "Nowy Młyn",
+      ],
     },
-    "wrzesiński": {
-      "Kołaczkowo": [
+    wrzesiński: {
+      Kołaczkowo: [
         "Budziłowo",
         "Łagiewki",
         "Wszembórz",
@@ -102723,9 +102552,9 @@ export const voivodeship = {
         "Huby Gorazdowskie",
         "Piaski",
         "Huby Sokolnickie",
-        "Bieczewo"
+        "Bieczewo",
       ],
-      "Miłosław": [
+      Miłosław: [
         "Kozubiec",
         "Chlebowo",
         "Orzechowo",
@@ -102761,9 +102590,9 @@ export const voivodeship = {
         "Mościska",
         "Sarnice",
         "Spławik",
-        "Warta"
+        "Warta",
       ],
-      "Nekla": [
+      Nekla: [
         "Kokoszki",
         "Barczyzna",
         "Chwałszyce",
@@ -102787,9 +102616,9 @@ export const voivodeship = {
         "Nekla-Osiedle",
         "Targowa Górka Mała",
         "Huby",
-        "Milkarowo"
+        "Milkarowo",
       ],
-      "Pyzdry": [
+      Pyzdry: [
         "Wrąbczynek",
         "Łupice",
         "Ksawerów",
@@ -102828,9 +102657,9 @@ export const voivodeship = {
         "Kamień",
         "Olsz",
         "Zimochowiec",
-        "Lisiaki"
+        "Lisiaki",
       ],
-      "Września": [
+      Września: [
         "Gulczewko",
         "Kaczanowo",
         "Nowy Folwark",
@@ -102894,11 +102723,11 @@ export const voivodeship = {
         "Dębina",
         "Słomówko",
         "Młynek",
-        "Gozdowo-Młyn"
-      ]
+        "Gozdowo-Młyn",
+      ],
     },
-    "złotowski": {
-      "Złotów": [
+    złotowski: {
+      Złotów: [
         "Dzierzążenko",
         "Bługowo",
         "Płosków",
@@ -102950,9 +102779,9 @@ export const voivodeship = {
         "Krzywa Wieś",
         "Zawilce",
         "Grudna",
-        "Nowa Święta"
+        "Nowa Święta",
       ],
-      "Jastrowie": [
+      Jastrowie: [
         "Sypniewo",
         "Budy",
         "Samborsko",
@@ -102974,9 +102803,9 @@ export const voivodeship = {
         "Trzebieszki",
         "Drzewiec",
         "Piaski",
-        "Prądy"
+        "Prądy",
       ],
-      "Krajenka": [
+      Krajenka: [
         "Barankowo",
         "Czajcze",
         "Augustowo",
@@ -103005,9 +102834,9 @@ export const voivodeship = {
         "Rogownica",
         "Strużyska",
         "Zimna Kępa",
-        "Krajenka-Wybudowanie"
+        "Krajenka-Wybudowanie",
       ],
-      "Lipka": [
+      Lipka: [
         "Potulice",
         "Laskowo",
         "Trudna",
@@ -103035,9 +102864,9 @@ export const voivodeship = {
         "Kiełpinek",
         "Lipka-Leśniczówka",
         "Potulice-Leśniczówka",
-        "Białobłocie"
+        "Białobłocie",
       ],
-      "Okonek": [
+      Okonek: [
         "Ciosaniec",
         "Brokęcino",
         "Rydzynka",
@@ -103063,9 +102892,9 @@ export const voivodeship = {
         "Anielin",
         "Dolnik",
         "Wojnówko",
-        "Babi Dwór"
+        "Babi Dwór",
       ],
-      "Tarnówka": [
+      Tarnówka: [
         "Sokolna",
         "Węgierce",
         "Plecemin",
@@ -103080,9 +102909,9 @@ export const voivodeship = {
         "Bartoszkowo",
         "Pomiarki",
         "Ptusza",
-        "Tarnówka"
+        "Tarnówka",
       ],
-      "Zakrzewo": [
+      Zakrzewo: [
         "Osowiec",
         "Drożyska Wielkie",
         "Czernice",
@@ -103105,11 +102934,11 @@ export const voivodeship = {
         "Karolewo",
         "Nowy Głomsk",
         "Dubielno",
-        "Nowe Zakrzewo"
-      ]
+        "Nowe Zakrzewo",
+      ],
     },
-    "Kalisz": {
-      "Kalisz": [
+    Kalisz: {
+      Kalisz: [
         "Kalisz",
         "Huby",
         "Korczak",
@@ -103139,11 +102968,11 @@ export const voivodeship = {
         "Piwonice-Kolonia",
         "Piwonice-Wschód",
         "Piwonice-Zachód",
-        "Rajsków-Kolonia"
-      ]
+        "Rajsków-Kolonia",
+      ],
     },
-    "Konin": {
-      "Konin": [
+    Konin: {
+      Konin: [
         "Konin",
         "Sulanki",
         "Laskówiec",
@@ -103178,11 +103007,11 @@ export const voivodeship = {
         "Glinka-Osiedle",
         "Cukrownia-Gosławice",
         "Łężyn",
-        "Osada-Konin"
-      ]
+        "Osada-Konin",
+      ],
     },
-    "Leszno": {
-      "Leszno": [
+    Leszno: {
+      Leszno: [
         "Leszno",
         "Antoniny",
         "Gronowo",
@@ -103190,13 +103019,11 @@ export const voivodeship = {
         "Zaborowo",
         "Podwale",
         "Zatorze",
-        "Grzybowo"
-      ]
-    },
-    "Poznań": {
-      "Poznań": [
-        "Poznań"
+        "Grzybowo",
       ],
+    },
+    Poznań: {
+      Poznań: ["Poznań"],
       "Poznań-Grunwald": [
         "Poznań-Grunwald",
         "Kopanina",
@@ -103215,7 +103042,7 @@ export const voivodeship = {
         "Grunwald",
         "Marcelin",
         "Plewiska-Osiedle",
-        "Ławica"
+        "Ławica",
       ],
       "Poznań-Jeżyce": [
         "Poznań-Jeżyce",
@@ -103237,7 +103064,7 @@ export const voivodeship = {
         "Sytkowo",
         "Strzeszynek",
         "Jeżyce",
-        "Jeżyckie Osiedle"
+        "Jeżyckie Osiedle",
       ],
       "Poznań-Nowe Miasto": [
         "Poznań-Nowe Miasto",
@@ -103285,7 +103112,7 @@ export const voivodeship = {
         "Głuszyna",
         "Krzesiny",
         "Miasteczko",
-        "Główieniec"
+        "Główieniec",
       ],
       "Poznań-Stare Miasto": [
         "Poznań-Stare Miasto",
@@ -103312,7 +103139,7 @@ export const voivodeship = {
         "Przepadek",
         "Nowa Wieś Dolna",
         "Nowa Wieś Górna",
-        "Naramowickie Osiedle"
+        "Naramowickie Osiedle",
       ],
       "Poznań-Wilda": [
         "Poznań-Wilda",
@@ -103322,13 +103149,13 @@ export const voivodeship = {
         "Malinów",
         "Wierzbięcice",
         "Dolna Wilda",
-        "Wilda"
-      ]
-    }
+        "Wilda",
+      ],
+    },
   },
-  "ZACHODNIOPOMORSKIE": {
-    "białogardzki": {
-      "Białogard": [
+  ZACHODNIOPOMORSKIE: {
+    białogardzki: {
+      Białogard: [
         "Żabiniec",
         "Pustkówko",
         "Strzelec",
@@ -103381,9 +103208,9 @@ export const voivodeship = {
         "Żeleźno",
         "Rościno",
         "Rogowo",
-        "Rzyszczewo"
+        "Rzyszczewo",
       ],
-      "Karlino": [
+      Karlino: [
         "Lubiechowo-Przystanek",
         "Kozia Góra",
         "Karlinko",
@@ -103417,9 +103244,9 @@ export const voivodeship = {
         "Domacyno",
         "Malonowo",
         "Karwin",
-        "Lubiechowo"
+        "Lubiechowo",
       ],
-      "Tychowo": [
+      Tychowo: [
         "Dobrochy",
         "Skarszewice",
         "Wełdkowo",
@@ -103464,11 +103291,11 @@ export const voivodeship = {
         "Osówko",
         "Motarzyn",
         "Kikowo",
-        "Kowalki"
-      ]
+        "Kowalki",
+      ],
     },
-    "choszczeński": {
-      "Bierzwnik": [
+    choszczeński: {
+      Bierzwnik: [
         "Górki",
         "Kozłów",
         "Chojnica",
@@ -103513,9 +103340,9 @@ export const voivodeship = {
         "Bierzwnik",
         "Breń",
         "Chyże",
-        "Jaglisko"
+        "Jaglisko",
       ],
-      "Choszczno": [
+      Choszczno: [
         "Przywodzie",
         "Rudnisko",
         "Gładysz",
@@ -103565,9 +103392,9 @@ export const voivodeship = {
         "Sulino",
         "Stradzewo",
         "Oraczewice",
-        "Kołki"
+        "Kołki",
       ],
-      "Drawno": [
+      Drawno: [
         "Sówka",
         "Chomętowo",
         "Sieniawa",
@@ -103625,9 +103452,9 @@ export const voivodeship = {
         "Barnimie",
         "Dominikowo",
         "Konotop",
-        "Zatom"
+        "Zatom",
       ],
-      "Krzęcin": [
+      Krzęcin: [
         "Bukowno",
         "Gołąbki",
         "Putno",
@@ -103659,9 +103486,9 @@ export const voivodeship = {
         "Objezierze",
         "Rakowo",
         "Nowy Klukom",
-        "Krzęcin"
+        "Krzęcin",
       ],
-      "Pełczyce": [
+      Pełczyce: [
         "Przyłęki",
         "Sułkowo",
         "Nadarzyn",
@@ -103698,9 +103525,9 @@ export const voivodeship = {
         "Jagów",
         "Krzynki",
         "Bolewice",
-        "Niesporowice"
+        "Niesporowice",
       ],
-      "Recz": [
+      Recz: [
         "Rybnica",
         "Zdbino",
         "Bytowo",
@@ -103727,11 +103554,11 @@ export const voivodeship = {
         "Żeliszewo",
         "Jarostowo",
         "Rybaki",
-        "Wielgoszcz"
-      ]
+        "Wielgoszcz",
+      ],
     },
-    "drawski": {
-      "Czaplinek": [
+    drawski: {
+      Czaplinek: [
         "Bielice",
         "Chmielewo",
         "Sulibórz",
@@ -103784,7 +103611,7 @@ export const voivodeship = {
         "Psie Głowy",
         "Brzezinka",
         "Nowe Drawsko",
-        "Ostroróg"
+        "Ostroróg",
       ],
       "Drawsko Pomorskie": [
         "Jutrosin",
@@ -103839,7 +103666,7 @@ export const voivodeship = {
         "Zagórki",
         "Suliszewo",
         "Kumki",
-        "Gudowo"
+        "Gudowo",
       ],
       "Kalisz Pomorski": [
         "Łowno",
@@ -103871,9 +103698,9 @@ export const voivodeship = {
         "Jasnopole",
         "Bralin",
         "Cybowo",
-        "Dębsko"
+        "Dębsko",
       ],
-      "Wierzchowo": [
+      Wierzchowo: [
         "Danowice",
         "Dębniewice",
         "Króle",
@@ -103892,9 +103719,9 @@ export const voivodeship = {
         "Wierzchowo",
         "Żabin",
         "Sośnica",
-        "Nowe Laski"
+        "Nowe Laski",
       ],
-      "Złocieniec": [
+      Złocieniec: [
         "Kania Górka",
         "Drzeńsko",
         "Bolegorzyn",
@@ -103938,11 +103765,11 @@ export const voivodeship = {
         "Kosobudy",
         "Bobrowo",
         "Stawno",
-        "Stare Worowo"
-      ]
+        "Stare Worowo",
+      ],
     },
-    "goleniowski": {
-      "Goleniów": [
+    goleniowski: {
+      Goleniów: [
         "Krzewno",
         "Niedamierz",
         "Bącznik",
@@ -104011,9 +103838,9 @@ export const voivodeship = {
         "Czarna Łąka",
         "Mosty",
         "Łaniewo",
-        "Kliniska Wielkie"
+        "Kliniska Wielkie",
       ],
-      "Maszewo": [
+      Maszewo: [
         "Dolacino",
         "Wisławie",
         "Swojcino",
@@ -104049,9 +103876,9 @@ export const voivodeship = {
         "Jarosławki",
         "Sokolniki",
         "Budzieszowce",
-        "Dobrosławiec"
+        "Dobrosławiec",
       ],
-      "Nowogard": [
+      Nowogard: [
         "Zatocze",
         "Miękkie",
         "Nowe Wyszomierki",
@@ -104125,9 +103952,9 @@ export const voivodeship = {
         "Żabówko",
         "Wołowiec",
         "Olchowo",
-        "Struga"
+        "Struga",
       ],
-      "Osina": [
+      Osina: [
         "Węgorzyce",
         "Kałużna",
         "Kikorze",
@@ -104138,9 +103965,9 @@ export const voivodeship = {
         "Bodzęcin",
         "Osina",
         "Węgorza",
-        "Krzywice"
+        "Krzywice",
       ],
-      "Przybiernów": [
+      Przybiernów: [
         "Żychlikowo",
         "Biebrówek",
         "Przełęg",
@@ -104173,9 +104000,9 @@ export const voivodeship = {
         "Włodzisław",
         "Kartlewo",
         "Łoźnica",
-        "Miodowice"
+        "Miodowice",
       ],
-      "Stepnica": [
+      Stepnica: [
         "Budzień",
         "Czarnocin",
         "Widzieńsko",
@@ -104195,11 +104022,11 @@ export const voivodeship = {
         "Miłowo",
         "Piaski Małe",
         "Gąsierzyno",
-        "Jarszewko"
-      ]
+        "Jarszewko",
+      ],
     },
-    "gryficki": {
-      "Brojce": [
+    gryficki: {
+      Brojce: [
         "Łatno",
         "Mołstowo",
         "Cieszyce",
@@ -104220,9 +104047,9 @@ export const voivodeship = {
         "Kiełpino",
         "Brojce",
         "Darżewo",
-        "Przybiernowo"
+        "Przybiernowo",
       ],
-      "Gryfice": [
+      Gryfice: [
         "Zdrój",
         "Barkowo",
         "Brodniki",
@@ -104276,9 +104103,9 @@ export const voivodeship = {
         "Wołczyno",
         "Otok",
         "Baszewice",
-        "Jabłonowo"
+        "Jabłonowo",
       ],
-      "Karnice": [
+      Karnice: [
         "Czaplice",
         "Dreżewo",
         "Gocławice",
@@ -104308,9 +104135,9 @@ export const voivodeship = {
         "Skalno",
         "Ciećmierz",
         "Czaplin Wielki",
-        "Drozdowo"
+        "Drozdowo",
       ],
-      "Płoty": [
+      Płoty: [
         "Bądkowo",
         "Dąbie",
         "Dobiesław",
@@ -104351,18 +104178,18 @@ export const voivodeship = {
         "Makowice",
         "Pniewo",
         "Wilczyniec",
-        "Modlimowo"
+        "Modlimowo",
       ],
-      "Rewal": [
+      Rewal: [
         "Pobierowo",
         "Pogorzelica",
         "Trzęsacz",
         "Rewal",
         "Niechorze",
         "Pustkowo",
-        "Śliwin"
+        "Śliwin",
       ],
-      "Trzebiatów": [
+      Trzebiatów: [
         "Mrzeżyno",
         "Paliczyno",
         "Rogowo",
@@ -104396,11 +104223,11 @@ export const voivodeship = {
         "Siemidarżno",
         "Włodarka",
         "Gorzysław",
-        "Gołańcz Pomorska"
-      ]
+        "Gołańcz Pomorska",
+      ],
     },
-    "gryfiński": {
-      "Banie": [
+    gryfiński: {
+      Banie: [
         "Dłusko Leśne",
         "Piaszno",
         "Długie",
@@ -104422,9 +104249,9 @@ export const voivodeship = {
         "Tywica",
         "Baniewice",
         "Dłusko Gryfińskie",
-        "Kunowo"
+        "Kunowo",
       ],
-      "Cedynia": [
+      Cedynia: [
         "Parchnica",
         "Barcie",
         "Piasecznik",
@@ -104447,9 +104274,9 @@ export const voivodeship = {
         "Czachów",
         "Lubiechów Dolny",
         "Stary Kostrzynek",
-        "Orzechów"
+        "Orzechów",
       ],
-      "Chojna": [
+      Chojna: [
         "Godków-Osiedle",
         "Kaliska",
         "Strzeszewko",
@@ -104502,9 +104329,9 @@ export const voivodeship = {
         "Krajnik Górny",
         "Mętno",
         "Rurka",
-        "Narost"
+        "Narost",
       ],
-      "Gryfino": [
+      Gryfino: [
         "Osuch",
         "Gajki",
         "Nowe Czarnowo",
@@ -104549,9 +104376,9 @@ export const voivodeship = {
         "Żórawie",
         "Daleszewo",
         "Włodkowice",
-        "Chwarstnica"
+        "Chwarstnica",
       ],
-      "Mieszkowice": [
+      Mieszkowice: [
         "Rogaczewo",
         "Goszkówek",
         "Mirogniew",
@@ -104582,9 +104409,9 @@ export const voivodeship = {
         "Troszyn",
         "Czelin",
         "Stary Błeszyn",
-        "Kurzycko"
+        "Kurzycko",
       ],
-      "Moryń": [
+      Moryń: [
         "Mierno",
         "Witniczka",
         "Wisław",
@@ -104603,7 +104430,7 @@ export const voivodeship = {
         "Klępicz",
         "Dolsko",
         "Przyjezierze",
-        "Nowe Objezierze"
+        "Nowe Objezierze",
       ],
       "Stare Czarnowo": [
         "Sosnówko",
@@ -104627,7 +104454,7 @@ export const voivodeship = {
         "Żelewo",
         "Dobropole Gryfińskie",
         "Kartno",
-        "Stare Czarnowo"
+        "Stare Czarnowo",
       ],
       "Trzcińsko-Zdrój": [
         "Głębokie",
@@ -104656,9 +104483,9 @@ export const voivodeship = {
         "Stołeczna",
         "Góralice",
         "Klasztorne",
-        "Dobropole"
+        "Dobropole",
       ],
-      "Widuchowa": [
+      Widuchowa: [
         "Widuchówko",
         "Krzywinek",
         "Lubiczyn",
@@ -104680,20 +104507,20 @@ export const voivodeship = {
         "Pacholęta",
         "Dębogóra",
         "Marwice",
-        "Żelechowo"
-      ]
+        "Żelechowo",
+      ],
     },
-    "kamieński": {
-      "Dziwnów": [
+    kamieński: {
+      Dziwnów: [
         "Łukęcin",
         "Dziwnów Dolny",
         "Dziwnów Górny",
         "Dziwna",
         "Dziwnów",
         "Dziwnówek",
-        "Międzywodzie"
+        "Międzywodzie",
       ],
-      "Golczewo": [
+      Golczewo: [
         "Gacko",
         "Barnisławice",
         "Strażnica",
@@ -104726,7 +104553,7 @@ export const voivodeship = {
         "Kozielice",
         "Gadom",
         "Upadły",
-        "Kretlewo"
+        "Kretlewo",
       ],
       "Kamień Pomorski": [
         "Giżkowo",
@@ -104771,9 +104598,9 @@ export const voivodeship = {
         "Szumiąca",
         "Połchowo",
         "Jarszewo",
-        "Grabowo"
+        "Grabowo",
       ],
-      "Międzyzdroje": [
+      Międzyzdroje: [
         "Biała Góra",
         "Grodno",
         "Kępa",
@@ -104783,9 +104610,9 @@ export const voivodeship = {
         "Międzyzdroje",
         "Wapnica",
         "Wicko",
-        "Lubin"
+        "Lubin",
       ],
-      "Świerzno": [
+      Świerzno: [
         "Będzieszewo",
         "Kępica",
         "Margowo",
@@ -104809,9 +104636,9 @@ export const voivodeship = {
         "Duniewo",
         "Osiecze",
         "Gostyń",
-        "Ugory"
+        "Ugory",
       ],
-      "Wolin": [
+      Wolin: [
         "Świętouść",
         "Parłówko",
         "Wiejkówko",
@@ -104868,11 +104695,11 @@ export const voivodeship = {
         "Kodrąb",
         "Domysłów",
         "Wisełka",
-        "Zastań"
-      ]
+        "Zastań",
+      ],
     },
-    "kołobrzeski": {
-      "Kołobrzeg": [
+    kołobrzeski: {
+      Kołobrzeg: [
         "Przylaski",
         "Korzyścienko",
         "Kądzielno",
@@ -104903,9 +104730,9 @@ export const voivodeship = {
         "Stramnica",
         "Błotnica",
         "Rościęcino",
-        "Bogusławiec"
+        "Bogusławiec",
       ],
-      "Dygowo": [
+      Dygowo: [
         "Jażdże",
         "Lisia Góra",
         "Kłopotowo",
@@ -104927,9 +104754,9 @@ export const voivodeship = {
         "Wrzosowo",
         "Pustary",
         "Bardy",
-        "Łykowo"
+        "Łykowo",
       ],
-      "Gościno": [
+      Gościno: [
         "Wierzbka Górna",
         "Jarogniew",
         "Jeziorki",
@@ -104951,9 +104778,9 @@ export const voivodeship = {
         "Ołużna",
         "Pobłocie Małe",
         "Mołtowo",
-        "Skronie"
+        "Skronie",
       ],
-      "Rymań": [
+      Rymań: [
         "Małobór",
         "Kamień Rymański",
         "Rzesznikówko",
@@ -104980,9 +104807,9 @@ export const voivodeship = {
         "Starnin",
         "Leszczyn",
         "Petrykozy",
-        "Mechowo"
+        "Mechowo",
       ],
-      "Siemyśl": [
+      Siemyśl: [
         "Wędzice",
         "Wszemierzyce",
         "Paprocie",
@@ -104999,7 +104826,7 @@ export const voivodeship = {
         "Charzyno",
         "Byszewo",
         "Niemierze",
-        "Świecie Kołobrzeskie"
+        "Świecie Kołobrzeskie",
       ],
       "Ustronie Morskie": [
         "Malechowo",
@@ -105015,11 +104842,11 @@ export const voivodeship = {
         "Gwizd",
         "Kukinka",
         "Sianożęty",
-        "Bagicz"
-      ]
+        "Bagicz",
+      ],
     },
-    "koszaliński": {
-      "Będzino": [
+    koszaliński: {
+      Będzino: [
         "Wiciąże Pierwsze",
         "Barnin",
         "Zagaje",
@@ -105064,9 +104891,9 @@ export const voivodeship = {
         "Smolne",
         "Kiszkowo",
         "Popowo",
-        "Strzepowo"
+        "Strzepowo",
       ],
-      "Biesiekierz": [
+      Biesiekierz: [
         "Nosowo",
         "Witolubie",
         "Rutkowo",
@@ -105085,9 +104912,9 @@ export const voivodeship = {
         "Warnino",
         "Kotłowo",
         "Biesiekierz",
-        "Kraśnik Koszaliński"
+        "Kraśnik Koszaliński",
       ],
-      "Bobolice": [
+      Bobolice: [
         "Zagon",
         "Stróżany",
         "Wietrzynko",
@@ -105159,9 +104986,9 @@ export const voivodeship = {
         "Darżewo",
         "Krępa",
         "Jatynia",
-        "Ubiedrze"
+        "Ubiedrze",
       ],
-      "Manowo": [
+      Manowo: [
         "Grąpa",
         "Poniki",
         "Gajewo",
@@ -105184,9 +105011,9 @@ export const voivodeship = {
         "Wyszebórz",
         "Dęborogi",
         "Kopanino",
-        "Manowo"
+        "Manowo",
       ],
-      "Mielno": [
+      Mielno: [
         "Komorniki",
         "Niegoszcz",
         "Radzichowo",
@@ -105199,9 +105026,9 @@ export const voivodeship = {
         "Gąski",
         "Sarbinowo",
         "Łazy",
-        "Mielenko"
+        "Mielenko",
       ],
-      "Polanów": [
+      Polanów: [
         "Samostrzel",
         "Zagaje",
         "Jaromierz Polanowski",
@@ -105285,9 +105112,9 @@ export const voivodeship = {
         "Karsinka",
         "Nacław",
         "Rosocha",
-        "Domachowo"
+        "Domachowo",
       ],
-      "Sianów": [
+      Sianów: [
         "Wonieść",
         "Trawica",
         "Sowieński Młyn",
@@ -105327,9 +105154,9 @@ export const voivodeship = {
         "Gorzebądz",
         "Ratajki",
         "Sierakowo Sławieńskie",
-        "Rzepkowo"
+        "Rzepkowo",
       ],
-      "Świeszyno": [
+      Świeszyno: [
         "Bardzlino",
         "Bagno",
         "Brzeźniki",
@@ -105358,11 +105185,11 @@ export const voivodeship = {
         "Zegrze Pomorskie",
         "Mierzym",
         "Konikowo",
-        "Niekłonice"
-      ]
+        "Niekłonice",
+      ],
     },
-    "myśliborski": {
-      "Barlinek": [
+    myśliborski: {
+      Barlinek: [
         "Niewstąp",
         "Pustać",
         "Żelice",
@@ -105414,9 +105241,9 @@ export const voivodeship = {
         "Moczydło",
         "Osina",
         "Dziedzice",
-        "Jarząbki"
+        "Jarząbki",
       ],
-      "Boleszkowice": [
+      Boleszkowice: [
         "Milicz",
         "Wielopole",
         "Crków",
@@ -105430,9 +105257,9 @@ export const voivodeship = {
         "Porzecze",
         "Boleszkowice",
         "Kaleńsko",
-        "Namyślin"
+        "Namyślin",
       ],
-      "Dębno": [
+      Dębno: [
         "Borne",
         "Wierzbki",
         "Roztok",
@@ -105476,9 +105303,9 @@ export const voivodeship = {
         "Sarbinowo",
         "Smolnica",
         "Krześnica",
-        "Grzymiradz"
+        "Grzymiradz",
       ],
-      "Myślibórz": [
+      Myślibórz: [
         "Odolanów",
         "Czeczewo",
         "Niesłusz",
@@ -105554,7 +105381,7 @@ export const voivodeship = {
         "Gryżyno",
         "Ławy",
         "Kierzków",
-        "Kruszwin"
+        "Kruszwin",
       ],
       "Nowogródek Pomorski": [
         "Ławin",
@@ -105580,10 +105407,10 @@ export const voivodeship = {
         "Sumiak",
         "Giżyn",
         "Świątki",
-        "Trzcinna"
-      ]
+        "Trzcinna",
+      ],
     },
-    "policki": {
+    policki: {
       "Dobra (Szczecińska)": [
         "Bolków",
         "Skarbimierzyce",
@@ -105602,9 +105429,9 @@ export const voivodeship = {
         "Mierzyn",
         "Grzepnica",
         "Łęgi",
-        "Sławoszewo"
+        "Sławoszewo",
       ],
-      "Kołbaskowo": [
+      Kołbaskowo: [
         "Bobolin",
         "Przecław",
         "Ostoja",
@@ -105627,7 +105454,7 @@ export const voivodeship = {
         "Stobno",
         "Karwowo",
         "Kurów",
-        "Warzymice"
+        "Warzymice",
       ],
       "Nowe Warpno": [
         "Trzebieradz",
@@ -105645,9 +105472,9 @@ export const voivodeship = {
         "Myślibórz Mały",
         "Myślibórz Wielki",
         "Warnołęka",
-        "Brzózki"
+        "Brzózki",
       ],
-      "Police": [
+      Police: [
         "Turznica",
         "Mazańczyce",
         "Sierakowo",
@@ -105686,11 +105513,11 @@ export const voivodeship = {
         "Pilchowo",
         "Trzeszczyn",
         "Przęsocin",
-        "Bartoszewo"
-      ]
+        "Bartoszewo",
+      ],
     },
-    "pyrzycki": {
-      "Bielice": [
+    pyrzycki: {
+      Bielice: [
         "Chabówko",
         "Nowe Linie",
         "Bielice",
@@ -105702,9 +105529,9 @@ export const voivodeship = {
         "Parsów",
         "Będgoszcz",
         "Nowe Chrapowo",
-        "Swochowo"
+        "Swochowo",
       ],
-      "Kozielice": [
+      Kozielice: [
         "Przydarłów",
         "Łozice",
         "Maruszewo",
@@ -105718,9 +105545,9 @@ export const voivodeship = {
         "Tetyń",
         "Mielno Pyrzyckie",
         "Kozielice",
-        "Załęże"
+        "Załęże",
       ],
-      "Lipiany": [
+      Lipiany: [
         "Małcz",
         "Józefin",
         "Połczyno",
@@ -105751,9 +105578,9 @@ export const voivodeship = {
         "Jedlice",
         "Mielęcinek",
         "Skrzynka",
-        "Dębiec"
+        "Dębiec",
       ],
-      "Przelewice": [
+      Przelewice: [
         "Wymykowo",
         "Karsko",
         "Myśliborki",
@@ -105778,9 +105605,9 @@ export const voivodeship = {
         "Przelewice",
         "Rosiny",
         "Kosin",
-        "Żuków"
+        "Żuków",
       ],
-      "Pyrzyce": [
+      Pyrzyce: [
         "Górne",
         "Krzemlinek",
         "Lipki",
@@ -105812,9 +105639,9 @@ export const voivodeship = {
         "Ostrowica",
         "Krzemlin",
         "Nieborowo",
-        "Okunica"
+        "Okunica",
       ],
-      "Warnice": [
+      Warnice: [
         "Wójcin",
         "Cieszysław",
         "Janowo",
@@ -105828,11 +105655,11 @@ export const voivodeship = {
         "Wierzbno",
         "Reńsko",
         "Grędziec",
-        "Kłęby"
-      ]
+        "Kłęby",
+      ],
     },
-    "sławieński": {
-      "Darłowo": [
+    sławieński: {
+      Darłowo: [
         "Różkowo",
         "Gleźnówko",
         "Słowinko",
@@ -105878,9 +105705,9 @@ export const voivodeship = {
         "Palczewice",
         "Nowy Jarosław",
         "Słowino",
-        "Porzecze"
+        "Porzecze",
       ],
-      "Sławno": [
+      Sławno: [
         "Borzyszkowo",
         "Grzybno",
         "Pątnowo",
@@ -105919,9 +105746,9 @@ export const voivodeship = {
         "Tokary",
         "Noskowo",
         "Boleszewo",
-        "Warszkówko"
+        "Warszkówko",
       ],
-      "Malechowo": [
+      Malechowo: [
         "Białęcinko",
         "Karwiczki",
         "Kawno",
@@ -105966,9 +105793,9 @@ export const voivodeship = {
         "Darskowo",
         "Białęcino",
         "Zielenica",
-        "Borkowo"
+        "Borkowo",
       ],
-      "Postomino": [
+      Postomino: [
         "Kłośnik",
         "Wykroty",
         "Królewice",
@@ -106005,11 +105832,11 @@ export const voivodeship = {
         "Marszewo",
         "Ronino",
         "Korlino",
-        "Królewo"
-      ]
+        "Królewo",
+      ],
     },
-    "stargardzki": {
-      "Stargard": [
+    stargardzki: {
+      Stargard: [
         "Koszewko",
         "Koszewo",
         "Krąpiel",
@@ -106057,9 +105884,9 @@ export const voivodeship = {
         "Tychowo",
         "Radziszewo",
         "Witkowo Drugie",
-        "Golina"
+        "Golina",
       ],
-      "Chociwel": [
+      Chociwel: [
         "Kamionka",
         "Mokrzyca",
         "Płątkowo",
@@ -106083,9 +105910,9 @@ export const voivodeship = {
         "Długie",
         "Bobrowniki",
         "Bród",
-        "Wieleń Pomorski"
+        "Wieleń Pomorski",
       ],
-      "Dobrzany": [
+      Dobrzany: [
         "Kielno",
         "Grabnica",
         "Dobrzany",
@@ -106103,9 +105930,9 @@ export const voivodeship = {
         "Kozy",
         "Ognica",
         "Dolice",
-        "Sierakowo"
+        "Sierakowo",
       ],
-      "Dolice": [
+      Dolice: [
         "Komorowo",
         "Smardyń",
         "Szemielino",
@@ -106135,9 +105962,9 @@ export const voivodeship = {
         "Żalęcino",
         "Rzeplino",
         "Bralęcin",
-        "Dobropole Pyrzyckie"
+        "Dobropole Pyrzyckie",
       ],
-      "Ińsko": [
+      Ińsko: [
         "Okole",
         "Kozia Góra",
         "Miałka",
@@ -106160,9 +105987,9 @@ export const voivodeship = {
         "Ciemnik",
         "Studnica",
         "Wierzchucice",
-        "Ścienne"
+        "Ścienne",
       ],
-      "Kobylanka": [
+      Kobylanka: [
         "Nowe Kunowo",
         "Gajęcki Ług",
         "Morawsko",
@@ -106181,9 +106008,9 @@ export const voivodeship = {
         "Bielkowo",
         "Rekowo",
         "Morzyczyn",
-        "Niedźwiedź"
+        "Niedźwiedź",
       ],
-      "Marianowo": [
+      Marianowo: [
         "Kępy",
         "Krzywiec",
         "Trąbki",
@@ -106195,7 +106022,7 @@ export const voivodeship = {
         "Marianowo",
         "Czarnkowo",
         "Dzwonowo",
-        "Gogolewo"
+        "Gogolewo",
       ],
       "Stara Dąbrowa": [
         "Chlebowo",
@@ -106215,9 +106042,9 @@ export const voivodeship = {
         "Krzywnica",
         "Kicko",
         "Parlino",
-        "Białuń"
+        "Białuń",
       ],
-      "Suchań": [
+      Suchań: [
         "Podłęcze",
         "Ininy",
         "Suchanki",
@@ -106234,11 +106061,11 @@ export const voivodeship = {
         "Suchanówko",
         "Żukowo",
         "Nosowo",
-        "Tarnowo"
-      ]
+        "Tarnowo",
+      ],
     },
-    "szczecinecki": {
-      "Szczecinek": [
+    szczecinecki: {
+      Szczecinek: [
         "Trzebiechowo",
         "Kwakowo",
         "Mosinka",
@@ -106314,9 +106141,9 @@ export const voivodeship = {
         "Mosina",
         "Sitno",
         "Dziki",
-        "Brzeźno"
+        "Brzeźno",
       ],
-      "Barwice": [
+      Barwice: [
         "Chłopowo",
         "Uradz",
         "Żytnik",
@@ -106370,7 +106197,7 @@ export const voivodeship = {
         "Nowy Chwalim",
         "Stary Grabiąż",
         "Ostrowąsy",
-        "Polne"
+        "Polne",
       ],
       "Biały Bór": [
         "Łukowo",
@@ -106420,7 +106247,7 @@ export const voivodeship = {
         "Sępolno Małe",
         "Grabowo",
         "Sępolno Wielkie",
-        "Bielica"
+        "Bielica",
       ],
       "Borne Sulinowo": [
         "Śmiadowo-Kolonia",
@@ -106463,9 +106290,9 @@ export const voivodeship = {
         "Komorze",
         "Krągi",
         "Rakowo",
-        "Uniemino"
+        "Uniemino",
       ],
-      "Grzmiąca": [
+      Grzmiąca: [
         "Strzeszyn",
         "Klepary",
         "Kłośno",
@@ -106498,11 +106325,11 @@ export const voivodeship = {
         "Radusz",
         "Lubogoszcz",
         "Wielanowo",
-        "Krosino"
-      ]
+        "Krosino",
+      ],
     },
-    "świdwiński": {
-      "Świdwin": [
+    świdwiński: {
+      Świdwin: [
         "Kunowo",
         "Bierzwnica",
         "Stawiany",
@@ -106550,9 +106377,9 @@ export const voivodeship = {
         "Bierzwnica",
         "Lipce",
         "Świdwinek",
-        "Cieszeniewo"
+        "Cieszeniewo",
       ],
-      "Brzeżno": [
+      Brzeżno: [
         "Pęczerzyński Młyn",
         "Grądzkie",
         "Miłoszewice",
@@ -106572,7 +106399,7 @@ export const voivodeship = {
         "Słonowice",
         "Przyrzecze",
         "Mulite",
-        "Półchleb"
+        "Półchleb",
       ],
       "Połczyn-Zdrój": [
         "Tychówko",
@@ -106654,9 +106481,9 @@ export const voivodeship = {
         "Szeligowo",
         "Sucha",
         "Przyrowo",
-        "Nowe Resko"
+        "Nowe Resko",
       ],
-      "Rąbino": [
+      Rąbino: [
         "Racimierz",
         "Gręzino",
         "Polakowo",
@@ -106683,9 +106510,9 @@ export const voivodeship = {
         "Jezierzyce",
         "Nielep",
         "Modrzewiec",
-        "Gąsków"
+        "Gąsków",
       ],
-      "Sławoborze": [
+      Sławoborze: [
         "Międzyrzecko",
         "Pustowo",
         "Pomorce",
@@ -106712,11 +106539,11 @@ export const voivodeship = {
         "Sidłowo",
         "Kalina",
         "Rokosowo",
-        "Zagrody"
-      ]
+        "Zagrody",
+      ],
     },
-    "wałecki": {
-      "Wałcz": [
+    wałecki: {
+      Wałcz: [
         "Lipie",
         "Nakielno",
         "Rusinowo",
@@ -106789,9 +106616,9 @@ export const voivodeship = {
         "Rutwica",
         "Witankowo",
         "Przybkowo",
-        "Różewo"
+        "Różewo",
       ],
-      "Człopa": [
+      Człopa: [
         "Krąpiel",
         "Nałęcze",
         "Orzeń",
@@ -106827,9 +106654,9 @@ export const voivodeship = {
         "Mielęcin",
         "Załom",
         "Jaglice",
-        "Pieczyska"
+        "Pieczyska",
       ],
-      "Mirosławiec": [
+      Mirosławiec: [
         "Gniewosz",
         "Kalinówka",
         "Mirosławiec Górny",
@@ -106854,9 +106681,9 @@ export const voivodeship = {
         "Łowicz Wałecki",
         "Toporzyk",
         "Sadowo",
-        "Hanki"
+        "Hanki",
       ],
-      "Tuczno": [
+      Tuczno: [
         "Złotowo",
         "Wrzosy",
         "Nowa Studnica",
@@ -106884,11 +106711,11 @@ export const voivodeship = {
         "Nowa Studnica",
         "Płociczno",
         "Rusinowo",
-        "Jamienko"
-      ]
+        "Jamienko",
+      ],
     },
-    "łobeski": {
-      "Dobra": [
+    łobeski: {
+      Dobra: [
         "Kościelnik",
         "Dobra",
         "Wrześno",
@@ -106901,9 +106728,9 @@ export const voivodeship = {
         "Grzęzno",
         "Krzemienna",
         "Tucze",
-        "Wojtaszyce"
+        "Wojtaszyce",
       ],
-      "Łobez": [
+      Łobez: [
         "Kołdrąb",
         "Polakowo",
         "Rynowo",
@@ -106943,7 +106770,7 @@ export const voivodeship = {
         "Worowo",
         "Wysiedle",
         "Zajezierze",
-        "Zagórzyce"
+        "Zagórzyce",
       ],
       "Radowo Małe": [
         "Wołkowo",
@@ -106977,9 +106804,9 @@ export const voivodeship = {
         "Radowo Małe",
         "Radowo Wielkie",
         "Rekowo",
-        "Mołdawinek"
+        "Mołdawinek",
       ],
-      "Resko": [
+      Resko: [
         "Naćmierz",
         "Lubień Górny",
         "Komorowo",
@@ -107023,9 +106850,9 @@ export const voivodeship = {
         "Gardzin",
         "Iglice",
         "Lubień Dolny",
-        "Luboradz"
+        "Luboradz",
       ],
-      "Węgorzyno": [
+      Węgorzyno: [
         "Lesięcinek",
         "Łobzów",
         "Gościsław",
@@ -107064,11 +106891,11 @@ export const voivodeship = {
         "Trzebawie",
         "Wiewiecko",
         "Winniki",
-        "Zwierzynek"
-      ]
+        "Zwierzynek",
+      ],
     },
-    "Koszalin": {
-      "Koszalin": [
+    Koszalin: {
+      Koszalin: [
         "Żabowo",
         "Łabusz",
         "Jamno",
@@ -107088,11 +106915,11 @@ export const voivodeship = {
         "Kawiłęg",
         "Sarzyno",
         "Chełmki",
-        "Koszalin"
-      ]
+        "Koszalin",
+      ],
     },
-    "Szczecin": {
-      "Szczecin": [
+    Szczecin: {
+      Szczecin: [
         "Bolinko",
         "Łekno",
         "Osiedle-Załom",
@@ -107169,11 +106996,11 @@ export const voivodeship = {
         "Stare Miasto",
         "Śmierdnica",
         "Trzebusz",
-        "Szczecin"
-      ]
+        "Szczecin",
+      ],
     },
-    "Świnoujście": {
-      "Świnoujście": [
+    Świnoujście: {
+      Świnoujście: [
         "Chorzelin",
         "Warszów",
         "Paprotno",
@@ -107193,8 +107020,8 @@ export const voivodeship = {
         "Przytór",
         "Śpikorz",
         "Bożyce",
-        "Świnoujście"
-      ]
-    }
-  }
-}
+        "Świnoujście",
+      ],
+    },
+  },
+};
