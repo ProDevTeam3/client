@@ -16,13 +16,13 @@ import {
 import { voivodeship } from "../../../constants/voivodeship";
 import HomeAddress from "./Address";
 
-const RegisteredAddress = ({ ref }) => {
+const RegisteredAddress = ({ formikRef }) => {
   const [isUsingHomeAddress, setIsUsingHomeAddress] = useState(false);
 
   const currentVoivodeship =
-    ref?.current?.values?.registered_address?.voivodeship;
-  const currentDistrict = ref?.current?.values?.registered_address?.district;
-  const currentCommune = ref?.current?.values?.registered_address?.commune;
+  formikRef?.current?.values?.registered_address?.voivodeship;
+  const currentDistrict = formikRef?.current?.values?.registered_address?.district;
+  const currentCommune = formikRef?.current?.values?.registered_address?.commune;
 
   return (
     <Stack spacing={6}>

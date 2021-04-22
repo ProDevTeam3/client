@@ -10,11 +10,11 @@ import { voivodeship } from "../../../constants/voivodeship";
 import PropTypes from "prop-types";
 
 const HomeAddress = (props) => {
-  const { isDisabled, ref } = props ?? { isDisabled: false, ref: undefined };
+  const { isDisabled, formikRef } = props ?? { isDisabled: false, formikRef: undefined };
 
-  const currentVoivodeship = ref?.current?.values?.home_address?.voivodeship;
-  const currentDistrict = ref?.current?.values?.home_address?.district;
-  const currentCommune = ref?.current?.values?.home_address?.commune;
+  const currentVoivodeship = formikRef?.current?.values?.home_address?.voivodeship;
+  const currentDistrict = formikRef?.current?.values?.home_address?.district;
+  const currentCommune = formikRef?.current?.values?.home_address?.commune;
 
   return (
     <Stack spacing={6}>

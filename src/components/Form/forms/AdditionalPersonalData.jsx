@@ -16,8 +16,8 @@ import {
 } from "../../../constants/formData";
 import { countries } from "../../../constants/countries";
 
-const AdditionalPersonalData = ({ ref }) => {
-  const selectedSex = ref?.current?.values.sex;
+const AdditionalPersonalData = ({ formikRef }) => {
+  const selectedSex = formikRef?.current?.values.sex;
   const isMale = selectedSex === "M";
   const isFemale = selectedSex === "K";
 
@@ -51,9 +51,9 @@ const AdditionalPersonalData = ({ ref }) => {
       />
       <FormikField
         name="nationality"
-        label="Narodowść:"
+        label="Narodowość:"
         isRequired
-        validate={requiredValue("Stan cywilny jest wymagany")}
+        validate={requiredValue("Narodowość jest wymagana")}
       >
         <Select placeholder="Wybierz narodowość">
           {countries.map((country) => (
