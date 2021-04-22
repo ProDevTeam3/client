@@ -13,14 +13,14 @@ const PanelMain = () =>{
             <Route exact path={path}>
                 <Redirect to={path + "/citizenslist"} />
             </Route>
-            <Route exact path={path + "/statistics"}>
-                    <Statistics/>
+            <Route path={path + "/statistics"}>
+                <Statistics/>
             </Route>
-            <Route exact path={path + "/citizenslist"}>
-                     <CitizensList/>
+            <Route path={path + "/citizenslist"}>
+                <CitizensList/>
             </Route>
-            <Route exact path={path + "/editview"}>
-                     <EditView/>
+            <Route path={path + "/editview"}>
+                <EditView/>
             </Route>
         </Switch>
     )

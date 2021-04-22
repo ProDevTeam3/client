@@ -28,7 +28,7 @@ function App() {
           </AuthRoute>
           <AuthRoute children={AnkieterLogIn} exact path={"/login/ankieter"} />
           <Route exact path="/login" component={LogIn} />
-          <Route exact path="/admin" component={AdminPanel} />
+          <Route path="/admin" component={AdminPanel} />
         </Switch>
       </div>
     </BrowserRouter>
