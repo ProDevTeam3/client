@@ -126,15 +126,15 @@ const CitizensList = () => {
     <Center
       width="100%"
       bg="gray.100"
-      minH="100vh"
-      maxH="100vh"
+      minH="100%"
+      maxH="100%"
       d="flex"
       flexDir="column"
     >
       <Center
         width={{ md: "80%", base: "94%" }}
-        minH="73vh"
-        maxH="73vh"
+        minH="70vh"
+        maxH="70vh"
         display="flex"
         flexDir="column"
         boxShadow="xl"
@@ -315,7 +315,7 @@ const CitizensList = () => {
           )}
         </Box>
       </Center>
-      <Center paddingTop="2.5vh">
+      <Center paddingTop="1em">
         <Grid d="flex" flexDir="row">
           <IconButton
             aria-label="Previous page"

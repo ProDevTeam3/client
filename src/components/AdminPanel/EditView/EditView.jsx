@@ -48,7 +48,7 @@ const EditView = ({data}) => {
                 justifyContent="space-between"
                 padding="2"
                 paddingX="5"
-                bg="teal"
+                bg="teal.500"
             >
             <Box
                 color="white"

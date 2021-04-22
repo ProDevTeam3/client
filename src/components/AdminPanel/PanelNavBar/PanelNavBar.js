@@ -22,6 +22,7 @@ const PanelNavBar = (props) => {
       padding="1.5rem"
       bg="teal.500"
       color="white"
+      height="100%"
     >
       <Box display={{ base: "block", md: "none" }} onClick={handleToggle}>
         <svg
@@ -42,25 +43,25 @@ const PanelNavBar = (props) => {
         flexGrow={1}
       >
         <MenuItems>
+        <Link as={ReachLink} to="/admin/citizenslist">
           <Button bg="transparent" border="1px">
-            <Link as={ReachLink} to="/admin/citizenslist">
               Lista osób
-            </Link>
           </Button>
+          </Link>
         </MenuItems>
         <MenuItems>
+          <Link as={ReachLink} to="/form">
           <Button bg="transparent" border="1px">
-              <Link as={ReachLink} to="/form">
                 Formularz
-              </Link>
           </Button>
+          </Link>
         </MenuItems>
         <MenuItems>
+          <Link as={ReachLink} to="/admin/statistics">
           <Button bg="transparent" border="1px">
-              <Link as={ReachLink} to="/admin/statistics">
                 Statystyki
-              </Link>
           </Button>
+          </Link>
         </MenuItems>
       </Box>
 
