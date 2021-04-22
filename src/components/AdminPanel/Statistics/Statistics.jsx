@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Box, Select, Center, Spinner, Tooltip, Slider, SliderTrack, SliderFilledTrack, SliderThumb, SimpleGrid } from "@chakra-ui/react";
 import StackedBarChart from "../../../charts/StackedBarChart/StackedBarChart";
 import { defaultAxios } from "../../../config/axios";
+import { useToast } from "@chakra-ui/react";
 
 const Statistics = () => {
   const defaultInput = {
@@ -18,6 +19,8 @@ const Statistics = () => {
 
   const [data, setData] = useState([]);
 
+  const toast = useToast();
+
   useEffect(() => {
     if (selectInput.label && selectInput.values) {
       defaultAxios
@@ -26,6 +29,15 @@ const Statistics = () => {
         })
         .then(({ data }) => {
           setData(data);
+        }).catch((error) => {
+          
+          toast({
+            title: "Error",
+            description: error.response.data,
+            status: "error",
+            duration: 5000,
+            isClosable: true,
+          })
         });
     }
   }, [selectInput, quantity]);
@@ -58,7 +70,7 @@ const Statistics = () => {
   };
 
   const handleLoading = () =>
-    data.length > 0 ? (
+    data?.length > 0 ? (
       <StackedBarChart data={data} />
     ) : (
       <Spinner
