@@ -34,8 +34,6 @@ const CitizensList = () => {
   const getCit = async () => {
     const data = await getAllCitizens(currentPage - 1, pageSize);
 
-    console.log(data);
-
     if (data !== "Nie znaleziono obywateli" && data) {
       citizensUpd(data);
     } else {
@@ -236,7 +234,7 @@ const CitizensList = () => {
           width="100%"
           padding={{ base: "0 5%", lg: "0 10%" }}
           height="80vh"
-        >{console.log(citizens)}
+        >
           {citizens.citizens.length > 0 ? (
             citizens.citizens.map((item, i) => {
               return (

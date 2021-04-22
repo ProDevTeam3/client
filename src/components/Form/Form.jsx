@@ -26,6 +26,8 @@ import AdditionalInfo from "./forms/AdditionalInfo";
 import CheckData from "./forms/CheckData";
 import { FormStrings } from "../../constants/strings";
 import { useAuth0 } from "@auth0/auth0-react";
+import { Link } from "react-router-dom";
+import AuthRoute from "../AuthRoute/AuthRoute";
 
 const formsSections = [
   "Dane osobowe",
@@ -72,7 +74,7 @@ const Form = () => {
   const GUSLogo =
     "https://spis.gov.pl/wp-content/uploads/2021/01/cropped-logo-nsp.png";
 
-  const { logout } = useAuth0();
+  const { logout, user } = useAuth0();
 
   return (
     <Center
@@ -82,7 +84,23 @@ const Form = () => {
       bg="gray.100"
       paddingTop="10"
     >
-      <Box position="absolute" top="20px" right="20px" zIndex="2">
+      {(user["https://prodevteam-spis.com/authorization"].groups.includes("Admin")) ? 
+      <Box position="absolute" top="20px" left="20px" zIndex='2'>
+      <Link to="/admin">
+        <Button
+          bg="teal.400"
+          _hover={{
+            bg:"teal.300"
+          }}
+          color="white"
+        >
+          Panel administratora
+        </Button>
+      </Link>
+    </Box> :
+    <Box display='none'></Box>}
+      
+      <Box position="absolute" top="20px" right="20px" zIndex='2'>
         <Button
           onClick={() => logout({ returnTo: window.location.origin })}
           bg="gray.300"
@@ -90,6 +108,23 @@ const Form = () => {
           Wyloguj się
         </Button>
       </Box>
+      {(user["https://prodevteam-spis.com/authorization"].groups.includes("Admin")) ? 
+        <Box
+        position="absolute"
+        top="0"
+        justifyContent={{ base: "left", md: "center" }}
+        d={{base: "none", md: "flex"}}
+        width="100%"
+        padding={{ base: "27px 5%", sm: "20px 5%", md: "20px 0" }}
+      >
+        <Image
+          objectFit="cover"
+          src={GUSLogo}
+          alt="GUS Logo"
+          width={{ base: "190px", sm: "300px", md: "300px" }}
+          filter="grayscale(100%) opacity(30%)"
+        />
+      </Box> :
       <Box
         position="absolute"
         top="0"
@@ -106,6 +141,7 @@ const Form = () => {
           filter="grayscale(100%) opacity(30%)"
         />
       </Box>
+      }
       <Box
         boxShadow="xl"
         width="100%"
