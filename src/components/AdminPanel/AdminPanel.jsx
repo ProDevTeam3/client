@@ -11,7 +11,7 @@ const AdminPanel = () =>{
     if (isAuthenticated && !isLoading && user["https://prodevteam-spis.com/authorization"].groups.includes("Admin")){
         return(
             <Stack width="100vw">
-                <Box height="12vh" width="100%">
+                <Box height="64px" width="100%" bg="teal.500" display="flex" alignItems="center">
                     <PanelNavBar/>
                 </Box>
                 <Box style={{marginTop:"0"}} height="88vh" width="100%">
