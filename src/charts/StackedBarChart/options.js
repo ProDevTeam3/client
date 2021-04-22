@@ -15,7 +15,7 @@ const generateOptions = (series) => ({
     enabled: false,
   },
   xaxis: {
-    categories: series.labels
+    categories: series.labels,
   },
   yaxis: {
     labels: {
