@@ -1,5 +1,18 @@
-import React from "react"
-import { Box, Heading, Flex, Text, Button, Link, useMediaQuery, IconButton, Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
+import React from "react";
+import {
+  Box,
+  Heading,
+  Flex,
+  Text,
+  Button,
+  Link,
+  useMediaQuery,
+  IconButton,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+} from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { useAuth0 } from "@auth0/auth0-react";
 import { Link as ReachLink, useHistory } from "react-router-dom";
@@ -12,11 +25,10 @@ const MenuItems = ({ children }) => (
 
 const PanelNavBar = (props) => {
   const { logout } = useAuth0();
-  const [show, setShow] = React.useState(false);
   const [isLargerThan900] = useMediaQuery("(min-width: 900px)");
   const history = useHistory();
-  return isLargerThan900 ?
-    (<Flex
+  return isLargerThan900 ? (
+    <Flex
       as="nav"
       align="center"
       justify="space-between"
@@ -65,7 +77,7 @@ const PanelNavBar = (props) => {
       </Box>
 
       <Box
-        display={{ sm: show ? "block" : "none", md: "block" }}
+        display={{ sm: "block", md: "block" }}
         mt={{ base: 4, md: 0 }}
       >
         <Button
@@ -75,8 +87,9 @@ const PanelNavBar = (props) => {
           Wyloguj
         </Button>
       </Box>
-    </Flex >)
-    : (<Menu>
+    </Flex>
+  ) : (
+    <Menu>
       <MenuButton
         as={IconButton}
         aria-label="Options"
@@ -87,18 +100,17 @@ const PanelNavBar = (props) => {
       <MenuList zIndex={1000}>
         <MenuItem onClick={() => history.push("/admin/citizenslist")}>
           Lista osób
-      </MenuItem>
-        <MenuItem onClick={() => history.push("/form")}>
-          Formularz
-      </MenuItem>
+        </MenuItem>
+        <MenuItem onClick={() => history.push("/form")}>Formularz</MenuItem>
         <MenuItem onClick={() => history.push("/admin/statistics")}>
           Statystyki
-      </MenuItem>
+        </MenuItem>
         <MenuItem onClick={() => logout({ returnTo: window.location.origin })}>
           Wyloguj
-      </MenuItem>
+        </MenuItem>
       </MenuList>
-    </Menu>);
+    </Menu>
+  );
 };
 
 export default PanelNavBar;
