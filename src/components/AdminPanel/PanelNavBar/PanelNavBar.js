@@ -43,24 +43,32 @@ const PanelNavBar = (props) => {
         flexGrow={1}
       >
         <MenuItems>
-        <Link as={ReachLink} to="/admin/citizenslist">
-          <Button bg="transparent" border="1px">
+          <Link
+            as={ReachLink}
+            to="/admin/citizenslist"
+            style={{ textDecoration: "none" }}
+          >
+            <Button bg="transparent" border="1px">
               Lista osób
-          </Button>
+            </Button>
           </Link>
         </MenuItems>
         <MenuItems>
-          <Link as={ReachLink} to="/form">
-          <Button bg="transparent" border="1px">
-                Formularz
-          </Button>
+          <Link as={ReachLink} to="/form" style={{ textDecoration: "none" }}>
+            <Button bg="transparent" border="1px">
+              Formularz
+            </Button>
           </Link>
         </MenuItems>
         <MenuItems>
-          <Link as={ReachLink} to="/admin/statistics">
-          <Button bg="transparent" border="1px">
-                Statystyki
-          </Button>
+          <Link
+            as={ReachLink}
+            to="/admin/statistics"
+            style={{ textDecoration: "none" }}
+          >
+            <Button bg="transparent" border="1px">
+              Statystyki
+            </Button>
           </Link>
         </MenuItems>
       </Box>
