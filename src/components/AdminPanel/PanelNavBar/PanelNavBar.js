@@ -51,16 +51,12 @@ const PanelNavBar = (props) => {
             to="/admin/citizenslist"
             style={{ textDecoration: "none" }}
           >
-            <Button colorScheme="gray">
-              Lista osób
-            </Button>
+            <Button colorScheme="gray">Lista osób</Button>
           </Link>
         </MenuItems>
         <MenuItems>
           <Link as={ReachLink} to="/form" style={{ textDecoration: "none" }}>
-            <Button colorScheme="gray">
-              Formularz
-            </Button>
+            <Button colorScheme="gray">Formularz</Button>
           </Link>
         </MenuItems>
         <MenuItems>
@@ -69,17 +65,12 @@ const PanelNavBar = (props) => {
             to="/admin/statistics"
             style={{ textDecoration: "none" }}
           >
-            <Button colorScheme="gray">
-              Statystyki
-            </Button>
+            <Button colorScheme="gray">Statystyki</Button>
           </Link>
         </MenuItems>
       </Box>
 
-      <Box
-        display={{ sm: "block", md: "block" }}
-        mt={{ base: 4, md: 0 }}
-      >
+      <Box display={{ sm: "block", md: "block" }} mt={{ base: 4, md: 0 }}>
         <Button
           colorScheme="gray"
           onClick={() => logout({ returnTo: window.location.origin })}
