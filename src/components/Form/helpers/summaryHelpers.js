@@ -1,4 +1,5 @@
 import { Badge, Divider, Tag, Checkbox } from "@chakra-ui/react";
+import lodash from "lodash";
 
 const name_converts = {
   first_name: "Imię",
@@ -45,7 +46,7 @@ const change_name = (name) => {
 };
 
 export const objectToArray = (obj) =>
-  Object.keys(obj).map((key) => [key, obj[key]]);
+  Object.keys(lodash.omit(obj, ["_id"])).map((key) => [key, obj[key]]);
 
 const convertBoolean = (value) => {
   if (value === "true" || value === "false") {
