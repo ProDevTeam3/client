@@ -1,0 +1,67 @@
+@use "../../theme/colors.scss";
+
+.page {
+  height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(220, 20, 60, 1) 50%
+  );
+
+  .card {
+    height: 70%;
+    width: 50%;
+    max-width: 50vw;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid colors.$border-gray;
+    margin-top: 10%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 7px 30px 0px colors.$background-shadow-gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+
+    .badge {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      background-color: colors.$flag-red;
+      padding-left: 80px;
+      padding-right: 80px;
+      transform: translateX(130px) rotateZ(40deg) translateY(60px);
+      color: colors.$flag-white;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      img {
+        max-width: 80%;
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .card {
+      width: 75%;
+      max-width: 100vw;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .card {
+      width: 90%;
+      max-width: 100vw;
+    }
+  }
+}
