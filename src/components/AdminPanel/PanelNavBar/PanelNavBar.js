@@ -1,6 +1,7 @@
 import React from "react";
-import { Box, Heading, Flex, Text, Button } from "@chakra-ui/react";
+import { Box, Heading, Flex, Text, Button, Link } from "@chakra-ui/react";
 import { useAuth0 } from "@auth0/auth0-react";
+import { Link as ReachLink } from "react-router-dom";
 
 const MenuItems = ({ children }) => (
   <Text mt={{ base: 4, md: 0 }} mr={2} display="block">
@@ -42,17 +43,23 @@ const PanelNavBar = (props) => {
       >
         <MenuItems>
           <Button bg="transparent" border="1px">
-            Lista osób
+            <Link as={ReachLink} to="/admin/citizenslist">
+              Lista osób
+            </Link>
           </Button>
         </MenuItems>
         <MenuItems>
           <Button bg="transparent" border="1px">
-            Formularz
+              <Link as={ReachLink} to="/form">
+                Formularz
+              </Link>
           </Button>
         </MenuItems>
         <MenuItems>
           <Button bg="transparent" border="1px">
-            Statystyki
+              <Link as={ReachLink} to="/admin/statistics">
+                Statystyki
+              </Link>
           </Button>
         </MenuItems>
       </Box>
