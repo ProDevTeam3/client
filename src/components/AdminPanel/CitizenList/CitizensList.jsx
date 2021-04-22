@@ -8,6 +8,7 @@ import {
   InputGroup,
   InputLeftElement,
   InputRightElement,
+  Text
 } from "@chakra-ui/react";
 import {
   ArrowRightIcon,
@@ -261,52 +262,57 @@ const CitizensList = () => {
                     justifyContent="space-around"
                     flexDir="row"
                     flexWrap="wrap"
-                    onClick={(e) => {}}
                   >
                     <Box
                       d="flex"
                       flexDir="row"
-                      padding={{ base: "0 10px", sm: "0" }}
+                      padding={{ base: "0 10px", sm: "0 0 0 15px" }}
+                      width={{sm: "33.33%", base: "100%" }}
                     >
                       <Box
                         fontSize={{ md: "0.6em", sm: "0.5em", base: "0.6em" }}
                         fontWeight="bold"
                         color="gray.400"
                         lineHeight="3em"
+                        maxWidth="100%"
                       >
-                        PESEL&nbsp;
+                       <Text isTruncated>PESEL</Text>
                       </Box>
-                      <Box>{item.PESEL}</Box>
+                      <Box paddingLeft="3px" isTruncated>{item.PESEL}</Box>
                     </Box>
                     <Box
                       d="flex"
                       flexDir="row"
-                      padding={{ base: "0 10px", sm: "0" }}
+                      padding={{ base: "0 10px", sm: "0 0 0 15px" }}
+                      width={{sm: "33.33%", base: "50%" }}
                     >
                       <Box
                         fontSize={{ md: "0.6em", sm: "0.5em", base: "0.6em" }}
                         fontWeight="bold"
                         color="gray.400"
                         lineHeight="3em"
+                        maxWidth="100%"
                       >
-                        IMIĘ&nbsp;
+                        <Text>IMIĘ</Text>
                       </Box>
-                      <Box>{item.first_name}</Box>
+                      <Box paddingLeft="3px" isTruncated>{item.first_name}</Box>
                     </Box>
                     <Box
                       d="flex"
                       flexDir="row"
-                      padding={{ base: "0 10px", sm: "0" }}
+                      padding={{ base: "0 10px", sm: "0 0 0 15px" }}
+                      width={{sm: "33.33%", base: "50%" }}
                     >
                       <Box
                         fontSize={{ md: "0.6em", sm: "0.5em", base: "0.6em" }}
                         fontWeight="bold"
                         color="gray.400"
                         lineHeight={{ md: "3em", base: "3em" }}
+                        maxWidth="100%"
                       >
-                        NAZWISKO&nbsp;
+                        <Text>NAZWISKO</Text>
                       </Box>
-                      <Box>{item.surname}</Box>
+                      <Box paddingLeft="3px" isTruncated>{item.surname}</Box>
                     </Box>
                   </Grid>
                 </Link>
