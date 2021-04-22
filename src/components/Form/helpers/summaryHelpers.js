@@ -46,7 +46,7 @@ const change_name = (name) => {
 };
 
 export const objectToArray = (obj) =>
-  Object.keys(lodash.omit(obj, ['_id'])).map((key) => [key, obj[key]]);
+  Object.keys(lodash.omit(obj, ["_id"])).map((key) => [key, obj[key]]);
 
 const convertBoolean = (value) => {
   if (value === "true" || value === "false") {
