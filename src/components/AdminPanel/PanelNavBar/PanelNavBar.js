@@ -1,5 +1,18 @@
-import React from "react"
-import { Box, Heading, Flex, Text, Button, Link, useMediaQuery, IconButton, Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
+import React from "react";
+import {
+  Box,
+  Heading,
+  Flex,
+  Text,
+  Button,
+  Link,
+  useMediaQuery,
+  IconButton,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+} from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { useAuth0 } from "@auth0/auth0-react";
 import { Link as ReachLink, useHistory } from "react-router-dom";
@@ -16,8 +29,8 @@ const PanelNavBar = (props) => {
   const handleToggle = () => setShow((oldState) => !oldState);
   const [isLargerThan900] = useMediaQuery("(min-width: 900px)");
   const history = useHistory();
-  return isLargerThan900 ?
-    (<Flex
+  return isLargerThan900 ? (
+    <Flex
       as="nav"
       align="center"
       justify="space-between"
@@ -29,8 +42,7 @@ const PanelNavBar = (props) => {
       height="100%"
       width="100%"
     >
-      < Box display={{ base: "block", md: "none" }
-      } onClick={handleToggle} >
+      <Box display={{ base: "block", md: "none" }} onClick={handleToggle}>
         <svg
           fill="white"
           width="12px"
@@ -40,7 +52,7 @@ const PanelNavBar = (props) => {
           <title>Menu</title>
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
         </svg>
-      </Box >
+      </Box>
 
       <Box
         display={{ sm: show ? "block" : "none", md: "flex" }}
@@ -91,8 +103,9 @@ const PanelNavBar = (props) => {
           Wyloguj
         </Button>
       </Box>
-    </Flex >)
-    : (<Menu>
+    </Flex>
+  ) : (
+    <Menu>
       <MenuButton
         as={IconButton}
         aria-label="Options"
@@ -103,18 +116,17 @@ const PanelNavBar = (props) => {
       <MenuList zIndex={1000}>
         <MenuItem onClick={() => history.push("/admin/citizenslist")}>
           Lista osób
-      </MenuItem>
-        <MenuItem onClick={() => history.push("/form")}>
-          Formularz
-      </MenuItem>
+        </MenuItem>
+        <MenuItem onClick={() => history.push("/form")}>Formularz</MenuItem>
         <MenuItem onClick={() => history.push("/admin/statistics")}>
           Statystyki
-      </MenuItem>
+        </MenuItem>
         <MenuItem onClick={() => logout({ returnTo: window.location.origin })}>
           Wyloguj
-      </MenuItem>
+        </MenuItem>
       </MenuList>
-    </Menu>);
+    </Menu>
+  );
 };
 
 export default PanelNavBar;
