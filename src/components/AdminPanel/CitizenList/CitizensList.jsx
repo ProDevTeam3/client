@@ -204,16 +204,27 @@ const CitizensList = () => {
                   children={
                     search.toString().length === 11 &&
                     citizens.citizens.length === 1 ? (
-                      <CheckIcon color="green.400" transition="0.2s" _hover={{color: "green.500"}} _active={{color: "green.600"}}/>
+                      <CheckIcon
+                        color="green.400"
+                        transition="0.2s"
+                        _hover={{ color: "green.500" }}
+                        _active={{ color: "green.600" }}
+                      />
                     ) : search.toString().length === 11 &&
                       citizens.citizens.length === 0 ? (
-                      <SmallCloseIcon color="red.400" fontSize="1.4em" transition="0.2s" _hover={{color: "red.500"}} _active={{color: "red.600"}}/>
+                      <SmallCloseIcon
+                        color="red.400"
+                        fontSize="1.4em"
+                        transition="0.2s"
+                        _hover={{ color: "red.500" }}
+                        _active={{ color: "red.600" }}
+                      />
                     ) : (
                       <SmallCloseIcon color="white" />
                     )
                   }
                   onClick={(e) => {
-                    searchUpd('');
+                    searchUpd("");
                   }}
                 />
               </InputGroup>

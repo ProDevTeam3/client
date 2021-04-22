@@ -15,5 +15,4 @@ const AdminPanel = () =>{
         </Stack>
     )
 }
-
 export default AdminPanel;

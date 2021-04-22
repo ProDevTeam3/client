@@ -13,11 +13,16 @@ import {
   correctPostalCode,
   requiredValue,
 } from "../helpers/validators";
-import { voivodeships } from "../../../constants/formData";
+import { voivodeship } from "../../../constants/voivodeship";
 import HomeAddress from "./Address";
 
-const RegisteredAddress = () => {
+const RegisteredAddress = ({ ref }) => {
   const [isUsingHomeAddress, setIsUsingHomeAddress] = useState(false);
+
+  const currentVoivodeship =
+    ref?.current?.values?.registered_address?.voivodeship;
+  const currentDistrict = ref?.current?.values?.registered_address?.district;
+  const currentCommune = ref?.current?.values?.registered_address?.commune;
 
   return (
     <Stack spacing={6}>
@@ -42,7 +47,9 @@ const RegisteredAddress = () => {
             validate={requiredValue("Kraj jest wymagany")}
             errorPath={(errors) => errors?.registered_address?.country}
           >
-            <Input type="text" />
+            <Select placeholder="Wybierz kraj">
+              <option value="Polska">Polska</option>
+            </Select>
           </FormikField>
           <FormikField
             name="registered_address.voivodeship"
@@ -51,14 +58,25 @@ const RegisteredAddress = () => {
             validate={requiredValue("Województwo jest wymagane")}
             errorPath={(errors) => errors?.registered_address?.voivodeship}
           >
-            <Select
-              name="voivodeship"
-              id="voivodeship"
-              placeholder="Województwo"
-            >
-              {voivodeships.map((voivodeship) => (
-                <option value={voivodeship}>{voivodeship}</option>
+            <Select placeholder="Wybierz województwo">
+              {Object.keys(voivodeship).map((voivodeshipName) => (
+                <option value={voivodeshipName}>{voivodeshipName}</option>
               ))}
+            </Select>
+          </FormikField>
+          <FormikField
+            name="registered_address.district"
+            label="Powiat:"
+            isRequired
+            validate={requiredValue("Powiat jest wymagany")}
+            errorPath={(errors) => errors?.registered_address?.district}
+          >
+            <Select placeholder="Wybierz powiat">
+              {Object.keys(voivodeship[currentVoivodeship] ?? {}).map(
+                (districtName) => (
+                  <option value={districtName}>{districtName}</option>
+                )
+              )}
             </Select>
           </FormikField>
           <FormikField
@@ -68,16 +86,13 @@ const RegisteredAddress = () => {
             validate={requiredValue("Gmina jest wymagana")}
             errorPath={(errors) => errors?.registered_address?.commune}
           >
-            <Input type="text" />
-          </FormikField>
-          <FormikField
-            name="registered_address.district"
-            label="Powiat:"
-            isRequired
-            validate={requiredValue("Powiat jest wymagany")}
-            errorPath={(errors) => errors?.registered_address?.district}
-          >
-            <Input type="text" />
+            <Select placeholder="Wybierz gminę">
+              {Object.keys(
+                voivodeship[currentVoivodeship]?.[currentDistrict] ?? {}
+              ).map((communeName) => (
+                <option value={communeName}>{communeName}</option>
+              ))}
+            </Select>
           </FormikField>
           <FormikField
             name="registered_address.city"
@@ -86,7 +101,15 @@ const RegisteredAddress = () => {
             validate={requiredValue("Miasto jest wymagane")}
             errorPath={(errors) => errors?.registered_address?.city}
           >
-            <Input />
+            <Select placeholder="Wybierz miasto">
+              {(
+                voivodeship[currentVoivodeship]?.[currentDistrict]?.[
+                  currentCommune
+                ] ?? []
+              ).map((city) => (
+                <option value={city}>{city}</option>
+              ))}
+            </Select>
           </FormikField>
           <FormikField
             name="registered_address.postal_code"
