@@ -1,6 +1,7 @@
 import React from "react";
-import { Box, Heading, Flex, Text, Button } from "@chakra-ui/react";
+import { Box, Heading, Flex, Text, Button, Link } from "@chakra-ui/react";
 import { useAuth0 } from "@auth0/auth0-react";
+import { Link as ReachLink } from "react-router-dom";
 
 const MenuItems = ({ children }) => (
   <Text mt={{ base: 4, md: 0 }} mr={2} display="block">
@@ -21,6 +22,7 @@ const PanelNavBar = (props) => {
       padding="1.5rem"
       bg="teal.500"
       color="white"
+      height="100%"
     >
       <Box display={{ base: "block", md: "none" }} onClick={handleToggle}>
         <svg
@@ -41,19 +43,33 @@ const PanelNavBar = (props) => {
         flexGrow={1}
       >
         <MenuItems>
-          <Button bg="transparent" border="1px">
-            Lista osób
-          </Button>
+          <Link
+            as={ReachLink}
+            to="/admin/citizenslist"
+            style={{ textDecoration: "none" }}
+          >
+            <Button bg="transparent" border="1px">
+              Lista osób
+            </Button>
+          </Link>
         </MenuItems>
         <MenuItems>
-          <Button bg="transparent" border="1px">
-            Formularz
-          </Button>
+          <Link as={ReachLink} to="/form" style={{ textDecoration: "none" }}>
+            <Button bg="transparent" border="1px">
+              Formularz
+            </Button>
+          </Link>
         </MenuItems>
         <MenuItems>
-          <Button bg="transparent" border="1px">
-            Statystyki
-          </Button>
+          <Link
+            as={ReachLink}
+            to="/admin/statistics"
+            style={{ textDecoration: "none" }}
+          >
+            <Button bg="transparent" border="1px">
+              Statystyki
+            </Button>
+          </Link>
         </MenuItems>
       </Box>
 
