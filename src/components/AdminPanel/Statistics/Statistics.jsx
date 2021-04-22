@@ -71,43 +71,50 @@ const Statistics = () => {
       minH="100%"
       maxH="100%"
       d="flex"
-      flexDir="column">
-        <Box width={{ md: "80%", base: "94%" }} boxShadow="xl" borderRadius="lg">
-      <Center justify="center" bg="teal" width="100%" borderTopRadius="lg" height="10vh" >
-        <Box width="100%" display="flex" justifyContent="space-evenly">
-          <Tooltip hasArrow label="Pogrupuj po">
-          <Select
-            width="35%"
-            bg="white"
-            value={selectInput.label}
-            onChange={(e) => handleLabelChange(e.target.value)}
-          >
-            {Object.keys(labels).map((next) => (
-              <option value={next} key={next}>
-                {labels[next]}
-              </option>
-            ))}
-          </Select>
-          </Tooltip>
-          <Tooltip hasArrow label="Wybierz wartość">
-          <Select
-            width="35%"
-            bg="white"
-            value={selectInput.values}
-            onChange={(e) => handleValuesChange(e.target.value)}
-          >
-            {Object.keys(values).map((next) => (
-              <option value={next} key={next}>
-                {values[next]}
-              </option>
-            ))}
-          </Select>
-          </Tooltip>
-        </Box>
-      </Center>
-      <Center width="100%" height="67.5vh" bg="white" borderBottomRadius="lg">
-        {handleLoading()}
-      </Center>
+      flexDir="column"
+    >
+      <Box width={{ md: "80%", base: "94%" }} boxShadow="xl" borderRadius="lg">
+        <Center
+          justify="center"
+          bg="teal"
+          width="100%"
+          borderTopRadius="lg"
+          height="10vh"
+        >
+          <Box width="100%" display="flex" justifyContent="space-evenly">
+            <Tooltip hasArrow label="Pogrupuj po">
+              <Select
+                width="35%"
+                bg="white"
+                value={selectInput.label}
+                onChange={(e) => handleLabelChange(e.target.value)}
+              >
+                {Object.keys(labels).map((next) => (
+                  <option value={next} key={next}>
+                    {labels[next]}
+                  </option>
+                ))}
+              </Select>
+            </Tooltip>
+            <Tooltip hasArrow label="Wybierz wartość">
+              <Select
+                width="35%"
+                bg="white"
+                value={selectInput.values}
+                onChange={(e) => handleValuesChange(e.target.value)}
+              >
+                {Object.keys(values).map((next) => (
+                  <option value={next} key={next}>
+                    {values[next]}
+                  </option>
+                ))}
+              </Select>
+            </Tooltip>
+          </Box>
+        </Center>
+        <Center width="100%" height="67.5vh" bg="white" borderBottomRadius="lg">
+          {handleLoading()}
+        </Center>
       </Box>
     </Center>
   );

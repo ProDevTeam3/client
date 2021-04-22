@@ -9,15 +9,17 @@ import {
 } from "@chakra-ui/react";
 import FormikField from "./FormikField";
 import { requiredValue } from "../helpers/validators";
-import { education, maritalFemale, maritalMale } from "../../../constants/formData";
+import {
+  education,
+  maritalFemale,
+  maritalMale,
+} from "../../../constants/formData";
 import { countries } from "../../../constants/countries";
 
 const AdditionalPersonalData = ({ ref }) => {
-
   const selectedSex = ref?.current?.values.sex;
   const isMale = selectedSex === "M";
   const isFemale = selectedSex === "K";
-
 
   return (
     <Stack spacing={6}>
@@ -66,9 +68,11 @@ const AdditionalPersonalData = ({ ref }) => {
         validate={requiredValue("Stan cywilny jest wymagany")}
       >
         <Select placeholder="Wybierz stan cywilny">
-          {(isMale ? maritalMale : isFemale ? maritalFemale : []).map((maritalStatus) => (
-            <option value={maritalStatus}>{maritalStatus}</option>
-          ))}
+          {(isMale ? maritalMale : isFemale ? maritalFemale : []).map(
+            (maritalStatus) => (
+              <option value={maritalStatus}>{maritalStatus}</option>
+            )
+          )}
         </Select>
       </FormikField>
       <FormikField

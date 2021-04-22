@@ -6,7 +6,7 @@ const CheckData = ({ ref }) => {
   const [data, setData] = useState([]);
 
   const getData = () => {
-    setData(objectToArray(ref?.current?.values))
+    setData(objectToArray(ref?.current?.values));
   };
 
   return (
