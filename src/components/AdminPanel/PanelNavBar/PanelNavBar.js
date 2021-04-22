@@ -13,7 +13,6 @@ const MenuItems = ({ children }) => (
 const PanelNavBar = (props) => {
   const { logout } = useAuth0();
   const [show, setShow] = React.useState(false);
-  const handleToggle = () => setShow((oldState) => !oldState);
   const [isLargerThan900] = useMediaQuery("(min-width: 900px)");
   const history = useHistory();
   return isLargerThan900 ?
@@ -25,25 +24,11 @@ const PanelNavBar = (props) => {
       paddingLeft="30px"
       paddingRight="30px"
       bg="teal.500"
-      color="white"
       height="100%"
       width="100%"
     >
-      < Box display={{ base: "block", md: "none" }
-      } onClick={handleToggle} >
-        <svg
-          fill="white"
-          width="12px"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <title>Menu</title>
-          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-        </svg>
-      </Box >
-
       <Box
-        display={{ sm: show ? "block" : "none", md: "flex" }}
+        display={{ sm: "block", md: "flex" }}
         width={{ sm: "full", md: "auto" }}
         alignItems="center"
         flexGrow={1}
@@ -54,14 +39,14 @@ const PanelNavBar = (props) => {
             to="/admin/citizenslist"
             style={{ textDecoration: "none" }}
           >
-            <Button bg="transparent" border="1px">
+            <Button colorScheme="gray">
               Lista osób
             </Button>
           </Link>
         </MenuItems>
         <MenuItems>
           <Link as={ReachLink} to="/form" style={{ textDecoration: "none" }}>
-            <Button bg="transparent" border="1px">
+            <Button colorScheme="gray">
               Formularz
             </Button>
           </Link>
@@ -72,7 +57,7 @@ const PanelNavBar = (props) => {
             to="/admin/statistics"
             style={{ textDecoration: "none" }}
           >
-            <Button bg="transparent" border="1px">
+            <Button colorScheme="gray">
               Statystyki
             </Button>
           </Link>
@@ -84,8 +69,7 @@ const PanelNavBar = (props) => {
         mt={{ base: 4, md: 0 }}
       >
         <Button
-          bg="transparent"
-          border="1px"
+          colorScheme="gray"
           onClick={() => logout({ returnTo: window.location.origin })}
         >
           Wyloguj
