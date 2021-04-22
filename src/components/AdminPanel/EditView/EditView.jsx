@@ -12,10 +12,14 @@ import {
 
 import { objectToArray, elementCheck } from "../../Form/helpers/summaryHelpers";
 import { Link } from "@chakra-ui/react";
-import { Link as ReachLink } from "react-router-dom";
+import { Link as ReachLink, useLocation, useHistory } from "react-router-dom";
+
+import { getCitizen } from "../../../requests/citizensList";
+import { delCitizen } from "../../../requests/citizen";
 
 const EditView = ({ data }) => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const [citizen, citizenUpd] = useState(undefined);
   const onClose = () => setIsOpen(false);
   const cancelRef = React.useRef();
 
@@ -25,14 +29,28 @@ const EditView = ({ data }) => {
     ? objectToArray(data).map((elem) => elementCheck(elem[0], elem[1]))
     : "";
 
+  const getCitByPesel = async (pesel) => {
+    const data = await getCitizen(pesel);
+
+    if (data !== `Nie znaleziono obywatela o PESELU: ${pesel}` && data) {
+      citizenUpd(data);
+    } else {
+      citizenUpd(undefined);
+    }
+  };
+
+  let history = useHistory();
+
+  const location = useLocation();
+
+  const pesel = location.pathname.split("/")[3];
+
+  if (!citizen && pesel && !isNaN(pesel) && pesel.length === 11) {
+    getCitByPesel(pesel);
+  }
+
   return (
-    <Center
-      height="100vh"
-      width="100vw"
-      overflow="hidden"
-      bg="gray.100"
-      paddingTop="10"
-    >
+    <Center minH="100%" maxH="100%" overflow="hidden" bg="gray.100">
       <Box
         boxShadow="xl"
         width="100%"
@@ -41,7 +59,7 @@ const EditView = ({ data }) => {
         maxH="80vh"
         borderWidth="1px"
         borderRadius="lg"
-        overflow="scroll"
+        overflow="none"
         d="flex"
         flexDirection="column"
         justifyContent="space-between"
@@ -49,16 +67,17 @@ const EditView = ({ data }) => {
         zIndex="1"
       >
         <Box
-          boxShadow="md"
           d="flex"
           alignItems="center"
           justifyContent="space-between"
           padding="2"
           paddingX="5"
           bg="teal"
+          height="10vh"
+          borderTopRadius="lg"
         >
           <Box
-            color="white"
+            color={citizen ? "white" : "teal"}
             fontWeight="semibold"
             letterSpacing="wide"
             textTransform="uppercase"
@@ -66,7 +85,7 @@ const EditView = ({ data }) => {
             textAlign="center"
             width="100%"
           >
-            {imie} {nazwisko}
+            {citizen ? citizen.first_name + " " + citizen.surname : "|"}
           </Box>
         </Box>
         <Box
@@ -75,18 +94,23 @@ const EditView = ({ data }) => {
           letterSpacing="wide"
           fontSize="1.1em"
           textAlign="center"
+          height="70vh"
         >
-          <Box>
-            {/* <CheckData/> */}
-            {daneObywatela}
+          <Box height="57vh" overflowY="auto" padding="2vh 2vw">
+            {citizen ? (
+              <CheckData formikRef={{ current: { values: citizen } }} />
+            ) : (
+              "Nie znaleziono obywatela"
+            )}
           </Box>
-          <Box>
-            <Button colorScheme="teal" margin="20px 20px">
-              <Link as={ReachLink} to="/form" data={data}>
+          <Center height="13vh">
+            { citizen ? (
+            <Box>
+            <Link as={ReachLink} to="/form" data={data}>
+              <Button colorScheme="teal" margin="20px 20px">
                 Edytuj
-              </Link>
-            </Button>
-
+              </Button>
+            </Link>
             <Button
               colorScheme="red"
               onClick={() => setIsOpen(true)}
@@ -94,7 +118,12 @@ const EditView = ({ data }) => {
             >
               Usuń
             </Button>
-          </Box>
+            </Box>
+            ) : (
+              <Box></Box>
+            )
+            }
+          </Center>
         </Box>
       </Box>
 
@@ -118,7 +147,21 @@ const EditView = ({ data }) => {
               <Button ref={cancelRef} onClick={onClose}>
                 Anuluj
               </Button>
-              <Button colorScheme="red" onClick={onClose} ml={3}>
+              <Button
+                colorScheme="red"
+                onClick={async (e) => {
+                  if (
+                    (await delCitizen(citizen.PESEL)) ===
+                    `Usunięto obywatela o PESELU: ${citizen.PESEL}`
+                  ) {
+                    history.push("/admin/citizenslist");
+                    onClose();
+                  } else {
+                    onClose();
+                  }
+                }}
+                ml={3}
+              >
                 Usuń
               </Button>
             </AlertDialogFooter>

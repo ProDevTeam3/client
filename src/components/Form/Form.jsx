@@ -232,7 +232,7 @@ const Form = () => {
                     <TabPanels>
                       {formComponents.map((component, index) => (
                         <TabPanel key={component.name}>
-                          {component({ values, ref: formikRef })}
+                          {component({ values, formikRef: formikRef })}
                         </TabPanel>
                       ))}
                     </TabPanels>

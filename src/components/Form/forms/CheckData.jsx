@@ -2,11 +2,11 @@ import { Button } from "@chakra-ui/button";
 import React, { useState, useEffect } from "react";
 import { objectToArray, elementCheck } from "../helpers/summaryHelpers";
 
-const CheckData = ({ ref }) => {
+const CheckData = ({ formikRef }) => {
   const [data, setData] = useState([]);
 
   const getData = () => {
-    setData(objectToArray(ref?.current?.values));
+    setData(objectToArray(formikRef?.current?.values));
   };
 
   return (
