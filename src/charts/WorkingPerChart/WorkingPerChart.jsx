@@ -22,7 +22,7 @@ const WorkingPerChart = () => {
       { maxvalue: `${minValue(mapData[selNat].data)}`, code: "82c7ff" },
       { maxvalue: `${maxValue(mapData[selNat].data)}`, code: "038eff" },
     ],
-  };  
+  };
 
   const chartConfigs = {
     type: "maps/poland",
@@ -55,11 +55,14 @@ const WorkingPerChart = () => {
     },
   };
 
-  return(
+  return (
     <div>
-      <Select defaultValue={selNat} onChange={(e) => selNatUpdate(e.target.value)}>
-        {mapData.map(item => {
-          return <option value={item.id}>{item.name}</option>
+      <Select
+        defaultValue={selNat}
+        onChange={(e) => selNatUpdate(e.target.value)}
+      >
+        {mapData.map((item) => {
+          return <option value={item.id}>{item.name}</option>;
         })}
       </Select>
       <ReactFC {...chartConfigs} />
