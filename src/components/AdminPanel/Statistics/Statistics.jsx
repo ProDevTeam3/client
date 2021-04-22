@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Box, Select, Center, Spinner, Tooltip } from "@chakra-ui/react";
+import { Box, Select, Center, Spinner, Tooltip, Slider, SliderTrack, SliderFilledTrack, SliderThumb, SimpleGrid } from "@chakra-ui/react";
 import StackedBarChart from "../../../charts/StackedBarChart/StackedBarChart";
 import { defaultAxios } from "../../../config/axios";
 
@@ -14,19 +14,21 @@ const Statistics = () => {
     values: defaultInput.values,
   });
 
+  const [quantity, setQuantity] = useState(10);
+
   const [data, setData] = useState([]);
 
   useEffect(() => {
     if (selectInput.label && selectInput.values) {
       defaultAxios
         .get("/stats", {
-          params: { First: selectInput.label, Second: selectInput.values },
+          params: { First: selectInput.label, Second: selectInput.values, Third: quantity },
         })
         .then(({ data }) => {
           setData(data);
         });
     }
-  }, [selectInput]);
+  }, [selectInput, quantity]);
 
   const labels = {
     nationality: "Narodowość",
@@ -49,6 +51,10 @@ const Statistics = () => {
 
   const handleValuesChange = (value) => {
     setSelectInput((oldState) => ({ ...oldState, values: value }));
+  };
+
+  const handleQuantityChange = (value) => {
+    setQuantity(value)
   };
 
   const handleLoading = () =>
@@ -81,10 +87,15 @@ const Statistics = () => {
           borderTopRadius="lg"
           height="10vh"
         >
-          <Box width="100%" display="flex" justifyContent="space-evenly">
+          <SimpleGrid width="100%"
+           columns={3}
+           spacing={8}
+           paddingLeft={8}
+           paddingRight={8}
+          >
             <Tooltip hasArrow label="Pogrupuj po">
               <Select
-                width="35%"
+                width="100%"
                 bg="white"
                 value={selectInput.label}
                 onChange={(e) => handleLabelChange(e.target.value)}
@@ -98,7 +109,7 @@ const Statistics = () => {
             </Tooltip>
             <Tooltip hasArrow label="Wybierz wartość">
               <Select
-                width="35%"
+                width="100%"
                 bg="white"
                 value={selectInput.values}
                 onChange={(e) => handleValuesChange(e.target.value)}
@@ -110,7 +121,22 @@ const Statistics = () => {
                 ))}
               </Select>
             </Tooltip>
-          </Box>
+            <Box borderRadius="lg" bg="white" width="100%" display="flex" align="center">
+            <Slider aria-label="slider-ex-1"
+              colorScheme="teal"
+              style={{marginLeft: 8, marginRigth: 8}}
+              defaultValue={10}
+              min={5}
+              max={20}
+              onChangeEnd={(value) => handleQuantityChange(value)}
+              >
+                <SliderTrack>
+                    <SliderFilledTrack />
+                  </SliderTrack>
+                <SliderThumb />
+            </Slider>
+            </Box>
+          </SimpleGrid>
         </Center>
         <Center width="100%" height="67.5vh" bg="white" borderBottomRadius="lg">
           {handleLoading()}

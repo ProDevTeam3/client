@@ -15,12 +15,7 @@ const generateOptions = (series) => ({
     enabled: false,
   },
   xaxis: {
-    categories: series.labels,
-    labels: {
-      formatter: function (val) {
-        return val / 1000 + "k";
-      },
-    },
+    categories: series.labels
   },
   yaxis: {
     labels: {
