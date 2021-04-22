@@ -2,7 +2,7 @@ import { Button } from "@chakra-ui/button";
 import React, { useState, useEffect } from "react";
 import { objectToArray, elementCheck } from "../helpers/summaryHelpers";
 
-const CheckData = ({values}) => {
+const CheckData = ({ values }) => {
   const [data, setData] = useState([]);
 
   const getData = () => setData(objectToArray(values));

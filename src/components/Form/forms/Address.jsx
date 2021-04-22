@@ -53,9 +53,11 @@ const HomeAddress = (props) => {
         errorPath={(errors) => errors?.home_address?.district}
       >
         <Select placeholder="Wybierz powiat">
-          {Object.keys(voivodeship[currentVoivodeship] ?? {}).map((districtName) => (
-            <option value={districtName}>{districtName}</option>
-          ))}
+          {Object.keys(voivodeship[currentVoivodeship] ?? {}).map(
+            (districtName) => (
+              <option value={districtName}>{districtName}</option>
+            )
+          )}
         </Select>
       </FormikField>
       <FormikField
@@ -67,7 +69,9 @@ const HomeAddress = (props) => {
         errorPath={(errors) => errors?.home_address?.commune}
       >
         <Select placeholder="Wybierz gminę">
-          {Object.keys(voivodeship[currentVoivodeship]?.[currentDistrict] ?? {}).map((communeName) => (
+          {Object.keys(
+            voivodeship[currentVoivodeship]?.[currentDistrict] ?? {}
+          ).map((communeName) => (
             <option value={communeName}>{communeName}</option>
           ))}
         </Select>
@@ -81,7 +85,11 @@ const HomeAddress = (props) => {
         errorPath={(errors) => errors?.home_address?.city}
       >
         <Select placeholder="Wybierz miasto">
-          {(voivodeship[currentVoivodeship]?.[currentDistrict]?.[currentCommune] ?? []).map((city) => (
+          {(
+            voivodeship[currentVoivodeship]?.[currentDistrict]?.[
+              currentCommune
+            ] ?? []
+          ).map((city) => (
             <option value={city}>{city}</option>
           ))}
         </Select>

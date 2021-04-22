@@ -19,7 +19,8 @@ import HomeAddress from "./Address";
 const RegisteredAddress = ({ ref }) => {
   const [isUsingHomeAddress, setIsUsingHomeAddress] = useState(false);
 
-  const currentVoivodeship = ref?.current?.values?.registered_address?.voivodeship;
+  const currentVoivodeship =
+    ref?.current?.values?.registered_address?.voivodeship;
   const currentDistrict = ref?.current?.values?.registered_address?.district;
   const currentCommune = ref?.current?.values?.registered_address?.commune;
 
@@ -71,9 +72,11 @@ const RegisteredAddress = ({ ref }) => {
             errorPath={(errors) => errors?.registered_address?.district}
           >
             <Select placeholder="Wybierz powiat">
-              {Object.keys(voivodeship[currentVoivodeship] ?? {}).map((districtName) => (
-                <option value={districtName}>{districtName}</option>
-              ))}
+              {Object.keys(voivodeship[currentVoivodeship] ?? {}).map(
+                (districtName) => (
+                  <option value={districtName}>{districtName}</option>
+                )
+              )}
             </Select>
           </FormikField>
           <FormikField
@@ -84,7 +87,9 @@ const RegisteredAddress = ({ ref }) => {
             errorPath={(errors) => errors?.registered_address?.commune}
           >
             <Select placeholder="Wybierz gminę">
-              {Object.keys(voivodeship[currentVoivodeship]?.[currentDistrict] ?? {}).map((communeName) => (
+              {Object.keys(
+                voivodeship[currentVoivodeship]?.[currentDistrict] ?? {}
+              ).map((communeName) => (
                 <option value={communeName}>{communeName}</option>
               ))}
             </Select>
@@ -97,7 +102,11 @@ const RegisteredAddress = ({ ref }) => {
             errorPath={(errors) => errors?.registered_address?.city}
           >
             <Select placeholder="Wybierz miasto">
-              {(voivodeship[currentVoivodeship]?.[currentDistrict]?.[currentCommune] ?? []).map((city) => (
+              {(
+                voivodeship[currentVoivodeship]?.[currentDistrict]?.[
+                  currentCommune
+                ] ?? []
+              ).map((city) => (
                 <option value={city}>{city}</option>
               ))}
             </Select>
