@@ -72,8 +72,8 @@ const Work = (values) => {
               label="NIP:"
               isRequired
               validate={combineValidators(
-                requiredValue("Nazwa firmy jest wymagana")
-                // NIPIsCorrect("Numer NIP jest niepoprawny")
+                requiredValue("NIP jest wymagany"),
+                NIPIsCorrect("Numer NIP jest niepoprawny")
               )}
               errorPath={(errors) => errors?.company?.[index]?.NIP}
             >
