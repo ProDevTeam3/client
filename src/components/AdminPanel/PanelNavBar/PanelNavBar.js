@@ -1,7 +1,6 @@
 import React from "react";
 import {
   Box,
-  Heading,
   Flex,
   Text,
   Button,
@@ -16,6 +15,7 @@ import {
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { useAuth0 } from "@auth0/auth0-react";
 import { Link as ReachLink, useHistory } from "react-router-dom";
+import AddDataModal from "./AddDataModal";
 
 const MenuItems = ({ children }) => (
   <Text mt={{ base: 4, md: 0 }} mr={2} display="block">
@@ -68,6 +68,7 @@ const PanelNavBar = (props) => {
             <Button colorScheme="gray">Statystyki</Button>
           </Link>
         </MenuItems>
+        <AddDataModal />
       </Box>
 
       <Box display={{ sm: "block", md: "block" }} mt={{ base: 4, md: 0 }}>
