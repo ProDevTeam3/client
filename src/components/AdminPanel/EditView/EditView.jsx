@@ -8,6 +8,7 @@ import {
   AlertDialogHeader,
   AlertDialogContent,
   AlertDialogOverlay,
+  useToast
 } from "@chakra-ui/react";
 
 import { objectToArray, elementCheck } from "../../Form/helpers/summaryHelpers";
@@ -22,12 +23,35 @@ const EditView = ({ data }) => {
   const [citizen, citizenUpd] = useState(undefined);
   const onClose = () => setIsOpen(false);
   const cancelRef = React.useRef();
+  const toast = useToast();
 
   const imie = data ? data.first_name : "Imie";
   const nazwisko = data ? data.surname : "Nazwisko";
   const daneObywatela = data
     ? objectToArray(data).map((elem) => elementCheck(elem[0], elem[1]))
     : "";
+
+  const handleSuccess = () => {
+    onClose();
+    toast({
+      title: "Obywatel został pomyślnie usunięty z bazy",
+      duration: 5000,
+      status: "success",
+      isClosable: true,
+    });
+    history.push("/admin/citizenslist");
+  };
+
+  const handleError = (error) => {
+    onClose();
+    toast({
+      title: "Obywatel nie został usunięty z bazy",
+      description: `Wystąpił problem: ${error?.response?.data}`,
+      duration: 30000,
+      status: "error",
+      isClosable: true,
+    });
+  };
 
   const getCitByPesel = async (pesel) => {
     const data = await getCitizen(pesel);
@@ -154,10 +178,9 @@ const EditView = ({ data }) => {
                     (await delCitizen(citizen.PESEL)) ===
                     `Usunięto obywatela o PESELU: ${citizen.PESEL}`
                   ) {
-                    history.push("/admin/citizenslist");
-                    onClose();
+                    handleSuccess();
                   } else {
-                    onClose();
+                    handleError();
                   }
                 }}
                 ml={3}
