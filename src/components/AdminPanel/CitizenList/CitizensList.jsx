@@ -8,7 +8,7 @@ import {
   InputGroup,
   InputLeftElement,
   InputRightElement,
-  Text
+  Text,
 } from "@chakra-ui/react";
 import {
   ArrowRightIcon,
@@ -267,7 +267,7 @@ const CitizensList = () => {
                       d="flex"
                       flexDir="row"
                       padding={{ base: "0 10px", sm: "0 0 0 15px" }}
-                      width={{sm: "33.33%", base: "100%" }}
+                      width={{ sm: "33.33%", base: "100%" }}
                     >
                       <Box
                         fontSize={{ md: "0.6em", sm: "0.5em", base: "0.6em" }}
@@ -276,15 +276,17 @@ const CitizensList = () => {
                         lineHeight="3em"
                         maxWidth="100%"
                       >
-                       <Text isTruncated>PESEL</Text>
+                        <Text isTruncated>PESEL</Text>
                       </Box>
-                      <Box paddingLeft="3px" isTruncated>{item.PESEL}</Box>
+                      <Box paddingLeft="3px" isTruncated>
+                        {item.PESEL}
+                      </Box>
                     </Box>
                     <Box
                       d="flex"
                       flexDir="row"
                       padding={{ base: "0 10px", sm: "0 0 0 15px" }}
-                      width={{sm: "33.33%", base: "50%" }}
+                      width={{ sm: "33.33%", base: "50%" }}
                     >
                       <Box
                         fontSize={{ md: "0.6em", sm: "0.5em", base: "0.6em" }}
@@ -295,13 +297,15 @@ const CitizensList = () => {
                       >
                         <Text>IMIĘ</Text>
                       </Box>
-                      <Box paddingLeft="3px" isTruncated>{item.first_name}</Box>
+                      <Box paddingLeft="3px" isTruncated>
+                        {item.first_name}
+                      </Box>
                     </Box>
                     <Box
                       d="flex"
                       flexDir="row"
                       padding={{ base: "0 10px", sm: "0 0 0 15px" }}
-                      width={{sm: "33.33%", base: "50%" }}
+                      width={{ sm: "33.33%", base: "50%" }}
                     >
                       <Box
                         fontSize={{ md: "0.6em", sm: "0.5em", base: "0.6em" }}
@@ -312,7 +316,9 @@ const CitizensList = () => {
                       >
                         <Text>NAZWISKO</Text>
                       </Box>
-                      <Box paddingLeft="3px" isTruncated>{item.surname}</Box>
+                      <Box paddingLeft="3px" isTruncated>
+                        {item.surname}
+                      </Box>
                     </Box>
                   </Grid>
                 </Link>

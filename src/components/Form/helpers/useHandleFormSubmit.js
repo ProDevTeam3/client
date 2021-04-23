@@ -1,4 +1,3 @@
-import { defaultAxios } from "../../../config/axios";
 import {
   AlertDialog,
   AlertDialogBody,
@@ -12,7 +11,7 @@ import {
 import { useState, useRef } from "react";
 import { useHistory } from "react-router";
 
-const useHandleFormSubmit = () => {
+const useHandleFormSubmit = (axiosRequest, isEdit = false) => {
   const history = useHistory();
 
   const [isOpen, setIsOpen] = useState(false);
@@ -25,15 +24,12 @@ const useHandleFormSubmit = () => {
     handleOpen();
   };
   const makeRequest = () =>
-    defaultAxios
-      .post("/citizen/addCitizen", values)
-      .then(handleSuccess)
-      .catch(handleError);
+    axiosRequest(values).then(handleSuccess).catch(handleError);
 
   const handleSuccess = () => {
     onClose();
     toast({
-      title: "Obywatel został pomyślnie dodany do bazy",
+      title: isEdit ? "Dane obywatela zostały zmienione" : "Obywatel został pomyślnie dodany do bazy",
       duration: 30000,
       status: "success",
       isClosable: true,
@@ -44,7 +40,7 @@ const useHandleFormSubmit = () => {
   const handleError = (error) => {
     onClose();
     toast({
-      title: "Obywatel nie został dodany do bazy danych",
+      title: isEdit ? "Dane obywatela nie zostały zmienione" : "Obywatel nie został dodany do bazy danych",
       description: `Wystąpił problem: ${error?.response?.data}`,
       duration: 30000,
       status: "error",
@@ -71,7 +67,7 @@ const useHandleFormSubmit = () => {
             Czy na pewno chcesz zatwierdzić poprawność danych i wysłać je na
             serwer?
             <br />
-            <b>Po kliknięciu wyślij nie ma już możliwości ich edycji.</b>
+            {isEdit ? "" : <b>Po kliknięciu wyślij nie ma już możliwości ich edycji.</b>}
           </AlertDialogBody>
 
           <AlertDialogFooter>

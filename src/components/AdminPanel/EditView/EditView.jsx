@@ -104,25 +104,24 @@ const EditView = ({ data }) => {
             )}
           </Box>
           <Center height="13vh">
-            { citizen ? (
-            <Box>
-            <Link as={ReachLink} to="/form" data={data}>
-              <Button colorScheme="teal" margin="20px 20px">
-                Edytuj
-              </Button>
-            </Link>
-            <Button
-              colorScheme="red"
-              onClick={() => setIsOpen(true)}
-              margin="20px 20px"
-            >
-              Usuń
-            </Button>
-            </Box>
+            {citizen ? (
+              <Box>
+                <Link as={ReachLink} to={`/edit/${pesel}`} data={data}>
+                  <Button colorScheme="teal" margin="20px 20px">
+                    Edytuj
+                  </Button>
+                </Link>
+                <Button
+                  colorScheme="red"
+                  onClick={() => setIsOpen(true)}
+                  margin="20px 20px"
+                >
+                  Usuń
+                </Button>
+              </Box>
             ) : (
               <Box></Box>
-            )
-            }
+            )}
           </Center>
         </Box>
       </Box>

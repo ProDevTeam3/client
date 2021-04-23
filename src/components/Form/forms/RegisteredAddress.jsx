@@ -20,9 +20,11 @@ const RegisteredAddress = ({ formikRef }) => {
   const [isUsingHomeAddress, setIsUsingHomeAddress] = useState(false);
 
   const currentVoivodeship =
-  formikRef?.current?.values?.registered_address?.voivodeship;
-  const currentDistrict = formikRef?.current?.values?.registered_address?.district;
-  const currentCommune = formikRef?.current?.values?.registered_address?.commune;
+    formikRef?.current?.values?.registered_address?.voivodeship;
+  const currentDistrict =
+    formikRef?.current?.values?.registered_address?.district;
+  const currentCommune =
+    formikRef?.current?.values?.registered_address?.commune;
 
   return (
     <Stack spacing={6}>

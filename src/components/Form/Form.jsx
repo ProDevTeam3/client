@@ -29,6 +29,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { Link } from "react-router-dom";
 import AuthRoute from "../AuthRoute/AuthRoute";
 import useHandleFormSubmit from "./helpers/useHandleFormSubmit";
+import PropTypes from "prop-types";
 
 const formsSections = [
   "Dane osobowe",
@@ -53,10 +54,10 @@ const formComponents = [
   CheckData,
 ];
 
-const Form = () => {
+const Form = ({ initialData, axiosRequest, isEdit }) => {
   const [formIndex, setFormIndex] = useState(0);
   const { logout, user } = useAuth0();
-  const [handleSubmitForm, Dialog] = useHandleFormSubmit();
+  const [handleSubmitForm, Dialog] = useHandleFormSubmit(axiosRequest, isEdit);
 
   const maxIndex = formsSections.length - 1;
 
@@ -201,21 +202,20 @@ const Form = () => {
         </Box>
         <Box overflowY="auto">
           <Formik
-            isInitialValid={false}
             innerRef={formikRef}
-            initialValues={{}}
+            initialValues={initialData}
             validate={(values) => {
               const errors = {};
               const sexError = sexMatchesPESEL(
                 "Płeć nie pasuje do numeru PESEL"
               )(values.sex, values.PESEL);
-              if (sexError) {
+              if (sexError && formIndex !== 0) {
                 errors.sex = sexError;
               }
               const dateError = dateOfBirthMatchesPESEL(
                 "Data urodzenia nie pasuje do numeru PESEL"
               )(values.date_of_birth, values.PESEL);
-              if (dateError) {
+              if (dateError && formIndex !== 0) {
                 errors.date_of_birth = dateError;
               }
               return errors;
@@ -290,3 +290,8 @@ const restrainIndex = (index) => {
 };
 
 export default Form;
+Form.propTypes = {
+  initialData: PropTypes.object.isRequired,
+  axiosRequest: PropTypes.func.isRequired,
+  isEdit: PropTypes.bool
+}

@@ -21,8 +21,12 @@ import {
   industryType,
 } from "../../../constants/formData";
 
-const Work = (values) => {
-  const [numOfCompanies, setNumOfCompanies] = useState([]);
+const Work = ({ values }) => {
+  const [numOfCompanies, setNumOfCompanies] = useState(
+    new Array(values?.company?.length ?? 0)
+      .fill(0)
+      .map((_, index) => values?.company?.[index]?.contract?.length ?? 0)
+  );
 
   const addNewCompany = () => setNumOfCompanies((oldState) => [...oldState, 0]);
   const removeCompany = () =>

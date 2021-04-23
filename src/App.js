@@ -8,6 +8,8 @@ import Form from "./components/Form/Form";
 import { useAuth0 } from "@auth0/auth0-react";
 import Authenticating from "./components/Authenticating/Authenticating";
 import AdminPanel from "./components/AdminPanel/AdminPanel";
+import AddCitizen from "./components/Form/AddCitizen";
+import EditCitizen from "./components/Form/EditCitizen";
 
 function App() {
   const { isLoading } = useAuth0();
@@ -24,7 +26,10 @@ function App() {
             <Redirect to="/login" />
           </Route>
           <AuthRoute path="/form">
-            <Form />
+            <AddCitizen />
+          </AuthRoute>
+          <AuthRoute path="/edit/:PESEL">
+            <EditCitizen />
           </AuthRoute>
           <AuthRoute children={AnkieterLogIn} exact path={"/login/ankieter"} />
           <Route exact path="/login" component={LogIn} />

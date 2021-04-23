@@ -1,5 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { Box, Select, Center, Spinner, Tooltip, Slider, SliderTrack, SliderFilledTrack, SliderThumb, SimpleGrid } from "@chakra-ui/react";
+import {
+  Box,
+  Select,
+  Center,
+  Spinner,
+  Tooltip,
+  Slider,
+  SliderTrack,
+  SliderFilledTrack,
+  SliderThumb,
+  SimpleGrid,
+} from "@chakra-ui/react";
 import StackedBarChart from "../../../charts/StackedBarChart/StackedBarChart";
 import { defaultAxios } from "../../../config/axios";
 import { useToast } from "@chakra-ui/react";
@@ -25,19 +36,23 @@ const Statistics = () => {
     if (selectInput.label && selectInput.values) {
       defaultAxios
         .get("/stats", {
-          params: { First: selectInput.label, Second: selectInput.values, Third: quantity },
+          params: {
+            First: selectInput.label,
+            Second: selectInput.values,
+            Third: quantity,
+          },
         })
         .then(({ data }) => {
           setData(data);
-        }).catch((error) => {
-          
+        })
+        .catch((error) => {
           toast({
             title: "Error",
             description: error.response.data,
             status: "error",
             duration: 5000,
             isClosable: true,
-          })
+          });
         });
     }
   }, [selectInput, quantity]);
@@ -66,7 +81,7 @@ const Statistics = () => {
   };
 
   const handleQuantityChange = (value) => {
-    setQuantity(value)
+    setQuantity(value);
   };
 
   const handleLoading = () =>
@@ -99,11 +114,12 @@ const Statistics = () => {
           borderTopRadius="lg"
           height="10vh"
         >
-          <SimpleGrid width="100%"
-           columns={3}
-           spacing={8}
-           paddingLeft={8}
-           paddingRight={8}
+          <SimpleGrid
+            width="100%"
+            columns={3}
+            spacing={8}
+            paddingLeft={8}
+            paddingRight={8}
           >
             <Tooltip hasArrow label="Pogrupuj po">
               <Select
@@ -133,20 +149,27 @@ const Statistics = () => {
                 ))}
               </Select>
             </Tooltip>
-            <Box borderRadius="lg" bg="white" width="100%" display="flex" align="center">
-            <Slider aria-label="slider-ex-1"
-              colorScheme="teal"
-              style={{marginLeft: 8, marginRigth: 8}}
-              defaultValue={10}
-              min={5}
-              max={20}
-              onChangeEnd={(value) => handleQuantityChange(value)}
+            <Box
+              borderRadius="lg"
+              bg="white"
+              width="100%"
+              display="flex"
+              align="center"
+            >
+              <Slider
+                aria-label="slider-ex-1"
+                colorScheme="teal"
+                style={{ marginLeft: 8, marginRigth: 8 }}
+                defaultValue={10}
+                min={5}
+                max={20}
+                onChangeEnd={(value) => handleQuantityChange(value)}
               >
                 <SliderTrack>
-                    <SliderFilledTrack />
-                  </SliderTrack>
+                  <SliderFilledTrack />
+                </SliderTrack>
                 <SliderThumb />
-            </Slider>
+              </Slider>
             </Box>
           </SimpleGrid>
         </Center>
