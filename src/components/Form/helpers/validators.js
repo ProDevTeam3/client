@@ -54,10 +54,7 @@ export const NIPIsCorrect = (text) => (nip) => {
     0
   );
 
-  const controlSumArray = `${controlSum}`.split("");
-  const lastFromControlSum = controlSumArray[controlSumArray.length - 1];
-
-  return +controlNumber === +lastFromControlSum % 11 ? undefined : text;
+  return +controlNumber === +controlSum % 11 ? undefined : text;
 };
 
 export const correctPostalCode = (text) => (postalCode) => {
