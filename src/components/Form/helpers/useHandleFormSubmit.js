@@ -29,7 +29,9 @@ const useHandleFormSubmit = (axiosRequest, isEdit = false) => {
   const handleSuccess = () => {
     onClose();
     toast({
-      title: isEdit ? "Dane obywatela zostały zmienione" : "Obywatel został pomyślnie dodany do bazy",
+      title: isEdit
+        ? "Dane obywatela zostały zmienione"
+        : "Obywatel został pomyślnie dodany do bazy",
       duration: 30000,
       status: "success",
       isClosable: true,
@@ -40,7 +42,9 @@ const useHandleFormSubmit = (axiosRequest, isEdit = false) => {
   const handleError = (error) => {
     onClose();
     toast({
-      title: isEdit ? "Dane obywatela nie zostały zmienione" : "Obywatel nie został dodany do bazy danych",
+      title: isEdit
+        ? "Dane obywatela nie zostały zmienione"
+        : "Obywatel nie został dodany do bazy danych",
       description: `Wystąpił problem: ${error?.response?.data}`,
       duration: 30000,
       status: "error",
@@ -67,7 +71,11 @@ const useHandleFormSubmit = (axiosRequest, isEdit = false) => {
             Czy na pewno chcesz zatwierdzić poprawność danych i wysłać je na
             serwer?
             <br />
-            {isEdit ? "" : <b>Po kliknięciu wyślij nie ma już możliwości ich edycji.</b>}
+            {isEdit ? (
+              ""
+            ) : (
+              <b>Po kliknięciu wyślij nie ma już możliwości ich edycji.</b>
+            )}
           </AlertDialogBody>
 
           <AlertDialogFooter>
