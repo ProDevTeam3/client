@@ -8,7 +8,7 @@ const StackedBarChart = ({ data }) => {
   const options = generateOptions(series);
 
   return (
-    <div style={{ width: "100%", height: "100%", padding: "2%"}}>
+    <div style={{ width: "100%", height: "100%", padding: "2%" }}>
       <Chart
         options={options}
         series={series.series}

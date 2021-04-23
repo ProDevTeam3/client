@@ -20,8 +20,10 @@ import {
   requiredValue,
 } from "../helpers/validators";
 
-const Family = (values) => {
-  const [numOfFamilyMembers, setNumOfFamilyMembers] = useState(0);
+const Family = ({ values }) => {
+  const [numOfFamilyMembers, setNumOfFamilyMembers] = useState(
+    values?.family?.length ?? 0
+  );
 
   const addNewFamilyMember = () =>
     setNumOfFamilyMembers((oldState) => oldState + 1);
