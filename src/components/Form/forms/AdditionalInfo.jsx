@@ -25,10 +25,10 @@ const AdditionalInfo = () => {
         renderChildren={({ field }) => (
           <RadioGroup {...field}>
             <HStack spacing="24px">
-              <Radio {...field} value={true}>
+              <Radio {...field} value="true">
                 Tak
               </Radio>
-              <Radio {...field} value={false}>
+              <Radio {...field} value="false">
                 Nie
               </Radio>
             </HStack>

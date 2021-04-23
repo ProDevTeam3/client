@@ -22,5 +22,8 @@ export const prepareToEdit = (data) => {
     first_name: familyMember.name,
   }));
 
+  data.accomodation.with_parents = data.accomodation.with_parents.toString();
+  data.additional_info.internet_access = data.additional_info.internet_access.toString();
+
   return { ...omit(data, ["contract"]), company };
 };
