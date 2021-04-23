@@ -11,7 +11,7 @@ import {
   Input,
   ModalFooter,
 } from "@chakra-ui/react";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 const AddDataModal = () => {
   const [showModal, setShowModal] = useState(false);

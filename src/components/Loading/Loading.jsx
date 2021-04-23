@@ -1,4 +1,4 @@
-import { Center, Spinner, Stack, Text, Skeleton, Box } from "@chakra-ui/react";
+import { Center, Spinner, Stack, Text, Skeleton } from "@chakra-ui/react";
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -25,5 +25,5 @@ const Loading = ({ text }) => {
 };
 export default Loading;
 Loading.propTypes = {
-  text: PropTypes.string
-}
+  text: PropTypes.string,
+};

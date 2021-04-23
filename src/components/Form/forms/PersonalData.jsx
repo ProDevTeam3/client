@@ -1,5 +1,5 @@
 import React from "react";
-import { Input, NumberInput, NumberInputField, Stack } from "@chakra-ui/react";
+import { Input, Stack } from "@chakra-ui/react";
 import FormikField from "./FormikField";
 import {
   combineValidators,

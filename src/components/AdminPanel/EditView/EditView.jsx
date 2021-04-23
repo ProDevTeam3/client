@@ -1,5 +1,5 @@
 import { Box, Center, Button } from "@chakra-ui/react";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import CheckData from "../../Form/forms/CheckData";
 import {
   AlertDialog,
@@ -8,10 +8,8 @@ import {
   AlertDialogHeader,
   AlertDialogContent,
   AlertDialogOverlay,
-  useToast
+  useToast,
 } from "@chakra-ui/react";
-
-import { objectToArray, elementCheck } from "../../Form/helpers/summaryHelpers";
 import { Link } from "@chakra-ui/react";
 import { Link as ReachLink, useLocation, useHistory } from "react-router-dom";
 
@@ -24,12 +22,6 @@ const EditView = ({ data }) => {
   const onClose = () => setIsOpen(false);
   const cancelRef = React.useRef();
   const toast = useToast();
-
-  const imie = data ? data.first_name : "Imie";
-  const nazwisko = data ? data.surname : "Nazwisko";
-  const daneObywatela = data
-    ? objectToArray(data).map((elem) => elementCheck(elem[0], elem[1]))
-    : "";
 
   const handleSuccess = () => {
     onClose();

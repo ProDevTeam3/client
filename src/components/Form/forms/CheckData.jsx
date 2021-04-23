@@ -1,5 +1,5 @@
 import { Button } from "@chakra-ui/button";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { objectToArray, elementCheck } from "../helpers/summaryHelpers";
 
 const CheckData = ({ formikRef }) => {

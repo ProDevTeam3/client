@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, ButtonGroup, FormLabel, Input } from "@chakra-ui/react";
+import { Button, FormLabel, Input } from "@chakra-ui/react";
 import PropTypes from "prop-types";
 
 const AnkieterLogIn = ({ login, passwd, change }) => {

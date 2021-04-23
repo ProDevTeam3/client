@@ -1,4 +1,4 @@
-import { Center, Spinner, Stack, Text, Skeleton, Box } from "@chakra-ui/react";
+import { Center, Spinner, Stack, Text, Skeleton } from "@chakra-ui/react";
 import React from "react";
 
 const Authenticating = () => {

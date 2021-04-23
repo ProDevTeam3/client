@@ -27,7 +27,6 @@ import CheckData from "./forms/CheckData";
 import { FormStrings } from "../../constants/strings";
 import { useAuth0 } from "@auth0/auth0-react";
 import { Link } from "react-router-dom";
-import AuthRoute from "../AuthRoute/AuthRoute";
 import useHandleFormSubmit from "./helpers/useHandleFormSubmit";
 import PropTypes from "prop-types";
 
@@ -293,5 +292,5 @@ export default Form;
 Form.propTypes = {
   initialData: PropTypes.object.isRequired,
   axiosRequest: PropTypes.func.isRequired,
-  isEdit: PropTypes.bool
-}
+  isEdit: PropTypes.bool,
+};

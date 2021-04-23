@@ -81,6 +81,7 @@ const CitizensList = () => {
       isNextDisabledUpd(false);
       isPreviousDisabledUpd(false);
     }
+    // eslint-disable-next-line
   }, [currentPage, isPreviousDisabled, citizens]);
 
   useEffect(() => {
@@ -91,6 +92,7 @@ const CitizensList = () => {
     ) {
       getCit();
     }
+    // eslint-disable-next-line
   }, [currentPage]);
 
   useEffect(() => {
@@ -99,6 +101,7 @@ const CitizensList = () => {
     } else if (citizens.citizens.length <= 1 && !isNaN(parseInt(currentPage))) {
       getCit();
     }
+    // eslint-disable-next-line
   }, [search]);
 
   const goToPreviousPage = () => {

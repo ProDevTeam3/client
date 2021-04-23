@@ -55,6 +55,7 @@ const Statistics = () => {
           });
         });
     }
+    // eslint-disable-next-line
   }, [selectInput, quantity]);
 
   const labels = {

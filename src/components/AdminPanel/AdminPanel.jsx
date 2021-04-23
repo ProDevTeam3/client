@@ -1,5 +1,5 @@
 import { Box, Stack } from "@chakra-ui/react";
-import React, { useEffect } from "react";
+import React from "react";
 import PanelNavBar from "./PanelNavBar/PanelNavBar";
 import PanelMain from "./PanelMain/PanelMain";
 import NoPermission from "../NoPermission/NoPermission";

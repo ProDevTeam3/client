@@ -1,8 +1,6 @@
 import React from "react";
 import {
   Select,
-  NumberInput,
-  NumberInputField,
   Stack,
   HStack,
   Radio,

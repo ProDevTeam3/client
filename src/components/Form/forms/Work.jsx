@@ -1,14 +1,5 @@
 import React, { useState } from "react";
-import {
-  Input,
-  NumberInput,
-  NumberInputField,
-  Stack,
-  Box,
-  Button,
-  HStack,
-  Select,
-} from "@chakra-ui/react";
+import { Input, Stack, Box, Button, HStack, Select } from "@chakra-ui/react";
 import FormikField from "./FormikField";
 import {
   combineValidators,
